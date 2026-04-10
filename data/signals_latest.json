@@ -1,0 +1,38 @@
+{
+  "timestamp": "2026-04-10 16:31:31 UTC",
+  "regime": "STRONG_BULL",
+  "qqq_momentum": 4.79,
+  "msqqumol_momentum": 9.65,
+  "msqqumol_zscore": 0.63,
+  "trading_mode": "LONG+SHORT",
+  "threshold": 2.0,
+  "suspended": false,
+  "circuit_breaker": false,
+  "confirmed_signals": [],
+  "top_oversold": [
+    { "ticker": "CMCSA", "zscore": -1.7, "range_pct": 17.2, "strength": 0.85 },
+    { "ticker": "OMC", "zscore": -1.66, "range_pct": 41.1, "strength": 0.83 },
+    { "ticker": "PINS", "zscore": -1.33, "range_pct": 23.0, "strength": 0.66 },
+    { "ticker": "ACN", "zscore": -1.12, "range_pct": 0.0, "strength": 0.56 },
+    { "ticker": "DIS", "zscore": -0.98, "range_pct": 29.5, "strength": 0.49 }
+  ],
+  "top_overbought": [
+    { "ticker": "COHR", "zscore": 1.76, "range_pct": 100.0, "strength": 0.88 },
+    { "ticker": "CRWV", "zscore": 1.65, "range_pct": 85.4, "strength": 0.82 },
+    { "ticker": "DELL", "zscore": 1.01, "range_pct": 91.0, "strength": 0.5 },
+    { "ticker": "AAOI", "zscore": 0.95, "range_pct": 100.0, "strength": 0.47 },
+    { "ticker": "NVDA", "zscore": 0.92, "range_pct": 75.9, "strength": 0.46 }
+  ],
+  "risk_score": 5,
+  "risk_classification": "MILD_RISK_ON",
+  "risk_components": {
+    "qqq_trend": 1,
+    "vix_level": 0,
+    "vix_term_structure": 1,
+    "credit_spreads": 1,
+    "momentum_factor": 1,
+    "small_cap_ratio": -1,
+    "qqq_short_momentum": 1,
+    "vix_direction": 1
+  }
+}

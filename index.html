@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>JAT Quant Signal System</title>
+  <style>
+    :root {
+      --bg: #0a0a0a;
+      --surface: #111111;
+      --border: #262626;
+      --text: #fafafa;
+      --muted: #a3a3a3;
+      --accent: #dc2626;
+      --green: #22c55e;
+      --green-dim: rgba(34, 197, 94, 0.15);
+      --red-dim: rgba(220, 38, 38, 0.12);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      line-height: 1.45;
+      font-size: 15px;
+    }
+
+    .wrap {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0 1rem 2rem;
+    }
+
+    /* Header */
+    header {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.75rem;
+      padding: 1rem 0 1.25rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .brand {
+      font-weight: 700;
+      font-size: clamp(1rem, 2.5vw, 1.25rem);
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--text);
+    }
+
+    .brand span {
+      color: var(--accent);
+    }
+
+    .header-meta {
+      text-align: right;
+      font-size: 0.8125rem;
+      color: var(--muted);
+    }
+
+    .header-meta .ts {
+      color: var(--text);
+      font-variant-numeric: tabular-nums;
+    }
+
+    .pulse {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      margin-top: 0.25rem;
+      font-size: 0.75rem;
+      color: var(--muted);
+    }
+
+    .pulse-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--green);
+      box-shadow: 0 0 8px var(--green);
+      animation: pulse 2s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.45; }
+    }
+
+    /* Alerts */
+    .alert {
+      padding: 0.85rem 1rem;
+      border-radius: 4px;
+      font-weight: 600;
+      text-align: center;
+      letter-spacing: 0.04em;
+      margin-bottom: 1rem;
+    }
+
+    .alert-suspend {
+      background: rgba(220, 38, 38, 0.2);
+      border: 1px solid var(--accent);
+      color: #fecaca;
+    }
+
+    .alert-circuit {
+      background: rgba(234, 88, 12, 0.18);
+      border: 1px solid #ea580c;
+      color: #fed7aa;
+    }
+
+    /* Regime card */
+    .regime-card {
+      background: var(--surface);
+      border-radius: 6px;
+      padding: 1.25rem 1.5rem;
+      margin: 1.25rem 0 1.5rem;
+      border: 2px solid var(--regime-border, #404040);
+      box-shadow: 0 4px 24px rgba(0, 0, 0, 0.45);
+    }
+
+    .regime-card.STRONG_BULL { --regime-border: #15803d; }
+    .regime-card.WEAK_BULL { --regime-border: #a16207; }
+    .regime-card.WEAK_BEAR { --regime-border: #c2410c; }
+    .regime-card.STRONG_BEAR { --regime-border: #991b1b; }
+
+    /* Risk regime card */
+    .risk-regime-wrap {
+      margin-bottom: 1.75rem;
+    }
+
+    .risk-regime-wrap h2 {
+      margin-bottom: 0.65rem;
+    }
+
+    .risk-regime-card {
+      background: var(--surface);
+      border-radius: 6px;
+      padding: 1.25rem 1.5rem;
+      border: 2px solid var(--risk-border, #404040);
+      box-shadow: 0 4px 24px rgba(0, 0, 0, 0.45);
+    }
+
+    .risk-regime-card.STRONG_RISK_ON {
+      --risk-border: #16a34a;
+      background: rgba(22, 163, 74, 0.22);
+    }
+
+    .risk-regime-card.MILD_RISK_ON {
+      --risk-border: #15803d;
+      background: var(--surface);
+    }
+
+    .risk-regime-card.NEUTRAL {
+      --risk-border: #52525b;
+      background: var(--surface);
+    }
+
+    .risk-regime-card.MILD_RISK_OFF {
+      --risk-border: #ea580c;
+      background: var(--surface);
+    }
+
+    .risk-regime-card.STRONG_RISK_OFF {
+      --risk-border: #dc2626;
+      background: rgba(185, 28, 28, 0.22);
+    }
+
+    .risk-regime-title {
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      color: var(--muted);
+      margin-bottom: 0.75rem;
+    }
+
+    .risk-class-label {
+      font-size: clamp(1.25rem, 3.5vw, 1.75rem);
+      font-weight: 800;
+      letter-spacing: 0.06em;
+      margin-bottom: 0.5rem;
+    }
+
+    .risk-score-big {
+      font-size: clamp(2rem, 5vw, 2.75rem);
+      font-weight: 800;
+      font-variant-numeric: tabular-nums;
+      margin-bottom: 1.25rem;
+      color: var(--text);
+    }
+
+    .risk-grid {
+      display: grid;
+      gap: 0.35rem;
+    }
+
+    .risk-row {
+      display: grid;
+      grid-template-columns: 1fr auto auto;
+      gap: 0.75rem;
+      align-items: center;
+      padding: 0.5rem 0.65rem;
+      border-radius: 4px;
+      font-size: 0.8125rem;
+    }
+
+    .risk-row.pos {
+      background: rgba(20, 83, 45, 0.45);
+      border: 1px solid rgba(34, 197, 94, 0.35);
+    }
+
+    .risk-row.neg {
+      background: rgba(69, 10, 10, 0.5);
+      border: 1px solid rgba(248, 113, 113, 0.25);
+    }
+
+    .risk-row.zero {
+      background: rgba(63, 63, 70, 0.6);
+      border: 1px solid var(--border);
+    }
+
+    .risk-row .nm {
+      color: var(--text);
+      font-weight: 500;
+    }
+
+    .risk-row .sc {
+      font-variant-numeric: tabular-nums;
+      font-weight: 700;
+      min-width: 2.5rem;
+      text-align: right;
+    }
+
+    .risk-row .lb {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--muted);
+      min-width: 5.5rem;
+      text-align: right;
+    }
+
+    .regime-label {
+      font-size: clamp(1.5rem, 4vw, 2rem);
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      margin-bottom: 1rem;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .regime-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 0.75rem 1.25rem;
+      font-size: 0.875rem;
+    }
+
+    .regime-grid dt {
+      color: var(--muted);
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+
+    .regime-grid dd {
+      font-weight: 600;
+      font-variant-numeric: tabular-nums;
+    }
+
+    /* Section */
+    section {
+      margin-bottom: 1.75rem;
+    }
+
+    h2 {
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      color: var(--muted);
+      margin-bottom: 0.65rem;
+      padding-bottom: 0.35rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .empty-msg {
+      background: var(--surface);
+      border: 1px dashed var(--border);
+      color: var(--muted);
+      padding: 1.25rem;
+      text-align: center;
+      border-radius: 4px;
+      font-size: 0.9rem;
+    }
+
+    /* Tables */
+    .table-scroll {
+      overflow-x: auto;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      background: var(--surface);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.8125rem;
+    }
+
+    th {
+      text-align: left;
+      padding: 0.65rem 0.75rem;
+      background: #0d0d0d;
+      color: var(--muted);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      font-size: 0.65rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    td {
+      padding: 0.6rem 0.75rem;
+      border-bottom: 1px solid var(--border);
+      font-variant-numeric: tabular-nums;
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    tr.row-long td:first-child {
+      box-shadow: inset 3px 0 0 var(--green);
+    }
+
+    tr.row-short td:first-child {
+      box-shadow: inset 3px 0 0 var(--accent);
+    }
+
+    .action-long { color: #86efac; font-weight: 600; }
+    .action-short { color: #fca5a5; font-weight: 600; }
+
+    /* Two columns */
+    .split {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+
+    @media (max-width: 900px) {
+      .split {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .subcard h3 {
+      font-size: 0.65rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--muted);
+      margin-bottom: 0.5rem;
+    }
+
+    .bar-wrap {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      min-width: 80px;
+    }
+
+    .bar-track {
+      flex: 1;
+      height: 6px;
+      background: #1f1f1f;
+      border-radius: 3px;
+      overflow: hidden;
+      border: 1px solid var(--border);
+    }
+
+    .bar-fill {
+      height: 100%;
+      border-radius: 2px;
+      background: linear-gradient(90deg, var(--accent), #f87171);
+      max-width: 100%;
+    }
+
+    .bar-fill.long {
+      background: linear-gradient(90deg, #166534, var(--green));
+    }
+
+    .bar-val {
+      font-size: 0.7rem;
+      color: var(--muted);
+      width: 2.5rem;
+      text-align: right;
+    }
+
+    /* Footer */
+    footer {
+      margin-top: 2rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.75rem;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+
+    footer strong {
+      color: var(--text);
+      font-weight: 600;
+    }
+
+    footer .sep {
+      opacity: 0.35;
+      padding: 0 0.5rem;
+    }
+
+    .last-updated {
+      font-size: 0.8125rem;
+      color: var(--muted);
+      margin-top: 0.35rem;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .status-line {
+      color: #f87171;
+      font-size: 0.8rem;
+      margin-top: 0.35rem;
+      min-height: 1.25em;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">JAT <span>QUANT</span> SIGNAL SYSTEM</div>
+      <div class="header-meta">
+        <div>Run time: <span class="ts" id="hdr-ts">—</span></div>
+        <div class="last-updated" id="last-updated">Last updated: —</div>
+        <div class="status-line" id="status"></div>
+        <div class="pulse"><span class="pulse-dot"></span> Live snapshot</div>
+      </div>
+    </header>
+
+    <div id="alerts"></div>
+
+    <section class="regime-card" id="regime-card">
+      <div class="regime-label" id="regime-title">—</div>
+      <dl class="regime-grid" id="regime-stats"></dl>
+    </section>
+
+    <section class="risk-regime-wrap" id="risk-regime-section">
+      <div class="risk-regime-title">Risk regime</div>
+      <div class="risk-regime-card" id="risk-regime-card">
+        <div class="risk-class-label" id="risk-class-label">—</div>
+        <div class="risk-score-big" id="risk-score-display">—</div>
+        <div class="risk-grid" id="risk-grid"></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Confirmed signals</h2>
+      <div id="confirmed-wrap"></div>
+    </section>
+
+    <section class="split">
+      <div class="subcard">
+        <h3>Watching — Potential longs</h3>
+        <div class="table-scroll" id="oversold-wrap"></div>
+      </div>
+      <div class="subcard">
+        <h3>Watching — Potential shorts</h3>
+        <div class="table-scroll" id="overbought-wrap"></div>
+      </div>
+    </section>
+
+    <footer id="footer"></footer>
+  </div>
+
+  <script>
+    async function loadData() {
+      try {
+        const response = await fetch("./data/signals_latest.json");
+        if (!response.ok) throw new Error("HTTP " + response.status);
+        const data = await response.json();
+        document.getElementById("status").textContent = "";
+        renderDashboard(data);
+      } catch (err) {
+        document.getElementById("status").textContent =
+          "Error loading data: " + err.message;
+      }
+      setTimeout(loadData, 300000);
+    }
+
+    var RISK_COMPONENT_ROWS = [
+      ["qqq_trend", "QQQ Trend (50-day MA)"],
+      ["vix_level", "VIX Level"],
+      ["vix_term_structure", "VIX Term Structure"],
+      ["credit_spreads", "Credit Spreads (HYG/LQD)"],
+      ["momentum_factor", "Momentum Factor"],
+      ["small_cap_ratio", "Small Cap Ratio"],
+      ["qqq_short_momentum", "QQQ Short-term Momentum"],
+      ["vix_direction", "VIX Direction"]
+    ];
+
+    function conviction(strength) {
+      const s = Number(strength);
+      if (s >= 2.0) return "High";
+      if (s >= 1.0) return "Medium";
+      if (s >= 0.5) return "Medium";
+      return "Low";
+    }
+
+    function parseTs(s) {
+      const d = new Date(s.replace(" UTC", "Z"));
+      return isNaN(d.getTime()) ? null : d;
+    }
+
+    function nextRunStr(ts) {
+      const d = parseTs(ts);
+      if (!d) return "—";
+      d.setHours(d.getHours() + 1);
+      return d.toISOString().replace("T", " ").replace(/\.\d{3}Z/, " UTC");
+    }
+
+    function renderAlerts(data) {
+      const el = document.getElementById("alerts");
+      el.innerHTML = "";
+      if (data.suspended) {
+        el.innerHTML += '<div class="alert alert-suspend">SYSTEM SUSPENDED</div>';
+      }
+      if (data.circuit_breaker) {
+        el.innerHTML += '<div class="alert alert-circuit">CIRCUIT BREAKER ACTIVE</div>';
+      }
+    }
+
+    function riskRowLabel(score) {
+      var s = Number(score);
+      if (s > 0) return "RISK ON";
+      if (s < 0) return "RISK OFF";
+      return "NEUTRAL";
+    }
+
+    function renderRiskRegime(data) {
+      var cls = data.risk_classification || "NEUTRAL";
+      var card = document.getElementById("risk-regime-card");
+      card.className = "risk-regime-card " + cls;
+      document.getElementById("risk-class-label").textContent = cls;
+      var rs = data.risk_score != null ? data.risk_score : 0;
+      document.getElementById("risk-score-display").textContent = (rs >= 0 ? "+" : "") + rs + " / 8";
+      var rc = data.risk_components || {};
+      var grid = document.getElementById("risk-grid");
+      grid.innerHTML = RISK_COMPONENT_ROWS.map(function (row) {
+        var key = row[0];
+        var name = row[1];
+        var sc = rc[key] != null ? Number(rc[key]) : 0;
+        var rowCls = sc > 0 ? "pos" : (sc < 0 ? "neg" : "zero");
+        var scTxt = sc > 0 ? "+" + sc : String(sc);
+        return (
+          '<div class="risk-row ' + rowCls + '">' +
+          '<span class="nm">' + name + "</span>" +
+          '<span class="sc">' + scTxt + "</span>" +
+          '<span class="lb">' + riskRowLabel(sc) + "</span>" +
+          "</div>"
+        );
+      }).join("");
+    }
+
+    function renderRegime(data) {
+      document.getElementById("hdr-ts").textContent = data.timestamp;
+      const card = document.getElementById("regime-card");
+      card.className = "regime-card " + (data.regime || "");
+
+      document.getElementById("regime-title").textContent = data.regime || "—";
+
+      const stats = document.getElementById("regime-stats");
+      const rows = [
+        ["QQQ momentum", (data.qqq_momentum != null ? data.qqq_momentum.toFixed(2) + "%" : "—")],
+        ["MSQQUMOL momentum", (data.msqqumol_momentum != null ? data.msqqumol_momentum.toFixed(2) + "%" : "—")],
+        ["MSQQUMOL z-score", (data.msqqumol_zscore != null ? data.msqqumol_zscore.toFixed(2) : "—")],
+        ["Trading mode", data.trading_mode || "—"],
+        ["Threshold", data.threshold != null ? String(data.threshold) : "—"]
+      ];
+      stats.innerHTML = rows
+        .map(([k, v]) => "<dt>" + k + "</dt><dd>" + v + "</dd>")
+        .join("");
+    }
+
+    function renderConfirmed(data) {
+      const wrap = document.getElementById("confirmed-wrap");
+      const sigs = data.confirmed_signals || [];
+      if (!sigs.length) {
+        wrap.innerHTML = '<div class="empty-msg">NO CONFIRMED SIGNALS THIS HOUR</div>';
+        return;
+      }
+      const rows = sigs
+        .map(function (r) {
+          const isLong = (r.action || "").toUpperCase() === "LONG";
+          const cls = isLong ? "row-long" : "row-short";
+          const actCls = isLong ? "action-long" : "action-short";
+          const z = r.zscore != null ? r.zscore : r.z;
+          const rp = r.range_pct != null ? r.range_pct : r.range_percentile;
+          const st = r.strength != null ? r.strength : r.signal_strength;
+          return (
+            "<tr class=\"" + cls + "\">" +
+            "<td>" + (r.ticker || "—") + "</td>" +
+            "<td class=\"" + actCls + "\">" + (r.action || "—") + "</td>" +
+            "<td>" + (z != null ? Number(z).toFixed(2) : "—") + "</td>" +
+            "<td>" + (rp != null ? Number(rp).toFixed(1) : "—") + "</td>" +
+            "<td>" + (st != null ? Number(st).toFixed(2) : "—") + "</td>" +
+            "<td>" + conviction(st != null ? st : 0) + "</td>" +
+            "</tr>"
+          );
+        })
+        .join("");
+      wrap.innerHTML =
+        '<div class="table-scroll"><table><thead><tr>' +
+        "<th>Ticker</th><th>Action</th><th>Z-Score</th><th>Range%</th><th>Strength</th><th>Conviction</th>" +
+        "</tr></thead><tbody>" + rows + "</tbody></table></div>";
+    }
+
+    function strengthBar(strength, longSide) {
+      const pct = Math.min(100, Math.max(0, Number(strength) * 100));
+      const fillCls = longSide ? "long" : "";
+      return (
+        '<div class="bar-wrap">' +
+        '<div class="bar-track"><div class="bar-fill ' + fillCls + '" style="width:' + pct + '%"></div></div>' +
+        '<span class="bar-val">' + pct.toFixed(0) + "%</span>" +
+        "</div>"
+      );
+    }
+
+    function renderWatchTable(rows, longSide) {
+      if (!rows || !rows.length) {
+        return '<div class="empty-msg">No data</div>';
+      }
+      const body = rows
+        .map(function (r) {
+          const z = r.zscore != null ? Number(r.zscore).toFixed(2) : "—";
+          const rp = r.range_pct != null ? Number(r.range_pct).toFixed(1) : "—";
+          const st = r.strength != null ? r.strength : 0;
+          return (
+            "<tr><td><strong>" + (r.ticker || "—") + "</strong></td>" +
+            "<td>" + z + "</td>" +
+            "<td>" + rp + "</td>" +
+            "<td>" + strengthBar(st, longSide) + "</td></tr>"
+          );
+        })
+        .join("");
+      return (
+        '<table><thead><tr>' +
+        "<th>Ticker</th><th>Z-Score</th><th>Range%</th><th>Strength</th>" +
+        "</tr></thead><tbody>" + body + "</tbody></table>"
+      );
+    }
+
+    function renderFooter(data) {
+      const n = (data.confirmed_signals || []).length;
+      const next = nextRunStr(data.timestamp);
+      document.getElementById("footer").innerHTML =
+        "<strong>Next run:</strong> " + next +
+        ' <span class="sep">|</span> <strong>Regime:</strong> ' + (data.regime || "—") +
+        ' <span class="sep">|</span> <strong>Signals:</strong> ' + n;
+    }
+
+    function renderDashboard(data) {
+      const ts = data.timestamp || "—";
+      document.getElementById("last-updated").textContent = "Last updated: " + ts;
+      renderAlerts(data);
+      renderRegime(data);
+      renderRiskRegime(data);
+      renderConfirmed(data);
+      document.getElementById("oversold-wrap").innerHTML = renderWatchTable(
+        data.top_oversold,
+        true
+      );
+      document.getElementById("overbought-wrap").innerHTML = renderWatchTable(
+        data.top_overbought,
+        false
+      );
+      renderFooter(data);
+    }
+
+    loadData();
+  </script>
+</body>
+</html>
