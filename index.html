@@ -463,53 +463,76 @@
       box-shadow: inset 0 0 0 1px rgba(220, 38, 38, 0.08);
     }
 
-    .opp-head,
-    .momo-head {
+    .opp-head-row,
+    .momo-head-row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.35rem 0.65rem;
       font-weight: 700;
       font-size: 0.875rem;
-      letter-spacing: 0.04em;
-      margin-bottom: 0.45rem;
+      letter-spacing: 0.03em;
+      margin-bottom: 0.6rem;
       color: var(--text);
     }
 
-    .opp-line,
-    .momo-line {
-      padding-left: 0.15rem;
-      color: var(--muted);
+    .opp-sep,
+    .momo-sep {
+      color: #3f3f46;
+      font-weight: 400;
+      user-select: none;
     }
 
-    .opp-line strong,
-    .momo-line strong {
-      display: inline-block;
-      min-width: 3.85rem;
+    .opp-block-title,
+    .momo-block-title {
+      color: #a3a3a3;
+      font-size: 0.72rem;
+      font-weight: 600;
+      margin-top: 0.55rem;
+      margin-bottom: 0.2rem;
+      letter-spacing: 0.04em;
+    }
+
+    .opp-block-body,
+    .momo-block-body {
+      padding-left: 0.85rem;
+      margin-bottom: 0.15rem;
+      line-height: 1.7;
+      font-size: 0.8125rem;
+    }
+
+    .opp-block-body .lbl,
+    .momo-block-body .lbl {
+      color: var(--muted);
+      font-weight: 500;
+      margin-right: 0.2rem;
+    }
+
+    .opp-label-line,
+    .momo-label-line {
+      margin-top: 0.55rem;
+      padding-top: 0.45rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.75rem;
       color: #d4d4d8;
+    }
+
+    .opp-label-line .lbl,
+    .momo-label-line .lbl {
+      color: var(--muted);
       font-weight: 600;
       margin-right: 0.35rem;
     }
 
-    .opp-meta {
-      display: flex;
-      flex-wrap: wrap;
+    .range-inline {
+      display: inline-flex;
       align-items: center;
-      gap: 0.5rem 1rem;
-      margin-top: 0.5rem;
-      padding-top: 0.5rem;
-      border-top: 1px solid var(--border);
-      font-size: 0.75rem;
-      color: var(--muted);
+      gap: 0.4rem;
+      vertical-align: middle;
     }
 
-    .range-micro {
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
-      flex: 1;
-      min-width: 140px;
-    }
-
-    .range-micro .bar-track {
-      flex: 1;
-      max-width: 120px;
+    .range-inline .bar-track {
+      width: 72px;
       height: 5px;
       background: #1a1a1a;
       border-radius: 3px;
@@ -517,11 +540,13 @@
       border: 1px solid var(--border);
     }
 
-    .range-micro .bar-fill {
+    .range-bar-fill {
+      display: block;
       height: 100%;
       border-radius: 2px;
-      background: linear-gradient(90deg, #3f3f46, #a1a1aa);
       max-width: 100%;
+      box-sizing: border-box;
+      background: linear-gradient(90deg, #f87171 0%, #fbbf24 45%, #4ade80 100%);
     }
 
     .residual-note {
@@ -708,19 +733,20 @@
       return spanCls(fmtPctSigned2(v), "terminal-pct-neu");
     }
 
-    function rangeMicroBar(pct) {
+    /** Horizontal bar: red at 0%, green at 100% (gradient along fill). */
+    function rangeInlineBar(pct) {
       if (isMissing(pct) || Number.isNaN(Number(pct))) {
-        return '<span class="terminal-pct-neu">N/A</span>';
+        return '<span class="range-inline"><span class="terminal-pct-neu">N/A</span></span>';
       }
       var w = Math.min(100, Math.max(0, Number(pct)));
       return (
-        '<div class="range-micro">' +
-        '<div class="bar-track"><div class="bar-fill" style="width:' +
+        '<span class="range-inline">' +
+        '<span class="bar-track"><span class="bar-fill range-bar-fill" style="width:' +
         w +
-        '%"></div></div>' +
+        '%"></span></span>' +
         '<span class="terminal-pct-neu">' +
         fmtPctSigned2(pct) +
-        "</span></div>"
+        "</span></span>"
       );
     }
 
@@ -914,7 +940,8 @@
         " today]</div></div>";
     }
 
-    function renderMomentumRowCard(r) {
+    function renderMomentumRowCard(r, isTopMomentum) {
+      var clsR = isTopMomentum ? clsResidualLong : clsResidualShort;
       var rr = r.raw_return;
       var twelve =
         rr != null && !Number.isNaN(Number(rr))
@@ -922,53 +949,75 @@
           : "N/A";
       var mz = fmtZSigned2(r.momentum_zscore);
       var wl = r.weight_label != null ? String(r.weight_label) : "";
+      var rl = r.residual_label != null ? String(r.residual_label) : "";
       var head =
-        '<div class="momo-head">' +
+        '<div class="momo-head-row">' +
         escapeHtml(r.ticker || "N/A") +
-        "  mom_z: " +
+        ' <span class="momo-sep">|</span> mom_z: ' +
         spanCls(mz, "terminal-pct-neu") +
-        "  12-1m: " +
+        ' <span class="momo-sep">|</span> 12-1m: ' +
         spanCls(twelve, "terminal-pct-neu") +
         "</div>";
-      var dayLine =
-        '<div class="momo-line"><strong>Day:</strong>  actual: ' +
+      var dayBlock =
+        '<div class="momo-block-title">Day (vs yday close):</div>' +
+        '<div class="momo-block-body">' +
+        '<span class="lbl">Actual:</span> ' +
         spanPctSigned(r.intraday_return, clsActualReturn) +
-        "  |  expected: " +
+        '   <span class="lbl">Expected:</span> ' +
         spanPctExpected(r.intraday_expected) +
-        "  |  residual: " +
-        spanPctSigned(r.intraday_residual, clsResidualLong) +
+        '   <span class="lbl">Residual:</span> ' +
+        spanPctSigned(r.intraday_residual, clsR) +
         "</div>";
-      var hourLine =
-        '<div class="momo-line"><strong>Hour:</strong> actual: ' +
+      var hourBlock =
+        '<div class="momo-block-title">Hour (last bar):</div>' +
+        '<div class="momo-block-body">' +
+        '<span class="lbl">Actual:</span> ' +
         spanPctSigned(r.hour_return, clsActualReturn) +
-        "  |  expected: " +
+        '   <span class="lbl">Expected:</span> ' +
         spanPctExpected(r.hour_expected) +
-        "  |  residual: " +
-        spanPctSigned(r.hour_residual, clsResidualLong) +
+        '   <span class="lbl">Residual:</span> ' +
+        spanPctSigned(r.hour_residual, clsR) +
         "</div>";
       var blendLine =
-        '<div class="momo-line"><strong>Blend:</strong> ' +
-        spanPctSigned(r.blended_residual, clsResidualLong) +
+        '<div class="momo-block-title" style="margin-top:0.45rem;">Blended:</div>' +
+        '<div class="momo-block-body">' +
+        spanPctSigned(r.blended_residual, clsR) +
         (wl ? "  [" + escapeHtml(wl) + "]" : "") +
         "</div>";
+      var labelLine =
+        rl && rl !== "N/A"
+          ? '<div class="momo-label-line"><span class="lbl">Label:</span> ' +
+            escapeHtml(rl) +
+            "</div>"
+          : "";
       return (
-        '<div class="momo-card">' + head + dayLine + hourLine + blendLine + "</div>"
+        '<div class="momo-card">' +
+        head +
+        dayBlock +
+        hourBlock +
+        blendLine +
+        labelLine +
+        "</div>"
       );
     }
 
     function renderMomentumContext(data) {
       var mc = data.momentum_context || {};
       renderMomentumFactors(data, mc);
-      function stack(rows) {
+      function stack(rows, isTop) {
         if (!rows || !rows.length) {
           return '<div class="empty-msg">No data</div>';
         }
-        return rows.map(renderMomentumRowCard).join("");
+        return rows
+          .map(function (row) {
+            return renderMomentumRowCard(row, isTop);
+          })
+          .join("");
       }
       var tm = document.getElementById("top-momentum-wrap");
       var bm = document.getElementById("bottom-momentum-wrap");
-      if (tm) tm.innerHTML = stack(mc.top_momentum);
-      if (bm) bm.innerHTML = stack(mc.bottom_momentum);
+      if (tm) tm.innerHTML = stack(mc.top_momentum, true);
+      if (bm) bm.innerHTML = stack(mc.bottom_momentum, false);
     }
 
     function renderConfirmed(data) {
@@ -1006,58 +1055,65 @@
 
     function renderOpportunityCard(r, isLong) {
       var clsR = isLong ? clsResidualLong : clsResidualShort;
-      var z = !isMissing(r.zscore) ? r.zscore : r.residual_zscore;
-      var rp = r.range_percentile != null ? r.range_percentile : r.range_pct;
+      var z = !isMissing(r.zscore) && !Number.isNaN(Number(r.zscore)) ? r.zscore : r.residual_zscore;
+      var rp =
+        r.range_percentile != null && r.range_percentile !== ""
+          ? r.range_percentile
+          : r.range_pct;
       var momz = r.momentum_zscore;
       var wl = r.weight_label != null ? String(r.weight_label) : "";
       var rl = r.residual_label != null ? String(r.residual_label) : "";
       var cardCls = isLong ? "opp-card opp-long" : "opp-card opp-short";
       var head =
-        '<div class="opp-head">' +
+        '<div class="opp-head-row">' +
         escapeHtml(r.ticker || "N/A") +
-        "  residual_z: " +
+        ' <span class="opp-sep">|</span> Residual Z: ' +
         spanCls(fmtZSigned2(z), "terminal-pct-neu") +
+        ' <span class="opp-sep">|</span> Range: ' +
+        rangeInlineBar(rp) +
+        ' <span class="opp-sep">|</span> Mom Z: ' +
+        spanCls(fmtZSigned2(momz), "terminal-pct-neu") +
         "</div>";
-      var dayLine =
-        '<div class="opp-line"><strong>Day:</strong>   actual: ' +
+      var dayBlock =
+        '<div class="opp-block-title">Day (vs yday close):</div>' +
+        '<div class="opp-block-body">' +
+        '<span class="lbl">Actual:</span> ' +
         spanPctSigned(r.intraday_return, clsActualReturn) +
-        "  |  expected: " +
+        '   <span class="lbl">Expected:</span> ' +
         spanPctExpected(r.intraday_expected) +
-        "  |  residual: " +
+        '   <span class="lbl">Residual:</span> ' +
         spanPctSigned(r.intraday_residual, clsR) +
         "</div>";
-      var hourLine =
-        '<div class="opp-line"><strong>Hour:</strong>  actual: ' +
+      var hourBlock =
+        '<div class="opp-block-title">Hour (last bar):</div>' +
+        '<div class="opp-block-body">' +
+        '<span class="lbl">Actual:</span> ' +
         spanPctSigned(r.hour_return, clsActualReturn) +
-        "  |  expected: " +
+        '   <span class="lbl">Expected:</span> ' +
         spanPctExpected(r.hour_expected) +
-        "  |  residual: " +
+        '   <span class="lbl">Residual:</span> ' +
         spanPctSigned(r.hour_residual, clsR) +
         "</div>";
       var blendLine =
-        '<div class="opp-line"><strong>Blend:</strong> ' +
+        '<div class="opp-block-title" style="margin-top:0.45rem;">Blended:</div>' +
+        '<div class="opp-block-body">' +
         spanPctSigned(r.blended_residual, clsR) +
         (wl ? "  [" + escapeHtml(wl) + "]" : "") +
         "</div>";
-      var meta =
-        '<div class="opp-meta"><span>Range:</span> ' +
-        rangeMicroBar(rp) +
-        '<span>|  Mom Z: ' +
-        spanCls(fmtZSigned2(momz), "terminal-pct-neu") +
-        "</span></div>";
       var note =
         rl && rl !== "N/A"
-          ? '<div class="residual-note">' + escapeHtml(rl) + "</div>"
+          ? '<div class="opp-label-line"><span class="lbl">Label:</span> ' +
+            escapeHtml(rl) +
+            "</div>"
           : "";
       return (
         '<div class="' +
         cardCls +
         '">' +
         head +
-        dayLine +
-        hourLine +
+        dayBlock +
+        hourBlock +
         blendLine +
-        meta +
         note +
         "</div>"
       );
@@ -1093,14 +1149,14 @@
       renderRiskRegime(data);
       renderMomentumContext(data);
       renderConfirmed(data);
-      document.getElementById("oversold-wrap").innerHTML = renderOpportunityStack(
-        data.top_oversold,
-        true
-      );
-      document.getElementById("overbought-wrap").innerHTML = renderOpportunityStack(
-        data.top_overbought,
-        false
-      );
+      var overS = Array.isArray(data.top_opportunities_oversold)
+        ? data.top_opportunities_oversold
+        : data.top_oversold || [];
+      var overB = Array.isArray(data.top_opportunities_overbought)
+        ? data.top_opportunities_overbought
+        : data.top_overbought || [];
+      document.getElementById("oversold-wrap").innerHTML = renderOpportunityStack(overS, true);
+      document.getElementById("overbought-wrap").innerHTML = renderOpportunityStack(overB, false);
       renderFooter(data);
     }
 
