@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-04-10 14:12:00 ET (2026-04-10 18:12:00 UTC)",
-  "file_ts": "20260410_141200",
+  "timestamp": "2026-04-10 14:21:30 ET (2026-04-10 18:21:30 UTC)",
+  "file_ts": "20260410_142130",
   "market_status_et": "MARKET OPEN",
   "regime": "STRONG_BULL",
   "qqq_10d_momentum_pct": 3.6893665427256863,
@@ -22,54 +22,84 @@
       {
         "ticker": "AXTI",
         "momentum_zscore": 9.046899124175054,
-        "raw_return": 36.08730158730159
+        "raw_return": 36.08730158730159,
+        "actual_return": 2.3449552607220157,
+        "expected_return": 1.7476855579151445,
+        "residual_return": 0.597269702806871
       },
       {
         "ticker": "SNDK",
         "momentum_zscore": 3.797466208505092,
-        "raw_return": 15.916894477856752
+        "raw_return": 15.916894477856752,
+        "actual_return": 0.4742431854560714,
+        "expected_return": 0.7335968665263864,
+        "residual_return": -0.259353681070315
       },
       {
         "ticker": "LITE",
         "momentum_zscore": 2.0755962251940674,
-        "raw_return": 9.300785821768935
+        "raw_return": 9.300785821768935,
+        "actual_return": 0.9244386534422163,
+        "expected_return": 0.400964960153199,
+        "residual_return": 0.5234736932890174
       },
       {
         "ticker": "BE",
         "momentum_zscore": 1.6837579480197598,
-        "raw_return": 7.7951874650251805
+        "raw_return": 7.7951874650251805,
+        "actual_return": 0.5683339780402967,
+        "expected_return": 0.32526939986713976,
+        "residual_return": 0.2430645781731569
       },
       {
         "ticker": "AAOI",
         "momentum_zscore": 1.3873036574845439,
-        "raw_return": 6.656092285508291
+        "raw_return": 6.656092285508291,
+        "actual_return": 1.7320938942018347,
+        "expected_return": 0.26800017700536494,
+        "residual_return": 1.4640937171964696
       }
     ],
     "bottom_momentum": [
       {
         "ticker": "TEAM",
         "momentum_zscore": -0.5141709766645236,
-        "raw_return": -0.6501288045033871
+        "raw_return": -0.6501288045033871,
+        "actual_return": -0.5443371378402148,
+        "expected_return": -0.09932786669572297,
+        "residual_return": -0.4450092711444918
       },
       {
         "ticker": "HUBS",
         "momentum_zscore": -0.48310769470351217,
-        "raw_return": -0.5307713323012476
+        "raw_return": -0.5307713323012476,
+        "actual_return": -0.9743576311584974,
+        "expected_return": -0.09332704270956449,
+        "residual_return": -0.8810305884489328
       },
       {
         "ticker": "TTD",
         "momentum_zscore": -0.4776720537089623,
-        "raw_return": -0.5098854397634885
+        "raw_return": -0.5098854397634885,
+        "actual_return": -0.22266204849085455,
+        "expected_return": -0.09227698222654208,
+        "residual_return": -0.13038506626431245
       },
       {
         "ticker": "WIX",
         "momentum_zscore": -0.468118513253745,
-        "raw_return": -0.4731769412620477
+        "raw_return": -0.4731769412620477,
+        "actual_return": -0.5525291828793726,
+        "expected_return": -0.09043142338352095,
+        "residual_return": -0.4620977594958516
       },
       {
         "ticker": "SNAP",
         "momentum_zscore": -0.46801758001318033,
-        "raw_return": -0.4727891156462585
+        "raw_return": -0.4727891156462585,
+        "actual_return": 0.0,
+        "expected_return": -0.09041192503779749,
+        "residual_return": 0.09041192503779749
       }
     ]
   },
@@ -87,7 +117,11 @@
       "raw_zscore": -0.07395825013622655,
       "momentum_zscore": 0.16569932102058735,
       "range_percentile": 33.26810176125237,
-      "signal_strength": 0.31031571731733887
+      "signal_strength": 0.31031571731733887,
+      "actual_return": 0.0,
+      "expected_return": 0.0320098971293031,
+      "residual_return": -0.0320098971293031,
+      "residual_label": "in line with momentum"
     },
     {
       "ticker": "UBER",
@@ -96,7 +130,11 @@
       "raw_zscore": -0.550097490249847,
       "momentum_zscore": -0.34393379426020204,
       "range_percentile": 7.624204287700353,
-      "signal_strength": 0.2445894873220924
+      "signal_strength": 0.2445894873220924,
+      "actual_return": -0.43088224906405687,
+      "expected_return": -0.06644134270285944,
+      "residual_return": -0.3644409063611974,
+      "residual_label": "underperforming momentum"
     },
     {
       "ticker": "ORCL",
@@ -105,7 +143,11 @@
       "raw_zscore": -0.4671816888715885,
       "momentum_zscore": -0.3086979896196506,
       "range_percentile": 3.4903763286412044,
-      "signal_strength": 0.2138278532861769
+      "signal_strength": 0.2138278532861769,
+      "actual_return": -0.5096547268681415,
+      "expected_return": -0.059634468209558776,
+      "residual_return": -0.45002025865858275,
+      "residual_label": "underperforming momentum"
     },
     {
       "ticker": "CRM",
@@ -114,7 +156,11 @@
       "raw_zscore": -0.40371330322766924,
       "momentum_zscore": -0.409640741399356,
       "range_percentile": 0.0,
-      "signal_strength": 0.18455452796845115
+      "signal_strength": 0.18455452796845115,
+      "actual_return": -0.47424860293006893,
+      "expected_return": -0.07913465131541285,
+      "residual_return": -0.39511395161465607,
+      "residual_label": "underperforming momentum"
     },
     {
       "ticker": "NOW",
@@ -123,7 +169,11 @@
       "raw_zscore": -0.36947504571675005,
       "momentum_zscore": -0.4272440027562875,
       "range_percentile": 0.0,
-      "signal_strength": 0.17453092597167283
+      "signal_strength": 0.17453092597167283,
+      "actual_return": -0.7874969711655024,
+      "expected_return": -0.08253526021172573,
+      "residual_return": -0.7049617109537766,
+      "residual_label": "significantly underperforming momentum"
     }
   ],
   "top_opportunities_overbought": [
@@ -134,7 +184,11 @@
       "raw_zscore": 0.45991774294617344,
       "momentum_zscore": -0.13297365559637825,
       "range_percentile": 97.7698639733785,
-      "signal_strength": 0.26160498431976886
+      "signal_strength": 0.26160498431976886,
+      "actual_return": 0.7136317121775285,
+      "expected_return": -0.02568793287945097,
+      "residual_return": 0.7393196450569794,
+      "residual_label": "significantly outperforming momentum"
     },
     {
       "ticker": "T",
@@ -143,7 +197,11 @@
       "raw_zscore": 0.4290890650516056,
       "momentum_zscore": -0.3359267529322017,
       "range_percentile": 54.11392405063293,
-      "signal_strength": 0.25985265797197066
+      "signal_strength": 0.25985265797197066,
+      "actual_return": 0.11367942402425592,
+      "expected_return": -0.06489453751596597,
+      "residual_return": 0.1785739615402219,
+      "residual_label": "in line with momentum"
     },
     {
       "ticker": "ARM",
@@ -152,7 +210,11 @@
       "raw_zscore": 0.3925944290179905,
       "momentum_zscore": -0.3241450612247016,
       "range_percentile": 81.68800539083557,
-      "signal_strength": 0.2451616115528646
+      "signal_strength": 0.2451616115528646,
+      "actual_return": 0.6727054748901156,
+      "expected_return": -0.06261854303847873,
+      "residual_return": 0.7353240179285943,
+      "residual_label": "significantly outperforming momentum"
     },
     {
       "ticker": "HPE",
@@ -161,7 +223,11 @@
       "raw_zscore": 0.4691580695366633,
       "momentum_zscore": -0.21789639501470998,
       "range_percentile": 81.92968111201967,
-      "signal_strength": 0.24084198645611335
+      "signal_strength": 0.24084198645611335,
+      "actual_return": 0.42160208793415144,
+      "expected_return": -0.042093360107373454,
+      "residual_return": 0.4636954480415249,
+      "residual_label": "outperforming momentum"
     },
     {
       "ticker": "CRWV",
@@ -170,7 +236,11 @@
       "raw_zscore": 0.40688212917788624,
       "momentum_zscore": -0.17906485754173326,
       "range_percentile": 83.49436392914654,
-      "signal_strength": 0.2237778874025989
+      "signal_strength": 0.2237778874025989,
+      "actual_return": 1.2451171874999916,
+      "expected_return": -0.0345918597256777,
+      "residual_return": 1.2797090472256694,
+      "residual_label": "significantly outperforming momentum"
     }
   ],
   "top_oversold": [
@@ -182,7 +252,11 @@
       "strength": 0.31031571731733887,
       "signal_strength": 0.31031571731733887,
       "raw_zscore": -0.07395825013622655,
-      "momentum_zscore": 0.16569932102058735
+      "momentum_zscore": 0.16569932102058735,
+      "actual_return": 0.0,
+      "expected_return": 0.0320098971293031,
+      "residual_return": -0.0320098971293031,
+      "residual_label": "in line with momentum"
     },
     {
       "ticker": "UBER",
@@ -192,7 +266,11 @@
       "strength": 0.2445894873220924,
       "signal_strength": 0.2445894873220924,
       "raw_zscore": -0.550097490249847,
-      "momentum_zscore": -0.34393379426020204
+      "momentum_zscore": -0.34393379426020204,
+      "actual_return": -0.43088224906405687,
+      "expected_return": -0.06644134270285944,
+      "residual_return": -0.3644409063611974,
+      "residual_label": "underperforming momentum"
     },
     {
       "ticker": "ORCL",
@@ -202,7 +280,11 @@
       "strength": 0.2138278532861769,
       "signal_strength": 0.2138278532861769,
       "raw_zscore": -0.4671816888715885,
-      "momentum_zscore": -0.3086979896196506
+      "momentum_zscore": -0.3086979896196506,
+      "actual_return": -0.5096547268681415,
+      "expected_return": -0.059634468209558776,
+      "residual_return": -0.45002025865858275,
+      "residual_label": "underperforming momentum"
     },
     {
       "ticker": "CRM",
@@ -212,7 +294,11 @@
       "strength": 0.18455452796845115,
       "signal_strength": 0.18455452796845115,
       "raw_zscore": -0.40371330322766924,
-      "momentum_zscore": -0.409640741399356
+      "momentum_zscore": -0.409640741399356,
+      "actual_return": -0.47424860293006893,
+      "expected_return": -0.07913465131541285,
+      "residual_return": -0.39511395161465607,
+      "residual_label": "underperforming momentum"
     },
     {
       "ticker": "NOW",
@@ -222,7 +308,11 @@
       "strength": 0.17453092597167283,
       "signal_strength": 0.17453092597167283,
       "raw_zscore": -0.36947504571675005,
-      "momentum_zscore": -0.4272440027562875
+      "momentum_zscore": -0.4272440027562875,
+      "actual_return": -0.7874969711655024,
+      "expected_return": -0.08253526021172573,
+      "residual_return": -0.7049617109537766,
+      "residual_label": "significantly underperforming momentum"
     }
   ],
   "top_overbought": [
@@ -234,7 +324,11 @@
       "strength": 0.26160498431976886,
       "signal_strength": 0.26160498431976886,
       "raw_zscore": 0.45991774294617344,
-      "momentum_zscore": -0.13297365559637825
+      "momentum_zscore": -0.13297365559637825,
+      "actual_return": 0.7136317121775285,
+      "expected_return": -0.02568793287945097,
+      "residual_return": 0.7393196450569794,
+      "residual_label": "significantly outperforming momentum"
     },
     {
       "ticker": "T",
@@ -244,7 +338,11 @@
       "strength": 0.25985265797197066,
       "signal_strength": 0.25985265797197066,
       "raw_zscore": 0.4290890650516056,
-      "momentum_zscore": -0.3359267529322017
+      "momentum_zscore": -0.3359267529322017,
+      "actual_return": 0.11367942402425592,
+      "expected_return": -0.06489453751596597,
+      "residual_return": 0.1785739615402219,
+      "residual_label": "in line with momentum"
     },
     {
       "ticker": "ARM",
@@ -254,7 +352,11 @@
       "strength": 0.2451616115528646,
       "signal_strength": 0.2451616115528646,
       "raw_zscore": 0.3925944290179905,
-      "momentum_zscore": -0.3241450612247016
+      "momentum_zscore": -0.3241450612247016,
+      "actual_return": 0.6727054748901156,
+      "expected_return": -0.06261854303847873,
+      "residual_return": 0.7353240179285943,
+      "residual_label": "significantly outperforming momentum"
     },
     {
       "ticker": "HPE",
@@ -264,7 +366,11 @@
       "strength": 0.24084198645611335,
       "signal_strength": 0.24084198645611335,
       "raw_zscore": 0.4691580695366633,
-      "momentum_zscore": -0.21789639501470998
+      "momentum_zscore": -0.21789639501470998,
+      "actual_return": 0.42160208793415144,
+      "expected_return": -0.042093360107373454,
+      "residual_return": 0.4636954480415249,
+      "residual_label": "outperforming momentum"
     },
     {
       "ticker": "CRWV",
@@ -274,7 +380,11 @@
       "strength": 0.2237778874025989,
       "signal_strength": 0.2237778874025989,
       "raw_zscore": 0.40688212917788624,
-      "momentum_zscore": -0.17906485754173326
+      "momentum_zscore": -0.17906485754173326,
+      "actual_return": 1.2451171874999916,
+      "expected_return": -0.0345918597256777,
+      "residual_return": 1.2797090472256694,
+      "residual_label": "significantly outperforming momentum"
     }
   ],
   "signal_count": 0,
