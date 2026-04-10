@@ -1,85 +1,118 @@
 {
-  "timestamp": "2026-04-10 17:13:18 UTC",
-  "file_ts": "20260410_171318",
+  "timestamp": "2026-04-10 13:53:50 ET (2026-04-10 17:53:50 UTC)",
+  "file_ts": "20260410_135350",
+  "market_status_et": "MARKET OPEN",
   "regime": "STRONG_BULL",
-  "qqq_10d_momentum_pct": 3.354283487777206,
-  "msqq_10d_momentum_pct": 5.832851182763092,
-  "msqq_5h_z": 0.4109069467875307,
+  "qqq_10d_momentum_pct": 3.560332093923501,
+  "msqq_10d_momentum_pct": 6.263023869580275,
+  "msqq_5h_z": 0.46873605994506207,
   "msqqumol_suspended": false,
   "circuit_breaker_active": false,
-  "qqq_hourly_return_pct": -0.13422599073512242,
+  "circuit_breaker_label": "inactive",
+  "momentum_factor_return_this_hour_pct": 0.0,
+  "qqq_hourly_return_pct": 0.026238110856031793,
   "signal_threshold": 2.0,
   "trading_mode": "LONG+SHORT",
   "long_candidates": [],
   "short_candidates": [],
   "top_opportunities_oversold": [
     {
-      "ticker": "SNOW",
-      "zscore": -1.0737041224820796,
-      "range_percentile": 0.0,
-      "signal_strength": 0.5368520612410398
+      "ticker": "WBD",
+      "zscore": -0.3683646859536046,
+      "residual_zscore": -0.3683646859536046,
+      "raw_zscore": 0.11729090119578445,
+      "momentum_zscore": 0.16569932102058735,
+      "range_percentile": 33.65949119373775,
+      "signal_strength": 0.1841823429768023
     },
     {
-      "ticker": "NOW",
-      "zscore": -0.911121774159468,
-      "range_percentile": 0.08236101578584497,
-      "signal_strength": 0.455560887079734
+      "ticker": "SNAP",
+      "zscore": -0.34360417773411694,
+      "residual_zscore": -0.34360417773411694,
+      "raw_zscore": -0.34884044022844074,
+      "momentum_zscore": -0.46801758001318033,
+      "range_percentile": 17.087710440979436,
+      "signal_strength": 0.17180208886705847
     },
     {
-      "ticker": "ACN",
-      "zscore": -0.7390249648101761,
-      "range_percentile": 0.0,
-      "signal_strength": 0.36951248240508805
+      "ticker": "IREN",
+      "zscore": -0.2501393088176856,
+      "residual_zscore": -0.2501393088176856,
+      "raw_zscore": 0.08817479017020756,
+      "momentum_zscore": 1.219640654281859,
+      "range_percentile": 25.435430723364195,
+      "signal_strength": 0.1250696544088428
     },
     {
-      "ticker": "TEAM",
-      "zscore": -0.7239443853491021,
-      "range_percentile": 0.0,
-      "signal_strength": 0.36197219267455105
+      "ticker": "PSKY",
+      "zscore": -0.2221404888787465,
+      "residual_zscore": -0.2221404888787465,
+      "raw_zscore": -0.2221404888787465,
+      "momentum_zscore": 0.0,
+      "range_percentile": 37.94772507260408,
+      "signal_strength": 0.11107024443937324
     },
     {
-      "ticker": "RBLX",
-      "zscore": -0.6788035583504959,
-      "range_percentile": 9.192307692307693,
-      "signal_strength": 0.33940177917524794
+      "ticker": "U",
+      "zscore": -0.22212412542070392,
+      "residual_zscore": -0.22212412542070392,
+      "raw_zscore": -0.22695840029186065,
+      "momentum_zscore": -0.3522629954521832,
+      "range_percentile": 14.383338756915073,
+      "signal_strength": 0.11106206271035196
     }
   ],
   "top_opportunities_overbought": [
     {
-      "ticker": "AXTI",
-      "zscore": 0.6045983360510699,
-      "range_percentile": 91.02411162925208,
-      "signal_strength": 0.30229916802553497
+      "ticker": "CSCO",
+      "zscore": 0.27405126508633276,
+      "residual_zscore": 0.27405126508633276,
+      "raw_zscore": 0.07978351554372029,
+      "momentum_zscore": -0.2571761788241273,
+      "range_percentile": 59.78745286252995,
+      "signal_strength": 0.13702563254316638
     },
     {
-      "ticker": "COHR",
-      "zscore": 0.5731025901584363,
-      "range_percentile": 100.0,
-      "signal_strength": 0.28655129507921817
+      "ticker": "ARM",
+      "zscore": 0.21856273160853049,
+      "residual_zscore": 0.21856273160853049,
+      "raw_zscore": 0.12814857487850911,
+      "momentum_zscore": -0.3241450612247016,
+      "range_percentile": 80.40768194070077,
+      "signal_strength": 0.10928136580426524
     },
     {
-      "ticker": "VZ",
-      "zscore": 0.45585685570696616,
-      "range_percentile": 58.57707509881421,
-      "signal_strength": 0.22792842785348308
+      "ticker": "AVGO",
+      "zscore": 0.17895150088909406,
+      "residual_zscore": 0.17895150088909406,
+      "raw_zscore": 0.11722059555249298,
+      "momentum_zscore": -0.13297365559637825,
+      "range_percentile": 96.08850487477382,
+      "signal_strength": 0.08947575044454703
     },
     {
-      "ticker": "NBIS",
-      "zscore": 0.36948047980473686,
-      "range_percentile": 98.78925412074844,
-      "signal_strength": 0.18474023990236843
+      "ticker": "CORZ",
+      "zscore": 0.16417647544921946,
+      "residual_zscore": 0.16417647544921946,
+      "raw_zscore": 0.15149118058989827,
+      "momentum_zscore": -0.04243973512470537,
+      "range_percentile": 78.47999999999998,
+      "signal_strength": 0.08208823772460973
     },
     {
-      "ticker": "T",
-      "zscore": 0.3299030026523487,
-      "range_percentile": 53.48101265822783,
-      "signal_strength": 0.16495150132617434
+      "ticker": "NVDA",
+      "zscore": 0.14286001474357665,
+      "residual_zscore": 0.14286001474357665,
+      "raw_zscore": 0.016268396478024156,
+      "momentum_zscore": -0.18833713574656055,
+      "range_percentile": 72.15632603406326,
+      "signal_strength": 0.07143000737178833
     }
   ],
   "signal_count": 0,
   "hedge_note": null,
   "notes": "ok",
-  "vix_level": 20.11,
+  "vix_level": 20.21,
   "mandate": {
     "max_long_pct": 8.0,
     "max_short_pct": 3.0,
