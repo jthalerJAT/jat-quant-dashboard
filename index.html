@@ -429,6 +429,129 @@
       opacity: 0.35;
       padding: 0 0.5rem;
     }
+
+    /* Terminal pct colors */
+    .terminal-pct-pos { color: #4ade80; font-weight: 600; }
+    .terminal-pct-neg { color: #f87171; font-weight: 600; }
+    .terminal-pct-neu { color: var(--muted); font-weight: 500; }
+
+    .opp-stack,
+    .momo-stack {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .opp-card,
+    .momo-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 0.85rem 1rem;
+      font-size: 0.8125rem;
+      line-height: 1.55;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .opp-card.opp-long {
+      border-left: 3px solid var(--green);
+      box-shadow: inset 0 0 0 1px rgba(34, 197, 94, 0.08);
+    }
+
+    .opp-card.opp-short {
+      border-left: 3px solid var(--accent);
+      box-shadow: inset 0 0 0 1px rgba(220, 38, 38, 0.08);
+    }
+
+    .opp-head,
+    .momo-head {
+      font-weight: 700;
+      font-size: 0.875rem;
+      letter-spacing: 0.04em;
+      margin-bottom: 0.45rem;
+      color: var(--text);
+    }
+
+    .opp-line,
+    .momo-line {
+      padding-left: 0.15rem;
+      color: var(--muted);
+    }
+
+    .opp-line strong,
+    .momo-line strong {
+      display: inline-block;
+      min-width: 3.85rem;
+      color: #d4d4d8;
+      font-weight: 600;
+      margin-right: 0.35rem;
+    }
+
+    .opp-meta {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.5rem 1rem;
+      margin-top: 0.5rem;
+      padding-top: 0.5rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.75rem;
+      color: var(--muted);
+    }
+
+    .range-micro {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      flex: 1;
+      min-width: 140px;
+    }
+
+    .range-micro .bar-track {
+      flex: 1;
+      max-width: 120px;
+      height: 5px;
+      background: #1a1a1a;
+      border-radius: 3px;
+      overflow: hidden;
+      border: 1px solid var(--border);
+    }
+
+    .range-micro .bar-fill {
+      height: 100%;
+      border-radius: 2px;
+      background: linear-gradient(90deg, #3f3f46, #a1a1aa);
+      max-width: 100%;
+    }
+
+    .residual-note {
+      font-size: 0.7rem;
+      color: var(--muted);
+      font-style: italic;
+      margin-top: 0.35rem;
+    }
+
+    .momentum-factors {
+      margin-bottom: 1rem;
+    }
+
+    .momentum-factors .factor-line {
+      font-size: 0.9rem;
+      padding: 0.65rem 0.85rem;
+      margin-bottom: 0.5rem;
+      background: #0d0d0d;
+      border-radius: 4px;
+      border: 1px solid var(--border);
+      font-variant-numeric: tabular-nums;
+    }
+
+    .momentum-factors .factor-sub {
+      font-size: 0.72rem;
+      color: var(--muted);
+      margin-top: 0.35rem;
+      line-height: 1.4;
+      font-weight: 400;
+    }
   </style>
 </head>
 <body>
@@ -460,15 +583,15 @@
 
     <section id="momentum-section">
       <h2>Momentum context</h2>
-      <p id="momentum-factor-line" style="color: var(--muted); font-size: 0.875rem; margin-bottom: 0.75rem;">—</p>
+      <div id="momentum-factors-wrap" class="momentum-factors"></div>
       <div class="split">
         <div class="subcard">
           <h3>Top momentum</h3>
-          <div class="table-scroll" id="top-momentum-wrap"></div>
+          <div id="top-momentum-wrap" class="momo-stack"></div>
         </div>
         <div class="subcard">
           <h3>Bottom momentum</h3>
-          <div class="table-scroll" id="bottom-momentum-wrap"></div>
+          <div id="bottom-momentum-wrap" class="momo-stack"></div>
         </div>
       </div>
     </section>
@@ -480,12 +603,12 @@
 
     <section class="split">
       <div class="subcard">
-        <h3>Watching — Potential longs</h3>
-        <div class="table-scroll" id="oversold-wrap"></div>
+        <h3>Top opportunities — Oversold (watch longs)</h3>
+        <div id="oversold-wrap" class="opp-stack"></div>
       </div>
       <div class="subcard">
-        <h3>Watching — Potential shorts</h3>
-        <div class="table-scroll" id="overbought-wrap"></div>
+        <h3>Top opportunities — Overbought (watch shorts)</h3>
+        <div id="overbought-wrap" class="opp-stack"></div>
       </div>
     </section>
 
@@ -528,6 +651,77 @@
       var n = Number(v);
       if (Number.isNaN(n)) return "N/A";
       return n.toFixed(2) + "%";
+    }
+
+    /** Percent already in % points in JSON; always ±0.00% */
+    function fmtPctSigned2(v) {
+      if (isMissing(v) || Number.isNaN(Number(v))) return "N/A";
+      var n = Number(v);
+      return (n >= 0 ? "+" : "") + n.toFixed(2) + "%";
+    }
+
+    function fmtZSigned2(v) {
+      if (isMissing(v) || Number.isNaN(Number(v))) return "N/A";
+      var n = Number(v);
+      return (n >= 0 ? "+" : "") + n.toFixed(2);
+    }
+
+    function clsActualReturn(n) {
+      if (isMissing(n) || Number.isNaN(Number(n))) return "terminal-pct-neu";
+      n = Number(n);
+      if (n > 0) return "terminal-pct-pos";
+      if (n < 0) return "terminal-pct-neg";
+      return "terminal-pct-neu";
+    }
+
+    function clsResidualLong(n) {
+      if (isMissing(n) || Number.isNaN(Number(n))) return "terminal-pct-neu";
+      n = Number(n);
+      if (n < 0) return "terminal-pct-pos";
+      if (n > 0) return "terminal-pct-neg";
+      return "terminal-pct-neu";
+    }
+
+    function clsResidualShort(n) {
+      if (isMissing(n) || Number.isNaN(Number(n))) return "terminal-pct-neu";
+      n = Number(n);
+      if (n > 0) return "terminal-pct-neg";
+      if (n < 0) return "terminal-pct-pos";
+      return "terminal-pct-neu";
+    }
+
+    function clsFactor(n) {
+      return clsActualReturn(n);
+    }
+
+    function spanCls(text, cls) {
+      return '<span class="' + cls + '">' + escapeHtml(text) + "</span>";
+    }
+
+    function spanPctSigned(v, colorFn) {
+      if (isMissing(v) || Number.isNaN(Number(v))) return spanCls("N/A", "terminal-pct-neu");
+      return spanCls(fmtPctSigned2(v), colorFn(Number(v)));
+    }
+
+    function spanPctExpected(v) {
+      if (isMissing(v) || Number.isNaN(Number(v))) return spanCls("N/A", "terminal-pct-neu");
+      return spanCls(fmtPctSigned2(v), "terminal-pct-neu");
+    }
+
+    function rangeMicroBar(pct) {
+      if (isMissing(pct) || Number.isNaN(Number(pct))) {
+        return '<span class="terminal-pct-neu">N/A</span>';
+      }
+      var w = Math.min(100, Math.max(0, Number(pct)));
+      return (
+        '<div class="range-micro">' +
+        '<div class="bar-track"><div class="bar-fill" style="width:' +
+        w +
+        '%"></div></div>' +
+        '<span class="terminal-pct-neu">' +
+        fmtPctSigned2(pct) +
+        "</span></div>"
+      );
     }
 
     function formatFloatOrNA(v, digits) {
@@ -689,53 +883,92 @@
         .join("");
     }
 
+    function renderMomentumFactors(data, mc) {
+      var wrap = document.getElementById("momentum-factors-wrap");
+      if (!wrap) return;
+      var hourF = mc.hour_factor_return;
+      if (isMissing(hourF)) hourF = data.momentum_factor_return_this_hour_pct;
+      var dayF = mc.intraday_factor_return;
+      var hourTxt = isMissing(hourF) || Number.isNaN(Number(hourF)) ? "N/A" : fmtPctSigned2(hourF);
+      var dayTxt = isMissing(dayF) || Number.isNaN(Number(dayF)) ? "N/A" : fmtPctSigned2(dayF);
+      var hourSpan =
+        hourTxt === "N/A"
+          ? spanCls(hourTxt, "terminal-pct-neu")
+          : spanCls(hourTxt, clsFactor(Number(hourF)));
+      var daySpan =
+        dayTxt === "N/A"
+          ? spanCls(dayTxt, "terminal-pct-neu")
+          : spanCls(dayTxt, clsFactor(Number(dayF)));
+      var hb = hourTxt === "N/A" ? "N/A" : hourTxt;
+      var db = dayTxt === "N/A" ? "N/A" : dayTxt;
+      wrap.innerHTML =
+        '<div class="factor-line">Hour Factor Return: ' +
+        hourSpan +
+        '<div class="factor-sub">[top momentum outperforming bottom by ' +
+        escapeHtml(hb) +
+        " last hour]</div></div>" +
+        '<div class="factor-line">Day Factor Return:  ' +
+        daySpan +
+        '<div class="factor-sub">[top momentum outperforming bottom by ' +
+        escapeHtml(db) +
+        " today]</div></div>";
+    }
+
+    function renderMomentumRowCard(r) {
+      var rr = r.raw_return;
+      var twelve =
+        rr != null && !Number.isNaN(Number(rr))
+          ? fmtPctSigned2(Number(rr) * 100)
+          : "N/A";
+      var mz = fmtZSigned2(r.momentum_zscore);
+      var wl = r.weight_label != null ? String(r.weight_label) : "";
+      var head =
+        '<div class="momo-head">' +
+        escapeHtml(r.ticker || "N/A") +
+        "  mom_z: " +
+        spanCls(mz, "terminal-pct-neu") +
+        "  12-1m: " +
+        spanCls(twelve, "terminal-pct-neu") +
+        "</div>";
+      var dayLine =
+        '<div class="momo-line"><strong>Day:</strong>  actual: ' +
+        spanPctSigned(r.intraday_return, clsActualReturn) +
+        "  |  expected: " +
+        spanPctExpected(r.intraday_expected) +
+        "  |  residual: " +
+        spanPctSigned(r.intraday_residual, clsResidualLong) +
+        "</div>";
+      var hourLine =
+        '<div class="momo-line"><strong>Hour:</strong> actual: ' +
+        spanPctSigned(r.hour_return, clsActualReturn) +
+        "  |  expected: " +
+        spanPctExpected(r.hour_expected) +
+        "  |  residual: " +
+        spanPctSigned(r.hour_residual, clsResidualLong) +
+        "</div>";
+      var blendLine =
+        '<div class="momo-line"><strong>Blend:</strong> ' +
+        spanPctSigned(r.blended_residual, clsResidualLong) +
+        (wl ? "  [" + escapeHtml(wl) + "]" : "") +
+        "</div>";
+      return (
+        '<div class="momo-card">' + head + dayLine + hourLine + blendLine + "</div>"
+      );
+    }
+
     function renderMomentumContext(data) {
       var mc = data.momentum_context || {};
-      var fr = mc.factor_return;
-      var line = document.getElementById("momentum-factor-line");
-      if (line) {
-        if (isMissing(fr) || Number.isNaN(Number(fr))) {
-          line.textContent = "Momentum factor return (this hour): N/A";
-        } else {
-          line.textContent =
-            "Momentum factor return (this hour): " + Number(fr).toFixed(4) + "%";
-        }
-      }
-      function renderMomTable(rows) {
+      renderMomentumFactors(data, mc);
+      function stack(rows) {
         if (!rows || !rows.length) {
           return '<div class="empty-msg">No data</div>';
         }
-        var body = rows
-          .map(function (r) {
-            var rr = r.raw_return;
-            var rrPct =
-              rr != null && !Number.isNaN(Number(rr))
-                ? (Number(rr) * 100).toFixed(2) + "%"
-                : "N/A";
-            var mz = formatFloatOrNA(r.momentum_zscore, 2);
-            return (
-              "<tr><td><strong>" +
-              escapeHtml(r.ticker) +
-              "</strong></td><td>" +
-              mz +
-              "</td><td>" +
-              rrPct +
-              "</td></tr>"
-            );
-          })
-          .join("");
-        return (
-          '<table><thead><tr>' +
-          "<th>Ticker</th><th>Mom. z</th><th>252d ret</th>" +
-          "</tr></thead><tbody>" +
-          body +
-          "</tbody></table>"
-        );
+        return rows.map(renderMomentumRowCard).join("");
       }
       var tm = document.getElementById("top-momentum-wrap");
       var bm = document.getElementById("bottom-momentum-wrap");
-      if (tm) tm.innerHTML = renderMomTable(mc.top_momentum);
-      if (bm) bm.innerHTML = renderMomTable(mc.bottom_momentum);
+      if (tm) tm.innerHTML = stack(mc.top_momentum);
+      if (bm) bm.innerHTML = stack(mc.bottom_momentum);
     }
 
     function renderConfirmed(data) {
@@ -771,49 +1004,74 @@
         "</tr></thead><tbody>" + rows + "</tbody></table></div>";
     }
 
-    function strengthBar(strength, longSide) {
-      if (strength == null || strength === "" || Number.isNaN(Number(strength))) {
-        return '<div class="bar-wrap"><span class="bar-val">N/A</span></div>';
-      }
-      var pct = Math.min(100, Math.max(0, Number(strength) * 100));
-      var fillCls = longSide ? "long" : "";
+    function renderOpportunityCard(r, isLong) {
+      var clsR = isLong ? clsResidualLong : clsResidualShort;
+      var z = !isMissing(r.zscore) ? r.zscore : r.residual_zscore;
+      var rp = r.range_percentile != null ? r.range_percentile : r.range_pct;
+      var momz = r.momentum_zscore;
+      var wl = r.weight_label != null ? String(r.weight_label) : "";
+      var rl = r.residual_label != null ? String(r.residual_label) : "";
+      var cardCls = isLong ? "opp-card opp-long" : "opp-card opp-short";
+      var head =
+        '<div class="opp-head">' +
+        escapeHtml(r.ticker || "N/A") +
+        "  residual_z: " +
+        spanCls(fmtZSigned2(z), "terminal-pct-neu") +
+        "</div>";
+      var dayLine =
+        '<div class="opp-line"><strong>Day:</strong>   actual: ' +
+        spanPctSigned(r.intraday_return, clsActualReturn) +
+        "  |  expected: " +
+        spanPctExpected(r.intraday_expected) +
+        "  |  residual: " +
+        spanPctSigned(r.intraday_residual, clsR) +
+        "</div>";
+      var hourLine =
+        '<div class="opp-line"><strong>Hour:</strong>  actual: ' +
+        spanPctSigned(r.hour_return, clsActualReturn) +
+        "  |  expected: " +
+        spanPctExpected(r.hour_expected) +
+        "  |  residual: " +
+        spanPctSigned(r.hour_residual, clsR) +
+        "</div>";
+      var blendLine =
+        '<div class="opp-line"><strong>Blend:</strong> ' +
+        spanPctSigned(r.blended_residual, clsR) +
+        (wl ? "  [" + escapeHtml(wl) + "]" : "") +
+        "</div>";
+      var meta =
+        '<div class="opp-meta"><span>Range:</span> ' +
+        rangeMicroBar(rp) +
+        '<span>|  Mom Z: ' +
+        spanCls(fmtZSigned2(momz), "terminal-pct-neu") +
+        "</span></div>";
+      var note =
+        rl && rl !== "N/A"
+          ? '<div class="residual-note">' + escapeHtml(rl) + "</div>"
+          : "";
       return (
-        '<div class="bar-wrap">' +
-        '<div class="bar-track"><div class="bar-fill ' + fillCls + '" style="width:' + pct + '%"></div></div>' +
-        '<span class="bar-val">' + pct.toFixed(0) + "%</span>" +
+        '<div class="' +
+        cardCls +
+        '">' +
+        head +
+        dayLine +
+        hourLine +
+        blendLine +
+        meta +
+        note +
         "</div>"
       );
     }
 
-    function renderWatchTable(rows, longSide) {
+    function renderOpportunityStack(rows, isLong) {
       if (!rows || !rows.length) {
         return '<div class="empty-msg">No data</div>';
       }
-      var body = rows
-        .map(function (r) {
-          var z =
-            r.zscore != null && !Number.isNaN(Number(r.zscore))
-              ? Number(r.zscore).toFixed(2)
-              : "N/A";
-          var rpRaw = r.range_pct != null ? r.range_pct : r.range_percentile;
-          var rp =
-            rpRaw != null && !Number.isNaN(Number(rpRaw))
-              ? Number(rpRaw).toFixed(1)
-              : "N/A";
-          var st = r.strength != null ? r.strength : r.signal_strength;
-          return (
-            "<tr><td><strong>" + escapeHtml(r.ticker) + "</strong></td>" +
-            "<td>" + z + "</td>" +
-            "<td>" + rp + "</td>" +
-            "<td>" + strengthBar(st, longSide) + "</td></tr>"
-          );
+      return rows
+        .map(function (row) {
+          return renderOpportunityCard(row, isLong);
         })
         .join("");
-      return (
-        '<table><thead><tr>' +
-        "<th>Ticker</th><th>Z-Score</th><th>Range%</th><th>Strength</th>" +
-        "</tr></thead><tbody>" + body + "</tbody></table>"
-      );
     }
 
     function renderFooter(data) {
@@ -835,8 +1093,14 @@
       renderRiskRegime(data);
       renderMomentumContext(data);
       renderConfirmed(data);
-      document.getElementById("oversold-wrap").innerHTML = renderWatchTable(data.top_oversold, true);
-      document.getElementById("overbought-wrap").innerHTML = renderWatchTable(data.top_overbought, false);
+      document.getElementById("oversold-wrap").innerHTML = renderOpportunityStack(
+        data.top_oversold,
+        true
+      );
+      document.getElementById("overbought-wrap").innerHTML = renderOpportunityStack(
+        data.top_overbought,
+        false
+      );
       renderFooter(data);
     }
 
