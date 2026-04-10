@@ -1,37 +1,99 @@
 {
-  "timestamp": "2026-04-10 16:31:31 UTC",
+  "timestamp": "2026-04-10 17:13:18 UTC",
+  "file_ts": "20260410_171318",
   "regime": "STRONG_BULL",
-  "qqq_momentum": 4.79,
-  "msqqumol_momentum": 9.65,
-  "msqqumol_zscore": 0.63,
+  "qqq_10d_momentum_pct": 3.354283487777206,
+  "msqq_10d_momentum_pct": 5.832851182763092,
+  "msqq_5h_z": 0.4109069467875307,
+  "msqqumol_suspended": false,
+  "circuit_breaker_active": false,
+  "qqq_hourly_return_pct": -0.13422599073512242,
+  "signal_threshold": 2.0,
   "trading_mode": "LONG+SHORT",
-  "threshold": 2.0,
-  "suspended": false,
-  "circuit_breaker": false,
-  "confirmed_signals": [],
-  "top_oversold": [
-    { "ticker": "CMCSA", "zscore": -1.7, "range_pct": 17.2, "strength": 0.85 },
-    { "ticker": "OMC", "zscore": -1.66, "range_pct": 41.1, "strength": 0.83 },
-    { "ticker": "PINS", "zscore": -1.33, "range_pct": 23.0, "strength": 0.66 },
-    { "ticker": "ACN", "zscore": -1.12, "range_pct": 0.0, "strength": 0.56 },
-    { "ticker": "DIS", "zscore": -0.98, "range_pct": 29.5, "strength": 0.49 }
+  "long_candidates": [],
+  "short_candidates": [],
+  "top_opportunities_oversold": [
+    {
+      "ticker": "SNOW",
+      "zscore": -1.0737041224820796,
+      "range_percentile": 0.0,
+      "signal_strength": 0.5368520612410398
+    },
+    {
+      "ticker": "NOW",
+      "zscore": -0.911121774159468,
+      "range_percentile": 0.08236101578584497,
+      "signal_strength": 0.455560887079734
+    },
+    {
+      "ticker": "ACN",
+      "zscore": -0.7390249648101761,
+      "range_percentile": 0.0,
+      "signal_strength": 0.36951248240508805
+    },
+    {
+      "ticker": "TEAM",
+      "zscore": -0.7239443853491021,
+      "range_percentile": 0.0,
+      "signal_strength": 0.36197219267455105
+    },
+    {
+      "ticker": "RBLX",
+      "zscore": -0.6788035583504959,
+      "range_percentile": 9.192307692307693,
+      "signal_strength": 0.33940177917524794
+    }
   ],
-  "top_overbought": [
-    { "ticker": "COHR", "zscore": 1.76, "range_pct": 100.0, "strength": 0.88 },
-    { "ticker": "CRWV", "zscore": 1.65, "range_pct": 85.4, "strength": 0.82 },
-    { "ticker": "DELL", "zscore": 1.01, "range_pct": 91.0, "strength": 0.5 },
-    { "ticker": "AAOI", "zscore": 0.95, "range_pct": 100.0, "strength": 0.47 },
-    { "ticker": "NVDA", "zscore": 0.92, "range_pct": 75.9, "strength": 0.46 }
+  "top_opportunities_overbought": [
+    {
+      "ticker": "AXTI",
+      "zscore": 0.6045983360510699,
+      "range_percentile": 91.02411162925208,
+      "signal_strength": 0.30229916802553497
+    },
+    {
+      "ticker": "COHR",
+      "zscore": 0.5731025901584363,
+      "range_percentile": 100.0,
+      "signal_strength": 0.28655129507921817
+    },
+    {
+      "ticker": "VZ",
+      "zscore": 0.45585685570696616,
+      "range_percentile": 58.57707509881421,
+      "signal_strength": 0.22792842785348308
+    },
+    {
+      "ticker": "NBIS",
+      "zscore": 0.36948047980473686,
+      "range_percentile": 98.78925412074844,
+      "signal_strength": 0.18474023990236843
+    },
+    {
+      "ticker": "T",
+      "zscore": 0.3299030026523487,
+      "range_percentile": 53.48101265822783,
+      "signal_strength": 0.16495150132617434
+    }
   ],
-  "risk_score": 5,
-  "risk_classification": "MILD_RISK_ON",
+  "signal_count": 0,
+  "hedge_note": null,
+  "notes": "ok",
+  "vix_level": 20.11,
+  "mandate": {
+    "max_long_pct": 8.0,
+    "max_short_pct": 3.0,
+    "max_net_exposure_pct": 10.0
+  },
+  "risk_score": 7,
+  "risk_classification": "STRONG_RISK_ON",
   "risk_components": {
     "qqq_trend": 1,
     "vix_level": 0,
     "vix_term_structure": 1,
     "credit_spreads": 1,
     "momentum_factor": 1,
-    "small_cap_ratio": -1,
+    "small_cap_ratio": 1,
     "qqq_short_momentum": 1,
     "vix_direction": 1
   }
