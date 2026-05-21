@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-05-20 17:30:04 ET (2026-05-20 21:30:04 UTC)",
-  "file_ts": "20260520_173004",
-  "market_status_et": "MARKET CLOSED",
+  "timestamp": "2026-05-21 09:30:04 ET (2026-05-21 13:30:04 UTC)",
+  "file_ts": "20260521_093004",
+  "market_status_et": "MARKET OPEN",
   "regime": "STRONG_BULL",
   "qqq_10d_momentum_pct": 4.607328306979196,
   "msqq_10d_momentum_pct": 0.15726324743613107,
@@ -14,7 +14,7 @@
   "circuit_breaker": false,
   "msqqumol_suspended": false,
   "circuit_breaker_active": false,
-  "circuit_breaker_label": "N/A (market closed)",
+  "circuit_breaker_label": "inactive",
   "momentum_factor_return_this_hour_pct": 0.36381467692817465,
   "momentum_context": {
     "factor_return": 0.36381467692817465,
@@ -31,8 +31,8 @@
         "intraday_return": -7.326364280652016,
         "intraday_expected": 3.459983069158379,
         "intraday_residual": -10.786347349810395,
-        "blended_residual": -5.301776494236007,
-        "weight_label": "50/50 blend",
+        "blended_residual": 0.1827943613383806,
+        "weight_label": "100% hourly (first hour)",
         "actual_return": 1.1702127659574406,
         "expected_return": 0.9874184046190602,
         "residual_return": 0.1827943613383806
@@ -47,8 +47,8 @@
         "intraday_return": 0.6701414743112422,
         "intraday_expected": 1.4523394819356716,
         "intraday_residual": -0.7821980076244295,
-        "blended_residual": -0.6793491327347595,
-        "weight_label": "50/50 blend",
+        "blended_residual": -0.5765002578450895,
+        "weight_label": "100% hourly (first hour)",
         "actual_return": -0.16202807530720745,
         "expected_return": 0.41447218253788204,
         "residual_return": -0.5765002578450895
@@ -63,8 +63,8 @@
         "intraday_return": -2.47390713298655,
         "intraday_expected": 0.7938109731311241,
         "intraday_residual": -3.2677181061176737,
-        "blended_residual": -1.121946660950692,
-        "weight_label": "50/50 blend",
+        "blended_residual": 1.0238247842162895,
+        "weight_label": "100% hourly (first hour)",
         "actual_return": 1.250364495246985,
         "expected_return": 0.2265397110306955,
         "residual_return": 1.0238247842162895
@@ -79,8 +79,8 @@
         "intraday_return": 8.024029999234724,
         "intraday_expected": 0.6439525756556337,
         "intraday_residual": 7.380077423579092,
-        "blended_residual": 3.1505640447228727,
-        "weight_label": "50/50 blend",
+        "blended_residual": -1.0789493341333452,
+        "weight_label": "100% hourly (first hour)",
         "actual_return": -0.8951765779681287,
         "expected_return": 0.18377275616521652,
         "residual_return": -1.0789493341333452
@@ -95,8 +95,8 @@
         "intraday_return": -3.542870483861566,
         "intraday_expected": 0.5305737469594822,
         "intraday_residual": -4.073444230821048,
-        "blended_residual": -2.070036919350167,
-        "weight_label": "50/50 blend",
+        "blended_residual": -0.06662960787928622,
+        "weight_label": "100% hourly (first hour)",
         "actual_return": 0.0847868217054181,
         "expected_return": 0.1514164295847043,
         "residual_return": -0.06662960787928622
@@ -113,8 +113,8 @@
         "intraday_return": -0.4502424382359738,
         "intraday_expected": -0.1966444910563873,
         "intraday_residual": -0.2535979471795865,
-        "blended_residual": -0.2201533692482102,
-        "weight_label": "50/50 blend",
+        "blended_residual": -0.18670879131683388,
+        "weight_label": "100% hourly (first hour)",
         "actual_return": -0.24282767564514818,
         "expected_return": -0.0561188843283143,
         "residual_return": -0.18670879131683388
@@ -129,8 +129,8 @@
         "intraday_return": -2.30558624333542,
         "intraday_expected": -0.18476435089096982,
         "intraday_residual": -2.1208218924444506,
-        "blended_residual": -1.52213063157268,
-        "weight_label": "50/50 blend",
+        "blended_residual": -0.9234393707009092,
+        "weight_label": "100% hourly (first hour)",
         "actual_return": -0.9761678716619313,
         "expected_return": -0.05272850096102206,
         "residual_return": -0.9234393707009092
@@ -145,8 +145,8 @@
         "intraday_return": -0.6616257088846907,
         "intraday_expected": -0.1826854920960365,
         "intraday_residual": -0.4789402167886543,
-        "blended_residual": 0.001599896105766458,
-        "weight_label": "50/50 blend",
+        "blended_residual": 0.4821400090001872,
+        "weight_label": "100% hourly (first hour)",
         "actual_return": 0.4300047778308641,
         "expected_return": -0.05213523116932314,
         "residual_return": 0.4821400090001872
@@ -161,8 +161,8 @@
         "intraday_return": 2.5645825533508004,
         "intraday_expected": -0.1790317442458762,
         "intraday_residual": 2.743614297596676,
-        "blended_residual": 1.3335546461666392,
-        "weight_label": "50/50 blend",
+        "blended_residual": -0.07650500526339779,
+        "weight_label": "100% hourly (first hour)",
         "actual_return": -0.1275975209624504,
         "expected_return": -0.0510925156990526,
         "residual_return": -0.07650500526339779
@@ -177,8 +177,8 @@
         "intraday_return": 1.2612612612612664,
         "intraday_expected": -0.17899314236708044,
         "intraday_residual": 1.440254403628347,
-        "blended_residual": 0.7012235070701102,
-        "weight_label": "50/50 blend",
+        "blended_residual": -0.037807389488126605,
+        "weight_label": "100% hourly (first hour)",
         "actual_return": -0.08888888888888699,
         "expected_return": -0.05108149940076039,
         "residual_return": -0.037807389488126605
@@ -207,12 +207,12 @@
       "intraday_return": -3.9478622000950625,
       "intraday_expected": -0.15885883504150206,
       "intraday_residual": -3.789003365053561,
-      "blended_residual": -2.1193458437252577,
-      "weight_label": "50/50 blend",
+      "blended_residual": -0.44968832239695417,
+      "weight_label": "100% hourly (first hour)",
       "actual_return": -0.49502384408043965,
       "expected_return": -0.045335521683485494,
       "residual_return": -0.44968832239695417,
-      "residual_label": "significantly underperforming momentum"
+      "residual_label": "underperforming momentum"
     },
     {
       "ticker": "NFLX",
@@ -229,12 +229,12 @@
       "intraday_return": -1.3881114966976322,
       "intraday_expected": -0.13218399809340195,
       "intraday_residual": -1.2559274986042301,
-      "blended_residual": -0.73366345831117,
-      "weight_label": "50/50 blend",
+      "blended_residual": -0.21139941801810977,
+      "weight_label": "100% hourly (first hour)",
       "actual_return": -0.24912240969312519,
       "expected_return": -0.03772299167501542,
       "residual_return": -0.21139941801810977,
-      "residual_label": "significantly underperforming momentum"
+      "residual_label": "underperforming momentum"
     },
     {
       "ticker": "RDDT",
@@ -251,12 +251,12 @@
       "intraday_return": -5.268595041322312,
       "intraday_expected": -0.11272978213391345,
       "intraday_residual": -5.155865259188398,
-      "blended_residual": -2.2532474361532118,
-      "weight_label": "50/50 blend",
+      "blended_residual": 0.6493703868819749,
+      "weight_label": "100% hourly (first hour)",
       "actual_return": 0.6171992867919393,
       "expected_return": -0.032171100090035674,
       "residual_return": 0.6493703868819749,
-      "residual_label": "significantly underperforming momentum"
+      "residual_label": "significantly outperforming momentum"
     },
     {
       "ticker": "SPOT",
@@ -273,12 +273,12 @@
       "intraday_return": -1.8727779161665756,
       "intraday_expected": -0.14233637674902594,
       "intraday_residual": -1.7304415394175499,
-      "blended_residual": -0.8073813168597834,
-      "weight_label": "50/50 blend",
+      "blended_residual": 0.115678905697983,
+      "weight_label": "100% hourly (first hour)",
       "actual_return": 0.07505860344807415,
       "expected_return": -0.04062030224990886,
       "residual_return": 0.115678905697983,
-      "residual_label": "significantly underperforming momentum"
+      "residual_label": "in line with momentum"
     },
     {
       "ticker": "FIG",
@@ -295,12 +295,12 @@
       "intraday_return": -2.9651912333476633,
       "intraday_expected": 0.0,
       "intraday_residual": -2.9651912333476633,
-      "blended_residual": -1.0582990557091203,
-      "weight_label": "50/50 blend",
+      "blended_residual": 0.8485931219294226,
+      "weight_label": "100% hourly (first hour)",
       "actual_return": 0.8485931219294226,
       "expected_return": 0.0,
       "residual_return": 0.8485931219294226,
-      "residual_label": "significantly underperforming momentum"
+      "residual_label": "significantly outperforming momentum"
     }
   ],
   "top_opportunities_overbought": [
@@ -319,8 +319,8 @@
       "intraday_return": 17.694260214525517,
       "intraday_expected": -0.04595422836397241,
       "intraday_residual": 17.74021444288949,
-      "blended_residual": 9.551792284657243,
-      "weight_label": "50/50 blend",
+      "blended_residual": 1.363370126424996,
+      "weight_label": "100% hourly (first hour)",
       "actual_return": 1.3502555966860712,
       "expected_return": -0.013114529738924723,
       "residual_return": 1.363370126424996,
@@ -341,8 +341,8 @@
       "intraday_return": 5.693455997222706,
       "intraday_expected": -0.11396682662476451,
       "intraday_residual": 5.807422823847471,
-      "blended_residual": 3.1592474047480104,
-      "weight_label": "50/50 blend",
+      "blended_residual": 0.5110719856485495,
+      "weight_label": "100% hourly (first hour)",
       "actual_return": 0.4785478547854771,
       "expected_return": -0.0325241308630724,
       "residual_return": 0.5110719856485495,
@@ -363,12 +363,12 @@
       "intraday_return": 2.34593085677475,
       "intraday_expected": -0.10828857292484717,
       "intraday_residual": 2.4542194296995974,
-      "blended_residual": 1.4770682887009279,
-      "weight_label": "50/50 blend",
+      "blended_residual": 0.4999171477022583,
+      "weight_label": "100% hourly (first hour)",
       "actual_return": 0.4690134907251343,
       "expected_return": -0.030903656977124022,
       "residual_return": 0.4999171477022583,
-      "residual_label": "significantly outperforming momentum"
+      "residual_label": "outperforming momentum"
     },
     {
       "ticker": "FSLR",
@@ -385,8 +385,8 @@
       "intraday_return": 7.284290289116416,
       "intraday_expected": -0.07977564237064017,
       "intraday_residual": 7.364065931487056,
-      "blended_residual": 4.016477353868866,
-      "weight_label": "50/50 blend",
+      "blended_residual": 0.668888776250676,
+      "weight_label": "100% hourly (first hour)",
       "actual_return": 0.6461222089170853,
       "expected_return": -0.022766567333590747,
       "residual_return": 0.668888776250676,
@@ -407,12 +407,12 @@
       "intraday_return": 2.1863191177604753,
       "intraday_expected": -0.12233526246931291,
       "intraday_residual": 2.308654380229788,
-      "blended_residual": 1.3193820408248982,
-      "weight_label": "50/50 blend",
+      "blended_residual": 0.3301097014200084,
+      "weight_label": "100% hourly (first hour)",
       "actual_return": 0.29519736593118595,
       "expected_return": -0.03491233548882246,
       "residual_return": 0.3301097014200084,
-      "residual_label": "significantly outperforming momentum"
+      "residual_label": "outperforming momentum"
     }
   ],
   "top_oversold": [
@@ -432,12 +432,12 @@
       "intraday_return": -3.9478622000950625,
       "intraday_expected": -0.15885883504150206,
       "intraday_residual": -3.789003365053561,
-      "blended_residual": -2.1193458437252577,
-      "weight_label": "50/50 blend",
+      "blended_residual": -0.44968832239695417,
+      "weight_label": "100% hourly (first hour)",
       "actual_return": -0.49502384408043965,
       "expected_return": -0.045335521683485494,
       "residual_return": -0.44968832239695417,
-      "residual_label": "significantly underperforming momentum"
+      "residual_label": "underperforming momentum"
     },
     {
       "ticker": "NFLX",
@@ -455,12 +455,12 @@
       "intraday_return": -1.3881114966976322,
       "intraday_expected": -0.13218399809340195,
       "intraday_residual": -1.2559274986042301,
-      "blended_residual": -0.73366345831117,
-      "weight_label": "50/50 blend",
+      "blended_residual": -0.21139941801810977,
+      "weight_label": "100% hourly (first hour)",
       "actual_return": -0.24912240969312519,
       "expected_return": -0.03772299167501542,
       "residual_return": -0.21139941801810977,
-      "residual_label": "significantly underperforming momentum"
+      "residual_label": "underperforming momentum"
     },
     {
       "ticker": "RDDT",
@@ -478,12 +478,12 @@
       "intraday_return": -5.268595041322312,
       "intraday_expected": -0.11272978213391345,
       "intraday_residual": -5.155865259188398,
-      "blended_residual": -2.2532474361532118,
-      "weight_label": "50/50 blend",
+      "blended_residual": 0.6493703868819749,
+      "weight_label": "100% hourly (first hour)",
       "actual_return": 0.6171992867919393,
       "expected_return": -0.032171100090035674,
       "residual_return": 0.6493703868819749,
-      "residual_label": "significantly underperforming momentum"
+      "residual_label": "significantly outperforming momentum"
     },
     {
       "ticker": "SPOT",
@@ -501,12 +501,12 @@
       "intraday_return": -1.8727779161665756,
       "intraday_expected": -0.14233637674902594,
       "intraday_residual": -1.7304415394175499,
-      "blended_residual": -0.8073813168597834,
-      "weight_label": "50/50 blend",
+      "blended_residual": 0.115678905697983,
+      "weight_label": "100% hourly (first hour)",
       "actual_return": 0.07505860344807415,
       "expected_return": -0.04062030224990886,
       "residual_return": 0.115678905697983,
-      "residual_label": "significantly underperforming momentum"
+      "residual_label": "in line with momentum"
     },
     {
       "ticker": "FIG",
@@ -524,12 +524,12 @@
       "intraday_return": -2.9651912333476633,
       "intraday_expected": 0.0,
       "intraday_residual": -2.9651912333476633,
-      "blended_residual": -1.0582990557091203,
-      "weight_label": "50/50 blend",
+      "blended_residual": 0.8485931219294226,
+      "weight_label": "100% hourly (first hour)",
       "actual_return": 0.8485931219294226,
       "expected_return": 0.0,
       "residual_return": 0.8485931219294226,
-      "residual_label": "significantly underperforming momentum"
+      "residual_label": "significantly outperforming momentum"
     }
   ],
   "top_overbought": [
@@ -549,8 +549,8 @@
       "intraday_return": 17.694260214525517,
       "intraday_expected": -0.04595422836397241,
       "intraday_residual": 17.74021444288949,
-      "blended_residual": 9.551792284657243,
-      "weight_label": "50/50 blend",
+      "blended_residual": 1.363370126424996,
+      "weight_label": "100% hourly (first hour)",
       "actual_return": 1.3502555966860712,
       "expected_return": -0.013114529738924723,
       "residual_return": 1.363370126424996,
@@ -572,8 +572,8 @@
       "intraday_return": 5.693455997222706,
       "intraday_expected": -0.11396682662476451,
       "intraday_residual": 5.807422823847471,
-      "blended_residual": 3.1592474047480104,
-      "weight_label": "50/50 blend",
+      "blended_residual": 0.5110719856485495,
+      "weight_label": "100% hourly (first hour)",
       "actual_return": 0.4785478547854771,
       "expected_return": -0.0325241308630724,
       "residual_return": 0.5110719856485495,
@@ -595,12 +595,12 @@
       "intraday_return": 2.34593085677475,
       "intraday_expected": -0.10828857292484717,
       "intraday_residual": 2.4542194296995974,
-      "blended_residual": 1.4770682887009279,
-      "weight_label": "50/50 blend",
+      "blended_residual": 0.4999171477022583,
+      "weight_label": "100% hourly (first hour)",
       "actual_return": 0.4690134907251343,
       "expected_return": -0.030903656977124022,
       "residual_return": 0.4999171477022583,
-      "residual_label": "significantly outperforming momentum"
+      "residual_label": "outperforming momentum"
     },
     {
       "ticker": "FSLR",
@@ -618,8 +618,8 @@
       "intraday_return": 7.284290289116416,
       "intraday_expected": -0.07977564237064017,
       "intraday_residual": 7.364065931487056,
-      "blended_residual": 4.016477353868866,
-      "weight_label": "50/50 blend",
+      "blended_residual": 0.668888776250676,
+      "weight_label": "100% hourly (first hour)",
       "actual_return": 0.6461222089170853,
       "expected_return": -0.022766567333590747,
       "residual_return": 0.668888776250676,
@@ -641,12 +641,12 @@
       "intraday_return": 2.1863191177604753,
       "intraday_expected": -0.12233526246931291,
       "intraday_residual": 2.308654380229788,
-      "blended_residual": 1.3193820408248982,
-      "weight_label": "50/50 blend",
+      "blended_residual": 0.3301097014200084,
+      "weight_label": "100% hourly (first hour)",
       "actual_return": 0.29519736593118595,
       "expected_return": -0.03491233548882246,
       "residual_return": 0.3301097014200084,
-      "residual_label": "significantly outperforming momentum"
+      "residual_label": "outperforming momentum"
     }
   ],
   "signal_count": 0,
