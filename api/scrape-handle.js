@@ -26,12 +26,17 @@ export const config = {
 const HANDLE_RE = /^[A-Za-z0-9_]{1,15}$/;
 const NINETY_DAYS_MS = 90 * 24 * 60 * 60 * 1000;
 
-const MAX_PAGES = 3;                  // 300 tweets ceiling (was 4 → 504 on jukan05)
+const MAX_PAGES = 4;                  // 400 tweets ceiling
 const PER_X_CALL_TIMEOUT_MS = 7000;   // 7s per X HTTP request
-const X_FETCH_BUDGET_MS = 18000;      // total wall-clock cap for all X calls
-const ANTHROPIC_TIMEOUT_MS = 28000;   // SDK-level timeout per attempt
-const ANTHROPIC_WALL_MS = 32000;      // hard outer Promise.race cap (defense vs. SDK retries)
-const ANTHROPIC_MAX_RETRIES = 0;      // default is 2 — kills our budget on timeout
+const X_FETCH_BUDGET_MS = 15000;      // total wall-clock cap for all X calls
+
+// Anthropic: parallel chunking instead of one giant call.
+// Single Claude call on 300+ tweets reliably blew >30s (504 on jukan05).
+// Two parallel calls of ~half the tweets each finish in ~half the wall time.
+const ANTHROPIC_CHUNK_SIZE = 175;     // tweets per parallel call
+const ANTHROPIC_TIMEOUT_MS = 30000;   // per-call SDK timeout
+const ANTHROPIC_WALL_MS = 34000;      // hard outer Promise.race cap per chunk
+const ANTHROPIC_MAX_RETRIES = 0;      // default 2 — would blow our budget on retry
 
 const EXTRACTION_SCHEMA = {
   type: "object",
@@ -145,16 +150,18 @@ async function fetchTimeline(userId, bearer, startIso, budgetDeadlineMs) {
   return { tweets: out, truncated };
 }
 
-async function extractIdeas(tweets, handle, anthropicKey) {
-  const anthropic = new Anthropic({
-    apiKey: anthropicKey,
-    timeout: ANTHROPIC_TIMEOUT_MS,
-    maxRetries: ANTHROPIC_MAX_RETRIES,
-  });
+function chunkTweets(tweets, size) {
+  const chunks = [];
+  for (let i = 0; i < tweets.length; i += size) {
+    chunks.push(tweets.slice(i, i + size));
+  }
+  return chunks;
+}
 
-  const lines = tweets.map((t) => `[${t.id}] ${t.created_at} — ${t.text}`);
-  const userMsg = `Extract trading ideas from these ${tweets.length} tweets by @${handle} (most recent ~90 days):\n\n${lines.join("\n\n")}`;
-
+async function extractIdeasOneChunk(chunkTweets, handle, anthropic, label) {
+  if (!chunkTweets.length) return [];
+  const lines = chunkTweets.map((t) => `[${t.id}] ${t.created_at} — ${t.text}`);
+  const userMsg = `Extract trading ideas from these ${chunkTweets.length} tweets by @${handle}:\n\n${lines.join("\n\n")}`;
   const system = [
     `You are extracting trading ideas from a Twitter user's recent posts.`,
     `For each tweet that contains a SPECIFIC, ACTIONABLE thesis on a publicly-traded stock (with ticker), emit ONE entry. Skip:`,
@@ -165,38 +172,59 @@ async function extractIdeas(tweets, handle, anthropicKey) {
   ].join("\n");
 
   const t0 = Date.now();
-  // Promise.race wall-clock guard: even if the SDK ignores timeout / retries
-  // anyway, we hard-bail at ANTHROPIC_WALL_MS. Without this, jukan05 (~300
-  // tweets passed in) hit Vercel's 60s function cap and returned a 504.
-  const resp = await Promise.race([
-    anthropic.messages.create({
-      model: "claude-haiku-4-5",
-      max_tokens: 8000,
-      system,
-      output_config: {
-        format: { type: "json_schema", schema: EXTRACTION_SCHEMA },
-      },
-      messages: [{ role: "user", content: userMsg }],
-    }),
-    new Promise((_, reject) =>
-      setTimeout(() => reject(new Error("anthropic_wall_timeout")), ANTHROPIC_WALL_MS),
-    ),
-  ]);
-  console.log(`[scrape-handle] Anthropic call: ${Date.now() - t0}ms (input ${resp.usage?.input_tokens}, output ${resp.usage?.output_tokens})`);
-
-  const textBlock = resp.content.find((b) => b.type === "text");
-  if (!textBlock) return [];
-  let parsed;
   try {
-    parsed = JSON.parse(textBlock.text);
+    const resp = await Promise.race([
+      anthropic.messages.create({
+        model: "claude-haiku-4-5",
+        max_tokens: 8000,
+        system,
+        output_config: { format: { type: "json_schema", schema: EXTRACTION_SCHEMA } },
+        messages: [{ role: "user", content: userMsg }],
+      }),
+      new Promise((_, reject) =>
+        setTimeout(() => reject(new Error("anthropic_wall_timeout")), ANTHROPIC_WALL_MS),
+      ),
+    ]);
+    console.log(`[scrape-handle] chunk ${label}: ${Date.now() - t0}ms (in=${resp.usage?.input_tokens} out=${resp.usage?.output_tokens})`);
+    const textBlock = resp.content.find((b) => b.type === "text");
+    if (!textBlock) return [];
+    const parsed = JSON.parse(textBlock.text);
+    return Array.isArray(parsed?.ideas) ? parsed.ideas : [];
   } catch (e) {
-    console.log(`[scrape-handle] JSON parse failed: ${e.message}`);
-    return [];
+    console.log(`[scrape-handle] chunk ${label} FAILED after ${Date.now() - t0}ms: ${e.message || e}`);
+    return []; // partial degradation — other chunks may still succeed
   }
-  const ideas = Array.isArray(parsed?.ideas) ? parsed.ideas : [];
+}
 
-  return ideas
-    .filter((i) => i && i.ticker && i.tweet_id)
+async function extractIdeas(tweets, handle, anthropicKey) {
+  const anthropic = new Anthropic({
+    apiKey: anthropicKey,
+    timeout: ANTHROPIC_TIMEOUT_MS,
+    maxRetries: ANTHROPIC_MAX_RETRIES,
+  });
+
+  // Sort by date desc first so chunk 1 = newest tweets (most valuable if a chunk fails).
+  const sorted = [...tweets].sort((a, b) =>
+    (a.created_at || "") < (b.created_at || "") ? 1 : -1,
+  );
+
+  const chunks = chunkTweets(sorted, ANTHROPIC_CHUNK_SIZE);
+  console.log(`[scrape-handle] extracting ideas in ${chunks.length} parallel chunk(s) of up to ${ANTHROPIC_CHUNK_SIZE}`);
+
+  const results = await Promise.all(
+    chunks.map((c, i) => extractIdeasOneChunk(c, handle, anthropic, String(i + 1))),
+  );
+  const rawIdeas = results.flat();
+
+  // Dedupe by tweet_id (same tweet shouldn't end up in two chunks, but defensive)
+  const byId = new Map();
+  for (const i of rawIdeas) {
+    if (i && i.ticker && i.tweet_id && !byId.has(i.tweet_id)) {
+      byId.set(i.tweet_id, i);
+    }
+  }
+
+  return Array.from(byId.values())
     .map((i) => ({
       tweet_id: i.tweet_id,
       date: i.date,
