@@ -26,10 +26,12 @@ export const config = {
 const HANDLE_RE = /^[A-Za-z0-9_]{1,15}$/;
 const NINETY_DAYS_MS = 90 * 24 * 60 * 60 * 1000;
 
-const MAX_PAGES = 4;                  // 400 tweets ceiling
-const PER_X_CALL_TIMEOUT_MS = 8000;   // 8s per X HTTP request
-const X_FETCH_BUDGET_MS = 22000;      // total wall-clock cap for all X calls
-const ANTHROPIC_TIMEOUT_MS = 30000;   // 30s on the batched extraction call
+const MAX_PAGES = 3;                  // 300 tweets ceiling (was 4 → 504 on jukan05)
+const PER_X_CALL_TIMEOUT_MS = 7000;   // 7s per X HTTP request
+const X_FETCH_BUDGET_MS = 18000;      // total wall-clock cap for all X calls
+const ANTHROPIC_TIMEOUT_MS = 28000;   // SDK-level timeout per attempt
+const ANTHROPIC_WALL_MS = 32000;      // hard outer Promise.race cap (defense vs. SDK retries)
+const ANTHROPIC_MAX_RETRIES = 0;      // default is 2 — kills our budget on timeout
 
 const EXTRACTION_SCHEMA = {
   type: "object",
@@ -144,7 +146,11 @@ async function fetchTimeline(userId, bearer, startIso, budgetDeadlineMs) {
 }
 
 async function extractIdeas(tweets, handle, anthropicKey) {
-  const anthropic = new Anthropic({ apiKey: anthropicKey, timeout: ANTHROPIC_TIMEOUT_MS });
+  const anthropic = new Anthropic({
+    apiKey: anthropicKey,
+    timeout: ANTHROPIC_TIMEOUT_MS,
+    maxRetries: ANTHROPIC_MAX_RETRIES,
+  });
 
   const lines = tweets.map((t) => `[${t.id}] ${t.created_at} — ${t.text}`);
   const userMsg = `Extract trading ideas from these ${tweets.length} tweets by @${handle} (most recent ~90 days):\n\n${lines.join("\n\n")}`;
@@ -159,15 +165,23 @@ async function extractIdeas(tweets, handle, anthropicKey) {
   ].join("\n");
 
   const t0 = Date.now();
-  const resp = await anthropic.messages.create({
-    model: "claude-haiku-4-5",
-    max_tokens: 8000,
-    system,
-    output_config: {
-      format: { type: "json_schema", schema: EXTRACTION_SCHEMA },
-    },
-    messages: [{ role: "user", content: userMsg }],
-  });
+  // Promise.race wall-clock guard: even if the SDK ignores timeout / retries
+  // anyway, we hard-bail at ANTHROPIC_WALL_MS. Without this, jukan05 (~300
+  // tweets passed in) hit Vercel's 60s function cap and returned a 504.
+  const resp = await Promise.race([
+    anthropic.messages.create({
+      model: "claude-haiku-4-5",
+      max_tokens: 8000,
+      system,
+      output_config: {
+        format: { type: "json_schema", schema: EXTRACTION_SCHEMA },
+      },
+      messages: [{ role: "user", content: userMsg }],
+    }),
+    new Promise((_, reject) =>
+      setTimeout(() => reject(new Error("anthropic_wall_timeout")), ANTHROPIC_WALL_MS),
+    ),
+  ]);
   console.log(`[scrape-handle] Anthropic call: ${Date.now() - t0}ms (input ${resp.usage?.input_tokens}, output ${resp.usage?.output_tokens})`);
 
   const textBlock = resp.content.find((b) => b.type === "text");
