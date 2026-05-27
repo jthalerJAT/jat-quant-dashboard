@@ -615,6 +615,76 @@
 
     .idea-link a:hover { text-decoration: underline; }
 
+    /* Twitter Scoreboard */
+    .score-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.8rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      overflow: hidden;
+    }
+
+    .score-table th {
+      padding: 0.5rem 0.65rem;
+      background: #0d0d0d;
+      color: var(--muted);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      font-size: 0.62rem;
+      border-bottom: 1px solid var(--border);
+      cursor: pointer;
+      user-select: none;
+      text-align: right;
+      white-space: nowrap;
+    }
+
+    .score-table th:first-child { text-align: left; }
+    .score-table th:hover { color: var(--text); }
+    .score-table th .sort-arrow { opacity: 0.5; margin-left: 0.2rem; }
+    .score-table th.sorted .sort-arrow { opacity: 1; color: var(--text); }
+
+    .score-table td {
+      padding: 0.45rem 0.65rem;
+      border-bottom: 1px solid var(--border);
+      font-variant-numeric: tabular-nums;
+      text-align: right;
+    }
+
+    .score-table td:first-child {
+      text-align: left;
+    }
+
+    .score-table tr:last-child td { border-bottom: none; }
+
+    .score-table tr:hover { background: rgba(255, 255, 255, 0.025); }
+
+    .score-handle {
+      color: #93c5fd;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .score-handle:hover { text-decoration: underline; }
+
+    .score-mix {
+      font-size: 0.7rem;
+      color: var(--muted);
+      font-variant-numeric: tabular-nums;
+    }
+    .score-mix .b { color: #4ade80; }
+    .score-mix .s { color: #f87171; }
+    .score-mix .n { color: #a3a3a3; }
+
+    .score-pct {
+      color: var(--text);
+      font-weight: 600;
+    }
+
+    .score-score-strong { color: #fbbf24; font-weight: 700; }
+
     /* Earnings revisions tables */
     .rev-block {
       margin-bottom: 1.25rem;
@@ -988,6 +1058,18 @@
       </h2>
       <div class="sec-body" id="earnings-revisions-body">
         <div id="earnings-revisions-wrap"></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>
+        <button type="button" class="sec-toggle" aria-expanded="true" data-target="scoreboard">
+          <span class="sec-caret" aria-hidden="true">▾</span><span>Twitter Idea Scoreboard</span>
+          <span class="sec-stamp" id="scoreboard-stamp"></span>
+        </button>
+      </h2>
+      <div class="sec-body" id="scoreboard-body">
+        <div class="table-scroll" id="scoreboard-wrap"></div>
       </div>
     </section>
 
@@ -1856,12 +1938,153 @@
       }
     }
 
+    /* ===== Twitter Scoreboard ===== */
+
+    var SCOREBOARD_URL = "./data/handle_scores.json";
+
+    var SCOREBOARD_COLUMNS = [
+      { key: "handle",      label: "Handle",   numeric: false, defaultDesc: false },
+      { key: "n",           label: "n",        numeric: true,  defaultDesc: true  },
+      { key: "hit_rate_5d", label: "Hit 5d%",  numeric: true,  defaultDesc: true  },
+      { key: "avg_ret_5d",  label: "Avg 5d%",  numeric: true,  defaultDesc: true  },
+      { key: "score",       label: "Score",    numeric: true,  defaultDesc: true  },
+      { key: "mix",         label: "B/S/N",    numeric: false, defaultDesc: false }
+    ];
+
+    var scoreboardState = {
+      rows: [],
+      sortKey: "score",
+      sortDesc: true
+    };
+
+    function buildScoreboardRows(raw) {
+      var rows = [];
+      Object.keys(raw || {}).forEach(function (handle) {
+        var v = raw[handle] || {};
+        rows.push({
+          handle: handle,
+          n: Number(v.n) || 0,
+          hit_rate_5d: v.hit_rate_5d != null ? Number(v.hit_rate_5d) : null,
+          avg_ret_5d: v.avg_ret_5d != null ? Number(v.avg_ret_5d) : null,
+          score: v.score != null ? Number(v.score) : null,
+          n_bull: Number(v.n_bull) || 0,
+          n_bear: Number(v.n_bear) || 0,
+          n_neut: Number(v.n_neut) || 0
+        });
+      });
+      return rows;
+    }
+
+    function sortScoreboard() {
+      var key = scoreboardState.sortKey;
+      var desc = scoreboardState.sortDesc;
+      scoreboardState.rows.sort(function (a, b) {
+        var av = a[key];
+        var bv = b[key];
+        if (key === "handle") {
+          av = (av || "").toLowerCase();
+          bv = (bv || "").toLowerCase();
+          if (av < bv) return desc ? 1 : -1;
+          if (av > bv) return desc ? -1 : 1;
+          return 0;
+        }
+        // numeric, nulls last
+        var an = av == null || Number.isNaN(av);
+        var bn = bv == null || Number.isNaN(bv);
+        if (an && bn) return 0;
+        if (an) return 1;
+        if (bn) return -1;
+        return desc ? bv - av : av - bv;
+      });
+    }
+
+    function renderScoreboard() {
+      var wrap = document.getElementById("scoreboard-wrap");
+      if (!wrap) return;
+      if (!scoreboardState.rows.length) {
+        wrap.innerHTML = '<div class="empty-msg">No scoreboard data yet.</div>';
+        return;
+      }
+      var headRow = SCOREBOARD_COLUMNS.map(function (col) {
+        var sortedCls = col.key === scoreboardState.sortKey ? " sorted" : "";
+        var arrow = "";
+        if (col.key === scoreboardState.sortKey) {
+          arrow = '<span class="sort-arrow">' + (scoreboardState.sortDesc ? "▼" : "▲") + "</span>";
+        }
+        return '<th data-sort-key="' + col.key + '" class="' + sortedCls.trim() + '">' + escapeHtml(col.label) + arrow + "</th>";
+      }).join("");
+
+      var body = scoreboardState.rows.map(function (r) {
+        var hitPct = r.hit_rate_5d != null ? (r.hit_rate_5d * 100).toFixed(1) + "%" : "N/A";
+        var avgRet = r.avg_ret_5d != null ? (r.avg_ret_5d >= 0 ? "+" : "") + r.avg_ret_5d.toFixed(2) + "%" : "N/A";
+        var avgCls = r.avg_ret_5d == null ? "terminal-pct-neu" : (r.avg_ret_5d > 0 ? "terminal-pct-pos" : (r.avg_ret_5d < 0 ? "terminal-pct-neg" : "terminal-pct-neu"));
+        var score = r.score != null ? r.score.toFixed(2) : "N/A";
+        var scoreCls = (r.score != null && r.score >= 5) ? "score-score-strong" : "";
+        var mix =
+          '<span class="score-mix">' +
+            '<span class="b">' + r.n_bull + "</span>/" +
+            '<span class="s">' + r.n_bear + "</span>/" +
+            '<span class="n">' + r.n_neut + "</span>" +
+          "</span>";
+        var handleHtml = '<a class="score-handle" href="https://x.com/' + escapeHtml(r.handle) + '" target="_blank" rel="noopener">@' + escapeHtml(r.handle) + "</a>";
+
+        return (
+          "<tr>" +
+          "<td>" + handleHtml + "</td>" +
+          "<td>" + r.n + "</td>" +
+          '<td class="score-pct">' + escapeHtml(hitPct) + "</td>" +
+          "<td>" + spanCls(avgRet, avgCls) + "</td>" +
+          '<td class="' + scoreCls + '">' + escapeHtml(score) + "</td>" +
+          "<td>" + mix + "</td>" +
+          "</tr>"
+        );
+      }).join("");
+
+      wrap.innerHTML =
+        '<table class="score-table"><thead><tr>' + headRow + "</tr></thead><tbody>" + body + "</tbody></table>";
+
+      var ths = wrap.querySelectorAll("th[data-sort-key]");
+      ths.forEach(function (th) {
+        th.addEventListener("click", function () {
+          var key = th.getAttribute("data-sort-key");
+          var col = SCOREBOARD_COLUMNS.find(function (c) { return c.key === key; });
+          if (!col) return;
+          if (scoreboardState.sortKey === key) {
+            scoreboardState.sortDesc = !scoreboardState.sortDesc;
+          } else {
+            scoreboardState.sortKey = key;
+            scoreboardState.sortDesc = col.defaultDesc;
+          }
+          sortScoreboard();
+          renderScoreboard();
+        });
+      });
+    }
+
+    async function loadScoreboard() {
+      var wrap = document.getElementById("scoreboard-wrap");
+      var stampEl = document.getElementById("scoreboard-stamp");
+      if (!wrap) return;
+      try {
+        var r = await fetch(SCOREBOARD_URL, { cache: "no-store" });
+        if (!r.ok) throw new Error("HTTP " + r.status);
+        var raw = await r.json();
+        scoreboardState.rows = buildScoreboardRows(raw);
+        sortScoreboard();
+        renderScoreboard();
+        if (stampEl) stampEl.textContent = scoreboardState.rows.length + " handles";
+      } catch (e) {
+        wrap.innerHTML = '<div class="empty-msg">Could not load scoreboard: ' + escapeHtml(e.message || String(e)) + "</div>";
+      }
+    }
+
     async function loadEmailSections() {
       await Promise.all([
         loadBulletSection("market-overview"),
         loadBulletSection("jat-universe"),
         loadBulletSection("social-overview"),
         loadEarningsRevisions(),
+        loadScoreboard(),
         loadNewIdeas()
       ]);
     }
