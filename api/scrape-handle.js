@@ -18,7 +18,12 @@ export const config = {
 
 const HANDLE_RE = /^[A-Za-z0-9_]{1,15}$/;
 const NINETY_DAYS_MS = 90 * 24 * 60 * 60 * 1000;
-const MAX_PAGES = 8; // safety cap → up to 800 tweets
+// 5 pages × 100 tweets keeps total scrape under ~50s on Vercel Pro's 60s cap.
+// Active fintwit accounts post 5-15 tweets/day → 90d ≈ 450-1350 tweets;
+// 500 covers most. Ultra-prolific tape accounts (elonmusk, FirstSquawk)
+// will only reach back ~30-40 days, which is an acceptable tradeoff vs.
+// hitting the timeout and returning nothing.
+const MAX_PAGES = 5;
 
 const EXTRACTION_SCHEMA = {
   type: "object",

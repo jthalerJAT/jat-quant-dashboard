@@ -1919,12 +1919,13 @@
       var body = rows.map(function (row) {
         var t = escapeHtml(row.ticker || "");
         var v = valueFormatter(row[valueField]);
-        var n = row.n_with_data != null ? row.n_with_data : "";
+        // Dataclass field is n_obs (historical observations for percentile).
+        var n = row.n_obs != null ? row.n_obs : (row.n_with_data != null ? row.n_with_data : "");
         return "<tr><td>" + t + "</td><td>" + v + "</td><td>" + escapeHtml(String(n)) + "</td></tr>";
       }).join("");
       return (
         '<table class="rev-table"><caption>' + escapeHtml(caption) + "</caption>" +
-        "<thead><tr><th>Ticker</th><th>Value</th><th>n</th></tr></thead>" +
+        "<thead><tr><th>Ticker</th><th>Value</th><th>n_obs</th></tr></thead>" +
         "<tbody>" + body + "</tbody></table>"
       );
     }
