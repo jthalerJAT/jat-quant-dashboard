@@ -2260,15 +2260,23 @@
           setScrapeStatus("No actionable ideas found for @" + handle + " in " + (data.n_tweets || 0) + " tweets.", false);
           return;
         }
+        var truncatedNote = data.truncated
+          ? " · <span style=\"color:#fbbf24\">⚠ truncated — only first " + (data.n_tweets || 0) + " tweets fetched within the timeout</span>"
+          : "";
+        var warnNote = data.warning
+          ? " · <span style=\"color:#fca5a5\">" + escapeHtml(data.warning) + "</span>"
+          : "";
         divider.innerHTML =
           "From <strong>@" + escapeHtml(handle) + "</strong> · " +
-          ideas.length + " ideas extracted from " + (data.n_tweets || 0) + " tweets";
+          ideas.length + " ideas extracted from " + (data.n_tweets || 0) + " tweets" +
+          truncatedNote + warnNote;
         list.innerHTML = ideas.map(function (i) {
           return ideaRowHtml(i, { scrapeSource: "@" + handle });
         }).join("");
         block.hidden = false;
         clearBtn.hidden = false;
-        setScrapeStatus("Done — " + ideas.length + " ideas from " + (data.n_tweets || 0) + " tweets.", false);
+        var elapsedNote = data.elapsed_ms ? " in " + Math.round(data.elapsed_ms / 1000) + "s" : "";
+        setScrapeStatus("Done" + elapsedNote + " — " + ideas.length + " ideas from " + (data.n_tweets || 0) + " tweets" + (data.truncated ? " (truncated)" : "") + ".", false);
       } catch (e) {
         clearScrapedBlock();
         setScrapeStatus("Error: " + (e.message || e), true);

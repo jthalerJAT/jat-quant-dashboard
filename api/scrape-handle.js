@@ -9,6 +9,13 @@
 //   TWITTER_BEARER_TOKEN  — X API v2 Bearer (Pro tier so 90d lookback + user timeline works)
 //
 // Vercel Pro plan required for the 60s maxDuration (set in vercel.json).
+//
+// Wall-clock budget design (60s total Vercel cap → 55s usable):
+//   - X user lookup     : 1 call, ~0.5s
+//   - X timeline fetch  : up to MAX_PAGES, bounded by X_FETCH_BUDGET_MS
+//   - Anthropic batch   : bounded by ANTHROPIC_TIMEOUT_MS
+// If the X fetch is throttled or slow, we return whatever we have plus a
+// `truncated: true` flag so the UI can warn the user instead of getting a 504.
 
 import Anthropic from "@anthropic-ai/sdk";
 
@@ -18,12 +25,11 @@ export const config = {
 
 const HANDLE_RE = /^[A-Za-z0-9_]{1,15}$/;
 const NINETY_DAYS_MS = 90 * 24 * 60 * 60 * 1000;
-// 5 pages × 100 tweets keeps total scrape under ~50s on Vercel Pro's 60s cap.
-// Active fintwit accounts post 5-15 tweets/day → 90d ≈ 450-1350 tweets;
-// 500 covers most. Ultra-prolific tape accounts (elonmusk, FirstSquawk)
-// will only reach back ~30-40 days, which is an acceptable tradeoff vs.
-// hitting the timeout and returning nothing.
-const MAX_PAGES = 5;
+
+const MAX_PAGES = 4;                  // 400 tweets ceiling
+const PER_X_CALL_TIMEOUT_MS = 8000;   // 8s per X HTTP request
+const X_FETCH_BUDGET_MS = 22000;      // total wall-clock cap for all X calls
+const ANTHROPIC_TIMEOUT_MS = 30000;   // 30s on the batched extraction call
 
 const EXTRACTION_SCHEMA = {
   type: "object",
@@ -55,12 +61,20 @@ function jsonResponse(res, status, body) {
   res.send(JSON.stringify(body));
 }
 
+function fetchWithTimeout(url, opts, timeoutMs) {
+  const ac = new AbortController();
+  const t = setTimeout(() => ac.abort(new Error("timeout")), timeoutMs);
+  return fetch(url, { ...(opts || {}), signal: ac.signal }).finally(() => clearTimeout(t));
+}
+
 async function lookupUser(handle, bearer) {
-  const r = await fetch(`https://api.twitter.com/2/users/by/username/${handle}`, {
-    headers: { Authorization: `Bearer ${bearer}` },
-  });
+  const r = await fetchWithTimeout(
+    `https://api.twitter.com/2/users/by/username/${handle}`,
+    { headers: { Authorization: `Bearer ${bearer}` } },
+    PER_X_CALL_TIMEOUT_MS,
+  );
   if (!r.ok) {
-    const detail = await r.text();
+    const detail = await r.text().catch(() => "");
     const err = new Error(`X user lookup failed (${r.status})`);
     err.status = r.status === 404 ? 404 : 502;
     err.detail = detail;
@@ -75,10 +89,19 @@ async function lookupUser(handle, bearer) {
   return body.data;
 }
 
-async function fetchTimeline(userId, bearer, startIso) {
+async function fetchTimeline(userId, bearer, startIso, budgetDeadlineMs) {
   const out = [];
   let nextToken = null;
+  let pagesAttempted = 0;
+  let truncated = false;
+
   for (let i = 0; i < MAX_PAGES; i++) {
+    pagesAttempted++;
+    if (Date.now() > budgetDeadlineMs) {
+      console.log(`[scrape-handle] X budget exhausted after ${pagesAttempted - 1} pages`);
+      truncated = true;
+      break;
+    }
     const params = new URLSearchParams({
       max_results: "100",
       start_time: startIso,
@@ -86,24 +109,42 @@ async function fetchTimeline(userId, bearer, startIso) {
       exclude: "retweets,replies",
     });
     if (nextToken) params.set("pagination_token", nextToken);
-    const r = await fetch(`https://api.twitter.com/2/users/${userId}/tweets?${params}`, {
-      headers: { Authorization: `Bearer ${bearer}` },
-    });
+
+    const pageStart = Date.now();
+    let r;
+    try {
+      r = await fetchWithTimeout(
+        `https://api.twitter.com/2/users/${userId}/tweets?${params}`,
+        { headers: { Authorization: `Bearer ${bearer}` } },
+        PER_X_CALL_TIMEOUT_MS,
+      );
+    } catch (e) {
+      console.log(`[scrape-handle] X page ${i + 1} fetch threw: ${e.message || e}`);
+      truncated = true;
+      break;
+    }
+    const pageMs = Date.now() - pageStart;
+
     if (!r.ok) {
-      // Soft-fail on pagination errors — return what we have.
+      const detail = await r.text().catch(() => "");
+      console.log(`[scrape-handle] X page ${i + 1} status=${r.status} (${pageMs}ms): ${detail.slice(0, 200)}`);
+      // Soft-fail: return what we have so the user gets *something*.
+      truncated = true;
       break;
     }
     const body = await r.json();
     const batch = body?.data || [];
     out.push(...batch);
+    console.log(`[scrape-handle] X page ${i + 1}: ${batch.length} tweets in ${pageMs}ms (cum ${out.length})`);
+
     nextToken = body?.meta?.next_token;
     if (!nextToken) break;
   }
-  return out;
+  return { tweets: out, truncated };
 }
 
 async function extractIdeas(tweets, handle, anthropicKey) {
-  const anthropic = new Anthropic({ apiKey: anthropicKey });
+  const anthropic = new Anthropic({ apiKey: anthropicKey, timeout: ANTHROPIC_TIMEOUT_MS });
 
   const lines = tweets.map((t) => `[${t.id}] ${t.created_at} — ${t.text}`);
   const userMsg = `Extract trading ideas from these ${tweets.length} tweets by @${handle} (most recent ~90 days):\n\n${lines.join("\n\n")}`;
@@ -117,6 +158,7 @@ async function extractIdeas(tweets, handle, anthropicKey) {
     `Sort the output by date descending. Cap at 50 ideas.`,
   ].join("\n");
 
+  const t0 = Date.now();
   const resp = await anthropic.messages.create({
     model: "claude-haiku-4-5",
     max_tokens: 8000,
@@ -126,6 +168,7 @@ async function extractIdeas(tweets, handle, anthropicKey) {
     },
     messages: [{ role: "user", content: userMsg }],
   });
+  console.log(`[scrape-handle] Anthropic call: ${Date.now() - t0}ms (input ${resp.usage?.input_tokens}, output ${resp.usage?.output_tokens})`);
 
   const textBlock = resp.content.find((b) => b.type === "text");
   if (!textBlock) return [];
@@ -133,6 +176,7 @@ async function extractIdeas(tweets, handle, anthropicKey) {
   try {
     parsed = JSON.parse(textBlock.text);
   } catch (e) {
+    console.log(`[scrape-handle] JSON parse failed: ${e.message}`);
     return [];
   }
   const ideas = Array.isArray(parsed?.ideas) ? parsed.ideas : [];
@@ -153,6 +197,7 @@ async function extractIdeas(tweets, handle, anthropicKey) {
 }
 
 export default async function handler(req, res) {
+  const T0 = Date.now();
   if (req.method !== "GET" && req.method !== "POST") {
     return jsonResponse(res, 405, { error: "Method not allowed" });
   }
@@ -171,10 +216,17 @@ export default async function handler(req, res) {
     });
   }
 
+  console.log(`[scrape-handle] start handle=${rawHandle}`);
+
   try {
+    const tUserStart = Date.now();
     const user = await lookupUser(rawHandle, bearer);
+    console.log(`[scrape-handle] user lookup: ${Date.now() - tUserStart}ms (id=${user.id})`);
+
     const startIso = new Date(Date.now() - NINETY_DAYS_MS).toISOString();
-    const tweets = await fetchTimeline(user.id, bearer, startIso);
+    const xBudgetDeadline = Date.now() + X_FETCH_BUDGET_MS;
+    const { tweets, truncated } = await fetchTimeline(user.id, bearer, startIso, xBudgetDeadline);
+    console.log(`[scrape-handle] X fetch total: ${tweets.length} tweets (truncated=${truncated})`);
 
     if (!tweets.length) {
       return jsonResponse(res, 200, {
@@ -182,12 +234,33 @@ export default async function handler(req, res) {
         user_id: user.id,
         user_name: user.name || null,
         n_tweets: 0,
+        n_ideas: 0,
         ideas: [],
+        truncated,
+        elapsed_ms: Date.now() - T0,
       });
     }
 
-    const ideas = await extractIdeas(tweets, rawHandle, anthropicKey);
+    let ideas = [];
+    try {
+      ideas = await extractIdeas(tweets, rawHandle, anthropicKey);
+    } catch (e) {
+      console.log(`[scrape-handle] extractIdeas threw: ${e.message || e}`);
+      // Return what we got from X with empty ideas; better than 504.
+      return jsonResponse(res, 200, {
+        handle: rawHandle,
+        user_id: user.id,
+        user_name: user.name || null,
+        n_tweets: tweets.length,
+        n_ideas: 0,
+        ideas: [],
+        truncated: true,
+        warning: "Idea extraction failed within timeout — try again or pick a less prolific handle.",
+        elapsed_ms: Date.now() - T0,
+      });
+    }
 
+    console.log(`[scrape-handle] DONE handle=${rawHandle} total=${Date.now() - T0}ms n_tweets=${tweets.length} n_ideas=${ideas.length}`);
     return jsonResponse(res, 200, {
       handle: rawHandle,
       user_id: user.id,
@@ -195,8 +268,11 @@ export default async function handler(req, res) {
       n_tweets: tweets.length,
       n_ideas: ideas.length,
       ideas,
+      truncated,
+      elapsed_ms: Date.now() - T0,
     });
   } catch (e) {
+    console.log(`[scrape-handle] FAILED handle=${rawHandle} total=${Date.now() - T0}ms error=${e.message || e}`);
     return jsonResponse(res, e.status || 500, {
       error: e.message || "Scrape failed",
       detail: e.detail || undefined,
