@@ -30,12 +30,14 @@ const MAX_PAGES = 4;                  // 400 tweets ceiling
 const PER_X_CALL_TIMEOUT_MS = 7000;   // 7s per X HTTP request
 const X_FETCH_BUDGET_MS = 15000;      // total wall-clock cap for all X calls
 
-// Anthropic: parallel chunking instead of one giant call.
-// Single Claude call on 300+ tweets reliably blew >30s (504 on jukan05).
-// Two parallel calls of ~half the tweets each finish in ~half the wall time.
-const ANTHROPIC_CHUNK_SIZE = 175;     // tweets per parallel call
-const ANTHROPIC_TIMEOUT_MS = 30000;   // per-call SDK timeout
-const ANTHROPIC_WALL_MS = 34000;      // hard outer Promise.race cap per chunk
+// Anthropic: parallel chunking. Sized empirically from per-chunk diag —
+// 175 reliably timed out at 30s, 49 succeeded in 21.7s. Linear estimate
+// says ~70 tweets is the safe ceiling for a 30s budget; 60 leaves margin
+// for prompt-overhead variance. With 400 tweets / 60 = 7 parallel chunks
+// all finishing in ~20s, total wall time ≈ 20s for extraction.
+const ANTHROPIC_CHUNK_SIZE = 60;
+const ANTHROPIC_TIMEOUT_MS = 32000;   // per-call SDK timeout
+const ANTHROPIC_WALL_MS = 35000;      // hard outer Promise.race cap per chunk
 const ANTHROPIC_MAX_RETRIES = 0;      // default 2 — would blow our budget on retry
 
 // Date is intentionally NOT in this schema. We look it up server-side from
