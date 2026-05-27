@@ -685,6 +685,110 @@
 
     .score-score-strong { color: #fbbf24; font-weight: 700; }
 
+    /* Pull ideas from twitter handle */
+    .handle-scrape {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 0.75rem 1rem;
+      margin-bottom: 0.85rem;
+    }
+
+    .handle-scrape label {
+      display: block;
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      margin-bottom: 0.4rem;
+      font-weight: 600;
+    }
+
+    .handle-scrape-row {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+    }
+
+    .handle-prefix {
+      color: var(--muted);
+      font-weight: 600;
+      font-size: 0.9rem;
+    }
+
+    .handle-scrape input {
+      flex: 1;
+      min-width: 12rem;
+      background: #0d0d0d;
+      border: 1px solid var(--border);
+      border-radius: 3px;
+      color: var(--text);
+      padding: 0.45rem 0.6rem;
+      font-size: 0.9rem;
+      font-family: inherit;
+    }
+
+    .handle-scrape input:focus {
+      outline: none;
+      border-color: #93c5fd;
+      box-shadow: 0 0 0 1px #93c5fd;
+    }
+
+    .handle-scrape button {
+      background: #1f1f1f;
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 0.45rem 0.85rem;
+      border-radius: 3px;
+      cursor: pointer;
+      font-size: 0.85rem;
+      font-weight: 600;
+      font-family: inherit;
+      white-space: nowrap;
+    }
+
+    .handle-scrape button:hover { background: #2a2a2a; }
+    .handle-scrape button:disabled { opacity: 0.5; cursor: not-allowed; }
+
+    .handle-scrape-clear {
+      background: transparent !important;
+      border: 1px solid var(--border);
+      color: var(--muted) !important;
+    }
+
+    .handle-scrape-clear:hover {
+      color: var(--text) !important;
+      border-color: var(--accent);
+    }
+
+    .handle-scrape-status {
+      margin-top: 0.55rem;
+      font-size: 0.75rem;
+      color: var(--muted);
+      font-style: italic;
+    }
+
+    .handle-scrape-status.err {
+      color: #fca5a5;
+      font-style: normal;
+    }
+
+    .scraped-divider {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      padding: 0.5rem 0;
+      border-bottom: 1px dashed var(--border);
+      margin-bottom: 0.55rem;
+    }
+
+    .scraped-divider strong {
+      color: var(--text);
+      font-weight: 700;
+    }
+
     /* Earnings revisions tables */
     .rev-block {
       margin-bottom: 1.25rem;
@@ -1081,6 +1185,22 @@
         </button>
       </h2>
       <div class="sec-body" id="new-ideas-body">
+        <div class="handle-scrape">
+          <form id="handle-scrape-form" autocomplete="off">
+            <label for="handle-scrape-input">Pull ideas from twitter handle</label>
+            <div class="handle-scrape-row">
+              <span class="handle-prefix">@</span>
+              <input id="handle-scrape-input" type="text" placeholder="username" maxlength="15" spellcheck="false" />
+              <button type="submit" id="handle-scrape-btn">Scrape last 90d</button>
+              <button type="button" id="handle-scrape-clear" class="handle-scrape-clear" hidden>✕ Clear</button>
+            </div>
+          </form>
+          <div id="handle-scrape-status" class="handle-scrape-status"></div>
+        </div>
+        <div id="scraped-ideas-block" hidden>
+          <div class="scraped-divider" id="scraped-divider"></div>
+          <ul class="idea-list" id="scraped-ideas-list"></ul>
+        </div>
         <ul class="idea-list" id="new-ideas-list"></ul>
       </div>
     </section>
@@ -2089,7 +2209,94 @@
       ]);
     }
 
+    /* ===== Pull ideas from twitter handle (serverless function) ===== */
+
+    var HANDLE_INPUT_RE = /^[A-Za-z0-9_]{1,15}$/;
+
+    function clearScrapedBlock() {
+      var block = document.getElementById("scraped-ideas-block");
+      var list = document.getElementById("scraped-ideas-list");
+      var divider = document.getElementById("scraped-divider");
+      var clearBtn = document.getElementById("handle-scrape-clear");
+      if (list) list.innerHTML = "";
+      if (divider) divider.innerHTML = "";
+      if (block) block.hidden = true;
+      if (clearBtn) clearBtn.hidden = true;
+    }
+
+    function setScrapeStatus(text, isErr) {
+      var el = document.getElementById("handle-scrape-status");
+      if (!el) return;
+      el.textContent = text || "";
+      if (isErr) el.classList.add("err"); else el.classList.remove("err");
+    }
+
+    async function runHandleScrape(rawHandle) {
+      var handle = String(rawHandle || "").trim().replace(/^@/, "");
+      if (!HANDLE_INPUT_RE.test(handle)) {
+        setScrapeStatus("Invalid handle — letters, digits, underscore only (max 15).", true);
+        return;
+      }
+      var btn = document.getElementById("handle-scrape-btn");
+      var clearBtn = document.getElementById("handle-scrape-clear");
+      var divider = document.getElementById("scraped-divider");
+      var list = document.getElementById("scraped-ideas-list");
+      var block = document.getElementById("scraped-ideas-block");
+
+      if (btn) btn.disabled = true;
+      setScrapeStatus("Scraping @" + handle + "’s last 90 days… (15–30s)", false);
+
+      try {
+        var r = await fetch("./api/scrape-handle?handle=" + encodeURIComponent(handle), { cache: "no-store" });
+        var data = null;
+        try { data = await r.json(); } catch (_) { data = {}; }
+        if (!r.ok) {
+          throw new Error(data.error || ("HTTP " + r.status) + (data.detail ? " — " + data.detail : ""));
+        }
+        var ideas = Array.isArray(data.ideas) ? data.ideas : [];
+        if (!ideas.length) {
+          clearScrapedBlock();
+          setScrapeStatus("No actionable ideas found for @" + handle + " in " + (data.n_tweets || 0) + " tweets.", false);
+          return;
+        }
+        divider.innerHTML =
+          "From <strong>@" + escapeHtml(handle) + "</strong> · " +
+          ideas.length + " ideas extracted from " + (data.n_tweets || 0) + " tweets";
+        list.innerHTML = ideas.map(function (i) {
+          return ideaRowHtml(i, { scrapeSource: "@" + handle });
+        }).join("");
+        block.hidden = false;
+        clearBtn.hidden = false;
+        setScrapeStatus("Done — " + ideas.length + " ideas from " + (data.n_tweets || 0) + " tweets.", false);
+      } catch (e) {
+        clearScrapedBlock();
+        setScrapeStatus("Error: " + (e.message || e), true);
+      } finally {
+        if (btn) btn.disabled = false;
+      }
+    }
+
+    function attachHandleScrape() {
+      var form = document.getElementById("handle-scrape-form");
+      var input = document.getElementById("handle-scrape-input");
+      var clearBtn = document.getElementById("handle-scrape-clear");
+      if (!form || !input) return;
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        runHandleScrape(input.value);
+      });
+      if (clearBtn) {
+        clearBtn.addEventListener("click", function () {
+          clearScrapedBlock();
+          input.value = "";
+          setScrapeStatus("", false);
+          input.focus();
+        });
+      }
+    }
+
     initCollapsibles();
+    attachHandleScrape();
     loadSignals();
     loadEmailSections();
     setInterval(loadSignals, REFRESH_MS);
