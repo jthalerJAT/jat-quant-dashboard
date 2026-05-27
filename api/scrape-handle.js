@@ -160,7 +160,7 @@ function chunkTweets(tweets, size) {
   return chunks;
 }
 
-async function extractIdeasOneChunk(chunkTweets, handle, anthropic, label) {
+async function extractIdeasOneChunk(chunkTweets, handle, anthropic, label, diag) {
   if (!chunkTweets.length) return [];
   // The tweets passed to us are ALREADY sorted newest → oldest. Include the
   // position so Claude knows recency, and explicitly tell it newer matters more.
@@ -209,18 +209,37 @@ async function extractIdeasOneChunk(chunkTweets, handle, anthropic, label) {
         setTimeout(() => reject(new Error("anthropic_wall_timeout")), ANTHROPIC_WALL_MS),
       ),
     ]);
-    console.log(`[scrape-handle] chunk ${label}: ${Date.now() - t0}ms (in=${resp.usage?.input_tokens} out=${resp.usage?.output_tokens})`);
+    const elapsed = Date.now() - t0;
+    console.log(`[scrape-handle] chunk ${label}: ${elapsed}ms (in=${resp.usage?.input_tokens} out=${resp.usage?.output_tokens})`);
     const textBlock = resp.content.find((b) => b.type === "text");
-    if (!textBlock) return [];
+    if (!textBlock) {
+      if (diag) diag.push({ chunk: label, status: "no_text_block", elapsed_ms: elapsed, ideas: 0 });
+      return [];
+    }
     const parsed = JSON.parse(textBlock.text);
-    return Array.isArray(parsed?.ideas) ? parsed.ideas : [];
+    const ideas = Array.isArray(parsed?.ideas) ? parsed.ideas : [];
+    if (diag) {
+      diag.push({
+        chunk: label,
+        status: "ok",
+        elapsed_ms: elapsed,
+        n_in: chunkTweets.length,
+        in_first_date: chunkTweets[0]?.created_at?.slice(0, 10),
+        in_last_date: chunkTweets[chunkTweets.length - 1]?.created_at?.slice(0, 10),
+        ideas: ideas.length,
+        usage: { in: resp.usage?.input_tokens, out: resp.usage?.output_tokens },
+      });
+    }
+    return ideas;
   } catch (e) {
-    console.log(`[scrape-handle] chunk ${label} FAILED after ${Date.now() - t0}ms: ${e.message || e}`);
+    const elapsed = Date.now() - t0;
+    console.log(`[scrape-handle] chunk ${label} FAILED after ${elapsed}ms: ${e.message || e}`);
+    if (diag) diag.push({ chunk: label, status: "failed", elapsed_ms: elapsed, error: String(e.message || e), n_in: chunkTweets.length });
     return []; // partial degradation — other chunks may still succeed
   }
 }
 
-async function extractIdeas(tweets, handle, anthropicKey) {
+async function extractIdeas(tweets, handle, anthropicKey, diag) {
   const anthropic = new Anthropic({
     apiKey: anthropicKey,
     timeout: ANTHROPIC_TIMEOUT_MS,
@@ -236,7 +255,7 @@ async function extractIdeas(tweets, handle, anthropicKey) {
   console.log(`[scrape-handle] extracting ideas in ${chunks.length} parallel chunk(s) of up to ${ANTHROPIC_CHUNK_SIZE}`);
 
   const results = await Promise.all(
-    chunks.map((c, i) => extractIdeasOneChunk(c, handle, anthropic, String(i + 1))),
+    chunks.map((c, i) => extractIdeasOneChunk(c, handle, anthropic, String(i + 1), diag)),
   );
   const rawIdeas = results.flat();
 
@@ -327,8 +346,9 @@ export default async function handler(req, res) {
     }
 
     let ideas = [];
+    const diag = [];
     try {
-      ideas = await extractIdeas(tweets, rawHandle, anthropicKey);
+      ideas = await extractIdeas(tweets, rawHandle, anthropicKey, diag);
     } catch (e) {
       console.log(`[scrape-handle] extractIdeas threw: ${e.message || e}`);
       // Return what we got from X with empty ideas; better than 504.
@@ -355,6 +375,7 @@ export default async function handler(req, res) {
       ideas,
       truncated,
       elapsed_ms: Date.now() - T0,
+      diag,
     });
   } catch (e) {
     console.log(`[scrape-handle] FAILED handle=${rawHandle} total=${Date.now() - T0}ms error=${e.message || e}`);
