@@ -160,15 +160,37 @@ function chunkTweets(tweets, size) {
 
 async function extractIdeasOneChunk(chunkTweets, handle, anthropic, label) {
   if (!chunkTweets.length) return [];
-  const lines = chunkTweets.map((t) => `[${t.id}] ${t.created_at} — ${t.text}`);
-  const userMsg = `Extract trading ideas from these ${chunkTweets.length} tweets by @${handle}:\n\n${lines.join("\n\n")}`;
+  // The tweets passed to us are ALREADY sorted newest → oldest. Include the
+  // position so Claude knows recency, and explicitly tell it newer matters more.
+  const lines = chunkTweets.map((t, i) => `[#${i + 1} | id=${t.id} | ${t.created_at}] ${t.text}`);
+  const userMsg = `Extract trading ideas from these ${chunkTweets.length} tweets by @${handle}, listed newest-first.\n\nNewer tweets are more valuable — when in doubt, lean toward extracting from the top of this list.\n\n${lines.join("\n\n")}`;
   const system = [
-    `You are extracting trading ideas from a Twitter user's recent posts.`,
-    `For each tweet that contains a SPECIFIC, ACTIONABLE thesis on a publicly-traded stock (with ticker), emit ONE entry. Skip:`,
-    `- generic market commentary with no ticker`,
-    `- retweets without added commentary`,
-    `- tweets without a directional view`,
-    `Sort the output by date descending. Cap at 50 ideas.`,
+    `You extract trading ideas from a single user's recent posts.`,
+    ``,
+    `WHAT COUNTS AS AN IDEA — emit ONE entry per tweet that implies a directional view (positive or negative) on a specific publicly-traded company. This INCLUDES:`,
+    `- Explicit pitches with cashtags ($NVDA long, short $TSLA)`,
+    `- Company name mentions with a directional take (e.g. "Infineon announces price hikes" → IFX bullish; "NVIDIA Rubin CPX launch in doubt" → NVDA bearish)`,
+    `- News commentary where the author selectively forwards bullish or bearish information about a specific company`,
+    `- Supply-chain reads, analyst-note summaries, earnings reads, channel checks — anything with a directional implication for one or more named companies`,
+    ``,
+    `WHAT TO SKIP:`,
+    `- Bare URL-only tweets with no commentary`,
+    `- Pure macro/index commentary with no company named`,
+    `- Generic life/sports tweets`,
+    `- Retweets / quote-tweets without added analytical framing`,
+    ``,
+    `TICKER MAPPING — when a tweet names a company without using a $TICKER, map to the most likely publicly-traded ticker. Examples:`,
+    `- NVIDIA → NVDA, Apple → AAPL, Microsoft → MSFT, AMD → AMD`,
+    `- Taiwan Semiconductor/TSMC → TSM, ASML → ASML, Infineon → IFX, STMicroelectronics → STM`,
+    `- UMC (United Microelectronics) → UMC, Samsung → 005930.KS (or skip if you're unsure)`,
+    `- Amkor → AMKR, SanDisk → SNDK, Marvell → MRVL, Broadcom → AVGO, Intel → INTC, POET → POET`,
+    `- If a company is mentioned but you cannot confidently identify the ticker, OMIT the entry. Do not invent tickers.`,
+    ``,
+    `LANGUAGE — these tweets may be in English, Korean, Mandarin, or other languages. Classify stance regardless of language. Common Korean signals: 매수/롱/줍줍 (bullish), 매도/숏 (bearish).`,
+    ``,
+    `STANCE — each entry must be one of: bullish, bearish, neutral. Neutral is fine for substantive news that lacks a clear directional implication.`,
+    ``,
+    `OUTPUT — sort ideas by date descending (newest first). Cap at 50.`,
   ].join("\n");
 
   const t0 = Date.now();
