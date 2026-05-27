@@ -38,23 +38,25 @@ const ANTHROPIC_TIMEOUT_MS = 30000;   // per-call SDK timeout
 const ANTHROPIC_WALL_MS = 34000;      // hard outer Promise.race cap per chunk
 const ANTHROPIC_MAX_RETRIES = 0;      // default 2 — would blow our budget on retry
 
+// Date is intentionally NOT in this schema. We look it up server-side from
+// the tweet_id against the original X API payload, so Claude can't fabricate
+// dates from references inside tweet text.
 const EXTRACTION_SCHEMA = {
   type: "object",
   properties: {
     ideas: {
       type: "array",
       description:
-        "Trading ideas extracted from the tweets. One entry per tweet that contains a specific, actionable, directional thesis on a publicly-traded ticker. Skip generic market commentary, retweets-without-comment, and tweets without a clear directional view. Sort by date descending. Limit to 50.",
+        "Trading ideas extracted from the tweets. One entry per tweet that contains a specific, actionable, directional thesis on a publicly-traded ticker. Skip generic market commentary, retweets-without-comment, and tweets without a clear directional view. Limit to 50.",
       items: {
         type: "object",
         properties: {
-          tweet_id: { type: "string", description: "The tweet's id as given in the [bracketed id] prefix." },
-          date: { type: "string", description: "The tweet's created_at timestamp (ISO 8601)." },
-          ticker: { type: "string", description: "Uppercase ticker symbol (e.g., NVDA). Omit the entry entirely if no ticker is mentioned." },
+          tweet_id: { type: "string", description: "MUST be copied verbatim from the [id=...] field of the source tweet's prefix. Do NOT invent ids." },
+          ticker: { type: "string", description: "Uppercase ticker symbol (e.g., NVDA). Map from company name to ticker when possible." },
           stance: { type: "string", description: "One of: bullish, bearish, neutral." },
           summary: { type: "string", description: "1–2 sentence summary of the thesis. Be specific — include price targets, catalysts, and timeframe when present." },
         },
-        required: ["tweet_id", "date", "ticker", "stance", "summary"],
+        required: ["tweet_id", "ticker", "stance", "summary"],
         additionalProperties: false,
       },
     },
@@ -238,25 +240,44 @@ async function extractIdeas(tweets, handle, anthropicKey) {
   );
   const rawIdeas = results.flat();
 
+  // Build tweet_id -> tweet lookup so we can attach the REAL created_at date
+  // (Claude was hallucinating dates by reading them from tweet text). Also
+  // serves as a validator — any tweet_id Claude invents gets dropped here.
+  const tweetById = new Map(sorted.map((t) => [t.id, t]));
+
+  console.log(`[scrape-handle] raw ideas from all chunks: ${rawIdeas.length}`);
+
   // Dedupe by tweet_id (same tweet shouldn't end up in two chunks, but defensive)
   const byId = new Map();
+  let droppedNoTweet = 0;
   for (const i of rawIdeas) {
-    if (i && i.ticker && i.tweet_id && !byId.has(i.tweet_id)) {
+    if (!i || !i.ticker || !i.tweet_id) continue;
+    if (!tweetById.has(i.tweet_id)) {
+      droppedNoTweet++;
+      continue; // hallucinated id
+    }
+    if (!byId.has(i.tweet_id)) {
       byId.set(i.tweet_id, i);
     }
   }
+  if (droppedNoTweet > 0) {
+    console.log(`[scrape-handle] dropped ${droppedNoTweet} ideas with hallucinated tweet_ids`);
+  }
 
   return Array.from(byId.values())
-    .map((i) => ({
-      tweet_id: i.tweet_id,
-      date: i.date,
-      ticker: String(i.ticker || "").toUpperCase(),
-      stance: String(i.stance || "neutral").toLowerCase(),
-      summary: i.summary || "",
-      handle,
-      tweet_url: `https://x.com/${handle}/status/${i.tweet_id}`,
-    }))
-    .sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0))
+    .map((i) => {
+      const t = tweetById.get(i.tweet_id);
+      return {
+        tweet_id: i.tweet_id,
+        date: t?.created_at || null,
+        ticker: String(i.ticker || "").toUpperCase(),
+        stance: String(i.stance || "neutral").toLowerCase(),
+        summary: i.summary || "",
+        handle,
+        tweet_url: `https://x.com/${handle}/status/${i.tweet_id}`,
+      };
+    })
+    .sort((a, b) => ((a.date || "") < (b.date || "") ? 1 : (a.date || "") > (b.date || "") ? -1 : 0))
     .slice(0, 50);
 }
 
