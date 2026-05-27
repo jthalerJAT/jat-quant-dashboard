@@ -1,246 +1,224 @@
 {
-  "digest_type": "premarket",
-  "digest_dt": "2026-05-27T08:30:00-04:00",
-  "saved_at": "2026-05-27T16:00:32.568751+00:00",
+  "digest_type": "eod",
+  "digest_dt": "2026-05-27T18:00:00-04:00",
+  "saved_at": "2026-05-27T22:16:56.712285+00:00",
   "bullets": [
     {
-      "title": "MU: UBS triples PT to $1,625; crosses $1T market cap on +19-22% surge",
-      "body": "UBS raised Micron's PT to $1,625, projecting EPS comfortably above $100 through 2029E and ~$400B FCF generation 2027-2029E, citing long-term agreements (LTAs) gaining traction and AI-driven structural memory demand. MU surpassed $1T market cap alongside SK Hynix, with the AI data-center boom driving DRAM revenue near $100B globally in Q1 2026. UBS views LTAs as securing multi-year demand visibility with price floor guarantees.",
+      "title": "SNOW: Massive F1Q27 beat; Wolfe upgrades to Outperform $235 PT; FY27 guide raised to 31% growth",
+      "body": "Snowflake F1Q27 product revenue $1,334M (+34% y/y) beat consensus by ~$70M (5%); NRR improved to 126% from 125%; cRPO $4.60B (+38% y/y). F2Q27 product revenue guided $1,415\u20131,420M (30% y/y) vs consensus $1,374M. FY27 product revenue raised to $5,840M (+30.6% y/y vs prior 26.6%) and operating margin guide lifted to 13.5% from 12.5%. Wolfe upgraded to Outperform with $235 PT (32% upside from $177.60); KeyBanc $200 PT under review with stock trading ~$227 AH. Company announced $6B multi-year AWS commitment and acquired Natoma MCP platform for AI agent governance.",
+      "tickers": [
+        "SNOW",
+        "AMZN"
+      ],
+      "source_item_ids": [
+        "gmail:19e6b159910ac448",
+        "gmail:19e6b1247822ca9c"
+      ]
+    },
+    {
+      "title": "MRVL: Q1 beat + significantly raised FY27/FY28 guidance on exceptional AI bookings; stock +9%",
+      "body": "Marvell Q1 revenue $2.42B (+28% y/y) beat consensus $2.41B; Q2 guide $2.70B (+35% y/y) well above FactSet $2.60B. Management significantly raised FY27 and FY28 revenue outlook (FY28 expected ~$16.5B) driven by exceptional AI-related bookings across 800G/1.6T optics, 51.2T Ethernet switches, and custom XPU solutions. Revenue expected to accelerate each quarter throughout FY27.",
+      "tickers": [
+        "MRVL"
+      ],
+      "source_item_ids": [
+        "gmail:19e6b0d328292073",
+        "gmail:19e6b1dc574ac7c0"
+      ]
+    },
+    {
+      "title": "CRM: Q1 EPS massive beat ($3.88 vs $3.13); FY EPS guide raised sharply; Q2 revenue guide slightly light",
+      "body": "Salesforce Q1 revenue $11.13B beat consensus $11.05B; EPS $3.88 crushed FactSet $3.13. FY27 EPS guidance raised to $14.06\u201314.12 from prior $13.11\u201313.19. Agentforce ARR cited at $1B+ (up from $800M). Q2 revenue guided $11.27\u201311.35B slightly below consensus $11.35B; FCF guide ~4\u20135% growth implies deceleration. Wolfe rates Outperform with $240 PT (34% upside).",
+      "tickers": [
+        "CRM"
+      ],
+      "source_item_ids": [
+        "gmail:19e6b1422780669e",
+        "gmail:19e6b292ed466a0f"
+      ]
+    },
+    {
+      "title": "HOOD: Launches AI agentic trading & credit card feature \u2014 bulls see incremental revenue story",
+      "body": "Robinhood announced a platform feature allowing AI agents (e.g., Anthropic's Claude) to autonomously trade stocks, make credit card purchases, and execute transactions on behalf of customers; derivatives, crypto, and prediction markets planned next. GS TMT desk flagged this as an incremental revenue catalyst alongside credit card expansion.",
+      "tickers": [
+        "HOOD"
+      ],
+      "source_item_ids": [
+        "gmail:19e6b31ccd678e32",
+        "x:2059613452281290951"
+      ]
+    },
+    {
+      "title": "META: Launches paid subscription tiers for Instagram ($3.99/mo), Facebook ($3.99/mo), WhatsApp ($2.99/mo)",
+      "body": "Meta announced subscription services across its three main apps with AI-focused plans coming in future tiers. GS TMT desk describes this as a 'fully incremental story' against AI cost pressures, and stock rose ~3.7% on the day. JPM notes Meta expanding AI chatbot subscriptions to offset AI infrastructure spending pressure.",
+      "tickers": [
+        "META"
+      ],
+      "source_item_ids": [
+        "gmail:19e6a9f4957af987",
+        "gmail:19e6b31ccd678e32"
+      ]
+    },
+    {
+      "title": "GOOGL: Morgan Stanley raises bull case to $460; hyperscaler revenue per GW estimates seen as conservative",
+      "body": "MS raised GOOGL bull case PT from $425 to $460 (28x '27 bull-case EPS ~$16.50). Analysis argues current AWS/Google Cloud growth forecasts of 35\u201336%/77\u201386% in '26/'27 imply $11\u201314B incremental revenue per GW, suggesting estimates may be conservative. Google Cloud '27 at $11B incremental per GW seen as carrying the most upside potential among hyperscalers.",
+      "tickers": [
+        "GOOGL",
+        "AMZN"
+      ],
+      "source_item_ids": [
+        "gmail:19e6b299ce058387"
+      ]
+    },
+    {
+      "title": "MU: Market cap crosses $1T threshold; stock up ~9% pre-market on data center demand momentum",
+      "body": "Micron broke the $1T market-cap threshold intraday, up ~9% pre-market and gaining 6% to push above Berkshire Hathaway's market cap. Data center demand remains the key driver; one analyst notes current LTA structures provide a structural pricing floor absent in prior memory cycles, tempering read-through to broad DRAM market.",
       "tickers": [
         "MU"
       ],
       "source_item_ids": [
-        "gmail:19e6675784595636",
-        "gmail:19e683c95c4b026d"
+        "x:2059610893869088862",
+        "gmail:19e6b1310b966b7d"
       ]
     },
     {
-      "title": "Semis broad rally: SOXX +5.5%; MU, STX, WDC, MRVL, SNDK hit all-time highs",
-      "body": "The semiconductor index posted its strongest day since April 8 on AI demand momentum, with MU +19-22%, MRVL +5.8%, STX +6.3%, WDC +6.3%, AMD crossing $800B market cap for the first time, and SNDK upgraded to OW at Barclays (PT raised to $2,300 from $1,200). JPM is revising datacenter capex estimates up +80% for 2026 and +50% for 2027 with memory accounting for ~30% of hyperscaler capex vs ~8% in 2023-2024. TSMC reportedly eyeing a 15% 3nm price hike in H2 2026 on tight supply.",
+      "title": "HPE: Q2 revenue $14.41B beat ($13.99B est); raises FY EPS guide to $2.90\u2013$3.10",
+      "body": "HPE Q2 revenue $14.41B (+6.3% y/y CC) beat consensus $13.99B; operating margin 7.5% vs Street 6.5%; EPS beat on top of prior guidance. FY26 EPS guide raised to $2.90\u20133.10 vs prior $2.90\u20133.20; FCF guidance $2.8\u20133.0B maintained. Component constraints noted but not materially impacting near-term guide.",
       "tickers": [
-        "MU",
-        "MRVL",
-        "STX",
-        "WDC",
-        "AMD",
-        "SNDK",
-        "TSM"
+        "HPE"
       ],
       "source_item_ids": [
-        "gmail:19e6963a92de7b15",
-        "gmail:19e693f449f720c7"
+        "gmail:19e6b480707ed2e0",
+        "gmail:19e6b445fc5535c2"
       ]
     },
     {
-      "title": "NVDA: Jensen commits $150B/yr Taiwan spend; Rubin CPX launch in doubt",
-      "body": "CEO Jensen Huang declared NVDA will invest up to $150B annually in Taiwan AI suppliers, calling Taiwan the 'epicenter of the AI revolution.' On the downside, one report flagged NVDA's Rubin CPX inference GPU launch as in doubt with no memory or substrate orders confirmed. NVDA also announced it intends to return ~50% of FCF (~$111B TTM) to shareholders, which Goldman estimates would add 50bps to S&P 500 total cash return.",
+      "title": "NOW: ServiceNow targets $30B revenue by 2030; RaptorDB Pro at $200M sales run-rate",
+      "body": "At Jefferies Software/AI conference, ServiceNow highlighted Now Assist with 20 AI specialists, RaptorDB Pro adoption generating $200M in sales over the last four quarters, and Workflow Data Fabric targeting $1B+ revenue potential. The 2030 base case of $30B in revenue implies significant margin and FCF expansion from current levels.",
       "tickers": [
-        "NVDA"
+        "NOW"
       ],
       "source_item_ids": [
-        "x:2059541506290229542",
-        "gmail:19e696316bc39aa0"
+        "gmail:19e6b31859912cf4"
       ]
     },
     {
-      "title": "ZS: -25% post-earnings as FY27 ARR guide 16-17% vs Street 21%; cybersecurity complex under pressure",
-      "body": "Zscaler delivered a solid F3Q26 beat (revenue $850.5M, ARR $3.525B, both ahead) but guided FY27 ARR/revenue growth at 16-17% vs consensus of ~19-21%, citing departure of two senior sales leaders and conservative new-logo assumptions. The cybersecurity complex sold off in sympathy: CRWD -4.3%, PANW -4.8%, NET -3.1%, OKTA -3%. Evercore downgraded ZS to In-Line (PT $155 from $225); Piper cut PT to $160; Truist cut to $200; Citi and KeyBanc maintained Buy/OW but lowered estimates. Wolfe kept Outperform, citing 44% valuation discount (5x CY27E revenue) to peers.",
+      "title": "IREN: +13.5% on $1.6B Dell Blackwell purchase agreement for Texas data center",
+      "body": "IREN entered a $1.6B purchase agreement with Dell for air-cooled Blackwell systems at its Childress, Texas data center. B. Riley raised targets on IREN (alongside APLD, CORZ, WULF) following an institutional conference; hyperscale HPC names outperforming traditional data center REITs (EQIX, DLR lower) as investors price de-risked energy access.",
       "tickers": [
-        "NET",
-        "CRWD",
-        "PANW"
-      ],
-      "source_item_ids": [
-        "gmail:19e693f449f720c7",
-        "gmail:19e676a5e318a56f"
-      ]
-    },
-    {
-      "title": "SMTC: Beat/raise; data center revenue +85% Y/Y in FQ2; UBS raises PT to $225",
-      "body": "Semtech reported FQ1 beat (EPS $0.51 vs $0.48 guide) and guided FQ2 revenue $323-333M, ~10% above Street, on 800G FiberEdge strength and Google Ironwood ACC ramp. Data center now ~50% of revenue, growing 35% Q/Q and 85% Y/Y in FQ2. UBS raised PT from $165 to $225 (32x CY27/28E); Morgan Stanley raised PT to $175. LoRa also accelerating with favorable pricing.",
-      "tickers": [
-        "MRVL",
-        "AVGO"
-      ],
-      "source_item_ids": [
-        "gmail:19e68290c984a36e",
-        "gmail:19e666652cc78b47"
-      ]
-    },
-    {
-      "title": "CRM/MRVL/MDB: Key software/semi prints tonight; SNOW least-liked going in",
-      "body": "CRM (consensus EPS $3.13, revenue $11.05B) and MRVL (EPS $0.80, revenue $2.41B) report after close today; MDB reports Thursday (EPS $1.19, revenue $664.5M). JPM flags CRM and SNOW as pivotal for software sentiment. DA Davidson expects MDB Atlas growth 28-29% vs 26% guidance with beat/raise potential. SNOW enters as the least-liked of the big three infrastructure names per JPM sentiment tracker; Cortex Code cited as potential revenue accelerant.",
-      "tickers": [
-        "CRM",
-        "MRVL",
-        "MDB",
-        "SNOW"
-      ],
-      "source_item_ids": [
-        "gmail:19e694f9f0ccd83c",
-        "gmail:19e69194a3598708"
-      ]
-    },
-    {
-      "title": "APP: META non-IDFA overhang removed; Morgan Stanley sees 50% upside to 2030 revenue",
-      "body": "APP surged ~7% after Edgewater noted META is unlikely to pursue non-IDFA iOS bidding before 2027, removing a key competitive threat. Morgan Stanley (OW, $720 PT) argues every 10bp improvement in APP's ~1.3% conversion rate drives ~17% revenue growth; sustaining 20bp annual expansion would yield 34% revenue CAGR through 2030 and put a $1,100 bull case in play. JPM notes APP is now in the 'Consensus Long' quadrant of its tech sentiment matrix.",
-      "tickers": [
-        "APP",
-        "META"
-      ],
-      "source_item_ids": [
-        "gmail:19e67a1d99f8e27c",
-        "gmail:19e694f9f0ccd83c"
-      ]
-    },
-    {
-      "title": "GOOGL: First 10/10 in JPM tech sentiment; Google commits to fast iteration on AI",
-      "body": "GOOGL became the first 10/10 stock in JPM's Tech Sentiment Matrix, described as the most-loved Internet stock and a 'full-stack AI winner.' JPM also notes Google shipping imperfect UX and iterating quickly, with Gemini becoming a control plane as Search/Gemini converge. Separately, GOOGL faces a triple-digit million euro EU fine for DMA antitrust breaches.",
-      "tickers": [
-        "GOOGL"
-      ],
-      "source_item_ids": [
-        "gmail:19e694f9f0ccd83c",
-        "gmail:19e6861de6ea7e01"
-      ]
-    },
-    {
-      "title": "INTU: BofA reinstates Buy at $400 PT (31% upside); down ~24% in 5 days pre-note",
-      "body": "BofA's Tal Liani reinstated INTU at Buy with a $400 price target implying 31% upside from ~$304; FactSet consensus is $498 average. The stock had declined ~24% over the prior five days. WDAY reinstated at Neutral with $140 PT.",
-      "tickers": [
-        "INTU"
-      ],
-      "source_item_ids": [
-        "gmail:19e695085e8a065a",
-        "gmail:19e6956012bd4ad8"
-      ]
-    },
-    {
-      "title": "PSKY/WBD: DOJ set to approve Paramount's $110B WBD takeover; MS double-upgrades PSKY to OW",
-      "body": "The DOJ is expected to approve Paramount's acquisition of Warner Bros. Discovery after CEO David Ellison reaffirmed theatrical release commitments; July 15 target close, with a $0.25/share quarterly ticking fee for WBD after September 30. Morgan Stanley double-upgraded PSKY to Overweight and names FWONK as its top 'Live 5' media pick.",
-      "tickers": [
-        "PSKY",
-        "WBD",
-        "FWONK"
-      ],
-      "source_item_ids": [
-        "gmail:19e67a0719141efc",
-        "gmail:19e694fb138a95d0"
-      ]
-    },
-    {
-      "title": "SPOT/NFLX/ROKU: Morgan Stanley reiterates OW on all three; SPOT 'King of Media'",
-      "body": "JPM names GOOGL, AMZN, SPOT, DASH, and NFLX as top Internet picks. Morgan Stanley reiterates OW on SPOT (AI overhang 'mostly gone'), NFLX, and ROKU. JPM notes NFLX is increasingly a funding short in Media on anemic engagement growth, while RBLX is sharply downgraded with 'almost no bulls left' after a disappointing guide.",
-      "tickers": [
-        "SPOT",
-        "NFLX",
-        "ROKU",
-        "RBLX"
-      ],
-      "source_item_ids": [
-        "gmail:19e694fb138a95d0",
-        "gmail:19e687708c71da9f"
-      ]
-    },
-    {
-      "title": "EQIX: Morgan Stanley names top pick among Data Center REITs on 'Inference Inflection'",
-      "body": "Morgan Stanley positions EQIX as its top pick in data center REITs on an Inference Inflection thesis. Goldman separately highlights CLS (PT $475) as a buy, noting demand exceeds supply across networking and compute with the 800G/1.6T upgrade cycle intact, though supply constraints may limit 2026 upside.",
-      "tickers": [
+        "IREN",
+        "DLR",
         "EQIX",
-        "CLS"
+        "CORZ"
       ],
       "source_item_ids": [
-        "gmail:19e694fb138a95d0",
-        "gmail:19e694f1d4af1cb1"
+        "gmail:19e6b171bcad1bb0",
+        "gmail:19e6b1310b966b7d"
       ]
     },
     {
-      "title": "RDDT: DA Davidson Buy with $200 PT; DAU tracking 20.3% vs 18% consensus",
-      "body": "DA Davidson reiterates Buy on RDDT with $200 PT, citing DAU growth tracking 20.3% vs 18% consensus and Reddit pixel penetration at 9% vs PINS at 6.3% and SNAP at 5%. The firm sees strong advertising infrastructure competitive positioning.",
+      "title": "OKLO: Goldman raises PT to $66 from $63 on DOE plutonium conversion program selection",
+      "body": "Goldman Sachs raised OKLO's price target to $66 from $63 following DOE selection for a plutonium conversion program targeting approximately 20 metric tons.",
+      "tickers": [
+        "OKLO"
+      ],
+      "source_item_ids": [
+        "gmail:19e6b2270477fd80"
+      ]
+    },
+    {
+      "title": "ETSY: Sequential improvement in active buyers for first time in 2+ years; reaffirms FY26 GMV guidance",
+      "body": "At Bernstein conference, Etsy management noted first sequential improvement in active buyers in over two years from new and reactivated cohorts; mobile app now 47% of GMV with 40% higher LTV. Depop sale to eBay for $1.2B expected to close after UK approval with proceeds likely directed to buybacks. Full-year 2026 guidance reaffirmed with increased confidence in sustainable GMV growth.",
+      "tickers": [
+        "ETSY"
+      ],
+      "source_item_ids": [
+        "gmail:19e6abccffe908b6"
+      ]
+    },
+    {
+      "title": "RDDT: JPM hosting corporate access event June 9 with COO, CFO, and IR team in NYC",
+      "body": "JP Morgan's Doug Anmuth hosting in-person investor meetings with Reddit COO Jen Wong, CFO Drew Vollero, and IR team on June 9 in New York. Limited spots available.",
       "tickers": [
         "RDDT"
       ],
       "source_item_ids": [
-        "gmail:19e695a8ac672b0e"
+        "gmail:19e6ac0e814273f9"
       ]
     },
     {
-      "title": "T: Reaffirms guidance; plans $45B+ shareholder returns 2026-2028; broadband pricing cuts",
-      "body": "AT&T reaffirmed long-term guidance and plans to return $45B+ to shareholders via dividends and buybacks through 2028, targeting net debt/EBITDA of ~2.5x post-EchoStar. Q2 FCF guided $4.0-4.5B. JPM's broadband tracker shows AT&T cutting 1/2/5 Gbps pricing by $12/month while raising lower-speed tiers by $5.",
+      "title": "S&P Index Changes: EPAM exits S&P 500 to S&P 600; SSTK, DAVE, FDXF, FDX impacted effective Jun 1",
+      "body": "S&P announced index changes effective June 1: FedEx Freight (FDXF) added to S&P 500 replacing EPAM Systems; FDX remains in S&P 500 and 100. EPAM moves to S&P Small Cap 600 replacing Shutterstock (SSTK, anticipated acquisition close). DAVE replaces American Woodmark (AMWD) in S&P Small Cap 600.",
       "tickers": [
-        "T",
-        "CMCSA",
-        "CHTR"
+        "EPAM",
+        "FDX"
       ],
       "source_item_ids": [
-        "gmail:19e691a168c52206",
-        "gmail:19e67c22034e2f1c"
+        "gmail:19e6b6b59afbb354"
       ]
     },
     {
-      "title": "TSLA: EU April registrations +46.5% Y/Y; Cybertruck called 'commercial disaster'",
-      "body": "Tesla EU+EFTA+UK registrations rose 46.5% Y/Y to 11K units in April, though BYD led at 2.3% market share vs Tesla's 0.9%. Tesla also reported a third consecutive month of strong European monthly sales growth per WSJ. A skeptical X post characterized Cybertruck as a 'commercial disaster' at 10% of targeted production volume.",
+      "title": "TSM: Raising 3nm chip prices up to 15% in H2 2026",
+      "body": "Taiwan Semiconductor is raising 3nm process node pricing by up to 15% in the second half of 2026, according to the StreetAccount Tech sector summary. TSM was one of the few semiconductor outperformers on the day (+2.5%) amid broader semi weakness (-1.4% subsector).",
       "tickers": [
-        "TSLA"
+        "TSM"
       ],
       "source_item_ids": [
-        "gmail:19e67c2e829098ba",
-        "x:2059485691479015885"
+        "gmail:19e6b1d7413cbf36"
       ]
     },
     {
-      "title": "NOW: CMO departure to OpenAI flagged; Jefferies Software conference presenter",
-      "body": "Wolfe notes NOW's CMO is leaving for OpenAI. NOW is presenting at the Jefferies Software, Internet & AI Conference May 27-28 alongside CRM, TEAM, CRWV, WIX, and HUBS. Morgan Stanley also highlights MSFT Azure datacenter capacity expanding from 5GW (FY24) to ~20GW (FY28) to support AI/cloud growth.",
+      "title": "DKNG: Hedgeye hosting discussion on prediction markets and illegal/offshore gaming competitive dynamics",
+      "body": "Hedgeye flagged that DKNG and FLUT launched prediction market products a few months ago and that the illegal/offshore gaming sector is robustly competing for the same customer flow. Call scheduled for May 28 to discuss where PM volume is coming from and customer acquisition impact.",
       "tickers": [
-        "NOW",
-        "MSFT"
+        "DKNG"
       ],
       "source_item_ids": [
-        "gmail:19e694abcfd56b89",
-        "gmail:19e693c625230110"
+        "gmail:19e6a77d91525bb1"
       ]
     },
     {
-      "title": "CRWD: Oppenheimer raises PT to $750 from $500; new logo and Project Quiltworks in focus",
-      "body": "Oppenheimer reiterated Outperform on CRWD and raised its PT to $750 from $500, citing new logo strength, cross-sell traction, and Project Quiltworks as a long-term monetization vector. Despite ZS-driven sympathy selling (-4.3% premarket), Opco is constructive on CRWD as a beneficiary of any SASE/SSE market share shift.",
+      "title": "EQIX/DLR: Morgan Stanley reiterates Overweight on EQIX ($1,250 PT); raises DLR on record bookings",
+      "body": "Equinix raised FY26 revenue and AFFO growth guidance on 1Q bookings strength and AI capacity demand while increasing capex; MS maintains Overweight with $1,250 PT. Digital Realty reported record 0\u20131MW bookings in 1Q26 with $1B backlog and raised FY26 revenue growth guidance to 10.4%; MS raised DLR estimates and PT. Morgan Stanley hosting in-person group meetings with both companies June 2\u20133 in NYC.",
       "tickers": [
-        "CRWD"
+        "EQIX",
+        "DLR"
       ],
       "source_item_ids": [
-        "gmail:19e6931e209896ec"
+        "gmail:19e6aa2b14f3f11d"
       ]
     },
     {
-      "title": "IREN: $1.6B Dell Blackwell purchase agreement; technical pattern signals potential new uptrend",
-      "body": "IREN entered a $1.6B purchase agreement with Dell for Blackwell air-cooled systems, driving the stock +3.9% premarket. Technical commentary on X flags a higher-high/higher-low pattern suggesting a potential new super-cycle uptrend. An X user disclosed a long position entered at $52.",
+      "title": "ACN: UBS maintains Buy ($320 PT); Capgemini 2028 targets signal AI-driven IT services acceleration",
+      "body": "UBS cites Capgemini's 2028 targets (4.3\u20136.5% organic revenue CAGR 2027\u201328, 130\u2013150bps margin expansion to 12.1\u201312.3%) as signaling broader IT services inflection that benefits Accenture. UBS expects ACN to deliver +5\u20137% FY26 revenue growth with +10\u201330bps operating margin expansion; PT $320 on ~19.5x FY28E EPS. ACN trading at 11% free cash yield, implying market skepticism despite AI transformation tailwinds.",
       "tickers": [
-        "IREN"
+        "ACN"
       ],
       "source_item_ids": [
-        "gmail:19e6963a92de7b15",
-        "x:2059530067278282871"
+        "gmail:19e6a381129ea252"
       ]
     },
     {
-      "title": "Goldman raises S&P 500 YE target to 8,000; AI infra to drive ~50% of 2026 EPS growth",
-      "body": "Goldman Sachs raised its S&P 500 year-end 2026 target to 8,000 from 7,600, forecasting $340 EPS (+24% YoY) in 2026 and $385 (+13%) in 2027. AI infrastructure beneficiaries are expected to account for roughly half of 2026 earnings growth, with valuations anchored near 21x given macro uncertainty. JPM maintains a Tactically Bullish stance and notes June seasonality averages +1.85% (90% hit rate over 10 years).",
+      "title": "LITE/COHR/AAOI: Increased analyst coverage noted as optical interconnect demand accelerates",
+      "body": "A buy-side/desk note flagged increased analyst coverage for LITE, COHR, and AAOI as late additions to the optical interconnect story, driven by 800G/1.6T demand acceleration. Commentary described the coverage expansion as 'a little late to the story, but we'll take it.'",
       "tickers": [
-        "SPY"
+        "LITE",
+        "COHR",
+        "AAOI"
       ],
       "source_item_ids": [
-        "gmail:19e694f1d4af1cb1",
-        "gmail:19e68dd1e3b9e1e8"
+        "x:2059610594026668128"
       ]
     },
     {
-      "title": "AVGO: Broadcom reportedly wins xAI/SpaceX ASIC design; MediaTek also cited as contender",
-      "body": "Multiple X sources flagged Broadcom as initially favored to design the xAI/SpaceX ASIC, representing a significant revenue opportunity. A separate note cited MediaTek as potentially winning the SpaceX ASIC, with its analyst raising PT to NT$5,520. No official confirmation from either company.",
+      "title": "CEG: -4.3% in broader utilities sell-off; GEV targeting TPI Composites blade assets <$50M",
+      "body": "Constellation Energy fell 4.3% as utilities broadly declined (index -0.5%) with IPPs VST and TLN also lagging. GEV and Vestas are reportedly targeting TPI Composites blade assets in a fire sale for under $50M. Jefferies highlighted an accelerating data center load story with PPL at ~10GW under ESAs and DUK raising its data center commitment to 7.6GW from 4.5GW.",
       "tickers": [
-        "AVGO"
+        "CEG",
+        "GEV"
       ],
       "source_item_ids": [
-        "x:2059495976113734118",
-        "x:2059485219552694752"
+        "gmail:19e6b2270477fd80"
       ]
     }
   ]

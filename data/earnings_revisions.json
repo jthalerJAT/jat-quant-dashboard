@@ -1,7 +1,7 @@
 {
-  "digest_type": "premarket",
-  "digest_dt": "2026-05-27T08:30:00-04:00",
-  "saved_at": "2026-05-27T17:40:05.222108+00:00",
+  "digest_type": "eod",
+  "digest_dt": "2026-05-27T18:00:00-04:00",
+  "saved_at": "2026-05-27T22:16:56.712285+00:00",
   "revisions": {
     "sales": {
       "metric": "sales",
@@ -32,9 +32,9 @@
           "ticker": "SNDK",
           "forward_y_code": "27Y",
           "metric": "sales",
-          "current_estimate": 43624.593,
+          "current_estimate": 43713.036,
           "prior_estimate": 32621.52,
-          "pct_change": 33.72949206536053,
+          "pct_change": 34.000610639847565,
           "percentile": 87.17105263157895,
           "n_obs": 304
         },
@@ -114,10 +114,10 @@
           "ticker": "OKLO",
           "forward_y_code": "27Y",
           "metric": "sales",
-          "current_estimate": 3.553,
+          "current_estimate": 3.562,
           "prior_estimate": 10.863,
-          "pct_change": -67.29264475743348,
-          "percentile": 2.2813688212927756,
+          "pct_change": -67.20979471600847,
+          "percentile": 2.6615969581749046,
           "n_obs": 263
         },
         {
@@ -144,9 +144,9 @@
           "ticker": "TTD",
           "forward_y_code": "27Y",
           "metric": "sales",
-          "current_estimate": 3516.5,
+          "current_estimate": 3516.472,
           "prior_estimate": 3659.513,
-          "pct_change": -3.907979012507945,
+          "pct_change": -3.9087441416385094,
           "percentile": 1.282051282051282,
           "n_obs": 780
         },
@@ -154,9 +154,9 @@
           "ticker": "CORZ",
           "forward_y_code": "27Y",
           "metric": "sales",
-          "current_estimate": 1111.4,
+          "current_estimate": 1111.267,
           "prior_estimate": 1152.063,
-          "pct_change": -3.5295812815792194,
+          "pct_change": -3.5411257891278525,
           "percentile": 33.21799307958477,
           "n_obs": 578
         },
@@ -174,21 +174,11 @@
           "ticker": "HOOD",
           "forward_y_code": "27Y",
           "metric": "sales",
-          "current_estimate": 6110.4,
+          "current_estimate": 6109.04,
           "prior_estimate": 6250.0,
-          "pct_change": -2.2336000000000023,
+          "pct_change": -2.255359999999995,
           "percentile": 8.974358974358974,
           "n_obs": 780
-        },
-        {
-          "ticker": "SEI",
-          "forward_y_code": "27Y",
-          "metric": "sales",
-          "current_estimate": 1208.846,
-          "prior_estimate": 1234.6,
-          "pct_change": -2.0860197634861466,
-          "percentile": 26.059050064184852,
-          "n_obs": 779
         },
         {
           "ticker": "BKNG",
@@ -208,6 +198,16 @@
           "prior_estimate": 7758.375,
           "pct_change": -1.0772230009505779,
           "percentile": 7.6923076923076925,
+          "n_obs": 780
+        },
+        {
+          "ticker": "TEAM",
+          "forward_y_code": "27Y",
+          "metric": "sales",
+          "current_estimate": 7435.667,
+          "prior_estimate": 7490.5,
+          "pct_change": -0.7320339096188455,
+          "percentile": 6.923076923076923,
           "n_obs": 780
         }
       ],
@@ -231,6 +231,16 @@
           "pct_change": 0.7723619663918102,
           "percentile": 99.61439588688947,
           "n_obs": 778
+        },
+        {
+          "ticker": "AMD",
+          "forward_y_code": "27Y",
+          "metric": "sales",
+          "current_estimate": 76406.411,
+          "prior_estimate": 68764.34,
+          "pct_change": 11.113421578684534,
+          "percentile": 99.35897435897436,
+          "n_obs": 780
         },
         {
           "ticker": "PINS",
@@ -263,22 +273,12 @@
           "n_obs": 780
         },
         {
-          "ticker": "AMD",
-          "forward_y_code": "27Y",
-          "metric": "sales",
-          "current_estimate": 76148.018,
-          "prior_estimate": 68764.34,
-          "pct_change": 10.737655593000683,
-          "percentile": 98.97435897435898,
-          "n_obs": 780
-        },
-        {
           "ticker": "AMZN",
           "forward_y_code": "27Y",
           "metric": "sales",
-          "current_estimate": 933087.544,
+          "current_estimate": 932874.789,
           "prior_estimate": 903902.938,
-          "pct_change": 3.228732286740277,
+          "pct_change": 3.2051949144123792,
           "percentile": 98.71794871794873,
           "n_obs": 780
         },
@@ -328,30 +328,40 @@
           "ticker": "TTD",
           "forward_y_code": "27Y",
           "metric": "sales",
-          "current_estimate": 3516.5,
+          "current_estimate": 3516.472,
           "prior_estimate": 3659.513,
-          "pct_change": -3.907979012507945,
+          "pct_change": -3.9087441416385094,
           "percentile": 1.282051282051282,
+          "n_obs": 780
+        },
+        {
+          "ticker": "DASH",
+          "forward_y_code": "27Y",
+          "metric": "sales",
+          "current_estimate": 21193.205,
+          "prior_estimate": 21316.841,
+          "pct_change": -0.5799921292277688,
+          "percentile": 2.051282051282051,
           "n_obs": 780
         },
         {
           "ticker": "OKLO",
           "forward_y_code": "27Y",
           "metric": "sales",
-          "current_estimate": 3.553,
+          "current_estimate": 3.562,
           "prior_estimate": 10.863,
-          "pct_change": -67.29264475743348,
-          "percentile": 2.2813688212927756,
+          "pct_change": -67.20979471600847,
+          "percentile": 2.6615969581749046,
           "n_obs": 263
         },
         {
-          "ticker": "DASH",
+          "ticker": "TEAM",
           "forward_y_code": "27Y",
           "metric": "sales",
-          "current_estimate": 21203.114,
-          "prior_estimate": 21316.841,
-          "pct_change": -0.533507755675422,
-          "percentile": 3.076923076923077,
+          "current_estimate": 7435.667,
+          "prior_estimate": 7490.5,
+          "pct_change": -0.7320339096188455,
+          "percentile": 6.923076923076923,
           "n_obs": 780
         },
         {
@@ -388,20 +398,10 @@
           "ticker": "HOOD",
           "forward_y_code": "27Y",
           "metric": "sales",
-          "current_estimate": 6110.4,
+          "current_estimate": 6109.04,
           "prior_estimate": 6250.0,
-          "pct_change": -2.2336000000000023,
+          "pct_change": -2.255359999999995,
           "percentile": 8.974358974358974,
-          "n_obs": 780
-        },
-        {
-          "ticker": "TEAM",
-          "forward_y_code": "27Y",
-          "metric": "sales",
-          "current_estimate": 7447.4,
-          "prior_estimate": 7490.5,
-          "pct_change": -0.5753955009679013,
-          "percentile": 10.897435897435898,
           "n_obs": 780
         },
         {
@@ -425,9 +425,9 @@
           "ticker": "SNDK",
           "forward_y_code": "27Y",
           "metric": "ebitda",
-          "current_estimate": 32532.769,
+          "current_estimate": 32519.571,
           "prior_estimate": 21802.333,
-          "pct_change": 49.21691637312393,
+          "pct_change": 49.15638156705524,
           "percentile": 75.83892617449665,
           "n_obs": 298
         },
@@ -485,20 +485,20 @@
           "ticker": "STX",
           "forward_y_code": "27Y",
           "metric": "ebitda",
-          "current_estimate": 7705.529,
+          "current_estimate": 7789.882,
           "prior_estimate": 6093.467,
-          "pct_change": 26.45557939347174,
-          "percentile": 95.37869062901156,
+          "pct_change": 27.839898041623922,
+          "percentile": 96.02053915275995,
           "n_obs": 779
         },
         {
           "ticker": "WDC",
           "forward_y_code": "27Y",
           "metric": "ebitda",
-          "current_estimate": 8662.941,
+          "current_estimate": 8762.294,
           "prior_estimate": 6937.0,
-          "pct_change": 24.880221997981856,
-          "percentile": 93.17889317889318,
+          "pct_change": 26.312440536254854,
+          "percentile": 94.07979407979408,
           "n_obs": 777
         },
         {
@@ -547,9 +547,9 @@
           "ticker": "HOOD",
           "forward_y_code": "27Y",
           "metric": "ebitda",
-          "current_estimate": 3381.429,
+          "current_estimate": 3379.81,
           "prior_estimate": 3629.8,
-          "pct_change": -6.842553308722243,
+          "pct_change": -6.887156317152465,
           "percentile": 5.0,
           "n_obs": 780
         },
@@ -669,9 +669,9 @@
           "ticker": "CRWV",
           "forward_y_code": "27Y",
           "metric": "ebitda",
-          "current_estimate": 15688.935,
+          "current_estimate": 15672.438,
           "prior_estimate": 14731.643,
-          "pct_change": 6.498202542649167,
+          "pct_change": 6.386219106721502,
           "percentile": 99.24528301886792,
           "n_obs": 265
         },
@@ -679,9 +679,9 @@
           "ticker": "GOOGL",
           "forward_y_code": "27Y",
           "metric": "ebitda",
-          "current_estimate": 289765.368,
+          "current_estimate": 289602.436,
           "prior_estimate": 260647.239,
-          "pct_change": 11.171470341184019,
+          "pct_change": 11.10895979987725,
           "percentile": 99.1025641025641,
           "n_obs": 780
         },
@@ -771,9 +771,9 @@
           "ticker": "HOOD",
           "forward_y_code": "27Y",
           "metric": "ebitda",
-          "current_estimate": 3381.429,
+          "current_estimate": 3379.81,
           "prior_estimate": 3629.8,
-          "pct_change": -6.842553308722243,
+          "pct_change": -6.887156317152465,
           "percentile": 5.0,
           "n_obs": 780
         },
@@ -791,10 +791,10 @@
           "ticker": "SPOT",
           "forward_y_code": "27Y",
           "metric": "ebitda",
-          "current_estimate": 3892.793,
+          "current_estimate": 3902.379,
           "prior_estimate": 4010.75,
-          "pct_change": -2.9410210060462516,
-          "percentile": 5.648267008985879,
+          "pct_change": -2.7020133391510326,
+          "percentile": 6.418485237483954,
           "n_obs": 779
         },
         {
