@@ -298,6 +298,39 @@
       border-bottom: 1px solid var(--border);
     }
 
+    /* Collapsible sections */
+    .sec-toggle {
+      background: none;
+      border: 0;
+      padding: 0;
+      color: inherit;
+      font: inherit;
+      text-transform: inherit;
+      letter-spacing: inherit;
+      cursor: pointer;
+      width: 100%;
+      text-align: left;
+      display: flex;
+      align-items: center;
+      gap: 0.45rem;
+    }
+
+    .sec-toggle:hover { color: var(--text); }
+    .sec-toggle:focus-visible { outline: 1px dashed var(--muted); outline-offset: 3px; }
+
+    .sec-caret {
+      display: inline-block;
+      font-size: 0.7em;
+      transition: transform 0.15s ease;
+      width: 0.7em;
+    }
+
+    .sec-toggle[aria-expanded="false"] .sec-caret {
+      transform: rotate(-90deg);
+    }
+
+    .sec-body[hidden] { display: none; }
+
     .empty-msg {
       background: var(--surface);
       border: 1px dashed var(--border);
@@ -592,48 +625,84 @@
     <div id="load-error" class="alert alert-load" style="display: none;"></div>
     <div id="alerts"></div>
 
-    <section class="regime-card" id="regime-card">
-      <div class="regime-label" id="regime-title">—</div>
-      <dl class="regime-grid" id="regime-stats"></dl>
+    <section>
+      <h2>
+        <button type="button" class="sec-toggle" aria-expanded="true" data-target="regime">
+          <span class="sec-caret" aria-hidden="true">▾</span><span>Market Regime</span>
+        </button>
+      </h2>
+      <div class="sec-body" id="regime-body">
+        <div class="regime-card" id="regime-card">
+          <div class="regime-label" id="regime-title">—</div>
+          <dl class="regime-grid" id="regime-stats"></dl>
+        </div>
+      </div>
     </section>
 
     <section class="risk-regime-wrap" id="risk-regime-section">
-      <div class="risk-regime-title">Risk regime</div>
-      <div class="risk-regime-card" id="risk-regime-card">
-        <div class="risk-class-label" id="risk-class-label">—</div>
-        <div class="risk-score-big" id="risk-score-display">—</div>
-        <div class="risk-grid" id="risk-grid"></div>
+      <h2>
+        <button type="button" class="sec-toggle" aria-expanded="true" data-target="risk">
+          <span class="sec-caret" aria-hidden="true">▾</span><span>Risk Regime</span>
+        </button>
+      </h2>
+      <div class="sec-body" id="risk-body">
+        <div class="risk-regime-card" id="risk-regime-card">
+          <div class="risk-class-label" id="risk-class-label">—</div>
+          <div class="risk-score-big" id="risk-score-display">—</div>
+          <div class="risk-grid" id="risk-grid"></div>
+        </div>
       </div>
     </section>
 
     <section id="momentum-section">
-      <h2>Momentum context</h2>
-      <div id="momentum-factors-wrap" class="momentum-factors"></div>
-      <div class="split">
-        <div class="subcard">
-          <h3>Top momentum</h3>
-          <div id="top-momentum-wrap" class="momo-stack"></div>
-        </div>
-        <div class="subcard">
-          <h3>Bottom momentum</h3>
-          <div id="bottom-momentum-wrap" class="momo-stack"></div>
+      <h2>
+        <button type="button" class="sec-toggle" aria-expanded="true" data-target="momentum">
+          <span class="sec-caret" aria-hidden="true">▾</span><span>Momentum Context</span>
+        </button>
+      </h2>
+      <div class="sec-body" id="momentum-body">
+        <div id="momentum-factors-wrap" class="momentum-factors"></div>
+        <div class="split">
+          <div class="subcard">
+            <h3>Top momentum</h3>
+            <div id="top-momentum-wrap" class="momo-stack"></div>
+          </div>
+          <div class="subcard">
+            <h3>Bottom momentum</h3>
+            <div id="bottom-momentum-wrap" class="momo-stack"></div>
+          </div>
         </div>
       </div>
     </section>
 
     <section>
-      <h2>Confirmed signals</h2>
-      <div id="confirmed-wrap"></div>
+      <h2>
+        <button type="button" class="sec-toggle" aria-expanded="true" data-target="confirmed">
+          <span class="sec-caret" aria-hidden="true">▾</span><span>Confirmed Signals</span>
+        </button>
+      </h2>
+      <div class="sec-body" id="confirmed-body">
+        <div id="confirmed-wrap"></div>
+      </div>
     </section>
 
-    <section class="split">
-      <div class="subcard">
-        <h3>Top opportunities — Oversold (watch longs)</h3>
-        <div id="oversold-wrap" class="opp-stack"></div>
-      </div>
-      <div class="subcard">
-        <h3>Top opportunities — Overbought (watch shorts)</h3>
-        <div id="overbought-wrap" class="opp-stack"></div>
+    <section>
+      <h2>
+        <button type="button" class="sec-toggle" aria-expanded="true" data-target="opportunities">
+          <span class="sec-caret" aria-hidden="true">▾</span><span>Top Opportunities</span>
+        </button>
+      </h2>
+      <div class="sec-body" id="opportunities-body">
+        <div class="split">
+          <div class="subcard">
+            <h3>Oversold (watch longs)</h3>
+            <div id="oversold-wrap" class="opp-stack"></div>
+          </div>
+          <div class="subcard">
+            <h3>Overbought (watch shorts)</h3>
+            <div id="overbought-wrap" class="opp-stack"></div>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -1207,6 +1276,49 @@
       }
     }
 
+    var COLLAPSE_KEY = "dashCollapse";
+
+    function readCollapseState() {
+      try {
+        return JSON.parse(localStorage.getItem(COLLAPSE_KEY) || "{}");
+      } catch (e) {
+        return {};
+      }
+    }
+
+    function writeCollapseState(state) {
+      try {
+        localStorage.setItem(COLLAPSE_KEY, JSON.stringify(state));
+      } catch (e) {}
+    }
+
+    function setSectionExpanded(btn, body, expanded) {
+      btn.setAttribute("aria-expanded", expanded ? "true" : "false");
+      if (expanded) body.removeAttribute("hidden");
+      else body.setAttribute("hidden", "");
+    }
+
+    function initCollapsibles() {
+      var saved = readCollapseState();
+      var toggles = document.querySelectorAll(".sec-toggle");
+      toggles.forEach(function (btn) {
+        var key = btn.getAttribute("data-target");
+        if (!key) return;
+        var body = document.getElementById(key + "-body");
+        if (!body) return;
+        var expanded = saved[key] !== false;
+        setSectionExpanded(btn, body, expanded);
+        btn.addEventListener("click", function () {
+          var newState = btn.getAttribute("aria-expanded") !== "true";
+          setSectionExpanded(btn, body, newState);
+          var s = readCollapseState();
+          s[key] = newState;
+          writeCollapseState(s);
+        });
+      });
+    }
+
+    initCollapsibles();
     loadSignals();
     setInterval(loadSignals, REFRESH_MS);
   </script>
