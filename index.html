@@ -443,6 +443,243 @@
       text-align: right;
     }
 
+    /* Synced-section bullets (Market Overview / JAT Universe / Social) */
+    .sec-stamp {
+      margin-left: auto;
+      font-size: 0.65rem;
+      color: var(--muted);
+      font-weight: 500;
+      letter-spacing: 0.02em;
+      text-transform: none;
+    }
+
+    .bullet-list {
+      list-style: none;
+      padding-left: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    .bullet-list li {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-left: 3px solid #525252;
+      border-radius: 4px;
+      padding: 0.75rem 1rem;
+      font-size: 0.85rem;
+      line-height: 1.55;
+    }
+
+    .bullet-title {
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 0.3rem;
+      font-size: 0.9rem;
+    }
+
+    .bullet-body {
+      color: #d4d4d8;
+    }
+
+    .bullet-tickers {
+      margin-top: 0.5rem;
+      font-size: 0.7rem;
+      letter-spacing: 0.04em;
+    }
+
+    .bullet-tickers .tick {
+      display: inline-block;
+      padding: 0.1rem 0.45rem;
+      background: #1f1f1f;
+      border: 1px solid var(--border);
+      border-radius: 3px;
+      margin-right: 0.3rem;
+      margin-top: 0.15rem;
+      color: #e5e5e5;
+      font-weight: 600;
+      font-variant-numeric: tabular-nums;
+    }
+
+    /* New Ideas rolling buffer */
+    .idea-list {
+      list-style: none;
+      padding-left: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 0.55rem;
+    }
+
+    .idea-row {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-left: 3px solid #525252;
+      border-radius: 4px;
+      padding: 0.75rem 1rem;
+      font-size: 0.85rem;
+      line-height: 1.5;
+    }
+
+    .idea-row.idea-bullish { border-left-color: var(--green); }
+    .idea-row.idea-bearish { border-left-color: var(--accent); }
+    .idea-row.idea-neutral { border-left-color: #a3a3a3; }
+
+    .idea-meta {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.35rem 0.7rem;
+      font-size: 0.7rem;
+      color: var(--muted);
+      letter-spacing: 0.04em;
+      margin-bottom: 0.45rem;
+    }
+
+    .idea-date {
+      font-variant-numeric: tabular-nums;
+      color: #a3a3a3;
+    }
+
+    .idea-ticker {
+      display: inline-block;
+      padding: 0.1rem 0.45rem;
+      background: #1f1f1f;
+      border: 1px solid var(--border);
+      border-radius: 3px;
+      color: #fafafa;
+      font-weight: 700;
+      font-size: 0.75rem;
+      letter-spacing: 0.05em;
+    }
+
+    .idea-stance {
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      font-size: 0.7rem;
+    }
+
+    .idea-stance-bullish { color: #4ade80; }
+    .idea-stance-bearish { color: #f87171; }
+    .idea-stance-neutral { color: #a3a3a3; }
+
+    .idea-handle {
+      color: #93c5fd;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .idea-handle:hover { text-decoration: underline; }
+
+    .idea-score {
+      color: #fbbf24;
+      font-weight: 600;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .idea-source-tag {
+      display: inline-block;
+      padding: 0.05rem 0.4rem;
+      background: rgba(220, 38, 38, 0.12);
+      border: 1px solid rgba(220, 38, 38, 0.35);
+      border-radius: 3px;
+      color: #fecaca;
+      font-size: 0.62rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .idea-title {
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 0.3rem;
+      font-size: 0.9rem;
+    }
+
+    .idea-summary {
+      color: #d4d4d8;
+    }
+
+    .idea-link {
+      margin-top: 0.5rem;
+      font-size: 0.75rem;
+    }
+
+    .idea-link a {
+      color: #93c5fd;
+      text-decoration: none;
+    }
+
+    .idea-link a:hover { text-decoration: underline; }
+
+    /* Earnings revisions tables */
+    .rev-block {
+      margin-bottom: 1.25rem;
+    }
+
+    .rev-block h3 {
+      font-size: 0.78rem;
+      color: var(--text);
+      margin-bottom: 0.5rem;
+    }
+
+    .rev-block h3 .sub {
+      color: var(--muted);
+      font-weight: 500;
+    }
+
+    .rev-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.75rem;
+    }
+
+    @media (max-width: 900px) {
+      .rev-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .rev-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.78rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      overflow: hidden;
+    }
+
+    .rev-table caption {
+      caption-side: top;
+      text-align: left;
+      padding: 0.45rem 0.6rem;
+      font-size: 0.65rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      background: #0d0d0d;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .rev-table th, .rev-table td {
+      padding: 0.4rem 0.55rem;
+      border-bottom: 1px solid var(--border);
+      text-align: right;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .rev-table th { font-size: 0.62rem; color: var(--muted); background: #0d0d0d; }
+    .rev-table th:first-child, .rev-table td:first-child {
+      text-align: left;
+      font-weight: 600;
+    }
+
+    .rev-table tr:last-child td { border-bottom: none; }
+
     /* Footer */
     footer {
       margin-top: 2rem;
@@ -703,6 +940,66 @@
             <div id="overbought-wrap" class="opp-stack"></div>
           </div>
         </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>
+        <button type="button" class="sec-toggle" aria-expanded="true" data-target="market-overview">
+          <span class="sec-caret" aria-hidden="true">▾</span><span>Market Overview</span>
+          <span class="sec-stamp" id="market-overview-stamp"></span>
+        </button>
+      </h2>
+      <div class="sec-body" id="market-overview-body">
+        <ul class="bullet-list" id="market-overview-list"></ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>
+        <button type="button" class="sec-toggle" aria-expanded="true" data-target="jat-universe">
+          <span class="sec-caret" aria-hidden="true">▾</span><span>JAT Universe</span>
+          <span class="sec-stamp" id="jat-universe-stamp"></span>
+        </button>
+      </h2>
+      <div class="sec-body" id="jat-universe-body">
+        <ul class="bullet-list" id="jat-universe-list"></ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>
+        <button type="button" class="sec-toggle" aria-expanded="true" data-target="social-overview">
+          <span class="sec-caret" aria-hidden="true">▾</span><span>Social Media Overview</span>
+          <span class="sec-stamp" id="social-overview-stamp"></span>
+        </button>
+      </h2>
+      <div class="sec-body" id="social-overview-body">
+        <ul class="bullet-list" id="social-overview-list"></ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>
+        <button type="button" class="sec-toggle" aria-expanded="true" data-target="earnings-revisions">
+          <span class="sec-caret" aria-hidden="true">▾</span><span>Earnings Revisions</span>
+          <span class="sec-stamp" id="earnings-revisions-stamp"></span>
+        </button>
+      </h2>
+      <div class="sec-body" id="earnings-revisions-body">
+        <div id="earnings-revisions-wrap"></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>
+        <button type="button" class="sec-toggle" aria-expanded="true" data-target="new-ideas">
+          <span class="sec-caret" aria-hidden="true">▾</span><span>New Ideas</span>
+          <span class="sec-stamp" id="new-ideas-stamp"></span>
+        </button>
+      </h2>
+      <div class="sec-body" id="new-ideas-body">
+        <ul class="idea-list" id="new-ideas-list"></ul>
       </div>
     </section>
 
@@ -1318,9 +1615,262 @@
       });
     }
 
+    /* ===== Email-derived sections (synced by jat-market-intel) ===== */
+
+    var EMAIL_SECTION_URLS = {
+      "market-overview": "./data/market_overview.json",
+      "jat-universe": "./data/jat_universe.json",
+      "social-overview": "./data/social_overview.json",
+      "earnings-revisions": "./data/earnings_revisions.json",
+      "new-ideas": "./data/new_ideas.json"
+    };
+
+    function formatStamp(payload) {
+      if (!payload) return "";
+      var dt = payload.digest_dt || payload.saved_at || "";
+      if (!dt) return "";
+      try {
+        var d = new Date(dt);
+        if (Number.isNaN(d.getTime())) return "";
+        return d.toLocaleString("en-US", {
+          timeZone: "America/New_York",
+          month: "short",
+          day: "numeric",
+          hour: "numeric",
+          minute: "2-digit",
+          hour12: true
+        }) + " ET";
+      } catch (e) {
+        return "";
+      }
+    }
+
+    function bulletItemHtml(b) {
+      var title = escapeHtml(b.title || "");
+      var body = escapeHtml(b.body || "");
+      var tickers = Array.isArray(b.tickers) ? b.tickers : [];
+      var ticksHtml = tickers.length
+        ? '<div class="bullet-tickers">' +
+            tickers.map(function (t) {
+              return '<span class="tick">' + escapeHtml(String(t)) + "</span>";
+            }).join("") +
+          "</div>"
+        : "";
+      return (
+        "<li>" +
+        (title ? '<div class="bullet-title">' + title + "</div>" : "") +
+        '<div class="bullet-body">' + body + "</div>" +
+        ticksHtml +
+        "</li>"
+      );
+    }
+
+    async function loadBulletSection(key) {
+      var listEl = document.getElementById(key + "-list");
+      var stampEl = document.getElementById(key + "-stamp");
+      if (!listEl) return;
+      try {
+        var r = await fetch(EMAIL_SECTION_URLS[key], { cache: "no-store" });
+        if (!r.ok) throw new Error("HTTP " + r.status);
+        var payload = await r.json();
+        var bullets = Array.isArray(payload.bullets) ? payload.bullets : [];
+        if (!bullets.length) {
+          listEl.innerHTML = '<li class="empty-msg">No bullets yet for this section.</li>';
+        } else {
+          listEl.innerHTML = bullets.map(bulletItemHtml).join("");
+        }
+        if (stampEl) stampEl.textContent = formatStamp(payload);
+      } catch (e) {
+        listEl.innerHTML = '<li class="empty-msg">Could not load section: ' + escapeHtml(e.message || String(e)) + "</li>";
+      }
+    }
+
+    /* ===== Earnings Revisions ===== */
+
+    function fmtPctSimple(n, digits) {
+      if (n == null || Number.isNaN(Number(n))) return "N/A";
+      var v = Number(n);
+      return (v >= 0 ? "+" : "") + v.toFixed(digits != null ? digits : 2) + "%";
+    }
+
+    function fmtPctileSimple(n) {
+      if (n == null || Number.isNaN(Number(n))) return "N/A";
+      var v = Number(n);
+      return v.toFixed(1);
+    }
+
+    function fmtPctRanked(n, digits) {
+      if (n == null || Number.isNaN(Number(n))) return spanCls("N/A", "terminal-pct-neu");
+      var v = Number(n);
+      var cls = v > 0 ? "terminal-pct-pos" : (v < 0 ? "terminal-pct-neg" : "terminal-pct-neu");
+      return spanCls((v >= 0 ? "+" : "") + v.toFixed(digits != null ? digits : 2) + "%", cls);
+    }
+
+    function revisionsTable(caption, rows, valueField, valueFormatter) {
+      if (!rows || !rows.length) {
+        return (
+          '<table class="rev-table"><caption>' + escapeHtml(caption) + "</caption>" +
+          '<tbody><tr><td colspan="3" class="empty-msg" style="text-align:center; background:transparent;">No data</td></tr></tbody>' +
+          "</table>"
+        );
+      }
+      var body = rows.map(function (row) {
+        var t = escapeHtml(row.ticker || "");
+        var v = valueFormatter(row[valueField]);
+        var n = row.n_with_data != null ? row.n_with_data : "";
+        return "<tr><td>" + t + "</td><td>" + v + "</td><td>" + escapeHtml(String(n)) + "</td></tr>";
+      }).join("");
+      return (
+        '<table class="rev-table"><caption>' + escapeHtml(caption) + "</caption>" +
+        "<thead><tr><th>Ticker</th><th>Value</th><th>n</th></tr></thead>" +
+        "<tbody>" + body + "</tbody></table>"
+      );
+    }
+
+    function renderRevisionsBlock(metricKey, mdata) {
+      if (!mdata) return "";
+      var display = escapeHtml(mdata.metric_display || mdata.metric || metricKey);
+      var n = mdata.n_total_with_data != null ? mdata.n_total_with_data : "?";
+      return (
+        '<div class="rev-block">' +
+        '<h3>' + display + ' <span class="sub">(' + escapeHtml(String(n)) + " tickers with data)</span></h3>" +
+        '<div class="rev-grid">' +
+          revisionsTable("Top by Δ%", mdata.by_pct_top, "pct_change", function (v) { return fmtPctRanked(v, 2); }) +
+          revisionsTable("Bottom by Δ%", mdata.by_pct_bottom, "pct_change", function (v) { return fmtPctRanked(v, 2); }) +
+        "</div>" +
+        '<div class="rev-grid" style="margin-top:0.6rem;">' +
+          revisionsTable("Top by Percentile", mdata.by_pctile_top, "percentile", function (v) { return spanCls(fmtPctileSimple(v), "terminal-pct-neu"); }) +
+          revisionsTable("Bottom by Percentile", mdata.by_pctile_bottom, "percentile", function (v) { return spanCls(fmtPctileSimple(v), "terminal-pct-neu"); }) +
+        "</div>" +
+        "</div>"
+      );
+    }
+
+    async function loadEarningsRevisions() {
+      var wrap = document.getElementById("earnings-revisions-wrap");
+      var stampEl = document.getElementById("earnings-revisions-stamp");
+      if (!wrap) return;
+      try {
+        var r = await fetch(EMAIL_SECTION_URLS["earnings-revisions"], { cache: "no-store" });
+        if (!r.ok) throw new Error("HTTP " + r.status);
+        var payload = await r.json();
+        var revs = payload.revisions || {};
+        var html = "";
+        ["sales", "ebitda"].forEach(function (k) {
+          if (revs[k]) html += renderRevisionsBlock(k, revs[k]);
+        });
+        wrap.innerHTML = html || '<div class="empty-msg">No revisions data yet.</div>';
+        if (stampEl) stampEl.textContent = formatStamp(payload);
+      } catch (e) {
+        wrap.innerHTML = '<div class="empty-msg">Could not load revisions: ' + escapeHtml(e.message || String(e)) + "</div>";
+      }
+    }
+
+    /* ===== New Ideas rolling 50 ===== */
+
+    function formatIdeaDate(raw) {
+      if (!raw) return "—";
+      try {
+        var d = new Date(raw);
+        if (Number.isNaN(d.getTime())) return String(raw);
+        return d.toLocaleString("en-US", {
+          timeZone: "America/New_York",
+          year: "2-digit",
+          month: "short",
+          day: "numeric",
+          hour: "numeric",
+          minute: "2-digit",
+          hour12: true
+        });
+      } catch (e) {
+        return String(raw);
+      }
+    }
+
+    function stanceClass(stance) {
+      var s = String(stance || "").toLowerCase();
+      if (s === "bullish") return "bullish";
+      if (s === "bearish") return "bearish";
+      return "neutral";
+    }
+
+    function ideaRowHtml(idea, opts) {
+      opts = opts || {};
+      var cls = "idea-row idea-" + stanceClass(idea.stance);
+      var dateTxt = escapeHtml(formatIdeaDate(idea.date));
+      var ticker = escapeHtml((idea.ticker || "").toUpperCase());
+      var stanceLbl = escapeHtml(String(idea.stance || "").toUpperCase());
+      var stanceCls = "idea-stance idea-stance-" + stanceClass(idea.stance);
+      var handle = idea.handle ? escapeHtml(idea.handle) : "";
+      var handleLink = handle ? '<a class="idea-handle" href="https://x.com/' + handle + '" target="_blank" rel="noopener">@' + handle + "</a>" : "";
+      var scoreTxt = "";
+      if (idea.handle_meta && idea.handle && idea.handle_meta[idea.handle]) {
+        var m = idea.handle_meta[idea.handle];
+        if (m.score != null) {
+          scoreTxt = '<span class="idea-score" title="hit_rate × √n score">score ' + escapeHtml(Number(m.score).toFixed(2)) + "</span>";
+        }
+      }
+      var sourceTag = opts.scrapeSource
+        ? '<span class="idea-source-tag">' + escapeHtml(opts.scrapeSource) + "</span>"
+        : "";
+      var title = idea.title ? '<div class="idea-title">' + escapeHtml(idea.title) + "</div>" : "";
+      var summary = idea.summary ? '<div class="idea-summary">' + escapeHtml(idea.summary) + "</div>" : "";
+      var link = idea.tweet_url
+        ? '<div class="idea-link"><a href="' + escapeHtml(idea.tweet_url) + '" target="_blank" rel="noopener">View tweet ↗</a></div>'
+        : "";
+
+      return (
+        '<li class="' + cls + '">' +
+        '<div class="idea-meta">' +
+          '<span class="idea-date">' + dateTxt + "</span>" +
+          (ticker ? '<span class="idea-ticker">' + ticker + "</span>" : "") +
+          (stanceLbl ? '<span class="' + stanceCls + '">' + stanceLbl + "</span>" : "") +
+          handleLink +
+          scoreTxt +
+          sourceTag +
+        "</div>" +
+        title +
+        summary +
+        link +
+        "</li>"
+      );
+    }
+
+    async function loadNewIdeas() {
+      var listEl = document.getElementById("new-ideas-list");
+      var stampEl = document.getElementById("new-ideas-stamp");
+      if (!listEl) return;
+      try {
+        var r = await fetch(EMAIL_SECTION_URLS["new-ideas"], { cache: "no-store" });
+        if (!r.ok) throw new Error("HTTP " + r.status);
+        var payload = await r.json();
+        var ideas = Array.isArray(payload.ideas) ? payload.ideas : [];
+        if (!ideas.length) {
+          listEl.innerHTML = '<li class="empty-msg">No ideas in the rolling buffer yet.</li>';
+        } else {
+          listEl.innerHTML = ideas.map(function (i) { return ideaRowHtml(i); }).join("");
+        }
+        if (stampEl) stampEl.textContent = ideas.length + " ideas · updated " + formatStamp(payload);
+      } catch (e) {
+        listEl.innerHTML = '<li class="empty-msg">Could not load new ideas: ' + escapeHtml(e.message || String(e)) + "</li>";
+      }
+    }
+
+    async function loadEmailSections() {
+      await Promise.all([
+        loadBulletSection("market-overview"),
+        loadBulletSection("jat-universe"),
+        loadBulletSection("social-overview"),
+        loadEarningsRevisions(),
+        loadNewIdeas()
+      ]);
+    }
+
     initCollapsibles();
     loadSignals();
+    loadEmailSections();
     setInterval(loadSignals, REFRESH_MS);
+    setInterval(loadEmailSections, REFRESH_MS);
   </script>
 </body>
 </html>
