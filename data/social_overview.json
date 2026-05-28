@@ -1,142 +1,195 @@
 {
-  "digest_type": "premarket",
-  "digest_dt": "2026-05-28T08:30:00-04:00",
-  "saved_at": "2026-05-28T13:15:51.630243+00:00",
+  "digest_type": "midday",
+  "digest_dt": "2026-05-28T12:00:00-04:00",
+  "saved_at": "2026-05-28T16:41:14.847135+00:00",
   "bullets": [
     {
-      "title": "Jensen Huang teases undisclosed 'surprising new product' at Nvidia",
-      "body": "Jensen Huang publicly stated \"we have a surprising new product that we haven't told anyone about,\" with sell-side research separately flagging that Nvidia is testing GPU-to-GPU hybrid bonding technology, with the N1/N1X identified as the most likely candidate.",
-      "tickers": [
-        "NVDA"
-      ],
-      "source_item_ids": [
-        "x:2059911848334618668",
-        "x:2059912774759940391"
-      ]
-    },
-    {
-      "title": "AI optical supply chain firing on all cylinders: LITE sold out, COHR backlog to CY28, MRVL interconnect +70%",
-      "body": "Three May earnings reports across the AI optical stack told a consistent demand story: LITE reported lasers sold out, COHR reported a record backlog extending to calendar year 2028, and MRVL raised its interconnect growth outlook from +50% to +70%. Commentary affirms \"optics is the future of data center\" connectivity.",
-      "tickers": [
-        "MRVL",
-        "COHR",
-        "LITE",
-        "CIEN",
-        "ANET"
-      ],
-      "source_item_ids": [
-        "x:2059900681570664792",
-        "x:2059878650900893882"
-      ]
-    },
-    {
-      "title": "Intel betting billions on EMIB packaging as cost-competitive 2.5D alternative to TSMC",
-      "body": "Per Korean media reports, Intel is investing several billion dollars in EMIB advanced packaging, said to offer better cost and productivity than TSMC-led silicon interposer-based 2.5D. Intel is also planning large-scale adoption of silicon capacitors in AI chips starting next year, with EMIB growing rapidly as the cornerstone of its foundry revival.",
-      "tickers": [
-        "INTC",
-        "TSM"
-      ],
-      "source_item_ids": [
-        "x:2059896348812640424",
-        "x:2059880144538579433"
-      ]
-    },
-    {
-      "title": "Chip stocks racing toward biggest gains since Dotcom era on AI demand \u2014 FT",
-      "body": "The Financial Times notes semiconductor stocks are approaching their largest gains since the Dotcom boom, driven by surging AI infrastructure demand, with names like NVDA, AMD, MRVL, and TSM cited in the momentum.",
+      "title": "Jensen Huang teases undisclosed Nvidia surprise product; robotics and PC ARM chips in focus",
+      "body": "Fintwit analysts note Jensen's track record of only teasing products that exist and ship, making the undisclosed 'surprise' announcement significant. Top candidates cited: Nvidia's ARM laptop chips (N1, N1X) competing directly with Intel/AMD for the PC market\u2014with Intel CEO hinting at a joint product\u2014and a dedicated robotics/physical AI brain chip. Quantum computing linkage (Nvidia software connecting quantum machines to GPUs) also flagged as potential.",
       "tickers": [
         "NVDA",
-        "AMD",
-        "MRVL",
-        "TSM",
-        "INTC"
+        "INTC",
+        "AMD"
       ],
       "source_item_ids": [
-        "x:2059858318366216386"
+        "x:2059940222335336785",
+        "x:2059940213753893218"
       ]
     },
     {
-      "title": "NBIS becomes Leopold's single largest position at ~20% of portfolio",
-      "body": "Leopold has reportedly made NBIS his top holding at approximately 20% of his portfolio, exceeding SNDK and running at roughly 3x his BE allocation. The disclosure has drawn fintwit attention given the concentrated sizing.",
+      "title": "Snowflake monster quarter signals AI software monetization is real; 'AI Ghost' narrative collapsing",
+      "body": "Multiple fintwit accounts flagged Snowflake's strong quarter as evidence that AI is now monetizing at the software layer, noting a sequential pattern: 'First Palantir, then Datadog, now Snowflake all showing positive AI business results.' Salesforce Agentforce cited as additional confirmation that enterprise AI adoption is accelerating, disproving the skeptical 'AI Ghost' thesis.",
       "tickers": [
-        "NBIS",
-        "BE",
-        "SNDK"
+        "SNOW",
+        "PLTR",
+        "CRM"
       ],
       "source_item_ids": [
-        "x:2059903472347074625"
+        "x:2059919780870517166",
+        "x:2059926789154038076"
       ]
     },
     {
-      "title": "IONQ commands revenue scale and backlog that INFQ valuation parity doesn't reflect",
-      "body": "A fintwit account argues IONQ should trade at a premium to INFQ despite matching forward P/S multiples: IONQ generates $64.7M/quarter vs. INFQ's $9.5M and carries a $470M contract backlog. The poster sees an attractive entry point in quantum stocks as the technology becomes more tangible.",
+      "title": "Semiconductors trading above 200-DMA by widest margin since dot-com crash; rally has overshot EPS",
+      "body": "@themarketear (RT'd by a major fintwit account) warns the recent semiconductor rally has 'overshot near-term EPS revisions' and is 'disconnected from fundamental EPS support.' Separately, semis are trading above their 200-day moving average by the largest margin since the dot-com bubble burst\u2014flagged as a potential valuation red flag.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2059949876272672915",
+        "x:2059945856753905980"
+      ]
+    },
+    {
+      "title": "AI token pricing 'race to the bottom' compared to Groupon subsidy wars by Goldman Delta One head",
+      "body": "Goldman's Delta One head Rich Privorotsky warned that token economics are resembling Groupon-era subsidy dynamics: DeepSeek cut token pricing by 75% and Xiaomi's MiMo slashed pricing by ~99%, risking a destructive race to the bottom for AI infrastructure margins.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2059961046303953143"
+      ]
+    },
+    {
+      "title": "Macro bear case: equity EPS assumptions require historically implausible 10% nominal GDP growth",
+      "body": "A credible fintwit macro analyst argues current equity valuations are extrapolating the strongest 5-year earnings growth in history, requiring ~10% annual nominal GDP growth\u2014roughly 2x the pace of the last decade and only seen at peak 1970s inflation\u2014plus unsustainable consumer dissavings on top of that.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2059943546841453051",
+        "x:2059955693185126576"
+      ]
+    },
+    {
+      "title": "Mag 7 mostly lower in premarket: NVDA -1.1%, TSLA -1.3%, MSFT +0.9%",
+      "body": "Premarket movers showed the Magnificent 7 broadly under pressure: Tesla -1.3%, Nvidia -1.1%, Alphabet -0.5%, Amazon -0.4%, Apple -0.2%, with Meta +0.2% and Microsoft +0.9% as relative outperformers. S&P 500 and Nasdaq 100 futures extended losses intraday.",
       "tickers": [
-        "IONQ"
+        "TSLA",
+        "NVDA",
+        "GOOGL",
+        "AMZN",
+        "AAPL",
+        "META",
+        "MSFT"
       ],
       "source_item_ids": [
-        "x:2059908407436431651",
-        "x:2059910692623282197"
+        "x:2059964337012298116",
+        "x:2059951531701739602"
       ]
     },
     {
-      "title": "IREN customer Fireworks AI surpasses $800M ARR ahead of B300 GPU deployment",
-      "body": "Fireworks AI, an IREN customer, has surpassed $800M ARR, with B300 GPU deployment expected soon across Childress and other IREN locations \u2014 signaling healthy demand at the hyperscale customer level.",
+      "title": "SPY/QQQ showing bearish divergences on daily chart; 9 consecutive green weeks for S&P 500",
+      "body": "One fintwit account issued a 'warning' that SPY and QQQ are forming bearish divergences on the daily timeframe, with markets showing exhaustion and choppy price action expected even if marginal new highs occur. Separately, the S&P 500 has now posted 20 all-time highs in 2026 and is on track for its 9th consecutive green week\u2014longest streak since 2023.",
       "tickers": [
-        "IREN"
+        "SPY"
       ],
       "source_item_ids": [
-        "x:2059900793688670421"
+        "x:2059945730899660855",
+        "x:2059933352665509923"
       ]
     },
     {
-      "title": "META tests AI subscriptions and new paid tiers for Facebook and Instagram",
-      "body": "META is piloting AI subscription products and rolling out new paid plans across Facebook and Instagram, representing an early-stage monetization push on its AI investments.",
+      "title": "PCE inflation expected at 3.8% headline; Fed's credibility on 2% target questioned",
+      "body": "Consensus expects headline PCE to print at 3.8% annualized (core steady at 3.3%) on a heavy economic data day. A prominent macro commentator asks when the Fed will 'come clean' on a de facto shift from a 2% to 3% inflation target, given the persistent overshoot.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2059950552402833467",
+        "x:2059940005435379790"
+      ]
+    },
+    {
+      "title": "ECB accounts: inflation risks intensifying, some members may have preferred higher rates",
+      "body": "ECB meeting accounts released this morning showed general agreement that no strong second-round effects have emerged yet, but upside inflation risks and downside growth risks have both intensified. Some members may have supported higher rates than implemented, and the close vote suggests ongoing policy tension.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2059961046303953143",
+        "x:2059960604199207078"
+      ]
+    },
+    {
+      "title": "Geopolitical risk: Iran fires missile toward Kuwait, stops vessels in Hormuz Strait",
+      "body": "Multiple breaking headlines flagged Iran firing a missile toward Kuwait (intercepted), stopping two vessels in the Strait of Hormuz, and asserting mandatory coordination requirements for Hormuz transit. The EU's Oil Coordination Group warned of a tighter jet fuel market 'within weeks' if Hormuz situation doesn't improve, and S&P/Nasdaq futures extended losses on the news.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2059950577560539231",
+        "x:2059929882755469821"
+      ]
+    },
+    {
+      "title": "InP laser capacity expected to grow 12-20x from 2025-2030 for AI optical interconnects",
+      "body": "A fintwit account focused on photonics flagged a notable data point: InP laser capacity is expected to increase approximately 12-20x from 2025 to 2030, with vendors taking a 'conservative stance' aligned toward the ~12x figure. Relevant to the AI optical interconnect supply chain.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2059952716638749093"
+      ]
+    },
+    {
+      "title": "Ayar Labs-Wiwynn CPO partnership flagged as potentially material for cloud rack-scale deployments",
+      "body": "One fintwit analyst called the Ayar Labs announcement with Wiwynn 'potentially very material' for CPO-to-rack-scale deployments, noting Wiwynn's cloud clients include Amazon, Meta, and Microsoft, with Google TPU discussions also underway. Relevant for tracking hyperscaler optical interconnect sourcing trends.",
       "tickers": [
-        "META"
+        "GOOGL",
+        "MSFT",
+        "META",
+        "AMZN"
       ],
       "source_item_ids": [
-        "x:2059858809062060279"
+        "x:2059939664082186246"
       ]
     },
     {
-      "title": "Geopolitical flare-up: U.S.-Iran strikes drive futures and bonds lower, oil surges",
-      "body": "Resumed U.S. military strikes on Iran and Iran's condemnation of ceasefire violations sent European equity futures down (EuroStoxx 50 -1.2%, FTSE -0.95%, DAX -0.93%), bonds lower, and oil sharply higher. ECB separately warned that markets are underestimating geopolitical and fiscal risks.",
+      "title": "Consumer stress signals accumulating: student loan delinquencies at 4-year high, mortgage apps -8.5%",
+      "body": "NY Fed data shows 10.3% of student loan balances are 90+ days delinquent\u2014highest since 2020. MBA mortgage applications fell 8.5% week-over-week with refinancings down 18.1% as mortgage rates hit 9-month highs. Average new car payments reached $767/month in 4Q25, with rolled-over underwater loans hitting $916/month.",
       "tickers": [],
       "source_item_ids": [
-        "x:2059853797510242556",
-        "x:2059858896722997756"
+        "x:2059957103348121927",
+        "x:2059945982939287698"
       ]
     },
     {
-      "title": "Core PCE inflation expected to tick up in April, reinforcing Fed hawkish lean",
-      "body": "Pre-release consensus points to a higher April core PCE print, which would reinforce the Fed's hawkish tilt and keep rate-cut expectations under pressure.",
+      "title": "CEO confidence retreats back into negative territory in 2Q26",
+      "body": "The Conference Board CEO Confidence Index declined from 59 in 1Q26 to 47 in 2Q26, falling back below the neutral 50 threshold after a brief quarter of optimism. The deterioration aligns with persistent inflation and trade uncertainty narratives dominating macro commentary.",
       "tickers": [],
       "source_item_ids": [
-        "x:2059879452700745996"
+        "x:2059948025665991045"
       ]
     },
     {
-      "title": "SpaceX-Anthropic Colossus lease: 180-day term with 90-day mutual exit, SpaceX's choice",
-      "body": "Elon Musk clarified SpaceX has made no long-term commitment to lease Colossus; the current structure is a 180-day lease with a 90-day mutual cancellation clause, and the short duration was SpaceX's preference \u2014 not Anthropic's.",
+      "title": "USD 1-year forward rates shift meaningfully higher; JPMorgan warns long-term dollar weakness ahead",
+      "body": "Market structure commentary flagged that USD 1-year forward rates have shifted meaningfully higher across the entire term structure relative to both 1-month and 3-month ago. Contrasting this near-term dollar strength, JPMorgan's EMEA CEO warned that US fiscal dynamics will drive long-term USD structural depreciation.",
       "tickers": [],
       "source_item_ids": [
-        "x:2059880289514696927"
+        "x:2059942525322821707",
+        "x:2059918705203798141"
       ]
     },
     {
-      "title": "Huawei Kirin potentially integrating MEMS micropumps for chip thermal management",
-      "body": "Fintwit flagged speculation that Huawei may be embedding MEMS micropumps into its Kirin chip for cooling, which would represent a significant thermal management breakthrough and further evidence of Huawei's chip self-sufficiency push.",
+      "title": "CVS adds Lilly's Zepbound to preferred drug list in reversal",
+      "body": "CVS reversed a prior decision and added Eli Lilly's Zepbound (tirzepatide) to its preferred drug list\u2014a positive development for GLP-1 market access and Lilly's commercial positioning.",
       "tickers": [],
       "source_item_ids": [
-        "x:2059868170081677538"
+        "x:2059949733897216044"
       ]
     },
     {
-      "title": "MLCC price hike cycle may be starting: Murata, Samsung EM signal increases, Yageo follows",
-      "body": "World's #1 and #2 MLCC makers \u2014 Murata and Samsung Electro-Mechanics \u2014 have issued price increase notices, with Yageo officially acknowledging the signals. This may indicate the start of a passive component pricing upcycle relevant to the broader semiconductor supply chain.",
+      "title": "MSFT seen as relative safe haven in market downturn; already retraced more than peers",
+      "body": "One fintwit account positioned Microsoft as a 'safer' holding during broad market weakness, arguing MSFT has already undergone a more significant retracement than peers and would go down 'less' in a risk-off environment.",
+      "tickers": [
+        "MSFT"
+      ],
+      "source_item_ids": [
+        "x:2059947335892054082"
+      ]
+    },
+    {
+      "title": "Richmond Fed Manufacturing hits 55.4 in May; ADP private payrolls slow",
+      "body": "Richmond Fed Manufacturing Index expanded for a third consecutive month, hitting 55.4 in May on an ISM-adjusted basis. ADP private payrolls slowed to 35,750 jobs/week average for the four weeks ending May 9, down from 40,750 in the prior period\u2014a softening labor market signal.",
       "tickers": [],
       "source_item_ids": [
-        "x:2059878694756421659"
+        "x:2059945092626923811",
+        "x:2059945859257622787"
+      ]
+    },
+    {
+      "title": "S&P 500 top 10 companies now ~40% of index; concentration risk flagged",
+      "body": "A fintwit account noted the ten largest S&P 500 companies now comprise nearly 40% of total index market cap, flagging elevated concentration risk as markets hit new all-time highs. The observation echoes growing concerns about passive flows amplifying mega-cap dominance.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2059962005553828350"
       ]
     }
   ]
