@@ -1,12 +1,12 @@
 {
-  "digest_type": "eod",
-  "digest_dt": "2026-06-01T18:00:00-04:00",
-  "saved_at": "2026-06-01T22:48:24.996348+00:00",
+  "digest_type": "premarket",
+  "digest_dt": "2026-06-02T08:30:00-04:00",
+  "saved_at": "2026-06-02T13:28:21.996572+00:00",
   "revisions": {
     "sales": {
       "metric": "sales",
       "metric_display": "Revenue",
-      "n_total_with_data": 122,
+      "n_total_with_data": 120,
       "by_pct_top": [
         {
           "ticker": "NNE",
@@ -15,8 +15,8 @@
           "current_estimate": 7.83,
           "prior_estimate": 2.0,
           "pct_change": 291.5,
-          "percentile": 100.0,
-          "n_obs": 412
+          "percentile": 99.75786924939467,
+          "n_obs": 413
         },
         {
           "ticker": "AXTI",
@@ -25,8 +25,8 @@
           "current_estimate": 228.0,
           "prior_estimate": 156.0,
           "pct_change": 46.153846153846146,
-          "percentile": 97.55434782608695,
-          "n_obs": 736
+          "percentile": 97.42198100407056,
+          "n_obs": 737
         },
         {
           "ticker": "NXST",
@@ -35,7 +35,7 @@
           "current_estimate": 7743.143,
           "prior_estimate": 5356.375,
           "pct_change": 44.559389512496786,
-          "percentile": 98.84763124199743,
+          "percentile": 98.71959026888605,
           "n_obs": 781
         },
         {
@@ -45,8 +45,8 @@
           "current_estimate": 650.133,
           "prior_estimate": 512.267,
           "pct_change": 26.912918458538226,
-          "percentile": 92.25806451612904,
-          "n_obs": 775
+          "percentile": 92.13917525773195,
+          "n_obs": 776
         },
         {
           "ticker": "DELL",
@@ -55,7 +55,7 @@
           "current_estimate": 189392.957,
           "prior_estimate": 155357.75,
           "pct_change": 21.907633832235597,
-          "percentile": 100.0,
+          "percentile": 99.8719590268886,
           "n_obs": 781
         },
         {
@@ -65,8 +65,8 @@
           "current_estimate": 2196.08,
           "prior_estimate": 1873.72,
           "pct_change": 17.20427812053027,
-          "percentile": 94.34306569343066,
-          "n_obs": 548
+          "percentile": 94.1712204007286,
+          "n_obs": 549
         },
         {
           "ticker": "NBIS",
@@ -75,8 +75,8 @@
           "current_estimate": 11977.607,
           "prior_estimate": 10332.889,
           "pct_change": 15.917310250792415,
-          "percentile": 77.67584097859327,
-          "n_obs": 327
+          "percentile": 77.4390243902439,
+          "n_obs": 328
         },
         {
           "ticker": "SNDK",
@@ -85,8 +85,8 @@
           "current_estimate": 43713.036,
           "prior_estimate": 37997.077,
           "pct_change": 15.043154503700396,
-          "percentile": 74.9185667752443,
-          "n_obs": 307
+          "percentile": 74.67532467532467,
+          "n_obs": 308
         },
         {
           "ticker": "MTSI",
@@ -95,8 +95,8 @@
           "current_estimate": 1599.071,
           "prior_estimate": 1393.0,
           "pct_change": 14.793323761665466,
-          "percentile": 98.33333333333333,
-          "n_obs": 780
+          "percentile": 98.20742637644047,
+          "n_obs": 781
         },
         {
           "ticker": "AAOI",
@@ -105,8 +105,8 @@
           "current_estimate": 2688.5,
           "prior_estimate": 2356.333,
           "pct_change": 14.09677664404818,
-          "percentile": 88.58974358974359,
-          "n_obs": 780
+          "percentile": 88.47631241997439,
+          "n_obs": 781
         }
       ],
       "by_pct_bottom": [
@@ -117,8 +117,8 @@
           "current_estimate": 3.562,
           "prior_estimate": 10.863,
           "pct_change": -67.20979471600847,
-          "percentile": 2.631578947368421,
-          "n_obs": 266
+          "percentile": 2.6217228464419478,
+          "n_obs": 267
         },
         {
           "ticker": "RGTI",
@@ -127,8 +127,8 @@
           "current_estimate": 44.51,
           "prior_estimate": 54.133,
           "pct_change": -17.77658729425674,
-          "percentile": 5.67741935483871,
-          "n_obs": 775
+          "percentile": 5.670103092783505,
+          "n_obs": 776
         },
         {
           "ticker": "QBTS",
@@ -137,8 +137,8 @@
           "current_estimate": 81.231,
           "prior_estimate": 85.173,
           "pct_change": -4.628227255116069,
-          "percentile": 15.194805194805195,
-          "n_obs": 770
+          "percentile": 15.17509727626459,
+          "n_obs": 771
         },
         {
           "ticker": "TTD",
@@ -157,8 +157,8 @@
           "current_estimate": 7432.367,
           "prior_estimate": 7633.968,
           "pct_change": -2.6408415649633254,
-          "percentile": 11.568123393316196,
-          "n_obs": 778
+          "percentile": 11.553273427471117,
+          "n_obs": 779
         },
         {
           "ticker": "CORZ",
@@ -167,8 +167,8 @@
           "current_estimate": 1122.133,
           "prior_estimate": 1152.063,
           "pct_change": -2.597948202485456,
-          "percentile": 37.005163511187604,
-          "n_obs": 581
+          "percentile": 36.94158075601375,
+          "n_obs": 582
         },
         {
           "ticker": "NOK",
@@ -197,8 +197,8 @@
           "current_estimate": 2906.688,
           "prior_estimate": 2942.143,
           "pct_change": -1.2050739885858697,
-          "percentile": 24.871134020618555,
-          "n_obs": 776
+          "percentile": 24.83912483912484,
+          "n_obs": 777
         },
         {
           "ticker": "DKNG",
@@ -219,7 +219,7 @@
           "current_estimate": 189392.957,
           "prior_estimate": 155357.75,
           "pct_change": 21.907633832235597,
-          "percentile": 100.0,
+          "percentile": 99.8719590268886,
           "n_obs": 781
         },
         {
@@ -229,18 +229,8 @@
           "current_estimate": 16533.667,
           "prior_estimate": 14906.767,
           "pct_change": 10.91383530714609,
-          "percentile": 100.0,
-          "n_obs": 780
-        },
-        {
-          "ticker": "NNE",
-          "forward_y_code": "27Y",
-          "metric": "sales",
-          "current_estimate": 7.83,
-          "prior_estimate": 2.0,
-          "pct_change": 291.5,
-          "percentile": 100.0,
-          "n_obs": 412
+          "percentile": 99.8719590268886,
+          "n_obs": 781
         },
         {
           "ticker": "SNOW",
@@ -249,8 +239,18 @@
           "current_estimate": 7625.88,
           "prior_estimate": 7332.313,
           "pct_change": 4.003743429938145,
-          "percentile": 100.0,
-          "n_obs": 780
+          "percentile": 99.8719590268886,
+          "n_obs": 781
+        },
+        {
+          "ticker": "NNE",
+          "forward_y_code": "27Y",
+          "metric": "sales",
+          "current_estimate": 7.83,
+          "prior_estimate": 2.0,
+          "pct_change": 291.5,
+          "percentile": 99.75786924939467,
+          "n_obs": 413
         },
         {
           "ticker": "AMD",
@@ -259,7 +259,7 @@
           "current_estimate": 76682.161,
           "prior_estimate": 68876.275,
           "pct_change": 11.333200002468203,
-          "percentile": 99.74391805377721,
+          "percentile": 99.61587708066581,
           "n_obs": 781
         },
         {
@@ -269,8 +269,8 @@
           "current_estimate": 2656.125,
           "prior_estimate": 2348.0,
           "pct_change": 13.122870528109033,
-          "percentile": 99.48253557567918,
-          "n_obs": 773
+          "percentile": 99.35400516795866,
+          "n_obs": 774
         },
         {
           "ticker": "DIS",
@@ -279,7 +279,7 @@
           "current_estimate": 106205.0,
           "prior_estimate": 105397.607,
           "pct_change": 0.7660449065034269,
-          "percentile": 99.23175416133164,
+          "percentile": 99.10371318822023,
           "n_obs": 781
         },
         {
@@ -289,7 +289,7 @@
           "current_estimate": 7743.143,
           "prior_estimate": 5356.375,
           "pct_change": 44.559389512496786,
-          "percentile": 98.84763124199743,
+          "percentile": 98.71959026888605,
           "n_obs": 781
         },
         {
@@ -299,7 +299,7 @@
           "current_estimate": 68752.364,
           "prior_estimate": 65127.952,
           "pct_change": 5.565063676499471,
-          "percentile": 98.71959026888605,
+          "percentile": 98.59154929577466,
           "n_obs": 781
         },
         {
@@ -309,8 +309,8 @@
           "current_estimate": 1599.071,
           "prior_estimate": 1393.0,
           "pct_change": 14.793323761665466,
-          "percentile": 98.33333333333333,
-          "n_obs": 780
+          "percentile": 98.20742637644047,
+          "n_obs": 781
         }
       ],
       "by_pctile_bottom": [
@@ -341,8 +341,8 @@
           "current_estimate": 3.562,
           "prior_estimate": 10.863,
           "pct_change": -67.20979471600847,
-          "percentile": 2.631578947368421,
-          "n_obs": 266
+          "percentile": 2.6217228464419478,
+          "n_obs": 267
         },
         {
           "ticker": "TEAM",
@@ -351,7 +351,7 @@
           "current_estimate": 7435.667,
           "prior_estimate": 7499.233,
           "pct_change": -0.8476333513040557,
-          "percentile": 5.505761843790013,
+          "percentile": 5.377720870678617,
           "n_obs": 781
         },
         {
@@ -361,8 +361,8 @@
           "current_estimate": 44.51,
           "prior_estimate": 54.133,
           "pct_change": -17.77658729425674,
-          "percentile": 5.67741935483871,
-          "n_obs": 775
+          "percentile": 5.670103092783505,
+          "n_obs": 776
         },
         {
           "ticker": "BABA",
@@ -371,8 +371,8 @@
           "current_estimate": 1128623.508,
           "prior_estimate": 1139601.15,
           "pct_change": -0.9632880767100005,
-          "percentile": 7.564102564102564,
-          "n_obs": 780
+          "percentile": 7.554417413572343,
+          "n_obs": 781
         },
         {
           "ticker": "DKNG",
@@ -391,8 +391,8 @@
           "current_estimate": 7432.367,
           "prior_estimate": 7633.968,
           "pct_change": -2.6408415649633254,
-          "percentile": 11.568123393316196,
-          "n_obs": 778
+          "percentile": 11.553273427471117,
+          "n_obs": 779
         },
         {
           "ticker": "ORCL",
@@ -411,8 +411,8 @@
           "current_estimate": 81.231,
           "prior_estimate": 85.173,
           "pct_change": -4.628227255116069,
-          "percentile": 15.194805194805195,
-          "n_obs": 770
+          "percentile": 15.17509727626459,
+          "n_obs": 771
         }
       ]
     },
@@ -428,8 +428,8 @@
           "current_estimate": 408.538,
           "prior_estimate": 279.5,
           "pct_change": 46.16744186046513,
-          "percentile": 90.83870967741936,
-          "n_obs": 775
+          "percentile": 90.72164948453609,
+          "n_obs": 776
         },
         {
           "ticker": "NXST",
@@ -438,7 +438,7 @@
           "current_estimate": 2277.75,
           "prior_estimate": 1701.25,
           "pct_change": 33.88684790595151,
-          "percentile": 98.33546734955185,
+          "percentile": 98.20742637644047,
           "n_obs": 781
         },
         {
@@ -448,7 +448,7 @@
           "current_estimate": 20769.188,
           "prior_estimate": 15626.4,
           "pct_change": 32.91089438386319,
-          "percentile": 100.0,
+          "percentile": 99.8719590268886,
           "n_obs": 781
         },
         {
@@ -458,8 +458,8 @@
           "current_estimate": 159.54,
           "prior_estimate": 123.5,
           "pct_change": 29.18218623481781,
-          "percentile": 81.53846153846153,
-          "n_obs": 195
+          "percentile": 81.12244897959184,
+          "n_obs": 196
         },
         {
           "ticker": "MTSI",
@@ -468,8 +468,8 @@
           "current_estimate": 595.875,
           "prior_estimate": 485.714,
           "pct_change": 22.68021922365837,
-          "percentile": 98.46153846153847,
-          "n_obs": 780
+          "percentile": 98.33546734955185,
+          "n_obs": 781
         },
         {
           "ticker": "SNDK",
@@ -478,8 +478,8 @@
           "current_estimate": 32519.571,
           "prior_estimate": 26637.308,
           "pct_change": 22.08279830679587,
-          "percentile": 61.461794019933556,
-          "n_obs": 301
+          "percentile": 61.258278145695364,
+          "n_obs": 302
         },
         {
           "ticker": "LITE",
@@ -488,8 +488,8 @@
           "current_estimate": 2417.889,
           "prior_estimate": 2029.364,
           "pct_change": 19.145160749870406,
-          "percentile": 89.1891891891892,
-          "n_obs": 777
+          "percentile": 89.0745501285347,
+          "n_obs": 778
         },
         {
           "ticker": "TSEM",
@@ -498,8 +498,8 @@
           "current_estimate": 1061.4,
           "prior_estimate": 901.333,
           "pct_change": 17.758919289541165,
-          "percentile": 96.11901681759379,
-          "n_obs": 773
+          "percentile": 95.99483204134367,
+          "n_obs": 774
         },
         {
           "ticker": "NBIS",
@@ -508,8 +508,8 @@
           "current_estimate": 6518.014,
           "prior_estimate": 5536.135,
           "pct_change": 17.735821109853724,
-          "percentile": 70.0,
-          "n_obs": 280
+          "percentile": 69.7508896797153,
+          "n_obs": 281
         },
         {
           "ticker": "AXTI",
@@ -518,8 +518,8 @@
           "current_estimate": 36.5,
           "prior_estimate": 31.1,
           "pct_change": 17.36334405144695,
-          "percentile": 97.00680272108843,
-          "n_obs": 735
+          "percentile": 96.875,
+          "n_obs": 736
         }
       ],
       "by_pct_bottom": [
@@ -530,8 +530,8 @@
           "current_estimate": 377.538,
           "prior_estimate": 458.143,
           "pct_change": -17.59385170132469,
-          "percentile": 3.717948717948718,
-          "n_obs": 780
+          "percentile": 3.713188220230474,
+          "n_obs": 781
         },
         {
           "ticker": "IREN",
@@ -540,8 +540,8 @@
           "current_estimate": 1987.667,
           "prior_estimate": 2192.786,
           "pct_change": -9.35426439242134,
-          "percentile": 5.670103092783505,
-          "n_obs": 776
+          "percentile": 5.662805662805663,
+          "n_obs": 777
         },
         {
           "ticker": "RBLX",
@@ -550,8 +550,8 @@
           "current_estimate": 1987.517,
           "prior_estimate": 2156.9,
           "pct_change": -7.853076174138806,
-          "percentile": 4.241645244215938,
-          "n_obs": 778
+          "percentile": 4.2362002567394095,
+          "n_obs": 779
         },
         {
           "ticker": "PI",
@@ -560,8 +560,8 @@
           "current_estimate": 99.35,
           "prior_estimate": 105.5,
           "pct_change": -5.829383886255934,
-          "percentile": 9.187749667110518,
-          "n_obs": 751
+          "percentile": 9.175531914893616,
+          "n_obs": 752
         },
         {
           "ticker": "TTD",
@@ -580,8 +580,8 @@
           "current_estimate": 156859.229,
           "prior_estimate": 165937.444,
           "pct_change": -5.470865876420272,
-          "percentile": 10.0,
-          "n_obs": 780
+          "percentile": 9.98719590268886,
+          "n_obs": 781
         },
         {
           "ticker": "QBTS",
@@ -590,8 +590,8 @@
           "current_estimate": -148.5,
           "prior_estimate": -157.0,
           "pct_change": -5.414012738853502,
-          "percentile": 16.103896103896105,
-          "n_obs": 770
+          "percentile": 16.08300907911803,
+          "n_obs": 771
         },
         {
           "ticker": "HIMS",
@@ -600,8 +600,8 @@
           "current_estimate": 395.333,
           "prior_estimate": 413.0,
           "pct_change": -4.277723970944303,
-          "percentile": 5.526992287917738,
-          "n_obs": 778
+          "percentile": 5.5198973042362,
+          "n_obs": 779
         },
         {
           "ticker": "UEC",
@@ -632,7 +632,7 @@
           "current_estimate": 20769.188,
           "prior_estimate": 15626.4,
           "pct_change": 32.91089438386319,
-          "percentile": 100.0,
+          "percentile": 99.8719590268886,
           "n_obs": 781
         },
         {
@@ -642,7 +642,7 @@
           "current_estimate": 7231.25,
           "prior_estimate": 6860.846,
           "pct_change": 5.398809417963912,
-          "percentile": 99.23175416133164,
+          "percentile": 99.10371318822023,
           "n_obs": 781
         },
         {
@@ -652,8 +652,8 @@
           "current_estimate": 25755.053,
           "prior_estimate": 24566.316,
           "pct_change": 4.8388899662448415,
-          "percentile": 98.96507115135834,
-          "n_obs": 773
+          "percentile": 98.83720930232558,
+          "n_obs": 774
         },
         {
           "ticker": "AMD",
@@ -662,7 +662,7 @@
           "current_estimate": 24298.9,
           "prior_estimate": 21660.929,
           "pct_change": 12.178475816988277,
-          "percentile": 98.71959026888605,
+          "percentile": 98.59154929577466,
           "n_obs": 781
         },
         {
@@ -672,7 +672,7 @@
           "current_estimate": 3897.556,
           "prior_estimate": 3688.526,
           "pct_change": 5.667033389489462,
-          "percentile": 98.46350832266324,
+          "percentile": 98.33546734955185,
           "n_obs": 781
         },
         {
@@ -682,8 +682,8 @@
           "current_estimate": 595.875,
           "prior_estimate": 485.714,
           "pct_change": 22.68021922365837,
-          "percentile": 98.46153846153847,
-          "n_obs": 780
+          "percentile": 98.33546734955185,
+          "n_obs": 781
         },
         {
           "ticker": "NXST",
@@ -692,7 +692,7 @@
           "current_estimate": 2277.75,
           "prior_estimate": 1701.25,
           "pct_change": 33.88684790595151,
-          "percentile": 98.33546734955185,
+          "percentile": 98.20742637644047,
           "n_obs": 781
         },
         {
@@ -702,7 +702,7 @@
           "current_estimate": 290062.256,
           "prior_estimate": 268855.868,
           "pct_change": 7.8876418646737445,
-          "percentile": 97.43918053777209,
+          "percentile": 97.31113956466069,
           "n_obs": 781
         },
         {
@@ -712,8 +712,8 @@
           "current_estimate": 6582.722,
           "prior_estimate": 5734.5,
           "pct_change": 14.791559857005844,
-          "percentile": 97.3076923076923,
-          "n_obs": 780
+          "percentile": 97.1830985915493,
+          "n_obs": 781
         },
         {
           "ticker": "AXTI",
@@ -722,8 +722,8 @@
           "current_estimate": 36.5,
           "prior_estimate": 31.1,
           "pct_change": 17.36334405144695,
-          "percentile": 97.00680272108843,
-          "n_obs": 735
+          "percentile": 96.875,
+          "n_obs": 736
         }
       ],
       "by_pctile_bottom": [
@@ -744,8 +744,8 @@
           "current_estimate": 377.538,
           "prior_estimate": 458.143,
           "pct_change": -17.59385170132469,
-          "percentile": 3.717948717948718,
-          "n_obs": 780
+          "percentile": 3.713188220230474,
+          "n_obs": 781
         },
         {
           "ticker": "RBLX",
@@ -754,8 +754,8 @@
           "current_estimate": 1987.517,
           "prior_estimate": 2156.9,
           "pct_change": -7.853076174138806,
-          "percentile": 4.241645244215938,
-          "n_obs": 778
+          "percentile": 4.2362002567394095,
+          "n_obs": 779
         },
         {
           "ticker": "TTD",
@@ -774,8 +774,8 @@
           "current_estimate": 395.333,
           "prior_estimate": 413.0,
           "pct_change": -4.277723970944303,
-          "percentile": 5.526992287917738,
-          "n_obs": 778
+          "percentile": 5.5198973042362,
+          "n_obs": 779
         },
         {
           "ticker": "IREN",
@@ -784,8 +784,8 @@
           "current_estimate": 1987.667,
           "prior_estimate": 2192.786,
           "pct_change": -9.35426439242134,
-          "percentile": 5.670103092783505,
-          "n_obs": 776
+          "percentile": 5.662805662805663,
+          "n_obs": 777
         },
         {
           "ticker": "DASH",
@@ -804,8 +804,8 @@
           "current_estimate": 99.35,
           "prior_estimate": 105.5,
           "pct_change": -5.829383886255934,
-          "percentile": 9.187749667110518,
-          "n_obs": 751
+          "percentile": 9.175531914893616,
+          "n_obs": 752
         },
         {
           "ticker": "BABA",
@@ -814,8 +814,8 @@
           "current_estimate": 156859.229,
           "prior_estimate": 165937.444,
           "pct_change": -5.470865876420272,
-          "percentile": 10.0,
-          "n_obs": 780
+          "percentile": 9.98719590268886,
+          "n_obs": 781
         },
         {
           "ticker": "GEV",
@@ -824,8 +824,8 @@
           "current_estimate": 9302.485,
           "prior_estimate": 9358.188,
           "pct_change": -0.5952327523234158,
-          "percentile": 10.497237569060774,
-          "n_obs": 543
+          "percentile": 10.477941176470589,
+          "n_obs": 544
         }
       ]
     }
