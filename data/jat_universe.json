@@ -1,222 +1,233 @@
 {
-  "digest_type": "midday",
-  "digest_dt": "2026-06-02T12:00:00-04:00",
-  "saved_at": "2026-06-02T16:31:46.710679+00:00",
+  "digest_type": "eod",
+  "digest_dt": "2026-06-02T18:00:00-04:00",
+  "saved_at": "2026-06-02T22:36:38.444328+00:00",
   "bullets": [
     {
-      "title": "MRVL +20-25%: Jensen calls it 'next trillion-dollar company' at Computex; CEO pitches connectivity bottleneck thesis",
-      "body": "Marvell surged 20-25% premarket after NVIDIA CEO Jensen Huang highlighted MRVL as the 'next trillion-dollar company' at Computex. MRVL CEO Matt Murphy argued connectivity \u2014 not compute or memory \u2014 is the real AI infrastructure bottleneck, with copackaged optics (CPO) moving from proof-of-concept to mass production. JPM views MRVL as a full-stack AI data-center connectivity vendor with optical tracking to $600M+ FY27 revenue with '2-3x expansion potential in FY28.'",
+      "title": "MRVL: Jensen Huang calls it 'next trillion-dollar company'; stock surges 32%+",
+      "body": "NVIDIA CEO Jensen Huang praised Marvell at Computex 2026 as a potential trillion-dollar company and NVIDIA invested $2B in Marvell; MRVL surged ~32.5% intraday and is now up ~57% over two weeks. JPM traders view MRVL as 'unshortable' ahead of S&P announcement, with optical/connectivity names LITE (+13.7%), COHR (+all-time high), FN, and GLW rallying in sympathy. Marvell CEO Matt Murphy framed AI infrastructure as connectivity-constrained rather than compute-constrained, and NVDA's Citi note sees Marvell as the next bottleneck play with $2B NVDA investment backing.",
       "tickers": [
-        "MRVL"
+        "MRVL",
+        "LITE",
+        "COHR",
+        "GLW",
+        "NVDA"
       ],
       "source_item_ids": [
-        "gmail:19e885a35c3a0454",
-        "x:2061728423656210652"
+        "gmail:19e891f0b74f2336",
+        "gmail:19e8a011192299fa"
       ]
     },
     {
-      "title": "HPE +26-27%: Monster Q2 beat; AI Cloud & AI segment +123% y/y; FY26/27 guide raised dramatically",
-      "body": "HPE reported Q2 revenue $10.68B vs. $9.78B consensus (+40% y/y beat of 9.2%), EPS $0.79 vs. $0.53, and GM 36.9% (+270bps vs. expectations). Cloud & AI segment +123% y/y; AI cumulative bookings reached $16.4B with backlog $5.9B and orders more than doubling. FY26 EPS guide raised to $3.35-3.45 (from $2.30-2.50); initial FY27 EPS growth guided +12-16%. Elliott Management appointed Chris Hsu to board. Loop Capital upgraded to Buy, PT $75 (from $23); JPM raised PT 84% to $68; MS raised PT to $71. Supply constraints \u2014 not demand \u2014 are the primary gating factor through 2027.",
+      "title": "NVDA: Computex Day 2 \u2014 $1T+ Rubin/Blackwell orders, Vera CPU, 50%+ FCF return; $5.5T market cap",
+      "body": "Citi maintains Buy on NVDA with $300 PT (33.7% upside on 28x C27E). Key takeaways: $1T+ cumulative Blackwell/Rubin orders by 2027, new $200B TAM from Vera CPU targeting agentic workloads, $80B buyback + 25x dividend increase returning 50%+ of FCF. Demand exceeds supply by ~10x per company presentation. Wolfe Research Outperform at $275 PT highlights $0.25-$0.30 EPS tailwind from buybacks by FY28. NVDA market cap back above $5.5T, widest lead over any other company.",
+      "tickers": [
+        "NVDA",
+        "MRVL",
+        "ARM"
+      ],
+      "source_item_ids": [
+        "gmail:19e891f0b74f2336",
+        "gmail:19e8a520e5d8333d"
+      ]
+    },
+    {
+      "title": "PANW: Q3 beat-and-raise; NGS ARR +60% YoY, stock +7.5% AH",
+      "body": "Palo Alto Networks reported Q3 revenue of $3.00B vs. consensus $2.94B, EPS $0.85 vs. $0.79, billings $4.18B (+61% YoY vs. $3.40B expected), and NGS ARR of $8.13B (+59.7% YoY). FY26 guidance raised to $11.415-11.425B revenue and $3.77-3.79 EPS. AI data center driving 50% demand surge in network security hardware; Prisma AIRS on track for $100M ARR 'within a couple of quarters.' Stock +7.5% after hours; White House AI EO names PANW and CRWD as best-positioned for FedRAMP cyber budget access.",
+      "tickers": [
+        "PANW"
+      ],
+      "source_item_ids": [
+        "gmail:19e8a53ae65e5518",
+        "gmail:19e89fd7758d89f8"
+      ]
+    },
+    {
+      "title": "GOOGL: $80B equity raise for AI capex tanks stock 3.9%; mandatory sale oversubscribed",
+      "body": "Alphabet announced an $80B equity raise ($30B secondary offering, $10B private placement to Berkshire Hathaway at ~$350/sh) to fund AI compute infrastructure. Street mixed on supply impact: the raise swings Q4-25 net equity supply from -$44B to +$40B. Stock fell 3.9%. European Parliament plans to switch search from Google to Qwant. Separately, the Anthropic-Google-Broadcom TPU capital stack viewed by some as structurally positive for GOOGL and AVGO long-term.",
+      "tickers": [
+        "GOOGL",
+        "AVGO"
+      ],
+      "source_item_ids": [
+        "gmail:19e89b9c8207b579",
+        "gmail:19e8a00a66fdc4be"
+      ]
+    },
+    {
+      "title": "MSFT Build 2026: Maia 200 (+30% cost/token), Azure AI $37B (+123% YoY), Project Solara, Rayfin",
+      "body": "Microsoft Build 2026 keynote showcased Maia 200 custom silicon (30% better cost-per-token vs. standard GPUs), Azure AI revenue of $37B (+123% YoY), and RPO of $627B (+99% YoY). New products include Project Solara (OS for AI agent gadgets), Rayfin (backend-as-a-service for AI agents), Foundry IQ (enterprise knowledge layer), and AION reasoning/planning models. Mayo Clinic partnership for frontier healthcare AI announced. Company doubling cloud capacity within two years with custom silicon ramp.",
+      "tickers": [
+        "MSFT",
+        "NVDA",
+        "AMD",
+        "INTC"
+      ],
+      "source_item_ids": [
+        "gmail:19e89da1f4dff7af",
+        "gmail:19e894b16f25c7b5"
+      ]
+    },
+    {
+      "title": "HPE: First triple play since 2021; stock +19.5% on AI server blowout",
+      "body": "Hewlett Packard Enterprise reported its first beat-raise-and-guide triple play since 2021, driven by strong AI and traditional server demand. Stock +19.5% intraday. Evercore analyst Shannon Cross made a negative call at the TMT conference, resulting in a $10 dip mid-session but the stock recovered sharply. Juniper acquisition positioned as strategic linchpin for networking re-rating with high-margin revenue growth.",
       "tickers": [
         "HPE"
       ],
       "source_item_ids": [
-        "gmail:19e88531a34e6170",
-        "gmail:19e885a35c3a0454"
+        "x:2061805989091836132",
+        "gmail:19e8a011192299fa"
       ]
     },
     {
-      "title": "GOOGL -2.7%: $80B follow-on equity raise (including $10B Berkshire placement + $40B ATM) spooks market",
-      "body": "Alphabet launched an $80B capital raise: $15B common stock, $15B mandatory convertible preferred, $10B private placement with Berkshire Hathaway at $351.81 Class A, and a $40B at-the-market program commencing Q3 2026. The raise signals AI capex is now constrained by market financing capacity rather than internal cash flow \u2014 22V estimates 2027 capex could reach $300B+. GOOGL fell ~2.7-2.9% premarket; analyst note: Amazon's 2027 consensus capex is $228B for comparison.",
+      "title": "INTU: Goldman downgrades to Sell with $276 PT on tax competition and MailChimp slowdown",
+      "body": "Goldman Sachs downgraded Intuit to Sell (analyst: Gabriela Borges), citing increased competition in tax software and MailChimp growth slowdown. Stock fell 8.9% on the session. Software broadly underperformed with IGV trading 25% above its 50-DMA heading into the downgrade.",
       "tickers": [
-        "GOOGL"
+        "INTU"
       ],
       "source_item_ids": [
-        "gmail:19e8901f07f504bc",
-        "gmail:19e887cb66043aa7"
+        "gmail:19e8a011192299fa"
       ]
     },
     {
-      "title": "CRWD: JPMorgan raises PT to $800 from $475, maintains Overweight; F1Q27 earnings preview bullish",
-      "body": "JPMorgan raised its CrowdStrike price target to $800 from $475 while maintaining Overweight. F1Q27 Street consensus sits at $1.363B revenue and $1.07 EPS; field checks are leaning positive with VARs bullish on FY27 growth. Key focus areas include Falcon Flex adoption, SGNL/Seraphic/Pangea acquisition integration, and Next-Gen SIEM acceleration. CRWD is also included in Anthropic's Project Glasswing/Quiltworks announcement.",
+      "title": "GTLB: Beats Q1, cuts 14% of workforce, exits 22 countries; -6.8% AH",
+      "body": "GitLab beat Q1 with 23% revenue growth and 3.6% EPS beat vs. consensus, then guided FY to the upper half of its range ($1.112-1.118B revenue, $0.79-0.82 EPS). Simultaneously announced a 14% headcount reduction (~$30-35M pretax charges) and exit from 22 countries. Total RPO $1.1B with cRPO growing 23.8% YoY. GitLab Duo Agent platform cited as promising early traction. Stock fell 6.8% after-hours.",
       "tickers": [
-        "CRWD"
+        "MRVL"
       ],
       "source_item_ids": [
-        "x:2061776610466869438",
-        "gmail:19e88e97fcbb1851"
+        "gmail:19e8a1470d4d402b"
       ]
     },
     {
-      "title": "AVGO: Tomahawk 6 nearly sold out; AI networking revenues to triple FY26, double again FY27 to $45B+",
-      "body": "JPM's Computex deep-dive highlights Broadcom's Tomahawk 6 (3nm, 102.4Tbps) tracking 6-9 months ahead of NVIDIA and 12+ months ahead of MRVL and CSCO; the chip is nearly sold out for the next year. AVGO maintains ~70% share of cloud/hyperscale switching silicon and has a 2-year cadence competitive moat. Wolfe Research is hosting a post-earnings webcast on 6/4 at 8:30am ET.",
+      "title": "MU/WDC: Morgan Stanley 'Chipflation' report flags AI-driven memory crisis as multi-year margin risk",
+      "body": "Morgan Stanley warns AI infrastructure demand is pushing memory prices up six-fold over the past year across HBM, DRAM, and enterprise SSDs, with smartphone/PC supply expected to fall 12-15% short by 2027 despite 30% capacity expansion. Hyperscalers securing long-term agreements crowd out traditional buyers. Memory producers (MU, WDC, STX) benefit from stronger pricing; consumer hardware OEMs face elevated cost exposure and margin risk.",
       "tickers": [
-        "AVGO"
+        "MU",
+        "WDC",
+        "STX"
       ],
       "source_item_ids": [
-        "gmail:19e885a35c3a0454"
+        "gmail:19e8a035fe18cf69",
+        "gmail:19e8a12f3d120fbc"
       ]
     },
     {
-      "title": "CRDO: F4Q26 clean beat (+157% YoY revenue), FY27 guide raised to $2.44B; optical tracking $600M+",
-      "body": "Credo Technology delivered a clean F4Q26 beat with revenue +157% YoY and gross margin 68.3%. JPM raised FY27 guidance to $2.44B revenue and $6.20 EPS; optical tracking to $600M+ FY27 with '2-3x expansion potential in FY28.' JPM raised PT by $20 to $250. CRDO was -4.4% premarket per SA pre-market note, suggesting initial sell-the-news reaction despite strong fundamentals.",
+      "title": "AMD: Q2 CPU revenue +70% YoY, Venice 2nm H2 launch, Helios rack ramp Q4; multi-GW deployments to exceed 2027 forecast",
+      "body": "AMD guided Q2 2026 CPU revenue up 70% YoY from unit expansion. Venice 2nm CPU launches H2 2026 with expanding 2027 order book; Helios rack-scale system on track for Q3 2026 with major revenue ramp Q4/Q1. Multi-GW customer deployments expected to exceed initial 2027 forecasts; TSMC partnership ensures prioritized wafer supply through 2027.",
       "tickers": [
-        "CRDO"
+        "AMD"
       ],
       "source_item_ids": [
-        "gmail:19e885a35c3a0454"
+        "gmail:19e89bc4ba286380"
       ]
     },
     {
-      "title": "NVDA: Vera Rubin in full production; supply constrained by HBM4 + CoWoS-L; BlueField-4 security collab with Akamai",
-      "body": "NVIDIA's Vera Rubin is in full production but supply is constrained by HBM4 and CoWoS-L packaging availability; JPM estimates ~2M Vera CPU front-end units translating to ~10K VR200 NVL72 racks in 2026. Separately, NVDA and Akamai expanded security collaboration integrating Guardicore Segmentation into Vera BlueField-4 STX storage architecture for Zero Trust in AI factories. NVDA CEO confirmed supply is sufficient for CPU/GPU demand overall but acknowledged constraints.",
-      "tickers": [
-        "NVDA"
-      ],
-      "source_item_ids": [
-        "gmail:19e885a35c3a0454",
-        "gmail:19e88db9e2ee408b"
-      ]
-    },
-    {
-      "title": "META: Arete upgrades to Buy ($735 PT, 22% upside); Conversations conference June 3 key catalyst; teen safety expansion",
-      "body": "Arete Research upgraded META to Buy from Neutral with a $735 PT implying 22% upside from $600.47. Mizuho previews the Meta Conversations 2026 conference (June 3) as key for WhatsApp/Business Messaging monetization and AI integration, noting channel checks show META is 'firing all guns on monetization' with SMB self-serve onboarding as the next major TAM driver. META also expanding teen account content controls (13+) globally across Instagram, Facebook, and Messenger.",
-      "tickers": [
-        "META"
-      ],
-      "source_item_ids": [
-        "gmail:19e885a2e3501eee",
-        "gmail:19e88fbf958d1477"
-      ]
-    },
-    {
-      "title": "SNOW: F1Q product revenue $1,334M (+34% YoY), beat consensus $1,268M; FY27 guide raised $180M to $5,840M",
-      "body": "Snowflake's product revenue of $1,334M beat consensus by ~5%; FY27 guidance raised $180M to $5,840M (+31%), driven by Cortex Code. SNOW is also acquiring Natoma for governed agentic access and hosted a Platform Keynote event on June 2. Data/analytics stocks gained +14.8% for the week ended 5/29. Databricks is viewed as incremental competitive threat via Unity Catalog enhancements.",
-      "tickers": [
-        "SNOW"
-      ],
-      "source_item_ids": [
-        "gmail:19e88d1fc540caae"
-      ]
-    },
-    {
-      "title": "GNRC +9-10%: Hyperscaler supply agreement lands; analyst raises FY27E EPS to $11.20, sees $1B+ large-MW sales",
-      "body": "Generac announced a global supply agreement with a leading hyperscale data center operator, validating its strategy as a strategic backup power supplier. An existing $600M notice-to-proceed from one hyperscale customer was announced in 1Q26; backlog exceeds $700M. Analyst raised FY27E EPS to $11.20 (from $9.90) on +16% sales growth and current estimates already incorporate $900M large-MW DC sales in 2027 as a conservative starting point.",
-      "tickers": [
-        "GNRC"
-      ],
-      "source_item_ids": [
-        "gmail:19e88e535d5d8444",
-        "gmail:19e88377c764188"
-      ]
-    },
-    {
-      "title": "EQIX: Citi Buy reaffirmed; AI inference inflection underway, fabric bookings +70% YoY, 20% total return target",
-      "body": "Following NAREIT REITweek management meetings, Citi reaffirms Buy on EQIX with a $1,240 PT and ~20% total return. MRR growing double-digit in 4Q/1Q; 2Q normalized recurring revenue growth expected to expand 10-11%. Fabric bookings grew ~70% YoY with early near-tripling of high-bandwidth port connections; 110 AI on-ramps from top AI and neoclouds now on platform. Net debt leverage at ~3.8x EBITDA.",
-      "tickers": [
-        "EQIX"
-      ],
-      "source_item_ids": [
-        "gmail:19e88982e8172365"
-      ]
-    },
-    {
-      "title": "INTU -6.2%: Goldman Sachs downgrade hits software sector; broader SaaS names reversing sharply",
-      "body": "Intuit fell 6.2% premarket following a Goldman Sachs downgrade. Broader software sector showed sharp reversals: TEAM -10.2%, OKTA -8.4%, HUBS -8.3%, NOW -6.2%, CRM -4.6%, ORCL -4.7%, and MSFT -3.2%. DA Davidson flags IGV's 45% rally since mid-April as leaving valuations implying 5-year forward EPS CAGR falling from 12% to 9%, recommending IGV put hedges with PANW/CRWD/ORCL reporting in the next 1.5 weeks as a catalyst.",
-      "tickers": [
-        "INTU",
-        "MSFT",
-        "CRM",
-        "ORCL"
-      ],
-      "source_item_ids": [
-        "gmail:19e8881ab4f868ad",
-        "gmail:19e88580e8c865f6"
-      ]
-    },
-    {
-      "title": "CRM: DA Davidson bearish \u2014 'share donor,' acquisitions increasingly desperate, Agentforce reacceleration at risk",
-      "body": "DA Davidson calls CRM a 'share donor' that is 'increasingly desperate with acquisitions' and flags Agentforce reacceleration as at risk despite some traction. CRM also confirmed acquisition of Contentful (valued ~$1-1.5B). Separately, 22V notes IGV software at stretched valuations after 45% rally, with PANW/CRWD/ORCL (24% of IGV) reporting next 1.5 weeks as the key volatility catalyst.",
-      "tickers": [
-        "CRM"
-      ],
-      "source_item_ids": [
-        "gmail:19e8896dd89ac67f",
-        "gmail:19e88580e8c865f6"
-      ]
-    },
-    {
-      "title": "MDB: Atlas revenue $512M (+29% YoY), modest beat vs. accelerating peers; data/analytics stocks +14.8% weekly",
-      "body": "MongoDB reported revenue of $688M (+25% YoY), beating consensus of $664M, with Atlas at $512M (+29% YoY) showing steady but not accelerating growth compared to peers like SNOW. The broader data/analytics basket gained +14.8% for the week ended 5/29, +38.6% monthly, outperforming IGV but underperforming the S&P 500 YTD. Databricks is viewed as incremental competition to MDB via Unity Catalog Iceberg enhancements.",
-      "tickers": [
-        "MDB"
-      ],
-      "source_item_ids": [
-        "gmail:19e88d1fc540caae"
-      ]
-    },
-    {
-      "title": "NFLX CEO: 12-14% revenue growth, ad tier doubling to ~$3B, AI as efficiency tool \u2014 not a content threat",
-      "body": "Netflix Co-CEO Ted Sarandos (at Prof G Markets) reaffirmed guidance for 12-14% annual revenue growth with ~31.5% margins. The ad-supported tier is expected to roughly double to ~$3B in revenue this year. Sarandos views YouTube, TikTok, and Instagram as attention competitors, not content rivals, and positions AI as a production efficiency tool rather than a creative replacement.",
-      "tickers": [
-        "NFLX"
-      ],
-      "source_item_ids": [
-        "gmail:19e888737f1e6c6d"
-      ]
-    },
-    {
-      "title": "CIEN: Q2 earnings preview \u2014 +72.7% YTD, 15.6% implied move; JPM hosting post-earnings call 6/5",
-      "body": "Ciena reports Q2 earnings with Street at $1.50B revenue (in-line with guidance), EPS $1.46, and non-GAAP GM 44.0%. The stock is +72.7% YTD vs. S&P +10.5% and has beaten revenue consensus 17 of past 20 quarters. Options imply ~15.6% move. JPM is hosting a post-earnings follow-up call on 6/5 at 10:30 AM ET.",
-      "tickers": [
-        "CIEN"
-      ],
-      "source_item_ids": [
-        "gmail:19e88b8930ca72e4"
-      ]
-    },
-    {
-      "title": "SHOP: -4.9% in Canadian trading; JPM expert call with Platinum Partner on 6/8 covers agentic commerce strategy",
-      "body": "Shopify fell 4.9% in Canadian morning trading. JPMorgan is hosting an expert call on June 8 with Zettler Digital (Shopify Platinum Partner, 400+ e-commerce brands) covering SMB/enterprise adoption cycles, Shopify Payments, Shop Campaigns, and Sidekick AI-commerce/agentic commerce strategy.",
+      "title": "SHOP: $3B buyback increase to $5B total; Payments penetration at 67% GMV with 90%+ ceiling",
+      "body": "Shopify's board authorized an additional $3B in share repurchases, bringing total authorization to $5B ($1.45B repurchased to date). UBS management meeting takeaways: Payments penetration at ~67% of GMV in Q1 2026 with long-term ceiling of 90%+; Shop Pay surpassed 200M users; GMV at ~14% share of US retail eCommerce. Share repurchase authorization represents a positive capital return signal.",
       "tickers": [
         "SHOP"
       ],
       "source_item_ids": [
-        "gmail:19e88c0ed294cd08",
-        "gmail:19e88eea514ecbcf"
+        "gmail:19e8a2497fb985f0",
+        "gmail:19e899cd080b365f"
       ]
     },
     {
-      "title": "APP: Citi adds to 90-Day Catalyst Watch; eCommerce platform general availability by June 30 accelerates store growth",
-      "body": "Citi adds AppLovin to its 90-day catalyst watch list ahead of its eCommerce platform moving from pilot/referral to general availability by June 30, 2026. APP is also increasing Axon marketing spending ahead of the launch, which is expected to accelerate store growth and revenue.",
+      "title": "CRM: AgentForce +200% YoY, H2 2026 revenue reacceleration expected on AI monetization",
+      "body": "Salesforce at BofA conference: AgentForce grew 200% YoY and 50% sequentially in Q1 2026; customers beginning the agenting journey increase spend 50-100% while advanced users show 3-4x average order value. H2 2026 revenue reacceleration expected as AI monetization and headless/360 strategy expand TAM. Non-seat pricing (consumption and enterprise) now being offered.",
       "tickers": [
-        "APP"
+        "CRM"
       ],
       "source_item_ids": [
-        "gmail:19e88983efeb18e"
+        "gmail:19e89ba66fd7414c"
       ]
     },
     {
-      "title": "TLN: Receives regulatory clearances for $3.45B natural gas acquisition; 960MW nuclear-DC deal with Amazon highlighted",
-      "body": "Talen Energy received regulatory clearances for its $3.45B acquisition of 2.6 GW natural gas generation from Energy Capital Partners (Lawrenceburg, Waterford, Darby plants). Separately, Talen's prior $650M sale of a 960MW nuclear data center campus to Amazon continues to be highlighted as a first-mover model attracting competition in nuclear-powered AI infrastructure.",
+      "title": "META: Morgan Stanley raises PT to $775 on AI search, subscriptions, ad upside, neocloud optionality",
+      "body": "Morgan Stanley sees four products that could re-establish META as an AI winner: AI search ($10B+ revenue potential), subscriptions ($7B revenue / ~$2 EPS), core ad revenue upside (every 1% = ~$3.5B), and neocloud leasing (1GW at ~$10B/GW = ~$3 EPS). PT raised to $775, implying ~30% upside; model assumes 21%/18% ad revenue growth in '27/'28.",
       "tickers": [
+        "META",
+        "GOOGL"
+      ],
+      "source_item_ids": [
+        "gmail:19e89f37c9b0f4cf"
+      ]
+    },
+    {
+      "title": "ANET: Reiterates $11.5B FY26 guidance at 28% growth; $3.6B deferred revenue driven by AI deployments",
+      "body": "Arista Networks at William Blair reiterated FY26 revenue guidance of $11.5B (+28%) with 46% operating margin. Deferred revenue of ~$3.6B is primarily AI-related with 12-18 month milestone recognition. A third customer expected to exceed 10% of revenue; potential fourth under review. Campus lead times reduced to six weeks.",
+      "tickers": [
+        "ANET"
+      ],
+      "source_item_ids": [
+        "gmail:19e89712e01c4ca3"
+      ]
+    },
+    {
+      "title": "ROKU: $675M EBITDA guidance, DSP fully integrated; political ad spend to match 2024 election levels",
+      "body": "Roku at Evercore TMT: $675M 2026 EBITDA guidance with FCF expected to exceed $700M; $2.4-2.5B cash and no debt. New personalized home screen at 20% penetration with biddable ad units planned. Full DSP integration including Amazon and Google DV360 (H2 2026). Political ad spend in 2026 expected to match 2024 general election levels peaking Oct-Nov.",
+      "tickers": [
+        "ROKU"
+      ],
+      "source_item_ids": [
+        "gmail:19e8a3383bde3506"
+      ]
+    },
+    {
+      "title": "STX: 4-5 quarters of sequential growth with H1 2027 visibility; 50TB drive qualification by end-2027",
+      "body": "Seagate at BofA conference projects 4-5 quarters of sequential revenue and profit growth based on existing orders, with precise exabyte, mix, and pricing commitments through H1 2027. Factory utilization maxed out; growth to come from higher-capacity drives. 50TB drive qualification targeted before end-2027. Shareholder returns prioritized with increased dividends and buybacks as debt reduces.",
+      "tickers": [
+        "STX"
+      ],
+      "source_item_ids": [
+        "gmail:19e89b8df741c0ae"
+      ]
+    },
+    {
+      "title": "CMCSA: Peacock reaches profitability in Q2 2026; Apple and Walmart bundle partnerships key growth driver",
+      "body": "Comcast at Evercore TMT: Peacock achieved profitability in Q2 2026 ahead of prior guidance. Next growth phase emphasizes bundling partnerships including recent deals with Apple and Walmart. Discipline maintained on subscriber growth with focus on high ARPPU and positive customer lifetime value. Some softness in international theme park demand.",
+      "tickers": [
+        "CMCSA"
+      ],
+      "source_item_ids": [
+        "gmail:19e8a336a5802440"
+      ]
+    },
+    {
+      "title": "BE: CEO rules out equity raise to meet data center demand; stock +10.7%",
+      "body": "Bloom Energy CEO told Bloomberg no equity raise is needed to meet data center demand, allaying dilution concerns. Stock rose 10.7%. Separately, Mizuho raised ENPH PT to $54 (from $37) and GEV PT to $913 (from $904) on the acceleration of 800VDC power architecture for data centers scaling to 1MW+ densities.",
+      "tickers": [
+        "BE",
+        "ENPH",
+        "GEV",
+        "VST",
         "TLN"
       ],
       "source_item_ids": [
-        "gmail:19e8870c470fb7bb",
-        "x:2061762829976211783"
+        "gmail:19e8a02986214eaf"
       ]
     },
     {
-      "title": "Semiconductor market WSTS forecast surges to $1.51T in 2026 (+90%); memory +250%, SK Hynix doubling capacity",
-      "body": "WSTS raised its global semiconductor market forecast to $1.51T for 2026, up 90% and sharply above the prior $1.0T March estimate, driven by AI computing and extraordinary memory expansion (memory alone expected +250% to $800B+; logic +37%). SK Hynix plans to double wafer capacity over 5 years; Kioxia expects NAND shortage to persist through Q4 2027 and is seeking long-term hyperscaler supply agreements through 2029+. SK Group chairman expects AI-driven memory shortages through 2030.",
+      "title": "NFLX: 7th straight red day, longest losing streak since 2022; down 23% from April peak",
+      "body": "Netflix is on track for its seventh consecutive down day, its longest losing streak since 2022. The stock bounced 42% from mid-February to mid-April but has since fallen 23%, remaining 37% below its all-time high. No new fundamental catalyst identified; the stock appears caught in a sector rotation out of communications services (-2.6% on the day).",
       "tickers": [
-        "MU",
-        "NVDA"
+        "NFLX"
       ],
       "source_item_ids": [
-        "x:2061735386259526098",
-        "x:2061729660116041942"
+        "x:2061868252750299432",
+        "x:2061809359647125623"
+      ]
+    },
+    {
+      "title": "TTD: -9.1% on CFO appointment; Raymond James media day June 4",
+      "body": "The Trade Desk fell 9.1% following a CFO appointment announcement. Raymond James hosting a media day June 4 with TTD management meeting at 9:00-9:30 AM. No change to fundamental business update noted; move appears to reflect market concern over leadership transition.",
+      "tickers": [
+        "TTD"
+      ],
+      "source_item_ids": [
+        "gmail:19e8a011192299fa",
+        "gmail:19e89bea5c7b42e0"
       ]
     }
   ]
