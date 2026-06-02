@@ -1,238 +1,210 @@
 {
-  "digest_type": "premarket",
-  "digest_dt": "2026-06-02T08:30:00-04:00",
-  "saved_at": "2026-06-02T13:28:21.981920+00:00",
+  "digest_type": "midday",
+  "digest_dt": "2026-06-02T12:00:00-04:00",
+  "saved_at": "2026-06-02T16:31:46.711678+00:00",
   "bullets": [
     {
-      "title": "MRVL +21% premarket: Jensen Huang calls it 'next $1T company'",
-      "body": "Nvidia CEO Jensen Huang explicitly called Marvell 'the next trillion-dollar company' at Computex/GTC Taipei, reportedly saying it twice and ending with 'buy Marvell.' MRVL surged ~17-21% in after-hours/premarket, with current market cap cited at ~$191B\u2014implying ~5x upside in Jensen's framing. Multiple fintwit accounts flagged MRVL as a mainstream beneficiary of NVLink and the network stack buildout.",
+      "title": "GOOGL's $80B equity raise signals AI capex now constrained by market appetite",
+      "body": "Alphabet filed to offer up to 150M Series A depositary shares in an ~$80B capital raise (including a $10B Berkshire Hathaway private placement and $40B ATM offering), sending shares down ~2.7% premarket. Fintwit commentary notes this is a 'big moment for the industry' \u2014 hyperscaler spending limits are shifting from internal cash flows and bond issuance to market capacity constraints, reflecting escalating AI compute investment requirements.",
       "tickers": [
-        "MRVL",
-        "NVDA"
+        "GOOGL"
       ],
       "source_item_ids": [
-        "x:2061671824388403368",
-        "x:2061722831164145788"
+        "x:2061760399138062739",
+        "x:2061753639635652998"
       ]
     },
     {
-      "title": "Alphabet raises $80B for AI capex; Berkshire invests $10B",
-      "body": "Google announced an $80B equity capital raise for AI infrastructure: $40B via ATM offering, $30B in underwritten/convertible preferred offerings, and a $10B strategic investment from Berkshire Hathaway. 2026 CapEx guided at $190B with 2027 expected to increase significantly. GOOGL fell ~2% AH on dilution concerns despite bullish strategic read-throughs for the semiconductor supply chain (LITE, AVGO, TSM, MU cited by multiple accounts).",
+      "title": "MRVL surges 20-26% after Jensen Huang 'trillion dollar company' call at Computex",
+      "body": "Marvell jumped 20-26% premarket after NVIDIA CEO Jensen Huang called it the 'next trillion dollar company' at the Computex keynote. Separately, Marvell's own CEO Matt Murphy highlighted that connectivity \u2014 not compute or memory \u2014 is the next AI infrastructure bottleneck, with copackaged optics positioned as the critical enabling technology.",
       "tickers": [
-        "GOOGL",
-        "AVGO",
-        "MU",
-        "LITE"
+        "MRVL"
       ],
       "source_item_ids": [
-        "x:2061573863549620651",
-        "x:2061611056657772587"
+        "x:2061778783187632549",
+        "x:2061728423656210652"
       ]
     },
     {
-      "title": "HPE surges 30-33% AH on massive EPS guide raise; AI server demand through FY27",
-      "body": "HPE Q2 revenue beat at $10.68B vs. $9.79B est (+40% YoY); raised FY adjusted EPS guidance to $3.35-$3.45 vs. $2.43 consensus. Networks-for-AI FY2026 order target raised to $2B+. Management signaled demand strength continues through fiscal 2027, with Q3 EPS guided $0.88-0.93 vs. $0.58 est. Trader commentary flagged potential dotcom-era valuation stretch vs. genuine AI infrastructure demand signal.",
-      "tickers": [
-        "HPE"
-      ],
+      "title": "HPE +26% premarket on strong AI-driven results and raised guidance",
+      "body": "HPE surged 26% premarket on strong AI-driven results and increased guidance, cited alongside MRVL and GOOGL as the key premarket movers in the AI infrastructure complex.",
+      "tickers": [],
       "source_item_ids": [
-        "x:2061540052363345987",
-        "x:2061581942047519115"
+        "x:2061760689731993931"
       ]
     },
     {
-      "title": "NVDA adds $319B in market cap; CEO highlights Vera demand, China sales, FCF return",
-      "body": "NVIDIA shares closed +6.3%, adding $319B in market cap. Jensen Huang flagged: (1) Vera demand likely to exceed GPU lineup; (2) adequate supply for robust CPU/GPU growth; (3) U.S. approval to sell chips in China with full compliance commitment; (4) plan to return 50%+ of FCF to shareholders; (5) preference for off-the-shelf ARM designs over custom CPU cores. ARK Invest bought 300K NVDA shares and sold 110K AMD shares on the day.",
-      "tickers": [
-        "NVDA",
-        "ARM",
-        "AMD"
-      ],
-      "source_item_ids": [
-        "x:2061622698325983243",
-        "x:2061541406263652689"
-      ]
-    },
-    {
-      "title": "Computex CPO supply chain mapped: Wiwynn/AyarLabs/Lumentum; LITE as laser supplier",
-      "body": "Multiple fintwit accounts at Computex Taiwan highlighted the emerging CPO supply chain: Wiwynn (NVIDIA's ODM rack partner) displayed CPO AI Accelerator using AyarLabs TeraPHY optical engine. Lumentum/LITE flagged as one of only two public laser suppliers alongside GFS-partnered Sivers for CPO and pluggable applications. One account noted a LITE breakout could trigger a bid across the infrastructure sector. Separately, IC substrate surface area projected to triple, seen as tailwind for substrate manufacturers.",
-      "tickers": [
-        "LITE",
-        "NVDA"
-      ],
-      "source_item_ids": [
-        "x:2061673084973707294",
-        "x:2061694803205836829"
-      ]
-    },
-    {
-      "title": "MRVL interconnect bottleneck thesis; Google/Marvell CXL-pooled DRAM; STX KV cache offload",
-      "body": "One fintwit account noted Marvell management has been discussing interconnect bottleneck as a key constraint in AI infrastructure. Separately, Google is reportedly designing an MPU with Marvell to access CXL-pooled DRAM for HBF exploration, while Nvidia is offloading KV cache to SSDs through Seagate's STX system while keeping weights in HBM.",
-      "tickers": [
-        "MRVL",
-        "GOOGL",
-        "NVDA",
-        "STX"
-      ],
-      "source_item_ids": [
-        "x:2061699177781071999",
-        "x:2061725603477532763"
-      ]
-    },
-    {
-      "title": "MediaTek at Goldman Sachs Taiwan Day: exclusive EMIB-T for next-gen chip, tape-out 4Q26",
-      "body": "MediaTek confirmed at Goldman Sachs Taiwan Day that its next-generation program adopts only EMIB-T packaging (not mixed CoWoS as previously reported), with tape-out targeted 4Q26 and mass production 4Q27. Intel's EMIB-T also gained traction as Google qualified the tech for TPU v8t (Zebrafish), driven by CoWoS capacity shortages at TSMC\u2014potentially reducing TSM advanced packaging dependency.",
-      "tickers": [
-        "INTC",
-        "TSM",
-        "TSEM"
-      ],
-      "source_item_ids": [
-        "x:2061705578087682109",
-        "x:2061616834584158251"
-      ]
-    },
-    {
-      "title": "DRAM prices up 58-63% Q2 vs Q1; MU market cap crosses $1 trillion",
-      "body": "TrendForce projects mainstream DRAM contract prices up 58-63% in Q2 vs Q1 (following 93-98% surge in Q1), with supplier inventory at extremely low levels and AI demand accelerating. Micron's market cap surpassed $1 trillion, up 10x over the past year. SNDK also flagged with a 99 RSI and MU monthly RSI above 90\u2014fintwit commentary noting extreme overbought signals.",
-      "tickers": [
-        "MU",
-        "SNDK"
-      ],
-      "source_item_ids": [
-        "x:2061584973812134110",
-        "x:2061598626623660255"
-      ]
-    },
-    {
-      "title": "CRDO Q4 beats; Q1 guided above consensus; AI bottleneck shifting to network reliability",
-      "body": "Credo Technology Q1 revenue guidance of $465M-$475M beat $460.5M consensus; gross margin guided 67-69%. Earnings call read-through: AI infrastructure bottleneck shifting from raw accelerator availability toward network reliability and power efficiency. Copper business described as core growth engine with AEC adoption extending to multi-rack deployments.",
-      "tickers": [
-        "CRDO"
-      ],
-      "source_item_ids": [
-        "x:2061540474779783213",
-        "x:2061577169554243749"
-      ]
-    },
-    {
-      "title": "HOOD: $20M insider buy; WonderFi acquisition closed; bullish technical setup",
-      "body": "HOOD director Meyer Malka purchased $20M in shares via Bullfrog Capital, the first insider buy in one year. Robinhood also closed its acquisition of WonderFi, entering the Canadian market. Multiple fintwit accounts noted HOOD forming a bullish technical base with divergence on the weekly chart, held from $75.87 entry by one trader, though volume confirmation still awaited.",
-      "tickers": [
-        "HOOD"
-      ],
-      "source_item_ids": [
-        "x:2061560779069964680",
-        "x:2061702559627391419"
-      ]
-    },
-    {
-      "title": "S&P 500 hits 7,600 for first time; 23rd ATH in 2026; but breadth narrow",
-      "body": "S&P 500 crossed 7,600 for the first time (up 28% YoY, 81% over 5 years) extending its winning streak to 8 sessions, with 23 all-time highs in 2026. Fintwit flagged narrow market breadth: over 50% of S&P 500 stocks trade below their 100-day MA, only tech and energy sectors green on the day. Options put/call ratio hit 0.64, a 5-year bullish extreme, and hedge funds bought equities at the fastest pace of 2024.",
+      "title": "S&P 500 +20% rally since March is 'insanely narrow' \u2014 just 10 stocks drove 68% of gains",
+      "body": "The S&P 500 has surged 20% since end of March, but commentary flags the rally as 'insanely narrow,' with just 10 stocks accounting for 68% of the advance. Passive indexing flows are concentrating in mega-cap names, raising index concentration risk.",
       "tickers": [
         "SPY"
       ],
       "source_item_ids": [
-        "x:2061622906249986523",
-        "x:2061689285351223462"
+        "x:2061778695581282508"
       ]
     },
     {
-      "title": "TSLA -4.6% on SPCX dilution fears; institutional pushback on conglomerate structure",
-      "body": "Tesla fell 4.6% vs NDX +0.6% as SPCX filed an amended S-1/A suggesting more SPCX equity issuance potentially linked to a Tesla acquisition. Multiple accounts note institutional investors dislike the proposed TSLA-SPCX combination due to dilution concerns and preference for pure-play exposure; clearing the deal could act as a re-rating catalyst.",
+      "title": "WSTS revises global semiconductor market forecast to $1.51T in 2026, up 90%",
+      "body": "WSTS sharply raised its global semiconductor market forecast to $1.51 trillion in 2026, up 90% from current levels and well above the March estimate of $1.0T. Memory alone is expected to surge +250% to over $800B; logic up 37%; Americas region up 112%. Global semis projected to reach $1.9T in 2027.",
+      "tickers": [
+        "TSM",
+        "MU",
+        "NVDA"
+      ],
+      "source_item_ids": [
+        "x:2061735386259526098",
+        "x:2061739210986705093"
+      ]
+    },
+    {
+      "title": "South Korean semiconductor exports to U.S. surge 671.5% YoY",
+      "body": "South Korean semiconductor exports to the U.S. increased 671.5% year-over-year, corroborating the broader AI-driven chip demand surge and consistent with WSTS's bullish memory market revision.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2061778660261060796"
+      ]
+    },
+    {
+      "title": "CBOE dispersion index at 3rd highest ever \u2014 market pricing major single-stock divergence",
+      "body": "CBOE DSPX (dispersion index) is at its 3rd highest reading in history, surpassed only by the April 2025 tariff shock and COVID in 2020. The index measures the ratio of S&P 500 index implied vol to single-stock IV, signaling the market is pricing significant divergence between broad index and individual stock moves.",
+      "tickers": [
+        "SPY"
+      ],
+      "source_item_ids": [
+        "x:2061776696743776438"
+      ]
+    },
+    {
+      "title": "AI rally showing vulnerability \u2014 Barclays and rising cost concerns",
+      "body": "Barclays warns the AI-driven stock rally is 'becoming increasingly vulnerable' due to investor euphoria, crowded positioning, and rising interest-rate risks, even as strong earnings and AI optimism provide support. Separately, a Bloomberg-cited piece flags rising AI infrastructure costs as a potential threat to S&P 500 record run by pressuring corporate margins.",
+      "tickers": [
+        "SPY"
+      ],
+      "source_item_ids": [
+        "x:2061769332967854352",
+        "x:2061769825878171886"
+      ]
+    },
+    {
+      "title": "AI is power-bound, not compute-bound \u2014 grid/nuclear names flagged as next leg",
+      "body": "Fintwit commentary emphasizes that Jensen Huang and Elon Musk have been saying for a year that AI is power-constrained, not compute-constrained, yet investor positioning remains skewed toward chip names. Names highlighted as beneficiaries include CEG (largest U.S. nuclear operator, 32GW, hyperscaler PPAs signed), VST (nuclear fleet, major AI data center deals in Texas), TLN (sold 960MW campus to Amazon for $650M), and SMR (only fully NRC-approved SMR design).",
+      "tickers": [
+        "CEG",
+        "VST",
+        "TLN",
+        "SMR",
+        "NVDA"
+      ],
+      "source_item_ids": [
+        "x:2061762846153687046",
+        "x:2061762833923080612"
+      ]
+    },
+    {
+      "title": "NAND shortage to persist through Q4 2027 \u2014 Kioxia seeking hyperscaler LTAs through 2029+",
+      "body": "Kioxia's Investor Day flagged that the supply-demand curve for NAND will only gradually recover and the shortage is projected to remain through Q4 2027. Kioxia is simultaneously seeking long-term NAND supply agreements with hyperscale data centers extending through 2029 and beyond.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2061738320808567230",
+        "x:2061729660116041942"
+      ]
+    },
+    {
+      "title": "SK Hynix plans to double memory wafer capacity; AI shortages seen through 2030",
+      "body": "SK Group Chairman Chey Tae-won stated AI-driven memory shortages could persist through 2030, while SK Hynix is preparing to double its wafer capacity over five years. Memory prices \u2014 more than logic chips \u2014 drove the bulk of the recent semiconductor growth surge.",
+      "tickers": [
+        "MU"
+      ],
+      "source_item_ids": [
+        "x:2061746310580232568",
+        "x:2061736113061101923"
+      ]
+    },
+    {
+      "title": "Tech was the only S&P 500 sector to outperform the index in May; IGV sees record retail buying",
+      "body": "Technology drove all S&P 500 returns in May and was the sole sector to outperform the broad index. Separately, retail investors recorded their largest-ever single-session purchase of IGV (software ETF), signaling sustained retail conviction in the AI/software theme.",
+      "tickers": [
+        "SPY"
+      ],
+      "source_item_ids": [
+        "x:2061763224903545251",
+        "x:2061772622875038036"
+      ]
+    },
+    {
+      "title": "ISM Manufacturing hits four-year high in May; construction spending beats",
+      "body": "The ISM Manufacturing Index reached a four-year high in May as new orders expanded for the fifth consecutive month, with 16 industries reporting growth \u2014 the most since April 2022. Separately, April construction spending rose +0.4% m/m vs. +0.2% estimate, with private residential up +0.8%.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2061762814243450882",
+        "x:2061763026013843800"
+      ]
+    },
+    {
+      "title": "ECB considering June 'insurance hike' as euro area CPI hits 3.2%",
+      "body": "ECB's Rehn described a potential June rate move as an 'insurance hike' against inflation risks, while Simkus stressed the importance of timely reaction. Euro area preliminary May CPI came in at 3.2% YoY, in line with estimates.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2061739845723345046",
+        "x:2061734709294670237"
+      ]
+    },
+    {
+      "title": "JPMorgan raises CrowdStrike PT to $800 from $475, maintains Overweight",
+      "body": "JPMorgan significantly raised its price target on CrowdStrike to $800 from $475 while maintaining an Overweight rating, a 68% PT increase signaling strong conviction in the cybersecurity name.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2061776610466869438"
+      ]
+    },
+    {
+      "title": "Elon forecasts 90% of distance driven will be autonomous within 10 years",
+      "body": "Elon Musk stated '10 years from now, probably 90% of all distance driven will be autonomous,' a bullish forward-looking comment for Tesla's FSD program. Tesla is also reporting strong vehicle registration growth across European markets in May.",
       "tickers": [
         "TSLA"
       ],
       "source_item_ids": [
-        "x:2061649046863773940",
-        "x:2061541893058556018"
+        "x:2061779108837609481",
+        "x:2061745917728899367"
       ]
     },
     {
-      "title": "Alphabet's $80B raise: dilution concern vs. strategic bullishness on TPU ecosystem",
-      "body": "Fintwit split on GOOGL AH reaction: bears flagged dilution (stock down 2% AH) and one commentator noted capex of ~$185B projected against ~$74B FCF may require ongoing capital raises. Bulls cited $174B operating cash flow generated in past 12 months and framed the raise as confirmatory for the broader TPU supply chain. Berkshire's $10B private placement seen as endorsement of GOOGL's long-term value.",
+      "title": "META expands teen safety controls globally across Instagram, Facebook, and Messenger",
+      "body": "Meta is rolling out 13+ content settings for teen accounts globally on Instagram and extending the 'Limited Content Setting' to Facebook and Messenger later this year. The move reflects ongoing regulatory and reputational pressure around youth safety on social platforms.",
       "tickers": [
-        "GOOGL"
+        "META"
       ],
       "source_item_ids": [
-        "x:2061548953527558431",
-        "x:2061596599588114444"
+        "x:2061766246358761794",
+        "x:2061766274003464694"
       ]
     },
     {
-      "title": "INTC: U.S. government took 9.9% stake in Aug 2025; Q1 2026 beat sent stock +22% premarket",
-      "body": "One account detailed that the U.S. government took a 9.9% stake in Intel at $20.47/share in August 2025; Intel subsequently beat Q1 2026 earnings on every line, sending the stock up 22% in a single pre-market session. Intel also showcased chip-to-rackscale AI solutions at Computex with partner support.",
+      "title": "U.S. large-cap ETFs lead inflows for another consecutive week",
+      "body": "U.S. large-cap ETFs continued to dominate with the largest inflows for yet another week in the period ending 5/29/26, while global ETFs led outflows \u2014 consistent with ongoing domestic concentration of capital flows into mega-cap U.S. equities.",
       "tickers": [
-        "INTC"
+        "SPY"
       ],
       "source_item_ids": [
-        "x:2061553416552198180",
-        "x:2061696946524602626"
+        "x:2061763360715100249"
       ]
     },
     {
-      "title": "NBIS: \u20ac8B French AI cloud investment announced; exposure to META and MSFT",
-      "body": "Macron announced Nebius is investing \u20ac8B to build AI cloud infrastructure in France. Separately, one account noted NBIS has exposure to META and MSFT as customers, and flagged GOOGL pursuing multiple Fluidstack colocation deals to expand TPU capacity. NBIS also hit another all-time high during the session.",
-      "tickers": [
-        "NBIS",
-        "META",
-        "MSFT",
-        "GOOGL"
-      ],
-      "source_item_ids": [
-        "x:2061545299055882675",
-        "x:2061597746449248759"
-      ]
-    },
-    {
-      "title": "MDB up 30%; 'Netflix of the cloud' thesis; CRWV +14%; SNOW investor day tomorrow",
-      "body": "One trader flagged MDB up 30%+ with volume picking up, holding position and expecting breakout to all-time highs under a 'Netflix of the cloud / AI can't kill software' thesis. CRWV surged 14% with trader watching for follow-through. Snowflake hosts investor day Tuesday morning alongside two Fed speaker appearances.",
-      "tickers": [
-        "MDB",
-        "CRWV",
-        "SNOW"
-      ],
-      "source_item_ids": [
-        "x:2061688313422168477",
-        "x:2061562305570074756"
-      ]
-    },
-    {
-      "title": "RGTI valuation gap vs. peers flagged: $90/forward sales dollar vs. Infleqtion",
-      "body": "One account noted RGTI trades at ~$90 per forward dollar of sales despite generating only $4.4M in revenue last quarter vs. Infleqtion's $9.5M\u2014a stark valuation gap for nearly identical sector narratives. Commentary framed as a cautionary note on quantum name valuations.",
-      "tickers": [
-        "RGTI",
-        "IONQ"
-      ],
-      "source_item_ids": [
-        "x:2061713332101398966"
-      ]
-    },
-    {
-      "title": "BOJ signals June rate hike; SMFG exec calls for action; JGB yields fall on auction",
-      "body": "Bank of Japan strengthened arguments for a June rate hike with one participant advocating nimble emergency bond-buying if markets destabilize. SMFG's Global Markets Chief called for a June BOJ rate increase, while proposing 2.1 trillion yen monthly bond purchases from April 2027. Japan's 10-year JGB yield fell 10 bps to 2.58% following a strong bond auction.",
+      "title": "MicroStrategy reportedly planning bitcoin sales to maintain solvency \u2014 contradicts Saylor's hodl doctrine",
+      "body": "WSJ reports MicroStrategy/Strategy is preparing to sell part of its bitcoin holdings to maintain solvency, directly contradicting Michael Saylor's longstanding 'never sell' public messaging.",
       "tickers": [],
       "source_item_ids": [
-        "x:2061721726720016794",
-        "x:2061651841839202460"
+        "x:2061768812253299042"
       ]
     },
     {
-      "title": "EU trade deal advances; ECB Rabobank +25bp hike Sept; gold replaces Treasuries as top reserve",
-      "body": "EU Parliament trade committee voted to remove duties on many U.S. goods ahead of Trump's July 4 deadline; EU lawmakers cleared the deal for final approval. Rabobank forecasts an additional 25bp ECB hike, most likely in September. The ECB separately reported gold has surpassed U.S. Treasuries as the world's top reserve asset. 10-year Treasuries fell 4.9 bps to 4.428%.",
-      "tickers": [],
+      "title": "Microsoft Build 2026 conference underway \u2014 watch for AI product announcements",
+      "body": "Microsoft is hosting its Build 2026 developer conference, a key event for AI product announcements and Azure/Copilot updates that could drive incremental sentiment on MSFT.",
+      "tickers": [
+        "MSFT"
+      ],
       "source_item_ids": [
-        "x:2061718158621475143",
-        "x:2061724544206012579"
-      ]
-    },
-    {
-      "title": "Consumer credit stress: delinquencies at multi-year highs across all categories",
-      "body": "Q1 2026 data shows U.S. consumer loan delinquencies hit a 9-year high at 4.8% (30+ days past due). Credit card serious delinquencies rose to 13.1%\u2014highest since Q4 2010 and approaching the 2008 peak of 13.7%. Auto loan serious delinquencies hit a record 5.6%. Student loan 90+ day delinquencies jumped 70 bps to 10.3%, the highest since Q1 2020.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2061599033941180887",
-        "x:2061599343619252662"
+        "x:2061765468353188322"
       ]
     }
   ]
