@@ -1,223 +1,237 @@
 {
-  "digest_type": "eod",
-  "digest_dt": "2026-06-02T18:00:00-04:00",
-  "saved_at": "2026-06-02T22:36:38.448332+00:00",
+  "digest_type": "premarket",
+  "digest_dt": "2026-06-03T08:30:00-04:00",
+  "saved_at": "2026-06-03T13:34:22.731052+00:00",
   "bullets": [
     {
-      "title": "Jensen Calls Marvell a Trillion-Dollar Company; MRVL Surges 18\u201327%",
-      "body": "NVIDIA CEO Jensen Huang declared Marvell the 'next trillion-dollar company' at Computex 2026, implying roughly 5x upside from current levels. MRVL was up 18% in morning trading and 27% intraday, with a 57% gain over two weeks. Marvell's keynote at Computex framed AI infrastructure as 'connectivity-constrained' rather than compute-constrained, with AECs now the preferred interconnect option\u2014a potential headwind for AAOI.",
+      "title": "MRVL surges 33% as Jensen Huang calls it potential 'next trillion-dollar company' at Computex",
+      "body": "Marvell shares closed at a record $290.79, up nearly a third in one session, after Nvidia CEO Jensen Huang publicly touted Marvell as a potential next trillion-dollar company during an onstage appearance with Marvell CEO Matt Murphy at Computex Taiwan. Multiple fintwit accounts flag this as a watershed moment analogous to Jensen's earlier call on NBIS. Speculation also emerged around potential MRVL inclusion in the S&P 500, with ALAB and CRDO also named as candidates.",
       "tickers": [
         "MRVL",
-        "AAOI"
+        "NVDA"
       ],
       "source_item_ids": [
-        "x:2061823276926570732",
-        "x:2061817677509767546"
+        "x:2061934195895865669",
+        "x:2061972636125872612"
       ]
     },
     {
-      "title": "NVDA Market Cap Exceeds $5.5T; Demand-Supply Gap Confirmed at ~10x",
-      "body": "Nvidia's market cap surpassed $5.5 trillion, widening its lead over peers by over $1 trillion. A shareholder presentation confirmed a demand-supply imbalance of approximately 10x. NVIDIA and ARM also announced collaboration at Computex enabling autonomous agent operation on PCs, and NVIDIA launched AI for Media tools including a synthetic video detector with 92% accuracy.",
+      "title": "NVDA Vera CPU and Computex keynotes signal coordinated AI infrastructure buildout",
+      "body": "At Computex Taiwan 2026, NVIDIA announced the Vera CPU claiming 80% faster agentic task completion vs x86, framing it as the CPU of the AI factory era backed by $20B+ standalone revenue visibility with Oracle providing demand validation. Fintwit analysts noted NVDA, INTC, MRVL, and ARM keynotes functioned as a coordinated AI infrastructure roadmap reset, with AMKR named in Vera supply chain.",
       "tickers": [
         "NVDA",
+        "INTC",
+        "MRVL",
         "ARM"
       ],
       "source_item_ids": [
-        "x:2061782676260995343",
-        "x:2061818550122061870"
+        "x:2061893154899366260",
+        "x:2061885463233790104"
       ]
     },
     {
-      "title": "Microsoft Build: Cobalt 200 Chip, Project Solara, AION Models, Windows AI API Expansion",
-      "body": "Microsoft CEO Nadella unveiled Cobalt 200 (Arm-based CPU optimized for cloud), Project Solara (unified OS/platform for AI agent devices across any hardware), AION reasoning and planning models, and an expansion of Windows AI APIs to more PCs. Microsoft also launched Foundry IQ (agent-native knowledge layer integrating Work IQ, Fabric IQ, and Web IQ) and released a mini Surface dev box for ARM developers, filling a gap Qualcomm had not addressed.",
+      "title": "NVDA x MSFT deepen agentic AI partnership; MSFT adds more DC capacity in 18 months than Azure's first decade",
+      "body": "At Microsoft Build 2026, NVIDIA and Microsoft unveiled an end-to-end agentic AI stack spanning Windows PCs (RTX Spark), cloud, and local infrastructure. Microsoft announced it added more data center capacity in the last 18 months than during Azure's entire first decade, previewed the Cobalt 200 chip, launched Majorana 2 quantum chip, and released seven new MAI models including AION reasoning. DGX Station systems with GB300 chips are shipping to developers with Dell and Supermicro as OEM partners.",
       "tickers": [
-        "MSFT"
+        "MSFT",
+        "NVDA",
+        "DELL",
+        "SMCI"
       ],
       "source_item_ids": [
-        "x:2061854687750664412",
-        "x:2061864512521974151"
+        "x:2061878649071304727",
+        "x:2061885990705271191"
       ]
     },
     {
-      "title": "COHR, MRVL, LITE, GLW All Hit Highs on Optical/AI Infrastructure Wave",
-      "body": "COHR reached an all-time high with one analyst noting the upgraded 6-inch Sherman, TX fab is expected to drive revenue growth and margin expansion; the author holds Jan 2028 $610 calls. LITE is seen replicating its prior $3B\u2192$75B trajectory on CPO/pluggables and coherent waves. Broader optics sector described as 'on fire' alongside MRVL and GLW as AI infrastructure plays.",
-      "tickers": [
-        "COHR",
-        "LITE",
-        "MRVL",
-        "GLW"
-      ],
-      "source_item_ids": [
-        "x:2061811679139143900",
-        "x:2061815015892791408"
-      ]
-    },
-    {
-      "title": "GOOGL Mandatory Stock Sale Oversubscribed; Capital Raise Flags Capex Pivot",
-      "body": "Alphabet's mandatory stock sale was reported oversubscribed. One analyst noted Google is effectively suspending $80B in buybacks to fund AI capex\u2014the first such pivot in a decade\u2014and characterized the market's negative reaction as a 'don't do it' signal to other hyperscalers. LITE separately cited Google's parabolic capex as a disproportionate benefit.",
-      "tickers": [
-        "GOOGL",
-        "LITE"
-      ],
-      "source_item_ids": [
-        "x:2061806690727584111",
-        "x:2061831035436794314"
-      ]
-    },
-    {
-      "title": "HPE Reports First Triple Play Since 2021; Stock +30%; Analyst Downgrades Noted",
-      "body": "HPE reported its first beat-raise-raise (triple play) since 2021, sending the stock up 30%. One analyst called out HPE's Juniper acquisition as the strategic linchpin for an AI infrastructure and networking re-rating. Shannon Cross at Evercore was separately cited for a negative HPE call that contributed to a $10 intraday drop at some point.",
-      "tickers": [
-        "HPE"
-      ],
-      "source_item_ids": [
-        "x:2061805989091836132",
-        "x:2061808221199699998"
-      ]
-    },
-    {
-      "title": "CRDO Earnings Confirm AECs as Preferred Interconnect, Signaling Headwind for AAOI",
-      "body": "Credo Technology's earnings showed active electrical cables (AECs) are now 'the preferred' option, which fintwit flagged as a 'major problem' for AAOI. CRDO extended its beat-and-raise streak, with shares up 1.4% post-earnings.",
-      "tickers": [
-        "CRDO",
-        "AAOI"
-      ],
-      "source_item_ids": [
-        "x:2061861685095448912",
-        "x:2061805991369326779"
-      ]
-    },
-    {
-      "title": "Anthropic-Google-Broadcom TPU Complex: A Capital-Stack Event, Not Just Cloud Procurement",
-      "body": "One analyst characterized the Anthropic-Google-Broadcom TPU relationship as a balance-sheet trade rather than a cloud procurement story, viewing it as structurally positive for both GOOGL and AVGO. Custom ASIC demand broadly is validated, but the winners are connectivity IP players like MRVL and AVGO rather than generic design services firms.",
+      "title": "AVGO +4.7% ahead of Q1 earnings; seen as big winner in custom AI chip demand alongside MRVL",
+      "body": "Broadcom shares rose 4.7% on Tuesday and an additional 2.1% after-hours ahead of its Q1 earnings report. Multiple fintwit accounts position MRVL and AVGO as the primary beneficiaries of Wall Street's intensifying focus on custom AI silicon, with Marvell CEO also making the copper-to-optical interconnect case at Computex\u2014stating 200G is the last generation where copper works.",
       "tickers": [
         "AVGO",
-        "GOOGL",
         "MRVL"
       ],
       "source_item_ids": [
-        "x:2061834947615133791",
-        "x:2061817684715573725"
+        "x:2061957093242851828",
+        "x:2061941730547847246"
       ]
     },
     {
-      "title": "Intel CEO at Computex: 18A Ramped to HVM, 14A on Track; AI PC Design-Win Momentum",
-      "body": "Intel's 18A process has ramped to high volume on multiple products with 14A on track, per live Computex coverage. AI PC design-win scale is seen defending x86 and pressuring Qualcomm's Windows ambitions, with MSFT benefiting from the expanded ecosystem. ASUS skipping Intel's latest chips for the 2026 TUF Gaming 16 (using two-gen-old Raptor Lake-HX) was separately noted as a weak demand signal.",
+      "title": "WSTS raises 2026 semiconductor market forecast to $1.51T (+90%); memory segment seen +250%",
+      "body": "The World Semiconductor Trade Statistics body raised its 2026 global semiconductor market forecast to $1.51 trillion from $975 billion, implying 90% growth. Memory is the standout segment expected to surge 250% YoY to exceed $800 billion. Americas forecast is +112%; 2027 market projected at $1.91T (+27%). One fintwit account notes semis are now trading 73% above their 200-day moving average\u2014the widest premium since the Dot Com Bubble.",
       "tickers": [
-        "INTC",
-        "MSFT"
+        "MU",
+        "SNDK"
       ],
       "source_item_ids": [
-        "x:2061823353388954026",
-        "x:2061823661909082147"
+        "x:2061955069776638011",
+        "x:2061891233359012222"
       ]
     },
     {
-      "title": "ALAB Golden Cross Forms; Prior Occurrence in July 2025 Preceded 184% Gain",
-      "body": "Astera Labs formed a Golden Cross for the first time since July 2025, which was followed by a 184% share price increase when it last occurred. Noted as a technical setup to watch.",
-      "tickers": [
-        "ALAB"
-      ],
-      "source_item_ids": [
-        "x:2061853871392129059"
-      ]
-    },
-    {
-      "title": "SPY on Track for 9th Straight Up-Day, Tying Record; S&P 500 Up 10.7% YTD",
-      "body": "The S&P 500 was tracking for a 9th consecutive up-day, tying the historical record for the longest streak. Year-to-date the index is up 10.7% through May, putting it on pace for a fourth straight year of 15%+ gains\u2014a feat last seen in the 1995-1999 bull run. SPY was pinned near the 759 level with a massive $2B net gamma call wall at 760.",
+      "title": "S&P 500 on historic 9-day, 9-week winning streak; 24 all-time highs in 2026",
+      "body": "The S&P 500 closed at 7,612.12 on June 2, its sixth consecutive all-time high and ninth consecutive day of gains\u2014one of the longest streaks in history. Options traders hit most bullish positioning in 10+ years with put/call ratio at 0.58. However, fintwit's SpotGamma notes the market is heavily long calls with minimal downside hedges, warning that a transition in positioning 'could be violent' should Iran tensions escalate further.",
       "tickers": [
         "SPY"
       ],
       "source_item_ids": [
-        "x:2061866659179032712",
-        "x:2061824468452880525"
+        "x:2061913837167612332",
+        "x:2061959391109144744"
       ]
     },
     {
-      "title": "JOLTS April Job Openings Crush Estimates at 7.618M vs. 6.866M Expected\u20149-Sigma Beat",
-      "body": "U.S. job openings surged to 7.618M in April versus the 6.866M consensus, the highest level in nearly two years and the largest JOLTS beat (9 sigma) on record. Quits rate fell to a 6-year low at 1.9% and hires rate declined to 3.2%, creating a contradictory picture of high demand but limited worker mobility.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2061811941480284335",
-        "x:2061810207534006503"
-      ]
-    },
-    {
-      "title": "Fed's Hammack Flags Persistent Inflation Risk; Rate Hikes May Be 'Soon' Needed",
-      "body": "Cleveland Fed President Hammack said monetary policy may not be tight enough to lower inflation and that rate hikes could become appropriate 'soon' if current trends persist. She warned that waiting for definitive evidence risks requiring larger, costlier adjustments later.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2061788943381656048",
-        "x:2061799470849826987"
-      ]
-    },
-    {
-      "title": "Eurozone May CPI Hits 3.2%\u2014Highest in Nearly 3 Years; ECB Rate Hike Appears Cemented",
-      "body": "Eurozone inflation rose to 3.2% in May driven by a Middle East energy shock, topping 3.0% for the first time since 2023. Services inflation jumped from 3.0% to 3.5%, and core came in at 2.5% above expectations. BOE's MPC member Greene simultaneously signaled the case for UK rate hikes is growing.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2061858020255215842",
-        "x:2061850357819375644"
-      ]
-    },
-    {
-      "title": "Gold Overtakes Treasuries as World's Top Reserve Asset at 27% of Global Reserves",
-      "body": "Gold surpassed U.S. Treasuries to become the world's largest central bank reserve asset as of end-2025, holding 27% of global reserves versus 22% for Treasuries and 15% for euros per ECB data. Multiple sources highlighted this as a structural shift in global reserve preferences away from USD-denominated securities.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2061853419028033942",
-        "x:2061857378597744689"
-      ]
-    },
-    {
-      "title": "Barclays Warns AI Rally Vulnerable to Correction; Goldman Sees AI Widening Corporate Gap",
-      "body": "Barclays flagged the AI-driven equity rally as vulnerable to a correction. Goldman Sachs separately warned that AI is likely to widen the competitive gap between large corporate incumbents and smaller firms. Morgan Stanley noted AI infrastructure spend is already ~10x above early cloud cycle levels with $256T of global capital available to finance the buildout.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2061839506765127793",
-        "x:2061818448779657517"
-      ]
-    },
-    {
-      "title": "NFLX on 7th Consecutive Down Day\u2014Longest Losing Streak Since 2022",
-      "body": "Netflix was tracking for its 7th straight red session, the longest losing streak since 2022. The stock has fallen 23% since mid-April and remains 37% below its all-time high from June, after having bounced 42% from February to April.",
+      "title": "Ayar Labs joins NVIDIA NVLink Fusion; SIVE positioned as laser supplier to CPO ecosystem",
+      "body": "Ayar Labs announced joining the NVIDIA NVLink Fusion ecosystem, adding to existing members Marvell Celestial and Lightmatter. A concentrated fintwit thesis argues that Sivers Semiconductors (SIVE) is the confirmed laser supplier to Ayar Labs and high-confidence supplier to Marvell and Lightmatter, with all three using GlobalFoundries germanium-free substrate where SIVE is the reference laser. EU Chips Act 2.0 launched June 3 with SIVE and NOK named as industry contributors alongside ASML and NXP.",
       "tickers": [
-        "NFLX"
+        "NVDA",
+        "MRVL",
+        "NOK"
       ],
       "source_item_ids": [
-        "x:2061868252750299432",
-        "x:2061809359647125623"
+        "x:2061991977105989933",
+        "x:2062080378882658330"
       ]
     },
     {
-      "title": "NBIS: $2.7M Put Bet Signals Bearish Positioning",
-      "body": "A single trader added $2.7 million in NBIS puts, flagged as significant bearish positioning in the name.",
+      "title": "Corning (GLW) +13% on Wiwynn CPO supply chain disclosure",
+      "body": "After Wiwynn disclosed its CPO supply chain, Corning surged 13% with multiple other Taiwan-listed CPO suppliers (FOCI, Browave, Shunsin) hitting 10%+ circuit breakers. Fintwit sees this as an early read-through to optical interconnect demand ahead of broader CPO adoption.",
       "tickers": [
+        "GLW"
+      ],
+      "source_item_ids": [
+        "x:2061995930673422543",
+        "x:2061987511459631471"
+      ]
+    },
+    {
+      "title": "PANW Q3 beats on EPS and revenue; BTIG raises PT to $333, TD Cowen to $330",
+      "body": "Palo Alto Networks reported Q3 FY26 adj. EPS of $0.85 vs $0.79 estimate and revenue of $3.00B vs $2.94B estimate. Next-Gen Security ARR guided $8.90-8.95B; Q4 revenue guided $3.35-3.36B above the $3.27B consensus. Multiple analysts raised price targets; BTIG lifted PT to $333 from $268 and TD Cowen to $330 from $255, with the stock up 13% in extended trading. Fintwit reads PANW results as a second-derivative confirmation of AI data-center buildout strength across ANET, NVDA, AVGO, MRVL.",
+      "tickers": [
+        "NVDA",
+        "AVGO",
+        "MRVL",
+        "ANET"
+      ],
+      "source_item_ids": [
+        "x:2061903006535409961",
+        "x:2062026323644588426"
+      ]
+    },
+    {
+      "title": "Morgan Stanley initiates META as top pick with $775 PT (~30% upside)",
+      "body": "Morgan Stanley initiated coverage on Meta with a top pick designation and $775 price target, implying approximately 30% upside. Thesis centers on Meta AI search, business/consumer subscriptions, core advertising upside, and Neocloud potential\u2014each expected to add $1-3 to 2028 EPS with multiple expansion.",
+      "tickers": [
+        "META"
+      ],
+      "source_item_ids": [
+        "x:2061902591815249931"
+      ]
+    },
+    {
+      "title": "PLTR: Trump Truth Social post and FY26 guidance raise; analyst highlights 71% revenue growth",
+      "body": "In April Trump directly named $PLTR in a Truth Social post praising Palantir's warfighting capabilities. In May, Palantir raised FY2026 revenue guidance to $7.65-$7.66B (+71% YoY) with US commercial guidance raised to +120% growth. Analyst consensus 2026 EPS sits around $1.46 with average PT ~$190 and some targets as high as $255. Despite the catalysts, the stock has barely moved in the two months since the Trump post.",
+      "tickers": [
+        "PLTR"
+      ],
+      "source_item_ids": [
+        "x:2061890705601987006",
+        "x:2061890709573992549"
+      ]
+    },
+    {
+      "title": "MSFT leading hybrid AI monetization; GOOGL and MSFT flagged as making right moves in AI arms race",
+      "body": "Multiple fintwit accounts flag Microsoft as entering the next phase of AI monetization via its developer ecosystem, noting Azure Arc and Edge AI as hybrid AI enablers. MSFT and GOOGL are described as 'making the right moves' in the AI arms race. Hybrid cloud inference margins are noted as minimum 80%, supporting the economic case for sustained investment.",
+      "tickers": [
+        "MSFT",
+        "GOOGL"
+      ],
+      "source_item_ids": [
+        "x:2061920085686567085",
+        "x:2061931432092553472"
+      ]
+    },
+    {
+      "title": "INTC: 14A process moving forward de facto; 18A ramped to high volume at Computex",
+      "body": "Fintwit notes Intel's 18A process node has ramped to high volume on multiple products and 14A is on track, though Intel is unlikely to provide an official confirmation announcement. Intel appeared prominently at Computex with CEO on stage, viewed as signaling PE/enterprise capital commitment to AI data center buildout. Analyst describes INTC's AI infrastructure turnaround story as 'more credible' but execution-dependent.",
+      "tickers": [
+        "INTC"
+      ],
+      "source_item_ids": [
+        "x:2061956219397689537",
+        "x:2061885471379406936"
+      ]
+    },
+    {
+      "title": "China's NAND market share now rivals Micron and SanDisk; competitive pressure rising",
+      "body": "Multiple fintwit accounts flag a report showing China has achieved NAND market share comparable to Micron and SanDisk, raising competitive concerns for legacy NAND players. Separately, NAND supply is forecast to grow at 22% CAGR with Kioxia signaling supply discipline through 2029.",
+      "tickers": [
+        "MU",
+        "SNDK"
+      ],
+      "source_item_ids": [
+        "x:2062021778059444520",
+        "x:2061974729125495165"
+      ]
+    },
+    {
+      "title": "ChatGPT hits 1B monthly active users; Goldman CEO warns markets in 'greed' mode",
+      "body": "ChatGPT reached 1 billion monthly active users. Goldman Sachs CEO David Solomon separately described markets as being in 'greed mode' and characterized inflation as a higher near-term priority than employment. Bain research also published findings showing actual corporate AI cost-savings are falling well below initial projections, raising questions about enterprise AI ROI timelines.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2062069969794580689",
+        "x:2061884805378183299"
+      ]
+    },
+    {
+      "title": "Oil nears $95/bbl on stalled US-Iran talks; Gulf tensions put/call ratio near 10-year low",
+      "body": "Brent crude settled at $96/bbl (+1.07%) and WTI at $93.76/bbl (+1.74%) on a third consecutive day of gains as US-Iran peace talks stalled and Iran's IRGC claimed retaliatory missile/drone strikes on US bases in Kuwait and UAE. TD Securities sees Brent averaging $104 in H2 with upside risk to $150+. Fintwit's SpotGamma separately warns markets are positioned heavily long calls with put/call OI near 10-year lows.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2061962846263800211",
+        "x:2061959391109144744"
+      ]
+    },
+    {
+      "title": "Gold overtakes US Treasuries as world's second-largest reserve asset",
+      "body": "Multiple fintwit sources note gold has surpassed US Treasuries to become the world's second-largest central bank reserve asset. JGB yields continue rising across the curve (10Y at 2.64%, 20Y at 3.535%, 40Y at 3.765%), adding to global duration pressure.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2061981949808476266",
+        "x:2061970684029378584"
+      ]
+    },
+    {
+      "title": "NVDA Vera CPU supply chain: ORCL provides demand validation; AMKR in supply chain",
+      "body": "A detailed fintwit thread notes Oracle is providing demand validation for NVIDIA's Vera CPU with $20B standalone revenue visibility. Amkor Technology (AMKR) is identified as being in the Vera CPU supply chain. The MGX platform supporting Vera includes 80+ partners across systems, power, and cooling.",
+      "tickers": [
+        "NVDA",
+        "ORCL"
+      ],
+      "source_item_ids": [
+        "x:2061979181504970858",
+        "x:2061907873672941929"
+      ]
+    },
+    {
+      "title": "BRUN: $471M take-or-pay with Mira Murati's Thinking Machines; one of few neoclouds with NVDA Exemplar status",
+      "body": "Fintwit flags BRUN as recently IPO'd with a $471M take-or-pay agreement with Thinking Machines (Mira Murati's AI lab) and NVDA Exemplar status\u2014one of very few neoclouds to hold this designation. Author expects BRUN to appear on Leopold Aschenbrenner's 13F and values it at approximately half of NBIS's valuation.",
+      "tickers": [
+        "NVDA",
         "NBIS"
       ],
       "source_item_ids": [
-        "x:2061846831898976543"
+        "x:2061921607451660690"
       ]
     },
     {
-      "title": "MLCC Supply Exceptionally Tight; China Controls High-Capacitance Supply via Rare Earth Chokehold",
-      "body": "A 25-year semiconductor industry veteran noted unusual market enthusiasm for MLCCs (multilayer ceramic capacitors) due to extremely tight supply\u2014a dynamic not seen in a quarter century. Separately, China's control of dysprosium oxide (used in 0.3%-2% concentrations in Class II high-capacitance MLCCs) gives it a structural chokehold on global MLCC supply.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2061863226535715264",
-        "x:2061795707850551520"
-      ]
-    },
-    {
-      "title": "Amazon Prime Day Set for June 23\u201327; TSLA May China Deliveries +39% YoY",
-      "body": "Amazon confirmed its next Prime Day spans four days beginning June 23rd. Tesla's May China deliveries rose 39% year-over-year, the best two-month total since Q4 2022.",
+      "title": "LITE flagged with 'Die Hard' conviction; COHR part of NVDA's own CPO program",
+      "body": "One fintwit account posts a high-conviction bullish call on Lumentum (LITE) with a 'Die Hard' designation. Separately, a detailed CPO ecosystem thread notes LITE and COHR are part of NVIDIA's own CPO/NVLink program distinct from the SIVE-supplied ecosystem partners, with Celestial and Lightmatter expected to multi-source but SIVE preferred for gen-1.",
       "tickers": [
-        "AMZN",
-        "TSLA"
+        "LITE",
+        "COHR"
       ],
       "source_item_ids": [
-        "x:2061790999886676438",
-        "x:2061829170544447934"
+        "x:2061921113341665687",
+        "x:2062082082265076045"
       ]
     }
   ]
