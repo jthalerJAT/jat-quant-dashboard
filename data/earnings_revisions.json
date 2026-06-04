@@ -1,12 +1,12 @@
 {
-  "digest_type": "midday",
-  "digest_dt": "2026-06-04T12:00:00-04:00",
-  "saved_at": "2026-06-04T16:28:52.003280+00:00",
+  "digest_type": "eod",
+  "digest_dt": "2026-06-04T18:00:00-04:00",
+  "saved_at": "2026-06-04T22:31:56.266561+00:00",
   "revisions": {
     "sales": {
       "metric": "sales",
       "metric_display": "Revenue",
-      "n_total_with_data": 122,
+      "n_total_with_data": 120,
       "by_pct_top": [
         {
           "ticker": "NNE",
@@ -151,16 +151,6 @@
           "n_obs": 783
         },
         {
-          "ticker": "CORZ",
-          "forward_y_code": "27Y",
-          "metric": "sales",
-          "current_estimate": 1122.133,
-          "prior_estimate": 1156.625,
-          "pct_change": -2.982124716308221,
-          "percentile": 34.76027397260274,
-          "n_obs": 584
-        },
-        {
           "ticker": "NOK",
           "forward_y_code": "27Y",
           "metric": "sales",
@@ -208,6 +198,16 @@
           "prior_estimate": 118790.382,
           "pct_change": -0.7587466130044129,
           "percentile": 51.724137931034484,
+          "n_obs": 783
+        },
+        {
+          "ticker": "HOOD",
+          "forward_y_code": "27Y",
+          "metric": "sales",
+          "current_estimate": 6115.52,
+          "prior_estimate": 6158.148,
+          "pct_change": -0.6922211028380532,
+          "percentile": 21.966794380587483,
           "n_obs": 783
         }
       ],

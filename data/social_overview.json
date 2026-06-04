@@ -1,198 +1,221 @@
 {
-  "digest_type": "midday",
-  "digest_dt": "2026-06-04T12:00:00-04:00",
-  "saved_at": "2026-06-04T16:28:52.003280+00:00",
+  "digest_type": "eod",
+  "digest_dt": "2026-06-04T18:00:00-04:00",
+  "saved_at": "2026-06-04T22:31:56.261548+00:00",
   "bullets": [
     {
-      "title": "AVGO soft AI chip guidance drags Nasdaq futures down 1.5%",
-      "body": "Broadcom issued soft AI chip guidance post-earnings, pushing NDX futures to session lows of -1.5% and SPX -0.4% to -0.6% pre-market. Tech valuations described as 'stretched' ahead of the $75B SpaceX IPO, compounding the negative sentiment.",
+      "title": "AVGO posts record-worst earnings reaction day despite sixth consecutive triple play",
+      "body": "Broadcom fell ~15% \u2014 its worst earnings reaction day in company history \u2014 after Q3 AI revenue guidance of $16B missed the ~$17.2B consensus, despite beating on revenue and EPS for a sixth straight quarter. Bloomberg Intelligence noted recent wins with Google, Meta, and Anthropic 'did not meet elevated market expectations.' Analyst Harlan's $300B AI revenue call for 2028 remains on the table but the stock was barely holding $400 intraday.",
       "tickers": [
         "AVGO"
       ],
       "source_item_ids": [
-        "x:2062468214441812419",
-        "x:2062499318750118240"
+        "x:2062518073827922338",
+        "x:2062534579915747780"
       ]
     },
     {
-      "title": "AVGO shares hit session low, down 15%",
-      "body": "Broadcom shares extended their decline to a session low of -15% as the market digested the soft AI chip guidance. No specific forward commentary provided beyond the price action signal.",
+      "title": "NVDA's Spectrum-X Ethernet Photonics enters production; $2B investments each in COHR and LITE counter CPO cannibalization fears",
+      "body": "NVIDIA invested $2B each in Coherent and Lumentum as suppliers on the Spectrum-X Ethernet Photonics supply chain, which entered production May 31. The market had read co-packaged optics (CPO) as a death-knell for pluggable transceivers, but NVDA's actions suggest pluggables remain central. LITE was still down on the session as AVGO's TPU/custom ASIC commentary created conflicting read-throughs.",
       "tickers": [
-        "AVGO"
+        "NVDA",
+        "COHR",
+        "LITE"
       ],
       "source_item_ids": [
-        "x:2062498423761412315",
-        "x:2062468514527547429"
+        "x:2062565503437348995",
+        "x:2062569726480462000"
       ]
     },
     {
-      "title": "HSBC's Max Kettner: slowing AI spend and chip supply glut are the bear case",
-      "body": "HSBC strategist Max Kettner says his bearish trigger would be 'any signs of stretched sentiment and positioning,' slowing AI spending, or increased chip supply causing a glut. He is notably unconcerned by earnings misses, geopolitical risks, or higher Treasury yields.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2062485193340924208"
-      ]
-    },
-    {
-      "title": "Tech layoffs hit highest since Aug 2024; AI cited as primary driver",
-      "body": "The tech sector announced 38,242 job cuts last month, the most since August 2024, with AI automation cited as the leading reason. Total U.S. job cuts in May reached 97,006, the highest for that month since 2020, and May Challenger Gray data showed cut announcements up 3.4% YoY reversing a prior -20.9% decline.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2062479328764456972",
-        "x:2062467022647374326"
-      ]
-    },
-    {
-      "title": "Strong macro data vs. weak risk sentiment: ISM services new orders surge, factory orders soar",
-      "body": "ISM Services new orders jumped to 57.3 in May (vs. 53.5 prior, above 12-month avg of 54.7) and April factory orders rose +4.8% m/m\u2014the largest gain since May 2025\u2014driven by a 22% surge in transportation equipment. ADP also showed broad-based private payroll gains across all firm sizes in May, yet futures remain under pressure.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2062494084460114283",
-        "x:2062493960229011848"
-      ]
-    },
-    {
-      "title": "Oil drops 3%+ on US-Iran ceasefire signals; Hormuz tanker bottleneck remains",
-      "body": "Brent and WTI crude futures fell over 3% as the White House signaled it will maintain a ceasefire with Iran unless American troops are killed, and Trump claimed the US is 'in the middle of final negotiations to end the Iran war.' However, Iran's foreign minister said 'no tangible progress' has been achieved, and 80 of 109 oil tankers remain trapped in the Persian Gulf since the conflict began.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2062502605847232694",
-        "x:2062494904706584687"
-      ]
-    },
-    {
-      "title": "Bitcoin hits 4-month low; crypto stocks under pressure; $1.8B in liquidations",
-      "body": "Bitcoin fell to $61,311 before partially rebounding to $62,580, down ~27% YTD, driven by ETF outflows, geopolitical tensions, and Strategy Bitcoin sales. Over $1.8B in levered crypto positions were liquidated, pressuring crypto-related equities.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2062502559915380943",
-        "x:2062485622053392528"
-      ]
-    },
-    {
-      "title": "China margin debt exceeds 2015 bubble peak \u2014 Goldman data",
-      "body": "China's margin trading balance has now surpassed the peak of the 2015 equity bubble, per Goldman Sachs data, signaling elevated leverage risk in Chinese equities.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2062498949475221717"
-      ]
-    },
-    {
-      "title": "INTC: Lip Bu era revealed prior data-sharing failure with SME vendors hurt yields",
-      "body": "Intel's new leadership under Lip Bu uncovered that the prior management had not shared sufficient data with SME vendors to optimize manufacturing yields\u2014a significant operational revelation. The shift to opening data to vendors is underway, representing a meaningful process improvement from prior leadership failures.",
-      "tickers": [
-        "INTC"
-      ],
-      "source_item_ids": [
-        "x:2062458077388177412"
-      ]
-    },
-    {
-      "title": "INTC: Nova Lake next-gen LGA 1954 socket spotted online",
-      "body": "Intel's upcoming Nova Lake processor platform featuring a new LGA 1954 socket has made its first public online appearance, signaling continued roadmap execution for next-gen client CPUs.",
-      "tickers": [
-        "INTC"
-      ],
-      "source_item_ids": [
-        "x:2062457513908593147"
-      ]
-    },
-    {
-      "title": "AMZN invests \u20ac10B+ in European fulfillment, adds 25K jobs; holds OUST lidar warrant",
-      "body": "Amazon announced over \u20ac10B in European fulfillment center investment with faster delivery expansion and 25,000 new jobs. Separately, Amazon holds a warrant in Ouster (OUST) contingent on continued lidar purchases; OUST was down 4% pre-market.",
-      "tickers": [
-        "AMZN"
-      ],
-      "source_item_ids": [
-        "x:2062478677246664833",
-        "x:2062456352232951826"
-      ]
-    },
-    {
-      "title": "NVDA venture arm was pre-IPO investor in AI biotech GENB",
-      "body": "Nvidia's venture arm backed Generate Biomedicines (GENB) pre-IPO; the company raised ~$400M in a February 2026 Nasdaq IPO. GENB uses generative AI for protein design with a lead Phase 3 asset (anti-TSLP mAb GB-0895) for severe asthma/COPD, representing Nvidia's positioning in generative AI for biology.",
+      "title": "NVDA launches Nemotron 3 Ultra: 5x faster inference, 30% lower cost; DGX Spark boosts agentic workflows 2.6x",
+      "body": "NVIDIA officially introduced Nemotron 3 Ultra at CVPR2026, targeting long-running agentic tasks with planning, reasoning, and tool-use \u2014 delivering up to 5x faster inference and 30% lower cost. Separately, DGX Spark updates via NemoClaw provide up to 2.6x inference speed gains for local agent workflows. The model was pre-trained in NVFP4 format, a signal for estimating future model sizes. NVIDIA also introduced composable physical AI workflows for autonomous vehicles and robotics at the same event.",
       "tickers": [
         "NVDA"
       ],
       "source_item_ids": [
-        "x:2062497182079414559",
-        "x:2062497176953946447"
+        "x:2062522316672667770",
+        "x:2062545700970545411"
       ]
     },
     {
-      "title": "HOOD benefits as pattern day trader restrictions ease",
-      "body": "Robinhood and Webull are lifting pattern day trader restrictions, removing friction for retail traders executing rapid-fire stock and options trades\u2014a direct structural positive for Robinhood's trading volumes and engagement metrics.",
+      "title": "NVIDIA and Microsoft jointly frame RTX Spark / AI PCs as GPU-first CUDA edge inference platforms",
+      "body": "At Computex and Build, Microsoft and NVIDIA made a coordinated case for AI PCs evolving from modest NPU endpoints into high-memory, GPU-first, CUDA-capable local inference platforms \u2014 bullish for NVIDIA's edge AI adoption. The RTX Spark positioning reframes the AI PC category with implications for MSFT's Windows OS strategy, which is also reportedly re-emerging as a strategic priority.",
       "tickers": [
-        "HOOD"
+        "NVDA",
+        "MSFT"
       ],
       "source_item_ids": [
-        "x:2062467668284780880"
+        "x:2062545934462992503",
+        "x:2062570596446478827"
       ]
     },
     {
-      "title": "NOK, LITE, COHR, CIEN flagged for must-read analysis",
-      "body": "A fintwit account flagged NOK, LITE, COHR, and CIEN as names worth watching with a linked analysis piece, suggesting potential sector-level catalyst or shared thematic read-through for optical/telecom networking names.",
+      "title": "CIEN drops ~20% despite beat-and-raise; AI networking capex cycle read-through still positive",
+      "body": "Ciena reported its second earnings triple play in three quarters \u2014 Q2 2026 revenue beat with FY2026 guidance raised \u2014 yet shares fell as much as 16-20%. Analysts view the call as fundamentally bullish for the medium-term AI networking capex cycle, with the quarter 'strengthening 3 central investment debates.' Revenue grew 40% YoY driven by core Optical Networking. The sell-off is characterized as a 'fire sale' on a high-quality optical networking franchise.",
       "tickers": [
-        "LITE",
-        "NOK",
-        "COHR",
         "CIEN"
       ],
       "source_item_ids": [
-        "x:2062471672431513696"
+        "x:2062546801559777635",
+        "x:2062591219642085843"
       ]
     },
     {
-      "title": "MTSI took IQE stake; CHIPS Act funding complicates M&A for compound semi names",
-      "body": "CHIPS Act funding restrictions make it difficult for major companies to acquire funded firms outright; MTSI's stake in IQE is cited as an alternative partnership model. GFS and JBL mentioned as potential future partners for SIVE under the same dynamic.",
+      "title": "META rallies 3.1% to session highs; LightShed disputes ad-delay reports",
+      "body": "META shares extended to session highs, up 3.1%, during the afternoon session. LightShed Partners contradicted recent reports that META is delaying its ad push into non-IDFA iOS traffic, providing a potential catalyst for the move.",
       "tickers": [
-        "MTSI"
+        "META"
       ],
       "source_item_ids": [
-        "x:2062455642854735906"
+        "x:2062566170973340133",
+        "x:2062576579679597032"
       ]
     },
     {
-      "title": "AI productivity gap: adoption at 30% but no macro-level output gain yet",
-      "body": "Despite markets pricing AI as revolutionary, productivity data across developed economies show no measurable change in trend over four years of adoption. Tech adoption is roughly 30% across developed economies with AI cited as the leading reason for tech layoffs but not yet showing up in aggregate output statistics.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2062482129666142498",
-        "x:2062495847540007405"
-      ]
-    },
-    {
-      "title": "North American M&A rebounds to $315B in May from $286B in April",
-      "body": "North American M&A announcement volumes rose to $315B in May from $286B in April, per themarketear citing market data, suggesting deal activity is reaccelerating despite macro uncertainty.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2062474447378919880"
-      ]
-    },
-    {
-      "title": "Constellation's Three Mile Island nuclear restart gets FERC waiver boost",
-      "body": "Constellation Energy's Three Mile Island nuclear restart received a FERC waiver, a meaningful regulatory milestone for the project's timeline and power delivery commitments.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2062494601856889284"
-      ]
-    },
-    {
-      "title": "VOO AUM: 56% driven by new inflows, not price appreciation",
-      "body": "Over 56% of VOO's total AUM growth has come from new cash inflows rather than market appreciation, highlighting the sustained structural demand for passive S&P 500 exposure that underpins index-level valuations.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2062498203862184117"
-      ]
-    },
-    {
-      "title": "NOW: fintwit trader accumulating on support holds",
-      "body": "One active fintwit trader disclosed an existing position in ServiceNow (NOW) and stated willingness to add more if price demonstrates support-level holds, signaling conviction at current levels.",
+      "title": "MRVL turns positive on SPY index inclusion speculation; $1T valuation cited as upside scenario",
+      "body": "Marvell Technology went positive mid-session with market commentary suggesting traders are pricing in potential S&P 500 index addition, with substantial further upside if MRVL reaches a $1T market cap.",
       "tickers": [
-        "NOW"
+        "MRVL"
       ],
       "source_item_ids": [
-        "x:2062493495085199433"
+        "x:2062554733953331335"
+      ]
+    },
+    {
+      "title": "AMZN commits \u20ac10B+ to European fulfillment, deploys next-gen Proteus robots; OUST lidar is key supplier",
+      "body": "Amazon announced a \u20ac10B+ investment to expand and modernize European fulfillment centers with next-generation Proteus robots for site-wide operations. OUST lidar sensors are embedded in the Proteus platform \u2014 driving a 9% intraday warrant rally for OUST while broader indexes were red. Amazon separately disclosed its Vulcan robot (first with tactile sensing) and reached 50,000 electric delivery vehicles globally.",
+      "tickers": [
+        "AMZN"
+      ],
+      "source_item_ids": [
+        "x:2062569889227825303",
+        "x:2062578336816115795"
+      ]
+    },
+    {
+      "title": "RDDT: 69% YoY revenue growth, 91.5% gross margin praised as durable moat",
+      "body": "Reddit's Q1 results drew attention on fintwit for 69% year-over-year revenue growth, 91.5% gross margin, and strong FCF generation. Commentary highlighted Reddit's data moat as durable against AI competition, calling it a 'massive earnings beat' with a 'strong network effect moat.'",
+      "tickers": [
+        "RDDT"
+      ],
+      "source_item_ids": [
+        "x:2062552171502330188"
+      ]
+    },
+    {
+      "title": "TSLA: TD Cowen reiterates Buy at $490; Model Y L could add 60k\u2013135k annual demand",
+      "body": "TD Cowen reiterates a Buy rating on Tesla with a $490 price target, projecting the three-row Model Y L US launch could unlock 60,000\u2013135,000 units of annual incremental demand, representing roughly 30% uplift over current Model Y volumes.",
+      "tickers": [
+        "TSLA"
+      ],
+      "source_item_ids": [
+        "x:2062517953132703772"
+      ]
+    },
+    {
+      "title": "TSM praised for disciplined capacity management amid AI demand surge",
+      "body": "TSMC management was described as 'tough, flinty, disciplined' in approach to capacity cycles, helping avoid overbuild and bubble dynamics. Separately, TSMC flagged it can only 'support so much' AI chip demand, signaling binding supply-side constraints in advanced node capacity.",
+      "tickers": [
+        "TSM"
+      ],
+      "source_item_ids": [
+        "x:2062567550676828371",
+        "x:2062541082664341925"
+      ]
+    },
+    {
+      "title": "AAPL's revamped Siri will rely on Google's NVDA chip infrastructure at September launch",
+      "body": "Apple's overhauled Siri will depend on Google's NVIDIA chip infrastructure at its September release, creating an interplay between AAPL, GOOGL, and NVDA in the AI assistant stack. The App Store ecosystem separately hit $1.4 trillion.",
+      "tickers": [
+        "AAPL",
+        "GOOGL",
+        "NVDA"
+      ],
+      "source_item_ids": [
+        "x:2062507282949095798",
+        "x:2062520527164756425"
+      ]
+    },
+    {
+      "title": "PLTR partners with Google Cloud; IBM launches dedicated Google Cloud AI practice",
+      "body": "Palantir announced a multi-tiered partnership with Google Cloud including platform integrations and Marketplace availability. Separately, IBM launched a dedicated Google Cloud Practice deploying thousands of certified consultants for enterprise AI scaling.",
+      "tickers": [
+        "PLTR",
+        "GOOGL"
+      ],
+      "source_item_ids": [
+        "x:2062531441087422697",
+        "x:2062535975868264792"
+      ]
+    },
+    {
+      "title": "MU flagged as next AI infrastructure bottleneck; MicroLED optical interconnects emerging",
+      "body": "A detailed thread argued the AI infrastructure bottleneck is shifting from GPU and HBM to MicroLED optical interconnects, where memory and optics converge. Micron, Samsung, and SK Hynix are all pursuing solutions. Representative Josh Gottheimer (House AI subcommittee) also filed purchases of SNDK, MU, and AMD.",
+      "tickers": [
+        "MU",
+        "SNDK",
+        "AMD"
+      ],
+      "source_item_ids": [
+        "x:2062538108323979353",
+        "x:2062528553372078205"
+      ]
+    },
+    {
+      "title": "Tech sector hits record 39.7% of S&P 500 \u2014 nearly 5 pts above dot-com peak; retail bullish options near records",
+      "body": "The tech sector's weighting in the S&P 500 reached 39.7% on Tuesday, nearly 5 percentage points above the March 2000 peak. Separately, retail bullish trades make up nearly two-thirds of retail opening options activity in mega-cap tech stocks, approaching record optimism levels.",
+      "tickers": [
+        "SPY"
+      ],
+      "source_item_ids": [
+        "x:2062581271256048025",
+        "x:2062587211002822719"
+      ]
+    },
+    {
+      "title": "Fed speakers: Daly bullish on AI but sees no productivity data yet; Schmid says inflation still too high",
+      "body": "Fed's Daly called herself 'bullish' on AI but said 2025 would be the litmus test, and that AI productivity gains 'have not yet been seen in data.' She added forward guidance is 'not good at this juncture' and policy is 'in a good place.' Schmid said 'inflation is too high' after a 'five-year fight' with no conclusion.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2062561147417747672",
+        "x:2062588280273588442"
+      ]
+    },
+    {
+      "title": "Labor market softening: jobless claims 225K (est. 215K), tech job cuts highest since Aug 2024; AI accounts for 88K YTD cuts",
+      "body": "Initial jobless claims rose to 225K vs. 215K estimate and 212K prior. Tech sector job cut announcements hit their highest level since August 2024 in May. AI-related layoffs reached 88,000 YTD, already 60% above all of 2025, marking a third consecutive month as the top cause of job cuts. Q1 nonfarm productivity came in at just 0.3% annualized vs. 0.8% estimate.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2062512839563059247",
+        "x:2062543735284531619"
+      ]
+    },
+    {
+      "title": "IMF warns Fed to stay cautious; pushes 2% inflation target achievement to end-2027; oil reserves at 5-year low",
+      "body": "The IMF advised the Fed to proceed cautiously citing higher tariffs and renewed energy price pressures, and delayed its 2% inflation timeline to end-2027 from mid-2027. It separately flagged Iran-related oil production disruption of 14M barrels/day, with global oil prices ~3% above April baseline, and reserves forecast to hit a 5-year low of 7.5B barrels in July.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2062550109498568875",
+        "x:2062550075650215988"
+      ]
+    },
+    {
+      "title": "Blackstone private credit fund gates redemptions at 5% amid 10% Q2 withdrawal requests",
+      "body": "Blackstone's $79B private credit fund (BCRED) received redemption requests for nearly 10% of shares outstanding in Q2 and will fulfill only 5%. Multiple peers are taking similar defensive actions. The development signals meaningful liquidity stress in private credit markets.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2062523650528424135",
+        "x:2062506843302228380"
+      ]
+    },
+    {
+      "title": "Dow hits record high (+1.6%/+790pts); NASDAQ 100 down 1.3%; broad market rotation underway",
+      "body": "The Dow Jones hit a record high, rising 1.6% or 790 points, while the NASDAQ 100 fell 1.3%, reflecting a sharp intraday rotation out of tech/semiconductors. The advance/decline line was on pace for its best reading in nearly two months (+297), and Goldman maintained its 12-month equity overweight stance, recommending buying dips as gains moderate.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2062536818122268681",
+        "x:2062556054227955991"
       ]
     }
   ]
