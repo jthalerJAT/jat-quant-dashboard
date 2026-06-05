@@ -1,220 +1,193 @@
 {
-  "digest_type": "premarket",
-  "digest_dt": "2026-06-05T08:30:00-04:00",
-  "saved_at": "2026-06-05T13:28:30.621431+00:00",
+  "digest_type": "midday",
+  "digest_dt": "2026-06-05T12:00:00-04:00",
+  "saved_at": "2026-06-05T16:28:35.111375+00:00",
   "bullets": [
     {
-      "title": "Jobs Friday: Consensus Expects ~88K Payrolls, 4.3% Unemployment",
-      "body": "Street consensus heading into May payrolls expects 88,000 job gains, unemployment steady at 4.3%, labor participation flat at 61.8%, and average weekly hours at 34.3\u2014characterized by one account as 'a number I would characterize as weak.'",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2062813944713023699"
-      ]
-    },
-    {
-      "title": "Tech Futures Extend Global Selloff Pre-Payrolls: NDX -1.13%, S&P -0.6%",
-      "body": "Nasdaq 100 futures fell 1.13% and S&P 500 futures dropped 0.6% in overnight/pre-market action as the Asian session closed with KOSPI -6%, TAIEX -2%, and Nikkei -1%. Markets also tracking Korea won at 17-year lows vs. dollar (USD/KRW ~1,547).",
-      "tickers": [
-        "SPY"
-      ],
-      "source_item_ids": [
-        "x:2062807021494432205",
-        "x:2062688346535870766"
-      ]
-    },
-    {
-      "title": "NVIDIA Completes HBM4 Qualification From All Three Major Memory Makers",
-      "body": "NVIDIA has secured HBM4 approval from all three major memory suppliers (SK Hynix, Micron, Samsung), a key milestone enabling the production ramp for next-gen AI systems.",
-      "tickers": [
-        "NVDA",
-        "MU"
-      ],
-      "source_item_ids": [
-        "x:2062771207192314223"
-      ]
-    },
-    {
-      "title": "Jensen Huang Korea Visit: R&D Center, Meetings With Samsung, SK, Hyundai; Robotics Pitch",
-      "body": "Jensen Huang announced NVIDIA will open an R&D center in South Korea and confirmed meetings with Hyundai Motor Group, Samsung Electronics, and SK Group. Huang called robotics 'Korea's next key industry' and highlighted significant deployment opportunities in Korean industries.",
-      "tickers": [
-        "NVDA"
-      ],
-      "source_item_ids": [
-        "x:2062757706226909427",
-        "x:2062758512925827497"
-      ]
-    },
-    {
-      "title": "Jensen Huang Hints at 'Upcoming Surprises'; AI Buildout Accelerating",
-      "body": "NVIDIA CEO Jensen Huang hinted at upcoming product or partnership surprises (no specifics) and stated the global AI buildout is accelerating. NVIDIA's full-stack AI factory platform cited as the foundation for expanding AI clouds worldwide.",
-      "tickers": [
-        "NVDA"
-      ],
-      "source_item_ids": [
-        "x:2062759714707181799",
-        "x:2062691991494783218"
-      ]
-    },
-    {
-      "title": "TSMC: 2030 Demand Visibility, Mid-30% Revenue Growth Target, Cautious on Pricing",
-      "body": "TSMC Chairman C.C. Wei stated demand visibility extends to 2030\u2014far beyond the typical few-quarter-to-one-year window\u2014with mid-30% YoY revenue growth targeted this year. Wei warned against aggressive 'memory chip-style' pricing, prioritizing sustainable long-term operations. The AI demand surge 'caught even Jensen by surprise.'",
-      "tickers": [
-        "TSM"
-      ],
-      "source_item_ids": [
-        "x:2062712433479954851",
-        "x:2062690921679044925"
-      ]
-    },
-    {
-      "title": "TSMC: High-NA EUV in Research (Not Mass Production), CoPoS Pilot Line Operational",
-      "body": "TSMC purchased ASML's High-NA EUV tools but is still optimizing for manufacturing cost efficiency\u2014not yet in mass production. A CoPoS advanced packaging pilot line is already built with volume ramp expected in 2\u20133 years. CEO Wei reiterated TSMC will 'work relentlessly' to beat rivals including TeraFab.",
-      "tickers": [
-        "TSM"
-      ],
-      "source_item_ids": [
-        "x:2062691128357626172",
-        "x:2062691803749646452"
-      ]
-    },
-    {
-      "title": "SK Hynix: No New NAND Capacity; DRAM Targeting 2x Wafers by 2030\u201331; US Listing Gets 'Tremendously Positive' Response",
-      "body": "SK Hynix confirmed no plans to add new NAND flash capacity (only YMTC and Kioxia expanding). The company is targeting roughly double current DRAM wafer production by 2030\u201331, per Jensen Huang's 'please make more' directive. Separately, SK Hynix's US listing plan is reportedly attracting 'tremendously positive' investor feedback.",
+      "title": "MU Options Volume Hits $1.5B, Exceeding SPY+QQQ Combined\u2014Stock Loses $94B Market Cap",
+      "body": "Micron options traded ~$1.5B in notional premium, exceeding SPY and QQQ (~$1B each) combined\u2014described as 'insane' by SpotGamma. MU simultaneously shed $94B in market cap, a move exceeding 1 standard deviation for top-20 stocks, raising questions about broader semiconductor sector health.",
       "tickers": [
         "MU"
       ],
       "source_item_ids": [
-        "x:2062809398284812532",
-        "x:2062808202463567989",
-        "x:2062693278001373656"
+        "x:2062864852935201126",
+        "x:2062865543192007027"
       ]
     },
     {
-      "title": "BNP Cuts DRAM/NAND ASP Peak Forecast to Mid-2026; QoQ Declines Starting Early 2025",
-      "body": "BNP Paribas analyst Karl Ackerman now expects DRAM and NAND ASP peaks by mid-2026 (vs. prior mid-2027 forecast), with quarter-over-quarter ASP declines commencing in early 2025. Recent AI-driven ASP surge is seen as pulling forward the cycle.",
-      "tickers": [
-        "MU"
-      ],
-      "source_item_ids": [
-        "x:2062679134569198029"
-      ]
-    },
-    {
-      "title": "NVIDIA Rubin NVSwitch Tray BoM Open-Sourced; Embeds AMD EPYC CPUs (9 per VR200 Rack)",
-      "body": "NVIDIA open-sourced its Rubin NVSwitch Tray bill of materials and diagram. Each tray uses an AMD EPYC 3151 embedded CPU\u20149 per VR200 rack\u2014an overlooked AMD socket win inside NVIDIA's next-gen infrastructure.",
-      "tickers": [
-        "NVDA",
-        "AMD"
-      ],
-      "source_item_ids": [
-        "x:2062720812042371558"
-      ]
-    },
-    {
-      "title": "Intel 18A Called 'Game Changer' Based on TEM Imagery; Multiple Fintwit Accounts Bullish",
-      "body": "Multiple accounts cited TEM images of Intel's 18A nanosheet and power-via patterning as 'absolutely amazing,' calling the node a 'game changer.' The positive commentary appears based on process quality validation rather than yield or customer ramp news.",
-      "tickers": [
-        "INTC"
-      ],
-      "source_item_ids": [
-        "x:2062779519958986903",
-        "x:2062750485669728582"
-      ]
-    },
-    {
-      "title": "Foxconn May Revenue +39.6% YoY; AI Racks Driving Above-Seasonal Q2",
-      "body": "Foxconn reported May revenue +39.57% year-over-year. While Q2 is traditionally a weak season for ICT, the company said AI rack momentum is sustaining growth above previously anticipated Q2 levels.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2062799920286036219"
-      ]
-    },
-    {
-      "title": "Broadcom $285B Market Cap Rout on Revenue Outlook Disappointment",
-      "body": "Broadcom suffered a ~$285 billion market cap decline following a weaker-than-hoped AI revenue outlook. Despite this, broader S&P 500 and most megacap AI stocks finished the prior session higher, suggesting selective rather than systemic de-rating.",
+      "title": "AVGO Soft Guidance Sparks AI-Sector Pre-Market Selloff",
+      "body": "Stocks fell in pre-market after Broadcom issued soft guidance Wednesday night, triggering weakness across AI-related names. Strong May jobs data compounded pressure by fueling 'higher for longer' rate fears; Brent crude slipped to $95/bbl and Bitcoin dropped 1.5% to $62.6K.",
       "tickers": [
         "AVGO"
       ],
       "source_item_ids": [
-        "x:2062734490234208672",
-        "x:2062685288154222622"
+        "x:2062832700520624345"
       ]
     },
     {
-      "title": "Marvell: Jensen Calls It 'Next Trillion-Dollar Company'; +187% Since Congressional Buy; MRVL AI Connectivity Thesis",
-      "body": "Jensen Huang publicly labeled Marvell the 'next trillion-dollar company.' MRVL is up 187% since Rep. Byron Donalds (who sits on an AI subcommittee) purchased shares. Fintwit characterizes MRVL as the 'architect of the AI connectivity backbone' post its strategic semiconductor pivot.",
+      "title": "JPMorgan Upgrades TSLA to Neutral, Raises PT to $475 from $145 on Robotics/AI Thesis",
+      "body": "JPMorgan upgraded Tesla from Underweight to Neutral and dramatically raised its price target to $475 from $145, shifting the thesis away from near-term EV earnings toward autonomous driving, robotics, AI, and software optionality. Multiple fintwit accounts flagged the magnitude of the PT raise as notable.",
       "tickers": [
-        "MRVL",
-        "NVDA"
+        "TSLA"
       ],
       "source_item_ids": [
-        "x:2062618573772607977",
-        "x:2062609356084944964"
+        "x:2062851165553938588",
+        "x:2062853677077963168"
       ]
     },
     {
-      "title": "CRWV and NBIS Flagged as Beneficiaries of Great American AI Act of 2026",
-      "body": "Multiple sell-side desks are describing the Great American AI Act of 2026 (expected to formalize imminently) as a 'win-win' for CoreWeave (CRWV) and Nebius (NBIS) in AI infrastructure.",
+      "title": "NVDA CEO Jensen Huang Certifies Micron, Samsung, SK Hynix as HBM4 Suppliers",
+      "body": "Jensen Huang certified all three major HBM suppliers\u2014Micron, Samsung, and SK Hynix\u2014as qualified for HBM4 memory in Nvidia's next-generation chips, a positive supply-chain signal for MU. Separately, SK Hynix fell nearly 10% on KOSPI in what market commentators flagged as a potential 'first crack' in crowded semiconductor trades.",
       "tickers": [
-        "CRWV",
-        "NBIS"
+        "NVDA",
+        "MU"
       ],
       "source_item_ids": [
-        "x:2062613732035825802"
+        "x:2062858558748713145",
+        "x:2062865581053780299"
       ]
     },
     {
-      "title": "AAOI: Trader Averaging Up Since $28; 800G/1.6T Optical Transceiver Demand Cited",
-      "body": "One fintwit account is steadily averaging up on AAOI since $28, citing high demand for 800G and 1.6T optical transceivers and the potential for the stock to double or triple on execution. Separately, the same account is bullish on CIEN, LITE, COHR, GLW, NOK in the photonics/optics complex.",
+      "title": "EQIX: REITweek Transcript Incrementally Positive but Equity Setup Deteriorated Post-Rerating",
+      "body": "Fintwit analyst notes the REITweek transcript is 'incrementally supportive' for Equinix's long-term quality-compounder thesis, but warns the equity setup is 'no longer clean' after a material rerating. Key risks flagged include grid interconnection delays, equipment bottlenecks, community resistance, water constraints, and regulatory scrutiny.",
       "tickers": [
-        "AAOI",
-        "CIEN",
-        "LITE",
-        "COHR",
-        "GLW"
+        "EQIX"
       ],
       "source_item_ids": [
-        "x:2062697638500462639",
-        "x:2062619918269596077"
+        "x:2062862242110906814",
+        "x:2062862245810319544"
       ]
     },
     {
-      "title": "Alphabet $84B Equity Raise Rated Credit Positive by Moody's; Palantir-Google Cloud Partnership",
-      "body": "Moody's called Alphabet's $84B equity raise credit positive. Palantir announced a multi-tiered partnership with Google Cloud enabling integrations across Google services.",
+      "title": "NVDA Uses AMD EPYC (Not Intel) in Switch Trays\u2014Small but Telling Supply Win for AMD",
+      "body": "A noted tech analyst flagged that NVIDIA uses AMD EPYC processors in its switch trays rather than Intel hardware, a detail underscoring AMD's competitive positioning in data center infrastructure adjacent to Nvidia's buildout.",
       "tickers": [
-        "GOOGL",
-        "PLTR"
+        "NVDA",
+        "AMD",
+        "INTC"
       ],
       "source_item_ids": [
-        "x:2062618355828502937",
-        "x:2062610774552465799"
+        "x:2062840849621561672"
       ]
     },
     {
-      "title": "Tech Job Cuts at Highest Monthly Level Since Aug 2024; 123K YTD (+65% YoY)",
-      "body": "US tech companies have announced 123,000+ job cuts YTD, up over 65% vs. the same period in 2025\u2014the highest monthly pace since August 2024. 40% of recent layoffs broadly are being attributed to AI/automation by companies. GitHub commits meanwhile are up 600% but actual business productivity grew only 0.3% in Q1 2026.",
+      "title": "AAPL WWDC Monday: Analyst Expects AI Announcements to Be Key Focus",
+      "body": "An analyst flagged Apple's WWDC event Monday in Cupertino as a major catalyst, planning to discuss AI expectations on CNBC Closing Bell at 3pm. Apple noted as having LTA negotiating advantages vs. competitors, though its scale prevents large-scale stockpiling without moving markets.",
+      "tickers": [
+        "AAPL"
+      ],
+      "source_item_ids": [
+        "x:2062852964675355127",
+        "x:2062837455817236723"
+      ]
+    },
+    {
+      "title": "Foxconn May Revenue +39.6% YoY to $27.3B\u2014Q2 Tracking 'Well Above' Prior Guidance on AI Servers",
+      "body": "Foxconn reported May revenue of NT$859.4B ($27.3B), up 39.6% YoY and the company's 3rd best month ever, driven by AI server assembly and iPhone production. Management said Q2 is tracking 'well above previously anticipated significant growth'\u2014a positive read-through for AI infrastructure spending.",
       "tickers": [],
       "source_item_ids": [
-        "x:2062657892927287737",
-        "x:2062624149319647301"
+        "x:2062840167333814697"
       ]
     },
     {
-      "title": "S&P DJI Megacap Review Concludes: No Changes; SpaceX Excluded for 12+ Months",
-      "body": "S&P Dow Jones Indices concluded its megacap methodology consultation with no changes to eligibility criteria. SpaceX, Anthropic, and similar mega-cap IPOs will not be added to the S&P 500/400/600 for at least 12 months post-listing. FTSE Russell and Nasdaq have faster inclusion timelines.",
+      "title": "Citi Bear Market Checklist at 10/18: Global Stocks at Frothiest Since 2008",
+      "body": "Citi's Bear Market Checklist has reached 10 out of 18 risk flags globally, with the firm warning global stocks are at their frothiest valuation levels since the 2008 financial crisis. AI-driven spending, elevated bullish sentiment, and a surge in IPO activity are cited as key contributors.",
       "tickers": [],
       "source_item_ids": [
-        "x:2062655716805026229",
-        "x:2062684482147057765"
+        "x:2062853261271404697"
       ]
     },
     {
-      "title": "QQQ/Tech Showing Late-Cycle Bearish Divergence; VIX Timing Framework Highlighted",
-      "body": "One fintwit account with a self-described strong track record warned that QQQ and tech are showing 'late-cycle movement patterns' with increasing bearish divergence at each marginal high and 'bulls becoming overextended and greedy.' Separately, VIX-based timing was highlighted: sell when VIX is low, buy when high.",
+      "title": "BCA Warns Fed Risks Inflating AI-Fueled Stock Bubble",
+      "body": "BCA Research warns the Federal Reserve is underestimating AI-driven inflation\u2014particularly rising electricity and memory chip costs\u2014and is keeping rates too low, risking the inflation of a stock bubble. The warning compounds existing market froth concerns flagged by Citi.",
       "tickers": [],
       "source_item_ids": [
-        "x:2062769267322282327",
-        "x:2062799206868521051"
+        "x:2062861059191357674"
+      ]
+    },
+    {
+      "title": "Anthropic Urges Global Pause in AI Development as Models Near Self-Improvement Capability",
+      "body": "Anthropic has publicly called for a global pause in AI development, citing that artificial intelligence models are approaching the capability to self-improve without human intervention. This is a significant policy signal from one of the leading frontier AI labs.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2062846139830030812"
+      ]
+    },
+    {
+      "title": "Risk-On Positioning Back to Pre-Pandemic Highs Despite Froth Warnings",
+      "body": "Market risk-on positioning metrics have rebounded to pre-pandemic highs, signaling renewed investor appetite for growth and higher-beta assets\u2014a notable contrast to simultaneous warnings from Citi and BCA about stretched valuations.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2062863282331930739"
+      ]
+    },
+    {
+      "title": "Strait of Hormuz Risk Mispriced for 90 Days; Rosneft Warns $150/bbl Oil if Closed",
+      "body": "Jim Bianco argues markets have been consistently wrong about Strait of Hormuz risk for 90 days by treating disruption as temporary. Separately, Rosneft CEO Sechin warned no country can replace Middle East oil supply and prices could hit $150/bbl if the strait closes. Iran also fired warning shots at U.S. Navy destroyers in the Gulf of Oman, escalating tensions.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2062847743761002791",
+        "x:2062839607499346084"
+      ]
+    },
+    {
+      "title": "Drewry Container Shipping Index Jumps 23% W/W to $3,433; NY Fed Supply Chain Gauge Elevated",
+      "body": "The Drewry World Container Index surged 23% over the past week to $3,433 per 40-foot container, while the NY Fed Global Supply Chain Pressure Index held elevated at 1.77 in May. Commentators cited Iran tensions as a contributing factor to ongoing supply chain stress and transport cost inflation.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2062857598471180368",
+        "x:2062857464303804769"
+      ]
+    },
+    {
+      "title": "BofA: Jobs/CPI Alignment at 4.2% Would Be Only 7th Such Instance Since 1960",
+      "body": "Michael Hartnett at BofA notes that if May unemployment prints at or below 4.2%\u2014in line with expected CPI next week\u2014it would mark only the 7th such alignment since 1960, with prior instances in 1966, 1973, 1990, and 2000. The pattern flags a historically unusual macro configuration.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2062866524981924177"
+      ]
+    },
+    {
+      "title": "Eurozone Q1 GDP Contracts 0.2% QoQ, Misses 0.1% Estimate; YoY Slows to 0.3%",
+      "body": "Eurozone Q1 GDP came in at -0.2% QoQ vs. the 0.1% consensus estimate, and just 0.3% YoY versus 0.8% expected\u2014a significant deceleration signaling European economic weakness that could weigh on global risk sentiment.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2062821913077190791",
+        "x:2062821970572607642"
+      ]
+    },
+    {
+      "title": "Major Banks Building Tokenized Deposit Network via The Clearing House to Compete with Crypto",
+      "body": "JPMorgan, Bank of America, Citi, and Wells Fargo are building a tokenized deposit network operated by The Clearing House, designed to offer crypto-speed 24/7 settlement while keeping deposits within the traditional banking system.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2062863074432839994"
+      ]
+    },
+    {
+      "title": "Congress Pushing 25% Tax Credit for Domestic PCB Makers; Sanmina Named as Beneficiary",
+      "body": "U.S. Congress is advancing the Protecting Circuit Boards and Substrates Act, which would offer a 25% tax credit to companies choosing U.S.-made PCBs and allocate $3B in subsidies to domestic manufacturers. Sanmina is specifically cited as positioned to benefit from the legislation.",
+      "tickers": [
+        "SMCI"
+      ],
+      "source_item_ids": [
+        "x:2062825204628480460"
+      ]
+    },
+    {
+      "title": "Japan FX Intervention Risk Could Trigger US Treasury Sales\u2014Global Macro Spillover Watch",
+      "body": "A macro commentator flags that Japan's massive foreign securities holdings create spillover risk globally: FX intervention by Japan can force US Treasury sales, with implications for US rates and broader markets\u2014a watch item given ongoing yen dynamics.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2062862331768356878"
+      ]
+    },
+    {
+      "title": "1Q Unit Labor Costs Revised Down to +1.8%; Productivity Also Trimmed to +0.3%",
+      "body": "Q1 unit labor costs were revised down to +1.8% from the initial +2.3% print, while productivity growth was trimmed to +0.3% from +0.8%\u2014a modestly disinflationary revision that could influence Fed messaging, though weak productivity is a structural concern.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2062857894899376146"
       ]
     }
   ]
