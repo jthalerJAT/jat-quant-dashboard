@@ -1,211 +1,221 @@
 {
-  "digest_type": "premarket",
-  "digest_dt": "2026-06-11T08:30:00-04:00",
-  "saved_at": "2026-06-11T13:26:44.654143+00:00",
+  "digest_type": "eod",
+  "digest_dt": "2026-06-11T18:00:00-04:00",
+  "saved_at": "2026-06-11T22:28:56.163696+00:00",
   "bullets": [
     {
-      "title": "Oracle FY26 Capex Misses High; Stock Drops 12%",
-      "body": "Oracle FY26 capex came in at $55.7B vs. prior $50B guidance, with Q4 FY26 capex hitting $15.9B. The capex beat expectations to the upside, driving the stock down 12% as margin compression concerns dominate. Separately, OCI is described as pushing the frontier of AI infrastructure with Nvidia support.",
+      "title": "ORCL freefall on $40B AI capex raise; Cramer says buy the dip",
+      "body": "Oracle dropped 11%+ intraday after announcing plans to raise $40B to fund AI data center expansion. Jim Cramer publicly recommended buying the pullback, calling the selloff an overreaction to elevated but growth-oriented capex.",
       "tickers": [
         "ORCL"
       ],
       "source_item_ids": [
-        "x:2064982633629786311",
-        "x:2064865041606979951"
+        "x:2065102181926158807",
+        "x:2065104205753311477"
       ]
     },
     {
-      "title": "NVIDIA: Lead Adopter of Advanced Packaging; Glass Substrate First Chips Ahead",
-      "body": "Semiconductor analyst notes NVIDIA is the lead adopter of advanced process and packaging technologies, with first chips on glass substrates expected. Separately, the analyst has already modeled NVIDIA CPU uplift in a TAM expansion model. NVIDIA also received OpenAI's Industry AI Acceleration Award.",
+      "title": "NVDA drives 14% of S&P 500 move; DLSS critical to Switch 2",
+      "body": "NVDA accounted for 14% of the S&P 500's prior session move, underscoring its outsized index influence. Separately, NVIDIA's DLSS is described as the Switch 2's 'secret weapon'\u2014without it, the system struggles to match PS4-level performance in games like Kingdom Hearts 3.",
       "tickers": [
         "NVDA"
       ],
       "source_item_ids": [
-        "x:2064915545011655068",
-        "x:2064904409008504922"
+        "x:2065061133732516183",
+        "x:2065083257327415415"
       ]
     },
     {
-      "title": "TSMC Pulls CoPoS Timeline Forward to 2028 from 2029",
-      "body": "TSMC has accelerated its next-generation CoPoS (Copper on Polymer Substrate) advanced packaging technology by one year, now targeting 2028 instead of 2029. Sell-side had previously guided a 2029 timeline. Amkor is investing $650M in a 6-plant Gwangju campus expansion driven by a surge in TSMC orders.",
+      "title": "NVDA partners with Abridge on healthcare AI model",
+      "body": "Nvidia announced a partnership with Abridge, an AI note-taking startup for doctors, to train a healthcare-specific AI model per WSJ. The deal extends NVDA's vertical AI application strategy beyond data center hardware.",
       "tickers": [
+        "NVDA"
+      ],
+      "source_item_ids": [
+        "x:2065043350500020245",
+        "x:2065042489170661535"
+      ]
+    },
+    {
+      "title": "GOOGL explores Samsung 2nm for TPU v10; may reduce TSMC share",
+      "body": "Per The Information, Google is considering Samsung Foundry's 2nm process node for the I/O die of its TPU v10 'Icefish' chip. This would represent a meaningful diversification away from TSMC for advanced AI accelerator manufacturing.",
+      "tickers": [
+        "GOOGL",
         "TSM"
       ],
       "source_item_ids": [
-        "x:2064912426559304141",
-        "x:2064968238908530904"
+        "x:2065058906750280038",
+        "x:2065060243810496644"
       ]
     },
     {
-      "title": "AI Chip Price War Intensifying: Inference Costs Falling 5-10x Per Watt",
-      "body": "Multiple next-gen accelerators coming online \u2014 Blackwell, TPU v7/v8, Trainium v3 \u2014 are cutting inference costs 5-10x on a per-watt basis, with software and algorithm optimizations adding another 2-5x reduction. The dynamic is driving accelerating AI price competition across hyperscalers and model providers.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2064980514625479115",
-        "x:2064885137284981200"
-      ]
-    },
-    {
-      "title": "OpenAI Considering Drastic Token Price Cuts vs. Anthropic; Margin Risk Flagged",
-      "body": "WSJ reports OpenAI is weighing major cuts to token pricing as competition with Anthropic intensifies and some users balk at AI costs. Sources note OpenAI expects Anthropic to also reduce prices. A separate comment flags that price cuts could threaten OpenAI margins ahead of a potential IPO.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2064885137284981200",
-        "x:2064884692306792707"
-      ]
-    },
-    {
-      "title": "China's InP Export Delays Threatening AI Datacenter Supply Chain; AXTI Cited",
-      "body": "Reuters reports U.S. officials have visited China multiple times urging resolution of indium phosphide (InP) export control delays. China's control over InP supply is flagged as a major risk to U.S. photonic chip makers and AI datacenter buildout. AXTI is identified as a key point of vulnerability in this supply chain.",
+      "title": "GOOGL rejected Trump administration quantum computing funds over speed constraints",
+      "body": "Google declined federal quantum computing subsidies because attached conditions would have slowed the company's development pace. Google prioritized autonomy and speed over the financial benefit of the subsidy.",
       "tickers": [
-        "AXTI"
+        "GOOGL"
       ],
       "source_item_ids": [
-        "x:2064942505553170886",
-        "x:2064938950507262213"
+        "x:2065079381303636052"
       ]
     },
     {
-      "title": "Tech Sector Sees Record $10.8B Outflow; Major Names 5-24% Below ATH",
-      "body": "Tech stocks experienced $10.8B in outflows last week, the largest ever recorded. Major names are trading well below all-time highs: TSLA -24%, AMZN/NVDA -15%, GOOGL -13%, AAPL -8%, with the S&P 500 off 5%.",
+      "title": "GOOGL $80B issuance surge coincides with financial asset peak",
+      "body": "One trader argues it is 'no coincidence' that financial assets in aggregate peaked when Google initiated an $80B new issuance. The thesis is that market absorption of such supply creates broad price pressure.",
       "tickers": [
-        "NVDA",
-        "TSLA",
-        "GOOGL",
-        "AAPL",
-        "AMZN"
+        "GOOGL"
       ],
       "source_item_ids": [
-        "x:2064968650675646925",
-        "x:2064927183227810302"
+        "x:2065089428532437451"
       ]
     },
     {
-      "title": "Macro Bounce Setup: SPY/QQQ/SMH at Technical Confluence Support",
-      "body": "Technical analyst flags a 'high probability bounce zone' where SPY, QQQ, and SMH converge at YTD low VWAP, 38.2% Fibonacci retrace of the rally, and the 50-day SMA. Another trader expects a rotation back into tech/AI 'within the next few days' for a relief rally, with ARM cited. US equity futures recovered: S&P futures +0.3%, Nasdaq +0.5%.",
+      "title": "META ends Manus partnership after China regulatory demand",
+      "body": "Meta terminated its partnership with AI startup Manus following demands from Chinese regulators to unwind the deal. No financial terms were disclosed.",
       "tickers": [
-        "SPY",
-        "ARM"
+        "META"
       ],
       "source_item_ids": [
-        "x:2064910754659311677",
-        "x:2064937394147893335"
+        "x:2065090546125959540"
       ]
     },
     {
-      "title": "South Korea Semiconductor Exports Surge 206% YoY; KOSPI Recovers from 4.4% Drop",
-      "body": "South Korea's June 1-10 exports hit a record $28.6B, with semiconductor exports surging 206% YoY. The KOSPI index erased an early 4.4% decline to trade positive amid extreme put/call ratio readings (highest since pre-GFC). Korean traders facing forced liquidations described as largest ever pace.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2064862199122911563",
-        "x:2064934527718330502"
-      ]
-    },
-    {
-      "title": "DRAM Supply Constrained vs. 'Infinite' Demand; Bull Case for MU",
-      "body": "A fintwit account flags SK Hynix's plan to triple wafer capacity by 2034, noting supply remains constrained while demand is 'essentially infinite,' arguing this should drive prices higher. MSI's chairman confirms CPU shortages have been easing since Q2 with very strong server demand.",
-      "tickers": [
-        "MU"
-      ],
-      "source_item_ids": [
-        "x:2064956950706520443",
-        "x:2064977331152896483"
-      ]
-    },
-    {
-      "title": "Vera Rubin AI Compute Supply Constrained Through Next Year",
-      "body": "Sources report the allocation process for Vera Rubin (NVIDIA's next-gen platform) is underway and competitive, with AI compute supply expected to remain constrained through next year. Separately, rumors of 800 VDC production delay to 2028 are denied by Taiwan data center parts suppliers who report no delay notification from NVIDIA.",
-      "tickers": [
-        "NVDA"
-      ],
-      "source_item_ids": [
-        "x:2064878400926580864",
-        "x:2064886381370020076"
-      ]
-    },
-    {
-      "title": "AWS Graviton at $6-7B ARR, Growing ~50% YoY; Higher Incremental Margins",
-      "body": "Analyst estimates AWS Graviton as a ~$6-7B annualized run rate business growing ~50% YoY, representing ~5% of AWS's $150B+ revenue run rate, and carrying higher incremental margins. This underscores the CPU TAM expansion theme for custom silicon.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2064865621960163339"
-      ]
-    },
-    {
-      "title": "MSFT Restricts Internal Claude Use Over Data-Retention Concerns",
-      "body": "MSFT has restricted internal use of Claude Fable due to data-retention concerns. BMO separately names Anthropic as a leading pure-play AI lab. Anthropic's $47B ARR claim is questioned by one commenter who notes it annualizes a one-time Feb-May agentic spend surge.",
+      "title": "MSFT restricts Claude Fable for employees over data retention",
+      "body": "Microsoft has restricted employee access to Anthropic's Claude Fable product, citing data retention concerns. The move signals internal information-security friction with third-party AI tools even at an AI-investing hyperscaler.",
       "tickers": [
         "MSFT"
       ],
       "source_item_ids": [
-        "x:2064867741987725428",
-        "x:2064887503098630645"
+        "x:2065050666033361018"
       ]
     },
     {
-      "title": "AI Server Demand Tightening High-End MLCC Supply; Taiwan Firms Exploring China Alt",
-      "body": "AI servers and high-voltage EVs are driving a demand surge for high-end MLCCs, tightening global supply and lengthening lead times. Some Taiwanese supply-chain players are now exploring China sourcing as an alternative, a development with potential supply chain and geopolitical implications.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2064919388411883930"
-      ]
-    },
-    {
-      "title": "Photonics Sector: Capacity Sold Out, Thesis Intact Despite Pullback",
-      "body": "A fintwit trader notes the photonics sector has a 'monstrous TAM,' is fully sold out on capacity, and the recent valuation pullback is creating a buying opportunity. Taiwan airlines reported strong AI cargo demand in May: China Airlines AI cargo up 53.5% YoY, Eva Air up 41.5% YoY \u2014 implying sustained demand for photonics-linked components.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2064905067774546364",
-        "x:2064886686107218314"
-      ]
-    },
-    {
-      "title": "US Inflation Macro: Core CPI Possibly Distorted; $1.3T Interest Expense Record",
-      "body": "Commentary flags that Core CPI may be artificially depressed by import price deflation, masking embedded domestic services inflation. US interest expense on public debt hit a record $1.3T over the last 12 months, with US consumer prices up 4.5%/year over 5 years. A 14% inflation premium since 2020 cited as reason monetary policy should remain restrictive.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2064860588480643323",
-        "x:2064912820324466904"
-      ]
-    },
-    {
-      "title": "SiriAI (iOS 27) Competitive Check: Superior On-Device Semantic Search vs. Gemini",
-      "body": "A chip/tech analyst tested new SiriAI for half a day and found its semantic search is 'the best on-device' experienced, though still prefers Gemini for broad knowledge queries. AAPL's AI assistant may be gaining functional credibility, with capabilities expected to improve further.",
+      "title": "MSFT back in Bill Ackman's buying zone",
+      "body": "Commentary on social media notes MSFT has declined to a price level that Bill Ackman considers attractive for accumulation. No specific price or position size disclosed.",
       "tickers": [
-        "AAPL",
+        "MSFT"
+      ],
+      "source_item_ids": [
+        "x:2065104341493493856"
+      ]
+    },
+    {
+      "title": "TTD competitive risk: Walmart expanding DSP partnerships",
+      "body": "Walmart is embracing more demand-side platforms (DSPs), a dynamic that directly contradicts Trade Desk CEO Jeff Green's prior public statement that the competitive landscape is not intensifying. Flagged as a bearish signal for TTD's moat narrative.",
+      "tickers": [
+        "TTD"
+      ],
+      "source_item_ids": [
+        "x:2065100175530500371"
+      ]
+    },
+    {
+      "title": "AAOI positioned as domestic AI infrastructure champion; $471M/month revenue scenario by H1 2027",
+      "body": "One trader argues markets are treating domestic AI infrastructure plays like AAOI as bearish despite their strategic importance, while the industry trends toward outsourcing transceivers to Asia. A bull-case revenue target of $471M/month by end-H1 2027 is cited against a current ~$13.4B valuation.",
+      "tickers": [
+        "AAOI"
+      ],
+      "source_item_ids": [
+        "x:2065105141238489398",
+        "x:2065086233290924354"
+      ]
+    },
+    {
+      "title": "COHR has ~5 InP substrate suppliers; AXTI securing export permits",
+      "body": "COHR is noted to have approximately five InP substrate suppliers and is not dependent on any single source, even as AXT (AXTI) obtains US export permits to ship to American companies' foreign facilities including COHR's Sweden fab. COHR also cited as capable of EPI manufacturing.",
+      "tickers": [
+        "COHR",
+        "AXTI"
+      ],
+      "source_item_ids": [
+        "x:2065071647456141655",
+        "x:2065066913622032461"
+      ]
+    },
+    {
+      "title": "AMD claims 15/15 top Amazon CPU spots; Intel shut out",
+      "body": "AMD's marketing chief boasts occupying all 15 of the top 15 best-selling CPU positions on Amazon, with Intel holding zero spots. The claim signals AMD's continued consumer PC momentum and ongoing INTC market share erosion.",
+      "tickers": [
+        "AMD",
+        "INTC"
+      ],
+      "source_item_ids": [
+        "x:2065056456529879415"
+      ]
+    },
+    {
+      "title": "Mag 7 divergence: only GOOGL and NVDA outperforming S&P 500 YTD 2026",
+      "body": "Five of the seven Magnificent Seven stocks have underperformed the S&P 500 year-to-date in 2026, with only Google and Nvidia in outperforming territory. This marks a sharp reversal from 2023-2024 when the cohort broadly led.",
+      "tickers": [
+        "NVDA",
+        "GOOGL",
+        "MSFT",
+        "TSLA",
+        "META",
+        "AMZN",
+        "AAPL"
+      ],
+      "source_item_ids": [
+        "x:2065093232598340062",
+        "x:2065090406610587856"
+      ]
+    },
+    {
+      "title": "Retail rotating out of GOOG/AMZN/MSFT/META into SpaceX; rebalancing dynamics flagged",
+      "body": "Social media commentary notes market participants selling large-cap tech (GOOG, AMZN, MSFT, META) to fund SpaceX IPO positions. Separately, institutions may be front-running a Nasdaq 100 rebalancing tied to SpaceX index inclusion, making attribution of the selloff unclear.",
+      "tickers": [
+        "META",
+        "MSFT",
+        "AMZN",
         "GOOGL"
       ],
       "source_item_ids": [
-        "x:2064894660217294991",
-        "x:2064875609042665786"
+        "x:2065095374429292995",
+        "x:2065088136884220158"
       ]
     },
     {
-      "title": "MRVL: $1.1M Bearish Put Sweep Signals Institutional Short Into September",
-      "body": "Options flow shows a $1.1M put sweep on MRVL with September expiration, interpreted as bearish institutional positioning ahead of that date.",
-      "tickers": [
-        "MRVL"
-      ],
-      "source_item_ids": [
-        "x:2064862387585392709"
-      ]
-    },
-    {
-      "title": "JPM: AI Infrastructure Costs 'Out of Control'; $1.8T in Hidden Liabilities",
-      "body": "JPMorgan flags AI infrastructure bills as spiraling out of control. A separate commentary highlights ~$1.8T in off-balance-sheet liabilities across the tech sector, including $1T in undisclosed purchase commitments and $0.8T in future lease obligations, with SPVs used to obscure visibility.",
+      "title": "PPI prints hotter-than-expected at 1.1% MoM / 6.5% YoY; final demand goods biggest monthly jump on record",
+      "body": "May PPI came in at +1.1% MoM (vs. +0.7% est.) and +6.5% YoY, the largest annual gain since November 2022. PPI final demand goods surged 2.8% in a single month, the biggest such jump on record; energy and gasoline (+23.4%) were the primary drivers. Core PPI at +0.4% MoM was slightly softer than the +0.5% estimate.",
       "tickers": [],
       "source_item_ids": [
-        "x:2064861200001671630",
-        "x:2064895006758863200"
+        "x:2065049331669811507",
+        "x:2065052522537005112"
       ]
     },
     {
-      "title": "Macro: Market Pullback to 50-Day MA Seen as Healthy; Bull Market Wall of Worry",
-      "body": "One trader argues the market weakness and revisiting the 50-day moving average is constructive for sustained bull market advances, characterizing the current pullback as 'building a wall of worry.' Separately, widespread crash expectations are seen as reducing the probability of a sudden disorderly decline.",
+      "title": "ECB hikes 25bps to 2.25% \u2014 first G7 central bank to raise rates since 2023 energy shock",
+      "body": "The ECB raised its deposit facility rate to 2.25% (refi to 2.40%) in a unanimous decision, the first hike since 2023 and the first major central bank move in response to the Middle East energy shock. The ECB simultaneously cut its 2026 growth forecast to 0.8% and raised its 2026 inflation forecast to 3.0%, while Lagarde flagged upside risks to inflation and warned against a pre-set rate path.",
       "tickers": [],
       "source_item_ids": [
-        "x:2064981446096208121",
-        "x:2064909194508296256"
+        "x:2065047455826011455",
+        "x:2065051127079485533"
+      ]
+    },
+    {
+      "title": "US jobless claims rise to 18-week high at 229K; labor market softening",
+      "body": "Initial jobless claims came in at 229K vs. 220K estimate and 225K prior, hitting an 18-week high. Continuing claims also missed at 1.795M vs. 1.785M estimate. Largest increases were in Pennsylvania (+5.6K), California (+5.3K), and Minnesota (+5.3K).",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2065061649464311922",
+        "x:2065049154540462210"
+      ]
+    },
+    {
+      "title": "Fed hike odds surge as inflation hits multi-year highs; new Chair Warsh faces Trump test",
+      "body": "Market expectations for a Fed rate hike are rising with inflation hitting a three-year high. New Fed Chair Kevin Warsh faces a choice between hiking to fight inflation or aligning with Trump's stated preference for lower rates; one commentator notes PPI at 6.5% and still rising makes a disinflation path difficult.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2065100681128591864",
+        "x:2065065948604678348"
+      ]
+    },
+    {
+      "title": "Hyperscaler AI capex volatility: free cash flow shift from cash to capex is a macro risk",
+      "body": "Commentary notes that cash holdings carry near-zero volatility while AI capex introduces significant variance; hyperscalers are redirecting hundreds of billions of dollars in free cash flow toward AI infrastructure. Retail investors recorded their largest-ever IGV purchase near a recent market top, and the ETF has since declined ~15%.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2065100109008740759",
+        "x:2065073447428861988"
       ]
     }
   ]
