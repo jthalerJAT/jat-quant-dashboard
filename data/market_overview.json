@@ -1,233 +1,202 @@
 {
-  "digest_type": "midday",
-  "digest_dt": "2026-06-18T12:00:00-04:00",
-  "saved_at": "2026-06-18T16:12:06.683798+00:00",
+  "digest_type": "eod",
+  "digest_dt": "2026-06-18T18:00:00-04:00",
+  "saved_at": "2026-06-18T22:11:28.624520+00:00",
   "bullets": [
     {
-      "title": "Fed hike risk rising: Core PCE tracking well above Fed's threshold",
-      "body": "Nine FOMC participants now favor hikes as baseline; only one favors cuts. Core PCE needs to print ~0.21% monthly to match the Fed's revised 3.3% 2026 forecast, but recent readings are tracking ~0.36% \u2014 well above the threshold. Markets are pricing zero cuts in 2026 at 80%, with a 52% probability of at least one hike this year (up 2pp w/w), and July hike odds rose to 20% (up 14pp w/w).",
+      "title": "Fed turns hawkish: 9 of 18 dots signal 2026 hike; markets reprice 36bp of tightening",
+      "body": "The June FOMC held rates at 3.50-3.75% but stripped forward guidance and showed a hawkish dot plot tilt\u20149 of 18 members project at least one 2026 rate hike, pushing market pricing to 36bp of hikes through year-end from 19bp pre-decision. Chair Warsh emphasized price stability; Morgan Stanley argues the SEP inflation forecasts look too aggressive given the Iran deal oil relief and expects the Fed on hold through year-end, while 22V flags core PCE at or below ~0.21% monthly as the pivot threshold before renewed tightening risk.",
       "tickers": [],
       "source_item_ids": [
-        "gmail:19edac7a659a4e50",
-        "gmail:19edab6255dd2bff"
+        "gmail:19edc189ded8ed86",
+        "gmail:19edc6f65836b41f"
       ]
     },
     {
-      "title": "S&P +0.9% to 7,483; semis rip on Trump-Intel/Apple chip comments",
-      "body": "SOXX ETF surged 4.38% as Trump announced Apple has agreed to work with Intel to build chips in America. INTC gained 8-10% in pre-market; broad semiconductor sector strength across foundries, equipment, and memory names (MU, WDC, STX, AVGO, AMD). VIX rose 7.5% to 17.06, consistent with a risk-on tape with some hedging activity.",
+      "title": "Treasury curve flattens sharply: 2Y +9bp, 30Y -7bp; foreign demand for Treasuries recovering",
+      "body": "Post-FOMC curve flattening was significant\u20142Y yields rose 9bp to ~4.20% while 30Y fell 7bp to ~4.90%. Foreign investors bought a net $50.5bn in long-term Treasuries in April (highest since Nov 2025), with Japan and China both recording net purchases for the first time since January. JPMorgan reduced its 2026 foreign demand forecast from $500bn to $450bn; technically the 30Y targets 4.80-4.82% as the richer end, with 4.95-4.98% as tactical support.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19edc9c94cbd7361",
+        "gmail:19edc5d35f28327f"
+      ]
+    },
+    {
+      "title": "US-Iran peace deal reopens Strait of Hormuz; WTI down ~30% in a month, below $77",
+      "body": "A US-Iran MOU was signed this week, lifting the Hormuz blockade and potentially adding ~1M bpd of Iranian exports over 2-3 years; UAE and Saudi Arabia could produce above pre-war levels by 4Q26. WTI crude is down ~10.6% on the week and ~30% over the past month to below $77, with US average gas prices falling below $4/gallon for the first time since March. Lower oil is structurally positive for tech, discretionary, and communications per 22V, while JPM's energy monitor shows retail fuel prices down 4% in June with further declines expected.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19edc5bef46a3a74",
+        "gmail:19edba16bad4f021"
+      ]
+    },
+    {
+      "title": "Narrow AI rally drives Nasdaq +2.6% WTD vs S&P +1%; breadth at 3rd percentile",
+      "body": "The week's equity gains were highly concentrated\u2014only ~30% of stocks outperformed (3rd percentile breadth), with semis up 7.3% and DRAM up 18% leading Nasdaq to +2.43% WTD. Levered ETF exposure is near record highs with ~$20bn per 1% SPX move in short gamma, and an estimated $26bn rebalancing demand hit on Friday. Macro systematic strategies (Vol Target/CTA/Risk Parity) supplied ~$90bn over the past month and sit at 45th percentile leverage; US L/S gross leverage hit 98th percentile at 213%.",
       "tickers": [
-        "INTC",
+        "NVDA",
         "MU",
-        "WDC",
-        "AMD",
+        "TSLA"
+      ],
+      "source_item_ids": [
+        "gmail:19edc7c6cf8163fa",
+        "gmail:19edc5d35f28327f"
+      ]
+    },
+    {
+      "title": "AI FOMO trade: 75% of mutual funds underweight semis; options skew flat despite record positioning",
+      "body": "Morgan Stanley flags that 75% of US mutual funds remain below benchmark weight in semis despite the sector now comprising ~25% of S&P index weight. 32% of global hedge fund net leverage sits in semis (vs. 5% in 2023) yet nearly 20% of hedge funds have <10% AI exposure. US implied vols on semis are at 40v vs. 16v realized average; MS recommends low-premium call-spread collars and worst-of structures on NVDA, MSFT, GOOGL, META, AVGO to manage FOMO-driven chase risk.",
+      "tickers": [
+        "NVDA",
+        "MSFT",
+        "GOOGL",
+        "META",
         "AVGO"
       ],
       "source_item_ids": [
-        "gmail:19edae2b7f0779ed",
-        "gmail:19edad5e8c02e798"
+        "gmail:19edbb734d34cf3d"
       ]
     },
     {
-      "title": "FERC unanimously approves Trump plan to fast-track AI data center grid connections",
-      "body": "FERC voted unanimously to direct grid operators to allow large loads \u2014 including AI data centers \u2014 to connect in a 'timely and orderly manner,' removing a key infrastructure bottleneck for AI build-out. The ruling is broadly positive for power and data center infrastructure plays.",
+      "title": "Capital markets boom: IPOs +415% YoY, equity issuance +117%, M&A +64% in 2Q26 QTD",
+      "body": "Morgan Stanley's deal dashboard shows a broad capital markets surge in 2Q26\u2014equity issuance up 117% YoY led by North America at +234%, IPOs up 415% YoY, and annualized M&A up 64% with sponsor trends flipping positive. This surge in activity creates a significant earnings tailwind for investment banks and validates risk-on positioning.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19edbca347ba1733"
+      ]
+    },
+    {
+      "title": "USD setup bullish: DXY targets 105.74 breakout; gold risks medium-term reversal below 4030-4074",
+      "body": "JPMorgan FX technical strategy sees the DXY threatening a breakout from a 2025-2026 base pattern with a 105.74 measured move objective if sustained above 98.71-98.93 support, now supported by decelerating industrial metals and precious metals distribution patterns. EUR/USD shows a maturing bearish reversal below 1.20 with downside targets at 1.111-1.1185 on a break of 1.134. Gold's break below 4030-4074 would confirm a medium-to-longer-term bearish reversal.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19edbae25ed23ae7"
+      ]
+    },
+    {
+      "title": "Housing starts weakest since 2020 at 1.177M; multi-family collapsed 42%",
+      "body": "Housing starts printed at 1.177M vs. 1.430M expected\u2014the lowest since 2020\u2014driven by a 42% drop in multi-family starts. This compares unfavorably against the hawkish Fed backdrop with 30Y mortgage rates pressured by the curve. Pending home sales did beat at +3.8% vs. +0.9% consensus, providing a partial offset.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19edc8461ae889cb"
+      ]
+    },
+    {
+      "title": "FERC accelerates data center grid interconnections; co-location tariff approved; 90-day fast-track",
+      "body": "FERC approved PJM's revised co-location tariff allowing data centers to contract only for incremental grid load above on-site generation, and issued show-cause orders to RTOs to accelerate connections beyond the 2029 target on a 90-day timeline. Data centers must fund infrastructure upgrades. Texas PUCT approved Batch 0 load forecasting for ERCOT with 35 GW baseload and 65 GW under study; clarity on project inclusion expected by August 7, benefiting IPPs including TLN, CEG, and VST.",
       "tickers": [
-        "CRWV",
+        "TLN",
         "CEG",
-        "BE",
-        "NBIS"
+        "VST"
       ],
       "source_item_ids": [
-        "gmail:19edb6803189f1bc",
-        "gmail:19edb650d805145a"
+        "gmail:19edbb35765e9bff",
+        "gmail:19edc8461ae889cb"
       ]
     },
     {
-      "title": "ACN -17%: Bookings miss and guidance cut fuel AI services bear case",
-      "body": "Accenture F3Q revenue of $18.72B missed consensus by 0.3%; bookings of $19.3B fell 2% YoY vs. +7% consensus, with Managed Services book-to-bill falling below 1.0x for the first time since 2019. FY26 revenue growth guidance was cut to 3-4% from 3-5%, and Morgan Stanley sees the miss as a negative read-across for European IT services. The miss is amplifying the AI-cannibalization narrative for software/services: ACN is down ~42% YTD despite being positioned as a leading AI consulting beneficiary.",
+      "title": "$130B in data center projects blocked in 2026 by public opposition; incumbents insulated",
+      "body": "$130B in data center projects are blocked or delayed in 2026 due to pushback on power, water, and community impact\u2014particularly in Texas. Data center REIT incumbents like Equinix and Digital Realty appear insulated from opposition relative to new entrants. Hyperscalers face escalating grid upgrade costs and local ratepayer pushback while FERC fast-tracks approvals.",
       "tickers": [
-        "ACN"
+        "EQIX",
+        "DLR"
       ],
       "source_item_ids": [
-        "gmail:19edac60d1c8926e",
-        "gmail:19edabf1dd7d940d"
+        "gmail:19edc578b9f55ace",
+        "gmail:19edc8461ae889cb"
       ]
     },
     {
-      "title": "Macro data solid: Philly Fed back in expansion, claims subdued, capex plans at post-COVID highs",
-      "body": "June Philly Fed manufacturing PMI rose to 10.3 (ISM-adjusted 53.1, up from 49.7), with new orders and shipments driving expansion; capex plans hit post-COVID highs supported by instant-expensing provisions. Initial claims fell 4k w/w to 226k; JPMorgan's 2Q26 global capex nowcast rose to 10.4% SAAR from 6.8% in 1Q, with investment goods PMI at 54.4 vs. 51.8. Prices paid rose while prices received declined, flagging margin pressure.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19edb428a190ab67",
-        "gmail:19edb72edfb056da"
-      ]
-    },
-    {
-      "title": "GOOGL renting GPUs at $50/watt \u2014 signals AI compute scarcity and high monetization bar",
-      "body": "Google is reportedly renting ~110K NVIDIA GB300 GPUs at ~$50/watt annually, a rate materially above the ~$12-14/watt typical neocloud contract rate. MS raises AI capex estimates for GOOGL to $375B ('28), AMZN to $244B, META to $205B. The deal is seen as bullish for hyperscaler AI monetization but raises the bar for ROI across the entire AI infrastructure stack.",
+      "title": "OpenAI's $600B capex plan faces margin credibility gap; S-1 will be a key stress test",
+      "body": "22V Research flags that OpenAI's Q1 2026 gross margin was ~39%, well below the 50%+ hyperscaler comp level needed to support its $600B capex commitment (including a $300B Oracle compute deal from 2027). Even the most optimistic scenario (81% peak GM) supports only ~$500B in capex; token price compression or slower ad revenue could open funding gaps. The forthcoming S-1 will test whether margin acceleration assumptions are achievable.",
       "tickers": [
-        "GOOGL",
+        "ORCL",
         "META",
-        "AMZN",
-        "CRWV"
+        "GOOGL"
       ],
       "source_item_ids": [
-        "gmail:19edaca413d1f2b0",
-        "gmail:19edabf1c82b4c69"
+        "gmail:19edbc23ea06bfb0"
       ]
     },
     {
-      "title": "AAPL calling memory costs a 'hundred-year flood'; iPhone price hikes unavoidable",
-      "body": "Apple's CEO cited memory costs as a crisis, with DRAM/NAND BOM costs rising 80-90% YTD and triple digits YoY. Memory as a share of smartphone/PC BOM is moving from mid-teens to 25-30%. AAPL is planning to raise iPhone 18 and Mac/iPad prices by $100-200+ ASP; hyperscalers pre-paying and locking long-term memory supply are pushing AAPL to the back of the queue.",
+      "title": "Apple confirms unavoidable price hikes as memory costs 4x higher YoY; iPhone ASP up ~$50 per JPM",
+      "body": "Tim Cook confirmed Apple will raise product prices citing a surge in DRAM/NAND costs that are 4x higher year-over-year. Press estimates of $200+ ASP increases are aggressive; JPM models only ~$50 increases for iPhone 18 (mid-single-digit %) after accounting for ~$40 in component savings and ~$15 from modem vertical integration. US carriers are unwilling to absorb subsidy cost increases, shifting burden to consumers with unit demand risk.",
       "tickers": [
-        "AAPL",
-        "MU",
-        "SNDK",
-        "WDC"
+        "AAPL"
       ],
       "source_item_ids": [
-        "gmail:19edad5e8c02e798",
-        "gmail:19edaca413d1f2b0"
+        "gmail:19edbf23ea06bfb0",
+        "gmail:19edc578b9f55ace"
       ]
     },
     {
-      "title": "AI traffic data: Ramp spend up 15x since Jan 2025; AI-sourced retail visits convert 54% better",
-      "body": "Ramp data shows AI spend up 15x since January 2025, with token spend per business up 14% m/m; DeepSeek remains tiny at 0.4% of Ramp firms. Adobe data shows AI-sourced traffic to US retail rose 138% YoY in May 2026, up 1,324% since October 2024; AI-referred shoppers convert 54% better, stay 53% longer, and browse 23% more pages. Adobe also showed AI-driven travel traffic up 194% in May.",
+      "title": "ECB likely one more hike despite Iran oil deal; Euro area inflation sticky above 3% headline through early 2027",
+      "body": "JPMorgan expects one more ECB rate hike given sticky inflation\u2014May HICP at 3.2% headline and 2.6% core with services surging 0.49% m/m. Even the ECB's 'mild' scenario shows inflation above 3% headline and 2.5% core through early 2027. Flash PMIs and IFO data next week are key inputs to timing. Separately, JPMorgan shifted the BoE hike forecast to November from July after UK CPI surprised to the downside at 2.8% YoY.",
       "tickers": [],
       "source_item_ids": [
-        "gmail:19edb003545acba3",
-        "gmail:19edaf2a1dc26935"
+        "gmail:19edba4f1f0f840c",
+        "gmail:19edbfb0e635708a"
       ]
     },
     {
-      "title": "800V DC power architecture emerging as gating factor for AI factory scaling",
-      "body": "Citi and others flag 800V DC data center power as a critical infrastructure transition starting 2027, reducing current by ~15x vs. 54V systems and enabling multi-megawatt racks. TXN is seen as best positioned due to high-voltage GaN and 300mm capacity; TAM estimated to grow 75% CAGR from $2B (2025) to $12B (2028). NVIDIA's Vera Rubin NVL72 delivers 10x more tokens/megawatt vs. GB200 and sets 800V as the next-gen standard.",
-      "tickers": [
-        "TXN",
-        "NVDA"
-      ],
+      "title": "Consumer traffic decelerating broadly in 2Q26; retail geolocation data softening across hardlines",
+      "body": "KeyBanc's hardlines traffic index declined -1.1% week-ending June 14. Most major retailers decelerated from 1Q to 2Q: WMT slowed 200bps to +0.7%, LOW fell to -0.8%, TGT slowed 270bps to +4.2%, and FIVE saw the largest deceleration at -780bps to +17.9%. MUSA was the standout exception, improving 500bps to +7.2%. The broad deceleration pattern is consistent with Oppenheimer's warning that tariff-driven price hikes will pressure discretionary spending.",
+      "tickers": [],
       "source_item_ids": [
-        "gmail:19edb6e6e90cb9fd",
-        "gmail:19edb6d0174d811d"
+        "gmail:19edc6095215858b",
+        "gmail:19edc1b694aa9119"
       ]
     },
     {
-      "title": "WFE estimates lifted to $145B/'26, $200B/'27, $250B/'28 on hyperscaler capex acceleration",
-      "body": "Citi raises wafer fab equipment forecasts materially on accelerating hyperscaler capex, with capital goods industrial production for 2Q26 tracking at 12.7% vs. 5.5% in 1Q26. AMAT PT raised to $710, LRCX to $450, KLAC to $290. Emerging markets capex nowcast rose to 21.5% for 2Q26 vs. 18.6% in 1Q.",
+      "title": "ADP 4-week average slows to +25.5k; jobless claims 229k above consensus; hiring muted by AI concerns",
+      "body": "UBS notes ADP's 4-week average hiring fell to +25.5k from +29.0k, with muted hiring broadly attributed to AI-driven uncertainty. Weekly jobless claims came in at 229k vs. 220k expected; UBS expects claims to move higher. Mortgage applications declined 3.8% week-over-week, consistent with housing starts weakness.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19edbe827fb89463"
+      ]
+    },
+    {
+      "title": "Banxico holds at 6.5%; Mexico 1Q GDP contracted 2.4% SAAR; JPM forecasts 1.0% full-year growth",
+      "body": "JPMorgan expects Banxico to hold rates unanimously at 6.5% with a slightly more dovish tone as June CPI is forecast to fall to 3.67% YoY\u2014the lowest since December 2025 and within the 2-4% target band. Mexico's 1Q26 GDP contracted 2.4% seasonally annualized with consumption and investment both falling, though April IGAE is expected to show a 0.6% monthly bounce. JPM forecasts 1.0% real GDP growth for full-year 2026, up from 0.6% in 2025, with the World Cup expected to boost tourism and consumption in 2H.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19edcaf7148f1513"
+      ]
+    },
+    {
+      "title": "AI regulatory environment tightening: Commerce Dept. suspends Anthropic foreign access; federal legislation likely in 2027",
+      "body": "The Commerce Department ordered Anthropic to suspend foreign access to Claude Fable 5 and Mythos, marking an escalation in AI containment policy. Federal AI legislation is seen as more viable in 2027, with data center power costs and financial stability as key congressional focus areas. Congress is being urged to study how correlated AI agents could amplify market volatility; a massive cyber or AI-enabled disruption event could accelerate legislative action.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19edc5bef46a3a74",
+        "gmail:19edbfd4cbdcc539"
+      ]
+    },
+    {
+      "title": "Wells Fargo raises S&P 500 year-end PT to 7,950; Street forecasting ~22% Q2 earnings growth",
+      "body": "Wells Fargo lifted its year-end S&P 500 price target to 7,950 from 7,300, consistent with the S&P trading up for 11 of the past 12 weeks and within ~1.5% of its June 2 record. The Street is forecasting ~22% Q2 earnings growth. JPMorgan flags AI capex depreciation expenses as a potential headwind to future earnings growth as hyperscaler build-outs mature.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19edc5bef46a3a74",
+        "gmail:19edc5d35f28327f"
+      ]
+    },
+    {
+      "title": "Key macro catalysts next week: PCE (Jun 25), PMIs (Jun 23), MU earnings (Jun 24)",
+      "body": "The macro calendar is dense next week: PCE Price Index prints June 25 as the key inflation read against the Fed's hawkish SEP; flash PMIs on June 23 will test growth assumptions; and MU reports June 24 with semis up 7.3% WTD setting a high bar. The mandatory USMCA joint review is due July 1, and the one-year Trump-Xi trade truce expires November 1.",
       "tickers": [
-        "INTC",
-        "TSM",
         "MU"
       ],
       "source_item_ids": [
-        "gmail:19edb6e6e90cb9fd",
-        "gmail:19edb72edfb056da"
+        "gmail:19edc52478affe38"
       ]
     },
     {
-      "title": "AMZN exploring selling custom AI chips to third parties as NVDA alternative",
-      "body": "Amazon is in discussions to sell its custom AI chips for data center use to other companies, according to Bloomberg, positioning its silicon as a lower-cost inference alternative to NVIDIA. This dovetails with UBS noting Microsoft is moving Copilot to usage-based pricing and considering cheaper DeepSeek alternatives, pointing to a broader rotation from AI 'spenders' (hyperscalers) toward 'receivers' (memory, optical, HDD).",
-      "tickers": [
-        "AMZN",
-        "NVDA"
-      ],
-      "source_item_ids": [
-        "gmail:19edb51fc974f818",
-        "gmail:19edabf1c82b4c69"
-      ]
-    },
-    {
-      "title": "BoE holds with hawkish dissent; JPM pushes first hike to November",
-      "body": "The Bank of England held rates 7-2, with Greene and Pill dissenting in favor of a 25bp hike. JPMorgan pushed back its first-hike call from July to November, but Bailey flagged risks to inflation and rates are to the upside. PMI pricing data suggests limited second-round effects have emerged so far, though the BoE risks acting only after they clearly materialize.",
+      "title": "Brent below $80 post-Iran deal; EM Edge inflation plateauing at 6.5% YoY; food price risks from El Ni\u00f1o in 4Q26-1Q27",
+      "body": "Brent crude falling sharply below $80/bbl following the US-Iran peace deal; global CPI has leveled at 3.5% YoY with EM Edge averaging 6.5% YoY. Inflation momentum has plateaued in Asia and Africa but risen in LatAm to its highest since mid-2022. Food prices are broadly tame but El Ni\u00f1o risks in 4Q26-1Q27 could trigger upside surprises, particularly in southern/southeastern Africa and Central America through drought effects.",
       "tickers": [],
       "source_item_ids": [
-        "gmail:19edad746ae1edf6"
-      ]
-    },
-    {
-      "title": "Prediction markets: Oil downside risk spikes on Iran peace deal; US recession odds at 13%",
-      "body": "WTI below $65 in 2026 priced at 43% (up 15pp w/w) as US-Iran diplomatic progress accelerated: US/Iran meeting by June 30 at 85% (up 53pp w/w), Strait of Hormuz normalization by July 31 at 56% (up 32pp w/w). US recession by year-end 2026 sits at just 13% (down 6pp w/w), while zero Fed cuts in 2026 stands at 80%.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19edb46d3c0f4aae"
-      ]
-    },
-    {
-      "title": "IBM CEO warns planned 125GW AI data center capacity could require $8-12T and disappoint",
-      "body": "IBM CEO Arvind Krishna argues current AI deployments use oversized models for simple tasks and foundation models are becoming commodities. He flagged that planned 125GW of AI data center capacity could require $8T-$12T cumulative spending, with some investments disappointing as supply outpaces demand \u2014 a notable cautionary note amid aggressive hyperscaler capex build-out narratives.",
-      "tickers": [
-        "MSFT",
-        "GOOGL"
-      ],
-      "source_item_ids": [
-        "gmail:19edb007507b9876"
-      ]
-    },
-    {
-      "title": "Software sector under pressure: ACN whiff reinforces AI cannibalization; Tech Services sector leads 52-week lows",
-      "body": "Software sector is down 17% in June alone after a 44% rally, and the Technology Services sector leads 52-week lows with 45 names. ACN's miss reinforces concerns that AI is cannibalizing traditional IT services revenue. Notable YTD decliners include ACN -58%, INTU -65%, ADBE -49%, CRM broadly lower \u2014 while hardware/memory (INTC +529%, MU +821%, WDC +1245% YoY) dominate the 52-week high list.",
-      "tickers": [
-        "ACN",
-        "INTU",
-        "ADBE",
-        "MU",
-        "WDC",
-        "INTC"
-      ],
-      "source_item_ids": [
-        "gmail:19edb0e92104c0b8",
-        "gmail:19edad5e8c02e798"
-      ]
-    },
-    {
-      "title": "May retail sales accelerated to +6.9%; AI-sourced commerce traffic surging",
-      "body": "US May retail sales rose 6.9% (ex-auto +7.5%), accelerating ~210bps sequentially with strength in sporting goods, electronics, and building materials; furniture and autos weak. AI-sourced retail visits surged 138% YoY in May and are up 1,324% since October 2024, with AI-referred shoppers converting 54% better than non-AI traffic.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19edb003545acba3",
-        "gmail:19edb1e9ea2b95eb"
-      ]
-    },
-    {
-      "title": "META's China Manus acquisition blocked; Chinese backers plan to re-acquire at same $2B price",
-      "body": "China's NDRC blocked Meta's acquisition of autonomous AI agent company Manus; Meta has been unwinding the deal, stopping data sharing and 'sunsetting' Manus. Manus's original Chinese backers (including Tencent, HSG, ZhenFund) are planning to re-acquire the company at the same $2B price paid in late December 2025.",
-      "tickers": [
-        "META"
-      ],
-      "source_item_ids": [
-        "gmail:19edad97e58aa8cd"
-      ]
-    },
-    {
-      "title": "Tariff pass-through fading but margin squeeze intensifying for consumer discretionary",
-      "body": "Philadelphia Fed data shows prices received decelerating for a second consecutive month, suggesting tariff pass-through is ending \u2014 but prices paid accelerated, pinching margins. Oppenheimer warns broad tariff-driven price hikes remain a headwind to discretionary spending, with NKE, LULU, and FIGS facing significant unmitigated costs; preferred tariff-defense plays are AZO, CVNA, LTH, and W.",
-      "tickers": [
-        "CVNA",
-        "W"
-      ],
-      "source_item_ids": [
-        "gmail:19edadd54a7470ab",
-        "gmail:19edb04b002eaed4"
-      ]
-    },
-    {
-      "title": "S&P 500 valuation only defensible if AI capex generates strong ROI \u2014 range-bound until Core PCE breaks",
-      "body": "22V notes S&P 500 valuations appear reasonable only if AI capex generates strong returns; cash return ratios have declined as tech prioritizes investment. Markets are likely range-bound until Core PCE breaks decisively lower; early cyclicals remain favored in a benign-slowdown scenario. Credit spread stability and household/corporate surplus conditions support the benign base case.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19edac7a659a4e50",
-        "gmail:19edab6255dd2bff"
-      ]
-    },
-    {
-      "title": "OpenAI poaches Noam Shazeer from Google; META exploring equity raise of tens of billions",
-      "body": "OpenAI recruited Noam Shazeer \u2014 credited with 'fixing' Gemini 3 \u2014 from Google as research lead. META is separately exploring external capital structures including bond JVs, sovereign wealth partnerships, and potentially a multi-billion equity raise to fund its AI infrastructure build. Over 85 ex-Salesforce employees have moved to Anthropic and OpenAI in 2026, mostly in sales and marketing.",
-      "tickers": [
-        "META",
-        "GOOGL"
-      ],
-      "source_item_ids": [
-        "gmail:19edaca413d1f2b0",
-        "gmail:19edabf1c82b4c69"
+        "gmail:19edca6dc248dd57"
       ]
     }
   ]
