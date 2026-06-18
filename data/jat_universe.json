@@ -1,235 +1,231 @@
 {
-  "digest_type": "premarket",
-  "digest_dt": "2026-06-18T08:30:00-04:00",
-  "saved_at": "2026-06-18T12:47:52.551189+00:00",
+  "digest_type": "midday",
+  "digest_dt": "2026-06-18T12:00:00-04:00",
+  "saved_at": "2026-06-18T16:12:06.687320+00:00",
   "bullets": [
     {
-      "title": "INTC +9-10% pre-mkt: Trump announces Apple-Intel US chip manufacturing deal",
-      "body": "Trump tweeted at 00:29 ET that Apple agreed to work with Intel to design and build chips in America; Intel confirmed ramp production of its 18A-P node (9% better perf vs 18A). Multiple desks flagging this as catalyst with INTC trading +10% pre-open at ~$121. Deal reportedly based on a May preliminary agreement and fits geopolitical foundry diversification narrative.",
+      "title": "ACN: Broad earnings miss triggers -14% drop; bookings decelerate, FY26 guide cut",
+      "body": "Accenture Q3 revenue of $18.72B missed consensus by ~0.3%, bookings fell 2% YoY to $19.3B (vs +7% expected), and FY26 growth guidance was cut to 3-4% cc from 3-5%. Managed Services book-to-bill fell below 1.0x for first time since 2019; MS downgraded to Equal-weight. JPM maintains Overweight, viewing the $4.175B OT cybersecurity acquisition pivot (Dragos/runZero/NetRise) as strategic rather than a sign of desperation, though the deal adds only ~0.3% to revenue.",
+      "tickers": [
+        "ACN"
+      ],
+      "source_item_ids": [
+        "gmail:19edac60d1c8926e",
+        "gmail:19edabf1dd7d940d"
+      ]
+    },
+    {
+      "title": "INTC: +9% on Trump-Apple domestic chip manufacturing announcement",
+      "body": "Trump announced Apple has agreed to work with Intel to design and build chips in America, sending INTC up ~9% pre-market. Analysts note the collaboration is not entirely new/surprising, but the political visibility accelerates sentiment. Broad semi sector strength followed with SOXX ETF +4.38%.",
       "tickers": [
         "INTC",
         "AAPL"
       ],
       "source_item_ids": [
-        "gmail:19ed9f53725f15a6",
-        "gmail:19edab54e2c0db23"
+        "gmail:19edae2b7f0779ed",
+        "gmail:19edad5e8c02e798"
       ]
     },
     {
-      "title": "AAPL: Price hikes unavoidable as DRAM/NAND up 600-900% since 2023; iPhone Pro ~$270 increase flagged",
-      "body": "CEO Tim Cook confirmed memory/storage costs have become 'unsustainable' and Apple will raise product prices; AAPL is willing to use its balance sheet to boost memory supply but won't build its own fabs. WSJ analysis implies iPhone Pro could see ~$270 increase; Morgan Stanley forecasts 15% chip supply deficit through 2027. Memory stocks (SK Hynix, Samsung) rallied 4-6% on the commentary.",
+      "title": "AMD: Citi upgrades to Buy with $575 PT on Meta MI450 GPU win and CPU TAM expansion",
+      "body": "Citi analyst Atif Malik upgraded AMD to Buy (PT $575) citing AMD's expected win of the lion's share of Meta's custom MI450 GPU opportunity, which offers lower TCO vs. merchant products. The estimated TAM is ~$15B per gigawatt, with AMD also benefiting from higher CPU TAM expectations.",
       "tickers": [
-        "AAPL"
+        "AMD",
+        "META"
       ],
       "source_item_ids": [
-        "gmail:19ed7db105e62d3d",
-        "gmail:19edab54e2c0db23"
+        "gmail:19edb6e6e90cb9fd"
       ]
     },
     {
-      "title": "ACN -14%: FY26 revenue guide cut to 3-4%, bookings -3% y/y, Street sees negative FY27 organic growth",
-      "body": "Accenture Q3 EPS $3.80 beat ($3.71 est) but revenue $18.72B missed $18.78B; FY26 growth guidance cut to 3-4% from 3-5% and Q4 guide $17.75-18.4B below $18.48B consensus. Bookings declined to $19.3B (-3% y/y) with managed services missing badly ($9.06B vs $11.32B est). Street now models negative organic growth for FY27; multiple de-rates to 15-year lows. ACN simultaneously announced ~$4.175B cybersecurity acquisitions (Dragos majority, runZero, NetRise) with $208M combined ARR growing 53% y/y.",
+      "title": "NVDA: Vera Rubin marks shift to AI factory era; 800V power architecture the key gating factor",
+      "body": "Vera Rubin NVL72 delivers 10x more tokens per megawatt than GB200 and 1/10th the cost per million tokens for inference; NVLink 6 provides 3.6TB/s per GPU. NVIDIA is leading the 800V DC data-center power infrastructure transition starting 2027, which reduces resistive losses by >100x vs. 54V systems and enables multi-megawatt racks. Separately, Amazon is in discussions to sell its custom AI chips to third parties, positioning as a lower-cost NVDA rival.",
       "tickers": [
-        "ACN"
-      ],
-      "source_item_ids": [
-        "gmail:19edaac83f39b11a",
-        "gmail:19eda9448f71191b"
-      ]
-    },
-    {
-      "title": "INTU downgraded to Hold at Stifel; PT cut to $275 from $375 on expected growth target cuts",
-      "body": "Stifel cuts INTU to Hold and slashes PT to $275 (2% upside) from $375 (39% upside), expecting the company to lower growth targets for TurboTax and GBS. FactSet consensus sits at $474 with a wide $275-921 range.",
-      "tickers": [
-        "INTU"
-      ],
-      "source_item_ids": [
-        "gmail:19ed83911b2bb8cc",
-        "gmail:19edab3e8c9484a2"
-      ]
-    },
-    {
-      "title": "CRM upgraded to Buy at Monness with $200 PT (29% upside)",
-      "body": "Monness, Crespi, Hardt upgrades Salesforce to Buy from Neutral with a $200 price target implying 29% upside from $155. Analyst Brian White cites valuation as the key consideration; FactSet average target is $248.",
-      "tickers": [
-        "CRM"
-      ],
-      "source_item_ids": [
-        "gmail:19eda80897311824"
-      ]
-    },
-    {
-      "title": "GOOGL: AI researcher Noam Shazeer leaves for OpenAI; Waymo recalls 3,800 robotaxis",
-      "body": "Top Alphabet AI researcher Noam Shazeer (Gemini co-lead) is departing to join OpenAI as AI architecture lead, a notable talent loss. Separately, Waymo recalled over 3,800 robotaxis over a software flaw allowing vehicles to enter closed construction zones. Also, Morgan Stanley flags GOOGL's deal to rent 110K GPUs at ~$50/watt annually as bullish for GCP monetization, with 27% upside to MS growth estimates if GCP monetizes at $25/watt in 2027.",
-      "tickers": [
-        "GOOGL"
-      ],
-      "source_item_ids": [
-        "gmail:19eda9448f71191b",
-        "gmail:19edab3849abd8a2"
-      ]
-    },
-    {
-      "title": "GOOGL/$50/watt GPU deal signals hyperscaler capex heading toward $1T in 2027; META neocloud upside",
-      "body": "Morgan Stanley and MS EU Semis flagged GOOGL's ~110K GB300 GPU rental at $50/watt as a major signal: GCP/AWS monetization at $25/watt in 2027 would drive 27%/16% upside to MS growth estimates. META neocloud opportunity seen as larger-than-expected; 500MW at $30/MW could add $4+ to 2028 EPS. Implication: hyperscaler capex estimates for 2027 biased toward $1 trillion.",
-      "tickers": [
-        "GOOGL",
-        "META",
+        "NVDA",
         "AMZN"
       ],
       "source_item_ids": [
-        "gmail:19eda9e30c9cceec",
-        "gmail:19ed96bbfcf9a214"
+        "gmail:19edb6d0174d811d",
+        "gmail:19edb51fc974f818"
       ]
     },
     {
-      "title": "MRVL: KeyBanc raises PT to $385 on durable DC networking TAM; FY29E revs $25.6B",
-      "body": "KeyBanc lifts MRVL PT from $260 to $385 (37x FY29E EPS of $10.31 vs consensus $8.89), arguing DC networking is a ~$30B ex-NVDA TAM by 2030. Scale-up networking ($13B by 2030) seen as more durable than custom XPUs; Celestial AI acquisition adds silicon photonics differentiation. FY29E revenue estimate of $25.6B well above Street's $22.7B.",
+      "title": "GOOGL: $50/watt GPU rental deal signals compute scarcity; bullish read for META, CRWV capex",
+      "body": "Google is renting ~110K NVIDIA GB300 GPUs at ~$50/watt annually, materially above the ~$12-14/watt neocloud contract rates, signaling strong AI monetization expectations. MS raised GOOGL capex estimate to $375B by 2028. The deal is bullish for CRWV and NBIS neocloud economics and supports META's 4.4/3.9 GW incremental capacity build in '26/'27.",
       "tickers": [
-        "MRVL"
+        "GOOGL",
+        "META",
+        "CRWV"
       ],
       "source_item_ids": [
-        "gmail:19ed81a21c5ba70b"
+        "gmail:19edaca413d1f2b0"
       ]
     },
     {
-      "title": "JPM raises WFE 2026 forecast to +28% YoY ($155B); 2027 to +29% ($200B) on AI capex surge",
-      "body": "JPMorgan lifts CY2026 WFE growth forecast from 21% to 28% YoY and CY2027 from 18% to 29%, driven by top-4 US CSPs growing capex ~80% YoY in 2026 and ~50% in 2027. China AI data center capex forecast to double to $95-151B by 2029. DRAM, TSMC, INTC/Samsung foundry, and YMTC cited as largest absolute-dollar WFE upside sources.",
+      "title": "TXN: Best-positioned for 800V data center power conversion; TAM to grow 75% CAGR to $12B by 2028",
+      "body": "Citi sees TXN as the primary beneficiary of the 800V DC power architecture transition in AI data centers, citing its high-voltage GaN capabilities and 300mm capacity. The 800V TAM is expected to grow from ~$2B in 2025 to $12B in 2028 at a 75% CAGR, with CSP-driven adoption beginning in 2H27.",
       "tickers": [
-        "TSM",
-        "NVDA"
+        "TXN"
       ],
       "source_item_ids": [
-        "gmail:19edab54e2c0db23",
-        "gmail:19eda3ca475c3b80"
+        "gmail:19edb6e6e90cb9fd"
       ]
     },
     {
-      "title": "SHOP: Spring 2026 Editions reinforce AI commerce platform; JPM reiterates OW, $150 PT",
-      "body": "JPM maintains Overweight on Shopify ($150 PT, ~22x 2027E gross profit of $8.6B), highlighting Spring Editions AI momentum: Catalog API converting AI searches 2x higher vs scraped data, Shop Pay extended to non-Shopify brands accessing 250M+ shoppers, and Campaign Autopilot enabling AI-powered ad campaigns across FB/IG/MSFT/SNAP/ChatGPT channels. Jefferies also flagged SHOP as benefiting from AI-driven commerce take-rate expansion.",
+      "title": "MU: Memory cost crisis drives AAPL price hike plans; MU bullish into 2027-28",
+      "body": "Memory BOM costs are rising 80-90% YTD and triple-digits YoY, forcing AAPL to plan iPhone/Mac/iPad price hikes of $100-200+ on iPhone 18. Hyperscalers are pre-paying and locking long-term DRAM/NAND supply, pushing AAPL to the back of the queue. UBS carries a Street-high $1,625 PT on MU with a pathway to >$100 EPS and >$400B FCF through 2029, while MS raised its CY26/CY27 MU forecasts to $12.63/$16.21.",
+      "tickers": [
+        "MU",
+        "AAPL",
+        "SNDK"
+      ],
+      "source_item_ids": [
+        "gmail:19edad5e8c02e798",
+        "gmail:19edabf1c82b4c69"
+      ]
+    },
+    {
+      "title": "META: Manus acquisition unwound after China block; exploring equity raises and external capital structures",
+      "body": "China's NDRC blocked Meta's ~$2B acquisition of Manus; Meta has stopped sharing data with Manus and is sunsetting the product, with original Chinese backers (Tencent, HSG, ZhenFund) planning to re-acquire at the same price. Separately, META is exploring bond JVs, sovereign wealth participation, and potentially tens of billions in equity raises to fund its 4.4/3.9 GW AI capacity buildout in '26/'27. MS raised META capex estimate to $205B by 2028.",
+      "tickers": [
+        "META"
+      ],
+      "source_item_ids": [
+        "gmail:19edad97e58aa8cd",
+        "gmail:19edaca413d1f2b0"
+      ]
+    },
+    {
+      "title": "TTWO: GTA VI pre-orders confirmed for June 25; Nov 19 launch intact; ~33M units implied by guidance",
+      "body": "Rockstar confirmed GTA VI pre-orders begin June 25 across digital storefronts and select retailers, maintaining the November 19, 2026 launch date. FY27 guidance implies ~33M GTA VI first-year unit sales, conservative vs. the prior GTA title. UBS maintains Buy with a base case of $2.0B in full game sales in F27.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19edadd54a7470ab",
+        "gmail:19edb06b56dd4396"
+      ]
+    },
+    {
+      "title": "FERC unanimously approves Trump plan to accelerate AI data center grid connections",
+      "body": "FERC voted unanimously to approve the Trump administration plan directing grid operators to allow large loads like AI data centers to connect in a timely and orderly manner. The ruling is a positive catalyst for power infrastructure plays including CEG, CRWV, BE, and NBIS.",
+      "tickers": [
+        "CEG",
+        "CRWV",
+        "NBIS"
+      ],
+      "source_item_ids": [
+        "gmail:19edb6803189f1bc"
+      ]
+    },
+    {
+      "title": "LYV: Ticketmaster divestiture risk elevated as states pursue remedy after monopolization ruling",
+      "body": "Hedgeye notes the DOJ settlement allows antitrust approval by late fall, but state AGs are actively pursuing Ticketmaster divestiture following the jury finding of illegal monopolization. Divestiture risk is characterized as significant, making this a key overhang on LYV shares.",
+      "tickers": [
+        "LYV"
+      ],
+      "source_item_ids": [
+        "gmail:19edb1563c56635a"
+      ]
+    },
+    {
+      "title": "TSLA: Oppenheimer raises capex estimates 25% above street on Physical AI and Terafab thesis",
+      "body": "Oppenheimer raised TSLA capex guidance by $3B to $29.4B in 2026 and $3.5B to $30.4B in 2027, driven by data center and Terafab investments. The analyst's estimates are now ~25% above street consensus, with the narrative shifting toward TSLA as a vertically integrated Physical AI complex. Solar and storage ramp is seen as an underappreciated accelerant.",
+      "tickers": [
+        "TSLA"
+      ],
+      "source_item_ids": [
+        "gmail:19edab6e4d8efe3a"
+      ]
+    },
+    {
+      "title": "SHOP: UBS screening as clear AI beneficiary for SMB workflows; investor lunch July 15",
+      "body": "Morgan Stanley's SMB survey shows Shopify as a clear AI beneficiary with strong merchant intent for AI-enabled workflows. UBS is hosting a Boston investor lunch on July 15 covering Shop Campaigns, Payments GPV penetration, enterprise traction, agentic commerce, and take-rate dynamics.",
       "tickers": [
         "SHOP"
       ],
       "source_item_ids": [
-        "gmail:19ed8c451ffdde07",
-        "gmail:19eda9448f71191b"
+        "gmail:19edb1e9ea2b95eb",
+        "gmail:19edb58c316cd393"
       ]
     },
     {
-      "title": "SNOW: Databricks $6.9B ARR run-rate (+80% YoY) poses growing competitive threat",
-      "body": "Databricks' Data+AI Summit showed $6.9B ARR (F1H27 run-rate, 80% growth, 65% core ex-tokens), $1B+ ahead of Snowflake, with new launches (LTAP architecture, CustomerLake CDP, Genie agentic coworker, Panther SIEM) directly competing across Snowflake's core workloads. Citi sees positive read-throughs for MSFT and PLTR; $10M+ ARR customers doubled to ~80 YoY. Enterprise migrations off Snowflake to Databricks cited by multiple sources.",
+      "title": "INTU: At 52-week lows; AI accounting workflow demand is tailwind but stock -65% YoY",
+      "body": "INTU is flagged at a 52-week low, down 65% YoY. Morgan Stanley's survey identifies INTU as aligned with rising AI demand in accounting/finance workflows, with intelligent risk alerts and automated bookkeeping as top enterprise use cases \u2014 though near-term stock pressure persists.",
       "tickers": [
-        "SNOW",
-        "MSFT",
-        "PLTR",
-        "CRM"
+        "INTU"
       ],
       "source_item_ids": [
-        "gmail:19ed8b6ea5ec5137",
-        "gmail:19ed8aae778e8f97"
+        "gmail:19edb0e985072857",
+        "gmail:19edb1e9ea2b95eb"
       ]
     },
     {
-      "title": "MSFT: Building large AI model business selling to Chinese firms; ByteDance spending $1B+/yr on Azure",
-      "body": "Bloomberg reports Microsoft has built a significant AI business selling OpenAI models via Azure to Chinese tech firms including ByteDance ($1B+/yr), Ant Group, Meituan, and Tencent. OpenAI has privately complained to Microsoft about insufficient model-copying safeguards.",
+      "title": "AMZN: Custom AI chips to be sold externally; Kyndryl expands AWS collaboration",
+      "body": "Bloomberg reports Amazon is in discussions to sell its custom AI chips for data center use to third parties, positioning them as a lower-cost Nvidia alternative. Separately, Kyndryl and AWS signed an expanded strategic collaboration agreement focused on agentic AI and modernization, with over 11,000 AWS-certified Kyndryl professionals involved.",
       "tickers": [
-        "MSFT"
+        "AMZN"
       ],
       "source_item_ids": [
-        "gmail:19ed864573c0841a"
+        "gmail:19edb51fc974f818",
+        "gmail:19edad434a73257a"
       ]
     },
     {
-      "title": "ADSK: BNP Paribas Exane initiates Outperform with $295 PT (53% upside)",
-      "body": "BNP Paribas Exane initiates Autodesk at Outperform with a $295 target implying 53% upside from $193; FactSet consensus stands at $322 with a $235-456 range. PTC initiated Neutral at $130 (11% upside).",
+      "title": "CRWV/NBIS: Beneficiaries of GOOGL $50/watt GPU rental pricing and FERC grid approval",
+      "body": "CoreWeave and Nebius are flagged as direct beneficiaries of Google's ~$50/watt GPU rental deal (vs. ~$12-14 standard neocloud rates), validating premium neocloud pricing power. The FERC unanimous approval of accelerated AI data center grid connections further supports both names' infrastructure buildout timelines.",
       "tickers": [
-        "ADSK"
+        "CRWV",
+        "NBIS"
       ],
       "source_item_ids": [
-        "gmail:19eda83210969e27"
+        "gmail:19edaca413d1f2b0",
+        "gmail:19edb6803189f1bc"
       ]
     },
     {
-      "title": "TLN: Goldman Sachs initiates Buy, $499 PT; CEG initiated Neutral at $305",
-      "body": "GS initiates Talen Energy at Buy (12m PT $499), citing a long-term AWS PPA that de-risks cash flows and structural supply-demand tightening in PJM supporting elevated capacity prices. Constellation Energy initiated at Neutral ($305 PT) as premium valuation already reflects nuclear scarcity value and Calpine synergies.",
+      "title": "AVGO/MRVL: Semi sector strength; MRVL plans TSMC 1.4nm for AI data center",
+      "body": "Broad semiconductor sector strength driven by AI capex acceleration. MRVL plans to leverage TSMC's 1.4nm technology node for AI data center and supercomputing applications. Citi raised WFE estimates to $145B/'$200B/$250B for 2026-2028, benefiting AVGO and the broader ecosystem.",
       "tickers": [
-        "TLN",
-        "CEG"
+        "AVGO",
+        "MRVL",
+        "TSM"
       ],
       "source_item_ids": [
-        "gmail:19eda995d053d13b"
+        "gmail:19edb6e6e90cb9fd",
+        "gmail:19edabf1c82b4c69"
       ]
     },
     {
-      "title": "MU: Next major catalyst June 24 earnings; consensus $20.57 EPS, $35.56B revenue",
-      "body": "JPM flags MU earnings on June 24 as the next major market catalyst for semis. Consensus stands at $20.57 EPS and $35.56B revenue. Context: Apple's price hike commentary on memory costs and SK Hynix shipping HBM4E samples are supportive demand signals; Chinese buyers shifting toward domestic CXMT/YMTC is a headwind to watch.",
+      "title": "VZ/T/CMCSA: Telecom Big 3 down -2.6% YTD; TMUS rated Outperform at $255 (+41%)",
+      "body": "Wolfe Research notes FWA availability for T-Mobile and Verizon declined -3.5% and -1.9% respectively in May, while AT&T's net adds accelerated in 1Q26. The Big 3 trade at 6.8x NTM EBITDA on average; TMUS is rated Outperform with a $255 PT (40.6% upside), while T and VZ are Peer Perform. SpaceX/Starlink is flagged as a rising sector risk.",
       "tickers": [
-        "MU"
+        "VZ",
+        "T",
+        "CMCSA"
       ],
       "source_item_ids": [
-        "gmail:19eda5297994836c",
-        "gmail:19eda66254557a97"
+        "gmail:19edabf127d92c19"
       ]
     },
     {
-      "title": "DELL: Wolfe maintains Peer Perform; values at 17x CY28E EPS, above 10x historical avg",
-      "body": "Wolfe Research maintains Peer Perform on Dell, acknowledging strong AI server execution and supply constraint tailwinds into FY28 but flagging valuation at 17x CY28E EPS ($24.25) vs. 10x historical average. Key risk: heavy memory pricing exposure means declining DRAM/NAND prices would compress both sales and margins.",
+      "title": "CEG/VST/TLN: FERC and PUCT meetings address data center interconnection; power stocks in focus",
+      "body": "FERC met at 10am ET to address data center interconnection and co-location tariffs in PJM; PUCT met to discuss ERCOT's batch interconnection process with 35 GW baseload and 65 GW under study in Batch 0. Goldman Sachs initiated TLN at Buy pre-market. The policy clarity is a positive catalyst for IPP and power infrastructure names.",
       "tickers": [
-        "DELL"
+        "CEG",
+        "TLN"
       ],
       "source_item_ids": [
-        "gmail:19ed923a425d8616"
+        "gmail:19edaccac19ff55a",
+        "gmail:19edae2b7f0779ed"
       ]
     },
     {
-      "title": "PSKY/WBD: China antitrust clears Paramount Skydance-Warner Bros. transaction",
-      "body": "Paramount Skydance received unconditional Chinese regulatory clearance on June 17, following DOJ closing its investigation June 12 and Spanish FDI approval June 11. WBD up 0.9% on the news. Transaction nearing completion of regulatory approvals.",
+      "title": "OMC: Unusual call-skewed options activity; stock -4.9% with P/C ratio 16.79",
+      "body": "StreetAccount flagged OMC with options volume 396% above 30-day average (1,370 contracts) and a heavily call-skewed put/call ratio of 16.79, despite the stock being down 4.9% on the day. The divergence between price action and options flow is notable.",
       "tickers": [
-        "PSKY",
-        "WBD"
+        "OMC"
       ],
       "source_item_ids": [
-        "gmail:19eda347cb4ad96b"
-      ]
-    },
-    {
-      "title": "KeyBanc CIO survey: IT budget growth below 3.5% in 2026-27; CRM, ADBE, NOW, ORCL in bottom six net-change slots",
-      "body": "KeyBanc 2026 CIO survey flags slowing IT spend (below 3.5% growth in 2026, further deceleration in 2027) with 34.5% of CIOs planning to reduce legacy software spend in favor of AI-native alternatives. Enterprise apps (Salesforce, Adobe, Workday, ServiceNow, SAP) predicted to land in bottom-six net-change buckets, reversing 2H25 strength. Security budgets expected to nearly double to 6%+; AI to consume 6%+ of 2026 IT budgets.",
-      "tickers": [
-        "CRM",
-        "ADBE",
-        "NOW",
-        "ORCL",
-        "MSFT"
-      ],
-      "source_item_ids": [
-        "gmail:19eda65a22b1cd79"
-      ]
-    },
-    {
-      "title": "Retail investor flows: $7.9B on June 17, led by NVDA (+$567M), GOOGL (+$300M), MSFT (+$265M) in Mag 7",
-      "body": "JPM retail radar shows single-stock purchases at 91st percentile activity on June 17 ($3.1B single-stock, $4.8B ETF). Top single-stock buys: NVDA +$567M, GOOGL +$300M, MSFT +$265M, TSLA +$187M; AAPL was a net sell (-$40M). Tech and Comms ETFs (SOXX, VGT, SMH) saw sustained buying; Momentum ETF inflows near 1-year highs.",
-      "tickers": [
-        "NVDA",
-        "GOOGL",
-        "MSFT",
-        "TSLA",
-        "META",
-        "AMZN",
-        "AAPL",
-        "MU"
-      ],
-      "source_item_ids": [
-        "gmail:19ed92e769cd4ef3"
-      ]
-    },
-    {
-      "title": "Hawkish FOMC: 9 members project 2026 hike; markets pricing full hike by October; core PCE revised to 3.3%",
-      "body": "Fed held at 3.5-3.75% but Chair Warsh dropped forward guidance, shortened the statement, and announced 5 reform task forces. Nine of 18 participants project at least one 2026 hike; median 2026 core PCE revised to 3.3% (from 2.5% in December). Markets now price a full hike by October and 45bp+ by spring 2027. MS holds base case of no hike (own PCE forecast 3.0%); JPM flipped tactically bullish on Iran deal relief.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19ed7c7ea68e00c3",
-        "gmail:19eda5297994836c"
+        "gmail:19edb705d8251589"
       ]
     }
   ]
