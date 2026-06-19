@@ -1,171 +1,18 @@
 {
-  "digest_type": "premarket",
-  "digest_dt": "2026-06-19T08:30:00-04:00",
-  "saved_at": "2026-06-19T12:39:34.312180+00:00",
+  "digest_type": "midday",
+  "digest_dt": "2026-06-19T12:00:00-04:00",
+  "saved_at": "2026-06-19T16:03:45.703809+00:00",
   "bullets": [
     {
-      "title": "MU: Citi sees 6% EPS upside; Aug-Q target $28+; DRAM ASPs +20% YoY",
-      "body": "Citi models 6% EPS upside to MU's May-Q and expects $28+ EPS for the Aug-Q on DRAM ASPs 20%+ YoY vs. their 19% guidance. MU reports June 24 AH vs. consensus of $20.57 EPS / $35.56B revenue. Memory vendors broadly expected to positively comment on capex with upward bias at 2Q earnings; Samsung 2Q26 operating profit seen exceeding W100tr as DRAM/NAND prices track up 50-60% QoQ vs. original 20-30% forecast.",
+      "title": "AMD, AVGO, MU: Wolfe Research semi webcast Monday 6/22 \u2014 pre-quiet period checks",
+      "body": "Wolfe Research is hosting a semiconductor webcast Monday June 22 at 10am ET covering end-of-quarter channel checks. AMD will be discussed pre-quiet period, with AVGO and MU earnings outlooks also on the agenda \u2014 worth tuning in for near-term setup read.",
       "tickers": [
+        "AMD",
+        "AVGO",
         "MU"
       ],
       "source_item_ids": [
-        "gmail:19edfc53b57fa823",
-        "gmail:19edd437537f5547"
-      ]
-    },
-    {
-      "title": "QCOM: Investor Day 6/24 \u2014 data center push, custom silicon ramping Dec 2026, PC target withdrawal",
-      "body": "Qualcomm's June 24 Investor Day will highlight AI200/AI250 inference accelerators, server CPUs, and custom ASICs funded by fungible smartphone wafer capacity. A hyperscale customer (HUMAIN primary) is ramping a custom silicon LPU chip in December 2026 targeting 200MW. Citi/Jefferies expect QCOM to raise Automotive ($8B) and IoT ($14B) targets while withdrawing its $4B PC sales target by F29 due to memory constraints.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19edfc53b57fa823",
-        "gmail:19edfc2a3b922fe5"
-      ]
-    },
-    {
-      "title": "Backend switch market surging: CLS #1, CSCO gaining fast, NVDA losing share",
-      "body": "Dell'Oro 1Q data: Ethernet backend switch market grew >100% YoY to >$3.7B; InfiniBand >200% YoY to >$2B. CLS holds #1 with >25% share (only vendor shipping early 1.6T in small volumes) but lost ~5 pts YoY. NVDA at 24% share, down 6 pts, planning Spectrum-X CPO shipments 2H. CSCO gained +8 pts to ~8% overall and ~13% within top 4 cloud customers, driven by Meta deployments. ANET gained +3 pts to 12%.",
-      "tickers": [
-        "CLS",
-        "NVDA",
-        "CSCO",
-        "ANET"
-      ],
-      "source_item_ids": [
-        "gmail:19edfc53b57fa823",
-        "gmail:19edfc2a3b922fe5"
-      ]
-    },
-    {
-      "title": "ACN: JPM maintains OW, cuts PT to $179 from $201; M&A offset to weak organic",
-      "body": "Accenture's F3Q revenue of $18.72B slightly missed; FXN growth 3.1% vs. 3.2-3.6% consensus with geopolitical disruption costing ~$100M in consulting revenue and ~$400M in bookings. FY26 FXN guidance narrowed to +3-4%; FY27 implies ~1% organic growth. JPM cuts PT to $179 (11x CY28 EPS) from $201 but maintains OW, citing M&A track record ($9B raised) and EPS protection ($3.80 actual vs. $3.64-3.72 consensus). GS sales desk flags weaker bookings (-3% YoY) and large managed services deals slipping to FY27.",
-      "tickers": [
-        "ACN"
-      ],
-      "source_item_ids": [
-        "gmail:19eddddfb6d030eb",
-        "gmail:19edec770d61424b"
-      ]
-    },
-    {
-      "title": "AMZN/AWS: Citi projects +37% FY27 revenue growth on agentic AI wave",
-      "body": "Post-AWS NYC Summit, Citi reiterates AMZN as top Internet pick and projects AWS revenue growth accelerating to +37% YoY in FY27 vs. +30% FY26, driven by agentic AI productionization. AWS Bedrock AgentCore agent task volume is up 15x in six months. Separately, Amazon is in talks to sell custom AI chips to third-party data center customers, competing with Nvidia.",
-      "tickers": [
-        "AMZN"
-      ],
-      "source_item_ids": [
-        "gmail:19ede3773311f51d",
-        "gmail:19edd437537f5547"
-      ]
-    },
-    {
-      "title": "SNOW, MDB, ORCL: AI data infrastructure plays highlighted at AWS Summit and by Wolfe",
-      "body": "Citi sees positive takeaways for SNOW, MDB, MSFT, and ORCL from AWS Summit with PoCs maturing to production. SNOW's Observe product shows triple-digit growth; ESTC eyeing 20-30% pricing increase as Platinum tier sunsets. Wolfe Research adds SNOW as public proxy for Databricks AI/data trends and sees MDB 2H AI tailwinds; ORCL benefiting from cloud migration acceleration via 26ai and vector workloads.",
-      "tickers": [
-        "SNOW",
-        "MDB",
-        "ORCL",
-        "MSFT"
-      ],
-      "source_item_ids": [
-        "gmail:19ede3773311f51d",
-        "gmail:19edd611f9074c12"
-      ]
-    },
-    {
-      "title": "PLTR, NOW, TEAM, CRM: Wolfe sees agent wave benefiting enterprise platforms; PLTR valuation a ceiling",
-      "body": "Wolfe's Zukin notes NOW, TEAM, and CRM as primary beneficiaries of the enterprise agent deployment wave; CRM's Agentforce/Intercom acquisition enhances capabilities. PLTR flagged as best product-market fit in software but valuation warrants only neutral stance. IONQ at 7x revenue for 24% growth cited as an attractive long entry.",
-      "tickers": [
-        "PLTR",
-        "NOW",
-        "TEAM",
-        "CRM",
-        "IONQ"
-      ],
-      "source_item_ids": [
-        "gmail:19edd611f9074c12"
-      ]
-    },
-    {
-      "title": "META: lobbying for child-harm lawsuit immunity; 1.6GW compute from Crusoe; driving CSCO switch share",
-      "body": "Meta is lobbying Congress for immunity from child-harm lawsuits. On infrastructure, Meta secured ~1.6GW AI compute from Crusoe (two Texas/Missouri facilities) and CPO-based 1.6T switching expected in 1H27. Meta's deployments are the primary driver behind CSCO's +8 pt backend switch share gain.",
-      "tickers": [
-        "META"
-      ],
-      "source_item_ids": [
-        "gmail:19edd437537f5547",
-        "gmail:19edfc53b57fa823"
-      ]
-    },
-    {
-      "title": "AAPL: chip deal with Intel; Brazil alternative app stores; price increases signal tight memory",
-      "body": "Trump stated Apple agreed with Intel to design/manufacture chips in the US, diversifying from TSMC; Intel rose ~10% on unconfirmed reports. Apple also agreed to permit alternative marketplaces and external payments in Brazil following an antitrust settlement. Apple raising product prices due to rising component costs, reinforcing tight DRAM/NAND pricing environment.",
-      "tickers": [
-        "AAPL",
-        "INTC"
-      ],
-      "source_item_ids": [
-        "gmail:19edd437537f5547",
-        "gmail:19ede8695ec39cd9"
-      ]
-    },
-    {
-      "title": "MRVL: in talks with TSMC on A14 process for next-gen AI connectivity chips",
-      "body": "Morgan Stanley reports Marvell is in talks with TSMC to use the A14 node for next-generation AI connectivity chips, signaling continued positioning in high-bandwidth AI interconnect silicon.",
-      "tickers": [
-        "MRVL"
-      ],
-      "source_item_ids": [
-        "gmail:19ede8695ec39cd9"
-      ]
-    },
-    {
-      "title": "NFLX: acquiring Radford Studio for ~$400M; expanding traditional broadcaster partnerships",
-      "body": "Netflix is under contract to acquire Radford Studio Center for ~$400M, well below the 2021 $1.85B sale price. CEO confirmed strategy to add more traditional broadcasters to platform following the TF1 deal in France.",
-      "tickers": [
-        "NFLX"
-      ],
-      "source_item_ids": [
-        "gmail:19edd752adeec998",
-        "gmail:19ede1317032bb73"
-      ]
-    },
-    {
-      "title": "NVDA: losing backend switch share but ASML CEO bullish on multi-year AI chip supply constraint",
-      "body": "NVDA fell to 24% backend switch share (down 6 pts YoY) with CPO Spectrum-X shipments planned 2H. On the positive side, the ASML CEO is bullish on a multi-year supply-limited AI chip market; ASML's 90-unit EUV guidance may be a floor with potential upside to 110-120 units per GS sales desk. EUV China headline risk characterized as sentiment overhang rather than fundamental threat.",
-      "tickers": [
-        "NVDA"
-      ],
-      "source_item_ids": [
-        "gmail:19edfc53b57fa823",
-        "gmail:19edec770d61424b"
-      ]
-    },
-    {
-      "title": "HF positioning: gross leverage near peak; Tech net sold but Info Tech still top contributing sector",
-      "body": "JPM prime data shows HF gross leverage at highs after a 22% May increase and 18% June increase \u2014 historically leverage peaks at mid-June options expiry before declining. HFs net sold US Tech and Industrials (strongest performers) while AI Vulnerable, Low End Consumer, and Med Tech remain sub-10th percentile in positioning. Russell rebalance is a near-term event risk with an unusually large estimated trade size.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19edd63705e2112d"
-      ]
-    },
-    {
-      "title": "Macro: Fed hawkish tilt \u2014 9 members expect 2026 hikes; core PCE projection jumps to 3.3%",
-      "body": "FOMC June dots show nine members expecting 2026 rate hikes with six looking for two or more moves; 2026 core PCE projection raised from 2.7% to 3.3%. Piper Sandler still sees S&P 500 reaching 8,450 at 21.5x on $393 2027 consensus EPS, driven by earnings growth not multiple expansion. Room for P/E expansion limited absent a sustained rate decline.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19edf8c5ddf937db",
-        "gmail:19eddb00a00c51c4"
-      ]
-    },
-    {
-      "title": "Oil: Iran deal execution risk; stranded supply recovery supports bearish crude, dovish rotation",
-      "body": "Jefferies flags the US-Iran deal shifting from geopolitical risk pricing to execution credibility. Hormuz reopening could release ~165M barrels of stranded supply; IEA estimates 14M bpd was disrupted. Lower oil is disinflationary, supporting a dovish Fed read and rotation into consumer discretionary, travel, airlines, housing, and autos \u2014 and away from energy.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19edf06187f710d2",
-        "gmail:19eddb00a00c51c4"
+        "gmail:19ee035d865c7563"
       ]
     }
   ]
