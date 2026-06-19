@@ -1,18 +1,229 @@
 {
-  "digest_type": "midday",
-  "digest_dt": "2026-06-19T12:00:00-04:00",
-  "saved_at": "2026-06-19T16:03:45.703809+00:00",
+  "digest_type": "weekend",
+  "digest_dt": "2026-06-19T18:00:00-04:00",
+  "saved_at": "2026-06-19T22:07:57.267371+00:00",
   "bullets": [
     {
-      "title": "AMD, AVGO, MU: Wolfe Research semi webcast Monday 6/22 \u2014 pre-quiet period checks",
-      "body": "Wolfe Research is hosting a semiconductor webcast Monday June 22 at 10am ET covering end-of-quarter channel checks. AMD will be discussed pre-quiet period, with AVGO and MU earnings outlooks also on the agenda \u2014 worth tuning in for near-term setup read.",
+      "title": "ACN: Broad miss + mega M&A pivot drives -20% selloff; Bull/Bear divergence",
+      "body": "Accenture F3Q revenue $18.72B missed consensus $18.78B; FY26 growth guidance cut to 3-4% from 3-5%; managed services bookings below 1x book-to-bill for first time since 2019. Simultaneously, ACN raised M&A spend to $9B, acquiring Dragos, runZero, and NetRise for ~$4.175B (~$208M ARR, 53% YoY growth). JPM maintained Overweight at $179 PT (cut from $201); UBS maintained Buy at $275; Morgan Stanley downgraded to EW at $177; William Blair downgraded to Market Perform. Street now models negative organic FY27 growth.",
       "tickers": [
-        "AMD",
-        "AVGO",
+        "ACN"
+      ],
+      "source_item_ids": [
+        "gmail:19eddddfb6d030eb",
+        "gmail:19edaae25ed23ae7"
+      ]
+    },
+    {
+      "title": "MU: Citi raises PT to $1200 on DRAM supercycle; Jun 24 earnings setup bullish",
+      "body": "Citi raised MU PT to $1200 (up from prior) on FY26/27 EPS raised 4-10%; DRAM ASPs expected +200% YoY in 2026 driven by data center demand and 5% global supply deficit. DRAM spot prices up 52% since January, 21% above contract, implying further contract resets. Consensus EPS $20.57 on $35.56B revenue for the Jun 24 print. JPM and UBS also bullish; Morgan Stanley raises forecast to $42.4B CY27 revenue.",
+      "tickers": [
         "MU"
       ],
       "source_item_ids": [
-        "gmail:19ee035d865c7563"
+        "gmail:19ed5082ccd2a358",
+        "gmail:19ecbf673188b4c7"
+      ]
+    },
+    {
+      "title": "INTC: +10% surge on Trump-announced Apple chip partnership + 18A-P production start",
+      "body": "Trump publicly stated Apple agreed to work with Intel to design and build chips in America; INTC 18A-P entered risk production meeting initial timeline expectations with 9% performance uplift vs 18A. Deal estimated at ~$1-1.2B annually (~5% of TSMC's AAPL business). Wells Fargo estimates 18A-P node for Mac series. Analysts view deal as important first step for INTC to prove foundry capabilities; INTC also discussed as potential Tenstorrent acquiror alongside QCOM.",
+      "tickers": [
+        "INTC",
+        "AAPL"
+      ],
+      "source_item_ids": [
+        "gmail:19edbce8393ea79b",
+        "gmail:19edab6e4d8efe3a"
+      ]
+    },
+    {
+      "title": "AAPL: Price hikes 'unavoidable' as memory costs surge 4x YoY; JPM expects modest ~$50 iPhone ASP lift",
+      "body": "CEO Tim Cook confirmed price increases as DRAM/NAND costs surged 80-90% YTD (some estimates 600-900% since 2023), with hyperscalers consuming >50% of memory supply and pushing AAPL to back of queue. Press estimates of $200+ increases called aggressive by JPM; analyst models ~$50 iPhone ASP increase with ~30bps gross margin impact. AAPL willing to use balance sheet to fund memory supply expansion. Also partnering with INTC per Trump announcement.",
+      "tickers": [
+        "AAPL"
+      ],
+      "source_item_ids": [
+        "gmail:19edbf5a1e9f36e8",
+        "gmail:19ed7db105e62d3d"
+      ]
+    },
+    {
+      "title": "NVDA: $25B bond raise + gains inference share to 74%; Vera Rubin marks AI factory era",
+      "body": "NVDA launched first IG bond offering since 2021 ($20-25B); inference chip market share rose to 74% from 66%. Blackwell NVL72 delivers 10x more tokens/MW than GB200 and runs 20x more agents/MW on agentic benchmarks. NVDA also announced $80B buyback and raised dividend to $0.25 from $0.01. Morgan Stanley recommends call-spread collars on NVDA given 82% of AI enablers trading above 40v implied vol. Semis represent 32% of HF leverage vs 5% in 2023.",
+      "tickers": [
+        "NVDA"
+      ],
+      "source_item_ids": [
+        "gmail:19ed6d90174d811d",
+        "gmail:19ecb6e41d76737e"
+      ]
+    },
+    {
+      "title": "WDC/STX: Morgan Stanley raises PTs to $650/$1,035 on HDD cycle elongation through 2028",
+      "body": "Asia checks confirm HDD pricing targeting $25-30/TB over 2-3 years vs current <$15/TB; demand growing 40-50% annually while supply grows 30-35%. WDC +16% and STX +9% on week, each up 1,000%+ YTD. STX/WDC base case FY28 EPS now 70% above Street consensus. Hyperscalers prioritizing storage supply with 5Y LTAs being signed through 2032.",
+      "tickers": [
+        "WDC",
+        "STX"
+      ],
+      "source_item_ids": [
+        "gmail:19ecf0bceae2462d",
+        "gmail:19ed92e769cd4ef3"
+      ]
+    },
+    {
+      "title": "FOXA acquires ROKU for $22B at $160/share; FOXA -17%, ROKU dn 2%",
+      "body": "Fox agreed to acquire Roku for $160/share (60% cash, 40% stock); $22B EV, $400M cost synergies, pro forma net leverage 2.8x at close. Combined entity becomes third-largest US TV player with ~10% viewership; Tubi plus Roku Channel creates dominant FAST platform. Deal accretive to FCF in year 2; close expected H1 2027. ROKU downgraded to Neutral/Hold by 8+ analysts (JPM, Wolfe, Piper, Citizens, William Blair, Susquehanna, Loop, Evercore, Oppenheimer, KeyBanc, Wedbush). Morgan Stanley sees $9-10 FCF/share by FY30.",
+      "tickers": [
+        "FOXA",
+        "ROKU"
+      ],
+      "source_item_ids": [
+        "gmail:19ed03939c18273a",
+        "gmail:19ecde4d6b873a13"
+      ]
+    },
+    {
+      "title": "AMZN: In talks to sell custom AI chips; AWS accelerating to +37% FY27 on agentic AI",
+      "body": "Bloomberg reported Amazon in discussions to sell custom AI chips to other companies, challenging NVDA. Separately, Citi bullish post-AWS NYC Summit: projects AWS revenue growth accelerating to +37% YoY in FY27 vs +30% FY26 as agentic AI scales. Bedrock AgentCore agent task volume up 15x in past six months; Southwest Airlines deploying Kiro with 2,700+ developers.",
+      "tickers": [
+        "AMZN"
+      ],
+      "source_item_ids": [
+        "gmail:19ede3773311f51d",
+        "gmail:19edb51fc974f818"
+      ]
+    },
+    {
+      "title": "CRM: Acquires Fin for $3.6B to expand Agentforce; 13 consecutive down days erased",
+      "body": "Salesforce acquired AI customer service platform Fin for $3.6B ($100M+ ARR, 350% YoY growth, Apex proprietary model outperforms GPT-5.4 on resolution rate). Deal fills 'plug and play' agent gap vs Agentforce's 'build your own' approach; no FY27 guidance change. Stock had been down 13 consecutive days (record) before the deal announcement. Wolfe maintains Outperform; UBS Neutral at $185 PT; Monness upgrades to Buy at $200.",
+      "tickers": [
+        "CRM"
+      ],
+      "source_item_ids": [
+        "gmail:19ecb8a4ad9d998b",
+        "gmail:19ecb8c9434cc50d"
+      ]
+    },
+    {
+      "title": "AVGO: JPM defends on GOOGL TPU 5-year deal through v11; 2027 AI revenue 2-2.5x",
+      "body": "AVGO's TPU v8i 3nm qualified and ramping; TPU v9 2nm on track for CY28 with committed GOOGL revenue through TPU v11 into 2031. AVGO has largest ASIC XPU design win pipeline including 6 frontier model builders plus AAPL, Softbank, Sambanova. JPM's Harlan Sur doubles down post-weakness; AVGO backing $35B Anthropic AI chip order via Apollo/Blackstone XPV financing structure.",
+      "tickers": [
+        "AVGO"
+      ],
+      "source_item_ids": [
+        "gmail:19ed5b14f2c8e9a",
+        "gmail:19ed9f7393303fd0"
+      ]
+    },
+    {
+      "title": "AMD: Citi upgrades to Buy at $575 on Meta MI450 GPU win; Rackspace 30MW deal signed",
+      "body": "Citi's Atif Malik upgraded AMD to Buy with $575 PT citing META MI450 custom GPU wins providing lower TCO vs merchant products; TAM estimated at $15B per GW. Separately, AMD signed definitive 30MW phased AI compute deployment agreement with Rackspace covering regulated enterprise workloads (healthcare AI) through 2028.",
+      "tickers": [
+        "AMD"
+      ],
+      "source_item_ids": [
+        "gmail:19edb6e6e90cb9fd",
+        "gmail:19ed01ef1c8de7d1"
+      ]
+    },
+    {
+      "title": "MRVL: KeyBanc raises PT to $385 on DC networking durability; scale-up opportunity $13B by 2030",
+      "body": "KeyBanc raised MRVL PT to $385 from $260 on DC networking TAM of $30B ex-NVDA by 2030; scale-up networking more durable than custom XPUs. MRVL FY29E modeled at $25.6B revenue vs consensus $22.7B; custom silicon expected to reach $10B FY29. Celestial AI acquisition strengthens silicon photonics for Scale Up. Morgan Stanley also bullish on MRVL CEO confidence on new levels.",
+      "tickers": [
+        "MRVL"
+      ],
+      "source_item_ids": [
+        "gmail:19ed81a21c5ba70b",
+        "gmail:19ecf0bceae2462d"
+      ]
+    },
+    {
+      "title": "SNAP: SPECS AR glasses launch at $2,195 disappoints on form factor and price",
+      "body": "Snap unveiled SPECS AR glasses at AWE with 51-degree FOV, 4-hour battery, targeting developers with ~100K unit stretch goal. At $2,195, the form factor is heavy vs META Ray-Bans at $224-$799 with EssilorLuxottica partnership. Roth maintains neutral; Citi neutral; KeyBanc sector weight. Analysts view AR glasses as long-term platform opportunity but limited near-term P&L impact.",
+      "tickers": [
+        "SNAP"
+      ],
+      "source_item_ids": [
+        "gmail:19ed42eac3e274bb",
+        "gmail:19ecb3aa58e62ca29"
+      ]
+    },
+    {
+      "title": "MSFT: -2.9% on DeepSeek Copilot consideration; China AI business grows 3x in FY25",
+      "body": "MSFT considering offering hosted DeepSeek as cheaper Copilot Cowork alternative amid rising frontier model costs; shift to usage-based pricing with multi-model architecture (Anthropic, OpenAI, in-house). Also: ByteDance on track to spend $1B+ annually on MSFT AI/cloud; Azure AI revenue in China grew 3x in FY25 (+400% FY24). MSFT nixed $3B Oracle cloud lease deal over compliance concerns.",
+      "tickers": [
+        "MSFT"
+      ],
+      "source_item_ids": [
+        "gmail:19ed736e210a4886",
+        "gmail:19ecb864573c0841a"
+      ]
+    },
+    {
+      "title": "META: Threads hits 500M MAUs; exploring equity raise of tens of billions",
+      "body": "META Threads reached 500M monthly active users (up from 400M in August 2025) with new AI features including 'Your Algo' and Communities. Company exploring various capital-raising structures including bond JVs, sovereign wealth participation, and potential equity raise of tens of billions to fund AI infrastructure. China's NDRC blocked META's $2B Manus acquisition; META unwinding deal.",
+      "tickers": [
+        "META"
+      ],
+      "source_item_ids": [
+        "gmail:19ecb0b678bb7130b",
+        "gmail:19edad97e58aa8cd"
+      ]
+    },
+    {
+      "title": "DKNG: NY and NJ sports betting GGR down 20%+ YoY on negative holds from Knicks/World Cup",
+      "body": "NY 2QTD sports betting GGR -18% YoY; NJ May GGR -24% YoY for DKNG. Negative holds driven by outsized Knicks NBA Finals and Team USA FIFA World Cup betting volumes. DKNG market share fell to 33% in NY and 25% in NJ from prior highs. FanDuel also negative. Fanatics only sportsbook with positive 2QTD GGR (+4%). Separately, DKNG prediction market annualized volume at $3.1B with de-minimis near-term P&L impact.",
+      "tickers": [
+        "DKNG"
+      ],
+      "source_item_ids": [
+        "gmail:19edc4c88dced846",
+        "gmail:19ecb5a95de69984"
+      ]
+    },
+    {
+      "title": "HOOD: RIF of ~10% workforce + record June trading volumes; SEC tokenized stocks proposal adds 8.8%",
+      "body": "Robinhood announced ~10% FTE reduction (~290 roles, ~$28M charges) while reporting record June equity, options, and prediction market trading volumes. Stock surged 8.8% on SEC proposal allowing tokenized stocks under innovation exemption. Additionally, HOOD approved as IPO underwriter and launched agentic trading for options. KeyBanc maintains $100 PT.",
+      "tickers": [
+        "HOOD"
+      ],
+      "source_item_ids": [
+        "gmail:19ed0d1a961aee2f",
+        "gmail:19edc6f68563416f"
+      ]
+    },
+    {
+      "title": "TLN: Goldman initiates Buy at $499 on AWS PPA and PJM capacity structure; completes acquisition",
+      "body": "Goldman Sachs initiated Talen Energy at Buy with $499 12-month PT citing long-term AWS PPA de-risking cash flows and structural supply-demand tightening in PJM. TLN also completed $3.45B acquisition of PJM natural gas assets from Energy Capital Partners during the week. Morgan Stanley flags TLN outperforming IPPs on investor pitch and request to add gas units at Montour County plant.",
+      "tickers": [
+        "TLN"
+      ],
+      "source_item_ids": [
+        "gmail:19eda9cd8740e303",
+        "gmail:19ecb6077d003801"
+      ]
+    },
+    {
+      "title": "SHOP: Spring '26 Editions reinforce AI-led commerce positioning; UBS Shop Campaigns analysis",
+      "body": "JPM maintains Overweight at $150 PT after Spring Editions highlighting AI product momentum: Campaign Autopilot across FB/IG/MSFT/SNAP/ChatGPT; AI searches converting 2x better on Catalog; Shop Pay expanding to non-SHOP brands accessing 250M+ shoppers. UBS maintains Neutral; views Shop Campaigns as modest 2028E contributor but high-teens% 2035E blue-sky gross profit opportunity.",
+      "tickers": [
+        "SHOP"
+      ],
+      "source_item_ids": [
+        "gmail:19ed8c451ffdde07",
+        "gmail:19ed74de3c4418df"
+      ]
+    },
+    {
+      "title": "NFLX: Acquires Radford Studio Center for ~$400M; denies Lionsgate interest; adds TF1",
+      "body": "Netflix under contract to acquire Radford Studio Center for ~$400M, well below 2021's $1.85B sale price. CEO confirmed strategy to add more traditional broadcasters after TF1 deal (TF1+ and TF1 Group channels now on Netflix in France). Separately denied Semafor report of Lionsgate acquisition interest.",
+      "tickers": [
+        "NFLX"
+      ],
+      "source_item_ids": [
+        "gmail:19edd752adeec998",
+        "gmail:19ede1317032bb73"
       ]
     }
   ]
