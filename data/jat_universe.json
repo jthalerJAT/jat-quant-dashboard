@@ -1,229 +1,171 @@
 {
-  "digest_type": "eod",
-  "digest_dt": "2026-06-18T18:00:00-04:00",
-  "saved_at": "2026-06-18T22:11:28.626514+00:00",
+  "digest_type": "premarket",
+  "digest_dt": "2026-06-19T08:30:00-04:00",
+  "saved_at": "2026-06-19T12:39:34.312180+00:00",
   "bullets": [
     {
-      "title": "AAPL: Price hikes confirmed, ~$50 ASP increase expected vs. $200+ press estimates; INTC foundry deal announced",
-      "body": "Tim Cook confirmed Apple will raise product prices due to 4x surge in memory/storage costs. JPM (OW, $325 PT) estimates iPhone 18 ASP increases of only ~$50 (mid-single digit %), far below press estimates of $200+, citing ~$40 in component savings and ~$15 from in-house modem integration as offsets; gross margin impact estimated at ~20 bps for total company. Separately, Trump confirmed AAPL agreed to work with INTC on US chip design/manufacturing \u2014 analysts view the deal (~5% of TSMC's AAPL business, ~$1-1.2B annually on 18A-P node for Mac) as supply chain diversification; AAPL +2.4% on the week.",
+      "title": "MU: Citi sees 6% EPS upside; Aug-Q target $28+; DRAM ASPs +20% YoY",
+      "body": "Citi models 6% EPS upside to MU's May-Q and expects $28+ EPS for the Aug-Q on DRAM ASPs 20%+ YoY vs. their 19% guidance. MU reports June 24 AH vs. consensus of $20.57 EPS / $35.56B revenue. Memory vendors broadly expected to positively comment on capex with upward bias at 2Q earnings; Samsung 2Q26 operating profit seen exceeding W100tr as DRAM/NAND prices track up 50-60% QoQ vs. original 20-30% forecast.",
+      "tickers": [
+        "MU"
+      ],
+      "source_item_ids": [
+        "gmail:19edfc53b57fa823",
+        "gmail:19edd437537f5547"
+      ]
+    },
+    {
+      "title": "QCOM: Investor Day 6/24 \u2014 data center push, custom silicon ramping Dec 2026, PC target withdrawal",
+      "body": "Qualcomm's June 24 Investor Day will highlight AI200/AI250 inference accelerators, server CPUs, and custom ASICs funded by fungible smartphone wafer capacity. A hyperscale customer (HUMAIN primary) is ramping a custom silicon LPU chip in December 2026 targeting 200MW. Citi/Jefferies expect QCOM to raise Automotive ($8B) and IoT ($14B) targets while withdrawing its $4B PC sales target by F29 due to memory constraints.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19edfc53b57fa823",
+        "gmail:19edfc2a3b922fe5"
+      ]
+    },
+    {
+      "title": "Backend switch market surging: CLS #1, CSCO gaining fast, NVDA losing share",
+      "body": "Dell'Oro 1Q data: Ethernet backend switch market grew >100% YoY to >$3.7B; InfiniBand >200% YoY to >$2B. CLS holds #1 with >25% share (only vendor shipping early 1.6T in small volumes) but lost ~5 pts YoY. NVDA at 24% share, down 6 pts, planning Spectrum-X CPO shipments 2H. CSCO gained +8 pts to ~8% overall and ~13% within top 4 cloud customers, driven by Meta deployments. ANET gained +3 pts to 12%.",
+      "tickers": [
+        "CLS",
+        "NVDA",
+        "CSCO",
+        "ANET"
+      ],
+      "source_item_ids": [
+        "gmail:19edfc53b57fa823",
+        "gmail:19edfc2a3b922fe5"
+      ]
+    },
+    {
+      "title": "ACN: JPM maintains OW, cuts PT to $179 from $201; M&A offset to weak organic",
+      "body": "Accenture's F3Q revenue of $18.72B slightly missed; FXN growth 3.1% vs. 3.2-3.6% consensus with geopolitical disruption costing ~$100M in consulting revenue and ~$400M in bookings. FY26 FXN guidance narrowed to +3-4%; FY27 implies ~1% organic growth. JPM cuts PT to $179 (11x CY28 EPS) from $201 but maintains OW, citing M&A track record ($9B raised) and EPS protection ($3.80 actual vs. $3.64-3.72 consensus). GS sales desk flags weaker bookings (-3% YoY) and large managed services deals slipping to FY27.",
+      "tickers": [
+        "ACN"
+      ],
+      "source_item_ids": [
+        "gmail:19eddddfb6d030eb",
+        "gmail:19edec770d61424b"
+      ]
+    },
+    {
+      "title": "AMZN/AWS: Citi projects +37% FY27 revenue growth on agentic AI wave",
+      "body": "Post-AWS NYC Summit, Citi reiterates AMZN as top Internet pick and projects AWS revenue growth accelerating to +37% YoY in FY27 vs. +30% FY26, driven by agentic AI productionization. AWS Bedrock AgentCore agent task volume is up 15x in six months. Separately, Amazon is in talks to sell custom AI chips to third-party data center customers, competing with Nvidia.",
+      "tickers": [
+        "AMZN"
+      ],
+      "source_item_ids": [
+        "gmail:19ede3773311f51d",
+        "gmail:19edd437537f5547"
+      ]
+    },
+    {
+      "title": "SNOW, MDB, ORCL: AI data infrastructure plays highlighted at AWS Summit and by Wolfe",
+      "body": "Citi sees positive takeaways for SNOW, MDB, MSFT, and ORCL from AWS Summit with PoCs maturing to production. SNOW's Observe product shows triple-digit growth; ESTC eyeing 20-30% pricing increase as Platinum tier sunsets. Wolfe Research adds SNOW as public proxy for Databricks AI/data trends and sees MDB 2H AI tailwinds; ORCL benefiting from cloud migration acceleration via 26ai and vector workloads.",
+      "tickers": [
+        "SNOW",
+        "MDB",
+        "ORCL",
+        "MSFT"
+      ],
+      "source_item_ids": [
+        "gmail:19ede3773311f51d",
+        "gmail:19edd611f9074c12"
+      ]
+    },
+    {
+      "title": "PLTR, NOW, TEAM, CRM: Wolfe sees agent wave benefiting enterprise platforms; PLTR valuation a ceiling",
+      "body": "Wolfe's Zukin notes NOW, TEAM, and CRM as primary beneficiaries of the enterprise agent deployment wave; CRM's Agentforce/Intercom acquisition enhances capabilities. PLTR flagged as best product-market fit in software but valuation warrants only neutral stance. IONQ at 7x revenue for 24% growth cited as an attractive long entry.",
+      "tickers": [
+        "PLTR",
+        "NOW",
+        "TEAM",
+        "CRM",
+        "IONQ"
+      ],
+      "source_item_ids": [
+        "gmail:19edd611f9074c12"
+      ]
+    },
+    {
+      "title": "META: lobbying for child-harm lawsuit immunity; 1.6GW compute from Crusoe; driving CSCO switch share",
+      "body": "Meta is lobbying Congress for immunity from child-harm lawsuits. On infrastructure, Meta secured ~1.6GW AI compute from Crusoe (two Texas/Missouri facilities) and CPO-based 1.6T switching expected in 1H27. Meta's deployments are the primary driver behind CSCO's +8 pt backend switch share gain.",
+      "tickers": [
+        "META"
+      ],
+      "source_item_ids": [
+        "gmail:19edd437537f5547",
+        "gmail:19edfc53b57fa823"
+      ]
+    },
+    {
+      "title": "AAPL: chip deal with Intel; Brazil alternative app stores; price increases signal tight memory",
+      "body": "Trump stated Apple agreed with Intel to design/manufacture chips in the US, diversifying from TSMC; Intel rose ~10% on unconfirmed reports. Apple also agreed to permit alternative marketplaces and external payments in Brazil following an antitrust settlement. Apple raising product prices due to rising component costs, reinforcing tight DRAM/NAND pricing environment.",
       "tickers": [
         "AAPL",
         "INTC"
       ],
       "source_item_ids": [
-        "gmail:19edbf23a4687eea",
-        "gmail:19edbce8393ea79b"
+        "gmail:19edd437537f5547",
+        "gmail:19ede8695ec39cd9"
       ]
     },
     {
-      "title": "INTC: +10.6% on Trump-backed AAPL foundry deal; 18A-P enters risk production",
-      "body": "Intel surged ~10-11% after President Trump publicly confirmed AAPL will work with INTC on chip design and US manufacturing. INTC's 18A-P process has entered risk production with estimated production readiness late 2027-2028; Wells Fargo estimates the deal is likely for INTC 18A-P node for Mac series. Analysts view this as a critical validation step for INTC's foundry ambitions.",
+      "title": "MRVL: in talks with TSMC on A14 process for next-gen AI connectivity chips",
+      "body": "Morgan Stanley reports Marvell is in talks with TSMC to use the A14 node for next-generation AI connectivity chips, signaling continued positioning in high-bandwidth AI interconnect silicon.",
       "tickers": [
-        "INTC"
+        "MRVL"
       ],
       "source_item_ids": [
-        "gmail:19edbce8393ea79b",
-        "gmail:19edc5bef46a3a74"
+        "gmail:19ede8695ec39cd9"
       ]
     },
     {
-      "title": "MU: +15.5% on the week; earnings next Tuesday June 24 as key catalyst",
-      "body": "MU was the week's standout performer, up 15.5% driven by upbeat earnings previews and broader DRAM sector strength (DRAM index +18% on the week, semis +7.3%). JPM flags MU earnings on June 24 as the next major catalyst. MS QDS flags MU as carrying the largest single-name short gamma per 1% market move, suggesting elevated realized vol risk around the print.",
+      "title": "NFLX: acquiring Radford Studio for ~$400M; expanding traditional broadcaster partnerships",
+      "body": "Netflix is under contract to acquire Radford Studio Center for ~$400M, well below the 2021 $1.85B sale price. CEO confirmed strategy to add more traditional broadcasters to platform following the TF1 deal in France.",
       "tickers": [
-        "MU"
+        "NFLX"
       ],
       "source_item_ids": [
-        "gmail:19edc52478affe38",
-        "gmail:19edc7c6cf8163fa"
+        "gmail:19edd752adeec998",
+        "gmail:19ede1317032bb73"
       ]
     },
     {
-      "title": "NVDA: AI rally driver; AMZN developing custom chips to challenge; elevated gamma risk flagged",
-      "body": "NVDA was among the top retail and institutional AI beneficiaries this week (retail top-3 YTD buy). Separately, Amazon is in discussions to sell custom AI chips to third parties, presenting a direct competitive challenge to NVDA's data center dominance. MS QDS flags NVDA as one of the largest short-gamma names per 1% move in the US market, alongside MU and TSLA.",
+      "title": "NVDA: losing backend switch share but ASML CEO bullish on multi-year AI chip supply constraint",
+      "body": "NVDA fell to 24% backend switch share (down 6 pts YoY) with CPO Spectrum-X shipments planned 2H. On the positive side, the ASML CEO is bullish on a multi-year supply-limited AI chip market; ASML's 90-unit EUV guidance may be a floor with potential upside to 110-120 units per GS sales desk. EUV China headline risk characterized as sentiment overhang rather than fundamental threat.",
       "tickers": [
-        "NVDA",
-        "AMZN"
+        "NVDA"
       ],
       "source_item_ids": [
-        "gmail:19edc5bef46a3a74",
-        "gmail:19edc7c6cf8163fa"
+        "gmail:19edfc53b57fa823",
+        "gmail:19edec770d61424b"
       ]
     },
     {
-      "title": "MSFT: -2.9% on DeepSeek enterprise risk; MS flags 43% upside to 12m high, -21% YTD",
-      "body": "MSFT fell ~2.9% this week as the company is reportedly considering offering DeepSeek as a cheaper enterprise alternative, raising margin and competitive concerns. Morgan Stanley notes MSFT is -21% YTD despite AI monetization tailwinds, with 43% upside to its 12-month high, and recommends low-premium call-spread structures. MSFT also has a significant AI model business in China flagged as a geopolitical risk.",
-      "tickers": [
-        "MSFT"
-      ],
+      "title": "HF positioning: gross leverage near peak; Tech net sold but Info Tech still top contributing sector",
+      "body": "JPM prime data shows HF gross leverage at highs after a 22% May increase and 18% June increase \u2014 historically leverage peaks at mid-June options expiry before declining. HFs net sold US Tech and Industrials (strongest performers) while AI Vulnerable, Low End Consumer, and Med Tech remain sub-10th percentile in positioning. Russell rebalance is a near-term event risk with an unusually large estimated trade size.",
+      "tickers": [],
       "source_item_ids": [
-        "gmail:19edbb734d34cf3d",
-        "gmail:19edc5d35f28327f"
+        "gmail:19edd63705e2112d"
       ]
     },
     {
-      "title": "ACN: -~18% on missed guidance and $4B+ dilutive acquisitions; multiple downgrades",
-      "body": "Accenture reported FQ3 EPS beat ($3.80 vs. $3.74E) but Q4 revenue guidance of $17.75-18.40B missed the Street's $18.42-18.50B. The company announced ~$4.175B in cybersecurity acquisitions (Dragos, runZero, NetRise) viewed as dilutive near-term. William Blair downgraded to Market Perform (from Outperform) at $127.98. UBS maintains Buy at $275 PT, arguing cybersecurity revenue (~$10B, 35% CAGR since 2016) is underappreciated and Middle East headwinds are being over-discounted. AI-driven disintermediation risk was also cited as an emerging secular concern.",
-      "tickers": [
-        "ACN"
-      ],
+      "title": "Macro: Fed hawkish tilt \u2014 9 members expect 2026 hikes; core PCE projection jumps to 3.3%",
+      "body": "FOMC June dots show nine members expecting 2026 rate hikes with six looking for two or more moves; 2026 core PCE projection raised from 2.7% to 3.3%. Piper Sandler still sees S&P 500 reaching 8,450 at 21.5x on $393 2027 consensus EPS, driven by earnings growth not multiple expansion. Room for P/E expansion limited absent a sustained rate decline.",
+      "tickers": [],
       "source_item_ids": [
-        "gmail:19edb998a173a84d",
-        "gmail:19edc55dce861384"
+        "gmail:19edf8c5ddf937db",
+        "gmail:19eddb00a00c51c4"
       ]
     },
     {
-      "title": "FOXA +20.7% to acquire ROKU +3.9%; deal confirmed in weekly recap",
-      "body": "Fox Corp announced an acquisition of Roku this week; FOXA surged 20.7% and ROKU gained 3.9% on the news. No additional terms were provided in the digest items.",
-      "tickers": [
-        "FOXA",
-        "ROKU"
-      ],
+      "title": "Oil: Iran deal execution risk; stranded supply recovery supports bearish crude, dovish rotation",
+      "body": "Jefferies flags the US-Iran deal shifting from geopolitical risk pricing to execution credibility. Hormuz reopening could release ~165M barrels of stranded supply; IEA estimates 14M bpd was disrupted. Lower oil is disinflationary, supporting a dovish Fed read and rotation into consumer discretionary, travel, airlines, housing, and autos \u2014 and away from energy.",
+      "tickers": [],
       "source_item_ids": [
-        "gmail:19edc5d35f28327f"
-      ]
-    },
-    {
-      "title": "TSLA: Top retail buy YTD; elevated short gamma flagged; EU speediness concerns emerging",
-      "body": "Tesla ranks among top-3 retail net buys YTD alongside NVDA and MU per MS QDS data. TSLA also carries the largest single-name short gamma exposure per 1% move alongside MU and NVDA, elevating vol risk. Separately, Sweden may oppose Tesla's supervised self-driving technology in Europe over speeding concerns.",
-      "tickers": [
-        "TSLA"
-      ],
-      "source_item_ids": [
-        "gmail:19edc7c6cf8163fa",
-        "gmail:19edc1628fbdf150"
-      ]
-    },
-    {
-      "title": "SNAP: Specs AR glasses estimated at $3.5B development cost, $500M annual cash burn",
-      "body": "Snap's AR Specs product is estimated to have cost $3.5B to develop with $500M in ongoing annual cash burn, according to new reporting cited in afternoon headlines. No analyst rating action accompanied this disclosure.",
-      "tickers": [
-        "SNAP"
-      ],
-      "source_item_ids": [
-        "gmail:19edc1628fbdf150"
-      ]
-    },
-    {
-      "title": "HOOD: +16.1% on SEC tokenized stocks innovation exemption proposal",
-      "body": "Robinhood surged 16.1% this week after the SEC proposed an innovation exemption for tokenized stocks. The broader fintech/non-bank lending complex also rallied, with AFRM +11.7% on constructive master trust card data showing improved delinquency rates and accelerated loan growth.",
-      "tickers": [
-        "HOOD",
-        "AFRM"
-      ],
-      "source_item_ids": [
-        "gmail:19edc6f8b7ae22a7"
-      ]
-    },
-    {
-      "title": "TLN, CEG, VST: FERC co-location tariff approved, accelerating data center interconnection",
-      "body": "FERC approved PJM's revised co-location tariff allowing data centers to contract only for incremental grid load above on-site generation, and issued show-cause orders to RTOs to accelerate interconnection timelines beyond a 2029 target. MS Energy flags TLN, CEG, and VST as primary IPP beneficiaries of the behind-the-meter and co-location framework. ERCOT's Batch 0 (35 GW baseload, 65 GW under study) should provide developer clarity by August 7.",
-      "tickers": [
-        "TLN",
-        "CEG",
-        "VST"
-      ],
-      "source_item_ids": [
-        "gmail:19edbb35765e9bff"
-      ]
-    },
-    {
-      "title": "EQIX, DLR: Data center REITs outperform +2.95%; incumbents seen insulated from public opposition",
-      "body": "Data center REITs outperformed the broader real estate sector (+2.95%) as AI infrastructure demand narrative remains strong. Despite $130B in projects blocked or delayed in 2026 due to power/water/community concerns, incumbents Equinix and Digital Realty are seen as insulated vs. newer entrants. FERC is accelerating data center grid connections with 90-day approvals, but hyperscalers must fund infrastructure upgrades.",
-      "tickers": [
-        "EQIX",
-        "DLR"
-      ],
-      "source_item_ids": [
-        "gmail:19edc578b9f55ace",
-        "gmail:19edc8461ae889cb"
-      ]
-    },
-    {
-      "title": "HIMS: Peptides rollout speed and 2027+ upside under investor focus following stock move",
-      "body": "Truist notes rising investor interest in HIMS following a significant stock move, with questions centering on potential revenue and EBITDA guidance raises and the speed of the peptides business rollout. 2027+ upside from peptides expansion is highlighted as a key debate point.",
-      "tickers": [
-        "HIMS"
-      ],
-      "source_item_ids": [
-        "gmail:19edbfbdfca0b9f1"
-      ]
-    },
-    {
-      "title": "DKNG: NY sports betting GGR -23% YTD in 2Q26; FIFA/Knicks negative holds driving miss",
-      "body": "DraftKings' NY 2QTD GGR is tracking -23% YoY with handle -1% YoY and market share falling from 35% to 33%. FanDuel similarly -21% YoY. Negative holds were driven by outsized betting volumes on the NY Knicks and Team USA FIFA World Cup victories. Fanatics is the only sportsbook with positive 2QTD GGR (+4% YoY) and is gaining share (+199 bps).",
-      "tickers": [
-        "DKNG",
-        "FWONK"
-      ],
-      "source_item_ids": [
-        "gmail:19edc4c88dced846"
-      ]
-    },
-    {
-      "title": "SHOP: AI marketing tool launch; planning ads in ChatGPT and Microsoft ecosystem",
-      "body": "Shopify is rolling out an AI tool enabling merchants to run marketing campaigns, and is planning to bring ads into ChatGPT and Microsoft platforms. No analyst rating action accompanied this disclosure.",
-      "tickers": [
-        "SHOP"
-      ],
-      "source_item_ids": [
-        "gmail:19edb92897d9bb3b"
-      ]
-    },
-    {
-      "title": "CSCO: Acquires Widefield Security to strengthen Splunk's Agentic SOC capabilities",
-      "body": "Cisco announced intent to acquire Widefield Security (undisclosed terms) to extend Splunk's Agentic SOC with identity and session intelligence for human, non-human, and AI-agent activity at machine speed. This is consistent with Cisco's ongoing post-Splunk integration build-out strategy.",
-      "tickers": [
-        "CSCO"
-      ],
-      "source_item_ids": [
-        "gmail:19edc5a35769777b"
-      ]
-    },
-    {
-      "title": "NVDA, MSFT, GOOGL, META, AVGO: MS recommends low-premium AI call hedges for underexposed funds",
-      "body": "Morgan Stanley flags significant AI FOMO risk: nearly 20% of global hedge funds have <10% AI exposure and 75% of US mutual funds are below benchmark weight to semis despite semis representing 25% of index weight. MS recommends call-spread collars and knock-out calls on NVDA, MSFT, GOOGL, META, and AVGO given high IV (82% of AI enablers >40v). MSFT is -21% YTD with 43% upside to 12m high; META -19% YTD with 39% upside.",
-      "tickers": [
-        "NVDA",
-        "MSFT",
-        "GOOGL",
-        "META",
-        "AVGO"
-      ],
-      "source_item_ids": [
-        "gmail:19edbb734d34cf3d"
-      ]
-    },
-    {
-      "title": "HPE: AI server growth triple-digits YoY; supply-constrained through 2026-2027; Juniper synergies accelerating",
-      "body": "HPE is seeing triple-digit server revenue growth YoY driven by refresh cycles and pricing power, with supply constrained through 2026-2027 and backlog expected to grow through year-end. AI inference is projected to grow from 30% to 80%+ of compute by 2030. HPE's Juniper integration is expanding AI networking stack participation across scale-up, scale-out, and scale-across architectures; HPE was also selected by Vultr for next-gen AI infrastructure deployment.",
-      "tickers": [
-        "HPE"
-      ],
-      "source_item_ids": [
-        "gmail:19edc578b9f55ace"
-      ]
-    },
-    {
-      "title": "IREN: Initiated Buy at Jefferies; pivot from bitcoin mining to AI infrastructure",
-      "body": "Jefferies initiated IREN with a Buy rating, highlighting the company's strategic pivot from bitcoin mining to AI infrastructure as the core thesis.",
-      "tickers": [
-        "IREN"
-      ],
-      "source_item_ids": [
-        "gmail:19edc5bef46a3a74"
-      ]
-    },
-    {
-      "title": "MU flow setup: SNDK, MU carry largest short gamma per 1% move; levered ETF demand near record",
-      "body": "MS QDS end-of-week wrap flags that levered ETF exposure is near record highs (~$20B per 1% SPX move short gamma) with an estimated $26B of demand from rebalancing on Friday. MU and SNDK are specifically identified as the largest single-name short gamma carriers per 1% move alongside NVDA and TSLA, creating elevated VaR shock potential heading into MU's June 24 earnings.",
-      "tickers": [
-        "MU",
-        "SNDK",
-        "NVDA",
-        "TSLA"
-      ],
-      "source_item_ids": [
-        "gmail:19edc7c6cf8163fa"
+        "gmail:19edf06187f710d2",
+        "gmail:19eddb00a00c51c4"
       ]
     }
   ]
