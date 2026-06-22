@@ -1,235 +1,221 @@
 {
-  "digest_type": "premarket",
-  "digest_dt": "2026-06-22T08:30:00-04:00",
-  "saved_at": "2026-06-22T12:51:30.923622+00:00",
+  "digest_type": "midday",
+  "digest_dt": "2026-06-22T12:00:00-04:00",
+  "saved_at": "2026-06-22T16:11:25.286653+00:00",
   "bullets": [
     {
-      "title": "MU: Consensus bullish into Wed earnings; DRAM +45% ASPs, $28-30 EPS target, SCAs key focus",
-      "body": "Street-wide consensus is strongly bullish on Micron ahead of Wednesday's report: MS models DRAM ASPs up 45% q/q (vs 40% prior), NAND up 50%, with $21.31 EPS vs $20.57 consensus; GS estimates ~$48.7B revenue and $29.95 EPS (vs street $23.70); Jefferies targets ~$30 EPS for the August print and ~$200 for CY27. Buyside (~75%) expects additional Strategic Customer Agreements (SCAs) covering 30-50% of forward bit shipments. MU is up ~168% YTD and accounts for 17% of S&P 500 YTD gains; crowded positioning (heightened LTA concentration risk) is flagged as a messaging risk.",
+      "title": "MU: Anthropic deal + DRAM/NAND supercycle thesis builds; PT raises across the street",
+      "body": "Micron entered a strategic memory/storage supply agreement with Anthropic and made a strategic investment in Anthropic's Series H round. MS raises FY27 EPS to $21.31 on DRAM ASP +45% and NAND +50%, calling multiyear tightness 'not priced in at 9x forward.' Pre-market MU +5.4%.",
       "tickers": [
         "MU"
       ],
       "source_item_ids": [
-        "gmail:19eef2bb2062fbe2",
-        "gmail:19eef1a403b3a129"
+        "gmail:19eef6e798d112ea",
+        "gmail:19eefb2764d36331"
       ]
     },
     {
-      "title": "MU/WDC/SNDK/STX: Memory pricing super-cycle \u2014 40-50% 3Q, 30-40% 4Q surge expected",
-      "body": "Memory contract prices are projected to rise 40-50% q/q in 3Q26 and 30-40% in 4Q26 per memory consultants, following ~40% gains in 2Q26. WDC +32.6% last week, MU +15.5%, SNDK +4.2%, STX +3.4% in pre-market. Fox Advisors downgraded both STX and WDC to equal-weight from outperform on valuation after the run; UBS prefers the memory/HDD supply chain over hyperscalers/software. Memory industry LTAs now only with CSPs at ~50% of capacity, limiting consumer electronics supply and reinforcing pricing discipline.",
+      "title": "SNDK: Over 1/3 of FY27 bits locked under NBM contracts; AI demand lifting NAND in memory hierarchy",
+      "body": "MS highlights SNDK has secured long-term 3-5 year NBM agreements covering more than one-third of FY27 bit volume, with cloud becoming its largest end-market. AI demand is pushing NAND higher in the memory hierarchy, supporting durable pricing power.",
       "tickers": [
-        "MU",
-        "WDC",
-        "STX",
         "SNDK"
       ],
       "source_item_ids": [
-        "gmail:19eef1a0bce50e7d",
-        "gmail:19eef1f5bfcd1098"
+        "gmail:19eefb1b75d04759",
+        "gmail:19eefb2764d36331"
       ]
     },
     {
-      "title": "ACN: Crashes 18-25% on weak bookings, guidance cut \u2014 TD Cowen downgrades to Hold, PT $150",
-      "body": "Accenture's FY3Q26 bookings missed Visible Alpha consensus by 7% at -3% cc; FY26 revenue guidance cut to 3-4% from 3-5%; large Managed Services deals pushed to FY27. TD Cowen downgraded ACN to Hold from Buy, slashing PT to $150 from $258. UBS's Kevin McVeigh maintains Buy at $275 PT. The miss reignites AI disintermediation concerns across IT Services, and the stock is down ~52% YTD.",
+      "title": "GOOGL: Nobel laureate John Jumper departs DeepMind for Anthropic; stock -2.4% pre-market",
+      "body": "AlphaFold co-creator and 2024 Nobel Prize winner John Jumper is leaving Google DeepMind to join Anthropic, the latest in a string of high-profile AI researcher departures (Noam Shazeer previously went to OpenAI). GOOGL indicated down 2.45% pre-market to ~$359. Citi TMT also flags GOOGL struggling to sell AI coding tools.",
+      "tickers": [
+        "GOOGL"
+      ],
+      "source_item_ids": [
+        "gmail:19eef83ac32aa783",
+        "gmail:19eef79bc296b520"
+      ]
+    },
+    {
+      "title": "NVDA: Custom silicon threat escalates from GOOGL and AMZN; robotics safety platform launched",
+      "body": "MS and Citi both flag GOOGL escalating from TPU cloud use to direct external chip sales with financing/partnership support, while AMZN is in talks to sell Trainium4 to third-party data centers with Trainium3 largely sold out \u2014 framing these as more direct threats to NVDA's accelerator franchise than prior narratives. Separately, NVDA launched Halos for Robotics, an open full-stack safety system extending its AV safety architecture to physical AI.",
+      "tickers": [
+        "NVDA",
+        "AMZN",
+        "GOOGL"
+      ],
+      "source_item_ids": [
+        "gmail:19eefb1b75d04759",
+        "gmail:19eef6f533534084"
+      ]
+    },
+    {
+      "title": "INTC: +10% on AAPL foundry partnership; Mizuho raises PT to $135; former Hynix CEO hired for foundry",
+      "body": "INTC surged ~10% on news of an Apple partnership for US foundry construction. Mizuho raised PT to $135 from $128, seeing 10-15% advanced packaging market share potential. INTC also hired former Hynix CEO to lead foundry; EMIB advanced packaging flagged as lower cost than TSMC CoWoS-L.",
+      "tickers": [
+        "INTC",
+        "AAPL"
+      ],
+      "source_item_ids": [
+        "gmail:19eef667b0b1fd83",
+        "gmail:19eefb2764d36331"
+      ]
+    },
+    {
+      "title": "DLR: Citi Buy (PT $226) and KeyBanc both positive on $1.61B transaction spree",
+      "body": "DLR announced three deals totaling ~$1.61B: a 1,440-acre Kansas City site (~$475M, 600MW scaling to 2GW by 2028), increasing Teraco stake to 77% (~$650M), and acquiring Columbia Capital's $9B AUM platform (~$485M). Funded via 6.3M share issuance at $197.54 plus ~$365M cash. Citi maintains Buy at $226 (22.7% total return); KeyBanc views Teraco at ~24x TTM FFO as accretive vs DLR's ~28x issuance multiple.",
+      "tickers": [
+        "DLR"
+      ],
+      "source_item_ids": [
+        "gmail:19eefcbc81243022",
+        "gmail:19eefae6291029e4"
+      ]
+    },
+    {
+      "title": "ACN: Negative bookings growth triggers IT Services sector selloff; TD Cowen downgrades",
+      "body": "Accenture posted negative bookings growth well below even bearish expectations, dragging the broader IT Services sector: INFY flagged down 10-18%. TD Cowen downgraded ACN (pre-market -1.7%). ACN is down ~59% from its 52-week high with MS noting buyside is now avoiding the entire sector.",
       "tickers": [
         "ACN"
       ],
       "source_item_ids": [
-        "gmail:19eeab64e4a4d6b4",
-        "gmail:19eeed16afb3c3c7"
+        "gmail:19eefb2764d36331",
+        "gmail:19eef667b0b1fd83"
       ]
     },
     {
-      "title": "CRDO: Evercore ISI initiates Outperform at $325; Roth maintains Buy at $300 on AI infrastructure ramp",
-      "body": "Evercore ISI initiated CRDO at Outperform with a $325 target (analyst Mark Lipacis), citing broad AI infrastructure connectivity opportunity. Roth separately reaffirmed its Buy/$300 PT following ROTH London Conference meetings, noting optical business expected to contribute at least $600M revenue this fiscal year and ZF optical module gaining meaningful customer traction. CRDO gained +5.3% in pre-market on the Evercore initiation.",
+      "title": "MSFT: 20-year 2.67 GW power deal with Chevron (Project Kilby); pivoting AI strategy to multi-model/lower-cost inference",
+      "body": "MSFT signed a 20-year gas power deal near Pecos, TX with first power by 2028 at mid-teen returns, de-risking data center power supply. CEO Nadella is also repositioning AI value capture from frontier models toward orchestration and lower-cost inference, exploring hosting DeepSeek despite OpenAI partnership.",
       "tickers": [
-        "CRDO"
-      ],
-      "source_item_ids": [
-        "gmail:19eef406ade31c28",
-        "gmail:19eec267426af511"
-      ]
-    },
-    {
-      "title": "COHR: CEO meetings confirm CPO on track, InP capacity to 4x by CY27, gross margin target >42%",
-      "body": "JPM (Overweight) reports CEO investor meetings confirmed datacom TRx pricing is healthy with demand exceeding supply; 1.6T ramping before 800G peaks; CPO scale-out on track for C2H26, scale-up C2H27. InP capacity will double by C3Q26 and double again in CY27 (4x in two years), with 6-inch yields tracking ahead. Gross margin target >42% with potential reset higher driven by price optimization, 6-inch shift, and margin-accretive new products (CPO, OCS, multi-rail). OCS SAM now estimated at $4B, potentially conservative.",
-      "tickers": [
-        "COHR"
-      ],
-      "source_item_ids": [
-        "gmail:19eeec793fe1c2d1",
-        "gmail:19eef20ee3c55a25"
-      ]
-    },
-    {
-      "title": "FOXA/ROKU: FOXA down ~24% post-Roku bid; JPM sees deal at 22x peak EBITDA as richly priced",
-      "body": "Fox agreed to acquire Roku at ~$160/share (~22x FY27E EBITDA on peak growth), levering to 2.8x net. FOXA stock fell ~20-24% on deal announcement. Pre-deal FOXA traded at ~8x FY27E EBITDA; pro forma it functions as a ROKU proxy. Wolfe downgraded ROKU to Peer Perform. NFLX withdrew from bidding per Semafor. Analyst Supino argues FOXA trades within its 2-year standalone EV/EBITDA range on a pro forma basis and notes strong 2026 upfront commitments (HSD% growth, 8 of 10 largest advertiser categories up YoY).",
-      "tickers": [
-        "FOXA",
-        "ROKU",
-        "NFLX"
-      ],
-      "source_item_ids": [
-        "gmail:19eef3acdc13bfd9",
-        "gmail:19eec579b4ae015d"
-      ]
-    },
-    {
-      "title": "APP: Citi removes upside catalyst watch; eComm client count slips 2% WoW in Week 25",
-      "body": "Citi removed its 90-day positive catalyst watch on APP, citing a slower-than-expected ramp in eCommerce clients following Axon GA \u2014 management is prioritizing measured onboarding over rapid expansion. Week 25 data shows eCommerce clients fell 2% WoW to 10,282, driven by a 13% drop in Hong Kong stores (viewed as one-off). QTD average weekly store growth decelerated from 3.1% in 1Q26 to 2.3% in 2Q26. APP eComm channel remains strong for DTC but no near-term client inflection now expected.",
-      "tickers": [
-        "APP"
-      ],
-      "source_item_ids": [
-        "gmail:19eef01dba19e28d",
-        "gmail:19eeefefea574878"
-      ]
-    },
-    {
-      "title": "ANET/CSCO: MS prefers networking over optical; ANET gaining share in backend switches, CSCO up 8 pts YoY",
-      "body": "Morgan Stanley notes networking (ANET/CSCO) gaining momentum with inference opportunity ahead of earnings, while optical stocks are down ~10% YTD. In backend switches, ANET gained ~3 pts YoY to 12% share; CSCO gained significantly (+8 pts) to ~13% within top cloud customers. CLS holds #1 position with >25% share as the only vendor shipping early 1.6T volumes. 800G dominates at ~80% of Ethernet backend revenue; 1.6T expected to ramp in 2H with Amazon/Google first, Meta in 1H27.",
-      "tickers": [
-        "ANET",
-        "CSCO",
-        "CLS"
-      ],
-      "source_item_ids": [
-        "gmail:19eef43ddfec39c9",
-        "gmail:19eef17268c676e1"
-      ]
-    },
-    {
-      "title": "GLW/LITE/COHR: MS prefers GLW in optical; Source Photonics $1.2B expansion pressures LITE/COHR margins",
-      "body": "Morgan Stanley sees GLW as the cleanest optical story, supported by Fujikura's FY outlook raise (+47% operating profit). LITE and COHR face margin headwinds from Source Photonics' announced $1.2B optical chip/module expansion (5-6x potential capacity growth), creating competitive pressure on CW laser pricing. Wolfe Research notes AI-related optical stocks down 5-20% past month on InP oversupply from China, CPO timing concerns, and valuation.",
-      "tickers": [
-        "GLW",
-        "LITE",
-        "COHR"
-      ],
-      "source_item_ids": [
-        "gmail:19eef43ddfec39c9",
-        "gmail:19eeaea7b7b729b1"
-      ]
-    },
-    {
-      "title": "SNAP: AR 'Specs' launch flops; stock -10% on mass-market skepticism",
-      "body": "Snap launched AR glasses 'Specs' priced at $2,195 last week; the stock traded down ~10-11% on market skepticism about mass-market appeal. JPM describes the product as 'heavy, niche enthusiast' unlikely to succeed unless the core ad business turns around. Mizuho is hosting expert calls on social media litigation risks (mental health/minors) for SNAP, META, and GOOGL.",
-      "tickers": [
-        "SNAP",
-        "META",
-        "GOOGL"
-      ],
-      "source_item_ids": [
-        "gmail:19eef3acdc13bfd9",
-        "gmail:19eeda97755d3acb"
-      ]
-    },
-    {
-      "title": "SNOW: UBS Buy/$370 PT maintained; AI pass-through revenues immaterial (~1%) vs. Databricks' 15-point boost",
-      "body": "Snowflake confirmed AI pass-through revenues are immaterial (~1% of mix), adding only ~1 point to reported growth versus Databricks' ~15-point boost from reselling AI models/compute. UBS views SNOW's reluctance to chase pass-through revs as a positive for revenue quality. PT unchanged at $370 (17.5x CY27E EV/S, 73x EV/FCF). Databricks core growth is 65% (not 80% headline).",
-      "tickers": [
-        "SNOW"
-      ],
-      "source_item_ids": [
-        "gmail:19eec7021707d351"
-      ]
-    },
-    {
-      "title": "HOOD: $2.0B convertible senior notes offering announced; stock -1.5% in pre-market",
-      "body": "Robinhood announced a private offering of $2.0B convertible senior notes due 2029 with a $200M greenshoe option. The stock fell ~1.5% in pre-market on dilution concerns. HOOD was up 16.1% last week (+/- -4.4% YTD).",
-      "tickers": [
-        "HOOD"
-      ],
-      "source_item_ids": [
-        "gmail:19eef46976977c80",
-        "gmail:19eef4615f857341"
-      ]
-    },
-    {
-      "title": "GEV: Chevron-MSFT 20-year PPA uses GE Vernova turbines for Project Kilby (~2.67 GW Texas data center)",
-      "body": "Chevron's Energy Forge One LLC signed a 20-year power purchase agreement with Microsoft for Project Kilby, a ~2.67 GW natural gas data center project in West Texas targeting mid-teen returns. The majority of generation will come from GE Vernova turbines; FID expected by end-2026 with first power delivery in 2028. GEV was up 18.0% last week (+69.8% YTD). Baker Hughes separately noted no available manufacturing slots until 2029 given data center demand.",
-      "tickers": [
-        "GEV",
         "MSFT"
       ],
       "source_item_ids": [
-        "gmail:19eef39af9a7b78f",
-        "gmail:19eef16c26c61695"
+        "gmail:19eef7c3c6193ffd",
+        "gmail:19eef79bc296b520"
       ]
     },
     {
-      "title": "INTC: PT raised to $135 at Mizuho (Neutral); former SK Hynix CEO hired to lead Foundry",
-      "body": "Mizuho raised its Intel price target to $135 from $128 while maintaining a Neutral rating. Intel separately appointed Seok-Hee Lee, former SK Hynix CEO, as the new head of its Foundry business \u2014 a significant hire signaling renewed seriousness in the foundry push. INTC was up +2.8% in pre-market.",
+      "title": "META: Contracted ~1.6 GW compute capacity from Crusoe across two data centers",
+      "body": "META is under contract for approximately 1.6 GW of computing capacity from Crusoe Energy, incremental to ~4.5 GW in 2026 capacity adds, per MS TMT. This underscores continued hyperscaler capex acceleration.",
       "tickers": [
-        "INTC"
+        "META"
       ],
       "source_item_ids": [
-        "gmail:19eeee5aa22cb923",
-        "gmail:19eef1a0bce50e7d"
+        "gmail:19eefb1b75d04759"
       ]
     },
     {
-      "title": "SMCI: GF Securities upgrades to Buy at $48; +5.2% pre-market",
-      "body": "GF Securities upgraded Super Micro Computer to Buy from Hold with a $48 price target, sending the stock up 5.2% in pre-market trading on Monday.",
+      "title": "AVGO: Potential TPU share loss to MediaTek at Google on TPUv9 design",
+      "body": "Klein/Bernstein note AVGO faces potential share loss to MediaTek on Google's TPUv9 ('Triggerfish') design \u2014 Triggerfish carries 30% higher ASP but lower unit volume (1-2M units vs 4-5M for Humufish). Flagged as meaningful competitive risk within AVGO's custom ASIC franchise.",
       "tickers": [
-        "SMCI"
+        "AVGO",
+        "GOOGL"
       ],
       "source_item_ids": [
-        "gmail:19eef406ade31c28"
+        "gmail:19eef667b0b1fd83"
       ]
     },
     {
-      "title": "NFLX: Acquires Radford Studio Center at $400M (vs. $1.85B 2021 valuation); expanding broadcaster partnerships",
-      "body": "Netflix agreed to acquire Radford Studio Center for ~$400M, well below its 2021 sale price of $1.85B. CEO separately signaled intent to add more traditional broadcasters to the platform following the TF1+ deal in France. Netflix denied interest in acquiring Roku (withdrew from bidding per Semafor) or Lionsgate.",
+      "title": "ONTO: Oppenheimer raises PT to $450 (street high) on Dragonfly G5 ramp and AI packaging share gains",
+      "body": "Oppenheimer raised ONTO PT to $450 following Boston management meetings, citing accelerating Dragonfly G5 demand, 2027E revenue/EPS raised ~8%, and share gains in 2.5D packaging and HBM. Trading at ~31x 2027E EPS vs KLAC/CAMT peers at 35-40x; recent ~15% pullback attributed to convertible hedging, viewed as buying opportunity. 2026E revenue growth ~35% YoY.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19eefc3f425b08ba"
+      ]
+    },
+    {
+      "title": "COHR: JPMorgan NDR takeaways session at 12:15PM today post CEO meetings",
+      "body": "JPM analyst Joe Cardoso met with COHR CEO Jim Anderson and IR VP Paul Silverstein June 17-18 in Boston/NYC. NDR takeaway session scheduled for 12:15 PM ET today \u2014 watch for any post-meeting color on transceiver demand, InP substrate constraints, and data center optical interconnect outlook.",
       "tickers": [
-        "NFLX"
+        "COHR"
       ],
       "source_item_ids": [
-        "gmail:19eef45275b180cf",
-        "gmail:19eef406ade31c28"
+        "gmail:19eefc0e98d65e15",
+        "gmail:19eef667b0b1fd83"
       ]
     },
     {
-      "title": "PSKY/WBD: Merger clears Canada and South Africa competition reviews; global regulatory approvals ongoing",
-      "body": "The Paramount Skydance/Warner Bros. Discovery merger received Canadian Competition Act clearance (statutory waiting period expired June 20) and South African Competition Commission approval (June 19). Deal completion remains subject to regulatory clearance in other jurisdictions; PSKY continuing engagement with antitrust enforcers globally.",
-      "tickers": [
-        "PSKY",
-        "WBD"
-      ],
-      "source_item_ids": [
-        "gmail:19eeecbce537a933"
-      ]
-    },
-    {
-      "title": "RBLX: +19% last week on Grow a Garden 2 launch, Russia ban lift, TTK hit 4M players on launch day",
-      "body": "Roblox shares surged 19% last week on improved engagement trends including the Grow a Garden 2 launch, lifting of Russia ban, and summer seasonality tailwind. The new first-person shooter TTK Testing reached 4M players on launch day. JPM notes CCUs held steady over the weekend. Despite last week's rally, RBLX fell -4.4% in pre-market Monday.",
+      "title": "RBLX: Citi Buy; QTD CCUs +7% YoY but trending toward low-end of $1.55-$1.61B 2Q bookings guide",
+      "body": "Citi's Week 25 CCU tracker shows average peak CCUs of 15.3M, down 5% YoY; QTD CCUs up ~7% vs 2Q25. Predicted 2Q26 bookings of $1.57B slightly below guidance midpoint and Visible Alpha consensus of $1.60B. 'Grow a Garden 2' release last week did not arrest the weekly CCU decline.",
       "tickers": [
         "RBLX"
       ],
       "source_item_ids": [
-        "gmail:19eeda97755d3acb"
+        "gmail:19eefb3f22e437c3"
       ]
     },
     {
-      "title": "DIS: Toy Story 5 delivers $160M opening weekend \u2014 best Toy Story franchise debut, +81.9% YoY box office",
-      "body": "Disney's Toy Story 5 earned $160M in its opening weekend, making it the best Toy Story franchise opening ever and the top 2026 film debut. The broader US/Canada weekend box office reached $228.1M, up 81.9% YoY. North American summer box office (May 1\u2013Labor Day) is at ~$1.85B, up 16% YoY, nearly matching 2019 levels. Toy Story 5 also led China's weekly box office with CNY121.7M.",
+      "title": "ROKU/FOX: Fox to acquire Roku for $160/share (~$22B EV) in cash-and-stock deal",
+      "body": "Fox Corporation announced a definitive agreement to purchase Roku for $160/share in a cash-and-stock combination valuing the company at approximately $22B enterprise value, per StreetAccount M&A summary.",
       "tickers": [
-        "DIS"
+        "ROKU",
+        "FOXA"
       ],
       "source_item_ids": [
-        "gmail:19eec8f066f367d5",
-        "gmail:19eec41fe552490b"
+        "gmail:19eefbf7d006a40e"
       ]
     },
     {
-      "title": "T/VZ: UBS 2Q wireless preview \u2014 T and TMUS Buy, VZ Neutral; TMUS PT cut to $255 from $300",
-      "body": "UBS previews 2Q wireless: industry postpaid phone adds moderate to ~2.0M (vs 2.1M YoY). AT&T (Buy, PT $31) expected to add 358K postpaid phones, 285K fiber adds, $4.4B FCF in 2Q. T-Mobile (Buy, PT cut to $255 from $300 on 13x 27E FCF/sh vs prior 15x) expected to add 270K postpaid accounts and generate $16B in full-year buybacks. Verizon (Neutral, PT $48) expected 123K postpaid adds and 355K broadband adds with new Simplicity plans; 2026 viewed as transition year.",
+      "title": "APP: Citi removes 90-day positive catalyst watch on slowing eCommerce client ramp",
+      "body": "Citi's Jason Bazinet removed APP from the positive catalyst watch list after store count declined 2% week-over-week (Hong Kong -13%), citing slower-than-expected ramp of eCommerce clients post-general availability. No rating change noted.",
       "tickers": [
-        "T",
-        "VZ"
+        "APP"
       ],
       "source_item_ids": [
-        "gmail:19eed8fd6341ae5d"
+        "gmail:19eef79bc296b520"
+      ]
+    },
+    {
+      "title": "SHOP: +1.5% on TSX; Truist highlights Sidekick AI advances extending tech leadership",
+      "body": "SHOP trading up 1.5% to C$153.92 on the TSX mid-morning. Truist morning note highlights Shopify extending competitive leadership with key tech updates including Sidekick AI advances.",
+      "tickers": [
+        "SHOP"
+      ],
+      "source_item_ids": [
+        "gmail:19eefc91d206e89f",
+        "gmail:19eefc8aae1d3caa"
+      ]
+    },
+    {
+      "title": "HOOD: 50K+ agentic trading accounts in ~3 weeks; ~10% workforce cut announced",
+      "body": "Robinhood has attracted over 50,000 customers to its agentic trading accounts approximately three weeks after launch, trading millions daily. Separately, Robinhood announced a ~10% workforce reduction (~290 roles) to accelerate product velocity.",
+      "tickers": [
+        "HOOD"
+      ],
+      "source_item_ids": [
+        "gmail:19eef8652d279285"
+      ]
+    },
+    {
+      "title": "DKNG: Citizens says prediction market opportunity could exceed current market cap; NFL season as catalyst",
+      "body": "Citizens Research argues the street is not appropriately valuing DKNG's prediction markets opportunity, noting the TAM could exceed DKNG's current market cap and that the company could route significant volume through its exchange by NFL season. Citi TMT notes DKNG reporting +87% prediction volume with 5x higher World Cup handle vs. 2022.",
+      "tickers": [
+        "DKNG"
+      ],
+      "source_item_ids": [
+        "gmail:19eef64f1f4bfb97",
+        "gmail:19eef79bc296b520"
+      ]
+    },
+    {
+      "title": "AAPL/TSLA: Tata Electronics cybersecurity breach; 200K+ component/spec files posted to dark web",
+      "body": "Ransomware group World Leaks posted over 200,000 files \u2014 including component and specification papers for Apple and Tesla products \u2014 following a cybersecurity incident at Tata Electronics, one of Apple's key Indian manufacturing partners. Tata identified the breach a few weeks ago.",
+      "tickers": [
+        "AAPL",
+        "TSLA"
+      ],
+      "source_item_ids": [
+        "gmail:19eefff9849c5a86"
+      ]
+    },
+    {
+      "title": "GNRC: Hyperscaler demand accelerating; Buy with $338 PT, 2x+ FY28 uplift potential, capacity targeting $3.5-4.5B",
+      "body": "Zach AM Attack highlights GNRC with a Buy rating and $338 PT, citing new hyperscaler wins that could drive more than 2x uplift to FY28 estimates. Capacity expansion is targeting $3.5-4.5B in revenue, with the data center generator demand cycle characterized as durable.",
+      "tickers": [
+        "GNRC"
+      ],
+      "source_item_ids": [
+        "gmail:19eef6402388bb1c"
       ]
     }
   ]
