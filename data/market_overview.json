@@ -1,226 +1,222 @@
 {
-  "digest_type": "premarket",
-  "digest_dt": "2026-06-23T08:30:00-04:00",
-  "saved_at": "2026-06-23T12:55:43.517576+00:00",
+  "digest_type": "midday",
+  "digest_dt": "2026-06-23T12:00:00-04:00",
+  "saved_at": "2026-06-23T16:12:12.085679+00:00",
   "bullets": [
     {
-      "title": "Korea KOSPI -10% triggers global semi selloff; levered ETF structure amplifying moves",
-      "body": "South Korea's KOSPI crashed ~10%, with SK Hynix and Samsung each down >12%, triggering a circuit breaker for the fourth time this year. Korean retail margin loans hit a record $26B and leveraged single-stock ETFs (hastily approved per the regulator) amplified the volatility. The selloff spread to US markets with SOX implying a ~12% decline and NDX futures down 2.4-2.6%, though multiple desks characterize this as a positioning/crowded-trade unwind rather than a fundamental AI memory thesis break.",
+      "title": "Semis/Tech selloff: broad premarket weakness with SOXX -7%, momentum fragility exposed",
+      "body": "A ~10% drop in the Korean KOSPI (leveraged ETF unwind) rippled into US semis, with SOXX down 7%, CRDO -8.4%, CRWV -7.8%, GLW -7.1%, AAOI -7.0%, LITE -6.7%, and CIEN -6.0% in premarket. S&P futures were down 1.4% and Nasdaq futures -3.0%, with DRAM down 12% premarket. Multiple strategists flagged levered ETF short gamma at record -$18bn/1% move (\u00be benchmarked to semis/NDX/tech) as an accelerant, and a COR1M correlation measure at 6.64 historically associated with 2-3% S&P pullbacks within two weeks.",
       "tickers": [
+        "SPY",
         "MU",
-        "MRVL",
-        "SNDK"
+        "CIEN",
+        "GLW"
       ],
       "source_item_ids": [
-        "gmail:19ef3668ce77fa8a",
-        "gmail:19ef3e10a40ad829"
+        "gmail:19ef4a422b7a44ac",
+        "gmail:19ef480fa9411b08"
       ]
     },
     {
-      "title": "MU earnings Wednesday are the pivotal AI catalyst; buyside consensus bullish on SCAs and margins",
-      "body": "Micron reports F3Q26 Wednesday after close with Street expecting $19.77B revenue, 81.2% gross margin, and $20.83 EPS \u2014 all above guidance midpoints. ~75% of surveyed buyside investors expect new Strategic Customer Agreements announcements, MU-Anthropic deal already announced. Options are pricing the largest implied move (+10%) in a decade; 75% of Citi survey respondents expect MU above $1,000 post-print. Key watch items: LTAs, agentic AI commentary, and the August quarter guide which could reset memory cycle expectations.",
+      "title": "AI momentum crowding at extremes; Mag 7 = 32% of S&P, breadth narrowest since 1990",
+      "body": "Top 10 S&P constituents account for 37% of index market cap, exceeding Dot-Com era peaks, with Mag 7 alone at 32%. Only 17% of stocks are driving 80% of YTD returns\u2014the narrowest breadth since 1990. Historical data suggests concentration alone doesn't signal imminent reversal, but downside risk is concentrated in the highest-appreciation stocks; a derivative hedge cited is MTUM July 17th 320/270 put spread ~$7.",
+      "tickers": [
+        "SPY"
+      ],
+      "source_item_ids": [
+        "gmail:19ef4ffe4491219a",
+        "gmail:19ef47aa42956e47"
+      ]
+    },
+    {
+      "title": "Tech structural deterioration: MSFT at 6.5-year relative low, GOOGL joins bearish TREND list",
+      "body": "MSFT's technical score is at 0 across all timeframes, below both 50- and 200-day MAs with the 200-day still sloping lower; a break below 350 implies downside risk to 250. GOOGL joined Hedgeye's bearish TREND breakdown list after a -6% session on frontier lab concerns and open-source share gains. The tech sector is showing a 37-day negative advance/decline streak\u2014the longest in 24+ years, surpassing 2007 and 2012.",
+      "tickers": [
+        "MSFT",
+        "GOOGL"
+      ],
+      "source_item_ids": [
+        "gmail:19ef4c44f4c532e0",
+        "gmail:19ef47aa42956e47"
+      ]
+    },
+    {
+      "title": "US manufacturing PMI hits 4-year high at 55.7; expansion expected through 1H 2027",
+      "body": "S&P Global Manufacturing PMI rose 0.6pts to 55.7 in June, the eleventh consecutive month of expansion, with new orders accelerating to 57.5%. Composite regional capex plans rose 3.2ppts m/m to the strongest since 2022. Input/output prices decelerated with tariff pass-through nearing completion, and oil is no longer a headwind; analysts expect manufacturing expansion to continue at least into 1H 2027, broadening beyond AI/tech buildout.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19ef4ed31022154c",
+        "gmail:19ef503b4fea4fc7"
+      ]
+    },
+    {
+      "title": "AI infrastructure capex on trillion-dollar trajectory; server TAM surging to $1.3T by CY27",
+      "body": "Morgan Stanley raises CY26 server market TAM to $800B (+82% YoY) with CY27 projected at $1.3T. TSMC CoWoS remains the gating AI supply bottleneck with capacity rising to 200k wpm by YE27; NVDA expected to consume 1,222k CoWoS units in 2027 (+57% YoY). A single AI server consumes ~440k MLCCs (10-15x traditional servers), with channel MLCC pricing +200-300% since 1Q26 as capacity grows only 10-15% annually. Hyperscaler capex expectations are moving higher with AI spending on a trillion-dollar annual trajectory.",
+      "tickers": [
+        "NVDA",
+        "AVGO",
+        "AMD",
+        "MU"
+      ],
+      "source_item_ids": [
+        "gmail:19ef4c7b9678962f",
+        "gmail:19ef480a282d27c3"
+      ]
+    },
+    {
+      "title": "MU earnings tomorrow: short gamma overhang largest after SK Hynix; retail buyers undeterred",
+      "body": "MU has the second-most short gamma in the US after SK Hynix, with levered ETF positioning making it a flashpoint for tomorrow's post-close print. Retail has been buying at $6bn/day with MU in the top 10 most-purchased names YTD, and ~20% of accounts have <10% AI exposure supporting potential dip-buying. Citi models 6%/5% EPS upside for the May/August quarters; separately MU was already up +7% earlier in the session on an AI lab supply deal.",
       "tickers": [
         "MU"
       ],
       "source_item_ids": [
-        "gmail:19ef465c6cfb1e1a",
-        "gmail:19ef4346fd2c2c80"
+        "gmail:19ef480fa9411b08",
+        "gmail:19ef48fbe1c332c6"
       ]
     },
     {
-      "title": "Fed 'bang-bang' policy shift under Warsh driving front-end rate pressure; markets pricing 50bp of hikes by March 2027",
-      "body": "Fed Chair Warsh is moving away from gradualism toward meeting-by-meeting decisions, with markets now pricing 9-10bps of July hikes and 50bp total by March 2027. JPMorgan flagged hawkish upcoming Fed speakers (Williams, Goolsbee, Barkin) and noted bond fund positioning is nearly two standard deviations shorter than the 1-year average. Goolsbee separately warned services inflation is 'disturbing' and trending the wrong way, while Core Services YoY has increased three consecutive months.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19ef45d0d9b6d18b",
-        "gmail:19ef17f1dd2540ab"
-      ]
-    },
-    {
-      "title": "AI trade faces multiple headwinds: open-source competition, talent departures, ROI scrutiny, token deflation",
-      "body": "GOOGL fell 5% on DeepMind VP departures to Anthropic and reports that China's GLM-5.2 matches Gemini 3 Pro on SWE-bench at a fraction of the cost. Goldman notes AI race is shifting from frontier labs to model orchestration/open-source, accelerating token deflation and pressuring model economics. Trump administration also barred foreign access to Anthropic advanced platforms, pushing some users toward Chinese AI alternatives. Hyperscalers remain structural capex winners but first to show equivalent output at lower spend will be rewarded.",
+      "title": "AVGO bull case: custom silicon revenue potential $250-300B FY28 on XPV-financed deployments",
+      "body": "Wolfe Research sees AVGO custom revenue reaching $250-300B in FY28 if XPV financing with Apollo drives 15GW of incremental OpenAI/Anthropic deployments, with $10-15B/GW content range for Google/Anthropic builds. MRVL is selectively raising pricing with CY26 enterprise data guidance of 85% YoY growth treated as a floor. Tokyo Electron expects CY27 WFE spending floor ~$170B with $185B a reasonable target.",
       "tickers": [
-        "GOOGL",
-        "AMZN",
-        "MSFT"
-      ],
-      "source_item_ids": [
-        "gmail:19ef445185224a5a",
-        "gmail:19ef46254fd718b6"
-      ]
-    },
-    {
-      "title": "Semis/Software bifurcation extreme: SOX +116% YTD vs IGV -17.6%; rotation risk rising",
-      "body": "The semiconductor ETF (SMH) is up 86-116% YTD while software (IGV) is down ~17.6% YTD, creating one of the most bifurcated tech tape setups in years. Hedge funds net sold US equities at ~3 standard deviations, concentrating shorts in Software (-3std) and Autos (-2.3std). Retail has net sold semis ($68M outflows) while institutional money continues flowing to NVDA, AVGO, and TSM. Multiple desks note gross HF leverage peaked unusually high around mid-June expiry, historically leading to larger-than-average post-expiry declines (~5% avg).",
-      "tickers": [
-        "MU",
-        "NVDA",
         "AVGO",
-        "AMD"
+        "MRVL",
+        "NVDA"
       ],
       "source_item_ids": [
-        "gmail:19ef465c6cfb1e1a",
-        "gmail:19ef3e10a40ad829"
+        "gmail:19ef480a282d27c3"
       ]
     },
     {
-      "title": "Russell rebalance Friday June 26 creates significant semi flows: MU +$8B inflow, AAPL -$9B shift",
-      "body": "Russell rebalance effective June 26 drives notable mechanical flows: MU moving from 100% value to 100% growth (+$8B inflow), AAPL shifting from 100% growth to 55% growth/45% value (-$9.1B). NVDA, AMD, AVGO, TXN also see inflows; CRDO and FN see outflows. SPCX is the largest add at $3.4B net flow; FN the largest promotion remove at -$2.2B.",
+      "title": "Fed hawkishness under Warsh + tightening excess liquidity flagged as near-term equity risk",
+      "body": "Multiple sources flag Fed's shift to a more hawkish stance under Warsh\u2014with reduced transparency\u2014as a material risk to momentum-heavy portfolios. Excess liquidity has turned negative for the first time since 2021, and funding spreads have widened to their highest since 2024. Morgan Stanley notes US front-end rates expected to be the noisiest in a generation, with the S&P-to-gold ratio reflecting confidence in Fed credibility under Warsh leadership.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19ef47aa42956e47",
+        "gmail:19ef50f20cd3f462"
+      ]
+    },
+    {
+      "title": "Goldman PCE preview: Core PCE stays elevated at 3.2% through Dec 2026 on AI and energy passthrough",
+      "body": "Goldman forecasts core PCE inflation at 3.2% by December 2026, slowing to 2.2% by December 2027 as AI-related price pressures and energy passthrough effects fade. H2 GDP growth expected at 2%; consumer spending growth constrained at 1.5% due to limited real income growth.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19ef4ac77dc3816e",
+        "gmail:19ef47aa42956e47"
+      ]
+    },
+    {
+      "title": "Eurozone PMI still in contraction at 49.5%; CPI model points to 5.1% by August",
+      "body": "Eurozone June composite PMI rose only 0.9ppts to 49.5%, with services at 48.9% and manufacturing at 51.3%. Headline CPI is forecast to accelerate to 5.1% YoY by August, Bund yields hit 2.91% (highest since 2011), and markets price at least one more ECB hike despite weak activity.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19ef493faf02a3fc"
+      ]
+    },
+    {
+      "title": "Nuclear power accelerating: DOE $17.5B loan program for 10 AP1000 reactors; CEG/WMT 30-yr PPA",
+      "body": "DOE announced a $17.5B low-interest loan program for utilities to finance 10 Westinghouse AP1000 reactors with seven utilities signing LOIs. Separately, CEG announced a 176MW, 30-year PPA with Walmart beginning 2029 for the Dresden nuclear facility, and MDU signed a 430MW data center campus service agreement with APLD in North Dakota.",
       "tickers": [
-        "MU",
-        "NVDA",
-        "AAPL",
-        "AMD",
-        "AVGO"
+        "CEG"
       ],
       "source_item_ids": [
-        "gmail:19ef465c6cfb1e1a",
-        "gmail:19ef452669d7cf83"
+        "gmail:19ef49464911fa68"
       ]
     },
     {
-      "title": "JPMorgan estimates ~$165B equity-selling/bond-buying rebalancing flow from month/quarter-end",
-      "body": "JPMorgan estimated approximately $165B of price-insensitive equity selling paired with bond buying from month- and quarter-end rebalancing, adding to near-term market pressure. Separately, Wells Fargo noted $28B in tariff refunds already issued since May with potential $66B net benefit in 2H, and estimated $20B of price-insensitive inflows from Trump accounts starting in July \u2014 a partial offset.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19ef44d8d12a7966",
-        "gmail:19ef229a9ceaa7f7"
-      ]
-    },
-    {
-      "title": "US-Iran deal: oil falling from $120+ to high-$70s; ECB consistent with one more hike in September",
-      "body": "Brent crude has collapsed from >$120/bbl to the high-$70s following Hormuz reopening and a 60-day US temporary general license for Iranian crude. Morgan Stanley forecasts $90/bbl for 3Q26 and sees the deal as near-term positive for US equities via lower inflation. Meanwhile, ECB's Lagarde and Lane comments are consistent with a final hike in September; eurozone ex-Ireland PMI signals 0.6% annualized 2Q growth. Euro area composite PMI rose 0.9pt to 49.5 in June, partially reflecting Iran ceasefire relief.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19ef2b01db948b64",
-        "gmail:19ef4413b31eb4a2"
-      ]
-    },
-    {
-      "title": "Goldman's GIR: AI market gains now exceed baseline PDV of capex; requires more optimistic adoption assumptions",
-      "body": "Goldman's GIR analysis finds that AI-driven equity market gains now exceed baseline estimates of the present discounted value of AI capex, meaning current valuations require more optimistic adoption and productivity assumptions. JPMorgan maintains $5.5T AI capex estimate through 2030 but sees better near-term risk/reward in Japan SPEs and China AI plays versus memory. Liquid cooling basket (ECL, MOD, DOV, ETN, JCI) has outperformed Mag 7 by 13.5% since mid-May as infrastructure-layer picks gain traction.",
+      "title": "SPX approaching gamma flip at 7320; VIX >18.83 would trigger TREND breakout",
+      "body": "OPCO flags the S&P approaching a negative gamma flip level at 7320, which would act as an accelerant for volatility if breached. Separately Hedgeye notes VIX >18.83 is a TREND breakout level where gamma could flip negative. Technical strategist Craig Johnson flags QQQ support at $720/$695/$685 and SMH support at $620/$616/$612/$600.",
       "tickers": [
-        "CRWV",
+        "SPY"
+      ],
+      "source_item_ids": [
+        "gmail:19ef4a830d829308",
+        "gmail:19ef4e32b85d72fb"
+      ]
+    },
+    {
+      "title": "Russell 2000 at all-time highs, outperforming S&P by 11.9% YTD; small cap fair value implies +30% upside",
+      "body": "Russell 2000 is up 21.1% YTD, outperforming the S&P 500 by 11.9%, with AI buildout beneficiaries (Cap Goods, Semis, Tech Hardware, Energy) driving 13ppts of that return. Small cap 1Q earnings beat rate of 72% exceeded the long-term median of 63.5%, and small cap multiples remain depressed vs large caps with fair value implying +30% upside if the multiple spread normalizes. A technical target of 3200 (+6%) is cited.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19ef477627f09125",
+        "gmail:19ef4a3479012916"
+      ]
+    },
+    {
+      "title": "India eliminates bond withholding tax; FAR bonds join GBI-EM Narrow index at 10% weight",
+      "body": "India's government eliminated all withholding and capital gains taxes on Indian government bonds for foreign investors effective June 30, 2026. FAR bonds will be phased into the GBI-EM Narrow diversified index starting July 31, reaching a 10% terminal weight, reducing index yields by 2bps and adding 0.12 years of duration. Romania (-330bps), Hungary (-277bps), and Peru (-210bps) face material weight reductions.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19ef4ed7a0594609"
+      ]
+    },
+    {
+      "title": "AI disintermediation raising valuation uncertainty for incumbent software: CRM, ORCL risk cited",
+      "body": "Liberty Mutual CIO warns that 30-year credit in Salesforce and Oracle is much riskier given AI-driven uncertainty, arguing the next trillion-dollar companies may never adopt Salesforce and that even cash-cow businesses deserve lower multiples. UBS separately notes WMT's acquisition of Vibe.co signals a retail media arms race with AMZN, while ACN's 25% selloff and 20-year valuation low (2Y forward P/E 8.5x) reflects excessive AI disintermediation fear that a $2B buyback is designed to counter.",
+      "tickers": [
+        "CRM",
         "ORCL",
-        "MSFT"
-      ],
-      "source_item_ids": [
-        "gmail:19ef443280e800f4",
-        "gmail:19ef43fde97a121e"
-      ]
-    },
-    {
-      "title": "Trump signs Quantum Innovation EO; QCOM eyeing $4B Modular acquisition",
-      "body": "Trump signed executive orders to accelerate quantum research for federal cyber defense, with administration targeting a functional quantum computer by 2028. The EO provided a catalyst for quantum-linked names (QBTS +2.9%). Separately, Qualcomm is in advanced talks to acquire AI infrastructure software firm Modular for ~$4B, signaling the company's pivot toward AI chip software stacks.",
-      "tickers": [
-        "QBTS"
-      ],
-      "source_item_ids": [
-        "gmail:19ef443280e800f4",
-        "gmail:19ef44d8d12a7966"
-      ]
-    },
-    {
-      "title": "PCE preview: Goldman sees Core PCE 3.2% by Dec 2026, easing to 2.2% by Dec 2027",
-      "body": "Goldman Sachs forecasts Core PCE inflation at 3.2% by December 2026, slowing to 2.2% by December 2027 as AI efficiency gains and energy effects fade. JPMorgan expects core PCE in line with consensus at 0.3% MoM for the upcoming print. Wolfe Research forecasts June nonfarm payrolls at 155K (vs 118K consensus), with a 35K boost from World Cup hiring in leisure/hospitality; sees 0.26% MoM AHE growth.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19ef4746d3eb9c0b",
-        "gmail:19ef3d333f4bad17"
-      ]
-    },
-    {
-      "title": "Eurozone and UK PMIs: Euro area recovering on Iran deal; UK at 49.4 with sticky inflation",
-      "body": "Euro area June composite PMI rose to 49.5 (from ~48.6) with demand, employment, and sentiment all strengthening, though most responses predate the mid-June Iran deal so the final reading may be revised higher. UK composite PMI fell to 49.4, consistent with 0.2% annualized GDP growth, as services dropped to 48.7 on consumer confidence weakness; output prices remain elevated at 60.1, well above pre-war levels.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19ef3f0d7a77e37f",
-        "gmail:19ef40b579b7aa8c"
-      ]
-    },
-    {
-      "title": "S&P 500 seasonality: weak June historically but July averages +3.37% with 100% hit rate",
-      "body": "JPMorgan notes June seasonality is weak in the last two weeks, but July is historically very strong with a 100% hit rate and average return of +3.37%. For the full year, the S&P is up ~5% in 1H; historically when 1H returns exceed 5%, 2H averages +7% versus +2.5% otherwise. CTA exposure sits at only the 24th percentile with significant room to re-lever if realized volatility declines.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19ef4693cbfb8646",
-        "gmail:19ef4361fa08cbd9"
-      ]
-    },
-    {
-      "title": "Memory fundamentals intact despite Korea selloff; SK Hynix shifting capacity from HBM4 to commodity DRAM",
-      "body": "SK Hynix is modestly slowing HBM4 ramp and reallocating capacity to commodity DRAM where margins exceed HBM by 15+ percentage points. Samsung HBM4 revenue surpassed $1B in just four months from production start. DRAM spot pricing is up 52% since January and 22% since April. Multiple desks characterize the KOSPI crash as an overcrowded-trade cleanup rather than a fundamental shift in the AI memory thesis, though Nvidia Rubin certification remains in progress per SK Hynix.",
-      "tickers": [
-        "MU",
-        "SNDK"
-      ],
-      "source_item_ids": [
-        "gmail:19ef1db702c0f382",
-        "gmail:19ef46c3c3479ec3"
-      ]
-    },
-    {
-      "title": "Software IGV down sharply YTD; infrastructure software more resilient than pure SaaS",
-      "body": "IGV is down ~15.7% YTD versus S&P 500 +10.1%, with all-SaaS index trading at only 4.9x FY+2 EV/Sales. Software is being sold indiscriminately, though infrastructure names like PANW and CRWD are more resilient. NFLX dropped to ~20x NTM P/E (4-year lows) amid meta's Instagram TV expansion and YouTube gaining watch-time share (99 min/day vs NFLX's 93). US software shorts are being re-laid at -1.7 standard deviations after spring covering.",
-      "tickers": [
-        "NFLX",
-        "MSFT"
-      ],
-      "source_item_ids": [
-        "gmail:19ef452669d7cf83",
-        "gmail:19ef189a7a207673"
-      ]
-    },
-    {
-      "title": "Bending Spoons (BSP) IPO pricing June 30 at $26-28; $1.6B deal via Goldman/JPM",
-      "body": "Bending Spoons S.p.A. is pricing its NASDAQ IPO on June 30, 2026 at $26-28/share for ~58M shares (59% primary, 41% secondary), implying ~$1.565B deal size with a 15% greenshoe. The company's portfolio includes Vimeo, Eventbrite, Evernote, WeTransfer, and AOL, serving 500M+ MAUs and 9M+ monthly paying customers. Bookrunners are Goldman Sachs, J.P. Morgan, and Allen & Co.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19ef473353e8e125",
-        "gmail:19ef449318d2bea5"
-      ]
-    },
-    {
-      "title": "Antitrust: federal enforcement risk declining; META clearest beneficiary, GOOGL/AMZN face behavioral not structural remedies",
-      "body": "Mizuho's antitrust expert call concludes federal tech antitrust enforcement risk is declining as FTC leadership gaps and anti-big-tech hawks depart, with the FTC likely to become an arm of the administration. Courts consistently decline structural remedies in favor of behavioral ones; META faces negligible breakup risk after winning at trial on market definition. GOOGL's liability finding is credibly reversible on appeal; AMZN's case is furthest from resolution and most binary.",
-      "tickers": [
-        "AMZN",
-        "GOOGL",
-        "META"
-      ],
-      "source_item_ids": [
-        "gmail:19ef1cce5b5bf277"
-      ]
-    },
-    {
-      "title": "ACN managed services bookings -15% YoY signals AI crowding out IT spend; PT cut across multiple banks",
-      "body": "Accenture's F3Q26 managed services bookings declined 15% YoY versus investor expectations of +4-5%, with consulting growing +11% CC y/y offsetting the decline. Morgan Stanley cut PT to $130 from $177, flagging the weakness may reflect AI displacing traditional IT spend rather than project pushouts. Mizuho cut PT to $226 from $280. ACN simultaneously raised FY26 buyback by $2B to $7.5B total (62% YoY increase), all to be completed by August 31.",
-      "tickers": [
-        "ACN"
-      ],
-      "source_item_ids": [
-        "gmail:19ef426a4f678ac5",
-        "gmail:19ef40a23fab46c1"
-      ]
-    },
-    {
-      "title": "AMZN Prime Day (Jun 23-26) expected to shift $7-8B incremental revenue into Q2; 370M+ subs by year-end",
-      "body": "JPMorgan's Prime deep dive estimates the service delivers ~$1,440/year in value against a $139 cost; Prime Day is a 4-day event this year expected to shift $7-8B of global incremental revenue into Q2 with 6% Y/Y growth in 3P and 7% in 1P sales. Amazon projects 370M+ Prime subscribers by year-end (139M US, 231M international). A $20 price increase \u2014 now more likely in 2027 than 2026 due to macro \u2014 could drive ~$3B in incremental annualized net sales. JPM maintains AMZN as Best Idea with $330 PT.",
-      "tickers": [
+        "ACN",
         "AMZN"
       ],
       "source_item_ids": [
-        "gmail:19ef381958f65918",
-        "gmail:19ef46254fd718b6"
+        "gmail:19ef4be217e82d6e",
+        "gmail:19ef4b40ce0cffd5"
       ]
     },
     {
-      "title": "Oil bias lower but execution risk remains; supply normalization must outpace demand for sustained downside",
-      "body": "The first phase of war-premium removal is largely complete with Brent moving from $120+ to the high-$70s. Iran is returning barrels through formal channels while Gulf producers (Kuwait, Iraq, UAE) ramp output rapidly. OPEC+ is adding supply and SPR has 35-40Mb remaining. However, physical normalization is incomplete \u2014 shipping conditions remain complex, insurance/sanctions frictions persist, and refinery utilization near ~97% caps incremental demand absorption. Directional bias is lower but sustained downside requires proof supply normalization outpaces demand.",
+      "title": "Social media platform liability + AI regulation risk rising: KIDS Act advances bipartisan",
+      "body": "House Energy and Commerce reached bipartisan agreement to advance the Kids Internet and Digital Safety (KIDS) Act, with ongoing litigation risk for META, SNAP, and GOOGL (YouTube) around mental health impacts following a bellwether school district settlement. Section 230 reform momentum is building, with open questions about whether immunity extends to AI-generated outputs and federal AI legislation timelines.",
+      "tickers": [
+        "META",
+        "SNAP",
+        "GOOGL"
+      ],
+      "source_item_ids": [
+        "gmail:19ef4b9e0f840b0a"
+      ]
+    },
+    {
+      "title": "QCOM Investor Day and MLCC super-cycle among key near-term catalysts to watch",
+      "body": "QCOM hosts its Investor Day at 14:15 ET on June 24th, expected to focus on data center offerings and mid-term strategic targets. Separately, Morgan Stanley identifies an MLCC super-cycle as a structural supply crunch driven by AI servers consuming ~440k units each (10-15x traditional), with channel pricing up 200-300% since 1Q26 against capacity growth of only 10-15% annually through 2030.",
       "tickers": [],
       "source_item_ids": [
-        "gmail:19ef3936052d753a",
-        "gmail:19ef2b01db948b64"
+        "gmail:19ef48fbe1c332c6",
+        "gmail:19ef4c7b9678962f"
+      ]
+    },
+    {
+      "title": "Internet sector rebounds with macro fears easing; AMZN/GOOGL/META at relative valuation discounts",
+      "body": "Morgan Stanley rates the internet sector Attractive as growth rebounds, with GOOGL at 25x '26E EPS (-3% vs TTM avg), AMZN at 26x (-19% vs TTM avg), and META at 18x (-28% vs TTM avg). BKNG was +4% and RDDT +8% on the session. GOOGL's -5-6% session was attributed to concerns over frontier lab status loss and open-source AI gaining share.",
+      "tickers": [
+        "GOOGL",
+        "META",
+        "AMZN",
+        "BKNG",
+        "RDDT"
+      ],
+      "source_item_ids": [
+        "gmail:19ef4cdd104c413d",
+        "gmail:19ef48fbe1c332c6"
+      ]
+    },
+    {
+      "title": "HOOD $2B convert priced; crypto/miner complex down 5-6% on dilution concerns",
+      "body": "Robinhood priced a $2.0B convertible note offering, sending shares down 5.9% in premarket. The crypto/miner complex followed: BTDR -5.7%, WULF -5.2%, CORZ -4.5%, reflecting broader risk-off in high-beta momentum names.",
+      "tickers": [
+        "HOOD"
+      ],
+      "source_item_ids": [
+        "gmail:19ef4a422b7a44ac",
+        "gmail:19ef48d2dcab1973"
+      ]
+    },
+    {
+      "title": "PRIM guidance slashed 43%; renewable project execution risk re-emerges as sector concern",
+      "body": "Primoris Services cut FY26 EBITDA guidance to $275-325M from $480-500M due to cost overruns on six renewable projects, sending shares down >35% premarket. The stock has lost $7.3B in market value vs. only $270M in guidance reduction, suggesting the market sees systemic execution risk. The COO is departing following the Head of Renewables' exit, compounding investor skepticism on cost containment.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19ef49464911fa68"
       ]
     }
   ]
