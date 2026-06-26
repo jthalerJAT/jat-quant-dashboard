@@ -1,238 +1,244 @@
 {
-  "digest_type": "premarket",
-  "digest_dt": "2026-06-26T08:30:00-04:00",
-  "saved_at": "2026-06-26T12:46:40.222221+00:00",
+  "digest_type": "midday",
+  "digest_dt": "2026-06-26T12:00:00-04:00",
+  "saved_at": "2026-06-26T16:11:48.189457+00:00",
   "bullets": [
     {
-      "title": "MU: Blowout Q3 beat drives AI memory bull case; memory tight through 2027",
-      "body": "Micron reported fiscal 3Q26 revenue of $41.5B with 81% operating margins, signing 16 Strategic Customer Agreements guaranteeing $100B+ in minimum revenue with price floors above prior cycle peaks. AI server memory demand exceeded $25B in the quarter; cumulative HBM4 revenue surpassed $1B. Memory supply expected to remain tight through 2027 with only gradual improvement in 2028, consistent read-across for semis equipment.",
+      "title": "Semis broadly sold off: SOXX -4.5%, Korea KOSPI -5.8% on memory inflation & valuation fears",
+      "body": "The semiconductor sector saw a sharp risk-off session with SOXX down 4.54% pre-market; Korea's KOSPI fell 5.8% on LLM IPO concerns and demand-destruction fears from consumer electronics price hikes. Major declines: WDC -7.1%, MU -6.8% (after prior +16% post-earnings), AMD -4.6%, ARM -5.2%, AVGO -3.0%, TSM -2.6%, INTC -4.3%. Citi formally downgraded Semis to Market Weight from Overweight, citing strong fundamentals but much already priced in.",
+      "tickers": [
+        "MU",
+        "WDC",
+        "AMD",
+        "ARM",
+        "AVGO",
+        "TSM",
+        "INTC",
+        "SNDK",
+        "MRVL"
+      ],
+      "source_item_ids": [
+        "gmail:19f0414428d7f6db",
+        "gmail:19f04169cc347505"
+      ]
+    },
+    {
+      "title": "AAPL -6%: 15-20% price hikes on Macs/iPhones signal memory cost pass-through, demand risk debated",
+      "body": "Apple announced 15-20% price hikes on high-volume SKUs due to soaring memory/storage costs (MSFT also raising Xbox prices 23% on 2.5x memory cost jump). AAPL bulls argue carrier/installment plan demand inelasticity and generous margins; bears flag demand destruction risk and trajectory of memory pricing into next year. iPhone 18 builds reportedly unchanged, but a new CEO ascension Sept 1 adds further uncertainty.",
+      "tickers": [
+        "AAPL",
+        "MSFT"
+      ],
+      "source_item_ids": [
+        "gmail:19f03f21c8712129",
+        "gmail:19f04169cc347505"
+      ]
+    },
+    {
+      "title": "MU +16% post-earnings validates memory supercycle; SCAs limit upside surprise but GMs ~85-86%",
+      "body": "Micron's blowout earnings (exact figures in prior session) drove a +16% rally that revived the AI memory trade, though the stock subsequently pulled back with the broader semi selloff. Strategic Customer Agreements cover >50% of revenue with floor pricing and prepayments; UBS sees gross margins normalizing to mid-50s vs. historical ~35%. Klein notes Q4 2026 buyback catalysts and sees $130-145B annual FCF potential; SCA structure limits volatility on upside surprises.",
       "tickers": [
         "MU"
       ],
       "source_item_ids": [
-        "gmail:19f011c434bf0221",
-        "gmail:19f03b2a73b7d5fa"
+        "gmail:19f04946d3e95393",
+        "gmail:19f042bbcb86bce5"
       ]
     },
     {
-      "title": "Semis broadly selling off pre-market; MU +5% but sector -3-5%",
-      "body": "Despite MU's beat, broader semiconductor names are down 3-5% pre-market: AAOI -5.1%, MU +5.1% (on earnings), SNDK -5.1%, WDC -4.4%, MRVL -3.9%, LITE -3.8%, AMD -3.3%, INTC -3.0%. Pressure stems from Samsung/SK Hynix announcing massive new AI investment (~$648B Samsung plan), raising supply overhang fears, plus OpenAI IPO delay and memory cost inflation hitting hardware margins.",
+      "title": "SNDK F2Q26 massive beat; PT raised to $325 on hyperscaler ramp convergence",
+      "body": "SanDisk reported F2Q26 revenue of $19.6B (+31% YoY) and EPS of $4.14 vs. $4.03 consensus, with F3Q26 guidance raised to $18.6B revenue (+$1.8B vs. consensus) and $4.50 EPS (+$0.47 vs. consensus). JPM raised PT to $325; Hyve margins remain weighed by AI-server mix but expected to improve. Memory shortages worsening through 2026; Lenovo calls higher memory prices the 'new normal' into 2030.",
       "tickers": [
-        "MU",
-        "SNDK",
-        "WDC",
-        "MRVL",
-        "LITE",
-        "AMD",
-        "INTC",
-        "AAOI"
+        "SNDK"
       ],
       "source_item_ids": [
-        "gmail:19f03dd852d0f9b2",
-        "gmail:19f03b0c003f0715"
+        "gmail:19f03f21c8712129"
       ]
     },
     {
-      "title": "AAPL: 15-25% Mac/iPad price hikes signal memory cost crunch; iPhone 18 cycle next",
-      "body": "Apple raised Mac, iPad, and accessories prices 15-25% ($30-$500 absolute), earlier and larger than most analysts expected, signaling low-cost DRAM/NAND inventory is depleted. JPM's prior mid-single-digit iPhone price increase estimate now looks too conservative; MS had modeled 5-10%. iPhone prices not raised yet \u2014 likely held for the September iPhone 18 launch with foldable. JPM specialist call argues memory cost anxiety is overpriced given product price hikes support record margins and carrier/installment financing provides demand inelasticity.",
+      "title": "Mag 7 down ~3%: FCF transfer to memory suppliers, OpenAI delays, open-source competition cited",
+      "body": "MSFT, AMZN, META, GOOGL fell ~3% on concerns over hyperscaler FCF value transfer to memory suppliers and geopolitical AI risks. Additional headwinds: US government asked OpenAI to stagger GPT-5.6 release (opaque approval process), OpenAI deferring IPO to 2027, and Chinese open-source LLMs (Z.ai GLM-5.2) narrowing the gap on frontier models. 22V notes all Mag 7 names are below their 50-day MA with only 3 above the 200-day MA.",
       "tickers": [
+        "MSFT",
+        "AMZN",
+        "META",
+        "GOOGL",
         "AAPL"
       ],
       "source_item_ids": [
-        "gmail:19f03db23298765c",
-        "gmail:19f0381c2c662b79"
+        "gmail:19f042db238bb5cf",
+        "gmail:19f04090942fb1b2"
       ]
     },
     {
-      "title": "MSFT: Italian antitrust investigation into M365 price hike; software +1.3% pre-market",
-      "body": "Italy's AGCM launched a formal investigation into Microsoft over the Microsoft 365/Copilot price increase, citing failure to clearly disclose AI service integration and default enrollment in higher-priced tiers. Despite headline risk, MSFT trades +1.3% pre-market, outperforming the broader tech selloff alongside other software names (NOW +1.5%, ADBE +1.2%, PLTR +1.7%). Citi US Equity Strategy cut Information Technology from OW to Market Weight.",
+      "title": "NVDA: Supply chain dismisses Vera Rubin doubts; GB300 on track for 3Q26; AMZN GPU prices +20% July 1",
+      "body": "NVDA's supply chain sources pushed back on Vera Rubin concerns, with the GB300 transition described as on track for 3Q26 ramp. Amazon is raising GPU instance prices +20% on July 1 across Blackwell/Hopper/Ampere fleet, a signal of continued pricing power in AI compute. NVDA pre-market down ~0.9% with broader semi weakness but fundamental narrative intact per sell-side.",
       "tickers": [
-        "MSFT"
-      ],
-      "source_item_ids": [
-        "gmail:19f0290851a12761",
-        "gmail:19f03b0c003f0715"
-      ]
-    },
-    {
-      "title": "Citi cuts Tech/Semis/Hardware to Market Weight on Mag 7 weakness and margin pressure",
-      "body": "Citi's US Equity Strategy downgraded Information Technology, Semis, and Hardware from Overweight to Market Weight, citing Mag 7 down 7% YTD, four structural headwinds (funding concerns, company-specific issues, competition, technicals breaking 200DMA), and memory price inflation squeezing hardware margins. Software & Services upgraded to Market Weight. Mag 7 constituents AAPL, MSFT, AMZN, GOOGL, NVDA, AVGO all flagged with specific issues.",
-      "tickers": [
-        "AAPL",
-        "MSFT",
-        "AMZN",
-        "GOOGL",
         "NVDA",
-        "AVGO"
-      ],
-      "source_item_ids": [
-        "gmail:19f03b0c003f0715"
-      ]
-    },
-    {
-      "title": "AMZN: JPM initiates on Focus List with $330 PT; advertising an AI beneficiary",
-      "body": "JPM raises AMZN to Overweight with $330 PT (32x 2027E EPS of $10.38), placing it on the Analyst Focus List. AMZN advertising projected at ~$83B revenue in 2026 (+21% FXN YoY) at ~46% operating margins (~$38B OI), the third-largest digital ad platform globally. AI/ML improving ad ranking/ROAS; agentic commerce (Alexa+ Agentic Ads) seen as an incremental TAM expander. Prime Day saw mixed results with 5.3% YoY spending growth to $8.3B but average order down 18% to $47.",
-      "tickers": [
         "AMZN"
       ],
       "source_item_ids": [
-        "gmail:19f02f71f0123bc5",
-        "gmail:19f03db23298765c"
+        "gmail:19f042db238bb5cf"
       ]
     },
     {
-      "title": "DKNG: PM volumes +265% YoY annualized on World Cup; proprietary exchange launch +1.6%",
-      "body": "DraftKings prediction market volumes annualized at $11.3B with $3.4B consumer volumes in the week ended 6/21, up +265% and +160% annualized from May levels, driven by World Cup Group Stage activity. NY OSB data for the same week shows DraftKings +1% GGR YoY, maintaining ~33% share, though 2QTD GGR tracks -21% YoY amid hold rate compression. Virtual group meeting with IR scheduled June 29.",
+      "title": "DKNG: DKeX launched; June PM volumes $200M+, up 80% m/m; JPM maintains Overweight",
+      "body": "DraftKings launched DKeX, its proprietary prediction markets exchange, completing a vertically integrated PM stack. June consumer PM volumes tracking $200M+, up 80% from May's $110M; week of 6/21 saw $11.3B annualized total trading volume ($3.4B consumer, 2.6x May). JPM maintains Overweight; ~30% of customers using combos, which now represent ~15% of PM consumer volume. 2Q results unlikely to be dragged by higher PM investment despite OSB headwinds.",
       "tickers": [
         "DKNG"
       ],
       "source_item_ids": [
-        "gmail:19f03db23298765c",
-        "gmail:19f00d3243547e27"
+        "gmail:19f0403418b26cfd",
+        "gmail:19f04169cc347505"
       ]
     },
     {
-      "title": "PENN: Goldman initiates Buy at $26 PT; JPM bullish after Hollywood Aurora tour",
-      "body": "Goldman initiates PENN at Buy with $26 PT (23% upside from $21.09), citing regional gaming inflection as supply headwinds fade, a $1B development pipeline, Interactive nearing profitability, and recurring FCF/share >$4 by 2028. JPM toured the newly opened Hollywood Aurora (June 24, $360M, 1,000 slots, 226 hotel rooms) and sees faster margin ramp via Joliet learnings; Joliet GGR tracking +70% YoY. PENN targeting 15% cash-on-cash returns across four development projects.",
+      "title": "ORCL: Largest OpenAI counterparty faces near-term overhang on IPO delay and regulatory uncertainty",
+      "body": "With OpenAI deferring its IPO to 2027 and the US government imposing an opaque approval process on frontier model releases, ORCL\u2014identified as having the largest counterparty exposure to OpenAI\u2014is seen facing near-term share price overhang. ORCL shares have been trending down since earnings; Chinese LLM advancement during this regulatory pause adds further uncertainty to the AI infrastructure demand thesis.",
       "tickers": [
-        "PENN"
+        "ORCL"
       ],
       "source_item_ids": [
-        "gmail:19f03e5014feba0a",
-        "gmail:19f014f75b9cd8ae"
+        "gmail:19f04090942fb1b2"
       ]
     },
     {
-      "title": "RRR: Goldman initiates Buy at $72 PT as 2027 earnings inflection story",
-      "body": "Goldman initiates Red Rock Resorts at Buy with $72 PT (13% upside from $63.57), calling it a durable compounder with 2027 as the key earnings inflection year. RRR benefits from lapping 2026 disruption headwinds, harvesting growth from five recent projects, and is a pure-play on the attractive Las Vegas Locals market with land bank optionality.",
+      "title": "SNOW: TimesSquare nearly doubled position post-Cortex Code launch; Q2 FY27 guidance 30% YoY growth",
+      "body": "A TimesSquare PM described Snowflake as critical foundational AI infrastructure, noting that over 50% of customers adopted Cortex Code within 9 weeks of launch\u2014a catalyst not reflected in guidance. Q2 FY2027 guidance: $1.41-1.42B product revenue (30% YoY), 12.5% non-GAAP operating margin; FY2027 revenue guide $5.84B (31% YoY), 75% gross margin. Position nearly doubled on conviction that enterprise AI data modernization is in early innings.",
       "tickers": [
-        "RRR"
+        "SNOW"
       ],
       "source_item_ids": [
-        "gmail:19f03e5014feba0a",
-        "gmail:19f0373ef700ca55"
+        "gmail:19f0411fd5ca633b"
       ]
     },
     {
-      "title": "APP: Down ~4% on boutique report citing US gaming slowdown",
-      "body": "APP fell ~4% pre-market following a boutique sell-side report citing a US gaming market slowdown, mixed eCommerce feedback, and META not yet competing for non-IDFA traffic. JPM notes channel tone has modestly improved since February on stable eCommerce datapoints and continued mobile gaming strength, partially offsetting the bearish read.",
+      "title": "AMD: Server CPU revenue path to ~$50B by 2030E per UBS; ARM favored in latency-sensitive head nodes",
+      "body": "UBS raised its AMD server CPU revenue estimate toward ~$50B by 2030 (up from $41B prior), driven by AI rack buildout. ARM is seen as advantaged in latency-sensitive head node applications while AMD dominates throughput-focused AI rack configurations. Enterprises are focusing on token efficiency and cost controls rather than cutting AI deployment, supporting both names.",
       "tickers": [
-        "APP"
+        "AMD",
+        "ARM"
       ],
       "source_item_ids": [
-        "gmail:19f03db23298765c"
+        "gmail:19f04946d3e95393"
       ]
     },
     {
-      "title": "QCOM: DZ Bank upgrades to Buy, raises PT to $265 from $195 (29% upside)",
-      "body": "DZ Bank upgraded Qualcomm to Buy from Hold and raised its price target to $265 from $195, implying 29% upside from $204.90. The FactSet consensus target stands at $221.93. No specific catalyst cited beyond the upgrade itself.",
+      "title": "AVGO: JPM hosting virtual NDR with CEO Hock Tan on July 7; market cap $1.80T",
+      "body": "JPMorgan scheduled a virtual non-deal roadshow for Broadcom on July 7, 2026, with CEO Hock Tan and CFO Amie Thuener participating. No new fundamental claims released; AVGO pre-market down ~3.0% with broader semi weakness.",
       "tickers": [
-        "QCOM"
+        "AVGO"
       ],
       "source_item_ids": [
-        "gmail:19f036ee68771def"
+        "gmail:19f04541e763864c"
       ]
     },
     {
-      "title": "NVDA/GOOGL/TSLA: Underperforming pre-market as Mag 7 rotation accelerates",
-      "body": "JPM's morning briefing notes NVDA, GOOGL, and TSLA underperforming pre-market as sector rotation intensifies away from Mag 7 into AI Memory and Data Centers. Goldman and BofA both frame Big Tech as the funding source for the rotation into semis and memory stocks. JPM maintains Tactically Bullish call but expects the 'everything rally' to fade into concentrated leadership.",
+      "title": "Russell 2026 recon: Record $244B turnover; NVDA upweight to $4.23B; AAPL/AMZN/MSFT shift Growth\u2192Value",
+      "body": "The Russell 2026 reconstitution (effective June 26 close) is the largest in history at ~$244B notional turnover vs. $151B in 2021. NVDA's R1000 Growth upweight surged from $1.96B to $4.23B notional trade. AAPL, AMZN, and MSFT shift from Growth to Value and are the largest net sell names; GOOGL, MU, and AMD see Value-to-Growth shifts. Communication Services expected to receive $11.7B in passive inflows; Consumer Discretionary faces $9.5B outflows.",
       "tickers": [
         "NVDA",
+        "AAPL",
+        "AMZN",
+        "MSFT",
         "GOOGL",
+        "MU",
+        "AMD",
+        "CRWV"
+      ],
+      "source_item_ids": [
+        "gmail:19f04155414671a1"
+      ]
+    },
+    {
+      "title": "TSLA: 2Q delivery estimate raised to 416k (+7.6% y/y) on Europe strength",
+      "body": "Morgan Stanley raised its Tesla 2Q delivery estimate to 416k units (+7.6% YoY) from a prior 373k estimate (-2.8% YoY), citing strong European registrations up 47% YoY in April after a weak 2025. Full-year 2026 ESS deployment forecast remains at 55 GWh (+18% YoY), below consensus.",
+      "tickers": [
         "TSLA"
       ],
       "source_item_ids": [
-        "gmail:19f0388c6b5ccb04",
-        "gmail:19f03b2a73b7d5fa"
+        "gmail:19f04032741d25e8"
       ]
     },
     {
-      "title": "LITE/CRDO: Optical beneficiaries flagged on ON/SYNA deal and CPO/OCS roadmap",
-      "body": "Mizuho notes LITE positioned as a leading MEMS supplier in OCS ramp, and flags LITE and CRDO explicitly as optical roadmap beneficiaries alongside NVDA and AVGO. CPO deliveries could materialize in 2028/29E. The ON/SYNA deal expands edge AI and connectivity but the optical read-across to these names is the more direct signal.",
-      "tickers": [
-        "LITE",
-        "CRDO"
-      ],
+      "title": "Citi: Downgrades Tech & Semis to MW; upgrades Software to MW from Underweight",
+      "body": "Citi made sector-level rating changes this morning: Semis downgraded to Market Weight from Overweight (fundamentals strong but priced in) and broader Tech downgraded to Market Weight from Overweight. Software upgraded to Market Weight from Underweight, a notable shift that aligns with the view that AI-related software beneficiaries (productivity apps, data platforms) are better positioned on a risk/reward basis.",
+      "tickers": [],
       "source_item_ids": [
-        "gmail:19f037cb9bc83ff8"
+        "gmail:19f04169cc347505"
       ]
     },
     {
-      "title": "NOW/ADBE/CRM/ORCL: CIO survey shows enterprise app budgets under pressure as AI infra dominates",
-      "body": "A CIO survey shows IT budget growth at 3.9% for 2026/4.0% for 2027, but the dollars are flowing to AI infrastructure and security (security budgets +130bps to 4.4%). Enterprise application vendors are seeing net declines in CIO priority spend: MSFT, NOW, ORCL, CRM, ADBE all down. 62% of respondents have AI in meaningful production, up 20pts vs. 2H25, and 64% expect budget scrutiny to intensify.",
+      "title": "Streaming survey: Netflix strongest retention; AAPL TV+ engagement declined y/y; MS OW on DIS, NFLX, PSKY",
+      "body": "Morgan Stanley's 16th annual streaming survey shows Amazon Prime Video, Netflix, and YouTube remain the top 3 platforms with overall adoption up YoY. Netflix had the strongest net retention score; Apple TV+ engagement declined year-over-year. Morgan Stanley is Overweight DIS, NFLX, and PSKY; Equal-weight WBD and STRZ; Underweight AMCX.",
       "tickers": [
-        "NOW",
-        "ADBE",
-        "CRM",
-        "ORCL",
-        "MSFT"
+        "NFLX",
+        "DIS",
+        "AAPL",
+        "AMZN",
+        "GOOGL",
+        "PSKY",
+        "WBD"
       ],
       "source_item_ids": [
-        "gmail:19f0398e40aecda6"
+        "gmail:19f042515eb7bd2b"
       ]
     },
     {
-      "title": "INTU: Wolfe cuts PT to $350 from $400 (Outperform) on pricing concentration risk",
-      "body": "Wolfe Research cut its Intuit price target to $350 from $400 while maintaining Outperform, citing QuickBooks platform price increases concentrated in higher tiers with early Bill Pay monetization seen as limited near-term upside driver. Separately, INTU announced a price increase flagged by Wolfe SaaS Daily. IGV has returned -15.7% YTD vs. S&P +10.1%.",
+      "title": "STX/WDC: HDD bull case strongest in years; 20-30% pricing upside per TB from HAMR; $80-100 STX EPS by CY27/28",
+      "body": "Klein flagged HDDs as the most bullish near-term case in semis/storage: HAMR drives could deliver 20-30% pricing upside per TB, with potential for $80-100 STX EPS and $50-60 WDC EPS in CY27/28. WDC pre-market down 7.1-9.3% with broader tech selloff, creating a potential setup against the fundamental thesis.",
       "tickers": [
-        "INTU"
+        "STX",
+        "WDC"
       ],
       "source_item_ids": [
-        "gmail:19f039a0b3311d1d",
-        "gmail:19f02f515335e318"
+        "gmail:19f042bbcb86bce5"
       ]
     },
     {
-      "title": "NFLX: Wolfe Outperform at $107 PT; 19x forward P/E seen as entry point",
-      "body": "Wolfe Research highlights Netflix at 19x forward P/E as an attractive entry relative to history, calling it one of few stocks that matches quality-growth-price criteria. Streaming survey (MS) shows AMZN Prime, NFLX, and YouTube with the strongest engagement and stickiness, with 90% of services seeing YoY engagement increases. House of Dragon Season 3 debuted with 21.5M viewers in three days.",
+      "title": "ACN: $2B buyback boost to $7.5B (~10% of mkt cap); Q4 buyback rate $2.3B",
+      "body": "Accenture announced a $2B increase to its buyback program bringing the total to $7.5B, representing ~10% of market cap and a 62% YoY increase in program size. The Q4-Aug-26 buyback run rate is $2.3B, signaling management confidence in free cash flow generation per UBS.",
       "tickers": [
-        "NFLX"
+        "ACN"
       ],
       "source_item_ids": [
-        "gmail:19f039a0b3311d1d",
-        "gmail:19f03926fa210825"
+        "gmail:19f045d38bc2a06e"
       ]
     },
     {
-      "title": "ADBE: Acquires Topaz Labs; SaaS multiples compressing week-over-week",
-      "body": "Adobe announced the acquisition of Topaz Labs (AI-powered image/video enhancement tools), adding to its AI creative stack. All-SaaS multiples are down 2.22% week-over-week; All-Security down 1.46%; All-Vertical down 2.30% per Wolfe's index.",
+      "title": "BE/grid: US datacenter power headroom approaching zero by 2027; behind-the-meter power a marginal solution",
+      "body": "Morgan Stanley's TMT note flagged that US datacenter power headroom is approaching zero and turns negative by 2027, making behind-the-meter power solutions increasingly critical. BE is identified as a Russell rebalance net-sell name (R2000\u2192R1000 promotion), creating technical selling pressure today independent of fundamentals.",
       "tickers": [
-        "ADBE"
+        "BE"
       ],
       "source_item_ids": [
-        "gmail:19f02f515335e318"
+        "gmail:19f042db238bb5cf"
       ]
     },
     {
-      "title": "BABA: Down 6.3% on day, -20% YTD amid broad China tech selloff",
-      "body": "Alibaba (BABA US/9988.HK) fell 6.3% on the day and is -20% YTD as China internet stocks broadly sold off. GS Spec Sales notes Alibaba -33% YTD. On a more positive note, Alimama's AI tool WanXiang was invoked 3B+ times during the 618 shopping festival with 20% ROI improvement for merchants.",
+      "title": "NET/DASH/PSKY: Russell promotion names flagged as net sells today; broader software setup improving",
+      "body": "Cloudflare (NET), DoorDash (DASH), and PSKY are flagged as Russell rebalance net-sell names due to R2000\u2192R1000 promotions effective today. Separately, DKNG +2.6% pre-market on DKeX launch. Citi's upgrade of Software to Market Weight suggests improving sector-level tailwind post-rebalance.",
       "tickers": [
-        "BABA"
+        "NET",
+        "DASH",
+        "PSKY",
+        "DKNG"
       ],
       "source_item_ids": [
-        "gmail:19f02dc29ec5af30",
-        "gmail:19f02d74be489ebf"
+        "gmail:19f042db238bb5cf",
+        "gmail:19f0414428d7f6db"
       ]
     },
     {
-      "title": "VZ/T: Starlink mobile launch for US consumers flagged as competitive threat",
-      "body": "SpaceX is planning to launch a new Starlink mobile service for US consumers per the FT, which could represent a longer-term competitive threat to wireless carriers. T and VZ were largely unchanged pre-market following the news, suggesting market views near-term impact as limited.",
+      "title": "BKNG/EXPE: US RevPAR +9.7% YoY, +5.9% QTD with World Cup adding 400bps; Marriott/Hilton both tracking above guidance",
+      "body": "US lodging RevPAR surged 9.7% YoY (week ended June 20) with the World Cup contributing ~400bps; luxury chain scale up 17.4%, urban markets +18.4%. Marriott tracking +3.4% QTD vs. 1.5-2.5% guidance; Hilton +3.4% vs. 2-3% guidance. US-Mexico passenger data flagged as weak, an area Expedia called out last quarter.",
       "tickers": [
-        "VZ",
-        "T"
+        "BKNG",
+        "EXPE"
       ],
       "source_item_ids": [
-        "gmail:19f021f98c82c910"
-      ]
-    },
-    {
-      "title": "SHOP: Campaigns monetization emerging as long-term growth driver per UBS",
-      "body": "UBS flagged Shopify Campaigns/lead generation via the Shop app as a potentially meaningful long-term growth driver, enabling merchants to acquire customers at attributable CAC. Stripe Link users exceed 300M+ vs. PayPal's 439M TTM active accounts for context on addressable user base. No rating change or PT move disclosed in this note.",
-      "tickers": [
-        "SHOP"
-      ],
-      "source_item_ids": [
-        "gmail:19f00cf1dcc0ba05"
+        "gmail:19f042bbcb86bce5",
+        "gmail:19f042b960ddb6e3"
       ]
     }
   ]
