@@ -1,200 +1,227 @@
 {
-  "digest_type": "eod",
-  "digest_dt": "2026-06-25T18:00:00-04:00",
-  "saved_at": "2026-06-25T22:16:21.326831+00:00",
+  "digest_type": "premarket",
+  "digest_dt": "2026-06-26T08:30:00-04:00",
+  "saved_at": "2026-06-26T12:46:40.216959+00:00",
   "bullets": [
     {
-      "title": "Fed likely needs 50-100bp of additional hikes; 1999-2000 analog points to +50bp in 10Y yields",
-      "body": "JPMorgan flags the real Fed funds rate fell to 0.4% in June \u2014 the lowest since April 2023 \u2014 suggesting policy is no longer restrictive. Using the June 1999\u2013May 2000 hiking cycle as the best analog, they model a 50bp rise in intermediate Treasuries and 30bp flattening in the 5s/30s curve. JPMorgan also flags their mid-year global outlook expects Fed hikes despite falling oil prices, with core CPI expected to exceed 3% in 2026.",
-      "tickers": [],
+      "title": "Tech/Semi selloff: OpenAI IPO delay + memory cost inflation drive Asia rout into US open",
+      "body": "Nasdaq futures down ~120bps, S&P down ~50bps as Asian markets fell 2-6% overnight. Catalysts: OpenAI leaning toward delaying IPO to 2027 (unable to achieve $1T valuation), Trump admin requesting staggered GPT-5.6 release for security review, and AAPL/MSFT price hikes (15-25% on Mac/iPad, third Xbox hike in 13 months) flagging memory cost inflation. KOSPI dropped ~6% on Samsung investment announcement spooking semi supply dynamics.",
+      "tickers": [
+        "AAPL",
+        "MSFT",
+        "MU"
+      ],
       "source_item_ids": [
-        "gmail:19f00b0f7ee389d6",
-        "gmail:19f007c0813dd151"
+        "gmail:19f03cb6f51faf17",
+        "gmail:19f03b0c003f0715"
       ]
     },
     {
-      "title": "May PCE in line at 0.3% m/m / 3.4% y/y; super-core services running hot at +0.5%",
-      "body": "Headline PCE came in at 0.3% m/m in line with consensus; core goods fell 0.1% but super-core services surged 0.5% m/m \u2014 the key sticking point. Chicago Fed President Goolsbee noted core inflation is \"still too high and trending wrong way.\" Hedgeye's June CPI nowcast sits at +3.85% y/y (-40bp sequentially), with the official read due July 14.",
-      "tickers": [],
+      "title": "Citi cuts IT/Semis/Hardware to Market Weight; Mag 7 down 7% YTD with limited bottom-fishing appetite",
+      "body": "Citi US Equity Strategy downgraded Information Technology, Semis, and Hardware from Overweight to Market Weight, citing four Mag 7 headwinds: funding concerns, company-specific issues (AAPL margins, MSFT Azure upside limits, AMZN consumer exposure, GOOGL capex, AVGO/NVDA competition), and technicals breaking 200DMA. Software & Services upgraded to Market Weight.",
+      "tickers": [
+        "AAPL",
+        "MSFT",
+        "AMZN",
+        "GOOGL",
+        "NVDA",
+        "AVGO"
+      ],
       "source_item_ids": [
-        "gmail:19eff8d536d77906",
-        "gmail:19effb89b4908f3f"
+        "gmail:19f03b0c003f0715"
       ]
     },
     {
-      "title": "MU blowout drives AI capex trade revival; semis +3.6% while hardware worst sub-sector at -3.7%",
-      "body": "Micron delivered a blowout F3Q with 16 strategic customer agreements (SCAs) featuring take-or-pay volume commitments and pricing floors above prior peak gross margins; management expects tight supply to persist beyond 2027. Semis outperformed +3.6% on the session; MU briefly eclipsed Meta and Tesla in market cap. Conversely, hardware was the worst IT sub-sector (-3.7%) as Apple's 15-25% MacBook/iPad price hikes \u2014 blamed on memory input costs \u2014 sent AAPL down ~6%.",
+      "title": "Memory shortage structural through 2028: MU beat drives read-across, but Samsung/SK Hynix capex spooks supply",
+      "body": "Micron reported $41.5B fiscal 3Q revenue at 81% operating margin, signed 16 Strategic Customer Agreements with $100B+ minimum revenue and price floors above prior cycle peaks, and guided memory tightness through 2027. Samsung planning \u20a91,000 trillion (~$648B) 10-year capex in chips/AI/displays (announcement June 29); SK Hynix also preparing major investment reveal. MLCC spot prices up 15-20%, AI server-grade parts up 50-60%.",
+      "tickers": [
+        "MU"
+      ],
+      "source_item_ids": [
+        "gmail:19f011c434bf0221",
+        "gmail:19f032b2c6d0dc7d"
+      ]
+    },
+    {
+      "title": "Semiconductor pre-market broadly -3 to -5%; software/enterprise names modestly positive",
+      "body": "MU, SNDK, AAOI all -5.1% pre-market; WDC -4.4%; MRVL -3.9%; LITE -3.8%; AMD -3.3%; INTC -3.0%. Offsetting moves in software: NOW +1.5%, PLTR +1.7%, MSFT +1.3%, ADBE +1.2%, TEAM +1.2%. Rotation from semiconductor momentum into defensive software accelerating.",
       "tickers": [
         "MU",
-        "AAPL",
-        "DELL",
+        "SNDK",
+        "MRVL",
+        "LITE",
+        "AMD",
+        "INTC",
+        "PLTR",
         "MSFT",
-        "META"
+        "ADBE"
       ],
       "source_item_ids": [
-        "gmail:19f00693e2b734d9",
-        "gmail:19f00125ab79b09b"
+        "gmail:19f03dd852d0f9b2"
       ]
     },
     {
-      "title": "Mag 7 as source of funds for cyclical rotation; equal-weight S&P outpaced cap-weight by ~70bp",
-      "body": "Equal-weight S&P 500 outpaced the cap-weighted index by roughly 70bp on the session as Mag 7 weakness \u2014 four names down double-digits YTD 2026 \u2014 provided the funding. Small caps, industrials, builders, travel & leisure, and banks were standouts. 22V flags MSFT specifically: Technical Score 0, below deteriorating 200-day MA since February, approaching March lows with downside risk to $250 if $350 support breaks.",
+      "title": "Big Tech as funding source: Goldman/BofA see rotation from Mag 7 into semis and memory",
+      "body": "Goldman Sachs views Big Tech selling as the funding source for rotation into semis and memory stocks. BofA flags liquidity flowing from megacap AI arms racers into semiconductors and illiquid cyclicals ahead of a Trump affordability pivot. Market seen as underweighting capex-heavy 'buyers of shortage' vs near-term EPS drivers ('sellers of shortage').",
       "tickers": [
+        "NVDA",
+        "MU",
         "MSFT",
-        "META",
-        "TSLA",
-        "AAPL",
         "GOOGL",
-        "NVDA"
+        "AMZN"
       ],
       "source_item_ids": [
-        "gmail:19f00632603fad08",
-        "gmail:19f002b4c1303086"
+        "gmail:19f03b27255d1de3"
       ]
     },
     {
-      "title": "Capital markets activity surging: equity issuance +110% YoY, IPOs ~5x, M&A +60% YoY in 2Q26",
-      "body": "Morgan Stanley's Deal Dashboard shows 2Q26 shaping up as the strongest capital markets quarter in years: equity issuance tracking +110% y/y led by North America at +208%, IPOs nearly 5x y/y, and announced M&A +60% y/y. Sponsor M&A is broadening with activity accelerating to +10% y/y, and completed M&A sponsor volume up 53% y/y vs. strategics at +10%.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19f00af3b18ae0b2"
-      ]
-    },
-    {
-      "title": "Benign disinflation base case supports banks, biotech, cyclicals \u2014 but momentum vulnerable if core PCE stays above ~0.2%/month",
-      "body": "The base case remains a soft-landing disinflation path that extends the economic cycle rather than triggering a Fed-tightening recession. This backdrop is constructive for banks, biotech, and cyclicals. However, falling inflation expectations, a stronger USD, and weaker gold alone are insufficient to signal a durable risk-asset rally \u2014 momentum remains fragile if core PCE readings stay elevated.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19f0081bfc2ebdd2"
-      ]
-    },
-    {
-      "title": "10Y yield below 4.40% (5-week low); rates lower on the week despite hawkish macro backdrop",
-      "body": "The 10-year Treasury yield fell to 4.40% \u2014 the lowest since early May \u2014 providing a tailwind to cyclicals and rate-sensitive names even as macro data supports further Fed tightening. The move lower comes despite PCE printing in-line and Fed officials flagging sticky inflation, suggesting some dovish positioning unwind or technical factors at play.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19eff9d3dbbd3ad0",
-        "gmail:19f00633722a28a3"
-      ]
-    },
-    {
-      "title": "Iran attacked Singapore-flagged vessel in Strait of Hormuz; markets largely shrugging off geopolitical noise",
-      "body": "An IRGC projectile incident on a cargo ship in the Strait of Hormuz was reported, but markets mostly disregarded the event given the partial normalization of Persian Gulf crude exports (back to ~75% of pre-war levels with ~13M barrels in region) and a US-Iran peace agreement in progress. WTI crude was up 2.3% on the day after a 3.5% decline Wednesday; energy prices remain ~18% above pre-conflict levels but retail fuel is down ~5% month-over-month.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19f00693e2b734d9",
-        "gmail:19eff8b1742500c3"
-      ]
-    },
-    {
-      "title": "1Q26 US real GDP revised up to +2.1% annualized; capex broadening beyond tech with machinery/metals at record highs",
-      "body": "First-quarter real GDP was revised up 0.5pp to 2.1% q/q annualized on stronger trade and capex. Real capex revised up 50bp to +10.6%; tech orders +0.3% m/m and tech shipments surged 2% m/m. Importantly, the capex cycle is broadening beyond tech \u2014 machinery and fabricated metals orders reached record highs, supporting the cyclical/broadening trade thesis.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19eff8d536d77906"
-      ]
-    },
-    {
-      "title": "JPM mid-year outlook: cyclical upturn sustained in 2H26; tech spend broadening beyond hyperscalers",
-      "body": "JPMorgan's 2026 mid-year global economic outlook calls for continued above-potential growth driven by the tech boom (AI spending broadening beyond hyperscalers), fading business caution lifting investment, and the Strait of Hormuz re-opening reducing energy shock risk. US job growth seen sustaining 100k+/month; Brent projected at $80/bbl in 2H26. More aggressive central bank action cited as the key tail risk.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19f007c0813dd151"
-      ]
-    },
-    {
-      "title": "US midterm primaries: macro policy vectors (tariffs, deregulation, geopolitics) likely unchanged regardless of outcome",
-      "body": "Morgan Stanley's pulse check on midterms (~50% of primaries completed) finds Democratic enthusiasm advantage in early data but concludes that key macro policy drivers \u2014 tariffs, geopolitics, deregulation \u2014 are likely to persist across election outcomes. A 'fragile' Democratic majority would produce policy noise but divided government wouldn't derail variables under executive control.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19f00b476da6fb39"
-      ]
-    },
-    {
-      "title": "Upcoming macro catalysts: NFP Jul 2, ISM-Mfg Jul 1, USMCA review begins Jul 1, Fed meets Jul 29",
-      "body": "Key events next week: China PMI Jun 29, ISM-Mfg Jul 1, USMCA six-year formal joint review kicks off Jul 1, NFP Jul 2, and June CPI Jul 14. Fed meetings scheduled for Jul 29 and Sep 16. Xi potential visit to US in 2H26; US-China trade truce expires Nov 1.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19effeace2609287"
-      ]
-    },
-    {
-      "title": "onsemi acquires Synaptics in $7B all-stock deal; 1.35 ON shares per SYNA share, $200M synergy target",
-      "body": "onsemi agreed to acquire Synaptics in an all-stock transaction valued at ~$7B ($125.62/share). SYNA holders receive 1.350 ON shares per share (~12% pro-forma ownership). The deal is expected to be accretive to non-GAAP EPS within 18 months with $200M annual synergies; closing targeted mid-2027.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19f0071f800fcbfc",
-        "gmail:19f006f3d4b28bcf"
-      ]
-    },
-    {
-      "title": "AI enterprise budget pressure: cheaper open-source and Chinese model alternatives gaining traction",
-      "body": "Morgan Stanley's Tech Talk podcast highlights enterprise customers increasingly evaluating cost vs. value on AI workloads, with open-source and Chinese model alternatives (despite security concerns) pressuring incumbents. Orchestration and model-routing layers are emerging as a potential hedge. Jevon's Paradox is cited as a demand multiplier even as per-unit costs fall. Separately, Alibaba was accused by Anthropic of large-scale distillation to illicitly access Claude capabilities.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19efffacab22935e",
-        "gmail:19f00693e2b734d9"
-      ]
-    },
-    {
-      "title": "Container shipping costs rising, signaling building core goods price pressure despite crude decline",
-      "body": "JPMorgan's energy shock monitor flags container shipping costs moving notably higher \u2014 a leading indicator of goods inflation \u2014 even as retail fuel prices fell ~1.8% week-over-week. US gasoline is still up 32% vs. pre-conflict levels, and jet-fuel prices continue to lag Brent's move lower, suggesting goods and travel inflation may stay elevated in near-term CPI prints.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19eff8b1742500c3"
-      ]
-    },
-    {
-      "title": "US hotel RevPAR surging: weekly +9.7% YoY; luxury +17.4%, World Cup boosting top-25 markets +15.5%",
-      "body": "For the week of June 14-20, US hotel RevPAR was up 9.7% y/y (vs. +7.0% prior week) driven by ADR +8.4% and occupancy +81bps; luxury led at +17.4%. The first full week of World Cup data is a notable driver \u2014 San Francisco +80.5%, Houston +28.1%, Las Vegas +26.2%. Trailing 28-day RevPAR now up +7.3% y/y.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19eff9b96e442281",
-        "gmail:19eff88a8744c9cf"
-      ]
-    },
-    {
-      "title": "Comcast Sky nearing ~$2.2B ITV M&E acquisition; Paramount-WBD merger progressing toward EU approval",
-      "body": "Comcast's Sky unit is reportedly nearing an agreement to acquire ITV's Media & Entertainment business for ~$2.2B to strengthen UK streaming. Separately, the Paramount-Warner Bros. Discovery merger is progressing with EU approval likely but a UK regulatory hurdle remaining. Advertising segment was down 3.1% on the session with APP leading declines.",
+      "title": "JPM raises S&P 500 YE target to 7,800; maintains tactically bullish but flags momentum crowding risk",
+      "body": "Dubravko raises YE26 SPX PT from 7,600 to 7,800 driven by ~10% FY26/FY27 EPS upgrades; 2026 EPS estimate at $350 (+29% y/y), 2027 at $390 (+15%). US GDP growth expected to settle at 1.5-1.75% in H2 after ~3% 2Q. Fed on hold through 2026; unemployment forecast 4.1% in 4Q26. Momentum positioning at sustained highs with elevated flash-crash risk in Low Quality and Speculative Growth. JPM recommends NDX>SPX calls, sell GOOGL/MSFT puts.",
       "tickers": [
-        "CMCSA",
-        "WBD",
-        "FOXA"
+        "SPY"
       ],
       "source_item_ids": [
-        "gmail:19f0076811ba669b"
+        "gmail:19f039d598c38d85",
+        "gmail:19f0388c6b5ccb04"
       ]
     },
     {
-      "title": "Memory cost inflation driving hardware price hikes; AAPL and MSFT raising consumer hardware prices",
-      "body": "Apple announced 15-25% price increases on MacBooks and iPads citing rapid data center expansion driving memory/storage demand shortages, and is skipping the M6 chip to jump directly to an AI-focused M7. Microsoft is raising Xbox Series console prices worldwide (third increase) starting August 1. Both moves reflect AI capex-driven input cost inflation flowing through to consumer hardware pricing.",
+      "title": "Quarter/month-end rebalancing adds selling pressure: Goldman $30B, JPM $165B in estimated equity supply",
+      "body": "Goldman estimates $30B of US equities selling into month/quarter-end (89th percentile); JPMorgan estimates ~$165B equity selling paired with bond buying. Mechanical flows compounding the fundamental tech weakness heading into Friday close.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19f03a76211524e5"
+      ]
+    },
+    {
+      "title": "Fed Williams 'well positioned'; Warsh bolsters inflation credibility; Morgan Stanley sees hold through 2026",
+      "body": "NY Fed's Williams says current monetary policy stance 'well positioned' for 2% inflation target, expecting moderation in coming quarters. Fed Chair Warsh's debut bolsters inflation credibility; 10-year breakevens dropped ~30bp to ~2.2% since mid-May. Morgan Stanley more comfortable with Fed on hold through 2026 if core PCE stays \u22640.2% m/m; rate hike risk if unemployment falls below 4.0% or inflation runs \u22650.3% m/m. JPM separately flags potential 50-100bp mid-cycle tightening risk, with 10Y Treasuries potentially rising 50bp.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19f03a76211524e5",
+        "gmail:19f0251c2e621cc9"
+      ]
+    },
+    {
+      "title": "European quant strategy rotates to 'Contraction' phase; overweight Quality/Value, underweight Growth",
+      "body": "JPMorgan's European QMI shifted to 'Contraction' after two years in 'Recovery,' with 5 of 6 inputs falling. High Risk has outperformed High Quality by +50% since May 2024 trough, but mean-reversion risk rising. Recommended overweights: Health Care, Energy, Staples, Utilities; underweights: Real Estate, Communication Services, Industrials, Discretionary. US top 10 stocks also at near long-run extreme Growth vs. Value exposure.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19f02334a5794625"
+      ]
+    },
+    {
+      "title": "Consumer spending data remains healthy despite tariff/macro noise; retail stocks at 25th percentile NTM PE",
+      "body": "22V Research maintains long retail stance citing real personal spending growth ~2%, nominal ~5%, income growth 4-4.5%. PNC/BAC show lower-income consumers increasing spend; Johnson Redbook same-store sales accelerated to 10% YoY; Fiserv dollar volume growth +7.16% YoY; OpenTable dining at 99.7th percentile. Visa spending momentum index broadening. Retail stocks trade at 25th percentile NTM PE spread vs S&P 1500.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19f03d006097c334"
+      ]
+    },
+    {
+      "title": "AAPL price hikes 15-25% on Mac/iPad: memory cost pass-through signals inventory depletion, potential EPS upside",
+      "body": "Apple raised Mac, iPad, and Home product prices 15-25% (absolute $30-$500) driven by DRAM/NAND cost pressures following Micron's memory shortage guidance through 2028. Magnitude earlier and larger than expected (MS had modeled 5-10%); JPM noted mid-single-digit iPhone increase expectations were too optimistic. No iPhone hikes yet; potential increases with September iPhone 18 launch. JPM specialist view: memory cost anxiety overpriced as hikes offset input costs, supporting record margins.",
       "tickers": [
-        "AAPL",
+        "AAPL"
+      ],
+      "source_item_ids": [
+        "gmail:19f03926fa210825",
+        "gmail:19f0381c2c662b79"
+      ]
+    },
+    {
+      "title": "CIO survey: AI/security budgets surging, enterprise apps budgets declining; 62% have AI in meaningful production",
+      "body": "IT budget growth for 2026 at 3.9%, 2027 at 4.0%, above prior expectations driven by AI and security. Security budget growth jumped 130bps to 4.4%; 84% of CIOs expect to meet or exceed AI token/credit budgets. Enterprise applications seeing net priority declines: MSFT, NOW, ORCL, CRM, ADBE all down; only Workday and SAP up. 62% of respondents have AI in meaningful production, up 20 points vs. 2H25. Claude implementation overtook ChatGPT but trails Copilot.",
+      "tickers": [
+        "NOW",
+        "ADBE",
+        "CRM",
+        "ORCL",
         "MSFT"
       ],
       "source_item_ids": [
-        "gmail:19f002d4e5113a4b",
-        "gmail:19f006a98550041a"
+        "gmail:19f0398e40aecda6"
       ]
     },
     {
-      "title": "Capex broadening trade: semis, industrials, oil services leading; China Internet and unprofitable tech lagging",
-      "body": "Into the close, NDX futures led SPX and RTY while Mag 7 lagged all three major indices. Semis and oil services led sector performance; industrials outperformed within SPX. China Internet and unprofitable tech were the primary laggards. The rotation into cyclicals/value/small caps is consistent with the broadening narrative supported by the capex data revisions and MU's SCA pricing disclosures.",
-      "tickers": [
-        "NVDA"
-      ],
-      "source_item_ids": [
-        "gmail:19f00153b03b9555",
-        "gmail:19f00632603fad08"
-      ]
-    },
-    {
-      "title": "Las Vegas airport traffic +8.4% YoY in May; Louisiana casino GGR +8% YoY with CZR outperforming at +24%",
-      "body": "Las Vegas Harry Reid airport traffic rose 8.4% y/y in May (+4.4% m/m), signaling strong gaming destination demand. Louisiana statewide casino GGR of $246M was up 8% y/y, with CZR's Louisiana portfolio surging 22.8% y/y (Harrah's New Orleans +29%, Horseshoe Bossier City +39%) \u2014 well ahead of JPM's +3% forecast \u2014 while PENN tracked at +3% y/y.",
+      "title": "WTI crude -3.3% to ~$69-70; Saudi OSP cuts signal supply overhang",
+      "body": "WTI down 3.3-3.5% to ~$69-70 on rising Middle Eastern supplies; Brent down ~3.1%. Saudi Arabia likely cutting OSPs for crude to Asia by $6.50-$8.00/barrel in August. EU extends tariff suspension on US products in Boeing-Airbus dispute. Oil pressure compounds broader risk-off, though Hormuz remains open.",
       "tickers": [],
       "source_item_ids": [
-        "gmail:19effa5f05bc5b74",
-        "gmail:19f002fb54021a90"
+        "gmail:19f03b27255d1de3",
+        "gmail:19f0396a7f683ea5"
+      ]
+    },
+    {
+      "title": "Samsung $648B 10-year capex blueprint: positive read-through for semiconductor equipment makers",
+      "body": "Samsung planning \u20a91,000 trillion (~$648B) investment over 10 years spanning chips, AI data centers, batteries, and displays; formal announcement expected June 29 at presidential office. Applied Materials notes DRAM WFE spend expected to be 2x NAND spend. Citi views the mega-capex plan as a positive for semiconductor equipment makers broadly; ASML EUV capacity guide of 90 tools seen as floor with potential upside to 110-120 if customers commit.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19f032b2c6d0dc7d",
+        "gmail:19f02d74be489ebf"
+      ]
+    },
+    {
+      "title": "Data center buildout shifting from engineering to political-economy problem; Virginia $0.011/kWh tax largely passable",
+      "body": "JPM flags data center social license risks as underpriced by the market; power availability increasingly a strategic constraint for AI infrastructure deployment. Virginia approved $0.011/kWh tax on data center electricity consumption, impact expected manageable and largely passed to customers. Taiwan raised 2026-35 power demand growth forecast to 2.5% CAGR from 1.7%, driven by AI data centers (3-4GW by 2035) and semiconductor fabs.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19f037c59ec8d757",
+        "gmail:19f02dffd054b8df"
+      ]
+    },
+    {
+      "title": "AI advertising deployment accelerating post-Cannes; AMZN ad business a key AI beneficiary at 46% margins",
+      "body": "Cannes Lions marked a shift from AI hesitation to active agency deployment with agentic AI. JPM projects AMZN advertising at ~$83B in 2026 (+21% FXN YoY) at ~46% operating margins (~$38B OI), with AI/ML improving ad ranking and ROAS. AI agents seen expanding digital ad TAM rather than cannibalizing; retail media benefits from improved personalization. Prime Video estimated at $7-8B annualized ad revenue (~8-10% of total). OpenAI ad threat viewed as limited at $2.5B 2026 revenue.",
+      "tickers": [
+        "AMZN",
+        "META",
+        "GOOGL"
+      ],
+      "source_item_ids": [
+        "gmail:19f02f71f0123bc5",
+        "gmail:19f03db23298765c"
+      ]
+    },
+    {
+      "title": "Hong Kong/China tech at 52-week lows; BABA -20% YTD, Asian semi equipment stocks +150-500% YTD divergence",
+      "body": "379 of 410 Asian stocks at 52-week lows; major Chinese tech under pressure (Tencent -18% YTD, Alibaba -19%, BYD -42%, Xiaomi -62%). Stark divergence: Chinese semiconductor equipment stocks surging (GigaDevice +507% YTD, AMEC +248%, NAURA +148%). Korea/Taiwan seeing ETF outflows of $6.2B and $4.0B respectively in the latest week.",
+      "tickers": [
+        "BABA"
+      ],
+      "source_item_ids": [
+        "gmail:19f02dc29ec5af30",
+        "gmail:19f02207be38950d"
+      ]
+    },
+    {
+      "title": "ECB inflation expectations moderating but JPM still expects September hike; eurozone/German recovery slow",
+      "body": "ECB Consumer Expectations Survey: median 1-year inflation fell 0.5pp to 3.5% in May; 3- and 5-year expectations steady at 2.9% and 2.4%. JPM expects another ECB rate hike in September despite moderation as expectations remain 1pp above pre-conflict levels. German GDP growth expected to accelerate to 1.4% YoY by 2027; composite PMI declined 0.8pt to stagnant levels in June with Special Infrastructure Fund only 34% deployed.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19f033d1ff8d2806",
+        "gmail:19f03d0aa16e1dc5"
+      ]
+    },
+    {
+      "title": "SpaceX Starlink mobile US consumer launch in planning; T, VZ, TMUS largely unfazed in pre-market",
+      "body": "SpaceX planning to launch a new Starlink mobile service for US consumers. T, VZ, and TMUS were largely unchanged in pre-market following the news, suggesting market is not yet pricing in material competitive disruption.",
+      "tickers": [
+        "VZ",
+        "T"
+      ],
+      "source_item_ids": [
+        "gmail:19f021f98c82c910"
+      ]
+    },
+    {
+      "title": "MSFT faces Italian antitrust probe over Microsoft 365/Copilot price hike disclosure practices",
+      "body": "Italy's AGCM launched an investigation into Microsoft Ireland Operations and Microsoft S.r.l. for allegedly failing to clearly disclose that Microsoft 365 was integrated with Copilot/Designer AI services, and for defaulting consumers onto higher-priced plans. Conduct seen as potentially violating consumer protection rules; adds to regulatory headline risk alongside existing memory cost and margin pressures.",
+      "tickers": [
+        "MSFT"
+      ],
+      "source_item_ids": [
+        "gmail:19f0290851a12761"
       ]
     }
   ]
