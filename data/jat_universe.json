@@ -1,240 +1,244 @@
 {
-  "digest_type": "midday",
-  "digest_dt": "2026-07-01T12:00:00-04:00",
-  "saved_at": "2026-07-01T16:13:36.723455+00:00",
+  "digest_type": "eod",
+  "digest_dt": "2026-07-01T18:00:00-04:00",
+  "saved_at": "2026-07-01T22:15:07.697420+00:00",
   "bullets": [
     {
-      "title": "FOXA: Wolfe upgrades to Outperform, $71 PT on Roku deal re-rating",
-      "body": "Wolfe upgrades FOXA to Outperform with $71 PT (36% upside) after shares fell 17% on the $22B Roku deal announcement and now sit 23% below pre-deal levels. The deal doubles Fox's long-term sales CAGR, lifts streaming to ~45% of TV engagement, and targets $400M in cost synergies; pro forma trades at 11.8x NTM UFCF. SOTP analysis implies $80/share fair value.",
+      "title": "META +8.8%: Cloud compute monetization story dominates \u2014 Bulls cite $20B+ ARR optionality, Bears see capex desperation",
+      "body": "META surged ~8.8% on Bloomberg reports it is building 'Meta Compute' to sell excess AI infrastructure capacity (GPU access + model APIs, similar to AWS Bedrock). Bulls: KeyBanc (OW, $760 PT) sees $20B+ ARR upside and improved capex ROI; Citi (Buy, $850 PT) calls it FCF-accretive; Mizuho (OP, $835 PT) views it as 2027-28 optionality; Morgan Stanley (OW, $775 PT) estimates every 250MW leased generates ~$3 EPS accretion in '28. Bear case (Oppenheimer): excess capacity signals advertising slowdown and failed frontier LLM strategy. Meta's Muse models underperformed on key benchmarks vs. Gemini.",
       "tickers": [
-        "FOXA",
-        "ROKU"
+        "META"
       ],
       "source_item_ids": [
-        "gmail:19f1e0653000584d"
+        "gmail:19f1fa9be778a7f1",
+        "gmail:19f1ee534c6c2867"
       ]
     },
     {
-      "title": "CRM, NOW: Guggenheim upgrades both to Buy on AI fears 'priced in'",
-      "body": "Guggenheim upgraded CRM to Buy at $228 PT and NOW to Buy at $125 PT, arguing current valuations imply decline into perpetuity that Guggenheim views as excessive. Firm expects subscription revenue growth to stabilize in 2026 and potentially accelerate into 2027 despite material but manageable AI disruption risk; NOW upgrade also tied to expected improvement in federal business.",
+      "title": "CRWV -14%, NBIS -15%: META compute announcement is direct competitive threat to neoclouds",
+      "body": "CoreWeave (CRWV) fell ~14% and Nebius (NBIS) fell ~15% as markets priced in META as a direct neocloud competitor. DA Davidson flags NBIS has META as >50% of backlog and CRWV at ~33%; JPM characterizes the selloff as positioning/de-grossing rather than a fundamental demand shift. DA Davidson views NVDA and GOOGL as largely insulated, while AMD and AVGO face more vulnerability if META scales back third-party GPU demand.",
+      "tickers": [
+        "CRWV",
+        "NBIS",
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "GOOGL"
+      ],
+      "source_item_ids": [
+        "gmail:19f1e8336b51d8f8",
+        "gmail:19f1f67cba7b7faf"
+      ]
+    },
+    {
+      "title": "Semis/Memory selloff: MU -10.6%, SOX -6.3% on META neocloud fears and momentum unwind",
+      "body": "Semiconductor index fell 6.3% led by MU -10.6% after its ~88% SOX rally in H1; SNDK also down sharply. DA Davidson argues MU selloff is unwarranted \u2014 fundamentals remain positive at 8x earnings with DRAM spot prices up 8x YoY after three consecutive monthly gains and NAND still 5x higher YoY. DRAM/NAND strength driven by HBM skew toward AI servers. JPM LLM token demand re-accelerating: June volumes up 70% MoM, 20x YoY.",
+      "tickers": [
+        "MU",
+        "SNDK",
+        "NVDA",
+        "AMD",
+        "AVGO"
+      ],
+      "source_item_ids": [
+        "gmail:19f1f5863abdbc59",
+        "gmail:19f1f67cba7b7faf"
+      ]
+    },
+    {
+      "title": "AAPL: Cutting iPhone 17 production; in talks with Chinese memory suppliers CXMT/YMTC",
+      "body": "Apple is reducing iPhone 17 production plans amid lower shipment forecasts, while simultaneously in talks with Pentagon-blacklisted Chinese chipmakers CXMT and YMTC for China-market memory chips and lobbying White House for support. Memory/storage prices have quadrupled in three quarters; Counterpoint estimates higher component costs could add ~$200/iPhone. Apple has already announced 15-33% price hikes across Mac/iPad/HomePod lines citing supply constraints.",
+      "tickers": [
+        "AAPL",
+        "MU"
+      ],
+      "source_item_ids": [
+        "gmail:19f1f5046e210892",
+        "gmail:19f1f5863abdbc59"
+      ]
+    },
+    {
+      "title": "MSFT: Job cuts next week impacting thousands; stock +3% as software/internet outperforms",
+      "body": "Microsoft is reportedly announcing thousands of job cuts next week (described as less than 2.5% of workforce), yet MSFT shares gained ~3% on the day as software and internet sectors broadly outperformed while semis lagged. No analyst rating change noted.",
+      "tickers": [
+        "MSFT"
+      ],
+      "source_item_ids": [
+        "gmail:19f1f4ddd48f21b8",
+        "gmail:19f1f5863abdbc59"
+      ]
+    },
+    {
+      "title": "BE: Expanded Brookfield AI infrastructure partnership to $25B from $5B; UBS raises PT to $355",
+      "body": "Bloom Energy expanded its AI infrastructure partnership with Brookfield to $25B (from $5B), with Brookfield's AI Infrastructure Fund targeting $100B deployment total. UBS reiterated Buy and raised its price target to $355 from $322. Utilities sector was broadly weak (S&P Utilities Index -1.3%), with IPPs TLN -6.1%, VST -3.5%, CEG -4.8%.",
+      "tickers": [
+        "BE",
+        "TLN",
+        "VST",
+        "CEG"
+      ],
+      "source_item_ids": [
+        "gmail:19f1f6a6e7aec59f"
+      ]
+    },
+    {
+      "title": "FOXA upgraded to Outperform at Wolfe; APP extends rally after Raymond James strong buy; WBD merger progresses",
+      "body": "FOXA upgraded to Outperform at Wolfe Research, with the Roku merger shifting narrative to multichannel growth (+3.8%). APP extended gains after Monday's Raymond James strong buy initiation citing e-commerce advertising growth opportunity (+9.6% on day). PSKY received unconditional regulatory approvals from Kuwait, Austria, and Australia for WBD takeover; submitted EU commitments. CMCSA declined after announcing plan to spin off media business.",
+      "tickers": [
+        "FOXA",
+        "APP",
+        "WBD",
+        "CMCSA"
+      ],
+      "source_item_ids": [
+        "gmail:19f1f55bb49f8761",
+        "gmail:19f1f55697ad4ce6"
+      ]
+    },
+    {
+      "title": "CRM and NOW both upgraded to Buy at Guggenheim",
+      "body": "Salesforce (CRM) upgraded to Buy at Guggenheim with a $228 PT, with the AI bear case called a 'hallucination.' ServiceNow (NOW) also upgraded to Buy at Guggenheim with a $125 PT on valuation and double-digit growth trajectory. Both names benefited from the broader software/internet outperformance day (+3.1% sector).",
       "tickers": [
         "CRM",
         "NOW"
       ],
       "source_item_ids": [
-        "gmail:19f1de6d7694dace",
-        "gmail:19f1dc5db8592763"
+        "gmail:19f1f5863abdbc59",
+        "gmail:19f1f4ddd48f21b8"
       ]
     },
     {
-      "title": "AFRM: Citi reiterates Buy, raises PT to $115 on FY27 29%+ GMV conviction",
-      "body": "Citi raises AFRM PT from $100 to $115, citing achievable FY27 GMV growth of 29%+ (above management's 25%+ target) and FY29 GAAP EPS potential of $5.00 vs. consensus $3.70. The note reflects high conviction on growth/profitability trajectory.",
+      "title": "AFRM: Citi raises PT to $115; FY29 EPS upside case to $5.00 (+34% vs consensus)",
+      "body": "Citi raises AFRM price target to $115 with a FY29 GAAP EPS upside scenario of $5.00 vs. consensus $3.72, driven by 30% GMV growth (vs. 25%+ midterm target) from new merchants (Intuit, ServiceTitan, Lowe's, Costco) and Affirm card, RLTC margins at high end of 4% range, and 30% GAAP operating margin. Company expected to exceed 4Q26 guidance with 300+ bps GMV and revenue upside; FY27 guidance expected at 29% GMV growth.",
       "tickers": [
         "AFRM"
       ],
       "source_item_ids": [
-        "gmail:19f1e604ace771a7"
+        "gmail:19f1ef7f54fb941d"
       ]
     },
     {
-      "title": "META: 'Meta Compute' cloud launch \u2014 mixed read on AI capex discipline",
-      "body": "Meta is building a cloud business ('Meta Compute') to sell excess AI computing capacity, potentially generating $10-15B annually and adding ~8% to 2028 EPS as a 'backup safety valve.' Citi notes early feedback is split \u2014 bulls see monetization supporting further AI investment; bears read excess capacity as evidence of overbuilding.",
+      "title": "TSLA: Q2 deliveries estimated at ~396K, tracking toward a beat per Morgan Stanley",
+      "body": "Tesla's Q2 2026 deliveries are estimated at approximately 396,466 vehicles globally, with Morgan Stanley flagging the quarter is tracking toward a beat. Near-term energy storage solutions (ESS) outlook remains conservative per MS.",
       "tickers": [
-        "META"
+        "TSLA"
       ],
       "source_item_ids": [
-        "gmail:19f1dda7652d6567",
-        "gmail:19f1e604ace771a7"
+        "gmail:19f1ea5b636e45ef",
+        "gmail:19f1f4ddd48f21b8"
       ]
     },
     {
-      "title": "BE: Bloom Energy surges ~7.5% on Brookfield partnership expansion to $25B",
-      "body": "Bloom Energy expanded its AI infrastructure partnership with Brookfield from $5B to $25B (25 GW capacity framework), with ~2.5 GW already signed (AEP, ORCL, NBIS) and a path to 5 GW+ by 2030. Stock was up ~7.5% premarket on the news; MS views this as strong signal of hyperscaler onsite power demand.",
+      "title": "PLTR: CEO says 'something has gone completely wrong' with OpenAI/Anthropic token models",
+      "body": "Palantir CEO made pointed comments that something has fundamentally gone wrong with OpenAI and Anthropic's token model approaches. No analyst rating action tied to the comment, but it received prominent placement in afternoon market summaries alongside Uber dismissing two tech leaders at its AI data labeling business.",
       "tickers": [
-        "BE",
-        "ORCL",
-        "NBIS"
+        "PLTR"
       ],
       "source_item_ids": [
-        "gmail:19f1dda7652d6567",
-        "gmail:19f1dbe3821a10c4"
+        "gmail:19f1f4ddd48f21b8",
+        "gmail:19f1f1441b100d20"
       ]
     },
     {
-      "title": "OKLO: DOE approves final safety analysis for Grove reactor; first criticality targeted July 2026",
-      "body": "Oklo received DOE approval for the final safety analysis of its Grove Isotope Test Reactor in Texas, with first criticality targeted for July 2026. Stock up ~3.4-3.9% premarket on the news.",
+      "title": "HOOD: Added to Mizuho July Top Picks list as new #1 addition",
+      "body": "Robinhood Markets (HOOD) was added to Mizuho's July Top Picks list as one of the new #1 additions for the month. The 28-stock list is bottom-up, analyst-driven highest-conviction ideas with a 12-month outlook; no specific PT or thesis detail was provided beyond the addition.",
       "tickers": [
-        "OKLO"
+        "HOOD"
       ],
       "source_item_ids": [
-        "gmail:19f1dbe3821a10c4",
-        "gmail:19f1dbe151525263"
+        "gmail:19f1f4ae280ffb78"
       ]
     },
     {
-      "title": "MRVL: Meta's in-house Vistara CXL ASIC is an incremental negative, but thesis intact",
-      "body": "Hedgeye flags Meta's custom Vistara CXL ASIC (DDR4 reuse) as an incremental negative for Marvell's Structera X product but says Marvell's broader CXL portfolio and hyperscaler adoption thesis remain intact. MRVL was down ~2.1% premarket in the broad semiconductor selloff.",
+      "title": "BABA: To pay $600M to settle DOJ probe over illegal substance sales on payment platform",
+      "body": "Alibaba Group and its digital payment processor AUS Merchant Services agreed to pay $600M to settle a U.S. DOJ probe related to allegations of not preventing the illegal sale and importation of controlled substances and pharmaceuticals. BABA shares were up ~$2.46 to $98.45 at the time of the announcement.",
       "tickers": [
-        "MRVL"
+        "BABA"
       ],
       "source_item_ids": [
-        "gmail:19f1e2421fe7604b",
-        "gmail:19f1dc5db8592763"
+        "gmail:19f1f1990a588e18"
       ]
     },
     {
-      "title": "Semis under pressure: MU, AMD, SNDK, GLW all lower; DRAM 70 and NVDA 190 key levels",
-      "body": "Morning market color flags a rotation out of momentum/semis with DRAM below 70 described as 'concerning' \u2014 needs to reclaim that level to restore confidence. Critical technical levels cited: DRAM 70, SMH 575, SPX 7380, NVDA 190. Premarket: SNDK -4.7%, GLW -3.8%, MU -3.3%, AMD -1.4%; correlation indicator at 5-yr lows historically precedes 10-20% momentum corrections.",
+      "title": "Jefferies semis analyst raises PTs across AI infrastructure names ahead of earnings; BUY on NVDA ($300), AVGO ($550), ALAB ($270), CRDO ($270)",
+      "body": "Jefferies' Blayne Curtis is hosting NYC investor meetings July 8 and carries BUY ratings on AMD ($515 PT), AVGO ($550), ALAB ($270), CRDO ($270), LITE ($1,200), MTSI ($450), MRVL ($325), NVDA ($300), SNDK ($3,000), and PI ($175). HOLDs on INTC ($120) and TXN ($260). Focus on AI accelerator and networking/optical spend and WFE trends expected to move higher.",
       "tickers": [
         "NVDA",
-        "MU",
+        "AVGO",
         "AMD",
-        "COHR",
+        "ALAB",
+        "CRDO",
         "MRVL",
+        "SNDK",
         "INTC",
-        "LITE",
-        "GLW"
+        "TXN"
       ],
       "source_item_ids": [
-        "gmail:19f1e007db3fc1c0",
-        "gmail:19f1dc5db8592763"
+        "gmail:19f1ea81a92dd155"
       ]
     },
     {
-      "title": "GOOGL: AI Overviews cutting outbound clicks 40%, raising monetization risk",
-      "body": "Citi cites study showing GOOGL's AI Overviews reduce outbound organic clicks by 39.8% and increase zero-click searches by 34.5% without improving user experience, posing a structural risk to the web traffic ecosystem. Separately, GOOGL faces a Swedish court-ordered $1.5B antitrust payment to Klarna and a South Korea app store review.",
+      "title": "GS desk: Semis extended on AI upside; exchanges (ICE/CME/CBOE) oversold after BTC futures approval; STX lagging WDC",
+      "body": "Goldman Sachs equities desk notes semiconductor sentiment is meaningfully higher (AMAT +62%, LRCX +35% YTD) as investors shift upstream in AI value chain. Exchanges sold off ~20% on CFTC approval of BTC perpetual futures and are now viewed as oversold. STX is noted as lagging WDC recently with ongoing debate on the bull case. SPOT/DASH/RDDT weakness also flagged as ongoing discussion.",
       "tickers": [
-        "GOOGL"
+        "STX",
+        "RDDT",
+        "DASH",
+        "SPOT"
       ],
       "source_item_ids": [
-        "gmail:19f1e604ace771a7",
-        "gmail:19f1dbb9d243c2f6"
+        "gmail:19f1f77a26be7cad"
       ]
     },
     {
-      "title": "MSFT: Layoffs <2.5% of workforce next week; Kyndryl sovereignty partnership minor positive",
-      "body": "MSFT is planning job cuts affecting less than 2.5% of its workforce next week in sales, consulting, and Xbox divisions; stock was up ~1.8% premarket, suggesting market sees cuts as cost discipline. Separately, Kyndryl expanded a sovereignty cloud partnership with MSFT targeting data-residency-sensitive enterprise customers.",
+      "title": "IREN: To be acquired by RKLB per Morgan Stanley digest",
+      "body": "Morgan Stanley's peer reading digest flagged that IREN is to be acquired by Rocket Lab (RKLB). No further deal terms or analyst rating action included in the note.",
       "tickers": [
-        "MSFT"
+        "IREN"
       ],
       "source_item_ids": [
-        "gmail:19f1e604ace771a7",
-        "gmail:19f1dc8ebd0537b0"
+        "gmail:19f1ea5b636e45ef"
       ]
     },
     {
-      "title": "AAPL: Reducing iPhone 17 production plans on lower shipment forecasts",
-      "body": "Apple is said to be cutting production plans for the iPhone 17 lineup amid lower shipment forecasts, per MacRumors. No quantification provided, but directionally negative for the supply chain.",
-      "tickers": [
-        "AAPL"
-      ],
+      "title": "Hedge funds rotated out of TMT into cyclicals in June; net sold equities for first time in 3 months",
+      "body": "Global fundamental L/S managers achieved record-breaking Q2 2026 performance, then net sold global equities in June for the first time in three months \u2014 led by short sales. Gross and net leverage fell, led by US and Asia L/S managers. Sector rotation: out of Info Tech and Comm Services, into Cyclicals in US positioning.",
+      "tickers": [],
       "source_item_ids": [
-        "gmail:19f1e1f56a65368d"
+        "gmail:19f1fa09a1364ee9"
       ]
     },
     {
-      "title": "AMZN: Best-in-class agentic commerce at 77% rec rate; expanding Alexa price-history features",
-      "body": "DA Davidson's agentic commerce testing showed AMZN with a 77% recommendation rate across 35 project-based queries \u2014 best-in-class \u2014 well ahead of peers. AMZN is also expanding Alexa for Shopping with 30/90/365-day price history to support AI-assisted purchasing, leaning into the agentic retail shift.",
+      "title": "JPM maintains tactical bullish call with Tech/Cyclicals barbell; adds Healthcare as low-correlated long into earnings",
+      "body": "JPM's afternoon briefing maintains a tactical bullish stance with a Tech/Cyclicals barbell and adds Healthcare as a low-correlated long. Q2 earnings season fundamentals solid per FactSet: 12.1% revenue growth, 22.0% earnings growth, 14.1% margins expected. Period-end rebalancing largely complete; dip-buying behavior prevalent. Citi separately raised S&P 500 year-end target to 8,100 with 2026E earnings of $350 and 2027E of $400.",
       "tickers": [
+        "SPY"
+      ],
+      "source_item_ids": [
+        "gmail:19f1f67cba7b7faf",
+        "gmail:19f1f4f7f5ad9635"
+      ]
+    },
+    {
+      "title": "Fed Chair Warsh dovish lean: AI productivity upside, inflation expectations declining, task force news coming",
+      "body": "Fed Chair Warsh at ECB Sintra cited 'high 2s' productivity growth over past four quarters and flagged AI's 'huge implications for monetary policy.' He noted inflation expectations and risks have declined over the past four weeks, and signaled desire to eliminate the dot plot. Long-end Treasury yields rose 6bp on his comments. Former BoE Governor Mervyn King to co-chair Fed communications task force; staffing announcement expected next week.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19f1edbbff5e3a09",
+        "gmail:19f1f7ee5950fa23"
+      ]
+    },
+    {
+      "title": "JPM semi/hyperscaler divergence note: semiconductor outperformance vs hyperscalers viewed as unsustainable",
+      "body": "JPM flags semiconductors have outperformed hyperscalers steadily since September 2025, which it views as unsustainable. Hyperscalers posted record 100% YoY capex growth in 2026 but equity prices are flat and credit spreads have widened vs. semis. Short interest in hyperscalers rising steeply in May-June. Base case requires hyperscalers to successfully monetize AI; consensus sees sharp capex deceleration from 2027 as the key risk scenario.",
+      "tickers": [
+        "NVDA",
+        "GOOGL",
+        "MSFT",
         "AMZN"
       ],
       "source_item_ids": [
-        "gmail:19f1dfb3f7019d02",
-        "gmail:19f1dd625d537016"
-      ]
-    },
-    {
-      "title": "MU: Strategic Customer Agreement with GM; stock weak on memory sector selloff",
-      "body": "Micron signed a Strategic Customer Agreement with GM for long-term supply of memory and storage for vehicle production \u2014 one of 16 SCAs discussed on its FQ3 earnings call. Despite this positive, MU was down ~3.3% premarket as the broader memory sector sold off (DRAM below key 70 support level).",
-      "tickers": [
-        "MU"
-      ],
-      "source_item_ids": [
-        "gmail:19f1dab9fe04df9b",
-        "gmail:19f1dc5db8592763"
-      ]
-    },
-    {
-      "title": "JPM technical note: Hyperscaler-semi divergence mirrors 1999-2000; monitor GOOGL, AMZN, MSFT, META, ORCL",
-      "body": "JPM's equity technical team warns that hyperscalers (GOOGL, AMZN, MSFT, META, ORCL) are underperforming semiconductors, creating a divergence similar to the 1999-2000 Communications Services vs. Equipment split. Summer hyperscaler weakness could trigger a sentiment-driven fall selloff; S&P support at 7000-7200 seen as buying opportunity if distribution doesn't form by Labor Day.",
-      "tickers": [
-        "GOOGL",
-        "AMZN",
-        "MSFT",
-        "META",
-        "ORCL"
-      ],
-      "source_item_ids": [
-        "gmail:19f1e470e1821ed1"
-      ]
-    },
-    {
-      "title": "FOXA/ROKU, CMCSA: Media-specific catalysts \u2014 Fox upgrade, Comcast spinoff regulatory review",
-      "body": "Beyond the Wolfe FOXA upgrade (see above), Wolfe Research hosted a replay Q&A with ex-FCC counsel on Comcast's plan to spin out NBCU and Sky, examining the regulatory approval pathway and potential M&A consequences. No rating action on CMCSA disclosed.",
-      "tickers": [
-        "FOXA",
-        "ROKU",
-        "CMCSA"
-      ],
-      "source_item_ids": [
-        "gmail:19f1e0653000584d",
-        "gmail:19f1e0c4fd3ad477"
-      ]
-    },
-    {
-      "title": "GS Conviction List adds AVGO-adjacent AI capex theme; 2Q earnings seen +22% YoY",
-      "body": "Goldman's July conviction list adds EL, NXT, and WFC; separately, GS notes June S&P pullback masked semi outperformance despite Mag-7 declining ~7%, and views hyperscaler capex expectations as still too conservative. 2Q S&P earnings expected to grow +22% YoY with AI investment as primary driver; market broadening creates alpha opportunities.",
-      "tickers": [
-        "AVGO",
-        "DASH"
-      ],
-      "source_item_ids": [
-        "gmail:19f1dab1be930bd3"
-      ]
-    },
-    {
-      "title": "DKNG: Q2 EBITDA estimates in low $100Ms; hold% trends reversed despite World Cup",
-      "body": "Hedgeye warns DKNG and FLUT Q2 EBITDA estimates sit in the low $100Ms, with hold percentage trends reversing negatively in May despite World Cup tailwinds. Kalshi's sports handle up 7% W/W with ~26.6% market share, driven by World Cup at ~67% of handle.",
-      "tickers": [
-        "DKNG"
-      ],
-      "source_item_ids": [
-        "gmail:19f1e2421fe7604b"
-      ]
-    },
-    {
-      "title": "CEG, VST, TLN: Power stocks mixed \u2014 PJM regulatory uncertainty weighing on IPPs",
-      "body": "IPP stocks (CEG, VST, TLN) traded off on PJM reliability backstop mechanism uncertainty and curtailment program discussions, with Board submission to FERC expected July 10. PJM separately advanced a new capacity procurement plan driven by data center demand surge; CEG down 3.5% on the day and 25.8% from 52-week high.",
-      "tickers": [
-        "CEG",
-        "VST",
-        "TLN"
-      ],
-      "source_item_ids": [
-        "gmail:19f1dda7652d6567",
-        "gmail:19f1dbe3821a10c4"
-      ]
-    },
-    {
-      "title": "SHOP: UBS payments dinner highlights long-term monetization opportunity",
-      "body": "UBS is hosting a Shopify investor lunch in Boston on July 15 alongside a broader payments dinner covering Shopify's long-term growth algorithm, enterprise opportunity, and payments monetization as part of a deep-dive on the PayFac-as-a-Service convergence trend. No rating action disclosed but signals active UBS engagement on SHOP positioning.",
-      "tickers": [
-        "SHOP"
-      ],
-      "source_item_ids": [
-        "gmail:19f1e26761151bea"
-      ]
-    },
-    {
-      "title": "NVDA, FN, COHR: Roth survey probes GPU cluster optical transceiver sourcing dynamics",
-      "body": "Roth's Vol. 6 GPU cluster survey examines whether hyperscalers/CSPs are buying 800G/1.6T optical transceivers directly from NVDA (Innolight/Coherent resale) vs. sourcing from Fabrinet, assessing switching likelihood and premium pricing expectations. Results pending but directionally relevant for FN and COHR positioning around the AI infrastructure buildout.",
-      "tickers": [
-        "NVDA",
-        "FN",
-        "COHR"
-      ],
-      "source_item_ids": [
-        "gmail:19f1dfbdb4069d1d"
+        "gmail:19f1f33354a4f3c0"
       ]
     }
   ]
