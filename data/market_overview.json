@@ -1,218 +1,208 @@
 {
-  "digest_type": "eod",
-  "digest_dt": "2026-06-30T18:00:00-04:00",
-  "saved_at": "2026-06-30T22:16:47.920873+00:00",
+  "digest_type": "midday",
+  "digest_dt": "2026-07-01T12:00:00-04:00",
+  "saved_at": "2026-07-01T16:13:36.719456+00:00",
   "bullets": [
     {
-      "title": "Q2 2026: NDX +27%, SOX +88% \u2014 best quarterly returns on record",
-      "body": "The Nasdaq 100 posted its best quarter since Q2 2020 (+27%), while the SOX delivered its strongest quarterly return since inception in 1993/1994 (+87\u201388%), driven by AI capex enthusiasm and memory supply tightness. MU and SNDK led with +241.7% and +257.9% respectively in Q2; tech sector overall gained +31.6% vs. S&P 500 +14.87%.",
+      "title": "ADP misses big: 98k jobs in June vs 118k est; wage growth flat",
+      "body": "ADP's June employment report came in at 98k, well below the 118k Street estimate, with wage growth unchanged at 4.4%. Hiring was broad-based across firm sizes (small +53k, medium +29k, large +25k) but the headline miss signals a softening labor market, consistent with Conference Board consumer confidence falling to 91.2 in June with the labor market differential dropping to 2.4. Multiple sources note expectations for weaker labor prints through summer.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19f1dbe3821a10c4",
+        "gmail:19f1dc942bc133df"
+      ]
+    },
+    {
+      "title": "ISM Manufacturing 53.3 in June, misses; prices paid ease for second straight month",
+      "body": "June ISM Manufacturing printed 53.3, below MS's 54.3 forecast and consensus 53.9, with production and new orders decelerating though remaining in expansion. Prices paid fell for the second consecutive month on easing energy prices, and supplier deliveries/inventories suggest improving supply constraints. Post-COVID manufacturing recovery continues to face headwinds from elevated protectionism.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19f1e2e1fad79265"
+      ]
+    },
+    {
+      "title": "Fed's Warsh tilts dovish, acknowledges falling inflation expectations; MS sees hold through YE26",
+      "body": "Fed Chair Warsh declined to provide forward guidance on July but acknowledged inflation expectations have declined over the past four weeks and that inflation risks have come down \u2014 characterized as a dovish tilt despite efforts to avoid signaling. Morgan Stanley expects the Fed on hold through end of 2026, though UBS notes a significant minority of reserve managers see a pre-emptive July or September hike if US data stays strong.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19f1e394a8c0c50f",
+        "gmail:19f1db53ed5e149c"
+      ]
+    },
+    {
+      "title": "AI capex share of GDP now exceeds 1990s tech boom; contribution to growth cooling",
+      "body": "Analysis finds AI capex's contribution to final domestic demand is overstated by ~2/3 once semiconductor and hardware import drag is removed, and value-added growth from AI (particularly data processing) has recently cooled. Current AI capex as a share of GDP slightly exceeds the 1990s tech/telecom boom, raising overinvestment parallels; if spending merely stabilizes rather than contracts, aggregate demand hit is ~40bps \u2014 manageable. The case for a hawkish Fed driven by AI sector strength is now less clear.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19f1e504fee83217"
+      ]
+    },
+    {
+      "title": "Global PMIs soften: Foreign Mfg PMI -0.2pt to 51.5%; Japan Tankan surges but outlook weakens",
+      "body": "PSC's preliminary June Foreign Manufacturing PMI slipped to 51.5% with both EM and DM ex-US aggregates declining; Taiwan and Korea PMIs slipped while Asia PMI overall eased to 51.6 (-0.3pp) from two-year highs, though 9 of 10 Asian economies remain in expansion. Japan's Large Manufacturing Tankan jumped to a cycle high of 22 (vs. 16 consensus), but the 3Q outlook component fell to 17, and All Industries Tankan is projected to slip to 11 in 3Q from 18. Eurozone June headline CPI came in below expectations at 2.8% y/y. Global growth forecast ticked down to 3.0% from 3.1%.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19f1e007db3fc1c0",
+        "gmail:19f1dfa91625ed26"
+      ]
+    },
+    {
+      "title": "Momentum reversal risk: correlation at lows, semis/memory leading rotation; key levels SPX 7430, NVDA 190",
+      "body": "Early session rotation out of momentum into laggards with memory, semis, and AI infrastructure leading weakness. COR1M correlation broke below 8 (to 5.79), a setup that historically precedes 10-20% momentum corrections and 2-3% S&P pullbacks \u2014 last similar setup preceded the June 5 unwind. Key technical levels: SPX 7500 resistance, gamma flip at 7430, DRAM 70 support, NVDA 190, SMH 575. JPM technical analysis separately flags the S&P stalling at 7617 with a potential dip to 7000-7200 as a buying opportunity, but warns a distribution pattern could form by Labor Day.",
+      "tickers": [
+        "NVDA",
+        "SPY"
+      ],
+      "source_item_ids": [
+        "gmail:19f1e007db3fc1c0",
+        "gmail:19f1e470e1821ed1"
+      ]
+    },
+    {
+      "title": "Hyperscaler vs. semiconductor divergence mirrors 1999-2000; JPM flags Q3-Q4 setoff risk",
+      "body": "JPM technical strategy warns that hyperscalers (GOOGL, AMZN, MSFT, META, ORCL) underperforming semiconductors is creating a divergence analogous to the Communications Services vs. Equipment split in 1999-2000. If hyperscalers remain weak through summer, the setup could trigger a sentiment-driven setback into fall. Philly Semi maintains higher swing highs/lows but at a decelerated pace, with support at 11,760-12,870.",
+      "tickers": [
+        "ORCL",
+        "META",
+        "MSFT",
+        "AMZN",
+        "GOOGL"
+      ],
+      "source_item_ids": [
+        "gmail:19f1e470e1821ed1"
+      ]
+    },
+    {
+      "title": "Semis broad premarket selloff: SNDK -4.7%, MU -3.3%, GLW -3.8%; memory/storage complex under pressure",
+      "body": "Broad semiconductor and storage names sold off in premarket, led by SNDK -4.7%, GLW -3.8%, MU -3.3%, WDC -2.7%, COHR -2.3%, MRVL -2.1%, STX -2.0%, INTC -1.5%, AMD -1.4%. DRAM breaking below 70 support flagged as a key concern for sector confidence. S&P futures +0.18% at 7534.75; 10yr yield +4bps to 4.49%; WTI +0.85% to $68.91.",
       "tickers": [
         "MU",
-        "SNDK",
-        "NVDA",
-        "GOOGL",
-        "AMZN",
+        "AMD",
+        "MRVL",
+        "COHR"
+      ],
+      "source_item_ids": [
+        "gmail:19f1dc5db8592763",
+        "gmail:19f1e007db3fc1c0"
+      ]
+    },
+    {
+      "title": "Market breadth broadening: small caps outperforming, Russell 2000 at historic relative lows vs S&P",
+      "body": "Multiple sources highlight market leadership broadening beyond Mega-7, with small caps outperforming driven by improving earnings expectations and historical relative valuations near multi-decade lows vs. the S&P 500. Goldman notes June's S&P pullback masked broader strength with semis outperforming while Mag-7 declined ~7%; 2Q earnings expected to grow +22% YoY. 22V recommends an IWM Aug 290/260 put spread (~$4.60, 5.5x max payoff) as a near-term hedge ahead of mega-cap earnings, while remaining constructive longer-term with a Russell 2000 target of 3200.",
+      "tickers": [
+        "SPY"
+      ],
+      "source_item_ids": [
+        "gmail:19f1db6e71de39e4",
+        "gmail:19f1dab1be930bd3"
+      ]
+    },
+    {
+      "title": "IPO boom: $129B YTD (7x YoY), AI dominates; lockup expirations flagged as primary risk",
+      "body": "US IPO volume hit $129B year-to-date, a 7x increase versus prior year, with the AI supercycle dominating institutional and retail appetite. Goldman notes current valuations are more disciplined than dot-com era with investors demanding real numbers, but flags twelve-figure lockup expirations as the primary risk if supply spikes and sentiment cools. Semiconductors are off to their best start to a year in 20+ years.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19f1e3515595fe55"
+      ]
+    },
+    {
+      "title": "META launching 'Meta Compute' cloud business to monetize excess AI capacity; read mixed",
+      "body": "Meta is building a cloud infrastructure business ('Meta Compute') to sell surplus AI computing capacity, potentially generating $10-15B annually. Citi notes early feedback is split on whether this signals overcapacity or a strategic monetization; MS Energy sees it as an 8% 2028 EPS upside 'backup safety valve.' The move also raises competitive questions for crypto miners using neoclouds.",
+      "tickers": [
         "META"
       ],
       "source_item_ids": [
-        "gmail:19f1a29689cda4a2",
-        "gmail:19f19550ed1076af"
+        "gmail:19f1dbf5445b8782",
+        "gmail:19f1dda7652d6567"
       ]
     },
     {
-      "title": "June was a rougher month \u2014 Mag 7 shed $2T, Nasdaq -2.81%",
-      "body": "Despite the stellar quarter, June 2026 saw the S&P 500 -1.06% and Nasdaq -2.81%, with the Mag 7 losing over $2T in value \u2014 worst performance in over a year. MSFT -17.2%, AMZN -11.9%, META -10.9% were the worst performers, as AI ROI concerns mounted alongside open-source competition and companies pushing back on AI spend. Semiconductors bucked the trend with SOX +11.1% and memory +16.7% in June.",
+      "title": "GOOGL AI Overviews cut outbound clicks 40%, raise zero-click searches 35% \u2014 structural risk to web traffic",
+      "body": "Citi analysis finds GOOGL's AI Overviews reduce outbound organic clicks by 39.8% and increase zero-click searches by 34.5% without improving user experience. This represents a structural headwind for publishers and ad-dependent businesses reliant on organic search traffic, while OpenAI has cut inference costs in half through optimization, accelerating competitive intensity.",
       "tickers": [
-        "MSFT",
-        "AMZN",
-        "META",
-        "AAPL",
-        "MU"
+        "GOOGL"
       ],
       "source_item_ids": [
-        "gmail:19f1a28d7cb63d27"
+        "gmail:19f1e604ace771a7"
       ]
     },
     {
-      "title": "Today's tape: narrow leadership \u2014 NDX +1.7% but 60% of SPX names declined",
-      "body": "Tech led the session with hyperscaler dip-buying (AMZN, GOOGL) on AI toll-booth and valuation narratives, but nearly 60% of SPX stocks closed lower despite index gains. Equal-weight S&P lagged cap-weighted, and the momentum trade stalled into the close. Semis, airlines, and memory led; hotels, cruise lines, REITs, and banks lagged.",
+      "title": "BE +7.5% premarket: Brookfield partnership expands to $25B (25GW) on AI power demand",
+      "body": "Bloom Energy expanded its Brookfield partnership from $5B to $25B, representing a 25GW capacity framework, with ~2.5GW already signed (AEP, ORCL, NBIS) and a path to 5GW+ by 2030. OKLO also gained (+3.4-3.9%) after DOE approved the final safety analysis for its Groves Isotope Test Reactor, targeting first criticality in July 2026. Power prices surged at major US hubs (PJM Western Hub $342 vs. $117 prior).",
       "tickers": [
-        "GOOGL",
-        "AMZN"
+        "BE",
+        "OKLO"
       ],
       "source_item_ids": [
-        "gmail:19f1a46ec92d609d",
-        "gmail:19f1a216778e9f8d"
+        "gmail:19f1dbe151525263",
+        "gmail:19f1dda7652d6567"
       ]
     },
     {
-      "title": "Fed pivoting hawkish: dot plot implies hikes, Cleveland Fed warns AI fueling inflation",
-      "body": "Fed funds futures now price ~33bp of hikes through year-end 2026, with the dot plot showing 12.5bp of hikes expected. Fed Chair Warsh scrapped forward guidance in his first meeting, and Cleveland Fed's Hammack explicitly warned that AI demand is stoking inflation and rate hikes may be necessary \u2014 framing AI as an inflationary force, not just an energy story. Treasury yields rose 5\u20138bp across the curve today.",
+      "title": "Asia equity: MSCI APAC -1.1% in June; China -7.1%, Taiwan +1.4% on AI; Korea cheapest at 7.3x FTM PE",
+      "body": "MSCI Asia Pacific fell 1.1% in June with China MSCI down 7.1% on domestic economic softness and weak offshore internet, while Taiwan (+1.4%) and Korea (+0.1%) outperformed on AI infrastructure strength. DXY rose 2.3%, oil fell 20.8%, and gold dropped 11.7%, with the US 10yr at 4.46%. Korea trades at the lowest regional forward PE of 7.3x; Taiwan is expensive at +3.1 standard deviations above historical mean. Foreign investors exited Asia for a fourth consecutive month in India.",
       "tickers": [],
       "source_item_ids": [
-        "gmail:19f1a28d7cb63d27",
-        "gmail:19f1a2f973f78d25"
+        "gmail:19f1e4952d6d997e"
       ]
     },
     {
-      "title": "JOLTS upside surprise: 7,594K vs 6,975K consensus; labor market 'solid, not strong'",
-      "body": "May JOLTS job openings came in well above expectations at 7,594K vs. 6,975K consensus, though the underlying picture remains a low-hire, low-fire economy (layoff rate 1.1%, hire rate 3.3%). Net hiring has increased since fall 2025, layoffs are at 4-year lows, and QCEW data suggest positive benchmark revisions to NFP are likely. Conference Board labor differential, however, deteriorated to its worst since 2021 \u2014 historically a signal of rising unemployment.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19f1952bec3fed11",
-        "gmail:19f1a46522455d38"
-      ]
-    },
-    {
-      "title": "NFP Thursday is the next key macro event; JPM Feroli expects 125K vs Street 110K",
-      "body": "JPM economist Feroli forecasts June NFP at 125K (vs. Street consensus 110K, prior 172K), 4.3% unemployment, and +0.2% MoM earnings. Options pricing implies a 1.2% SPX move for the July 2 expiry; JPM scenario analysis skews bullish with 40% probability of a 100K\u2013130K outcome. ISM Manufacturing for June is expected at 55.0 (consensus 53.8), which would be the highest reading since June 2022.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19f1a46ec92d609d",
-        "gmail:19f1a7cc7b19b132"
-      ]
-    },
-    {
-      "title": "Iran geopolitical risk reignited: no direct US-Iran talks, Hormuz passage limited to 60 days",
-      "body": "Iran's foreign minister stated no direct US-Iran meetings are scheduled in Doha; indirect talks will proceed with Qatar as mediator. Iran's parliamentary speaker noted toll-free Strait of Hormuz passage would be limited to 60 days. These headlines drove 4\u20135bp of today's Treasury yield move and contributed to ISM strength partly reflecting supply chain front-loading from Middle East conflict risk.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19f1a7cc7b19b132"
-      ]
-    },
-    {
-      "title": "June consumer confidence missed badly: 91.2 vs 94.7 consensus; jobs hardest to find in 5+ years",
-      "body": "June consumer confidence printed 91.2 vs. 94.7 consensus, with May revised lower to 90.6 from 93.1. The labor market differential fell to its weakest since 2021, with jobs now the hardest to find in over five years. This offsets the upbeat JOLTS headline and raises questions about consumer durability heading into Q3.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19f1a46522455d38",
-        "gmail:19f1a2837f568587"
-      ]
-    },
-    {
-      "title": "July catalyst calendar: tariff expiration 7/24, FOMC 7/29, TSMC earnings 7/16, AMD AI conference 7/22",
-      "body": "GS TMT desk flags July as historically bullish for NDX (higher in 17 of 18 years, averaging +4.35%). Key binary events include the 10% tariff expiration on 7/24 and FOMC on 7/29. Semis catalysts include TSMC Japan Symposium (7/3), TSLA GigaTexas update (7/7), TSM earnings (7/16), and AMD Advancing AI conference (7/22\u201323). CRWD stock split effective 7/2.",
+      "title": "Retail traffic decelerating: Q2 +1.7% vs Q1 +3.4%; consumer confidence softer, labor differential falling",
+      "body": "Citi's retail traffic tracker shows Q2 deceleration to +1.7% (ex-Walmart +1.9%) versus +3.4% in Q1, with June week 4 at +2.3% vs +5.4% in week 3 partly due to Father's Day timing. Strongest names: Five +18.3%, Ross +17.3%; weakest: RL -12.2%, AEO -10.5%, Gap -3.9%. Conference Board consumer confidence hit 91.2 in June with the labor market differential falling to 2.4, signaling potential for weaker labor data through summer.",
       "tickers": [
-        "TSM",
-        "AMD",
-        "TSLA",
-        "CRDO",
-        "ALAB"
+        "RH"
       ],
       "source_item_ids": [
-        "gmail:19f1a51712bb2e02"
+        "gmail:19f1e524bde15bd8",
+        "gmail:19f1dc942bc133df"
       ]
     },
     {
-      "title": "JPM global thematic: Physical AI is the new US-China battleground; consumer recovery in H2",
-      "body": "JPM's June thematic views flag Physical AI (robotics/humanoids) as the primary US-China competition arena, with US considering action against Chinese robotics given ~80% humanoid market share. China's 15th Five-Year Plan targets RMB 2\u20135 trillion AI data center buildout by 2030; South Korea announced a $3.1T semiconductor/AI/robotics investment plan. Separately, JPM sees global consumer macro shifting from stagflation to recovery/expansion in H2 2026, with Chase card data showing Q2 spending at +5.1% and upper-income cohorts at +6\u20137%.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19f19cb6a531513d"
-      ]
-    },
-    {
-      "title": "AI inference costs dropping 50%; AWS $1B new AI unit; Google hitting record power/water use",
-      "body": "OpenAI discovered an inference optimization cutting model running costs by ~50%. AWS announced a $1B investment in a new AI unit for customers building AI systems. Google's AI buildout drove record electricity and water consumption. Cleveland Fed's Hammack specifically framed AI as an inflationary demand driver \u2014 a new policy risk angle for the sector.",
+      "title": "Guggenheim upgrades CRM and NOW to Buy; AI risk manageable, valuations imply perpetual decline",
+      "body": "Guggenheim upgraded CRM (Buy, $228 PT) and NOW (Buy, $125 PT), arguing current valuations price in a perpetual decline scenario that Guggenheim views as overstated. The firm expects AI will materially impact software but most names will persist, with subscription revenue growth stabilizing this year and potentially accelerating in late 2026 and into 2027. Both stocks responded: CRM +4.1% and NOW +4.6% in premarket.",
       "tickers": [
-        "GOOGL",
-        "AMZN"
-      ],
-      "source_item_ids": [
-        "gmail:19f1a2837f568587",
-        "gmail:19f19ebca5047f77"
-      ]
-    },
-    {
-      "title": "Credit markets benign: clients lifting tail hedges amid low vol; HYG/LQD flows constructive",
-      "body": "MS credit desk reports funding conditions easing broadly (HYG 1m swap reset -45, LQD revcons near -30). Clients are lifting outright tail hedges in IG and HY given low implied vols, while fast money supplies vol in September strangles/straddles. iBoxx and credit ETF flows skewed to buyers; 40-/20-delta payer spreads favored as more efficient hedges than equity vol.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19f1a7d5cceb3f4e"
-      ]
-    },
-    {
-      "title": "BofA holds S&P 7100 target \u2014 implies ~5% downside from here",
-      "body": "BofA left its 2026 S&P 500 target unchanged at 7,100, implying roughly 5% downside from current levels. The firm cites reversal of multiple-boosting levers including asset-lightness, balance sheet strength, capital discipline, and earnings quality. This is a notable cautious signal against a backdrop of strong Q2 performance and bullish July seasonality.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19f19550ed1076af"
-      ]
-    },
-    {
-      "title": "Retail investor Mag 7 activity at 4-year lows despite record quarter",
-      "body": "Despite the NDX posting its best quarter since 2020, retail investor activity in Mag 7 stocks is at its lowest level in four years. This suggests the Q2 rally was institutional/systematic rather than retail-driven, which could have implications for the sustainability and character of any continuation.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19f19ebca5047f77",
-        "gmail:19f1a2f973f78d25"
-      ]
-    },
-    {
-      "title": "FTC reportedly moving to ban Chinese inverter imports; ENPH and solar names rally",
-      "body": "The Trump administration via FTC is reportedly looking to ban inverter imports to the US, citing concerns about China's ability to disrupt US power supplies. Solar and fuel cell names rallied on the news (ENPH +1.9%, SEDG +5.6%), while BE surged ~10% on a separate $25B AI infrastructure partnership expansion with Brookfield \u2014 a 5-fold increase to build rapid power for AI data centers.",
-      "tickers": [
-        "ENPH",
-        "BE"
-      ],
-      "source_item_ids": [
-        "gmail:19f1a2f931ee61e1"
-      ]
-    },
-    {
-      "title": "Open USD stablecoin launches with 100+ partners; negative for Circle, mixed for Coinbase",
-      "body": "Open Standard launched the Open USD stablecoin with 100+ partners including Visa, Mastercard, Stripe, Coinbase, Robinhood, Shopify, and Affirm, featuring no mint/burn fees and majority reserve income sharing. KeyBanc views this as negative for Circle (USDC market share erosion) and mostly positive for Coinbase as a partner. This is a structural shift in stablecoin competitive dynamics.",
-      "tickers": [
-        "HOOD"
-      ],
-      "source_item_ids": [
-        "gmail:19f197efa411c6cc"
-      ]
-    },
-    {
-      "title": "AI inference architecture debate: GPUs 'inadequate' for post-ChatGPT workloads, TSMC relationships key",
-      "body": "Etched founders argue inference \u2014 not training \u2014 will be one of the largest tech markets next decade, requiring purpose-built chips optimized for throughput, latency, and power efficiency rather than current GPU architectures. Hyperscalers building internal AI chips seek 'good enough' NVIDIA alternatives to reduce dependence, not category-leading hardware. TSMC's engineering collaboration and customer support relationships are cited as the key differentiator.",
-      "tickers": [
-        "NVDA",
-        "TSEM",
-        "AMD",
-        "ARM"
-      ],
-      "source_item_ids": [
-        "gmail:19f1971a4cccb709"
-      ]
-    },
-    {
-      "title": "Q2 earnings expectations remain strong at 22% growth; semis driving ~47% of S&P EPS growth",
-      "body": "Q2 S&P 500 earnings growth is expected at ~22.0% YoY (down from 28.8% in Q1), with semiconductors alone expected to drive approximately 47% of the index's 23% YoY earnings growth in Q2. AI capex and oil price tailwinds are cited as key drivers alongside the continued memory upcycle.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19f19550ed1076af",
-        "gmail:19f1a46ec92d609d"
-      ]
-    },
-    {
-      "title": "US retail web traffic surged +32% YoY in June week 4 \u2014 strongest in 12+ weeks",
-      "body": "Citi's web traffic tracker showed US retail web traffic averaging +32% YoY in June Week 4, the first time exceeding 30% in over 12 weeks, aided by temperatures running 3.6\u00b0F cooler vs. prior year. WSM brands (Pottery Barn, West Elm) showed consistently strong traffic the past two months; CRI accelerated to +56%, NKE to +13%, while TGT decelerated and ASO fell.",
-      "tickers": [
-        "WSM"
-      ],
-      "source_item_ids": [
-        "gmail:19f19db1f8199edd"
-      ]
-    },
-    {
-      "title": "Software RSU grants rebounding in 1Q26 but share count dilution surging on lower stock prices",
-      "body": "Enterprise software sector RSU grant values fell 28.3% in CY25 vs. CY24 under investor dilution pressure, but 1Q26 median grants bounced +12.5% YoY. The catch: total shares granted jumped 52.2% YoY, primarily because lower stock prices required more shares to deliver the same dollar value of compensation \u2014 a dilution risk that persists for names still trading at depressed levels.",
-      "tickers": [
-        "CRM",
-        "ADBE",
         "NOW",
-        "INTU",
-        "HUBS"
+        "CRM"
       ],
       "source_item_ids": [
-        "gmail:19f1a59ea1dee9be"
+        "gmail:19f1de6d7694dace",
+        "gmail:19f1dc5db8592763"
+      ]
+    },
+    {
+      "title": "Redbook retail +10.5% YoY; agentic commerce emerging with AMZN best-in-class at 77% recommendation rate",
+      "body": "Redbook retail sales accelerated to +10.5% YoY, supporting a constructive consumer backdrop despite deceleration in tracked foot traffic. DA Davidson's agentic commerce testing shows AMZN achieved a 77% recommendation rate across 35 project-based queries, best-in-class; Amazon also launched Alexa for Shopping with 30/90/365-day price history. 64% of UK consumers expressed interest in AI shopping agents.",
+      "tickers": [
+        "AMZN"
+      ],
+      "source_item_ids": [
+        "gmail:19f1dfb3f7019d02",
+        "gmail:19f1dd4087fffc84"
+      ]
+    },
+    {
+      "title": "REITs +18% YTD, outperforming S&P +10%; datacenter REIT exposure expanding",
+      "body": "REITs have returned +18% YTD on a total return basis versus S&P +10%, with Realty Income announcing a JV to invest in hyperscale datacenters under long-term triple-net leases. The datacenter/power nexus continues to attract REIT capital as a structural theme.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19f1dc942bc133df"
+      ]
+    },
+    {
+      "title": "Eurozone CPI below expectations at 2.8% y/y; ECB 'no-regret hike' seen as well-positioned",
+      "body": "Euro area flash CPI came in mild at -0.1% m/m and 2.8% y/y, below expectations, aided by energy backdrop (12-month Brent ~$72/bbl). UBS characterizes the ECB's recent hike as a 'no-regret' move leaving the bank well-positioned with medium-term inflation near target. European corporates remain resilient to the energy shock but show no acceleration, with gradual AI spend increases pressuring margins.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19f1db53ed5e149c",
+        "gmail:19f1e007db3fc1c0"
+      ]
+    },
+    {
+      "title": "Steeper yield curve, improving loan growth boosting regional bank earnings power; USB and FITB preferred",
+      "body": "22V highlights steeper yield curve as a tailwind for bank NII, with loan growth continuing to exceed investor expectations and deposit pricing remaining disciplined. USB and FITB are preferred picks on improving NII, loan growth, and fee trends. The labor market is seen as gradually strengthening rather than overheating, supporting a benign credit backdrop.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19f1dc1d8a08a25b"
       ]
     }
   ]
