@@ -1,204 +1,217 @@
 {
-  "digest_type": "eod",
-  "digest_dt": "2026-07-01T18:00:00-04:00",
-  "saved_at": "2026-07-01T22:15:07.692180+00:00",
+  "digest_type": "premarket",
+  "digest_dt": "2026-07-02T08:30:00-04:00",
+  "saved_at": "2026-07-02T12:45:57.597471+00:00",
   "bullets": [
     {
-      "title": "ISM Manufacturing solid but prices-paid collapse; ADP payrolls softer ahead of NFP",
-      "body": "ISM Manufacturing came in at 53.3 in June (down from 54.0 in May), with new orders slipping to 56.0 from 56.8 \u2014 but prices-paid dropped sharply to 73.0 from 82.1, the largest single-month decline since July 2022. ADP private payrolls printed 98K vs. consensus 110-120K. JPM forecasts Friday NFP at 125K (vs. Street 115K) with 4.3% unemployment; a 22V survey found 52% of investors expect a risk-on reaction and 60% expect a beat vs. sell-side consensus.",
+      "title": "June NFP Due Today: Market Pricing ~115-133k, Below Survey; Fed Hike Odds in Focus",
+      "body": "Consensus expects ~110-115k June nonfarm payrolls; surveyed traders forecast 133k with 4.2% unemployment (vs 4.3% consensus) and 0.3% AHE. 22V Research argues a September hike (currently at 73% market odds) is unlikely if Core PCE stays at 0.21% MoM, while GS notes the market is only pricing ~30% odds of a July move. In-line or weaker payrolls are viewed as bullish for yields; declining unemployment would be hawkish by increasing odds of sticky core services inflation.",
       "tickers": [],
       "source_item_ids": [
-        "gmail:19f1e6c1f94d48c3",
-        "gmail:19f1eacf8caa9d39"
+        "gmail:19f22ba82b5e3445",
+        "gmail:19f22a852505a8da"
       ]
     },
     {
-      "title": "Fed Chair Warsh leans dovish on AI productivity; signals move away from dot plot",
-      "body": "Warsh at ECB Sintra cited 'high 2s' productivity growth over the past four quarters and flagged AI's potential 'huge implications for monetary policy,' sending long-end Treasury yields up ~6bp. He also noted inflation expectations and risks have declined over the past four weeks, and indicated the Fed wants to eliminate the dot plot and move away from forward guidance. Former BoE Governor Mervyn King to co-chair a new communications task force, with details likely next week.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19f1edbb73602575",
-        "gmail:19f1f7ee5950fa23"
-      ]
-    },
-    {
-      "title": "Citi raises S&P 500 year-end target to 8,100; above-consensus earnings of $350/$400 for '26/'27",
-      "body": "Citi lifted its S&P 500 base case to 8,100, driven by above-consensus EPS estimates of $350 in 2026 and $400 in 2027. The firm expects recent outperformance in semis and hardware to broaden in 2H, sees Fed rate hike fears as overblown, and notes that Iran conflict wind-down supports lower oil. Q2 earnings season fundamentals per FactSet: 12.1% revenue growth, 22.0% earnings growth, 14.1% margins.",
-      "tickers": [
-        "SPY"
-      ],
-      "source_item_ids": [
-        "gmail:19f1f4f7f5ad9635",
-        "gmail:19f1f67cba7b7faf"
-      ]
-    },
-    {
-      "title": "Semiconductor selloff 6-11% on META neocloud news \u2014 JPM calls it positioning, not a demand shift",
-      "body": "Semis fell 6.3% and memory dropped ~11% (MU -10.6%) after Bloomberg reported META is building a cloud business to sell excess AI compute. JPM views the selloff as de-grossing and positioning rather than a fundamental demand shift, maintaining a tactical bullish stance into earnings. DA Davidson flags NBIS (META >50% of backlog) and CRWV (META ~33%) as most exposed negatives; sees MU, NVDA, and GOOGL as relatively unscathed.",
-      "tickers": [
-        "NVDA",
-        "MU",
-        "CRWV",
-        "NBIS",
-        "AMD",
-        "AVGO"
-      ],
-      "source_item_ids": [
-        "gmail:19f1f67cba7b7faf",
-        "gmail:19f1e8336b51d8f8"
-      ]
-    },
-    {
-      "title": "META +8.8% on 'Meta Compute' cloud plan \u2014 bulls see $20B+ ARR, bears see capex ROI desperation",
-      "body": "META surged ~9% after Bloomberg reported it is building 'Meta Compute' to sell excess AI capacity and model access (AWS Bedrock-style), monetizing its ~2 GW/'26 and ~3.5 GW/'27 owned capacity ramp. Morgan Stanley sees each 250 MW leased at $40/W generating ~$3 EPS accretion in '28 (~8% upside). KeyBanc sees a potential $20B+ ARR opportunity. Oppenheimer takes the contrarian view, arguing excess capacity signals advertising growth is slowing and META has failed to launch a competitive frontier LLM.",
+      "title": "AI Infrastructure Selloff: META Cloud Announcement Torches Neocloud Stocks -12-17%",
+      "body": "META announced plans to sell excess AI compute capacity (Meta Compute) via both hosted API/model-access and raw GPU capacity models, sending shares +9% on improved ROIC perception but cratering CRWV -14% and NBIS -17% as META becomes a direct neocloud competitor. JPM estimates 1 GW of META capacity could generate ~$20B annual revenue and several dollars of EPS; MS calculates every 250 MW leased at $40/W adds ~$3 (8%) to 2028 EPS. Multiple analysts frame this as optionality/Plan B while 2027 META capex estimates range from $175B-$275B vs Street consensus $160B.",
       "tickers": [
         "META",
         "CRWV",
         "NBIS"
       ],
       "source_item_ids": [
-        "gmail:19f1ef278a20e6ef",
-        "gmail:19f1ecdb52dd61a7"
+        "gmail:19f22b80aae788f6",
+        "gmail:19f2292d5d96a36d"
       ]
     },
     {
-      "title": "LLM token demand re-accelerating sharply: June volumes +70% MoM, 20x YoY",
-      "body": "JPM's afternoon briefing cited June LLM token volumes up 70% MoM and 20x YoY, with spending up 70% MoM and 16x YoY. GPU rental prices rose across all tiers \u2014 B200s trading at ~2x H100s, H100s at ~1.7x A100s. DRAM spot prices are up 8x YoY after a third consecutive monthly gain. The data point supports continued AI infrastructure demand even as the META neocloud story creates near-term confusion in the semiconductor tape.",
-      "tickers": [
-        "NVDA",
-        "MU"
-      ],
-      "source_item_ids": [
-        "gmail:19f1f67cba7b7faf",
-        "gmail:19f1ee0d054b4bed"
-      ]
-    },
-    {
-      "title": "Hedge funds record Q2 L/S performance, then rotated out of TMT into Cyclicals in June",
-      "body": "Global fundamental L/S managers posted record-breaking quarterly performance in Q2 2026, but hedge funds net sold global equities for the first time in three months in June, led by short sales. Every region except North America was net sold. Gross and net leverage fell, led by US and Asia L/S managers, and sector rotation moved out of Info Tech/Comm Services into Cyclicals in US portfolios.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19f1fa09a1364ee9"
-      ]
-    },
-    {
-      "title": "JPM adds Healthcare as low-correlation long; midterm seasonality sets up Q3 outperformance",
-      "body": "JPM's tactical framework now runs a Tech/Cyclicals barbell with Healthcare added as a low-correlated long. Separately, JPM's sector strategy notes Healthcare beats SPX by a mean +7.5 ppts (median +10.7 ppts) in midterm years, concentrated in a Q3 surge that's been positive in 7 of 9 cycles. Biotech is the strongest subsector with +15% annual outperformance in midterm years; HC Equipment & Services positioning is near 10-year lows.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19f1f72c391483ce",
-        "gmail:19f1f6a6e7aec59f"
-      ]
-    },
-    {
-      "title": "Treasury supply wave coming: $119B mid-month ($58B 3Y, $39B 10Y, $22B 30Y); 5s/30s curve steepened through 73bp resistance",
-      "body": "Treasury is set to announce $119B in mid-month supply, including $58B 3-year notes, $39B 10-year reopening, and $22B 30-year reopening. The 5s/30s curve has steepened through the 73bp resistance level off 59-62bp medium-term support; JPM sees 78-84bp as the upper bound of the summer trading range.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19f1f7ee5950fa23"
-      ]
-    },
-    {
-      "title": "Morgan Stanley flags unsustainable semi vs. hyperscaler divergence; short interest in hyperscalers rising",
-      "body": "JPM's flows note flags that semis have outperformed hyperscalers steadily since September 2025, which it views as unsustainable. Hyperscalers posted record ~100% YoY capex growth in 2026, yet their equities are flat over the past year and credit spreads have widened vs. semiconductors. Short interest in hyperscalers rose steeply in May-June 2026. The key risk is consensus expectations for sharp capex deceleration in 2027.",
-      "tickers": [
-        "NVDA",
-        "GOOGL",
-        "AMZN",
-        "MSFT"
-      ],
-      "source_item_ids": [
-        "gmail:19f1f33354a4f3c0"
-      ]
-    },
-    {
-      "title": "Market internals: NDX lagged SPX/RTY by 100bp; software/internet +3%, semis -6.3%, utilities -1.3%",
-      "body": "NDX underperformed SPX and RTY by over 100bp on the day. Within tech, software (+3.1%) and internet (+3.1%) outperformed sharply while semis fell 6.3%. Communication services and financials were the top SPX sectors. Breadth was positive on the day \u2014 the equal-weight S&P ended higher \u2014 with momentum unwinding as a key driver. SPX closed in the 7,540-7,568 range.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19f1f0e3203c6410",
-        "gmail:19f1f6695a4300f8"
-      ]
-    },
-    {
-      "title": "June IPO market: SpaceX's $86B raise nearly triples the prior all-time record; Anthropic at $1.67T pre-IPO",
-      "body": "June 2026 saw a record $94.99B raised across 13 IPOs, dominated by SpaceX's $86.26B IPO at a ~$1.8T valuation \u2014 nearly 3x Saudi Aramco's prior record of $29B. Cerebras ($6.4B) was the second largest. Pre-IPO sentiment: Anthropic (hired MS/GS bankers) at ~$1.67T, OpenAI (confidentially filed S-1, leaning toward 2027) at ~$1.33T. June IPOs averaged +13.1% from pricing.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19f1f5bd86066260"
-      ]
-    },
-    {
-      "title": "Fed on hold thesis gains support: Morgan Stanley sees fading tariff effects, lower oil, shelter deceleration",
-      "body": "Morgan Stanley argues FOMC projections overstate inflation pressures given fading tariff effects, declining oil from the Iran conflict wind-down, and shelter cost deceleration. Their view: disinflation ahead implies a lower rate path than currently priced, which is a further tailwind to equities and supports CRE/REIT recovery (names flagged: CBRE, CWK, MAA, AMT).",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19f1e8c83c4778a3"
-      ]
-    },
-    {
-      "title": "Asia capex super-cycle thesis: energy capex ($900B\u2192$1T) dwarfs AI/semis ($380B\u2192$420B) in 2026-27",
-      "body": "Morgan Stanley argues the Asia capex super-cycle is driven equally by energy, defense, and onshoring alongside AI. Energy-related capex is expected to rise from $900B (2026) to $1T (2027), vs. AI/semis moving from $380B to $420B. Asia capital goods imports are up 33% YoY on a 3-month moving average, and semis exports are at multi-decade highs. Drivers are structural (healthy corporate balance sheets), not cyclical.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19f1ebd0c20ef575"
-      ]
-    },
-    {
-      "title": "Korea's $3.1T mega-investment plan targets semiconductors and AI; memory capacity set to double in five years",
-      "body": "South Korea launched a $3.1T Mega Investment Era through 2040: Samsung is committing W2,655T (W2,100T in semiconductors), SK Group W2,100T (W1,100T in memory, W1,000T in AI infrastructure). DRAM capacity is targeted to double in five years. Korean equities trade at 7.3x FTM P/E, -1.7 standard deviations below historical mean, despite the tech sector being the only green sector in June amid circuit breaker volatility.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19f1ee4f22d1d050"
-      ]
-    },
-    {
-      "title": "Apple faces memory crisis: ~$200/unit cost headwind, seeking Chinese CXMT/YMTC chips despite Pentagon blacklisting",
-      "body": "Apple is in talks with Chinese suppliers CXMT and YMTC for memory chips for China-market devices while lobbying the White House for support. Memory and storage prices have quadrupled over the past three quarters as production skews toward HBM for AI servers. Apple has already raised MacBook, iPad, and Mac prices 15-33%, and Counterpoint estimates a $150-$200 iPhone price increase is coming. CEO Cook called the situation 'unsustainable.'",
+      "title": "Asian Tech Rout: Korea -8%, Kospi Circuit Breaker; AI Capacity Concerns Drive 2-Sigma Moves",
+      "body": "Korea's Kospi fell >8% overnight \u2014 triggering a futures trading halt \u2014 with SK Hynix and Samsung (>50% of index) collapsing 18% and 15% respectively on Apple's reported talks to source memory from sanctioned Chinese suppliers CXMT and YMTC. GS TMT Momentum Pair finished -9.62% (second drawdown in a week); Japan fell -2.5%, China -2%. Roth notes Asian tech underperformance was approximately two standard deviations in the CSI 300 and Kospi.",
       "tickers": [
         "AAPL",
         "MU"
       ],
       "source_item_ids": [
-        "gmail:19f1f5046e210892"
+        "gmail:19f22a852505a8da",
+        "gmail:19f2051df0c2c916"
       ]
     },
     {
-      "title": "IPPs (TLN -6%, VST -3.5%, CEG -4.8%) and utilities broadly sold off; BE expands Brookfield AI partnership to $25B",
-      "body": "The S&P 500 Utilities Index fell 1.3% and Electric Utilities fell 1.5%, with independent power producers leading the decline \u2014 TLN -6.1%, NRG -3.6%, VST -3.5%, CEG -4.8%. Against that backdrop, Bloom Energy expanded its AI infrastructure partnership with Brookfield from $5B to $25B; Brookfield's AI Infrastructure Fund targets $100B total deployment. PJM advanced a plan to source more power to meet rising data center demand.",
+      "title": "Apple Pursuing Sanctioned Chinese Memory Chips (CXMT, YMTC) Amid DRAM Supply Crunch",
+      "body": "Apple is in active negotiations to source DRAM from ChangXin Memory (CXMT) and NAND from Yangtze Memory (YMTC) \u2014 both on the Pentagon's 1260H blacklist \u2014 to address an unprecedented memory supply crunch as suppliers shift capacity to HBM for AI data centers. Apple is lobbying Washington for political cover; the move signals AI infrastructure demand is crowding out consumer electronics memory supply. PC DDR4 spot prices hit $21 in June (+5% MoM, +7x YoY); commodity NAND reached $28.8 (+8.7% MoM, 18th consecutive monthly gain).",
       "tickers": [
-        "BE",
-        "TLN",
-        "VST",
-        "CEG"
+        "AAPL"
       ],
       "source_item_ids": [
-        "gmail:19f1f6a6e7aec59f"
+        "gmail:19f20f2e4fc1845f",
+        "gmail:19f202bce1853e68"
       ]
     },
     {
-      "title": "US lodging RevPAR +9.6% for week ending 6/27; World Cup adds 290bps, luxury +20.7%",
-      "body": "US hotel RevPAR rose 9.6% YoY for the week of June 21-27 (ADR +9.2%, occupancy +30bps), in line with the prior week's +9.7%. The World Cup contributed 290bps; non-host city RevPAR still grew 6.8%. Luxury led at +20.7% YoY. Miami RevPAR was +51.6%, San Francisco +40.7%. Trailing 28-day RevPAR is up 8.0%. Hotel operators HLT, MAR, and HST are all tracking above consensus for 2Q.",
-      "tickers": [],
+      "title": "Memory Price Supercycle: DRAM +7x YoY, NAND +9x YoY; Supply Crunch to Last Past 2027",
+      "body": "PC DRAM ASPs rose 23-25% MoM in April-May; TrendForce raised 3Q DRAM forecast to 15-20% QoQ growth (from 8-13%). Samsung HBM4E yield exceeded 70%, entering stable production for NVIDIA Vera Rubin Ultra. Micron CEO confirmed the supply crunch persists beyond 2027, partly caused by customer pricing pressure in prior years suppressing capex; Micron is investing ~$200B in new fabs. SK Hynix ($64.4B) and Samsung ($90B) both announced massive domestic Korean semiconductor capex commitments.",
+      "tickers": [
+        "MU",
+        "NVDA"
+      ],
       "source_item_ids": [
-        "gmail:19f1ec126ac8fa8c",
-        "gmail:19f1ea99ac61c7f3"
+        "gmail:19f202bce1853e68",
+        "gmail:19f2249f9618ce97"
       ]
     },
     {
-      "title": "Consumer staples crowding unwind; CLX margins pressured by resin costs, EL F27 guide seen as too aggressive",
-      "body": "Citi flags a broad crowding unwind across staples, restaurants, and distributors as of the June 26 close. CLX F27 buyside EPS expectations are $5.85-5.90 vs. Street at $6.16, with margins pressured by resin costs in 1H. Estee Lauder's F27 guide (OSG 3-5% topline) is seen as too aggressive by bears, who expect a 1Q guide-down supported by recent China retail checks. STZ key debate: is summer 2026 peak for the stock?",
-      "tickers": [],
+      "title": "NVIDIA Launches Revenue-Sharing Model with AI Cloud Partners; Adds Recurring Usage-Linked Income",
+      "body": "NVIDIA introduced a new business model where AI cloud partners deploy Grace Blackwell GPUs and NVIDIA earns standard product revenue plus a share of cloud revenues. Firmus is building a 360 MW DSX AI factory in Indonesia with up to 170,000 NVIDIA GPUs; Sharon AI deploying up to 40,000 GB300 GPUs. JPM's industry model projects AI DC switch market surging +116% YoY in 2026 to $24B (+40% CAGR through 2030), with NVDA at 50% AI DC switch share.",
+      "tickers": [
+        "NVDA"
+      ],
       "source_item_ids": [
-        "gmail:19f1f7abb8d7b3d3"
+        "gmail:19f2190b89a24a21",
+        "gmail:19f2249f9618ce97"
       ]
     },
     {
-      "title": "PCE revision to trim portfolio management fee contribution by ~15bps; minimal net inflation impact",
-      "body": "BEA is revising its PCE methodology for portfolio management, legal services, and software. The portfolio management contribution to 12-month core PCE may be revised down ~15bps, with legal services moving higher and software lower; net effect is a couple of bps negative. Post-revision, Core MPO PCE of 3.16% could map to underlying inflation of ~3.30% vs. current 3.36% \u2014 a modest but policy-relevant distinction.",
+      "title": "AI Infrastructure TAM Revisions Up Sharply: Server Market +67% YoY to $473B in 2026",
+      "body": "JPM raised AI infrastructure TAM forecasts materially: total server market +67% YoY to $473B in 2026 with +31% CAGR through 2030; AI server segment at +37% CAGR. Data center Ethernet switch market reaches $46B (+43% YoY). AEC market exploding +121% YoY. DELL server share jumped to 21% from 10% a year ago; ANET holds 22% of total DC Ethernet. DCI market revised +22% for 2027 and +28% for 2028 vs prior March outlook.",
+      "tickers": [
+        "NVDA",
+        "ANET",
+        "DELL",
+        "SMCI",
+        "CSCO"
+      ],
+      "source_item_ids": [
+        "gmail:19f2249f9618ce97"
+      ]
+    },
+    {
+      "title": "SaaS Multiples Compressed; IGV -16.5% YTD vs S&P +7.5%; Software vs Semis Ratio Bouncing",
+      "body": "Wolfe's All-SaaS index trades at 4.9x FY+2 EV/Sales; IGV has returned -16.5% YTD vs S&P 500 +7.5%. GS notes the Software vs. Semis ratio bounced 9% Wednesday (up from -59% YTD) as rotation pressure on semiconductor momentum builds. Skew normalization in AI-exposed indices reinforces the consolidation view; hedge funds sold NDX while buying SPX/RTY futures.",
+      "tickers": [
+        "MSFT"
+      ],
+      "source_item_ids": [
+        "gmail:19f21ddb6172311f",
+        "gmail:19f21bf3611d04f8"
+      ]
+    },
+    {
+      "title": "Tariff Regime Becoming Durable: Section 301/232 Converges to ~9-10% Statutory Rate",
+      "body": "Morgan Stanley flags tariff structure shifting from temporary IEEPA emergency measures to a more rules-based Section 301/232 framework. Section 122 tariffs expire July 24; July 7 Section 301 hearings are the next procedural catalyst. Statutory effective rate estimated at 9-10% with less dispersion than the original regime; lower uncertainty should support capex at the margin but broad reshoring evidence remains limited. Pharma tariffs modeled at 15%.",
       "tickers": [],
       "source_item_ids": [
-        "gmail:19f1eaa2f5a95593"
+        "gmail:19f22662069b6c14"
+      ]
+    },
+    {
+      "title": "FOMC Dot Plot Hawkish; Gold -11.7%, Silver -21.6% in June; EM Equities -1.7% MoM Despite +23% Q2",
+      "body": "June FOMC was unexpectedly hawkish with nine dot-plot members anticipating hikes this year, six looking for two or more moves. MSCI EM +23.3% for Q2 2026 (best quarter since 2Q09) but gave back -1.7% in June on Fed hawkishness and strong dollar (DXY +2.3%). Precious metals crashed \u2014 Gold -11.7%, Silver -21.6% \u2014 while industrial metals (Aluminium -17.3%, Copper -3.1%) also sold off. Warsh remarks are seen as supporting a debasement trade (long gold, short dollar, steeper curve).",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19f21a0b0680651f",
+        "gmail:19f219ca0675ef97"
+      ]
+    },
+    {
+      "title": "Oil Down 3rd Straight Session; Hormuz Reopening Drives Supply Glut; UBS Cuts Brent to $84",
+      "body": "WTI crude fell ~1.94% pre-market to $67.25; oil has declined three consecutive sessions following the Iran-US MoU extending ceasefire 60 days and reopening the Strait of Hormuz. UAE exports recovered to pre-war levels of 3.9M bpd. Brent and WTI fell >20% in June. UBS cut its 2026 Brent forecast to $84/bbl from $93 on the faster-than-expected Hormuz recovery.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19f227b5f281209d",
+        "gmail:19f21a0b0680651f"
+      ]
+    },
+    {
+      "title": "Russell 2000 Outperforms S&P by 12pp YTD; Post-Rebalance AI Exposure Cut from 15% to 7%",
+      "body": "The Russell 2000 outperformed the S&P 500 by 12 percentage points YTD, with ~40% of that driven by AI infrastructure stocks and ~10% contributed by biotech (11% of index weight). The Russell rebalance materially reduced AI infrastructure exposure from 15% to 7% of the index. Pre-payroll positioning survey shows highest risk-on sentiment since December 2025, with 52% expecting a risk-on market reaction.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19f22a6f07f30ade",
+        "gmail:19f22ba82b5e3445"
+      ]
+    },
+    {
+      "title": "GOOGL Loses \u20ac4.13B EU Android Antitrust Appeal; Court Found Intentional Infringement",
+      "body": "The European Court of Justice upheld the full \u20ac4.13B ($4.70B) fine against Google for requiring Android manufacturers to preinstall Google Search and Chrome, dismissing the appeal and finding the infringement was intentional. GOOGL fell ~1% in pre-market. The fine was originally \u20ac4.34B before being reduced in 2022.",
+      "tickers": [
+        "GOOGL"
+      ],
+      "source_item_ids": [
+        "gmail:19f21cf486e47bb6",
+        "gmail:19f22c0a91240491"
+      ]
+    },
+    {
+      "title": "Hedgehog Bearish Signal: KOSPI Breaks Trade Support; QQQ Vol at -8% Discount to 30-Day Realized",
+      "body": "McCullough (Hedgeye) flags KOSPI broke TRADE Signal Support at 8296, calling it a 'bubble pop starting parts 1-2 of 3.' QQQ implied volatility is at an -8% discount to 30-day realized vol, a sharp reversal from a +60% premium one month ago, suggesting consensus is crowded long large-cap tech/semis. CPI Nowcast for July at 3.59% (down from 4.25% cycle peak) pointing to Quad 4 disinflation dynamics.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19f223e42a0c8235"
+      ]
+    },
+    {
+      "title": "Retail Investor Dip-Buying Semis at 14-Month High Inflows; Futures Traders Net Sold $11.3B",
+      "body": "JPM retail radar shows semis inflows at highest levels in 14+ months: MU topped purchases at $897M (+3.7z) and SNDK at $705M (+4.6z) following blockbuster MU earnings. NVDA accumulated $492M in retail purchases. However, futures traders net sold ~$11.3B (ES -$7.3B, NQ -$2.2B, RTY -$1.8B), while AAII bull-bear spread sits at -10.9% despite BofA Street equity allocation at 56.2%.",
+      "tickers": [
+        "MU",
+        "NVDA",
+        "AAPL"
+      ],
+      "source_item_ids": [
+        "gmail:19f20ba4260478ff"
+      ]
+    },
+    {
+      "title": "June US Auto SAAR 16.5M Beats; BEV Penetration Falls to 5.3% from 7.9% a Year Ago",
+      "body": "June US light vehicle SAAR hit 16.5M, beating JPM's 16.2M estimate and Bloomberg consensus 16.1M, boosted by fleet/truck demand. Tesla came in at ~37K units (-27% YoY); BEV penetration dropped to 5.3% from 7.9% in June 2025. Hybrid share rose to 16.1% YoY. Franchise dealers are most favorably positioned given brand-mix tailwinds.",
+      "tickers": [
+        "TSLA"
+      ],
+      "source_item_ids": [
+        "gmail:19f207124c2bb297"
+      ]
+    },
+    {
+      "title": "German Reform Package: 33 Proposals Including \u20ac10B Tax Cuts, Labor Flexibility, and AI/Grid Policy",
+      "body": "Germany's coalition government announced 33 reform proposals spanning tax (\u20ac10B in cuts for low/middle incomes, ~0.2% of GDP), labor market flexibility (expanded fixed-term contracts, tighter sick-leave, easier high-income layoffs), and industrial policy (autonomous driving support, faster grid/planning approvals). One-third of measures target cutting red tape to EU minimum levels. Government committed to converting all 33 proposals into law by end of 2026; industry groups are supportive, opposition parties critical.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19f22cb18e1d2328"
+      ]
+    },
+    {
+      "title": "Pre-Market Snapshot: S&P Futures Flat, NDX -0.4%; Semis/Cloud Resilient, RBLX -4.2%",
+      "body": "S&P 500 futures up 0.06% at 7,548; 10-year Treasury yield +2 bps to 4.50%; WTI -1.94% to $67.25. Pre-market leaders include PLTR +2.4% (DA Davidson upgrade to Buy), ADBE +1.9% (HSBC upgrade to Buy, $308 PT), INTC +1.8%, and defense names AVAV +5.5%/KTOS +3.0%. Laggards include RBLX -4.2%, RDDT -1.2%, OMC -4.9%. European indices up 0.5-0.9%.",
+      "tickers": [
+        "PLTR",
+        "ADBE",
+        "INTC",
+        "RBLX",
+        "RDDT"
+      ],
+      "source_item_ids": [
+        "gmail:19f22c857285207c",
+        "gmail:19f2284eded330dd"
+      ]
+    },
+    {
+      "title": "Q2 Earnings Season Kickoff July 13; Street Expects ~23% S&P EPS Growth; Semis ~Half of Total",
+      "body": "Q2 earnings season begins the week of July 13 with Street consensus at ~23% S&P 500 earnings growth. Semiconductor companies are expected to account for nearly half of total S&P 500 earnings growth. Healthcare is expected to outperform in 3Q on midterm election seasonality; biotech historically strongest in 3Q midterm years (+11%).",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19f22876d6108bd6",
+        "gmail:19f219ca0675ef97"
+      ]
+    },
+    {
+      "title": "Chinese Brands Hit 12.5% W. Europe Auto Share in May (+4.6pp YoY); German OEMs Lose Most Share",
+      "body": "Chinese auto brands reached 12.5% of Western Europe passenger vehicle market share in May 2026 (+4.6pp YoY), with sales +62.4% YoY to 128K units vs. sector +3.3%. BYD leads Chinese NEV brands at 24.0% W. Europe NEV share (+7.3pp YoY); German brands lost 3.1pp of share and European NEV share fell 8.1pp. US brands gained 1.6pp largely on Tesla growth. EV penetration in the region hit 36.4% (+7.4pp YoY).",
+      "tickers": [
+        "TSLA"
+      ],
+      "source_item_ids": [
+        "gmail:19f2284c926dcab7"
       ]
     }
   ]
