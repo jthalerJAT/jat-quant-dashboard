@@ -1,220 +1,169 @@
 {
-  "digest_type": "eod",
-  "digest_dt": "2026-07-02T18:00:00-04:00",
-  "saved_at": "2026-07-02T22:10:17.451466+00:00",
+  "digest_type": "premarket",
+  "digest_dt": "2026-07-03T08:30:00-04:00",
+  "saved_at": "2026-07-03T12:40:36.210448+00:00",
   "bullets": [
     {
-      "title": "META: Cloud compute launch triggers AI crowding unwind; Zuckerberg admits AI behind schedule",
-      "body": "META launched a new cloud infrastructure business to sell external compute and AI model access, which JPM views as supportive of sustained capex and monetization, but which also triggered profit-taking across AI tech with Global Memory -15% and Broad AI -7.5% on the week. Separately, Zuckerberg acknowledged in an internal town hall that Meta's AI agent development and internal reorganization are tracking behind initial expectations. META also launched 'Pocket,' a social app with vibe-coded mini games, seen as competitive pressure on RBLX.",
+      "title": "MU: UBS raises PT to $1,625 on DRAM supercycle, memory stocks 17% off peak seen as buying opportunity",
+      "body": "UBS upgrades 2H26 DDR contract pricing to +32% QoQ in 3Q26 (from +17% prior) and +18% QoQ in 4Q26; NAND raised to +30% QoQ in 3Q26. DRAM stays undersupplied until at least 2Q28 with 2027 bit demand growth (+36.2% YoY) far exceeding supply (+19.3%); industry revenues forecast $992bn in 2026 and $1.76tn in 2027 generating ~$1.2tn FCF. Micron rated Buy at $1,625 PT; memory stocks down 17% from June peak seen as temporary pullback with main risk being hyperscaler affordability.",
       "tickers": [
-        "META",
-        "RBLX"
+        "MU"
       ],
       "source_item_ids": [
-        "gmail:19f2474b26cc0c34",
-        "gmail:19f245144066437f"
+        "gmail:19f2787b6b4db019",
+        "gmail:19f2787d884a18f0"
       ]
     },
     {
-      "title": "AAPL: iPhone 17 production cut 15%; memory supplier talks face national security pushback",
-      "body": "Apple cut iPhone 17 production by ~15% as demand normalizes, with iPhone 18 also expected to see a tepid reception. AAPL is reportedly in talks to source memory chips from Chinese suppliers on the Pentagon blacklist and is lobbying the White House for political cover; the situation creates headline/regulatory risk. AAPL gained +8.8% on the week despite these overhangs.",
-      "tickers": [
-        "AAPL"
-      ],
-      "source_item_ids": [
-        "gmail:19f23c6ea563be29",
-        "gmail:19f2474cae8372c1"
-      ]
-    },
-    {
-      "title": "TSLA: Q2 deliveries 480K+, up 34% q/q and 25% y/y, beat ~406K consensus",
-      "body": "Tesla delivered 480K+ vehicles in Q2, up 34% sequentially and 25% year-over-year, well above the ~406K consensus estimate, though expectations were flagged as elevated heading into the print.",
+      "title": "TSLA: Q2 deliveries beat consensus by 18%, highest growth rate since 3Q23",
+      "body": "Tesla posted record Q2 deliveries led by Europe, beating consensus by 18% per Morgan Stanley \u2014 the strongest YoY growth rate since 3Q23. Energy storage came in ahead of MS estimates and in line with consensus, with demand robust from utility-scale ESS and data center customers. Result raises hopes of ending a two-year annual delivery decline.",
       "tickers": [
         "TSLA"
       ],
       "source_item_ids": [
-        "gmail:19f2474cae8372c1"
+        "gmail:19f26a207d27c75f",
+        "gmail:19f2792c0c47021b"
       ]
     },
     {
-      "title": "SMCI: Taiwan office raided in AI chip-smuggling investigation; stock -11.1%",
-      "body": "Taiwanese authorities raided Supermicro's office in connection with an AI chip-smuggling investigation, sending shares down 11.1% on the week. The probe is seen as a brand and regulatory risk; the item notes Nvidia is backstopping younger cloud providers in exchange for revenue share, which could benefit Dell and SMCI as HPC providers separately.",
+      "title": "META: Samsung $6.54B MTIA chip deal; Zuckerberg admits AI agent progress slower than expected",
+      "body": "Samsung Foundry is in negotiations for an over KRW10T ($6.54B) contract to mass-produce Meta's third-generation MTIA custom AI chips, with Meta's 'Watermelon' model claimed to have caught up to OpenAI's GPT-5.5. Separately, Zuckerberg acknowledged AI agent development has been slower than expected over the past four months, with company reorganization and major job cuts not yet delivering results; he expects more significant AI benefits within 3-6 months. Tesla is capping employee AI spending at $200/week starting July 6.",
       "tickers": [
-        "SMCI",
-        "DELL"
+        "META"
       ],
       "source_item_ids": [
-        "gmail:19f23c6ea563be29",
-        "gmail:19f2474cae8372c1"
+        "gmail:19f271344255f267",
+        "gmail:19f250678d4e5fea"
       ]
     },
     {
-      "title": "ADBE upgraded to Buy at HSBC; AI disruption fears overdone",
-      "body": "HSBC upgraded Adobe to Buy from Hold, arguing that AI disruption fears are overdone with no evidence of market share loss to date.",
+      "title": "NAND/DRAM: Morgan Stanley sees 9% NAND supply shortage in 2027; prefers DRAM tactically",
+      "body": "MS projects AI-related NAND demand to increase 60% YoY, creating a 9% supply shortage in 2027 that persists into 2028 when node migration and greenfield expansion provide relief. MS tactically prefers DRAM over NAND due to better LTA terms, higher demand visibility, and supply discipline; NAND suppliers with LTA agreements benefit from downside protection. Complements UBS's bullish DRAM view, with both houses pointing to unprecedented demand/supply gaps.",
       "tickers": [
-        "ADBE"
-      ],
-      "source_item_ids": [
-        "gmail:19f2474cae8372c1"
-      ]
-    },
-    {
-      "title": "PLTR upgraded to Buy at DA Davidson on valuation and competitive moat",
-      "body": "DA Davidson upgraded Palantir to Buy from Neutral, citing valuation and competitive advantages as the key drivers.",
-      "tickers": [
-        "PLTR"
-      ],
-      "source_item_ids": [
-        "gmail:19f2474cae8372c1"
-      ]
-    },
-    {
-      "title": "Wolfe upgrades SaaS/security; top longs MDB, DDOG, SNOW, NOW, PANW",
-      "body": "Wolfe's June 'Manic Monthly' calls MDB an alpha pick on 30%+ Atlas growth and re-rating potential; DDOG early channel checks described as 'great' with GPU consumption upside; SNOW benefiting from AI-driven usage growth; NOW an 'underappreciated long-term AI winner' with positive Q2 checks; PANW the biggest beneficiary of the Mythos security trade (+25% in June). All-SaaS index trades at 5.3x FY+2 EV/Sales vs. All-Security at 8.3x. IGV is down 14.3% YTD.",
-      "tickers": [
-        "MDB",
-        "SNOW",
-        "NOW",
-        "INTU",
-        "CRM",
-        "TEAM"
-      ],
-      "source_item_ids": [
-        "gmail:19f24b66f47c521f"
-      ]
-    },
-    {
-      "title": "Mag 7 / AI Tech momentum unwind: HFs sold at -2z to -3z; Tech Momentum worst month since early 2000s",
-      "body": "MS QDS reports Tech Momentum (MSZZTMTM) down 20% MTD and 11% on Friday alone \u2014 the worst month since the early 2000s. HFs were net sellers of Mag 7 and Software at -2z each in June, with positioning falling to the 16th and 11th percentiles respectively. AI Tech Beneficiaries were sold ~3z amounts with Thursday the largest single net-reduction day. HF gross leverage peaked at the 98th percentile on a 5-year basis but early de-grossing has begun; JPM seasonality points to more into late July.",
-      "tickers": [
-        "META",
-        "GOOGL",
-        "AAPL",
-        "AMZN",
-        "MSFT",
         "MU"
       ],
       "source_item_ids": [
-        "gmail:19f2474b26cc0c34",
-        "gmail:19f24c8b2f6b574d"
+        "gmail:19f26a207d27c75f"
       ]
     },
     {
-      "title": "ORLY: Mixed reaction to potential $10B+ GPC auto acquisition; UBS Buy, Mizuho skeptical",
-      "body": "Bloomberg reported ORLY is pursuing a cash bid for GPC's auto parts arm, valued at $10B+ globally (76 distribution centers, ~6,800 stores), sending ORLY shares down ~3%. UBS maintains Buy at $120 PT (~32x CY'27 EPS), citing geographic diversification and synergy potential, but flags 60% store overlap and likely FTC scrutiny. Mizuho is skeptical, noting GPC's sub-10% EBITDA margins vs. ORLY's consistent 20%+, and prefers smaller tuck-in acquisitions.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19f24c396f62a5eb",
-        "gmail:19f247e9e92e2526"
-      ]
-    },
-    {
-      "title": "HOOD +19.8% on perpetual futures launch; CEO discusses UK expansion",
-      "body": "Robinhood surged 19.8% on the week after launching perpetual futures on commodities and ETFs, with the CEO also commenting on plans for UK market expansion.",
+      "title": "NVDA: China L2 ADAS mandate (Jan 2027) benefits NVDA/TXN as chip suppliers to consolidating ADAS ecosystem",
+      "body": "China's MIIT announced its first mandatory L2 ADAS standard (GB 47955-2026) effective Jan 1, 2027, requiring hands-off steering detection and driver monitoring systems. Policy is expected to eliminate low-ROI ADAS development by smaller automakers, consolidating toward solution providers like Horizon Robotics and Xpeng \u2014 with NVIDIA and TXN identified as key chip suppliers benefiting from the shift. L3 ADAS policy is expected later in 2H26 with similar safety-focused norms.",
       "tickers": [
-        "HOOD"
+        "NVDA",
+        "TXN"
       ],
       "source_item_ids": [
-        "gmail:19f23ede2e289435"
+        "gmail:19f27872decf3b81"
       ]
     },
     {
-      "title": "AMZN: Project Kuiper launches 29 satellites to begin broadband service by end of 2026",
-      "body": "Amazon launched 29 satellites via an Atlas V rocket on July 2, initiating its Project Kuiper constellation with commercial broadband service expected to begin later this year, directly competing with SpaceX's Starlink.",
+      "title": "SEI, WULF, VST, CEG, GEV: Power/AI energy plays with near-term catalysts",
+      "body": "MS feedback flags SEI in mid-to-high $60s back to value levels with three hyperscaler customers anchoring growth; low $60s represents existing capacity value without growth optionality. WULF awaiting Kentucky site deal with a perceived lower bar; crypto miners see headline reaction as overreaction. ERCOT Batch Zero approved by PUCT with ~35 GW baseload and ~65 GW study demand supporting IPP contracting; NRG has secured 5.4 GW H-class turbines from GEV with Kiewit EPC agreement, a positive read-through for VST and CEG.",
+      "tickers": [
+        "SEI",
+        "WULF",
+        "GEV",
+        "CEG",
+        "VST"
+      ],
+      "source_item_ids": [
+        "gmail:19f24f6201ad21bc"
+      ]
+    },
+    {
+      "title": "DKNG: NY online sports betting 2QTD GGR -12% Y/Y despite World Cup handle boost; hold rates compressed",
+      "body": "DraftKings 2QTD NY GGR declined 16% YoY with GGR market share slipping to 33% from 34%; the week ending 6/28 saw +100% YoY GGR on a 12.1% hold rate boosted by World Cup. FanDuel and Fanatics gained share while DraftKings and FanDuel saw share erosion. 2QTD hold rates compressed 200bps YoY to 8.7%, weighing on GGR despite handle growth.",
+      "tickers": [
+        "DKNG"
+      ],
+      "source_item_ids": [
+        "gmail:19f24d96ed5da635"
+      ]
+    },
+    {
+      "title": "BABA: Alibaba bans Anthropic Claude Code for employees citing security concerns amid escalating dispute",
+      "body": "Alibaba is instructing employees to use its internal Qoder platform instead of Claude Code, citing concerns that Claude Code features can identify users with China links as a security risk. The ban widens an existing dispute after Anthropic accused Alibaba of illicitly accessing Claude AI via fake accounts. The confrontation adds a geopolitical dimension to AI tooling competition in China.",
+      "tickers": [
+        "BABA"
+      ],
+      "source_item_ids": [
+        "gmail:19f27836afbee410"
+      ]
+    },
+    {
+      "title": "SPOT: Spotify disputes Kalshi/Polymarket partnerships after song-ranking manipulation via prediction market bets",
+      "body": "Spotify asked Kalshi and Polymarket to remove its logo and clarify that no partnership exists after identifying users manipulating song rankings tied to prediction market bets. This represents a novel platform-integrity risk for Spotify as prediction markets grow in scope and consumer engagement.",
+      "tickers": [
+        "SPOT"
+      ],
+      "source_item_ids": [
+        "gmail:19f27f06d945c2ef"
+      ]
+    },
+    {
+      "title": "RCL, CCL: UBS sees outperformance in 2026 on yield growth; NCLH lags on strategic missteps",
+      "body": "UBS projects RCL net yield +1.6% YoY and CCL +1.8% YoY in 2026E, with both names outperforming NCLH which faces net yield declining -4.6% YoY due to strategic missteps where net revenue yield may not grow faster than net cruise cost. Viking (VIK) leads the group at +5.8% net yield growth. Top 3 cruise lines control ~90% of the North American market.",
+      "tickers": [
+        "RCL",
+        "CCL"
+      ],
+      "source_item_ids": [
+        "gmail:19f25abd8ccabc42"
+      ]
+    },
+    {
+      "title": "Mag 7 / Software: Strong hedge fund selling in June; AI momentum rolling over from June 22 peak",
+      "body": "JPM prime services notes strong selling of Mag 7 and Software (both at -2 Z-score) in recent flows, with US Momentum down 17% from its June 22 peak. Asia fundamental L/S funds posted strong June returns (+7.1%) but Info Tech/Semis dominated selling flows at record pace, reversing all May buying. AI Tech Beneficiaries index (MSXXAIB) posted its largest day of active net reduction with Broad AI L/S ratio near a 5-year low \u2014 a positioning warning for the group.",
+      "tickers": [
+        "META",
+        "MSFT",
+        "AMZN",
+        "NVDA"
+      ],
+      "source_item_ids": [
+        "gmail:19f26b360d07e185",
+        "gmail:19f24f6201ad21bc"
+      ]
+    },
+    {
+      "title": "MSFT: Merging Copilot consumer and business apps; launching $2.5B Microsoft Frontier Company for AI integration",
+      "body": "Microsoft will merge its Copilot consumer and business apps into a single product to compete directly with ChatGPT and Claude. Additionally, Microsoft is launching Microsoft Frontier Company with $2.5bn in capital to help customers integrate multiple AI technologies. Separately, Chevron's 20-year contract with Microsoft provides a supportive datapoint for AI-power infrastructure contracting.",
+      "tickers": [
+        "MSFT"
+      ],
+      "source_item_ids": [
+        "gmail:19f2792c0c47021b",
+        "gmail:19f255546e19edf7"
+      ]
+    },
+    {
+      "title": "MU: Citi highlights SK Hynix removing price caps from LTAs; memory semi-customization trend accelerating",
+      "body": "SK Hynix is adopting long-term supply agreements without industry-standard price caps, allowing spot market increases to flow through during shortages \u2014 a structurally bullish pricing dynamic. Hynix and Samsung are extending contract durations to 3-5 years; Micron is setting price caps at 2Q26 levels with price floors. The memory market is shifting toward semi-customization driven by diversified AI product demand, benefiting suppliers with flexible contract structures.",
+      "tickers": [
+        "MU"
+      ],
+      "source_item_ids": [
+        "gmail:19f255546e19edf7"
+      ]
+    },
+    {
+      "title": "AMZN: Deployed enough LEO satellites to launch service competing with Starlink later this year",
+      "body": "Amazon has deployed sufficient satellites to launch its Project Kuiper LEO broadband service later in 2026, putting it in direct competition with SpaceX's Starlink. No specific financial targets were cited but the milestone represents a meaningful commercial catalyst for Amazon's broadband ambitions.",
       "tickers": [
         "AMZN"
       ],
       "source_item_ids": [
-        "gmail:19f23db072ebc17f"
+        "gmail:19f2792c0c47021b"
       ]
     },
     {
-      "title": "CMCSA: Spinoff of NBCUniversal and Sky viewed positively; JPM recommends short on CMCSA bonds",
-      "body": "CMCSA gained +2.7% on the week on NBCUniversal and Sky spinoff plans. On the credit side, JPM recommends shorting CMCSA 5.30% '35 bonds, noting spreads are trading tight relative to US telecom peers following the split announcement.",
-      "tickers": [
-        "CMCSA"
-      ],
-      "source_item_ids": [
-        "gmail:19f23b6ab769ca7c",
-        "gmail:19f2474cae8372c1"
-      ]
-    },
-    {
-      "title": "FICO: Dominates GSE mortgage market at 99.1% share; VantageScore reaches only 90bps in first material month",
-      "body": "FICO backed $61.2B of $61.8B in GSE fixed-rate mortgages (99.1% share) in June 2026 data. VantageScore 4.0 reached $556M (90bps) in its first month of material volume, concentrated almost entirely at United Wholesale Mortgage (87% of VantageScore use), suggesting no near-term threat to FICO's dominance.",
+      "title": "Macro: Wolfe forecasts June core CPI at 0.23% vs 0.3% consensus; Fed likely on hold through summer",
+      "body": "Wolfe Research forecasts June core CPI at 0.23% MoM vs the 0.3% consensus, with headline CPI at -0.06% MoM driven by lower energy prices following the end of the Iran conflict. World Cup is expected to add 3-4bp temporary boost through lodging; core PCE seen at 0.27% MoM with YoY run rate at 3.4%. Softer labor data (June payrolls +57k) should keep the Fed comfortable on hold over summer, though JPM's longer-run view is for higher rates as labor supply tightens unemployment toward 4%.",
       "tickers": [],
       "source_item_ids": [
-        "gmail:19f24c2af9540147"
-      ]
-    },
-    {
-      "title": "WYNN: UBS maintains Buy/$146 PT; cuts Q2 Vegas/Boston estimates on June softness",
-      "body": "UBS trims Q2 Vegas revenue to $637M (flat YoY) and EBITDA to $213M (-9% YoY) on lower airlift, with Harry Reid airport traffic down 7-8% YoY. Boston Q2 EBITDA cut to $54M from $57M. Macau GGR was down 12% YoY in June due to World Cup, but UBS expects rebound in August; Al Marjan Island opening pushed to late 2027. Buy and $146 PT unchanged.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19f238fd86b94712"
-      ]
-    },
-    {
-      "title": "SHOP +5.1% on Canadian tape; HUT -17.5% hit by META cloud/compute narrative",
-      "body": "Shopify gained +5.1% to C$170.56 in mid-afternoon Canadian trading. Hut 8 Mining fell 17.5% to C$135.17, consistent with the broader Bitcoin miner selloff (miners down >20%) triggered by skepticism around compute scarcity following META's cloud launch.",
-      "tickers": [
-        "SHOP",
-        "HUT"
-      ],
-      "source_item_ids": [
-        "gmail:19f241f96f98786c",
-        "gmail:19f2474b26cc0c34"
-      ]
-    },
-    {
-      "title": "RBLX: Competitive pressure from META's 'Pocket' mini-games app flagged",
-      "body": "META is rolling out a new app called Pocket featuring a social feed of vibe-coded mini games, seen as a direct competitive threat to Roblox's core user engagement model. RBLX shares were down on the news.",
-      "tickers": [
-        "RBLX",
-        "META",
-        "APP",
-        "U"
-      ],
-      "source_item_ids": [
-        "gmail:19f23a83e09f45d6",
-        "gmail:19f2474cae8372c1"
-      ]
-    },
-    {
-      "title": "NFLX, ROKU, CMCSA, FOXA: JPM Media M&A Webinar scheduled July 6",
-      "body": "JPMorgan is hosting a Media M&A Webinar on July 6 at 10am ET covering CMCSA, NFLX, ROKU, FOXA and others \u2014 potentially relevant ahead of any further spinoff or deal news.",
-      "tickers": [
-        "ROKU",
-        "NFLX",
-        "CMCSA",
-        "FOXA"
-      ],
-      "source_item_ids": [
-        "gmail:19f243d28f011c23"
-      ]
-    },
-    {
-      "title": "Hyperscaler options overlay: 6-month IV at multiyear highs; upside calls cheaply skewed vs ATM",
-      "body": "22V Research notes META, AMZN, and MSFT 6-month implied volatility is at multiyear highs with upside calls richly skewed versus ATM options, creating a low-cost overlay entry point for long exposure into H2 hyperscaler rebound.",
-      "tickers": [
-        "META",
-        "AMZN",
-        "MSFT"
-      ],
-      "source_item_ids": [
-        "gmail:19f247fe93366fd7"
-      ]
-    },
-    {
-      "title": "Soft June payrolls (57K vs. 110K est.) cement Fed on hold; semi/memory crowding continues to unwind",
-      "body": "June nonfarm payrolls came in at just 57K vs. 110K consensus, with prior months revised down 74K; unemployment fell to 4.2% on lower participation (61.5%, lowest since March 2021). Fed rate hike odds fell to ~17% for July. Morgan Stanley and 22V both expect Fed on hold through 2026. Semis (SOX -4.4% for week) and memory continued to unwind amid AI capex scrutiny, with SK Hynix and Micron carrying the highest short gamma (-$16B/1% move).",
-      "tickers": [
-        "MU"
-      ],
-      "source_item_ids": [
-        "gmail:19f23c81271e3acb",
-        "gmail:19f2474b26cc0c34"
+        "gmail:19f2771446f3fa57",
+        "gmail:19f251545fbdb4e4"
       ]
     }
   ]
