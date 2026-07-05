@@ -1,11 +1,40 @@
 {
   "digest_type": "weekend",
-  "digest_dt": "2026-07-04T18:00:00-04:00",
-  "saved_at": "2026-07-04T22:07:52.537457+00:00",
+  "digest_dt": "2026-07-05T18:00:00-04:00",
+  "saved_at": "2026-07-05T22:10:36.978826+00:00",
   "bullets": [
     {
-      "title": "June NFP misses badly at +57k; Fed on hold through 2026",
-      "body": "June nonfarm payrolls came in at 57k (vs. 100\u2013115k consensus), with prior months revised down 74k cumulatively. The unemployment rate fell to 4.2% but entirely due to a 720k drop in labor force participation (not job creation). Morgan Stanley, JPMorgan, and Wolfe Research all conclude the Fed stays on hold through year-end; September hike odds fell from ~73% to ~17-25% post-print. Fed Chair Warsh at ECB Sintra acknowledged inflation risks have declined, reinforcing the hold narrative.",
+      "title": "META's cloud compute announcement triggers sharp AI infrastructure sell-off, debate rages on implications",
+      "body": "Meta's reported plan to launch 'Meta Compute'\u2014monetizing excess AI capacity at ~65% utilization\u2014triggered a sharp sector rotation: CRWV fell 14%, NBIS 17%, memory/SOX dropped 6\u201311%. Debate split between bulls (META monetizing overcapacity improves ROIC, capex unchanged at $175\u2013275B estimates) and bears (signals AI overbuild relative to monetizable demand). JPM, MS, Citi, and Mizuho all reiterated Buy on META; JPM nonetheless downgraded to Neutral citing preference for META developing AI products for its 4B user base.",
+      "tickers": [
+        "META",
+        "CRWV",
+        "NBIS",
+        "NVDA",
+        "AVGO",
+        "AMD",
+        "MU"
+      ],
+      "source_item_ids": [
+        "gmail:19f22b80aae788f6",
+        "gmail:19f22f5c6dfd941d"
+      ]
+    },
+    {
+      "title": "Memory supercycle intensifying: DRAM +3.1% m/m, supply deficit extends past 2028",
+      "body": "UBS raised 2H26 DDR contract pricing to +32% QoQ in 3Q (from +17% prior) and +18% in 4Q; PC DRAM hit $21/Gb in June (+7x YoY). DRAM industry undersupplied until at least 2Q28 with 2027 bit demand growth (+36.2%) far exceeding supply (+19.3%). Memory industry revenues forecast at $992bn in 2026 and $1.76tn in 2027, generating ~$1.2tn FCF. Micron signed 16 multi-year SCAs with price floors; SK Hynix removed price caps. Samsung and SK Hynix announced $3.55tn combined capex through 2040.",
+      "tickers": [
+        "MU",
+        "SNDK"
+      ],
+      "source_item_ids": [
+        "gmail:19f2787b6b4db019",
+        "gmail:19f18eda199fb974"
+      ]
+    },
+    {
+      "title": "June payrolls badly missed at +57k vs 113k consensus; Fed firmly on hold through 2026",
+      "body": "June NFP rose just 57k (vs 110-115k consensus), with prior months revised down 74k cumulatively; unemployment fell to 4.2% driven by a sharp drop in labor force participation (-720k), not job creation. Morgan Stanley, Wolfe, and Piper Sandler all see Fed on hold through 2026; implied hike odds for July fell to ~17%. Fed Chair Warsh acknowledged inflation risks 'have come down' at ECB Sintra. Core PCE at 0.21% MoM remains the key threshold\u2014prints above 0.25% would risk a September hike.",
       "tickers": [],
       "source_item_ids": [
         "gmail:19f23c81271e3acb",
@@ -13,202 +42,218 @@
       ]
     },
     {
-      "title": "META's 'Meta Compute' cloud launch sparks AI capex debate and massive unwind",
-      "body": "Bloomberg reported META is building a cloud infrastructure business to sell excess AI compute capacity. META stock closed +8.8% on improved ROIC optics, but the move triggered a debate: bears (Ed Zitron, some sell-side) argued it signals overbuild relative to demand, while bulls (Jefferies, MS, KeyBanc, Citi) viewed it as monetization optionality that improves FCF and justifies higher capex. Neocloud names CRWV (-13%) and NBIS (-15%) sold off sharply as META represents >33% and >50% of their backlogs, respectively. MS estimates every 250 MW leased at $40/watt adds ~$3 (8%) to 2028 EPS.",
-      "tickers": [
-        "META",
-        "CRWV",
-        "NBIS"
-      ],
-      "source_item_ids": [
-        "gmail:19f22f5c6dfd941d",
-        "gmail:19f1fa09a1364ee9"
-      ]
-    },
-    {
-      "title": "Semi/memory momentum unwind: SOX -9% from June peak; Global Memory -15% in a week",
-      "body": "AI infrastructure crowding unwound sharply, with the MS Tech Momentum factor down ~20% MTD\u2014worst month since early 2000s. Semis saw the largest active net reduction, with hedge funds selling Info Tech at -2.7 SDs (4th consecutive week of net selling per GS Prime). MU -13.8% w/w, SNDK -16.5% w/w, COHR -12.4% w/w. The AI Tech Beneficiaries index posted its largest single-day active net reduction on Thursday, July 2. Despite the selloff, UBS maintains DRAM undersupply through 2Q28 and raises 2H26 DDR pricing to +32% QoQ in 3Q from +17% prior; MU PT $1,625.",
+      "title": "S&P 500 posted best quarter since 2020 in Q2; SOX up 88%, best quarter since 1993 inception",
+      "body": "The S&P 500 gained +14.87% in Q2 2026 (best since Q2 2020), Nasdaq +21.41%, SOX +87.8% (record since 1993 inception). MU +241.7%, SNDK +257.9% led memory. However, Mag 7 shed $2.3T in June\u2014MSFT -17.2%, AMZN -11.9%, META -10.9%\u2014as AI capex ROI skepticism mounted. Broad market breadth was strong: Russell 2000 +21.15% QTD, equal-weight S&P outpaced cap-weighted by ~300bp in June.",
       "tickers": [
         "MU",
         "SNDK",
-        "COHR",
-        "CIEN",
-        "PLTR"
+        "MSFT",
+        "AMZN",
+        "META",
+        "GOOGL",
+        "NVDA"
       ],
       "source_item_ids": [
-        "gmail:19f2787b6b4db019",
-        "gmail:19f2474b26cc0c34"
+        "gmail:19f1a28d7cb63d27",
+        "gmail:19f19a2564348b0ef"
       ]
     },
     {
-      "title": "S&P 500 +1.8% w/w, +9.3% YTD; Q2 earnings expected +22% YoY\u2014broadening narrative intact",
-      "body": "Despite the AI/semi unwind, the S&P finished the week up 1.8%; equal-weight RSP hit fresh all-time highs and outpaced cap-weighted by ~70bp. Citi raised its year-end S&P target to 8,100 (on $350/$400 EPS for 2026/2027). FactSet projects Q2 S&P 500 earnings growth of 23.3% YoY\u2014the second consecutive quarter of 20%+ growth. Median S&P 1500 stock is delivering double-digit earnings growth, fastest pace since post-COVID, per multiple strategists. Mag 7 and S&P 493 both expected to deliver 17% EPS growth in 2027, first convergence since 2021.",
+      "title": "Hedge funds net-sold equities for 3rd straight week; Info Tech at -2.7 SDs, crowding unwinds",
+      "body": "GS Prime reported fundamental L/S managers down -1.53% for 6/26-7/2 versus MSCI World +1.67%. Info Tech was most net-sold sector globally for the 4th consecutive week (-2.7 SDs), led by semis/hardware selling. Gross leverage at 313% (85th pct 1-year), net at 79%. JPM Prime noted HF gross leverage peaked at 98th pct (5-year) post-June expiry; tech crowding at +3z and Tech HW above +4z. Early de-grossing flows emerged; seasonality points to continued pressure into late July.",
       "tickers": [],
       "source_item_ids": [
-        "gmail:19f2985cfe241e19",
+        "gmail:19f33ca0c8f18878",
+        "gmail:19f24c8b2f6b574d"
+      ]
+    },
+    {
+      "title": "AI capex super-cycle intact but 2027 deceleration risk is real; hyperscaler FCF going negative",
+      "body": "Citi's CETS note flags Mag7 AI capex at $1tn+ in 2027 (AMZN, META, GOOGL, MSFT = 90% of spend). Evercore warns hyperscaler FCF is declining and forecast negative with debt/equity issuances rising. AWS raised EC2 Capacity Block prices ~20% effective July 1 (2nd hike this year); neocloud long-term contract prices moving above $10-12M/MW. Jefferies contrarian bear case: OpenAI costs $8-14k to serve $200 subscriptions; AI revenues concentrated in two private firms with broken unit economics.",
+      "tickers": [
+        "AMZN",
+        "META",
+        "GOOGL",
+        "MSFT"
+      ],
+      "source_item_ids": [
+        "gmail:19f328a13cd2fae5",
+        "gmail:19f1d0b2d4d40ac6"
+      ]
+    },
+    {
+      "title": "DRAM now primary AI supply bottleneck replacing CoWoS; NVDA moves ahead of AVGO as top compute pick",
+      "body": "Sunday TMT Playbook (July 5) notes DRAM has replaced CoWoS as the gating factor for chip supply. NVDA moved ahead of AVGO as top mega-cap compute idea due to strong HBM access vs AVGO's 85% fulfillment. TSMC raised 2027/28 capex estimates to $75-80bn. Peter Lee raised 2026 DRAM ASP forecast to +234% YoY (from +200%) and NAND to +236%. HBM demand forecast raised to 33.1bn Gb in 2026 (+90% YoY).",
+      "tickers": [
+        "NVDA",
+        "AVGO",
+        "AMD",
+        "TSM",
+        "MU"
+      ],
+      "source_item_ids": [
+        "gmail:19f32a535cebbfc2",
+        "gmail:19f2787b6b4db019"
+      ]
+    },
+    {
+      "title": "Comcast plans tax-free NBCU/Sky spinoff; CHTR in talks with SpaceX on mobile\u2014media M&A wave looms",
+      "body": "Comcast announced separation of NBCUniversal and Sky into an independent public company (~1 year timeline), with Cavanagh to lead NBCU and Angelakis to lead cable RemainCo. CHTR simultaneously held exec-level talks with SpaceX on a consumer mobile partnership. Wolfe Research skeptical spin completes\u2014expects merger of one/both units with peers instead. CMCSA +22% and CHTR +9% on news. SOTP analysis suggests ~$29/share value unlock for CMCSA.",
+      "tickers": [
+        "CMCSA",
+        "CHTR",
+        "FOXA",
+        "NFLX",
+        "ROKU",
+        "WBD"
+      ],
+      "source_item_ids": [
+        "gmail:19f15e3a9b127a5b",
+        "gmail:19f13a5e61097055"
+      ]
+    },
+    {
+      "title": "Broad market broadening: equal-weight S&P at ATHs, Russell 2000 best relative start since 2003",
+      "body": "Multiple sources confirm broad market strength beneath the AI-concentration narrative: NYSE breadth at all-time highs, equal-weight S&P (RSP) set fresh ATH, Russell 2000 up 23% YTD/+11.2% in Q2 (best relative since 2003). Mag 7 on equal-weight basis up only 50bps YTD. Morgan Stanley notes median S&P 1500 stock delivering double-digit earnings growth, fastest since post-COVID boom. Citi lifted S&P 500 year-end target to 8100 ($350/$400 EPS for 2026/27).",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19f324340463925f",
+        "gmail:19f19f4a7adac35c1"
+      ]
+    },
+    {
+      "title": "Fed Chair Warsh signals dovish tilt on AI, moving away from forward guidance",
+      "body": "Warsh at ECB Sintra expressed 'cautious optimism' on AI productivity gains, said inflation expectations and risks 'have come down' over the past four weeks, and signaled desire to eliminate dot plot/forward guidance. Morgan Stanley expects Fed on hold through all of 2026. A task force co-chaired by former BoE Governor King will focus on real-time economic data. The Supreme Court 5-4 upheld Fed independence in Trump v. Cook, removing tail risk to FOMC.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19f1edbb73602575",
+        "gmail:19f14f2dbb0c615a"
+      ]
+    },
+    {
+      "title": "Oil cratered 20%+ in Q2; Iran-US MoU removing energy tail risk, Hormuz traffic normalizing",
+      "body": "Brent fell >20% in Q2 following Iran-US MoU (June 17) extending a 60-day ceasefire and reopening the Strait of Hormuz. Gasoline prices still ~16-28% above pre-conflict levels despite crude normalization. OPEC+ agreed to a 188k bpd output increase effective August. JPM cut 2H26 Brent to $75/bbl (from $85/90) and MS lowered 2027 to $70/bbl. Iran de-escalation removes acute energy inflation and global growth headwinds that had pressured ECB/BoE/Fed.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19f27ae1312065ef",
+        "gmail:19f26b39e1502036"
+      ]
+    },
+    {
+      "title": "IT Services sector down ~30% YTD as Big Tech embeds AI engineers directly into enterprise",
+      "body": "MS notes IT Services (ACN, Capgemini peers) down ~30% YTD as software vendors encroach on consulting turf. MSFT announced a $2.5bn 'Frontier Company' initiative with 6,000 embedded AI experts; AWS launched a $1bn Forward-Deployed Engineering organization. Morgan Stanley reiterates Underweight on Tieto at 17-34% premium to ACN/Capgemini peers. The trend of software companies doing hands-on AI transformation threatens dedicated IT Services firms' revenue model.",
+      "tickers": [
+        "MSFT",
+        "AMZN",
+        "GOOGL"
+      ],
+      "source_item_ids": [
+        "gmail:19f32cfa13b8f442",
+        "gmail:19f1ac923b9c74db"
+      ]
+    },
+    {
+      "title": "Software sector bifurcates: Security +6%, Apps/IGV -14% in June; infrastructure outperforms",
+      "body": "KeyBanc notes infrastructure-exposed software (MSFT, ORCL, NET) returned +18.5% YTD vs apps down -26.5%; large-cap software down 33.5% equal-weighted. Wolfe's Zukin flags MDB, DDOG, SNOW as longs on AI tailwinds; Guggenheim upgraded CRM and NOW to Buy; Wolfe all-SaaS index at 4.9x FY+2 EV/Sales. IGV down 16.5% YTD vs S&P +7.5%.",
+      "tickers": [
+        "MDB",
+        "SNOW",
+        "NOW",
+        "CRM",
+        "DDOG"
+      ],
+      "source_item_ids": [
+        "gmail:19f32657a861be75",
+        "gmail:19f22cf51ffa491a"
+      ]
+    },
+    {
+      "title": "MSFT FY27 FCF could go negative as memory/capex costs surge; Wolfe cuts PT to $525",
+      "body": "Wolfe Research cut MSFT PT from $570 to $525 (still Outperform, 34% upside) as memory price increases force FY27 capex to $270bn (+$40bn). FY27 FCF now forecast at -$17.4bn (vs prior +$14.7bn). FY27 gross margin lowered to 63.1% vs consensus 66.6%. Azure growth raised to 41% FY27. MSFT trades at 19x CY27 P/E, a 20% discount to mega-cap peers. Separately, MSFT planned job cuts affecting <2.5% of workforce.",
+      "tickers": [
+        "MSFT"
+      ],
+      "source_item_ids": [
+        "gmail:19f34428be652c10",
+        "gmail:19f1ad1e6dcfeae9"
+      ]
+    },
+    {
+      "title": "AAPL raising device prices 15-25% on memory cost squeeze; sourcing talks with Chinese CXMT",
+      "body": "Apple raised MacBook/iPad/accessory prices 15-25% citing unprecedented memory cost pressures (DRAM up 7x YoY). CEO Cook stated he has 'never seen component price increases this significant.' AAPL simultaneously lobbying Washington to buy chips from CXMT (on Pentagon blacklist) to diversify supply. iPhone 17 production cut ~15% on lower shipment forecasts; iPhone 18 price hikes expected in September. Chinese smartphone makers (Xiaomi, Oppo, Vivo) cut 2026 shipment targets by up to 30%.",
+      "tickers": [
+        "AAPL",
+        "MU"
+      ],
+      "source_item_ids": [
+        "gmail:19f135cdfc128ad9",
         "gmail:19f1f4ff61e89b5f"
       ]
     },
     {
-      "title": "Hedge funds de-grossing: Tech at -2z; gross leverage at 98th pctile on 5-year; seasonality points to more selling",
-      "body": "GS Prime reports US L/S gross leverage rose to 202.9% (2nd pctile 1Y) but hedge funds net sold for 3rd straight week, with Info Tech the most net sold sector at -2.7 SDs. Asia Fundamental L/S sold at the largest monthly rate in records (-2z, second highest monthly selling). JPM Prime Monthly Wrap notes US Momentum down 17% from June 22 peak and flags seasonal de-grossing into late July. Korea and Japan dealers are also short significant gamma via leveraged ETF positioning, amplifying volatility.",
+      "title": "GOOGL PT raised to $415 on 9GW compute capacity in 2028; Google Cloud to hit $300bn revenue",
+      "body": "Morgan Stanley's Nowak raised GOOGL PT from $375 to $415, modeling 9 GW incremental capacity in 2028 (7 GW TPU + 2 GW NVIDIA GPU) and 4 GW of TPU merchant sales. Google Cloud projected to grow 106%/44% in 2027/2028, reaching $300bn+ revenue. Google Cloud EBIT forecast at $132bn in 2028 (~46% of total company EBIT). 2027/2028 capex raised to $350bn/$375bn. GOOGL trades at 18x 2028 EPS vs 21x LT average.",
+      "tickers": [
+        "GOOGL",
+        "NVDA",
+        "AVGO"
+      ],
+      "source_item_ids": [
+        "gmail:19f18cc76f2eaee7",
+        "gmail:19f1577f0173498c"
+      ]
+    },
+    {
+      "title": "Retail trading at all-time highs; retail investors bought dip in MU, SNDK at record pace",
+      "body": "JPM Retail Radar shows retail inflows at 75th percentile last week, with single-stock demand at 94th percentile. MU topped purchases at $897M (+3.7z) after SCAs news; SNDK second at $705M (+4.6z). Combined MU+SNDK retail semis demand at highest in 14+ months. NVDA accumulated $492M. Retail is net buyers of equities with $36bn in flows last week (89th pct 1yr). Citi data: S&P 500 up 12.2% YTD with retail Mag7 interest at 4-year lows (6% of volumes).",
+      "tickers": [
+        "MU",
+        "SNDK",
+        "NVDA",
+        "MSFT",
+        "GOOGL",
+        "META",
+        "AMZN",
+        "AAPL",
+        "TSLA"
+      ],
+      "source_item_ids": [
+        "gmail:19f20ba4260478ff",
+        "gmail:19f342158ae91ab0"
+      ]
+    },
+    {
+      "title": "ECB likely to hike once more in September as Eurozone PMI recovery broadens; EU GDP upgraded",
+      "body": "JPM raised EU growth forecasts on lower inflation (headline fell to 2.8% YoY in June from 3.2% in May), stronger employment (+0.8% annualized in 2Q), and accelerating lending (+3.5% YoY). Germany's 33-reform package could lift trend growth 20-30bp. ECB's Lagarde maintained hawkish bias; JPM sees one final 25bp hike in September as 'very likely.' Eurozone composite PMI revised up to 50.0, consistent with ~0.8% annualized growth.",
       "tickers": [],
       "source_item_ids": [
-        "gmail:19f24c8b2f6b574d",
-        "gmail:19f274182a079437"
+        "gmail:19f23f90c89710e5",
+        "gmail:19f1c63e254628bb"
       ]
     },
     {
-      "title": "AI power/data center buildout intact: AWS EC2 prices +20%, neocloud LTA prices >$10M/MW",
-      "body": "Despite the capex debate, demand signals for AI compute remain robust. AWS raised EC2 Capacity Block prices ~20% effective July 1 (second increase this year). LLM token volumes +70% MoM in June, 20x YoY per JPM Data Center Watch; GPU rental prices rose across all tiers. Neocloud long-term contract prices are moving above $10-12M/MW. JPM upgraded AI server TAM forecasts: servers +9/+12/+20% for 2026/27/28; AI servers at +37% CAGR through 2030. ERCOT Batch Zero approved ~35GW baseload demand, supporting IPP contracting opportunity (VST, CEG, GEV).",
-      "tickers": [
-        "GEV",
-        "CEG",
-        "VST",
-        "BE"
-      ],
-      "source_item_ids": [
-        "gmail:19f19f22737302445f",
-        "gmail:19f1d9c2a16315c8"
-      ]
-    },
-    {
-      "title": "Memory upcycle thesis reinforced: DRAM spot +10% MoM, +740% YoY; supply deficit extends to 2Q28",
-      "body": "PC DDR5 (16Gb) hit $43.14 in spot markets (+10% MoM, +740% YoY). UBS raises 2H26 DRAM contract pricing to +32% QoQ in 3Q26 (from +17%). NAND pricing forecast +30% QoQ in 3Q26. HBM demand raised to 33.1bn Gb in 2026 (+90% YoY). Apple announced 15-25% price hikes across Mac/iPad lines directly attributable to memory cost pressures; Apple is simultaneously lobbying Washington to source memory from sanctioned Chinese suppliers (CXMT, YMTC). Samsung and SK Hynix announced $3.1T combined Korean chip investment through 2040.",
-      "tickers": [
-        "MU"
-      ],
-      "source_item_ids": [
-        "gmail:19f2787b6b4db019",
-        "gmail:19f202bce1853e68"
-      ]
-    },
-    {
-      "title": "Comcast spinning off NBCUniversal/Sky; Charter in SpaceX mobile talks\u2014media/telecom structurally shifting",
-      "body": "Comcast announced a tax-free spin-off of NBCUniversal and Sky into a separate public company (~1-year timeline); Mike Cavanagh to lead NBCUniversal, Michael Angelakis to lead Cable RemainCo. Wolfe Research upgraded FOXA to Outperform ($71 PT) on ROKU deal, seeing a multi-channel CTV compounder trading at 11.8x NTM UFCF. Charter held exec-level talks with SpaceX on a consumer mobile phone partnership. Verizon announced a 50:50 JV with BT Group for international operations and will record $700-800M loss in Q2. US telecom names (VZ, T) fell 5-10% on Starlink competitive fears.",
-      "tickers": [
-        "CMCSA",
-        "FOXA",
-        "ROKU"
-      ],
-      "source_item_ids": [
-        "gmail:19f15dda82e51275",
-        "gmail:19f1e065acd93016"
-      ]
-    },
-    {
-      "title": "Macro regime: Fed hawkish tilt, debasement trade roaring back, gold revised down to $4,500/oz 4Q26",
-      "body": "JPMorgan raised European growth forecasts while noting the debasement trade (Gold+, Dollar\u2212, steeper curve) is roaring back post-soft NFP. Nine FOMC members now anticipate rate hikes this year, with JPM's base case for first hike in late 2026 or 1Q27 if core PCE stays above 0.21% MoM. Gold price targets revised sharply lower: $4,500 4Q26 (from $6,000) and $5,000 4Q27 (from $6,300) as Iran war premium is removed. Wolfe Research forecasts June core CPI at 0.23% (vs. 0.3% consensus), with headline CPI -0.06% on lower energy\u2014supporting a Fed summer hold.",
+      "title": "Debasement trade roars back post-soft NFP: gold targets cut but long-term bullish; dollar firmer",
+      "body": "JPM notes debasement trade (Gold+, Dollar-, steeper curve) reignited after soft NFP and Fed Chair Warsh's hawkish-to-dovish commentary. Gold base case $4,300/oz 3Q26, $4,500/oz 4Q26\u2014but targets revised down from $6,000 prior as Hormuz normalization removes energy tail risk. Gold down 12.1% in June (worst month since June 2013). Bitcoin at lowest 60-day volatility in cycle; below $60K level implies move to $40K per Hedgeye. JPM broad dollar index up 2.0% in June.",
       "tickers": [],
       "source_item_ids": [
         "gmail:19f26b39e1502036",
-        "gmail:19f2771446f3fa57"
+        "gmail:19f324340463925f"
       ]
     },
     {
-      "title": "Iran ceasefire / Hormuz reopening: oil -20% from April peak, reshaping global macro",
-      "body": "The Iran-US MoU signed June 17 extended a 60-day ceasefire and reopened the Strait of Hormuz, removing acute energy supply tail risk. Brent crude has fallen from $120/bbl in April to ~$70/bbl, cutting Eurozone inflation from 3.2% to 2.8% in June. JPM cut its 2H26 Brent assumption to $75/bbl (from $85 3Q, $80 4Q). The oil shock removal is a net positive for growth (consumer real income) but creates earnings headwinds for energy sector. Saudi crude shipments recovered to 6.3 mmbbl/d. US gasoline prices remain 28% above pre-conflict levels despite crude normalization.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19f1a21fbd91cc94",
-        "gmail:19f23ad707ec6e11"
-      ]
-    },
-    {
-      "title": "Rotation into Financials, Healthcare, Consumer\u2014away from AI/semis\u2014gaining institutional momentum",
-      "body": "GS and JPM both note capital rotating from AI/Tech into Financials, Healthcare, Consumer, and Software rather than leaving markets. Regional banks (KRE) up 15% since March 31, outperforming SPX by 600bps YTD; 22V favors USB and FITB on loan growth and NIM. Healthcare expected to outperform in 3Q on midterm seasonality (+7.5% historical SPX outperformance) and hedge fund positioning at -2z that is now reversing. Consumer Staples outperformed broader market +3% in June. JPM Healthcare tactical call: add as low-correlation long vs. Tech.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19f2985cfe241e19",
-        "gmail:19f1f72c391483ce"
-      ]
-    },
-    {
-      "title": "TSLA Q2 deliveries +25% YoY at 480K beat; ENPH surges on potential US ban on Chinese inverters",
-      "body": "Tesla Q2 deliveries came in at 480K units, up 25% YoY and beating consensus of ~406K, highest growth rate since 3Q23. Energy storage was 13.5 GWh (+34% YoY). Separately, ENPH surged 11%+ pre-market Monday on Reuters reports that the Trump administration is drafting a ban on foreign (Chinese) solar inverter imports on national security grounds. GEV and NXT would also benefit. Chinese inverters hold ~50% of US utility-scale/C&I market share.",
+      "title": "Power/data center buildout accelerating: BE expands Brookfield partnership 5x to $25bn; ERCOT Batch Zero advances",
+      "body": "Bloom Energy expanded its AI infrastructure partnership with Brookfield from $5bn to $25bn (5x), implying 5GW development potential. OKLO received DOE final safety analysis approval targeting July 2026 first criticality. ERCOT Batch Zero approved with ~35GW baseload and ~65GW study demand supporting IPP contracting. NRG secured 5.4GW H-class turbines from GEV. Data center construction revisions: starts up 113% and power projects up 117% on trailing 6-month basis.",
       "tickers": [
-        "TSLA",
-        "ENPH",
-        "GEV"
-      ],
-      "source_item_ids": [
-        "gmail:19f26a407d27c75f",
-        "gmail:19f1859efd9e4111"
-      ]
-    },
-    {
-      "title": "Bloom Energy expands Brookfield AI partnership 5x to $25B; on-site power thesis accelerates",
-      "body": "Bloom Energy and Brookfield Infrastructure expanded their AI infrastructure partnership from $5B to $25B (5 GW capacity framework). Brookfield has already committed $1.6B across 6-7 projects totaling 330 MW. MS upgraded BE to Overweight with $310 PT on the news. The expansion underscores structural demand for on-site power as grid interconnection queues lengthen; UBS raised BE PT to $355. Morgan Stanley also initiated Innio (INIO) at Overweight ($47 PT) as a competing reciprocating engine play with 24% revenue CAGR through 2030.",
-      "tickers": [
-        "BE"
-      ],
-      "source_item_ids": [
-        "gmail:19f1bda6ff7f240f",
-        "gmail:19f1dda20d6e47ff"
-      ]
-    },
-    {
-      "title": "US equity positioning: retail at 89th pctile buying; HFs net sellers; leveraged ETF systemic risk flagged",
-      "body": "Retail net bought $36B in equities last week (89th percentile 1Y), with $22B via single stocks. MU ($897M +3.7z) and SNDK ($705M +4.6z) topped retail purchases despite the selloff. JPM flags US margin debt at a record $1.4T and levered ETF assets at $220B, with systemic risk from mechanical rebalancing creating -$16B/1% short gamma near historical highs. Futures traders net sold ~$11.3B. Corporate bond inflows hit $5B (largest in some time), while crypto ETFs saw -$1.7B and US equity ETFs -$10.2B outflows.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19f2474b26cc0c34",
-        "gmail:19f20ba4260478ff"
-      ]
-    },
-    {
-      "title": "ERCOT Batch Zero / data center power in Texas: 35 GW baseload demand, PUCT confirmation mid-August",
-      "body": "ERCOT Batch Zero was approved by PUCT two weeks ago with confirmation expected mid-August after finalized load forecast integration. ERCOT has signaled ~35 GW baseload demand and ~65 GW study demand, supporting IPP contracting (NRG secured 5.4 GW H-class turbines from GEV plus EPC agreement with Kiewit). NY legislature is also considering a 1-year pause on large data center permits (Responsible Data Center Development Act). Morgan Stanley notes AI power demand to drive 2.6% annual US electricity demand growth.",
-      "tickers": [
+        "BE",
+        "OKLO",
         "GEV",
-        "CEG",
         "VST",
-        "SEI",
-        "WULF"
+        "CEG",
+        "TLN"
       ],
       "source_item_ids": [
-        "gmail:19f24f6201ad21bc",
-        "gmail:19f1dda20d6e47ff"
-      ]
-    },
-    {
-      "title": "USMCA moved to annual reviews; Mexico trade advantage intact near-term, broader uncertainty ahead",
-      "body": "The US formally declined to renew USMCA at the July 1 deadline, shifting to annual review through 2036. No immediate tariff changes; treaty remains in force. JPM and others note Mexico retains significant nearshoring advantage, particularly in pharma, semis, and advanced manufacturing. A third round of US-Mexico negotiations is scheduled for mid-July; JPM projects renegotiation could drag into late 2027. Mexico 2Q26 GDP was revised up to 5.5% saar (from 3.3%) on strong April data.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19f23f46da1363c0",
-        "gmail:19f24e56f1228ab9"
-      ]
-    },
-    {
-      "title": "Eurozone recovery confirmed; JPM raises 4Q26\u20131Q27 GDP; ECB likely to hike once in September",
-      "body": "Euro area June composite PMI revised up to 50.0 (+1.4 pts from May), consistent with ~0.8% annualized growth. JPM raised 4Q26\u20131Q27 GDP to 1.5% (from 1.3%); ECB expected to deliver one final 25bp hike in September as core inflation stays ~2.5% through early 2027 before declining. German government announced 33 reform proposals (\u20ac10B tax cuts, labor market flexibility, bureaucracy reduction) that could lift trend growth 20-30bp. Eurozone June headline inflation fell to 2.8% YoY (from 3.2%), driven by energy.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19f2747a91504341",
-        "gmail:19f23b3b3bd84caf"
-      ]
-    },
-    {
-      "title": "DLR acquires Blackstone's NOVA data center stake for $7.8B; accretive 2027-2028",
-      "body": "Digital Realty announced the acquisition of Blackstone's interest in three fully leased Northern Virginia hyperscale data centers (288 MW) for $7.8B gross ($3.5B cash/stock to Blackstone), at a >6.5% initial cap rate with 3.6% annual escalators. The deal is expected to be accretive to Core FFO/share: ~80bps in 2027 and ~330bps in 2028. Citi maintains Buy on DLR with a $226 PT. The transaction signals healthy pricing for stabilized hyperscale assets and removes the 2027 growth gap concern.",
-      "tickers": [
-        "DLR"
-      ],
-      "source_item_ids": [
-        "gmail:19f164880e49524f",
-        "gmail:19f18e26359c69c"
-      ]
-    },
-    {
-      "title": "Amazon Leo satellite commercialization imminent; SpaceX Starlink competitive fears hit telcos",
-      "body": "Amazon launched 29 satellites via Atlas V on July 2, deploying enough total satellites (396) to begin Leo broadband service later in 2026\u2014directly competing with Starlink. Wolfe Research projects Leo at $30B revenue and 63% operating margins by 2035. Charter held exec-level talks with SpaceX on consumer mobile; DT CEO is reportedly pursuing a DT/TMUS merger structure partly driven by Starlink mobile competitive threat. US telecom names (VZ, T) fell 5-10% on LEO competitive concerns.",
-      "tickers": [
-        "AMZN"
-      ],
-      "source_item_ids": [
-        "gmail:19f23db072ebc17f",
-        "gmail:19f1ce95b5dc16c7"
+        "gmail:19f1bdb54f5577e7",
+        "gmail:19f24f6201ad21bc"
       ]
     }
   ]
