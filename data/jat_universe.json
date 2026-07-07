@@ -1,239 +1,232 @@
 {
-  "digest_type": "premarket",
-  "digest_dt": "2026-07-07T08:30:00-04:00",
-  "saved_at": "2026-07-07T12:48:32.186992+00:00",
+  "digest_type": "midday",
+  "digest_dt": "2026-07-07T12:00:00-04:00",
+  "saved_at": "2026-07-07T16:12:56.182227+00:00",
   "bullets": [
     {
-      "title": "NVDA/Semis: DeepSeek developing own AI chip; broad chip complex sells off 3-6%",
-      "body": "Reuters reported DeepSeek is developing its own inference-stage AI chip to reduce reliance on Nvidia and Huawei, sending NVDA down ~1.7% premarket. The broader semiconductor complex sold off sharply: MU -4.7%, MRVL -4.6%, AMD -3.7%, SNDK -4.4%, STX -5.0%, WDC -6.1%, INTC -4%. GS TMT notes the SOX is up 88% YTD vs S&P +14%, creating less favorable risk/reward despite estimate upside; JPM maintains tactical bullish view, calling the semis pullback a buying opportunity given Mag7 at 10-year valuation lows vs SPX.",
+      "title": "Semis under pressure: DeepSeek chip dev, China AI budget shift weigh on NVDA/MU/AMD",
+      "body": "Pre-market semis sold off sharply \u2014 WDC -7.2%, SNDK -5.7%, MU -5.1%, AMD -4.4%, NVDA -1.6% \u2014 on Reuters report of DeepSeek developing its own inference chip and Chinese firms raising domestic AI accelerator budget share from 30% to 46%. MS notes Samsung -9% despite 19x y/y profit growth, arguing memory is approaching 'peak rate of change'; Klein counters that Q3 DRAM ASPs are tracking +20-30% QoQ and server CPU demand is structurally bullish for AMD/INTC.",
       "tickers": [
         "NVDA",
         "MU",
         "AMD",
-        "MRVL",
-        "SNDK",
-        "WDC",
-        "STX",
+        "AVGO",
         "INTC",
+        "TSM",
+        "SNDK",
+        "WDC"
+      ],
+      "source_item_ids": [
+        "gmail:19f3cbabe34e43e9",
+        "gmail:19f3ca30d511d2ae"
+      ]
+    },
+    {
+      "title": "AAPL PT raised to $345 at JPM; AVGO-AAPL ASIC deal expands through 2031",
+      "body": "JPM raises AAPL PT to $345 (32x CY28E EPS) on price elasticity resilience \u2014 FY27E EPS unchanged at $9.85 despite ~20% avg price hikes on iPads/Macs. AVGO-AAPL AI/datacenter partnership expanded through 2031 to include CPU and eventual XPU, potentially pushing AVGO Apple ASIC revenue to 'multi-billions annually.' AAPL App Store grew ~2% in June per UBS.",
+      "tickers": [
+        "AAPL",
         "AVGO"
       ],
       "source_item_ids": [
-        "gmail:19f3c2ced7ed9c45",
-        "gmail:19f3c66b6dafc7c1"
+        "gmail:19f3c9014a1acde7",
+        "gmail:19f3ca3787b34f24"
       ]
     },
     {
-      "title": "AVGO: Erste Group downgrades to hold from buy",
-      "body": "Erste Group downgraded Broadcom to hold from buy Tuesday morning, adding to pressure on the stock which is down ~2.2% premarket. AVGO represents ~39% of NDX alongside Mag7 per JPM, elevating rotation risk given stretched semis valuations.",
-      "tickers": [
-        "AVGO"
-      ],
-      "source_item_ids": [
-        "gmail:19f3c2701832d7fd",
-        "gmail:19f3c82bee75dd6a"
-      ]
-    },
-    {
-      "title": "NET: Scotiabank upgrades to sector outperform, PT $300 from $225",
-      "body": "Scotiabank GBM upgraded Cloudflare to sector outperform from sector perform and raised its price target to $300 from $225, implying ~21% upside from $247.55. NET is up 3.4% premarket, outperforming as software/cloud names benefit from the AI sovereignty/DeepSeek narrative (inference demand remains intact even as chip supply diversifies).",
-      "tickers": [
-        "NET"
-      ],
-      "source_item_ids": [
-        "gmail:19f3c1178cf9c0d2",
-        "gmail:19f3c879e036b281"
-      ]
-    },
-    {
-      "title": "META: Erste upgrades to buy; four states seek $1.4T in penalties over youth safety",
-      "body": "Erste Group upgraded Meta to buy from hold. Offsetting the positive, four US states are seeking $1.4T in penalties at an August trial over addictive design and youth safety claims; Meta calls the figure unprecedented and unsupported. Stock is up only ~0.3% premarket, suggesting the market is discounting the penalty risk as unlikely to be realized at headline size.",
+      "title": "META: MS bullish on 'time to power' read-through; states seek $1.4T in penalties",
+      "body": "Morgan Stanley argues META's cloud expansion confirms compute power as the critical AI bottleneck, with META capex growing from $145B (2026) to $205B (2028) and 3.5 GW of capacity added; every 250 MW leased adds ~$3 (8%) to 2028 EPS. Separately, four US states (CO, CA, KY, NJ) are seeking ~$1.4T in penalties over allegedly addictive Facebook/Instagram design, and SCOTUS declined to block Texas age-verification law.",
       "tickers": [
         "META"
       ],
       "source_item_ids": [
-        "gmail:19f3c3a86ef14116",
-        "gmail:19f3c2701832d7fd"
+        "gmail:19f3ccf632664b40",
+        "gmail:19f3c99b3a082b70"
       ]
     },
     {
-      "title": "AAPL: JPM raises PT to $345, FY27 EPS ~$9.85 on price elasticity resilience",
-      "body": "JPM updated AAPL estimates to reflect ~20% market-wide hardware price increases, forecasting a $100 iPhone 18 ASP increase (vs. $50 prior) with only a -7% volume decline in FY27\u2014less bad than feared. FY27 EPS held at ~$9.85; Dec-27 PT raised to $345 at 32x CY28 earnings. Historical data shows iPhone unit share actually rose from 15% to 19-20% despite ~50% ASP increases over FY15-FY26.",
+      "title": "GOOGL/AMZN/MSFT: Internet sector +6% YTD; Jefferies flags AI capex return risk",
+      "body": "Morgan Stanley reports internet names up 6% YTD vs SPX +2%; GOOGL +7% at 25x 2026E EPS (down 20% vs TTM avg), META +6% at 23x, AMZN +4% at 25x. Jefferies warns of rising risk that investors question returns on debt-financed AI capex, with hyperscaler share prices cited as the key confidence indicator; US 10Y >4.5% flagged as equity warning signal.",
       "tickers": [
-        "AAPL"
+        "GOOGL",
+        "AMZN",
+        "MSFT",
+        "META"
       ],
       "source_item_ids": [
-        "gmail:19f3c0a701ce0668"
+        "gmail:19f3d1bdc43e8fa5",
+        "gmail:19f3d2b81316449b"
       ]
     },
     {
-      "title": "AVGO/AAPL: Broadcom extends Apple partnership through 2031 for custom chips",
-      "body": "Broadcom extended its custom chip development and supply partnership with Apple through 2031; Apple represents ~20% of Broadcom revenue. The extension provides revenue visibility for AVGO's HPC/custom silicon segment even amid broader semi weakness.",
+      "title": "APP: Citi defends eCommerce thesis; Hong Kong store decline is dropshipper churn, not demand",
+      "body": "Citi maintains Buy on APP at $710 PT (32x 2027E FCF); Store Leads data showing flat AppLovin Ads growth reflects ~400 related Hong Kong dropshipping storefronts that installed then uninstalled the product, not genuine customer churn. Separately, MS notes APP +10% YTD in the internet sector recap.",
       "tickers": [
-        "AVGO",
-        "AAPL"
+        "APP"
       ],
       "source_item_ids": [
-        "gmail:19f39f6ae238aad7"
+        "gmail:19f3cca1a31e0f7b",
+        "gmail:19f3d1bdc43e8fa5"
       ]
     },
     {
-      "title": "TXN: Citi sees best analog semi positioning; models Q3 sales +7.5% Q/Q vs consensus +7%",
-      "body": "Citi calls TXN best-positioned in analog semis given improving global PMI (May 52.6, strongest in 3 years), ~85% internal manufacturing capacity, pricing power, and data center share gains in H2. Citi models Q3 GM at 60.5% vs consensus 60.2% and 2027 EPS of $10.10 vs consensus $9.20. MPWR flagged as cautious given potential Stage 2 power share loss to TXN in H2.",
+      "title": "WULF/BE/CEG/SEI: MS bullish on 'time to power' stocks despite last week's selloff",
+      "body": "Morgan Stanley's Stephen Byrd argues 'powered shells' are commanding $10-12/watt economics with 15-19% unlevered FCF yields \u2014 15x higher value creation than renewable PPAs \u2014 and that the group was severely oversold last week (WULF -19%, SEI -15%, VST -10%). Citi also remains a buyer of WULF following its data lease and JV sale announcements, with shares up ~10%.",
       "tickers": [
-        "TXN"
+        "WULF",
+        "BE",
+        "CEG",
+        "SEI"
       ],
       "source_item_ids": [
-        "gmail:19f3c4fdba1dc165"
+        "gmail:19f3ccf632664b40",
+        "gmail:19f3cfebd5f4c411"
       ]
     },
     {
-      "title": "TSM: JPM raises PT to NT$3,100 on AI demand; FY26/27/28E EPS +5/10/16%",
-      "body": "JPM raised its TSMC Jun-27 price target to NT$3,100 (20x 12-month forward earnings) from NT$2,925, lifting FY26/27/28E EPS by 5%/10%/16%. Near-term gross margins expected to nudge toward 70%; TSMC seen pushing back on share loss concerns and expanding capacity meaningfully in 2027-29. Datacenter AI CAGR now estimated at 69% from 2024-29E; broader price hikes expected in 2027 given supply-demand gap.",
-      "tickers": [
-        "TSM"
-      ],
+      "title": "EFX: Multiple firms bullish on $750M C\u00edrculo de Cr\u00e9dito acquisition",
+      "body": "UBS (Buy, $220 PT), Mizuho (Outperform, $210 PT), and MS (Overweight) all positive on EFX's $750M acquisition of C\u00edrculo de Cr\u00e9dito, Mexico's #2 credit bureau with ~33% market share, 31% revenue growth, and 46% EBITDA margins. Deal valued at 11.7x FY26E EBITDA (9.4x with synergies), expected EPS-accretive in year one, closes 4Q26; Mexico credit bureau market growing 15% CAGR to ~$600M by 2029.",
+      "tickers": [],
       "source_item_ids": [
-        "gmail:19f3c202d3224cfe",
-        "gmail:19f3b47ee2bf1d84"
+        "gmail:19f3ce5851f1a5b9",
+        "gmail:19f3cf64f007caeb"
       ]
     },
     {
-      "title": "GLW: Oppenheimer raises PT to $230 on BOE AI partnership; views selloff as entry",
-      "body": "Oppenheimer raised Corning's price target to $230 from $215 (Outperform) after BOE highlighted Corning as a key partner for AI chip packaging, optical interconnects, foldable displays, and solar. Shares are ~27% below June highs; the firm views the AI infrastructure selloff as an attractive entry point.",
-      "tickers": [
-        "GLW"
-      ],
+      "title": "DOCN: KeyBanc raises PT to $200 after RPO triples to $800M+ on nine-figure wins",
+      "body": "DigitalOcean pre-announced 2Q26 RPO jumping to $800M+ (up ~230% from $243M in 1Q26), driven by nine-figure customer wins for inference/cloud with average deal terms of 3.5+ years vs 1.6 years prior. Revenue growth now expected ~29% in 2Q with profitability guidance met or exceeded; company secured 20 MW of new capacity for end-2027/2028 and sees 30+ MW additional feasible.",
+      "tickers": [],
       "source_item_ids": [
-        "gmail:19f3c624532ee1dd"
+        "gmail:19f3d17c33dba342"
       ]
     },
     {
-      "title": "MRVL: Non-deal roadshows in Edinburgh and Zurich/Geneva July 7-8",
-      "body": "Marvell Technology is hosting non-deal roadshows in Edinburgh (July 7) and Zurich/Geneva (July 8), a potential signal of upcoming investor outreach ahead of earnings season. Stock is down ~4-5% premarket alongside the broader chip complex.",
-      "tickers": [
-        "MRVL"
-      ],
-      "source_item_ids": [
-        "gmail:19f3c624532ee1dd"
-      ]
-    },
-    {
-      "title": "MSFT: Xbox restructuring with 3,200 layoffs; operating at 3-10x below platform peer margins",
-      "body": "Microsoft is restructuring Xbox with 3,200 layoffs over FY27, including 1,600 immediate cuts and four studios leaving the division. Xbox currently operates at 3-10x lower margins than comparable platform/publishing businesses. Additionally, MDB CEO discussed Claude Code recommending Voyage AI embeddings, and Wolfe flagged MSFT as conducting broader layoffs.",
-      "tickers": [
-        "MSFT"
-      ],
-      "source_item_ids": [
-        "gmail:19f3c3a86ef14116",
-        "gmail:19f3b9d0556f20da"
-      ]
-    },
-    {
-      "title": "PLTR: Up 1.5% on GNP Seguros enterprise expansion agreement",
-      "body": "Palantir is up 1.5% premarket after announcing an enterprise expansion agreement with GNP Seguros. Separately, Zeta Global is rearchitecting its Data Cloud onto Palantir Foundry with a mid-August go-live target, with at least one joint enterprise customer expected to launch\u2014a positive incremental demand signal for PLTR's AIP platform.",
-      "tickers": [
-        "PLTR"
-      ],
-      "source_item_ids": [
-        "gmail:19f3c8cc116dd527",
-        "gmail:19f3af236e769f63"
-      ]
-    },
-    {
-      "title": "NOW/Software cloud: Outperforming on DeepSeek inference demand thesis; Jefferies cautious on app software",
-      "body": "NOW is up 2.8% premarket alongside NET as the market interprets DeepSeek's chip development (reducing training-chip reliance on NVDA) as bullish for inference/software spend. However, Jefferies maintains underweight on application software, citing AI budgets crowding out core software spend, frontier lab threats to software moats, and seat-based licensing under pressure; favors infra/security over app software.",
-      "tickers": [
-        "NOW"
-      ],
-      "source_item_ids": [
-        "gmail:19f3c8cc116dd527",
-        "gmail:19f3b58e8a0ece8f"
-      ]
-    },
-    {
-      "title": "FSLR: Deutsche Bank upgrades to buy; stock +3.6% premarket",
-      "body": "Deutsche Bank upgraded First Solar to buy from hold, sending shares up 3.6% in premarket trading. No specific price target was disclosed in the items received.",
+      "title": "FSLR upgraded to Buy at Deutsche Bank; PT raised to $272",
+      "body": "Deutsche Bank upgrades FSLR from Hold to Buy, raising PT to $272 from $245, citing a stronger second half outlook and S232 policy clarifications. Shares up ~3.1% pre-market.",
       "tickers": [
         "FSLR"
       ],
       "source_item_ids": [
-        "gmail:19f3c8cc116dd527",
-        "gmail:19f3c3cdb87a5085"
+        "gmail:19f3c96d4d26effd",
+        "gmail:19f3cbabe34e43e9"
       ]
     },
     {
-      "title": "HOOD: Mizuho maintains $130 PT; Jefferies flags as top broker/wealth idea",
-      "body": "Mizuho updated HOOD FY26E revenue to ~$4.98bn and FY27E to ~$6.12bn, holding its $130 PT at ~18x FY27E revenue and calling it a credible first global brokerage hyperscaler candidate. Separately, Jefferies cited HOOD as its favorite idea in the US broker/wealth 2Q26 preview, noting positive EPS estimate revisions (+2% avg for 2Q26) driven by higher trading activity and margin balances. Stock also rallying on the Trump accounts introduction theme.",
+      "title": "CART: Extreme options activity \u2014 730% volume spike, P/C ratio 0.01",
+      "body": "Instacart saw options volume surge to 22,464 contracts vs a 3,079 30-day average (+730%), with a P/C ratio of 0.01 indicating overwhelmingly call-heavy positioning. No fundamental catalyst was cited in the note.",
       "tickers": [
-        "HOOD"
+        "CART"
       ],
       "source_item_ids": [
-        "gmail:19f39fc67f2f22d9",
-        "gmail:19f3b535a6ff9037"
+        "gmail:19f3d4b8c1f35337"
       ]
     },
     {
-      "title": "CMCSA/CHTR: Morgan Stanley cuts PTs, models cable broadband subs declining 3-4% CAGR through 2030",
-      "body": "Morgan Stanley cut CMCSA PT to $30 and T to $25 on Starlink broadband threat, forecasting ~16mn Starlink subs by 2030 (11% US household penetration) and cable broadband sub losses at 3-4% CAGR. MS AlphaWise survey shows cable satisfaction lowest at 46% vs FWA at 63%; over 30% of broadband subs likely to switch ISPs in next 12 months. TMUS remains top pick as fastest wireless growth with least legacy exposure.",
+      "title": "RDDT/SNAP: Strong YTD performance; internet sector note flags AI commerce risk",
+      "body": "RDDT +17% and SNAP +10% YTD per MS internet sector recap. Roth flagging AI commerce shift risk for both as product discovery migrates toward AI assistants, with attribution measurement and platform visibility in ChatGPT/Gemini as key open questions.",
+      "tickers": [
+        "RDDT",
+        "SNAP",
+        "APP",
+        "PINS"
+      ],
+      "source_item_ids": [
+        "gmail:19f3d1bdc43e8fa5",
+        "gmail:19f3ce3f4330e207"
+      ]
+    },
+    {
+      "title": "HUBS: Oppenheimer hosting expert call today on Q2 trends, AI pricing, Revenue Hub",
+      "body": "Oppenheimer arranged a 1pm ET HubSpot partner expert call covering 2Q customer/conversion trends, Revenue Hub early feedback, AI credit pricing/consumption behavior, and competitive dynamics vs CRM.",
+      "tickers": [
+        "HUBS",
+        "CRM"
+      ],
+      "source_item_ids": [
+        "gmail:19f3ccf1fbd3ddf8"
+      ]
+    },
+    {
+      "title": "AVGO: Wolfe hosting management wrap-up webcast tomorrow (7/8 at 11am ET)",
+      "body": "Wolfe Research hosting AVGO post-earnings management wrap-up call on July 8 at 11am ET. No substantive views disclosed in the invite itself.",
+      "tickers": [
+        "AVGO",
+        "MU"
+      ],
+      "source_item_ids": [
+        "gmail:19f3d1cde3dfd137",
+        "gmail:19f3ce7addb58f13"
+      ]
+    },
+    {
+      "title": "VRT/ENPH: OPCO flags data center 800VDC architecture shift as catalyst",
+      "body": "OPCO sales desk notes data centers migrating to 800VDC architectures, creating solid-state transformer and BESS opportunities. ENPH and other power electronics firms positioned for the transition; VRT developing rack-scale solutions for BESS.",
+      "tickers": [
+        "VRT",
+        "ENPH"
+      ],
+      "source_item_ids": [
+        "gmail:19f3cb62be14ee5f"
+      ]
+    },
+    {
+      "title": "CMCSA/T/VZ: MS cuts telco/cable PTs on SpaceX Starlink threat",
+      "body": "Morgan Stanley cuts telco/cable price targets in its SpaceX initiation: T $30\u2192$25, CMCSA $33\u2192$30, VZ unchanged at $50; TMUS cut to $230 from $260 but remains Top Pick for fastest growth/least legacy. Cable broadband subs modeled to decline ~3-4% CAGR through 2030 as Satellite gains >30% CAGR.",
       "tickers": [
         "CMCSA",
-        "CHTR",
         "T",
         "VZ"
       ],
       "source_item_ids": [
-        "gmail:19f3c4e7fa9fb958",
-        "gmail:19f3c4891454c734"
+        "gmail:19f3c9178d025c0c"
       ]
     },
     {
-      "title": "EQIX: Remains most crowded long in REIT universe per UBS quant; DLR moved to net short",
-      "body": "UBS quant data shows REIT average crowding score fell from 4.9 in May to 3.9 in June. EQIX remains among the most crowded longs with a stable score. DLR experienced a notable score decrease in June and moved to a solid net short position\u2014a meaningful positioning shift worth monitoring ahead of 2Q earnings.",
+      "title": "CLS: Down 5.5% in Canadian trading amid broad semi/AI infra de-grossing",
+      "body": "Celestica trading down 5.5% to C$470.51 in mid-morning Canadian trading, consistent with the broader AI infrastructure de-risking wave hitting the sector.",
       "tickers": [
-        "EQIX",
-        "DLR"
+        "CLS"
       ],
       "source_item_ids": [
-        "gmail:19f3a3ead038f0c5"
+        "gmail:19f3d0a8d2d101ec"
       ]
     },
     {
-      "title": "VRT/CRNX: Vertex acquiring Crinetics for $85/sh (~$10B); adds >$5B peak-sales endocrine pillar",
-      "body": "Vertex is acquiring Crinetics Pharmaceuticals at $85/share cash (~100% premium, ~$10B equity value), expected to close 3Q26. Palsonify (FDA/EMA-approved acromegaly oral therapy) and atumelnant (Phase 3 CAH candidate) add a >$5B peak-sales endocrine franchise. Citi maintains Buy on VRTX at $585 PT; non-GAAP operating income accretion expected 2029.",
+      "title": "SHOP: Up 2.2% in Canadian trading; AI commerce webinar flags platform risk",
+      "body": "Shopify trading up 2.2% to C$174.38 in Canadian mid-morning session. Roth AI commerce expert call today flags product discovery shift toward AI assistants as a potential headwind/tailwind for SHOP's merchant base.",
       "tickers": [
-        "VRT"
+        "SHOP"
       ],
       "source_item_ids": [
-        "gmail:19f398f5115fd055",
-        "gmail:19f3b7c24b0367"
+        "gmail:19f3d0a8d2d101ec",
+        "gmail:19f3ce3f4330e207"
       ]
     },
     {
-      "title": "NVDA Blackwell cloud ramp: +11% m/m to 254 instances per KeyBanc tracker",
-      "body": "KeyBanc's June cloud instance tracker shows NVDA Blackwell instances up 11% m/m to 254 with three new Grace Blackwell instances (6 total). Total cloud instances +1% m/m, +14% y/y. AMD Turin +5% m/m; INTC Granite Rapids +7% m/m. Accelerator growth returned to positive (+1% m/m) after -2% m/m in May\u2014supportive of near-term GPU demand despite DeepSeek chip headline.",
+      "title": "WSM: KeyBanc raises PT to $250; favors LOW, WSM on hardlines share gain",
+      "body": "KeyBanc raises WSM PT to $250 from $230, citing K-shaped consumer spending dynamics and significant upside in home-related coverage from unsustainable lows. Firm also sees share gain opportunities for LOW among hardlines/broadlines names.",
       "tickers": [
-        "NVDA",
-        "AMD",
-        "INTC"
+        "WSM"
       ],
       "source_item_ids": [
-        "gmail:19f39b04fbe0931a"
+        "gmail:19f3cca1a31e0f7b",
+        "gmail:19f3ccae8161d9f7"
       ]
     },
     {
-      "title": "WULF/SEI/GEV/CEG: Power infrastructure commentary; WULF deal at ~22% implied yield topped expectations",
-      "body": "MS energy feedback: WULF deal terms exceeded expectations with ~22% implied yield vs HUT's 18.6% and 17% buyside expectations. SEI's GESA acquisition to diversify into EPC viewed constructively. ERCOT Batch Zero approval expected mid-August, potentially unlocking incremental IPP contracting demand for VST/CEG. MS maintains OW on power names (CEG, TLN, VST), power equipment (BE, GEV), and power solutions (SEI), citing Meta neocloud news as validating compute demand math.",
-      "tickers": [
-        "WULF",
-        "SEI",
-        "GEV",
-        "CEG",
-        "VST",
-        "BE"
-      ],
+      "title": "TTWO: Benchmark maintains Buy/$300 PT; GTA 6 online ecosystem is the long-term monetization story",
+      "body": "Benchmark keeps Buy/$300 PT on TTWO, viewing GTA 6 as the company's biggest launch ever but emphasizing that the real upside is the extended online ecosystem, premium DLC, creator integration, and AI enhancements over multi-year engagement cycle.",
+      "tickers": [],
       "source_item_ids": [
-        "gmail:19f3981e27674965",
-        "gmail:19f3adad328e180a"
+        "gmail:19f3cc2b0b7d3797"
+      ]
+    },
+    {
+      "title": "Momentum factor -23% in 10 days; MS QDS flags semi/AI leverage as tail risk",
+      "body": "Morgan Stanley QDS reports the MSZZMOMO momentum factor is down 23% from its June 23 peak in just 10 business days (vs. historical median ~30), driven equally by long underperformance (-12%) and short outperformance (+13%). Levered ETFs are short gamma in Semis (-$1.7B/1% SOX), NDX (-$2.8B/1%), and AI single names (-$1.3B/1%); SK Hynix ADR supply this week adds additional pressure. Feb 2021 comparable saw another -18% after a similar pattern.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19f3d3d1877ea6fb"
       ]
     }
   ]
