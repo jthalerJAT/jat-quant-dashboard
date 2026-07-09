@@ -1,217 +1,261 @@
 {
-  "digest_type": "eod",
-  "digest_dt": "2026-07-08T18:00:00-04:00",
-  "saved_at": "2026-07-08T22:17:47.003748+00:00",
+  "digest_type": "premarket",
+  "digest_dt": "2026-07-09T08:30:00-04:00",
+  "saved_at": "2026-07-09T12:49:04.569267+00:00",
   "bullets": [
     {
-      "title": "NVDA: Citi reiterates Buy/$300 PT; China H200 approval lifts stock +3.7%",
-      "body": "Citi maintains Buy on NVDA with $300 PT (~47% upside) based on ~28x P/E on CY27E EPS of ~$11.9; management confirmed full roadmap intact despite Kyber/Rubin delays, reiterated mid-70s gross margin guidance and 50% cash flow return target. Separately, China approved limited H200 chip purchases (<200k units) for top AI firms (Alibaba, ByteDance, DeepSeek), a modest positive; Blackwell's 25x power efficiency vs. Hopper and expanding non-hyperscaler demand (sovereigns, enterprises, neoclouds) cited as structural tailwinds.",
+      "title": "META Iris chip: AVGO +3.8%, NVDA/AMD reliance cut, $10B Canada DC",
+      "body": "Meta will begin production of its custom 'Iris' AI chip in September 2026, targeting 14GW of compute capacity. The chip is being designed with Broadcom (AVGO, initial commitment >1GW, multi-year multi-gigawatt rollout) and manufactured at TSMC. META shares fell ~3.7% pre-market as the news signals reduced reliance on NVIDIA and AMD; AVGO rallied ~3.8-5%. Meta is also investing ~$10B in its first Canadian data center.",
       "tickers": [
+        "META",
+        "AVGO",
+        "NVDA",
+        "AMD"
+      ],
+      "source_item_ids": [
+        "gmail:19f46adc85632f07",
+        "gmail:19f46b4109f33d9c"
+      ]
+    },
+    {
+      "title": "CRM downgraded to Sector Weight at KeyBanc; Agentforce adoption weak",
+      "body": "KeyBanc's Jackson Ader cut CRM from Overweight to Sector Weight (PT removed), citing consistently weak Agentforce customer checks, CIO survey headwinds (Salesforce cited most for budget cuts), and customer data not ready for meaningful AI work. CRM fell ~4.8% pre-market. The note argues any meaningful Agentforce acceleration is further out than consensus models assume.",
+      "tickers": [
+        "CRM"
+      ],
+      "source_item_ids": [
+        "gmail:19f43d7df46c2fed",
+        "gmail:19f444ee898be727"
+      ]
+    },
+    {
+      "title": "Semiconductor rally: MU +5.9%, MRVL +5.7%, ALAB +5.0%, COHR +4.9% on AI demand confirmation",
+      "body": "Broad AI infrastructure rally overnight driven by Meta Iris news, AMAT CEO citing 2-year demand visibility (some customers through 2030), and reports of NVIDIA H200 chip sales to China (NVDA +4%). Memory names led (MU +5.9%, WDC +5.8%, SNDK +5.4%, STX +5.3%) alongside optical/connectivity names (AAOI +6%, ALAB +5%, COHR +4.9%, LITE +4.4%, MTSI +4.2%, CRDO). Analyst consensus: semiconductor momentum pullback was technical, not a shift in AI capex fundamentals.",
+      "tickers": [
+        "MU",
+        "MRVL",
+        "ALAB",
+        "COHR",
+        "AAOI",
+        "CRDO",
+        "STX",
+        "MTSI",
+        "NVDA",
+        "AVGO",
+        "SNDK",
+        "WDC",
+        "LITE"
+      ],
+      "source_item_ids": [
+        "gmail:19f46d3f040c5e72",
+        "gmail:19f46d3c10e689e3"
+      ]
+    },
+    {
+      "title": "MSFT, NOW, ACN, INTU hit on Starbucks AI tool build-out replacing vendor software",
+      "body": "Bloomberg reported Starbucks is using AI to develop internal tools that replace Microsoft inventory tracking and IBM maintenance software, targeting launch by end of 2027. MSFT -2.1%, NOW -4.4%, ACN -2.6%, INTU -2.5% in pre-market. GS TMT notes MSFT faces three concurrent headwinds: sustained elevated capex, memory pricing exposure via NVIDIA, and potential Office 365 disruption from AI competitors.",
+      "tickers": [
+        "MSFT",
+        "NOW",
+        "ACN",
+        "INTU"
+      ],
+      "source_item_ids": [
+        "gmail:19f468cffd8a58f8",
+        "gmail:19f46b42bab98921"
+      ]
+    },
+    {
+      "title": "NVDA: China H200 approval (capped <200K, training-only) drives +4% pre-market",
+      "body": "Reports indicate China may allow NVIDIA H200 imports capped below 200K units with a training-only restriction, driving NVDA +4% pre-market. Separately, JPM credit downgraded MSFT (only hyperscaler not tapped bond markets for capex) and META on heavy supply risk and unclear AI ROIC path. NVIDIA Rosa CPU (2028) expected to use TSMC A16 with back-side power delivery.",
+      "tickers": [
+        "NVDA",
+        "MSFT",
+        "META"
+      ],
+      "source_item_ids": [
+        "gmail:19f46b4109f33d9c",
+        "gmail:19f45a7d9d9c5919"
+      ]
+    },
+    {
+      "title": "TSMC 2Q26 preview: Jefferies expects beat, 30-35% FY revenue growth, Arizona ahead of schedule",
+      "body": "Jefferies expects TSMC's July 16 2Q26 print to beat on stronger AI demand, resilient CPU orders, and FX tailwinds, with gross margin expanding to 67.1%. TSMC may guide 3Q revenue +10-12% QoQ vs. Street's high-single-digit expectation and lift full-year growth outlook to 30-35%. Arizona Phase 1 gross margins already ~50% with yields near 90%, ahead of schedule. Key watch: language around supply-demand balance from C.C. Wei.",
+      "tickers": [
+        "TSM",
         "NVDA"
       ],
       "source_item_ids": [
-        "gmail:19f439c5e4e2964e",
-        "gmail:19f435f2a2f36e53"
+        "gmail:19f46934d3b69797",
+        "gmail:19f45a7d9d9c5919"
       ]
     },
     {
-      "title": "AVGO/AAPL: $30B+ multiyear chip deal through 2031; AVGO +4.8%, Citi Buy on both",
-      "body": "Apple and Broadcom announced a $30B+ multiyear agreement through 2031 covering custom ASICs for Apple's AI infrastructure and wireless connectivity chips, producing 15B+ US-made chips and expanding AVGO's Colorado facility with $1.5B capex. Citi maintains Buy on both: AAPL PT $315 (33x CY2027 EPS), AVGO PT $500 (20x F28 EPS). Meaningful revenue ramp from Apple's custom AI silicon expected 2029/2030 as Apple's in-house LLM (currently ~2-3 years behind frontier models) matures.",
+      "title": "HPE: Buy reiterated; AI network orders +20% YoY, $2B cumulative; Juniper synergies ahead of plan",
+      "body": "Citi maintains Buy on HPE following investor meeting: orders momentum +20% YoY far outpacing revenue, cumulative AI networking order growth ~$2B, and Year 1 Juniper integration synergies ($200M+) tracking ahead of plan. AMD Helios rack flagged as scale-up upside. Enterprise moving from AI evaluation to deployment phase; supply remains the gating factor.",
       "tickers": [
-        "AVGO",
-        "AAPL"
+        "HPE",
+        "AMD"
       ],
       "source_item_ids": [
-        "gmail:19f43b6b1d5568c1",
-        "gmail:19f435d4b661ddeb"
+        "gmail:19f43fc320e2413d",
+        "gmail:19f46c28d2b69575"
       ]
     },
     {
-      "title": "AAPL/DELL: PC shipments fall 4.9% YoY in 2Q26 \u2014 first decline in 9 quarters",
-      "body": "Citi notes worldwide PC units declined 4.9% YoY in 2Q26 to 68M units, ending nine consecutive quarters of growth, driven by exhausted pull-forward demand and memory/component shortages expected to persist until early 2028. IDC forecasts 2H26 unit declines of 19%; Citi estimates -15% for full 2026. AAPL gained share (9.9% from 9.3%), Dell slipped (13.6% from 15.2%); Citi maintains Buy on AAPL and DELL, Neutral on HPE.",
+      "title": "DELL, HPE, ANET, CLS, CSCO: Agentic AI driving strong upward revisions in Data Center Switch demand",
+      "body": "JPM/650 Group discussion identifies agentic AI as a durable multi-quarter demand driver, with DELL and HPE orders expected to grow every quarter. Data Center Switch demand revised up materially for ANET, CLS, CSCO, HPE. CLS flagged as better insulated from silicon constraints due to its well-ordered customer base; CSCO has internal silicon advantage. Storage is the notable laggard as budgets crowd toward compute/networking.",
       "tickers": [
-        "AAPL",
         "DELL",
-        "HPE"
+        "HPE",
+        "ANET",
+        "CLS",
+        "CSCO"
       ],
       "source_item_ids": [
-        "gmail:19f42d2594485b6a",
-        "gmail:19f4377942f92fdd"
+        "gmail:19f46536f5f77e00",
+        "gmail:19f46b4109f33d9c"
       ]
     },
     {
-      "title": "RH: Upgraded to Neutral from Sell at Goldman; PT raised to $155 from $86",
-      "body": "Goldman Sachs upgraded RH to Neutral from Sell, raising PT to $155 from $86, expecting a period of topline stability with potential acceleration into 2027. Separately, Citi's retail web traffic tracker showed RH became less positive vs. prior month in June Week 5.",
+      "title": "Citi CIO Survey: IT budgets +3.3% NTM; MSFT top AI spend beneficiary, CSCO/DELL cut",
+      "body": "Citi's 2Q26 CIO survey (N=100) shows NTM IT budget growth accelerating to +3.3% from +2.6% in March, 0.8pp above the 7-year average. Data/AI is the top investment priority at ~6.5% of IT budgets. MSFT is the top vendor CIOs plan to increase AI spend on, followed by AMZN and GOOGL. CSCO, DELL, IBM, and NOW were most cited for AI spending cuts. 50% of CIOs expect AI to drive headcount reduction in 6-12 months; 24% of AI use cases now in production (up from 22%).",
       "tickers": [
-        "RH"
-      ],
-      "source_item_ids": [
-        "gmail:19f436772512e48d",
-        "gmail:19f43ba3c249f266"
-      ]
-    },
-    {
-      "title": "SHOP: Q2 bar is 30% revenue growth; Q3 guide needs mid-to-high 20s to work",
-      "body": "Analyst commentary indicates the stock requires 30% revenue growth in Q2 (guide: 30-31%) and at least mid-to-high 20s for Q3 revenue guidance to sustain performance. FCF margin expected at 16% in Q2 and 18% in Q3; mid-20% revenue decel in Q3 viewed as too aggressive even accounting for tougher comps. SHOP traded -4.0% in Canadian session.",
-      "tickers": [
-        "SHOP"
-      ],
-      "source_item_ids": [
-        "gmail:19f4298947167a03",
-        "gmail:19f42faefe463d02"
-      ]
-    },
-    {
-      "title": "FOXA: Down 2.8% as Netflix/Disney/YouTube weigh bids for 2030/2034 World Cup rights",
-      "body": "Fox Corp fell 2.8% after reports that Netflix, Disney, and YouTube are considering bids for 2030 and 2034 FIFA World Cup broadcast rights, raising competitive pressure on Fox's sports rights franchise.",
-      "tickers": [
-        "FOXA"
-      ],
-      "source_item_ids": [
-        "gmail:19f4367a98238924"
-      ]
-    },
-    {
-      "title": "T: Wells Fargo initiates Underweight at $18 PT; VZ Equal Weight at $43",
-      "body": "Wells Fargo initiated AT&T at Underweight with a $18 PT and Verizon at Equal Weight with a $43 PT. TMUS was initiated at Equal Weight ($170 PT) and fell 2.5% on a new executive appointment.",
-      "tickers": [
-        "T",
-        "VZ"
-      ],
-      "source_item_ids": [
-        "gmail:19f4367a98238924"
-      ]
-    },
-    {
-      "title": "TTD: HSBC upgrades to Hold from Reduce, PT $20",
-      "body": "HSBC upgraded The Trade Desk to Hold from Reduce with a $20 price target.",
-      "tickers": [
-        "TTD"
-      ],
-      "source_item_ids": [
-        "gmail:19f4367a98238924"
-      ]
-    },
-    {
-      "title": "META: Secures 250MW long-term power deal with Capital Power for Alberta data center (H2 2028)",
-      "body": "Meta entered a >10-year energy supply agreement for 250MW with Capital Power Corporation to support its Sturgeon County, Alberta data center anticipated to be in service H2 2028. Separately, Meta is testing AI glasses with continuous camera/audio recording capability.",
-      "tickers": [
-        "META"
-      ],
-      "source_item_ids": [
-        "gmail:19f434e109333dc2"
-      ]
-    },
-    {
-      "title": "GOOGL/AMZN: Scotiabank sees both as key AI capex beneficiaries; Outperform on each",
-      "body": "Scotiabank argues market overweights near-term hyperscaler capex concerns and underweights control of scarce compute assets, with power emerging as the new bottleneck. AMZN rated Sector Outperform PT $325, GOOGL Sector Outperform PT $450, META Sector Perform PT $700.",
-      "tickers": [
+        "MSFT",
         "GOOGL",
         "AMZN",
-        "META"
+        "DELL",
+        "CSCO",
+        "NOW"
       ],
       "source_item_ids": [
-        "gmail:19f4306c560f743c"
+        "gmail:19f462ef2fb6fcdd",
+        "gmail:19f46c28d2b69575"
       ]
     },
     {
-      "title": "BE: Down 5.7% after Hunterbrook Capital discloses short position",
-      "body": "Bloom Energy fell 5.7% after Hunterbrook Media reported that Hunterbrook Capital has established a short position in the stock. The broader utilities sector also underperformed amid hawkish FOMC minutes signaling possible rate hikes.",
+      "title": "NFLX: Citi cuts PT to $100 from $115 but maintains Buy ahead of July 16 earnings",
+      "body": "Citi reduces NFLX PT to $100 (from $115) reflecting 25x 2027E EPS (from 28x) on subdued sentiment, tepid engagement, and M&A fears, but maintains Buy. 2Q26 expected in-line with guidance (~$12.57B revenue, $0.78 EPS). FY26 on track for $51.6B revenue/$16.3B operating income. Piper reiterates OW at $215 PT on Reddit Games (RDDT) strategy separately.",
+      "tickers": [
+        "NFLX"
+      ],
+      "source_item_ids": [
+        "gmail:19f442fde9fee9a3",
+        "gmail:19f468b225dc449a"
+      ]
+    },
+    {
+      "title": "FIG (Figma) 2Q26 preview: JPM cuts PT to $28 from $42 on AI compute margin headwind",
+      "body": "JPM forecasts FIG 2Q revenue of $359M (+44% YoY) vs. company guidance $349M, but cuts PT to $28 from $42 as AI-driven compute consumption compresses gross margins to ~81.5% (vs. ~90% in 2Q25). NDR expanded to 139%. Partner checks confirm Figma remains central to design workflows, but Make faces competition from Claude Design and Cursor for prototyping. Citi also flags FIG as a top software pick alongside MDB, SNOW, PLTR, MSFT, SHOP.",
+      "tickers": [
+        "FIG"
+      ],
+      "source_item_ids": [
+        "gmail:19f461c78f9354fa",
+        "gmail:19f4631f03a23311"
+      ]
+    },
+    {
+      "title": "PLTR, MDB, SNOW: Citi top software picks into 2Q26 earnings; AI data infrastructure winning",
+      "body": "Citi's 2Q26 software preview identifies MDB, SNOW, and PLTR as top earnings setups, driven by AI-concentrated IT spending in cloud/data infrastructure. Traditional application software (CRM-type) faces consolidation pressure and ROI scrutiny. FIG and SHOP also cited as application-layer picks. AI recovery is highly selective\u2014not broad-based SaaS recovery.",
+      "tickers": [
+        "PLTR",
+        "MDB",
+        "SNOW",
+        "SHOP",
+        "FIG"
+      ],
+      "source_item_ids": [
+        "gmail:19f4631f03a23311"
+      ]
+    },
+    {
+      "title": "HUBS: Oppenheimer sees demand normalization, 2Q26 exceeding internal quota",
+      "body": "Oppenheimer notes HUBS showing demand normalization with 2Q26 exceeding internal quota targets and improving linearity; AI picking up traction in the product. Rated Outperform. Separately, NOW and CRM are under pressure from both the Starbucks AI-insourcing narrative and the CIO survey showing spending cuts.",
+      "tickers": [
+        "HUBS"
+      ],
+      "source_item_ids": [
+        "gmail:19f46a26ce111f33"
+      ]
+    },
+    {
+      "title": "PSKY/WBD deal faces state AG lawsuits; PSKY -3.6% pre-market, Arete downgrades to Sell ($2 PT)",
+      "body": "NY and CA attorneys general expected to file suit next week to block Paramount Skydance's acquisition of Warner Bros. Discovery on job-loss concerns; the deal carries ~$80B in debt. Arete Research downgraded PSKY to Sell from Neutral with a $2 PT (79% downside from $9.75). PSKY fell 3.6% pre-market; FactSet consensus target is $12.08.",
+      "tickers": [
+        "PSKY",
+        "WBD"
+      ],
+      "source_item_ids": [
+        "gmail:19f4630decbc6aea",
+        "gmail:19f468b54ac241d1"
+      ]
+    },
+    {
+      "title": "BE: Mizuho and MS defend against short report; scandium supply adequate for 5-10 GW by 2030",
+      "body": "Both Mizuho and Morgan Stanley addressed the Hunterbrook Media short report on Bloom Energy, concluding concerns are 'mostly overdone.' MS details that BE's scandium supply chain can support up to 25 GW annual capacity (bullish case only requires 5-10 GW by 2030), uses less scandium than bears assumed, has material stockpile and multiple non-China sources, and Brookfield (BIP) is a financing partner\u2014not a customer\u2014with standard product revenue recognition. BE viewed as attractive for AI/data-center customers on speed-to-power advantage.",
       "tickers": [
         "BE"
       ],
       "source_item_ids": [
-        "gmail:19f4368c805894cc"
+        "gmail:19f453b2db5e8696",
+        "gmail:19f4671f3e23c327"
       ]
     },
     {
-      "title": "MDB: KGI Securities initiates Outperform with $470 PT (32% upside)",
-      "body": "KGI Securities initiated MongoDB at Outperform with a $470 price target, implying ~32% upside from the ~$356 current price. FactSet consensus average target is $399.82.",
+      "title": "LYV reiterated Buy ($202 PT) at GS; SPHR Buy raised to $189 PT; MSGE downgraded to Neutral",
+      "body": "Goldman reiterates LYV Buy with PT raised to $202, expecting beat-consensus 2Q and double-digit AOI growth in 2026 with Venue Nation expansion. SPHR PT raised to $189 (Buy) on Wizard of Oz attendance confidence and franchise pipeline. MSGE downgraded to Neutral from Buy (PT raised to $82) as GS sees most upside already reflected.",
       "tickers": [
-        "MDB"
+        "LYV",
+        "SPHR"
       ],
       "source_item_ids": [
-        "gmail:19f427f34df3b898"
+        "gmail:19f46c2fc4e4fd66",
+        "gmail:19f46b42bab98921"
       ]
     },
     {
-      "title": "HF positioning: Systematic and fundamental managers aggressively cutting AI longs",
-      "body": "Systematic long-short managers are down 3.6% since June 22 (worst drawdown since summer 2025), with YTD returns falling from 14.4% to 10.8%; fundamental L/S managers down 2.2% over same period but still up 15.5% YTD. Fundamental managers aggressively cutting AI/Info Tech long exposure that drove all YTD alpha through June 22; gross leverage pushed to bottom decile over the past year.",
+      "title": "BABA: JPM raises FY27 EPS 2% (first raise since May 2025) on cloud margins, food delivery losses narrowing",
+      "body": "JPM raises Alibaba FY27 adjusted EPS by 2%, citing rapid narrowing of food delivery/quick commerce losses, accelerating cloud revenue with sequential margin improvement, and declining All Others losses. 1QFY27 expected to beat. JPM maintains OW and suggests entering into the upcoming earnings print.",
       "tickers": [
-        "NVDA",
-        "AVGO",
-        "META",
-        "AAPL",
-        "GOOGL"
+        "BABA"
       ],
       "source_item_ids": [
-        "gmail:19f42d251b6e4c74"
+        "gmail:19f4667dc9f890e6",
+        "gmail:19f45996ec3998d2"
       ]
     },
     {
-      "title": "EQIX/DLR: Data center REITs +31.6% in H1 2026; UBS warns valuation rerating largely complete",
-      "body": "UBS notes US REITs returned +17.6% in H1 2026, with data centers the top sector at +31.6%. However, global real estate now trades at only a 2.5% discount to NAV vs. the 10-year average discount of 10.2%, and forward P/E has rerated to 16.7x in line with the 10-year average \u2014 future returns must come from earnings delivery rather than multiple expansion.",
+      "title": "NOK vs. CIEN: MS upgrades Nokia to Overweight/Top Pick; optical and IP units accelerating",
+      "body": "Morgan Stanley upgrades Nokia to Overweight (Top Pick, \u20ac14 PT), noting it has de-rated from 28x to 20x forward P/E (35% discount to Ciena) despite optical/IP units expected to accelerate from +11% in Q1 to >20% through year-end following the Infinera acquisition. Ciena remains Equal-weight; MS sees Nokia as better risk-reward post 30% selloff despite slower revenue growth (+7% vs. CIEN ~22%).",
       "tickers": [
-        "EQIX",
-        "DLR"
+        "NOK",
+        "CIEN"
       ],
       "source_item_ids": [
-        "gmail:19f4296ce1d36d92"
+        "gmail:19f449df6f014ed1",
+        "gmail:19f45920219cf6d4"
       ]
     },
     {
-      "title": "AFRM: Barclays initiates payments fintech coverage; PYPL underweight as branded checkout share collapses",
-      "body": "Barclays initiated coverage across payments/fintech, flagging slowing secular growth and limited AI monetization progress. Key call: PYPL initiated Underweight as Branded Checkout share fell from 44% of Visa e-commerce transactions in 2019 to 16% in 2025. FISV also initiated at Equal Weight after president Dhivya Suryadevara resigned; stock fell 4.0%.",
+      "title": "RDDT: Piper reiterates OW/$215 PT; Games hits 1M subscribers toward 100M DAU target",
+      "body": "Piper reiterates Overweight on RDDT at $215 PT, noting the Reddit Games sample has eclipsed 1M subscribers as part of a broader strategy to reach 100M+ US daily active users.",
       "tickers": [
-        "AFRM"
+        "RDDT"
       ],
       "source_item_ids": [
-        "gmail:19f436572512e48d",
-        "gmail:19f427db9e0ce797"
+        "gmail:19f46c9b85ad1aaf"
       ]
     },
     {
-      "title": "STX/WDC: Citi hosting storage supply-demand webcast; memory shortages seen persisting to early 2028",
-      "body": "Citi hosted a storage supply-demand dynamics webcast featuring TRENDFOCUS analysts covering HDD/SSD and NAND Flash trends. Context: PC memory shortages cited across multiple notes as a primary driver of 2Q26 PC unit declines, with shortages expected to persist until early 2028.",
+      "title": "CCL: MS raising FY26 EPS 4% to $2.26 on solid cruise demand; RCL Q2 beat expected but Q3 guide may disappoint",
+      "body": "Morgan Stanley channel checks show mainstream cruise demand improving (+5% YoY bookings in some channels) with pricing firming. MS raises CCL FY26 EPS to $2.26 on lower fuel; strong FCF supports ~$9B cash return FY26-29E. RCL expected to beat Q2 (EPS $3.96 vs. guidance $3.83-3.93) but dull Q3 guidance likely offsets. Luxury cruising strongest with +37% YoY in some channels.",
       "tickers": [
-        "STX",
-        "WDC"
+        "CCL",
+        "RCL"
       ],
       "source_item_ids": [
-        "gmail:19f428c1ccc861e8",
-        "gmail:19f42d2594485b6a"
-      ]
-    },
-    {
-      "title": "VRT/industrials: MasTec acquires Superior Group for $1.65B targeting hyperscaler data center market",
-      "body": "MasTec acquired The Superior Group for $1.65B (6.9x 2026 EBITDA) to expand its hyperscaler data center exposure. Industrials sector declined 106bps vs. S&P -28bps, with aerospace/defense down 2.4% and homebuilders down 4.1%.",
-      "tickers": [
-        "VRT"
-      ],
-      "source_item_ids": [
-        "gmail:19f435af40d46340"
-      ]
-    },
-    {
-      "title": "SHOP/CRWV: Notable movers in Canadian session \u2014 CRWV +5.1%, SHOP -4.0%",
-      "body": "In the Canadian mid-afternoon session, CoreWeave (CRWV) rose 5.1% and Shopify (SHOP) fell 4.0%. Celestica (CLS) gained 3.0% and SanDisk (SNDK) rose 3.1%.",
-      "tickers": [
-        "SHOP",
-        "CRWV",
-        "CLS",
-        "SNDK"
-      ],
-      "source_item_ids": [
-        "gmail:19f42faefe463d02"
-      ]
-    },
-    {
-      "title": "Macro: FOMC minutes hawkish; near-term rate hike risk if core PCE stays above 3.3%",
-      "body": "June FOMC minutes showed almost all participants would support tightening if inflation remains elevated, with price pressures becoming more broad-based. The base case per multiple analysts is a gradual shift toward rate hikes around year-end; median 3.3% core PCE aligns with no hikes or one hike, while 3.5% aligns with 2-3 hikes. Front-end rate volatility likely to remain elevated under Chair Warsh.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19f43709d0c28758",
-        "gmail:19f43921a894c89d"
+        "gmail:19f46d11d474dbf5"
       ]
     }
   ]
