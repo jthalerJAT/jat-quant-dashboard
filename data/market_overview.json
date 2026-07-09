@@ -1,242 +1,214 @@
 {
-  "digest_type": "premarket",
-  "digest_dt": "2026-07-09T08:30:00-04:00",
-  "saved_at": "2026-07-09T12:49:04.566485+00:00",
+  "digest_type": "midday",
+  "digest_dt": "2026-07-09T12:00:00-04:00",
+  "saved_at": "2026-07-09T16:14:09.987300+00:00",
   "bullets": [
     {
-      "title": "S&P/Nasdaq futures up; AI infrastructure rally leads tape into open",
-      "body": "S&P 500 futures +0.19% to 7543, Nasdaq futures +0.8% as of pre-market. Semiconductor and AI infrastructure names lead with MU +5.9%, WDC +5.8%, AMAT +5.8%, MRVL +5.7%, AVGO +3.8% \u2014 driven by Meta Iris chip news and sustained AI capex signals. Software/enterprise names lagged with CRM -4.8%, NOW -4.4%, MSFT -2.1% on Starbucks in-house AI tooling report.",
-      "tickers": [
-        "MU",
-        "WDC",
-        "MRVL",
-        "AVGO",
-        "CRM",
-        "NOW",
-        "MSFT",
-        "META"
-      ],
-      "source_item_ids": [
-        "gmail:19f46d3f040c5e72",
-        "gmail:19f46dad00ca7e13"
-      ]
-    },
-    {
-      "title": "Meta 'Iris' chip production starts September \u2014 AVGO/TSMC partnership confirmed, NVDA/AMD reliance cut",
-      "body": "Meta begins manufacturing its custom AI chip 'Iris' in September as part of a plan to scale to 14GW of compute capacity. Broadcom (AVGO) is the design partner with initial commitment exceeding 1GW; TSMC manufactures. META stock fell ~3.7% on supply independence signal while AVGO gained ~3.8%. Applied Materials CEO separately flagged 2-year demand visibility with some customers sharing directional forecasts through 2030.",
+      "title": "META's 2027 AI Capex Eyeing $250-275B, Doubling Compute to 14GW",
+      "body": "Multiple sources converge on META planning to double compute capacity from 7GW to 14GW by end-2027, implying capex of $200-275B vs. Morgan Stanley's prior $175B model. META's first large-scale multi-GW Prometheus cluster came online in July; capacity constraints are broadening from GPUs to CPU, memory, and disk. META also secured multi-year supply deals with Samsung, SK Hynix, and Sumitomo, and is launching proprietary 'Iris' AI chip in September via AVGO partnership with TSMC manufacturing.",
       "tickers": [
         "META",
         "AVGO",
+        "NVDA"
+      ],
+      "source_item_ids": [
+        "gmail:19f470a608cb8009",
+        "gmail:19f46dd5a65e8a1f"
+      ]
+    },
+    {
+      "title": "Semiconductor Equipment Bull Case Strengthens; WFE Estimates Raised to $185-200B in CY27",
+      "body": "Citi models 2026/27/28 WFE at $145B/$200B/$250B; Mizuho raises CY27 WFE to $192B (+25% YoY) and CY28 to $221B on META's 14GW plan and hyperscaler spend acceleration. TSMC raised 2026 capex to high end of $52-56B with Citi modeling $75B/$80B in 2027/28; Samsung announced $1.36T investment through 2040; Micron raised FY26 net capex to $27B+ and FY27 to $45B+. Mizuho raises AMAT PT to $650 (from $540) and LRCX PT to $400; Wolfe favors AMAT for DRAM exposure and flags ASML as nearer-term catalyst.",
+      "tickers": [
+        "MU",
+        "INTC"
+      ],
+      "source_item_ids": [
+        "gmail:19f470a608cb8009",
+        "gmail:19f477d1568bcb3c"
+      ]
+    },
+    {
+      "title": "AVGO Signs >$30B Multiyear Deal with Apple; Custom AI Silicon Ramp Seen 2029/30",
+      "body": "Broadcom announces >$30B multiyear agreement with Apple covering custom silicon and wireless connectivity, including $1.5B capex upgrade at Fort Collins and >15B U.S.-made chips\u2014Apple's largest American Manufacturing Program commitment. Analysts view the deal as securing AVGO's RF component position and expanding its ASIC role beyond prior 5G agreement; Citi expects a notable custom AI silicon ramp around 2029/30. AVGO shares +4.8% on the announcement.",
+      "tickers": [
+        "AVGO",
+        "AAPL",
+        "GOOGL"
+      ],
+      "source_item_ids": [
+        "gmail:19f4719771b43ee0"
+      ]
+    },
+    {
+      "title": "AI Capex Cycle Broadly Intact; $700B Hyperscaler Spend Estimate May Be Conservative",
+      "body": "Jefferies (Brent Thill) and multiple buy-side sources argue META's capex trajectory signals the AI buildout is in early innings, with $700B hyperscaler capex potentially conservative. AMZN's Moonraker project is budgeting $100M+ in GPU costs in 2026 despite Trainium ramp; NVDA GB200/300 rack output tracking 70-80K racks in CY26 (100%+ YoY). Ken Griffin flagged compute capacity and energy infrastructure as the central constraint on AI deployment.",
+      "tickers": [
+        "META",
         "NVDA",
-        "AMD"
+        "AMZN",
+        "MSFT",
+        "GOOGL"
       ],
       "source_item_ids": [
-        "gmail:19f46adc85632f07",
-        "gmail:19f46b4109f33d9c"
+        "gmail:19f477ce920984fa",
+        "gmail:19f4700c47d8983f"
       ]
     },
     {
-      "title": "US-Iran conflict escalates; Strait of Hormuz near standstill, oil volatile",
-      "body": "US struck ~90 Iranian targets; Iran retaliated against US bases in Bahrain, Kuwait, and Qatar. Ship traffic through the Strait of Hormuz approached a near-standstill, driving Brent from ~$72 to above $78/bbl before easing on reports Iran signaled ceasefire interest. WTI +0.76% to ~$74 in pre-market. JPMorgan warns oil may reassert itself as principal market driver and recommends against short-gamma positions.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19f43d62154ae101",
-        "gmail:19f4692bed38577b"
-      ]
-    },
-    {
-      "title": "Dovish CPI next week is the key macro catalyst; McCullough sees QQQ oversold",
-      "body": "McCullough reduced USD long to minimum, flagged QQQ as immediate-term oversold with NASDAQ showing first higher-low in a month and VIX staying below 19. He identifies a dovish CPI print next week as the catalyst to push Dollar down, rates down, and stocks up. SP500 immediate-term risk range 7308\u20137575; UST 10yr range 4.37\u20134.61%.",
-      "tickers": [
-        "SPY"
-      ],
-      "source_item_ids": [
-        "gmail:19f46d3c10e689e3",
-        "gmail:19f446e301ad6c31"
-      ]
-    },
-    {
-      "title": "22V: Higher yields are NOT a reason to short S&P; earnings growth of +25% dominates",
-      "body": "22V Research argues S&P 500 fair value drops only 2pp if 10yr yields move from 4.25% to 4.5% \u2014 economically inconsequential versus +25% expected earnings growth. High-frequency demand data remains firm: Redbook same-store sales +11.5% YoY, OpenTable dining +15% YoY. Consumer and corporate balance sheets described as 'remarkably healthy,' and the Fed retains room to cut if demand falters.",
-      "tickers": [
-        "SPY"
-      ],
-      "source_item_ids": [
-        "gmail:19f46d1995f3249b"
-      ]
-    },
-    {
-      "title": "Q2 earnings revisions +3.4% vs. typical -2% decline; 11/11 sectors growing revenue",
-      "body": "JPM notes 2Q26 earnings estimates were revised up 3.4% during the quarter vs. a typical -2.0% five-year average and -2.7% ten-year average. Forecasted earnings growth is 23.3% (revised up from 22%), revenue growth 12.2%, with all 11 S&P sectors showing positive revenue growth and 10 of 11 showing EPS growth. Russell 2000 aggregate Q2 earnings tracking 4.1% above expectations.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19f464df0e703923",
-        "gmail:19f46d522c66db4b"
-      ]
-    },
-    {
-      "title": "FOMC minutes hawkish; Fed staff pushed 2% inflation arrival to end-2028 from end-2027",
-      "body": "FOMC minutes showed a hawkish tone with a few participants citing the case for a rate hike, though all supported unchanged policy. Fed staff revised their inflation forecast, pushing the expected arrival at 2% target from end-2027 to end-2028. Fed rate expectations have now shifted to 1.2 hikes by year-end vs. 2.5 prior cuts.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19f464df0e703923",
-        "gmail:19f46934d3b69797"
-      ]
-    },
-    {
-      "title": "Agentic AI driving multi-quarter demand surge in compute, networking; storage a laggard",
-      "body": "JPM's discussion with 650 Group shows agentic AI is a durable multi-quarter demand driver lifting DELL, HPE, ANET, CLS, and CSCO. Data center switch market saw strong upward revision; campus networking also benefiting. Storage is the laggard as budgets are crowded out by compute/networking \u2014 agentic AI workloads don't generate meaningful new data.",
-      "tickers": [
-        "HPE",
-        "DELL",
-        "CSCO",
-        "CLS",
-        "ANET"
-      ],
-      "source_item_ids": [
-        "gmail:19f46536f5f77e00",
-        "gmail:19f46b4109f33d9c"
-      ]
-    },
-    {
-      "title": "CIO survey: IT budgets accelerate to +3.3% NTM; AI now 6.5% of budgets, 50% of CIOs expect headcount cuts",
-      "body": "Citi's 2Q26 CIO survey (N=100) shows NTM IT budget growth of +3.3% vs +2.6% in March, 0.8pts above the 7-year average. Data/AI is the top priority with a widening gap over cybersecurity. AI represents ~6.5% of IT budgets (69% from new/additional funding), 24% of use cases are in production (up from 22%), and 50% of CIOs expect AI to drive headcount reduction in the next 6\u201312 months. MSFT leads vendor spend increases; Cisco and Dell cited most for cuts.",
+      "title": "CIO Survey: IT Budgets Accelerating to +3.3% YoY; AI Now #1 Priority Ahead of Cybersecurity",
+      "body": "Citi's CIO survey shows IT budgets growing at +3.3% YoY (vs. +2.6% prior), above the 7-year average, with AI moving to the top spending priority ahead of cybersecurity. MSFT, AMZN, and GOOGL screen best for AI spend increases; CRWD and PANW lead in cybersecurity. Tyler Radke's new top software picks are MDB, SNOW, and PLTR for data infrastructure/AI enablement.",
       "tickers": [
         "MSFT",
         "AMZN",
         "GOOGL",
-        "DELL",
-        "CSCO",
-        "NOW"
-      ],
-      "source_item_ids": [
-        "gmail:19f462ef2fb6fcdd",
-        "gmail:19f46c28d2b69575"
-      ]
-    },
-    {
-      "title": "Starbucks in-house AI tools to displace MSFT/IBM by end-2027 \u2014 signal of broader enterprise substitution risk",
-      "body": "Bloomberg reported Starbucks is using AI to develop internal tools replacing Microsoft's inventory tracking system and IBM's maintenance management program, with some solutions launching by end of 2027. The report knocked CRM -4.8%, NOW -4.4%, ACN -2.6%, MSFT -2.1%, and INTU -2.5% in pre-market, interpreted as a signal of enterprise software displacement risk beyond a single company.",
-      "tickers": [
-        "MSFT",
-        "CRM",
-        "NOW"
-      ],
-      "source_item_ids": [
-        "gmail:19f468cffd8a58f8",
-        "gmail:19f46d3f040c5e72"
-      ]
-    },
-    {
-      "title": "Wolfe raises WFE to $185bn CY27, $225bn CY28; AMAT top pick at 25x CY28 EPS",
-      "body": "Wolfe Research raises CY27 WFE estimates to $185bn (capped ~$200bn by cleanroom constraints) and CY28 base case to $225bn (+22% YoY), with upside to $265bn contingent on Intel spending and pricing. AMAT is the top pick with PT raised to $700 from $550 (22.7% upside) on DRAM exposure and discounted valuation. ASML PT raised to \u20ac1,850 from \u20ac1,500 (21% upside) for CY27 optionality.",
-      "tickers": [
-        "INTC"
-      ],
-      "source_item_ids": [
-        "gmail:19f4645f47c7d954"
-      ]
-    },
-    {
-      "title": "TSMC 2Q likely to beat; Arizona Phase 1 at ~50% GM, yields near 90%; FY guidance may lift to 30\u201335%",
-      "body": "Jefferies expects TSMC's July 16 print to beat with 3Q revenue guidance of +10\u201312% QoQ, ahead of Street high-single-digit expectations, and gross margin expansion to 67.1%. Arizona Phase 1 gross margins already at ~50% with yields approaching 90%, materially ahead of schedule. TSMC could lift full-year revenue growth outlook to 30\u201335% YoY. CC Wei's language on capacity shortages and AI demand will be a key read-through for the AI complex.",
-      "tickers": [
-        "TSM",
+        "MDB",
+        "SNOW",
+        "PLTR",
         "NVDA"
       ],
       "source_item_ids": [
-        "gmail:19f46934d3b69797"
+        "gmail:19f470f1866c3cf1"
       ]
     },
     {
-      "title": "JPM credit downgrades MSFT and META on capex funding risk; ORCL upgraded to OW",
-      "body": "JPM's credit desk downgraded MSFT (only hyperscaler not to tap bond market for capex funding) and META (management hasn't convinced market AI spend will generate ROIC). ORCL was upgraded to Overweight as widest-trading hyperscaler with a bring-your-own-chip strategy enhancing its funding profile. GOOGL and AMZN remain Overweight.",
+      "title": "Enterprise Token Optimization Wave: Firms Capping AI Spend, Routing to Cheaper/Open-Source Models",
+      "body": "After 8-12x daily token volume growth from Jan-May, tech firms are now capping AI usage and routing workloads to lower-cost or open-source models, with enterprise success shifting to business outcomes over token consumption. Chinese open-source models (DeepSeek, Kimi, GLM, Qwen) gaining adoption in US enterprise; Beijing reconsidering its pro-open-source stance. This 'Tokenmaxx trend reversal' could reshape the AI investment narrative in 2H26 and threatens legacy software vendors.",
       "tickers": [
-        "MSFT",
-        "META",
-        "ORCL",
-        "GOOGL",
-        "AMZN"
-      ],
-      "source_item_ids": [
-        "gmail:19f46b4109f33d9c"
-      ]
-    },
-    {
-      "title": "Mag7 at 10-year lows vs. SPX; Semis pulled back ~20% \u2014 intra-Tech rotation risk elevated",
-      "body": "JPM flags Mag7 trading at 10-year lows vs. SPX, with Mag7 + AVGO comprising ~39% of NDX. Semis and AI momentum factors rebounded 2.8% and +1.5z from recent lows but remain ~20% off peaks. Intra-sector rotation risk elevated as Semis valuation stretched relative to Mag7 at trough. Hedge fund gross leverage at 98th percentile 5-year with de-grossing seasonality emerging into late July.",
-      "tickers": [
-        "AVGO",
-        "NVDA"
-      ],
-      "source_item_ids": [
-        "gmail:19f46b9801f79571",
-        "gmail:19f459e8b02c1579"
-      ]
-    },
-    {
-      "title": "Frontier AI model competition reaccelerates: GPT-5.6, Grok 4.5, and inference cost war",
-      "body": "OpenAI rolled out GPT-5.6 globally with improved reliability and token efficiency. Grok 4.5 (1.5T parameters, trained on tens of thousands of GB300 GPUs) is priced at $2/$6 per 1M tokens vs. $5/$25 for Opus 4.8 and $5/$30 for GPT 5.5, offering ~4.2x greater token efficiency. Enterprise AI shift described as moving from 'tokenmaxxing' to 'token optimization,' with companies routing to cheaper/open-source models and capping spend.",
-      "tickers": [
-        "NVDA",
         "META",
         "GOOGL",
         "MSFT"
       ],
       "source_item_ids": [
-        "gmail:19f45a7d9d9c5919",
-        "gmail:19f4405ac4f059ad"
+        "gmail:19f47391435eca6e",
+        "gmail:19f4722bd19799a5"
       ]
     },
     {
-      "title": "2Q global PC shipments fell 4.9% YoY \u2014 first decline in 9 quarters; 2H outlook deteriorates",
-      "body": "2Q26 global PC shipments declined 4.9% YoY (66.2M units), ending 9 consecutive quarters of growth, with component shortages cited. The LTM peak appears to have been 295\u2013300M units. 3Q builds imply 16% YoY unit declines, and MS flags sharply deteriorating 2H outlook with limited pull-forward demand.",
+      "title": "AI Model Pricing War Intensifies; SpaceX Grok 4.5 at $2/$6 vs OpenAI $5/$30",
+      "body": "SpaceX's Grok 4.5 launched at $2/$6 per million input/output tokens, significantly undercutting OpenAI's GPT at $5/$30; META's Muse Spark 1.1 priced at $1.25/$4.25. Zuckerberg flagged competing labs' pricing as having 'very high margins,' signaling a concerted push by META, SpaceX, and Chinese model companies toward cheaper frontier-class performance. OpenAI claims GPT 5.6 is 54% more token efficient on agentic coding tasks.",
       "tickers": [
-        "DELL",
-        "HPE",
-        "AAPL"
-      ],
-      "source_item_ids": [
-        "gmail:19f46b4109f33d9c",
-        "gmail:19f45920219cf6d4"
-      ]
-    },
-    {
-      "title": "Global M&A on track for $6.4T record in 2026; large strategic deals 43% of activity",
-      "body": "Morgan Stanley reports 2Q26 global M&A announcements +64% YoY with a $1.7T quarterly record. Full-year 2026 projected at $6.4T, surpassing the 2021 peak of $6.1T, with 52% achieved in 1H. Large strategic deals ($10B+) represent 43% of announcements, the highest share in 6+ years. Sponsor completions are up 60% YoY with ~$4.3T of dry powder available. Rate hikes remain the key risk to the cycle.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19f45e53a9b599b1"
-      ]
-    },
-    {
-      "title": "Major bank earnings July 14\u201316 are next key tape event; MS models capital markets blowout",
-      "body": "BAC, C, GS, JPM, WFC, BLK, BNY, MS, PNC, CFG, STT, USB all report July 14\u201316. Morgan Stanley models aggregate Equities +23% YoY, FICC +11%, M&A +20%, ECM +53%, DCM +10%. JPM NII guide expected to move to at least $96B vs consensus $95.5B. BK, JPM, PNC, STT expected to raise 2026 NII guidance.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19f43e387fd8b771",
-        "gmail:19f46cf1de94efed"
-      ]
-    },
-    {
-      "title": "PepsiCo: lower-quality 2Q beat; North America volumes down, 2H cost inflation a headwind",
-      "body": "PEP 2Q EPS of $2.20 beat by $0.01 but driven by below-the-line items (lower interest expense). North America organic sales declined -0.4%, missing consensus +1%, with volumes down. Gross margin compressed 87bps YoY. FY26 guidance reiterated but core EPS growth weighted to 4Q, implying high-single-digit 4Q EPS growth against tough comps viewed as optimistic. Management flagged more gradual North America improvement.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19f46906eb76babf",
-        "gmail:19f46d11d474dbf5"
-      ]
-    },
-    {
-      "title": "China restricting AI model exports; US enterprises turning to Chinese open-source to cut costs",
-      "body": "China is weighing limits on AI models popular with US companies, while also claiming Anthropic's Claude Code contains backdoor security flaws. Concurrently, US enterprises are increasingly using open-source models from China to optimize workloads and cut costs. China separately is reconsidering open-source model sharing to safeguard proprietary AI technology.",
-      "tickers": [
-        "GOOGL",
         "META"
       ],
       "source_item_ids": [
-        "gmail:19f465d1e72829b1",
-        "gmail:19f46d0e75525dbb"
+        "gmail:19f4745a64da3057",
+        "gmail:19f46dd5a65e8a1f"
+      ]
+    },
+    {
+      "title": "Micron Raises U.S. Capex to >$250B Through 2035; Commits $3B to Domestic Supply Chain",
+      "body": "Micron increased its U.S. fab investment target to >$250B through 2035 (from $200B), targeting 40% of DRAM production domestically. The company also announced a $3B strategic investment in the U.S. semiconductor ecosystem including $500M financing to GlobalWafers for a Texas 300mm wafer fab plus a 10-year supply agreement.",
+      "tickers": [
+        "MU"
+      ],
+      "source_item_ids": [
+        "gmail:19f46ed5d743a282",
+        "gmail:19f46e55c1926567"
+      ]
+    },
+    {
+      "title": "Taiwan June Exports +40.3% YoY, Missed 49.9% Consensus; ICT Near-Record on AI Demand",
+      "body": "Taiwan June export growth came in at 40.3% YoY, missing the 49.9% consensus and down 1.1% MoM seasonally adjusted, though ICT product exports jumped +5.6% MoM to near-record $35B, up 7-fold from 2023 lows. Taiwan imports hit an all-time high, signaling robust AI supply chain activity; the TAIEX is near all-time highs, outperforming MSCI World and S&P since 'Liberation Day.'",
+      "tickers": [
+        "TSM"
+      ],
+      "source_item_ids": [
+        "gmail:19f471d40ac59d1e"
+      ]
+    },
+    {
+      "title": "ECB June Rate Hike Was 'Clear-Cut'; Further Hikes Embedded in Baseline",
+      "body": "ECB June minutes show the 25bp hike was viewed internally as very clear-cut with minimal counter-arguments; mild scenario projections include almost three hikes and show core inflation above target through end-2028. The council explicitly rejected characterizing the move as precautionary; energy prices lower since June reduce some upside inflation risk but further hikes remain in the baseline despite non-committal forward guidance.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19f474d66effd062"
+      ]
+    },
+    {
+      "title": "Initial Jobless Claims Edge Down to 215K; Labor Market Steady",
+      "body": "Initial jobless claims fell 2K WoW to 215K, with the 4-week average at 219K, past the peak of residual seasonality that had boosted summer headlines. Continuing claims are moving sideways, consistent with a steady re-hire rate; UBS notes the data supports preference for PAYC over temp staffing names like EFOR and RHI.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19f470a743831f3b"
+      ]
+    },
+    {
+      "title": "June Existing Home Sales Miss at 4.09M (-2.4% MoM); Market Remains Range-Bound",
+      "body": "June existing home sales fell 2.4% MoM to 4.09M, below consensus expectations for a small uptick, with breadth mostly negative except the Northeast. YTD average of 4.08M is in-line with 2025 levels; strategists expect sales to end the year flat. Median prices rose 1.8% YoY (accelerating from 1.4% in June 2025), while affordability improved modestly on stronger income growth.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19f47670feda5e5d",
+        "gmail:19f47667ca943bf2"
+      ]
+    },
+    {
+      "title": "NDX at ~23x NTM P/E, Inline with 10-Year Average; Momentum Healing Post-Drawdown",
+      "body": "GS notes NDX is trading at ~23x NTM P/E, inline with the 10-year average and toward the lower end of the 3-4 year range. Momentum pairs closed up 3-4% yesterday after 25-30% pullbacks; VIX at 16.29 (-3.6%) with S&P 500 +0.5% to 7,522. ANET and NET hit new 52-week highs (+78.7% and +41.9% respectively over 52 weeks).",
+      "tickers": [
+        "NET",
+        "ANET"
+      ],
+      "source_item_ids": [
+        "gmail:19f46fb3e0e5c024",
+        "gmail:19f473311b00cf5b"
+      ]
+    },
+    {
+      "title": "META $13B Alberta Data Center (1GW) Signals Hyperscaler Infrastructure Push Into Canada",
+      "body": "META unveiled a $13B, 1GW data center in Sturgeon County, Alberta\u2014its first in Canada and largest outside the US\u2014with a $4.6B, 932MW gas-fired power plant being built by Pembina and Morgan Stanley Infrastructure Partners. The Canadian government cites 20GW of planned data center capacity vs. 337MW currently in operation; Alberta targeting $100B in data center investment by 2030.",
+      "tickers": [
+        "META"
+      ],
+      "source_item_ids": [
+        "gmail:19f471e99f8580a5"
+      ]
+    },
+    {
+      "title": "German Manufacturing Stabilizes; May Exports Surge 23% to U.S. Ahead of Potential Tariffs",
+      "body": "German May exports unexpectedly rose, approaching 2022 record highs, with U.S.-bound shipments up +23.1% MoM, likely front-running tariff increases. EU factory orders jumped +11.2% MoM; however, German GDP is modeled at only ~1% growth in 2026/early 2027, and structural headwinds persist (energy dependency, weak autos, China competition). DAX at record highs supported by energy, tech, and banks.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19f4710540d579c5"
+      ]
+    },
+    {
+      "title": "KOSPI at 20-Year Record Low Valuation; SOX at 4% Discount to SPX",
+      "body": "KOSPI is trading at a 20-year record low 6x NTM P/E per Morgan Stanley; the SOX semiconductor index trades at a 4% discount to the S&P 500 on 2-year forward P/E. Memory stocks remain wobbly near-term from quant/ETF flows, but are liked long-term; Samsung ADR issuance expected end of week could serve as an inflection point.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19f4722bd19799a5"
+      ]
+    },
+    {
+      "title": "Hotels RevPAR +10.9% YoY Week Ended 7/4 on World Cup Boost; Urban Markets +23%",
+      "body": "U.S. hotel RevPAR surged +10.9% YoY for the week ended July 4th, with World Cup host markets seeing extreme outperformance: Philadelphia +39%, Washington DC +57%. Preliminary June RevPAR tracking +8-9% YoY; urban market RevPAR +23.0%, group +13.5%, transient +13.0%.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19f47570cec54eef"
+      ]
+    },
+    {
+      "title": "P&C Insurance Soft Cycle Could Last ~Decade; Life Insurance Upside on Rate Hike Pivot",
+      "body": "Wolfe Research's insurance preview flags an elongated P&C soft pricing cycle potentially lasting nearly a decade, with MGAs and reinsurers adding to capital oversupply. Life insurance stocks seen as beneficiaries of any rate hike pivot; reinsurer returns expected to converge with cost of capital only by 2027E. Broker data center revenue opportunity viewed as overhyped.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19f473488d52f612"
+      ]
+    },
+    {
+      "title": "June Dodge Momentum Index Slows to +1.9% MoM; Data Center Pace Moderates",
+      "body": "The June Dodge Momentum Index decelerated to +1.9% MoM (vs. +5.9% in May), with commercial buildings down 6.8% MoM and data center activity moderating from elevated recent levels. Institutional building rose +10.9% MoM; planning activity accelerated across nearly every other sector despite the June pullback.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19f475fa795f5ca4"
+      ]
+    },
+    {
+      "title": "SpaceX IPO and Capital Markets Reopening Signal; Alt Managers See Q2 Lighter Realizations",
+      "body": "Citizens views the SpaceX IPO as a fee event and confidence signal for capital markets reopening, expecting strong Q2 results from GS and MS on healthy trading and capital markets. Alternative managers are benefiting from secular growth tailwinds but Q2 realizations expected to be lighter; alt stocks have underperformed traditional managers by 55% over the past year despite net inflows.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19f4701f777acf90"
       ]
     }
   ]
