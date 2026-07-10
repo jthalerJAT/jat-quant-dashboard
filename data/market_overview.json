@@ -1,208 +1,216 @@
 {
-  "digest_type": "midday",
-  "digest_dt": "2026-07-10T12:00:00-04:00",
-  "saved_at": "2026-07-10T16:33:30.072454+00:00",
+  "digest_type": "weekend",
+  "digest_dt": "2026-07-10T18:00:00-04:00",
+  "saved_at": "2026-07-10T22:23:30.749753+00:00",
   "bullets": [
     {
-      "title": "Core PCE next week is the macro hinge: benign <0.3% favors risk-on, hot >0.3% pressures cyclicals",
-      "body": "Multiple sources (22V, MS, OPCO) converge: if next week's CPI/PPI imply core PCE near 0.21\u20130.3%, it reinforces a higher neutral rate thesis and favors Growth/Value/AI stock-picking alpha. A hot print (>0.3%) biases yields higher, pressures cyclicals and momentum/AI theme baskets, and raises odds of Fed hikes later this year. MS notes AI theme rolling beta to 10yr yields is significantly above long-term medians, making the AI basket unusually rate-sensitive.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19f4cad747a84fb2",
-        "gmail:19f4c2db0119efb1"
-      ]
-    },
-    {
-      "title": "Fed shifting toward rate hikes; 22V sees 2yr yield toward 5%, gold less attractive",
-      "body": "22V Research's macro backdrop assessment: consumer spending, labor markets, and earnings point to accelerating demand, with the Fed bias shifting toward additional rate hikes later this year or early next year. 2-year yield likely headed toward 5%; gold attractiveness diminished by higher bond yields. Iran escalation risk could further fuel a hawkish Fed narrative and push Treasury yields higher.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19f4c9a8648acf61",
-        "gmail:19f4c2db0119efb1"
-      ]
-    },
-    {
-      "title": "S&P at 7,558; VIX 15.45; vol-control funds set to buy $12\u201315B as 1-month vol fades",
-      "body": "S&P 500 up ~0.2% to 7,557.80, with futures reversing early losses to turn positive. VIX rose 2.5% to 15.45. OPCO and Hedgeye both flag vol-control funds requiring ~$12\u201315B in net buying as 1-month vol declines through mid-July; COR1M correlation at 3.95 (extremely low), with SPX 7500 seen as strong support with positive gamma across strikes.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19f4cbe956f613a0",
-        "gmail:19f4c211ed770378"
-      ]
-    },
-    {
-      "title": "Iran tensions minimal market impact; oil at $76/bbl; Hormuz bypass routes rebounding",
-      "body": "Despite resumed U.S. strikes on Iran and Iran's infrastructure retaliation warnings, Brent crude fell to ~$76/bbl with oil barely moving\u2014market dismissing escalation risk. Qatar is mediating US-Iran talks per NYT. UBS data shows Strait of Hormuz tanker traffic declining further while bypass route loadings at Yanbu rebound; UK maritime authority warns routes outside southern Hormuz are unprotected.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2075540368897249612",
-        "gmail:19f4ca95b811f348"
-      ]
-    },
-    {
-      "title": "META surges 4% on SemiAnalysis AI compute report; $250B 2027 capex plan disclosed",
-      "body": "META rallied ~4% after SemiAnalysis published a detailed positive report on the company's AI compute ramp, with Zuckerberg confirming $250B capex in 2027 (vs. prior $175\u2013225B estimates) targeting 14GW compute by end-2027. Meta's custom ASIC from AVGO enters full production 2H26; compute expansion costs tracking well below analyst expectations, easing capex concerns. Meta's Muse Spark 1.1 model matches or exceeds Anthropic/OpenAI at 25% lower pricing.",
+      "title": "Meta AI capex explodes to 14GW by 2027, stock surges 7%+ on compute monetization thesis",
+      "body": "Meta's 'Watermelon' model requires an order-of-magnitude more compute than prior generations, with the company planning to double capacity to 14GW next year (from 7GW in 2026). KeyBanc raises PT to $790 (bull case $1,065) on new AI revenue streams; Mizuho initiates Buy on third-party cloud monetization potential at $50B+ per GW. Multiple sell-side analysts note META capex tracking toward $250B in 2027 vs. prior $175-225B estimates, but AI infrastructure economics (Muse Spark API, developer model pricing at $1.25/$4.25 per M tokens) and compute rental revenue justify it. Muse Spark 1.1 reviewed as matching or exceeding Anthropic/OpenAI frontier models at 25% lower cost.",
       "tickers": [
         "META"
       ],
       "source_item_ids": [
         "gmail:19f4c5a403b00403",
-        "gmail:19f4c1a4958f25d6"
+        "gmail:19f4b1a4958f25d6"
       ]
     },
     {
-      "title": "HBM prices expected to double in 2027; hyperscaler datacenter capex revised up to +80% YoY",
-      "body": "JPMorgan's Harlan Sur raises top-4 hyperscaler datacenter capex to +80% YoY in 2026E (from 70%+), with AI accelerator units rising to 16.3M in 2026 (+62%) and 23.3M in 2027 (+43%). HBM TAM modeled at $65B in 2026 (+94% YoY) and $129B in 2027 (+99%); HBM prices expected to double in 2027 with HBM4 estimated at $4\u20135/GB vs. ~$2 in H2 2026. Structural supply/demand tightness in memory expected to extend through CY28.",
-      "tickers": [
-        "MU",
-        "NVDA",
-        "AVGO",
-        "MRVL"
-      ],
-      "source_item_ids": [
-        "gmail:19f4c053ac2c37ff",
-        "gmail:19f4c1a4958f25d6"
-      ]
-    },
-    {
-      "title": "Micron commits $250B to US manufacturing through 2035; NY DRAM megafab underway",
-      "body": "Micron announced a $250B investment commitment through 2035 to build multiple Terafabs in the US, with New York DRAM megafab construction already started. The announcement underscores the domestic semiconductor buildout narrative but the stock was trading down ~2.6% pre-market amid broader semis weakness.",
-      "tickers": [
-        "MU"
-      ],
-      "source_item_ids": [
-        "x:2075509308515856716",
-        "x:2075534413899940274"
-      ]
-    },
-    {
-      "title": "NVDA CEO cites accelerating growth toward $100B quarterly revenue; GPU rental rates up 5\u201310%",
-      "body": "NVDA CEO Jensen Huang told MS analysts AI growth is broadening across labs, hyperscalers, and sovereigns, with three demand vectors: AI labs (20%), hyperscalers (50%), and AI clouds/enterprise (50%, highest growth). GPU rental rates are up 5\u201310% July YTD; H100 curve rising with provider price hikes. Rubin Ultra roadmap on track for next year with no slip to 2028.",
-      "tickers": [
-        "NVDA"
-      ],
-      "source_item_ids": [
-        "gmail:19f4c5a403b00403",
-        "gmail:19f4c2a159166add"
-      ]
-    },
-    {
-      "title": "AI theme rate sensitivity elevated; AI Services positively correlated to yields, AI Goods negatively",
-      "body": "Morgan Stanley's Generative AI Baskets show rolling beta to 10yr yields significantly above long-term medians. AI Services companies are positively correlated to yields while AI Goods companies are negatively correlated\u2014a split that matters heading into next week's inflation prints.",
+      "title": "Fed semi-annual report: inflation elevated, driven by tariffs, Middle East, and AI chip prices; hawkish tone dominates",
+      "body": "The Fed's semi-annual monetary policy report under Chair Warsh cites tariffs, Iran war, and AI-related chip/memory prices as key inflation drivers. Goldman Sachs estimates AI-induced increases in memory, software, and electricity prices are already adding >0.2% to core PCE YoY, rising to ~0.5% by year-end. 22V Research sets core PCE 0.21% m/m as the hinge: hot prints (>0.30%) push yields higher and pressure risk factors; benign prints support Growth/GARP factors. Prediction markets now price ~67% odds of a September Fed hike.",
       "tickers": [],
       "source_item_ids": [
-        "gmail:19f4cad747a84fb2"
+        "x:2075596607752380582",
+        "x:2075599285987483674"
       ]
     },
     {
-      "title": "Euro area 2Q26 upside growth risks; JPM sees ECB hiking in September, BoE in November",
-      "body": "JPMorgan flags Euro area 2Q26 GDP risks tilted to the upside: manufacturing output tracking 3% annualized gain, retail sales +0.8% annualized, car registrations +10%+ annualized. For 2H26, JPM calls for ECB rate hike in September (sticky core inflation at 2.4% YoY, persistent wage drift) and BoE hike in November. Le Pen's 15-month ban elapsed, clearing path for 2027 French presidential run; she polls above 30% in first round.",
+      "title": "US 30-year bond yield hits highest since 2007 at 5.058%; term premium expands",
+      "body": "The 30-year Treasury auction drew a 5.058% yield, the highest since the pre-GFC period. 10-year yields ended the week near 4.57%. JPMorgan sees 5-year/30-year curve at ~78-82bp resistance and recommends flatteners; 22V Research says 10-year fair value is ~4.5% and higher yields reflect neutral-rate repricing rather than restrictive policy, framing them as less threatening to equities than feared at these levels.",
       "tickers": [],
       "source_item_ids": [
-        "gmail:19f4cb47620b0edf",
-        "gmail:19f4c52973314163"
+        "x:2075486512171384877",
+        "gmail:19f48b9d6b243f8a"
       ]
     },
     {
-      "title": "Dollar bull trend intact; EUR/USD biased toward 1.1065\u20131.1185; USD/JPY bullish above 160",
-      "body": "JPMorgan FX technicals: DXY pullback is corrective with medium-term bull trend intact above 99.06\u201399.22 (200-day MA); setup favors push toward 102.72\u2013103.05 with 105.08 measured move. EUR/USD negative bias below 1.15, targeting 1.1065\u20131.1185. USD/JPY bullish above 159.87\u2013160.72 support after achieving 163.23 objective; next resistance 165.61. Contrarian view: JPY shorts are crowded at a time when Japan's economic conditions and policy backdrop are shifting positively.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19f4c4c0dff63862",
-        "x:2075524351827272058"
-      ]
-    },
-    {
-      "title": "Hyperscaler bond issuance ($132B YTD) creating supply fatigue; balance sheets more levered",
-      "body": "JPMorgan warns hyperscalers have issued $132B senior unsecured bonds YTD plus ~$26B in project finance debt, with AI investment accelerating faster than transparency into capex needs. Hyperscaler balance sheets becoming progressively more levered, reducing scarcity value of paper. Amazon's $25B eight-tranche deal signaled limited visibility into future financing plans; tech spreads +3.6bp, media +6.6bp wider amid Middle East conflict.",
+      "title": "S&P 500 within 0.5% of all-time high; positive gamma dominates short-term options tape",
+      "body": "The S&P 500 is 0.5% below an all-time high as of Friday afternoon. SPY options show a $3.5B call wall at the 755 strike with billions of positive gamma; vol-control funds face $12-15B in net buying requirements as 1-month vol falls through mid-July. SPX implied vol fell to 10% for next week (8% for Monday), and term structure is at its lowest point in 90+ days\u2014market is priced for near-perfect outcomes heading into CPI week.",
       "tickers": [
-        "AMZN"
+        "SPY"
       ],
       "source_item_ids": [
+        "x:2075635051048395060",
+        "x:2075551269515616277"
+      ]
+    },
+    {
+      "title": "AI debt cycle accelerating: AI firms double 2025 bond sales, Amazon raises $25B, hyperscaler capex tracking $750B+",
+      "body": "AI-related IG bond issuance has already surpassed all of 2025's volume. Amazon priced a $25B 8-tranche deal this week; total hyperscaler 144A AI project finance across five transactions reached $53B YTD. JPMorgan credit team downgraded MSFT and META on heavy capex funding needs while upgrading ORCL. Semianalysis forecasts $7T in AI debt outstanding by 2029. BofA flags 'net hiking' central banks as a headwind to equities despite durable FCF trends.",
+      "tickers": [
+        "AMZN",
+        "MSFT",
+        "META",
+        "ORCL"
+      ],
+      "source_item_ids": [
+        "x:2075621732690350100",
         "gmail:19f4c6a4cd46340a"
       ]
     },
     {
-      "title": "China AI capex forecast raised 23% to $1T through 2030; 300K H200 chip imports expected in 2026",
-      "body": "Jefferies raises China AI capex forecast 23% to $1T cumulative for 2026\u20132030, with China power demand for AI rising 31% to 34GW. China expected to import 300K H200 chips in 2026 and 100K in 2027; local AI chip output (Ascend 950) forecast to rise 18%. World AI Conference (WAIC) on July 17 to feature Premier Li Qiang with 1,100+ participating companies.",
+      "title": "Memory supercycle intact: SK Hynix ADR opens +14-16% on $26.5B record offering; CEO warns shortage persists past 2030",
+      "body": "SK Hynix priced its Nasdaq ADR at $149/share, raising $26.5B\u2014the largest-ever US equity offering by a foreign company, surpassing Alibaba's 2014 record. The ADR opened at $170 and traded up to $177 on 69M+ shares. SK Hynix CEO said memory chip shortage may persist past 2030; the SK Group chairman signaled openness to US-based manufacturing and described supply as insufficient even if production doubles over five years. UBS models DRAM industry undersupplied through at least 2Q28.",
+      "tickers": [
+        "MU"
+      ],
+      "source_item_ids": [
+        "x:2075616616348361011",
+        "x:2075636450088153126"
+      ]
+    },
+    {
+      "title": "Goldman/PSC/Morgan Stanley: AI-driven inflation adding 0.2-0.5% to core PCE; memory prices key upside risk into CPI week",
+      "body": "Goldman Sachs research quantifies AI-related inflation adding >0.2% to YoY core PCE currently, projected to reach 0.5% by year-end from higher memory, software, and electricity prices. PSC Macro expects headline CPI -0.1% m/m in June on lower energy; core 0.2% m/m vs. 0.3% consensus. MS forecast core CPI +0.22% m/m, 2.8% y/y. Jefferies' inflation framework flags the shift from cost-led to potential demand-led inflation if the Fed eases prematurely. The upcoming CPI/PPI prints (July 14/16) are the key next catalyst for AI theme stocks and rates direction.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2075599285987483674",
+        "gmail:19f4c7d4eb696476"
+      ]
+    },
+    {
+      "title": "US-Iran ceasefire effectively over; Strait of Hormuz disrupted; oil volatile but contained at $72-77",
+      "body": "Trump declared the ceasefire with Iran 'over' on Friday, though talks continue via Qatar. US aircraft carriers Lincoln and Bush are positioned near the Iranian coast. Iran's IRGC struck ships near the Strait of Hormuz and US military sites in Bahrain and Kuwait. Hormuz transit averaged 13 ships/day (vs. 10 inbound), with 72% of outbound oil on VLCCs. IEA warns escalation could upend its oil surplus forecast; Goldman flags Middle East disruption could delay supply recovery. WTI has traded in the $68-80 range; markets have largely priced in the conflict as manageable.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19f3afb350deddc7",
+        "gmail:19f4ca95b811f348"
+      ]
+    },
+    {
+      "title": "Momentum unwind deepens: SOX down 11% in two days post-Samsung; Price Momentum factor at worst drawdown outside recession since 2004",
+      "body": "Samsung's record 19x profit surge paradoxically triggered an 11% two-day SOX selloff as the 'buy the news, sell the fact' unwind hit a crowded long. The GS Momentum Pair had its worst 5-day selloff since COVID. Morgan Stanley's MSZZMOMO factor fell 23% from its June 23 peak in just 10 trading days\u2014equaling only the February 2021 meme-stock episode in speed. JPM notes the selloff is positioning-driven, not fundamental: earnings estimates for semis were revised up 20-40% over prior two seasons. Key catalysts for reversal: ASML (July 15) and TSMC (July 16) earnings.",
+      "tickers": [
+        "MU",
+        "NVDA"
+      ],
+      "source_item_ids": [
+        "gmail:19f3d2e8cd0f27f1",
+        "gmail:19f3d3d1877ea6fb"
+      ]
+    },
+    {
+      "title": "NVDA: multiple macro tailwinds but Kyber/NVL144 rack delayed to 2028 on PCB design issue",
+      "body": "NVDA CEO Jensen Huang's NDR meetings described accelerating growth across AI labs, hyperscalers, and enterprise/sovereign segments, with GPU rental rates up 5-10% July YTD. However, SemiAnalysis reported the Kyber NVL144 rack system has been pushed back to 2028 due to PCB midplane manufacturability challenges (NVDA denied the report). Vera Rubin Ultra roadmap is confirmed on track. Morgan Stanley reiterates Overweight/Top Pick, noting NVDA trades at its lowest forward P/E in 10 years, ~10% below the S&P 500 multiple.",
       "tickers": [
         "NVDA"
       ],
       "source_item_ids": [
-        "gmail:19f4c62736949143"
+        "gmail:19f4c5a403b00403",
+        "x:2075477318381906090"
       ]
     },
     {
-      "title": "Top H1 tech performers almost all negative in Q3; narrow leadership beginning to rotate",
-      "body": "Of the 20 top H1 performing stocks\u2014nearly all in tech\u2014only 2 are up in Q3, with the average return of top H1 performers now negative. Separately, Financials and Health Care sectors both flashed golden cross signals (50-day crossing above rising 200-day MA) yesterday, suggesting potential sector rotation broadening out from tech.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2075544818013319318",
-        "x:2075548188098920475"
-      ]
-    },
-    {
-      "title": "ETF inflows top $1T YTD; AAII stock allocations at 71%, well above 61.5% historical average",
-      "body": "Goldman Sachs reports ETF ecosystem volumes at 'full throttle' with YTD inflows exceeding $1 trillion. AAII survey shows June stock and stock fund allocations at 71%, significantly above the 61.5% historical average\u2014a crowding signal for equity positioning.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2075546861327258052",
-        "x:2075535283391549885"
-      ]
-    },
-    {
-      "title": "UK designates MSFT, GOOGL, AMZN, ORCL as critical third parties under direct financial regulatory oversight",
-      "body": "The UK government designated Microsoft, Google, Amazon, and Oracle as critical third parties to the UK financial sector, bringing them under direct regulatory oversight to protect financial system stability. Separately, Meta faces a potential \u20ac12B EU fine over addictive Instagram and Facebook feed design under the DSA.",
+      "title": "NFLX engagement declining: exploring live TV channels, Peacock bundles, and 2030/2034 World Cup bids to stabilize",
+      "body": "Multiple brokers and reports flag Netflix's engagement growth at only +2% YoY despite all-time high internal quality metrics in 1Q26. Share of US TV viewership fell to 7.8% in April, the lowest since May 2025. Netflix is exploring always-on live channels (continuous genre/franchise streaming), Peacock bundling in its main app, and bids on 2030/2034 FIFA World Cup rights. JPMorgan maintains Overweight at $118 PT; Citi cuts PT to $100 from $115 on multiple compression. 2Q26 results due July 16.",
       "tickers": [
-        "MSFT",
+        "NFLX",
+        "CMCSA"
+      ],
+      "source_item_ids": [
+        "gmail:19f4bee6ac533124",
+        "gmail:19f48c8868721861"
+      ]
+    },
+    {
+      "title": "EM capital flight accelerates: Korea posts record $30.5B non-resident equity outflows (26-year high); EM Asia -$40.5B in June",
+      "body": "IIF data shows non-resident investors pulled $30.5B from Korean equities in June\u2014the highest outflow in 26 years\u2014amid SK Hynix ADR-related rotation and broader AI momentum de-grossing. EM Asia saw $40.5B in equity outflows, wiping out gains in other regions. China separately saw a $14B equity outflow in June vs. $8.1B inflow in May. However, Taiwan semiconductor exports surged 43.9% YoY to $133B in 1H26 with DRAM shipments up 158.5%, showing the supply chain is booming even as financial flows reverse.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2075581562264199640",
+        "x:2075581549932925084"
+      ]
+    },
+    {
+      "title": "Japan GPIF/pension reform: Finance Minister pushes domestic allocation shift; yen surges, JGB yields fall 10bp",
+      "body": "Japan's Finance Minister Katayama urged GPIF and households to increase domestic asset allocations, triggering a 9bp fall in 10-year JGB yields to 2.77% and a sharp yen appreciation (USD/JPY briefly to 160-161 range). Japanese PPI hit 7.1% YoY in June, the fastest since early 2023, supporting the case for BOJ tightening (markets price 84% odds of another hike by year-end to 1.25%). This represents a meaningful cross-asset macro shift: foreign carry trades and Japanese bond holdings could see structural unwinding.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2075391386572996809",
+        "x:2075557526876090614"
+      ]
+    },
+    {
+      "title": "Broadcom-Apple $30B+ multiyear chip deal through 2031 expands to include custom AI silicon",
+      "body": "Apple and Broadcom announced a new agreement exceeding $30B through 2031, covering custom silicon, RF components, and wireless connectivity\u2014producing 15B+ US-made chips. The deal includes a $1.5B capex expansion of AVGO's Fort Collins facility and explicitly adds custom ASIC/AI datacenter XPU work. This removes risk of AVGO losing RF share to QRVO/SWKS and sets a path toward multi-billion AVGO Apple AI revenues by 2029/2030. AVGO shares gained ~4.8% on the announcement.",
+      "tickers": [
+        "AVGO",
+        "AAPL"
+      ],
+      "source_item_ids": [
+        "gmail:19f4e4bf91d3286b",
+        "x:2075394497262043310"
+      ]
+    },
+    {
+      "title": "Data center construction pipeline at 338 GW but build pace implies 12-year clearance; slowing construction growth noted",
+      "body": "Data center construction growth has slowed considerably, according to multiple sell-side trackers. Multiple sources note the construction pipeline would take 12 years to clear at the current build rate (338 GW total), up from 10 years previously. This is a counternarrative to the AI capex acceleration story: while demand intent is strong, actual build rates are gated by skilled labor shortages, permitting, power interconnection (ERCOT Batch Zero process), and materials.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2075409231893647443",
+        "x:2075516076125716545"
+      ]
+    },
+    {
+      "title": "China AI capex forecast raised 23% to $1T cumulative through 2030; WAIC July 17 with Huawei 8K-GPU server launch",
+      "body": "Jefferies raised China AI capex estimates by 23% to $1T for 2026-30E on better-than-expected chip procurement (300K H200 chips in 2026, Huawei Ascend 950 die-shrink boosting yield from 74 to 137/wafer). The World AI Conference (July 17-20) will feature 1,100+ companies and the launch of Huawei's 8,192-GPU super-node server vs. the current 384-GPU model. DeepSeek is simultaneously developing its own inference chip to reduce Nvidia/Huawei reliance. US allows UAE advanced computing imports without licenses as another export-control shift.",
+      "tickers": [
+        "NVDA"
+      ],
+      "source_item_ids": [
+        "gmail:19f4c62736949143",
+        "x:2075430856630632902"
+      ]
+    },
+    {
+      "title": "Hyperscaler capex divergence: GOOGL Cloud revenue to exceed $300B by 2028; MSFT replacing OpenAI/Anthropic with in-house MAI models",
+      "body": "KeyBanc raises GOOGL PT to $445, modeling Cloud revenue of $102B (2026), $171B (2027), $239B (2028). Separately, Bloomberg reported Microsoft is routing some Excel and Outlook AI prompts to its proprietary MAI models to reduce cost exposure to OpenAI/Anthropic APIs\u2014a signal of the shift from external to internal AI at enterprise scale. Citi CIO survey shows IT budgets growing 3.3% NTM with AI as #1 priority; MSFT, AMZN, GOOGL are the top vendors CIOs plan to increase AI spend on.",
+      "tickers": [
         "GOOGL",
-        "AMZN",
-        "ORCL",
+        "MSFT",
+        "AMZN"
+      ],
+      "source_item_ids": [
+        "gmail:19f496abb4ffc76d",
+        "gmail:19f3d6abdc8b34f2"
+      ]
+    },
+    {
+      "title": "Fed Warsh task forces signal regime shift: hawkish inflation focus, AI productivity study, balance sheet review",
+      "body": "Chair Warsh assembled five expert task forces on communications, balance sheet policy, real-time data, AI/productivity, and inflation frameworks. The inflation frameworks group leans hawkish with a supply-side focus and may recommend broader inflation measures or nominal income targeting. Governor Waller's inflation-centric language has 'completely flipped' risks from labor to prices. Multiple brokers flag this as a structural shift away from the 2020-2024 framework and toward potential further tightening if core PCE stays above 3.3%.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19f48b9572eaa5ca",
+        "gmail:19f2db0119efb1"
+      ]
+    },
+    {
+      "title": "AI token price war intensifying: META Muse Spark 1.1 at $1.25/M, xAI Grok 4.5 at $2/M vs Anthropic Fable 5 at $10/M",
+      "body": "A three-way frontier model pricing battle has emerged: META's Muse Spark 1.1 at $1.25/$4.25 per M input/output tokens; xAI's Grok 4.5 at $2/$6 with 4.2x token efficiency vs Opus; OpenAI GPT-5.6 at $5/$30 but 54% more token-efficient on agentic coding. Anthropic's Fable 5 is at $10/$50. Multiple brokers note this compression is directly impacting OpenAI's revenue trajectory while driving enterprise AI token consumption higher. The trend shifts value from model providers toward infrastructure (NVDA, MU) and toward orchestration platforms.",
+      "tickers": [
         "META"
       ],
       "source_item_ids": [
-        "x:2075523092408107181",
-        "x:2075534568824979505"
+        "gmail:19f473edb720ad07",
+        "gmail:19f4745a64da3057"
       ]
     },
     {
-      "title": "NFLX engagement declining; JPM overweight but investor room skewed bearish pre-Q2",
-      "body": "Multiple sources flag Netflix engagement (watch time, completion rates) declining despite healthy subscriber retention heading into July 16 Q2 report. Citi notes investor room skewed heavily bearish on multiple compression risk vs. traditional media (8\u201313x PE); NFLX needs stabilizing engagement, new product narrative, or large buyback to shift sentiment. JPMorgan maintains overweight at $118 PT expecting results largely inline with guidance.",
-      "tickers": [
-        "NFLX"
-      ],
-      "source_item_ids": [
-        "gmail:19f4c5a403b00403",
-        "gmail:19f4c259062c8dca"
-      ]
-    },
-    {
-      "title": "PJM power prices rallied on hot weather/load growth; upside risk to TLN, CEG, VST estimates",
-      "body": "PJM power spark spreads rallied this week alongside hot weather and load growth, driving higher scarcity pricing and re-rated risk premium across the curve. Morgan Stanley flags upside risk to utility earnings estimates; 2028/2029 capacity auction results due Tuesday post-close. TLN showed modest outperformance; CEG and VST also positioned to benefit.",
-      "tickers": [
-        "TLN",
-        "CEG",
-        "VST"
-      ],
-      "source_item_ids": [
-        "gmail:19f4c2a159166add"
-      ]
-    },
-    {
-      "title": "Delta Q2 EPS $1.56 beats $1.48 est; guides Q3 revenue growth mid-teens\u2014travel demand signal",
-      "body": "Delta reported Q2 adjusted EPS $1.56 vs. $1.48 estimate on $17.67B revenue vs. $17.53B estimate, affirmed FY26 EPS guidance of $6.50\u2013$7.50 and $3\u20134B free cash flow. Q3 EPS guided $2.00\u2013$2.50 vs. $2.02 consensus; CEO says Delta will recover added fuel costs in Q3 via pricing power. Shares up 3% premarket\u2014a positive read for consumer travel demand.",
+      "title": "UBS market fragility index hits all-time high; retail investors showing waning conviction; margin debt at 4.1% of GDP",
+      "body": "UBS proprietary market fragility index hit an all-time high, signaling elevated systemic risk. Separately, Bloomberg reports retail traders\u2014who have been among the strongest equity supporters this decade\u2014are showing early signs of waning conviction. Margin debt has risen to approximately 4.1% of GDP, embedding significant leverage in household equity exposure. US household stock ownership is at a record high, with equities now exceeding real estate as a share of net worth.",
       "tickers": [],
       "source_item_ids": [
-        "x:2075529176703291870",
-        "x:2075536392256708654"
-      ]
-    },
-    {
-      "title": "China helium export ban poses risk to semiconductor supply chains",
-      "body": "China imposed a temporary ban on helium exports; helium is critical for semiconductor manufacturing and cooling of electronics equipment. This could create near-term supply chain friction for chip fabrication dependent on the commodity.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2075506518808752347"
+        "x:2075608126410182967",
+        "x:2075599595992666462"
       ]
     }
   ]
