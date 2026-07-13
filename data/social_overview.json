@@ -1,32 +1,57 @@
 {
-  "digest_type": "weekend",
-  "digest_dt": "2026-07-12T18:00:00-04:00",
-  "saved_at": "2026-07-12T22:43:10.669396+00:00",
+  "digest_type": "premarket",
+  "digest_dt": "2026-07-13T08:30:00-04:00",
+  "saved_at": "2026-07-13T13:32:49.175576+00:00",
   "bullets": [
     {
-      "title": "US-Iran Military Escalation Threatens Hormuz Shipping; Macro Risk Elevated",
-      "body": "US forces conducted three rounds of strikes on Iran within a week, targeting IRGC missile systems, air defenses, and boats near the Strait of Hormuz. Iran declared the strait closed 'until further notice' and launched retaliatory drone/missile strikes on Gulf states including Kuwait, UAE, Qatar, and Jordan\u2014though Trump confirmed the strait remained open to commercial traffic and US/UK maritime authorities affirmed normal transits. Macro commentators noted the strait closure risk as the dominant geopolitical tail risk heading into earnings season, with one macro analyst flagging Hormuz traffic normalization 'not expected before December.'",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2076230868411072995",
-        "x:2076348425524650064"
-      ]
-    },
-    {
-      "title": "NVDA Rubin: Supply Chain Nuance\u2014PCB Bottleneck, Not Chip Production",
-      "body": "A supply chain analyst noted TSMC chip production for Nvidia's Rubin is on schedule for September, with HBM4 already shipping as of June, but PCB constraints\u2014not chips\u2014represent the real supply risk. Separately, a source citing an 'Expert Call' reported Rubin has been delayed again, though another fintwit user pushed back calling the bear-post trend on NVDA/TSM a deliberate sentiment manipulation play exploiting technical detail amplification. NVIDIA confirmed its roadmap is intact via Morgan Stanley NDR.",
+      "title": "TSMC records all-time high June revenue; Q2 beats top-end of guidance",
+      "body": "TSMC June revenue hit NT$442.68B, up 67.9% YoY and 6.2% MoM\u2014a new all-time high surpassing the prior record of NT$417B set in May 2026. Q2 2026 revenue reached NT$1.27T ($40.07B), up 36% YoY to a record quarterly high, driven by strong AI chip production demand. H1 2026 revenue rose 35.6% to NT$2.40T.",
       "tickers": [
-        "NVDA",
         "TSM"
       ],
       "source_item_ids": [
-        "x:2075933338540581375",
-        "x:2076307633364156861"
+        "x:2076542253213089883",
+        "x:2076542980941652077"
       ]
     },
     {
-      "title": "SK Hynix CEO: Memory Shortage Persists to 2027 and Beyond; 2027 'Worst Year' for Supply",
-      "body": "SK Hynix CEO warned 2027 will be the worst year for memory supply in industry history and expects the crunch to persist into the next decade. Despite aggressive capacity expansion, demand will continue to outpace production. The company's record $26.5B US ADR listing opened 14% above its $149 offering price. One analyst noted HBM4E bit exchange rate is 4-5x higher than standard DRAM, a dynamic the market underappreciates.",
+      "title": "TSMC capacity expansion: 1.4nm ahead of schedule, 3 more advanced packaging plants planned",
+      "body": "TSMC's 1.4nm fab is 'far ahead of schedule'\u2014first fab finishes April 2027, pilot production in Q3 2027, mass production targeted mid-2028. Additionally, TSMC plans 3 new advanced packaging plants at Chiayi Science Park Phase II, bringing the total to 5. Also reportedly plans a single-digit price hike on mature-process chips effective January 2027.",
+      "tickers": [
+        "TSM"
+      ],
+      "source_item_ids": [
+        "x:2076464113698644414",
+        "x:2076464340128104694"
+      ]
+    },
+    {
+      "title": "TSMC facing CoWoS capacity crunch; orders spilling to Intel",
+      "body": "TSMC cannot meet CoWoS advanced packaging demand, forcing overflow orders to Intel and rival Taiwanese fabs. Google Pixel 11 (Tensor G6), Apple A20, and MediaTek are all on TSMC's 2nm process in Q3-Q4 2024.",
+      "tickers": [
+        "TSM",
+        "INTC"
+      ],
+      "source_item_ids": [
+        "x:2076287078942564366",
+        "x:2076455353521426489"
+      ]
+    },
+    {
+      "title": "NVDA: Anthropic compute share rises to ~50% on Nvidia; Rubin delay confirmed",
+      "body": "NVIDIA disclosed at a Morgan Stanley NDR that Anthropic's share of compute running on its chips has risen to nearly 50%. Separately, expert call indicates NVIDIA's Rubin architecture has been delayed again; Micron reportedly failed on original Rubin pin specs, prompting NVIDIA to lower targets to enable ecosystem shipments.",
+      "tickers": [
+        "NVDA",
+        "MU"
+      ],
+      "source_item_ids": [
+        "x:2075866694917194116",
+        "x:2075933338540581375"
+      ]
+    },
+    {
+      "title": "MU: HBM4E bit exchange rate 4-5x DRAM premium; 2027 worst memory supply year per SK Hynix CEO",
+      "body": "SK Hynix CEO warns 2027 will be the worst year for memory supply in industry history, with demand expected to outpace capacity for the next decade. One analyst notes HBM4E bit exchange rate is 4-5x higher than standard DRAM, with further premiums anticipated in HBM5/HBM5E\u2014a dynamic the market underappreciates, especially for Micron.",
       "tickers": [
         "MU"
       ],
@@ -36,202 +61,174 @@
       ]
     },
     {
-      "title": "Micron Commits $250B to US Manufacturing; NY Fab Breaks Ground",
-      "body": "Micron announced it expects to invest $250 billion in US manufacturing through 2035 and officially poured concrete for its first New York DRAM megafab in Clay, NY. Analysts noted Wells Fargo raised Western Digital's PT to $730 from $575, and one fintwit account declared MU will likely earn more in 2026 than in the prior 35 years combined.",
-      "tickers": [
-        "MU",
-        "WDC"
-      ],
+      "title": "Goldman: hyperscaler capex may exceed $360B credit window; 'carnage' in hyperscaler bonds",
+      "body": "Goldman FICC strategist Jeffery Papai warned that credit investors are signaling difficulty funding another $360B in the next 12 months via existing methods, against ~$1T in hyperscaler capex needs. Big Tech debt has doubled to $350B over five years funding AI data centers; hyperscaler capex now equals 100% of cash flow.",
+      "tickers": [],
       "source_item_ids": [
-        "x:2075509308515856716",
-        "x:2075413498385830350"
+        "x:2076516846073675811",
+        "x:2076515232558530583"
       ]
     },
     {
-      "title": "META Surges 19% in July on AI Chip, Compute Doubling, and Monetization",
-      "body": "Meta plans to begin manufacturing its in-house 'Iris' AI chip in September as part of a plan to grow compute from 7GW to 14GW by 2027. The company also started charging businesses to access its AI models for the first time. SemiAnalysis published a positive report on Meta's compute ramp, revealing the company is linking datacenters across 2,000km distances with optical interconnects. META reclaimed its 200-day moving average at the widest margin since January, and Ark Invest purchased 34K shares. Morgan Stanley NDR disclosed Anthropic's compute share on NVIDIA chips has risen to nearly 50%.",
+      "title": "META up 11% in two days; Muse Spark 1.1 gaining attention; capex plans intact",
+      "body": "META shares rose 11% over two trading days, the best two-day gain since April 2025, reaching 19% gains in July. Muse Spark 1.1 benchmark results on LMArena are prompting talk of multi-bagger upside potential, with one fintwit account describing META as 'severely underpriced' at current Polymarket odds. Meta's next-year capex resists cut fears per weekly wrap.",
+      "tickers": [
+        "META"
+      ],
+      "source_item_ids": [
+        "x:2076489723896561829",
+        "x:2075689159055258640"
+      ]
+    },
+    {
+      "title": "Meta chip push: AVGO's Iris prototype completed in 6 months; Qualcomm and MediaTek in loop",
+      "body": "Meta is collaborating with Qualcomm and MediaTek on new ASIC projects, using Qualcomm CPUs and working with Arm. Broadcom completed the 'Iris' chip prototype in 6 months and is in testing phase. Meta also halted its AI image tool for public Instagram profiles amid backlash.",
       "tickers": [
         "META",
-        "NVDA"
+        "AVGO"
       ],
       "source_item_ids": [
-        "x:2075394497262043310",
-        "x:2075533375792975912"
+        "x:2076447663013449778",
+        "x:2075730535696179358"
       ]
     },
     {
-      "title": "TSMC CoWoS Capacity Constrained; Orders Spilling to Intel and Rival Fabs",
-      "body": "TSMC cannot keep up with CoWoS advanced packaging demand, forcing orders to Intel and rival Taiwanese fabs. Meanwhile, TSMC is ahead of Samsung in CPO chiplet packaging technology per new PhotonCap field research. Samsung is accelerating its Yongin fab launch to October 2029, two years ahead of schedule. Rapidus set 2nm wafer pricing at \u00a53.5M to undercut TSMC.",
+      "title": "AI infrastructure bull/bear: MAG7 at cheapest relative P/E since 2016; insider buying record",
+      "body": "MAG7 relative P/E vs S&P 500 dropped to 1.17x, lowest in a decade vs 10-year avg of 1.53x. Tech insider buying hit the fastest pace ever. MSFT expected to grow earnings 64% over next 3 years despite 23% YTD decline. CEOs of MSFT, PLTR, NVDA share synchronized bull thesis on AI infrastructure.",
       "tickers": [
-        "TSM",
-        "INTC"
-      ],
-      "source_item_ids": [
-        "x:2076287078942564366",
-        "x:2076090310141399239"
-      ]
-    },
-    {
-      "title": "AI Infrastructure Capex Broadening; Hyperscalers Raise 2026 Guidance Expected",
-      "body": "One fintwit analyst argued hyperscalers (AMZN, GOOGL, MSFT, META, ORCL) will raise 2026 full-year capex estimates and 2027 capex indications above consensus. AI infrastructure demand is broadening beyond frontier labs to neocloud providers, European data centers, sovereign compute, and enterprise coding. Big Tech debt doubled to $350B over five years to fund the AI buildout. US ATP imports hit $100B in May, only the second time ever, with Taiwan surpassing China as the third-largest US import source.",
-      "tickers": [
-        "META",
-        "AMZN",
-        "GOOGL",
         "MSFT",
-        "ORCL",
-        "NVDA"
+        "NVDA",
+        "META",
+        "GOOGL",
+        "TSLA",
+        "AMZN",
+        "AAPL"
       ],
       "source_item_ids": [
-        "x:2075742947086070053",
-        "x:2075928373986050264"
+        "x:2076469167801377038",
+        "x:2075703977182634450"
       ]
     },
     {
-      "title": "AAPL Sues OpenAI for Trade Secret Theft; 400 Apple Employees Recruited",
-      "body": "Apple filed a lawsuit against OpenAI alleging misappropriation of trade secrets, citing two former Apple engineers (Tang Yew Tan and Chang Liu) who joined OpenAI's hardware team. Apple claims OpenAI's chief hardware officer directed the engineers to bring confidential hardware files, queried suppliers on restricted metal-finishing methods, and asked job candidates to provide proprietary Apple hardware designs. OpenAI has hired approximately 400 people from Apple. The Information reported OpenAI's device launch could come as early as February, but the legal battle poses a major obstacle.",
+      "title": "US-Iran escalation slams AI stocks; KOSPI falls 8.95% triggering circuit breaker",
+      "body": "AI-related stocks slid globally as US struck Iran for the third time in a week and Iran claimed closure of the Strait of Hormuz. Oil surged 4%, Treasury yields rose, and 2-year yields hit 4.23%\u2014highest since February 2025. South Korea's KOSPI crashed 8.95% to a circuit-breaker halt; Korean stocks now at historic valuation lows while SK Hynix's US ADR fell 10.4% premarket.",
+      "tickers": [
+        "NVDA",
+        "MSFT",
+        "GOOGL",
+        "META",
+        "AMD"
+      ],
+      "source_item_ids": [
+        "x:2076582543592177668",
+        "x:2076528086451945502"
+      ]
+    },
+    {
+      "title": "30-year real yield hits 2.9%, highest since GFC; bond market structural warning",
+      "body": "U.S. 30-year real rates rose to 2.9%, the highest since the Global Financial Crisis. The 2-year Treasury yield jumped above 4.23%, a 17-month high. Sticky inflation from the Iran oil shock is firming expectations for further Fed hikes per NY Fed President Williams (threshold: 0.2% monthly core CPI). U.S. dollar share of global FX reserves hit lowest level this century.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2076540203783561300",
+        "x:2076503080959406195"
+      ]
+    },
+    {
+      "title": "AAPL sues OpenAI for trade secret theft; 400 Apple employees recruited",
+      "body": "Apple filed a lawsuit against OpenAI alleging misappropriation of trade secrets, including that OpenAI's chief hardware officer directed former Apple staff to bring confidential hardware components. OpenAI has hired approximately 400 people from Apple. AAPL reached record highs in July amid AI momentum.",
       "tickers": [
         "AAPL"
       ],
       "source_item_ids": [
-        "x:2075679893971710137",
-        "x:2075754742840778969"
+        "x:2075678004227772619",
+        "x:2075680341776343245"
       ]
     },
     {
-      "title": "MSFT: GPT-5.6 Integrated into Copilot; 4,800 Layoffs vs. 2,273 H-1B Hires",
-      "body": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot. Separately, Microsoft faced backlash after announcing 4,800 layoffs including 1,600 in Xbox while simultaneously being approved to hire 2,273 foreign workers via H-1B. One fintwit account highlighted MSFT expected to grow earnings 64% over three years despite the stock being down 23% YTD, framing the disconnect as a buying opportunity.",
+      "title": "AAPL: tariff exemption secured in exchange for manufacturing chips at Intel fabs",
+      "body": "WSJ reports Apple secured an exemption from semiconductor tariffs in exchange for committing to manufacture both Mac and iPhone chips at Intel fabs\u2014significant for INTC's foundry utilization outlook.",
       "tickers": [
-        "MSFT"
+        "AAPL",
+        "INTC"
       ],
       "source_item_ids": [
-        "x:2075585385441789605",
-        "x:2076064237412036764"
+        "x:2075832764059054342"
       ]
     },
     {
-      "title": "Quantum Trade Narrative Shifted in June to Deadline-Focused Procurement",
-      "body": "A fintwit analyst noted that June 22 executive orders replaced vague government support with concrete procurement deadlines, transforming the quantum computing trade narrative from sentiment-driven to execution-focused through 2028. Most market participants are still trading on the old thesis, creating a potential mispricing. The QC-ADDS mandate requires delivery of a working quantum computer by 2028.",
+      "title": "SNDK: Goldman raises PT to $3,100; three NBM agreements signed in FQ3",
+      "body": "Goldman Sachs raised SanDisk's price target to $3,100 (upside to $4,000) citing recently signed New Business Model agreements. Three NBMs signed in FQ3 with ~$42B of RPO plus two additional committed. Bottleneck trade outperformed SNDK and Hynix until LTA details were clarified.",
       "tickers": [
-        "QBTS",
-        "IONQ"
+        "SNDK"
       ],
       "source_item_ids": [
-        "x:2076337153731170646"
+        "x:2076444715596087425",
+        "x:2076076181355177475"
       ]
     },
     {
-      "title": "Semiconductor Stocks See Widest 3% Swing Frequency Since Dot-Com Bubble",
-      "body": "Semiconductor stocks have moved 3% or more in either direction 15 times in the last 30 trading days, the highest frequency since the Dot-Com Bubble era. Simultaneously, hedge funds bought tech stocks at the fastest pace since October, while the semis sector was the most net-bought subsector of the week but remains heavily net-sold over the past month per hedge fund data.",
+      "title": "AMD: vLLM optimization re-prioritized after ROCm support removed; Radeon MFG 8x quietly added",
+      "body": "AMD engineers are re-prioritizing vLLM after ROCm support was removed from the vime framework; performance improvements expected. AMD Radeon drivers quietly added Multi Frame Generation 'MFG 8x' and Ray Regeneration features, hinting at a bigger FSR push. On benchmarks, NVIDIA's B300 outperforms B200 and 'mogs' AMD on vLLM Kimi.",
       "tickers": [
-        "NVDA",
-        "MU"
+        "AMD",
+        "NVDA"
       ],
       "source_item_ids": [
-        "x:2075800613829443607",
-        "x:2075971638537994460"
+        "x:2076110600460288035",
+        "x:2076309401976381520"
       ]
     },
     {
-      "title": "HOOD Robinhood Chain Momentum: $633M DEX Volume, 70K+ Agentic Trading Accounts",
-      "body": "Robinhood's blockchain network hit $633M DEX volume and 306.5K daily active users, with ETH bridged to the chain up ~10x in a week to over $100M. Separately, Robinhood's Agentic Trading feature crossed 70,000 accounts opened since its May launch and is expanding to crypto. CEO Vlad Tenev touted Trump Accounts as a wealth-building vehicle. Analysts called Robinhood Chain the 'most bullish development in the Ethereum ecosystem in years.'",
+      "title": "Grok 4.5 reaches Opus-class browser performance; accelerating fastest among AI models",
+      "body": "Elon Musk and observers note Grok 4.5 improved from 6/33 to 23/33 on video studio evaluations and now ties for #1 on SWE-Atlas-QnA. Grok 4.5 also ranked slightly above Fable on software benchmarks and is described as 'accelerating the fastest' among current AI models. Tesla and SpaceX staff asked to evaluate Grok 4.5.",
+      "tickers": [
+        "TSLA"
+      ],
+      "source_item_ids": [
+        "x:2076564143558074616",
+        "x:2075294053417987"
+      ]
+    },
+    {
+      "title": "TSLA FSD praised; Cybercab at fork in road; Optimus demonstrations quiet down",
+      "body": "Retail users describe Tesla FSD as 'greatest piece of technology' experienced. Tesla Megapack hits 10 GWh operational in Australia. However, one skeptical account notes Tesla has reduced public Optimus robot demonstrations and questions whether noise-cancelling-via-speakers feature was delivered.",
+      "tickers": [
+        "TSLA"
+      ],
+      "source_item_ids": [
+        "x:2075726502625226822",
+        "x:2075970201586401778"
+      ]
+    },
+    {
+      "title": "HOOD: Robinhood Chain sees $633M DEX volume; 70K+ Agentic Trading accounts opened",
+      "body": "Robinhood Chain DEX volume hit $633M with 306.5k daily active users. ETH bridged to Robinhood Chain surged ~70x in a week to exceed $70M. Separately, Robinhood reports more than 70,000 Agentic Trading accounts opened since May launch, expanding to crypto. CEO touts Trump Accounts for 'skin in the game from birth.'",
       "tickers": [
         "HOOD"
       ],
       "source_item_ids": [
         "x:2075975763644289359",
-        "x:2075911090043592926"
+        "x:2076136275795427450"
       ]
     },
     {
-      "title": "LITE/COHR/AAOI: Photonics Weakness Overdone; Shorts Lack Conviction",
-      "body": "Rosenblatt argued photonics sector weakness in AAOI, LITE, and COHR over the past 1-2 months is overdone, with short sellers lacking genuine conviction and expected to cover before earnings beats. LITE was flagged as having already noted InP capacity expansion on recent calls, with InP transitioning from an optics subtopic to a physical AI infrastructure bottleneck. Lumentum's Oleg Shchekin is presenting on VCSEL-based wide-parallel optical interconnects at LightCounting on July 15.",
+      "title": "TSMC CPO lead over Samsung confirmed; silicon photonics testing bottleneck rising",
+      "body": "PhotonCap field research concludes TSMC is ahead in CPO (chiplet-on-package) technology; Samsung developing a 2.xD multi-chip package binding HBM, logic, and a third chip together (disclosed at Nano Korea). Silicon photonics testing is becoming the dominant bottleneck alongside packaging as AI and advanced packaging scale.",
       "tickers": [
-        "LITE",
-        "AAOI",
-        "COHR"
+        "TSM"
       ],
       "source_item_ids": [
-        "x:2075634064518955297",
-        "x:2075344193527124439"
+        "x:2076090310141399239",
+        "x:2075938869112180954"
       ]
     },
     {
-      "title": "MRVL: Named in Meta and Google Optical Buildouts; 5M Tower PIC Shipments",
-      "body": "Marvell landed 5 million tower PIC shipments for AI data center optics. A fintwit analyst also noted Marvell's DSP is being used in Google's coherent-lite infrastructure scale-up and linked it to Meta's inter-datacenter connectivity at 2,000km distances\u2014framing coherent optics as the common infrastructure theme across both hyperscalers' buildouts.",
-      "tickers": [
-        "MRVL"
-      ],
-      "source_item_ids": [
-        "x:2075677446943461745",
-        "x:2075589668624797742"
-      ]
-    },
-    {
-      "title": "GOOGL: $85B Equity Issuance Seen as Supply Headwind; Interest Expense Up 15x",
-      "body": "One analyst argued financial assets peaked on the day Google announced its $85B equity issuance, calling supply drag the primary asset market headwind. Separately, Google's quarterly interest expense exceeded $500M, up 15x year-over-year, driven by AI infrastructure financing. UK financial regulators also formally designated MSFT, GOOGL, AMZN, and ORCL as critical third parties subject to direct financial regulatory oversight starting July 13.",
-      "tickers": [
-        "GOOGL",
-        "MSFT",
-        "AMZN",
-        "ORCL"
-      ],
-      "source_item_ids": [
-        "x:2075643319619621184",
-        "x:2075637707439571002"
-      ]
-    },
-    {
-      "title": "China Halts Helium Exports; Global Chip Supply Risk Flagged",
-      "body": "China imposed a temporary ban on helium exports amid US-Iran tensions, raising concerns about semiconductor manufacturing supply chains. Helium is critical for chip production. Separately, TSMC 2027 CoWoS capacity is rumored to reach at least 200,000 wafers per month as AI chip packaging demand stays constrained.",
-      "tickers": [
-        "NVDA",
-        "TSM",
-        "MU"
-      ],
+      "title": "China halts helium exports amid Qatar outage; US semiconductor imports from Taiwan surpass China",
+      "body": "China halted helium exports as US-Iran tensions threaten chip supply. Separately, Taiwan has replaced China as the third-largest US import source in the last 6 months, driven by advanced semiconductor imports that touched $100B in May for only the second time ever.",
+      "tickers": [],
       "source_item_ids": [
         "x:2075821836911382996",
-        "x:2075506518808752347"
-      ]
-    },
-    {
-      "title": "AI Frontier Price War Emerging; Token Costs Down 80-90% in Three Years",
-      "body": "Fintwit commentary flagged accelerating competition among frontier AI labs, with token cost declining to 10-20% of levels from three years ago. Brad Gerstner argued companies will pay 5x more for best-in-class AI models with no evidence of open-source pricing pressure on quality. Palo Alto's CEO was cited demanding a 90% price drop in AI offerings. Anthropic's ARR was estimated at $69B by Yipit, with daily ARR growth accelerating to ~$550M.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2075960181117026657",
-        "x:2075405787661508842"
-      ]
-    },
-    {
-      "title": "HOOD Robinhood CEO, Trump Accounts, and AI Integration Highlight Earnings Setup",
-      "body": "Robinhood CEO Vlad Tenev was prominently cited touting Trump Accounts as ownership vehicles building national wealth, as Trump rang the NYSE opening bell for the product launch. HOOD's agentic trading feature and blockchain momentum position it as a key beneficiary of both retail democratization and crypto infrastructure trends heading into earnings.",
-      "tickers": [
-        "HOOD"
-      ],
-      "source_item_ids": [
-        "x:2075971638537994460",
-        "x:2075667156738469936"
-      ]
-    },
-    {
-      "title": "Investor Sentiment Metrics Flash Caution: Shiller PE Near Dot-Com Peak, Momentum Worst Since COVID",
-      "body": "The Shiller PE ratio is approaching its dot-com bubble all-time high. High-Beta Momentum factor saw its worst 5-day performance since COVID. US margin debt as a share of M2 reached 6.2% in May, just below the 6.3% dot-com peak. UBS's proprietary market fragility index hit an all-time high. Investor allocations to cash, bonds, and defensive stocks are near cycle lows. S&P 500 trailing vs. forward P/E gap is near historical extremes.",
-      "tickers": [
-        "SPY"
-      ],
-      "source_item_ids": [
-        "x:2075785469967630519",
-        "x:2076237473256980544"
-      ]
-    },
-    {
-      "title": "Fed Report: AI-Induced Memory and Chip Prices Adding 0.5% to Core PCE",
-      "body": "The Federal Reserve's semi-annual monetary policy report explicitly cited AI-related factors\u2014including surging memory and chip prices\u2014as driving core PCE inflation higher, with Goldman estimating the combined effect at over 0.2% now rising to 0.5% by year-end. The Fed also flagged hawkish minutes as the most aggressive since 2022, though one analyst argued the rhetoric may be overblown given current inflation swaps. 30-year real yields are pushing back toward multi-decade highs.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2075596288037646636",
-        "x:2075285147767325158"
+        "x:2075928373986050264"
       ]
     }
   ]
