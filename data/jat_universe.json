@@ -1,237 +1,247 @@
 {
-  "digest_type": "premarket",
-  "digest_dt": "2026-07-14T08:30:00-04:00",
-  "saved_at": "2026-07-14T14:07:49.278828+00:00",
+  "digest_type": "midday",
+  "digest_dt": "2026-07-14T12:00:00-04:00",
+  "saved_at": "2026-07-14T16:39:15.903371+00:00",
   "bullets": [
     {
-      "title": "IBM Q2 miss drags enterprise software \u2014 NOW, CRM, SNOW, PLTR, ADBE hammered",
-      "body": "IBM pre-announced Q2 revenue of $17.20B vs $17.86B consensus and EPS of $2.93 vs $3.01, blaming capex reprioritization toward servers/storage and large deals failing to close. The miss cascaded across enterprise software: NOW -7.8%, CRM -6.1%, WDAY -8.9%, HUBS -8.9%, SNOW -4.7%, MDB -4.4%, ADBE -5.5%, PLTR -5.2% in pre-market. IBM was downgraded to Reduce at HSBC (PT cut to $191 from $231); UBS notes NOW demand trends are stable with no material improvement, maintaining Neutral at 19x '26 FCF; GS is a buyer of CRM into 3Q on 5x higher agent usage and Slack strength.",
+      "title": "IBM pre-announcement triggers sector rotation: semis/memory up, software down",
+      "body": "IBM reported preliminary Q2 revenue of $17.2B (vs. $17.86B est.) and EPS of $2.27 (vs. $3.02 est.), blaming client capex shift toward servers, storage, and memory ahead of supply-constrained price increases. This drove MSFT -2.8% premarket, ADBE -5.6%, INTU -7.3%, NOW/CRM/SNDK in sympathy; while MU +5.2%, STX +5.7%, WDC +6.1%, DELL +3.6%, SMCI +2.1% rallied. JPMorgan maintains Overweight at $290, calling the miss idiosyncratic to mainframe/Z systems; Citi keeps Buy/$375 PT; HSBC downgraded to Reduce with $191 PT.",
       "tickers": [
+        "MSFT",
+        "MU",
+        "WDC",
+        "STX",
+        "DELL",
+        "SMCI",
         "NOW",
+        "INTU",
+        "ACN"
+      ],
+      "source_item_ids": [
+        "gmail:19f612403576be54",
+        "gmail:19f60a53e8b6adc8"
+      ]
+    },
+    {
+      "title": "Morgan Stanley: IBM capex shift bullish for AVGO, TSMC, memory semis; software names (WDAY, TEAM, HUBS, NOW, CRM) down 5%+",
+      "body": "MS TMT notes enterprise IT services and software broadly lower in IBM's wake (WDAY, TEAM, HUBS, NOW, ACN, INFY, CRM, INTU down 5%+) while AI capex/semis outperform (SNDK, ALAB, AMAT, WDC, GLW up 5%+). AVGO retains ~80% of GOOGL TPU revenue despite MediaTek displacement fears; MS reiterates OW with $502 PT (~30% upside). TSMC expects Q3 revenue up low-to-mid teens q/q, raises FY26 guidance to high-30s% growth, capex to high end of $52-56B; 2nm demand 60kwpm above plan.",
+      "tickers": [
+        "AVGO",
+        "ALAB",
+        "GLW",
+        "WDC",
+        "SNDK",
         "CRM",
-        "SNOW",
-        "MDB",
-        "ADBE",
-        "PLTR"
+        "INTU",
+        "NOW",
+        "TEAM"
       ],
       "source_item_ids": [
-        "gmail:19f604f827218bcb",
-        "gmail:19f6092a1e90120f"
+        "gmail:19f60e32e1246a53"
       ]
     },
     {
-      "title": "AAPL: KeyBanc downgrades to Underweight, $250 PT; Morgan Stanley stays OW at $360",
-      "body": "KeyBanc cut Apple to Underweight from Sector Weight (PT $250, ~21% downside from $317) citing slowing iPhone builds, weak US upgrade rates, carrier subsidy pullback, and Services deceleration risk to ~7% in FY27 vs consensus ~12%. Separately, Morgan Stanley reiterates OW at $360, noting the $200 iPhone 18 price hike is now more likely than prior $100-150 estimate and would drive 2-4% C3Q26 EPS upside. AAPL hit record highs the prior session as a relative safe-haven.",
+      "title": "NVDA/AMD: US grants licenses for H200 and AMD AI chips to ZTE, Kingsoft, Maginfra; NVDA-Mitsubishi data center cooling partnership",
+      "body": "The US granted export licenses to Chinese firms ZTE, Kingsoft, and Maginfra to purchase NVIDIA H200 and AMD AI chips, signaling potential easing of China chip restrictions. Separately, NVIDIA and Mitsubishi Heavy Industries are considering a partnership focused on cooling and power systems for data centers per Nikkei.",
       "tickers": [
-        "AAPL"
+        "NVDA",
+        "AMD"
       ],
       "source_item_ids": [
-        "gmail:19f5e8b18b92ccc6",
-        "gmail:19f5f9337f2134da"
+        "gmail:19f6112bd48d5cc8",
+        "gmail:19f610de16162a32"
       ]
     },
     {
-      "title": "NVDA: Asia buyer list halved on China export controls; Mitsubishi Heavy partnership announced",
-      "body": "The FT reported Nvidia cut its permitted buyer list in Singapore, Malaysia, and Japan by 50%+ to prevent Chinese companies from circumventing export controls. Separately, Nikkei reported NVDA is considering adopting Mitsubishi Heavy's cooling and energy management technology for next-gen data center plants. Wolfe names NVDA its Alpha Pick with >$1tn Blackwell/Rubin order visibility through CY27; JPM's Chips for Breakfast notes Vera Rubin PCB is in mass production with Kyber NVL144 rack under testing.",
+      "title": "TSEM surges ~19% premarket on ~$3B Japan government investment for chip manufacturing expansion",
+      "body": "Tower Semiconductor shares jumped 18.6% in premarket trading after announcing approximately $3B in Japanese government investment supporting capacity expansion in silicon photonics and germanium. At least one trader noted long exposure via Jan 2028 $410 calls.",
       "tickers": [
-        "NVDA"
+        "TSEM"
       ],
       "source_item_ids": [
-        "gmail:19f5ebcf5b09eb53",
-        "gmail:19f608bb21fee765"
+        "x:2076951387141996791",
+        "x:2076979326260510895"
       ]
     },
     {
-      "title": "META: Bullish sentiment builds on AI monetization credibility; +20% rally in two weeks",
-      "body": "JPM's Anmuth says META has shifted the investor debate from 'how to monetize AI' to 'how much,' supporting a +20% rally in two weeks. 2027 capex is expected at $200-225B (up ~$75B Y/Y with some estimates to $275B), and a potential equity raise is likely if stock sustains above $700. Citi options flow shows META 1M implied vol at 1Y highs (52.8 IV, 55.7 RV) following 9% w/w gain; META API pricing estimated at ~25% of OpenAI/Anthropic costs. A potential equity raise cited as near-term watch item.",
+      "title": "ASML preview: Jefferies flags need for 90+ low-NA EUV unit guide to avoid de-rating; stock at elevated 50x FY26 multiple",
+      "body": "Jefferies warns ASML must guide for at least 90 low-NA EUV systems to support the stock ahead of Wednesday's results; anything below triggers a decline. The stock trades at 50x FY26, 38x FY27, 32x FY28 consensus EPS after a 66% re-rating since Sept 2025. China sales risk from MATCH Act (20-30% decline, ~20% of sales) and hyperscaler capex shortfall concerns add de-rating risk.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19f61377470e89cc"
+      ]
+    },
+    {
+      "title": "Morgan Stanley raises hyperscaler capex to $1.4T by 2028; META, AMZN, GOOGL top beneficiaries",
+      "body": "Morgan Stanley's Brian Nowak raised hyperscale capex forecasts to ~$1.2T in 2027 and ~$1.4T in 2028 on 4x compute capacity growth from 2025-2028, with new cost-per-GW math supporting upward revisions across META, AMZN, and GOOGL. Separately, MS QDS notes memory shortage is durable through 2030+ (confirmed by NVDA and SK Hynix CEOs), GPU rental rates up 5-10% in July, and hedge funds saw the largest two weeks of tech hardware/semis buying on record.",
       "tickers": [
-        "META"
+        "META",
+        "AMZN",
+        "GOOGL",
+        "NVDA",
+        "MSFT"
       ],
       "source_item_ids": [
-        "gmail:19f6082287b4afc0",
-        "gmail:19f60906d7fb23a3"
+        "gmail:19f614bcd1bd2455",
+        "gmail:19f60e17c88d200d"
       ]
     },
     {
-      "title": "AMZN: Top internet pick into earnings \u2014 54% Prime Day strength, AWS backlog near $500B",
-      "body": "Jefferies and JPM both flag AMZN as a top pick; survey shows 54% of shoppers spent >10% more YoY on Prime Days. AWS backlog accelerating from 93% y/y in Q1, approaching ~$500B. AMZN trades at 12x NTM EV/EBITDA vs WMT at 19x and GOOGL at 17x, below its 18x 10-year average. Buy rating at JPM with $320 PT; JPM 2027 capex modeled at ~$300B (+42% vs consensus).",
-      "tickers": [
-        "AMZN"
-      ],
-      "source_item_ids": [
-        "gmail:19f607da746d6066",
-        "gmail:19f60851cd9de0eb"
-      ]
-    },
-    {
-      "title": "NFLX: Morgan Stanley reiterates OW but cuts PT to $90 from $115 on sentiment/estimate drag",
-      "body": "MS lowered PT to $90 (~22x NTM EPS, vs prior 30x) on ~4% EPS cuts for FY27/28, citing engagement hour growth decelerating to low-single digits and a larger-than-usual post-price-hike churn spike (+50-100bps 2H26 US estimate). Bull case $115, bear case $60. Valuation seen as compelling at <20x fwd P/E for 20%+ EPS CAGR; new initiatives (live sports, third-party streaming bundles, AI cost savings of 20-40%) remain underpriced. NFLX reports Thursday July 16 after close with consensus EPS $0.79, revenue $12.58B.",
+      "title": "NFLX Q2 preview: consensus $12.58B rev, 32.8% op margin; MS lowers PT to $90, flags churn post-price hike",
+      "body": "Netflix reports 7/16 after close; consensus expects $12.58B revenue (+13.5% YoY) and EPS $0.79 vs. $0.78 guidance. Morgan Stanley lowered PT to $90 (from $115), reiterates OW but notes higher-than-normal churn per credit card data post-price hike and expects only inline results with low single-digit engagement growth. JPM names NFLX a top pick for Q2 internet earnings season.",
       "tickers": [
         "NFLX"
       ],
       "source_item_ids": [
-        "gmail:19f6061eb02e39a8",
-        "gmail:19f604a9be8a53c0"
+        "gmail:19f6127e6470aafe",
+        "gmail:19f60e32e1246a53"
       ]
     },
     {
-      "title": "TXN: Citi initiates Buy with C26/C27 EPS 4%/13% above consensus on data center power wins",
-      "body": "Citi initiates TXN at Buy ahead of Jul-22 earnings; C26/C27 EPS of $8.03/$10.10 are 4%/13% above consensus. Data center revenue expected to double in 2026 (~50% CAGR 2025-2028) driven by 800V DC transition and NVIDIA Stage 1/2 socket ramps. Jun-Q/Sep-Q modeled at $5.3B/$5.7B sales, 1%/4% above consensus. Wolfe also upgraded TXN last summer on capex cycle inflection; now at 25x C27 FCF after 70% run.",
+      "title": "AAPL: KeyBanc downgrades to Underweight/$250 PT; MS sees strong iPhone pricing power with $200 hike likely for iPhone 18",
+      "body": "KeyBanc downgraded Apple to Underweight with a $250 price target, calling the stock near peak. Contrarily, Morgan Stanley argues iPhone demand shows 0.2-0.5 elasticity (most inelastic product in lineup) and models a $200 price hike for iPhone 18, driving +2-4% F3Q EPS upside and +1% FY27 upside; build plans on track and Apple is pursuing Chinese memory suppliers to preserve margins.",
       "tickers": [
-        "TXN"
+        "AAPL"
       ],
       "source_item_ids": [
-        "gmail:19f601399e3c11d2",
-        "gmail:19f6005e01dabe8a"
+        "x:2076978526910115931",
+        "gmail:19f60e32e1246a53"
       ]
     },
     {
-      "title": "AMD: Wolfe and Jefferies see $25+ EPS power from MI-450 and agentic CPU wins",
-      "body": "Wolfe raises AMD FY27 estimates to $15 EPS, well ahead of street, with path to $25+ from two potential AI accelerator wins ($3-4/share per GW) and agentic CPU growth ($7/share). Citi notes AMD is preferred over INTC; INTC caution driven by difficulty building 2027 EPS at >$100/share. Jefferies' base EPS for AMD is $15 for next year.",
+      "title": "NY data center moratorium (50MW+): Citi keeps Buy on EQIX, DLR, WULF; WULF projects unaffected",
+      "body": "New York Governor Hochul signed an executive order banning new large data center construction (50MW+) for up to one year, the first such statewide action. Citi maintains Buy on EQIX (top pick), DLR, and WULF; WULF's Lake Mariner project is unaffected as it doesn't require DEC permits. The supply constraint could benefit operators able to proceed; regulatory copycat risk from other states is flagged.",
       "tickers": [
-        "AMD",
-        "INTC"
+        "EQIX",
+        "DLR",
+        "WULF"
       ],
       "source_item_ids": [
-        "gmail:19f6097ad5e97b15",
-        "gmail:19f6005e01dabe8a"
+        "gmail:19f613264021928b",
+        "gmail:19f60c8792ebc224"
       ]
     },
     {
-      "title": "INTU: Piper Sandler initiates Underweight, $250 PT on TurboTax and Desktop headwinds",
-      "body": "Piper Sandler's Billy Fitzsimmons assumes INTU at Underweight with $250 PT (vs current ~$290), expecting below-consensus FY27 guidance and downward long-term target revisions at September investor day. Risks include TurboTax pricing/packaging changes, Desktop declines, and flat Mailchimp growth not reflected in consensus.",
+      "title": "NBIS: Nebius secures $1B+ AI compute deal with Reflection AI through 2029",
+      "body": "Nebius Group agreed to sell over $1 billion in AI computing capacity to Reflection AI under a contract extending through 2029, marking a major revenue visibility event for the company.",
       "tickers": [
-        "INTU"
+        "NBIS"
       ],
       "source_item_ids": [
-        "gmail:19f5fa96b8c6e8d2",
-        "gmail:19f608f355c4bd21"
+        "gmail:19f60f8e6319b41f",
+        "x:2076994694760857663"
       ]
     },
     {
-      "title": "TSEM: Silicon photonics expansion sends stock +19% in pre-market",
-      "body": "Tower Semiconductor announced expansion of silicon photonics and silicon germanium capacity; Jefferies notes TSEM is targeting $3.6B revenue and $1.2B net profit in 2028, 13% above street on revenue. The stock surged ~19% in pre-market. Morgan Stanley includes TSEM among key CPO/coherent optical supply chain participants alongside COHR and LITE.",
+      "title": "META/GOOGL/AMZN internet checks ahead of earnings: MS rates sector Attractive; GOOGL seeding TPUs into Neoclouds",
+      "body": "Morgan Stanley notes META +15% on the day, trading at 20x '26 EPS (15% below TTM avg); AMZN at 26x, GOOGL at 24x. GOOGL is seeding TPUs into third-party Neoclouds to challenge NVDA's AI infrastructure control using financial backstops and lease commitments. META 2Q expected +34% y/y with Business Agents tailwind from 3.5B DAUs. JPM top picks for Q2 internet: GOOGL, AMZN, SPOT, DASH, NFLX.",
       "tickers": [
-        "TSEM",
-        "COHR",
+        "META",
+        "GOOGL",
+        "AMZN",
+        "SNAP",
+        "BKNG",
+        "CART"
+      ],
+      "source_item_ids": [
+        "gmail:19f60f1c910bf4a1",
+        "gmail:19f60cba79367944"
+      ]
+    },
+    {
+      "title": "ARM: KeyBanc raises PT to $430 from $300",
+      "body": "KeyBanc raised its ARM Holdings price target by 43% to $430 from $300, reflecting improved earnings outlook.",
+      "tickers": [
+        "ARM"
+      ],
+      "source_item_ids": [
+        "x:2076966895794974797"
+      ]
+    },
+    {
+      "title": "MDB: DA Davidson pre-quiet check sees Atlas growth at 28-29% YoY vs 26% guidance; Vector Search now GA",
+      "body": "MDB is sounding upbeat ahead of earnings with DA Davidson expecting Atlas YoY growth of 28-29% vs. the 26% guided, consistent with 220-340bps typical upside. MongoDB's Vector Search on Enterprise Advanced became GA June 30 and enterprise AI workload negotiations are underway.",
+      "tickers": [
+        "MDB"
+      ],
+      "source_item_ids": [
+        "gmail:19f60d05aab7b997"
+      ]
+    },
+    {
+      "title": "CRWD/PANW/OKTA pre-quiet period checks: security demand pipeline at 4-year high; PANW walking down FCF margin",
+      "body": "DA Davidson's pre-quiet period channel work shows record VAR demand for security software with pipeline strength at highest in 4+ years. CRWD EDR growth accelerating for three consecutive quarters on AI-driven AV displacement; PANW anchoring FY27 adj FCF margin to 37%+ vs consensus 37.9%; OKTA CRPO expected to accelerate to 13%+ vs 12% guidance.",
+      "tickers": [
+        "CRWD",
+        "PANW",
+        "MDB"
+      ],
+      "source_item_ids": [
+        "gmail:19f60d05aab7b997"
+      ]
+    },
+    {
+      "title": "ANET, CLS, LITE: UBS flags strong orders and backlog for data center networking; supply constraints may cap upside",
+      "body": "UBS previews Q2 for enterprise hardware and networking: robust demand for data center networking switches supports ANET and CLS quarters and outlooks, but increasing lead times for key components could limit revenue upside. LITE expected to grow from Components and Systems despite supply chain constraints.",
+      "tickers": [
+        "ANET",
+        "CLS",
         "LITE"
       ],
       "source_item_ids": [
-        "gmail:19f6092a1e90120f",
-        "gmail:19f607da746d6066"
+        "gmail:19f6122ca2d7ce6e"
       ]
     },
     {
-      "title": "AVGO: Morgan Stanley reiterates OW; maintains ~80% TPU share despite MediaTek competition",
-      "body": "MS says AVGO retains ~80% of Google's TPU share; MediaTek's participation is real but not disruptive given HBM supply constraints, packaging execution, and scale advantages. AVGO remains a core AI winner with ASIC leadership and new customer ramps. PT $502 with OW rating. KeyBanc Asia takeaways note AVGO's INTC foundry wins (AWS Trainium 3, Google TPU) as supportive.",
+      "title": "EFX: UBS Buy/$220 PT; credit bureaus well-positioned with consumer credit resilient despite mortgage headwinds",
+      "body": "UBS rates EFX Buy at $220 PT (~11.8x FY28E EBITDA), citing Workforce Solutions (~40% of revenue) and housing recovery optionality. FICO rated Neutral/$1,320 PT; TRU Neutral/$80 PT. Consumer credit card loans rose 4-7% YoY across major banks; 30-yr mortgage rates at ~6.5% remain a headwind for H2 2026.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19f615a4409fe5f9"
+      ]
+    },
+    {
+      "title": "RCL/CCL/DIS cruise: UBS channel check shows mid-single-digit growth; Q1'27 pricing positive across all brands",
+      "body": "UBS's cruise channel check shows North American demand tracking mid-single-digit bookings growth in June-July, unaffected by Middle East volatility. European-sourced demand for European itineraries remains weak (World Cup impact, fuel concerns). Q4'26 pricing: RCL +3% YOY, DIS +8% YOY; Q1'27 across all brands positive: RCL +3%, Carnival +4%, Disney +7%, Norwegian +1%.",
       "tickers": [
-        "AVGO"
+        "RCL",
+        "CCL",
+        "DIS"
       ],
       "source_item_ids": [
-        "gmail:19f5f7b7bd2b6d97",
-        "gmail:19f5f1311bc86e7"
+        "gmail:19f6118a5fc5f148"
       ]
     },
     {
-      "title": "RDDT, CART, ABNB, DASH, UBER: Jefferies and JPM bullish into 2Q earnings",
-      "body": "Jefferies' JC rates ABNB, CART, RDDT, UBER, DASH as top internet picks into 2Q on low valuations and margin upside; RDDT stands out on strong advertising demand and revenue upside. Cautious on LYFT (booking deceleration), EBAY (slowing GMV), and BKNG (elevated concerns). ABNB and EXPE well positioned to beat and potentially raise guidance. KeyBanc cuts UBER PT to $105 (from $110) and DASH PT to $275 (from $280) on conservative multiple framework while keeping Buy ratings.",
-      "tickers": [
-        "RDDT",
-        "CART",
-        "ABNB",
-        "DASH",
-        "UBER"
-      ],
-      "source_item_ids": [
-        "gmail:19f60996a2499e43",
-        "gmail:19f5dc5a4f57d6e3"
-      ]
-    },
-    {
-      "title": "CVNA: JPM maintains OW, $93 PT; modest 2Q beat expected with 35% unit growth",
-      "body": "JPM models CVNA 2Q26 EBITDA of $785M (+$20M vs prior) driven by higher non-GAAP retail GPU of $3.5K. Unit growth tracking ~35% in June with no deceleration. 2027 EBITDA estimated at $4.3B ($3.9K/unit) on ~25x FY2 EV/EBITDA; PT implies line-of-sight to $7+ EPS by 2030. Off-lease supply inflection expected to benefit CVNA's independent dealer model.",
+      "title": "CVNA: JPMorgan maintains Overweight; expecting modest 2Q beat with 2H EBITDA growth trajectory as key watch",
+      "body": "JPMorgan maintained Overweight on CVNA, expecting a modest 2Q26 beat from better pricing dynamics. The return to EBITDA-per-unit growth in 2H26 is flagged as the critical forward catalyst for sustaining momentum.",
       "tickers": [
         "CVNA"
       ],
       "source_item_ids": [
-        "gmail:19f60167e6fb09b6"
+        "gmail:19f609ef5f1299e8"
       ]
     },
     {
-      "title": "DKNG: 2Q EBITDA trimmed to $115M on unfavorable World Cup holds; PM market growing 3x",
-      "body": "OpCo and desk trim DKNG 2Q EBITDA to $115M (from $157M prior) due to unfavorable Knicks/World Cup sports outcomes despite handle up ~20% YoY. Prediction market volume hit ~$250M consumer/$750M total in June (3x May), expected to step up into NFL season. CFTC's looser regulatory approach seen supporting higher unit revenues. No change expected to $200-300M PM spending outlook on 2Q calls.",
+      "title": "DKNG: Kalshi prediction market court losses create regulatory overhang; Supreme Court timeline extends to late 2027-2028",
+      "body": "Kalshi lost preliminary injunctions in New York and faces restrictions in Nevada, Michigan, and Massachusetts with more states likely. Citi views prediction markets as material but not overwhelming incremental growth for DKNG and FLUT. Congressional resolution is unlikely post-2026 midterms; Supreme Court ruling not expected before late 2027 at earliest.",
       "tickers": [
         "DKNG"
       ],
       "source_item_ids": [
-        "gmail:19f6064981aaade0",
-        "gmail:19f6081f01ac14c9"
+        "gmail:19f6101e44089842"
       ]
     },
     {
-      "title": "EQIX OW, DLR EW: Morgan Stanley sees data center moratoriums benefiting colocation REITs",
-      "body": "MS research finds ~$156B of data center projects cancelled/delayed in 2025; $130B already delayed in 1Q26. Local opposition driven by power bill impacts, water use, and quality-of-life concerns. Colocation REITs (EQIX OW, DLR EW) insulated due to smaller scale vs. hyperscale; onsite generation adoption to benefit BE and SEI (both OW rated).",
+      "title": "NFLX/DIS/WBD: Morgan Stanley streaming survey \u2014 Netflix leads on retention and originals; DIS/NFLX Overweight",
+      "body": "MS AlphaWise streaming survey shows average US household has 5+ services; Netflix has strongest net retention and best original content perception. Disney+/Hulu, Paramount+, and HBO Max saw solid engagement gains. MS rates DIS Overweight, NFLX Overweight, WBD Equal-weight, AMCX Underweight.",
       "tickers": [
-        "EQIX",
-        "DLR",
-        "BE"
-      ],
-      "source_item_ids": [
-        "gmail:19f5f7becca6d28d",
-        "gmail:19f5ed62236c9be1"
-      ]
-    },
-    {
-      "title": "NOW: UBS Neutral; demand stable but no inflection, PT raised to $115 on 16x CY27 FCF",
-      "body": "UBS maintains Neutral on ServiceNow; customer checks show stable but not improving 2Q demand with no step-change in AI-driven spend. Expects normal ~100bps cRPO beat. PT raised to $115 from $100 based on 16x CY27E FCF. AI Control Tower adoption remains modest; shares +20% off late-June lows driven by defensive tech rotation, not fundamentals.",
-      "tickers": [
-        "NOW"
-      ],
-      "source_item_ids": [
-        "gmail:19f5da59926b9b8d"
-      ]
-    },
-    {
-      "title": "PSKY/WBD: CA AG files TRO; tender offer extended to July 22",
-      "body": "California AG Rob Bonta filed for a temporary restraining order to block the PSKY-WBD merger. Historical precedent (Nexstar/Tegna) suggests deals can close before TRO is granted. PSKY up 0.8% and WBD up 1.5% after exchange and tender offer expiration extended to July 22.",
-      "tickers": [
-        "PSKY",
+        "NFLX",
+        "DIS",
         "WBD"
       ],
       "source_item_ids": [
-        "x:2076868784120316031",
-        "gmail:19f608ad6b233efb"
-      ]
-    },
-    {
-      "title": "MU: IBD Top 50 ranked #1; bullish options flow; $3B US supply chain investment",
-      "body": "MU ranked #1 on IBD Top 50 with multi-week consolidation pattern at 50-day moving average; price targets of $1,100-$1,200 cited for breakout. Large bullish options tape noted. Separately, MU announced $3B additional US semiconductor investment to secure HBM supply for AI growth. Citi semis roundtable notes memory fundamentals structurally bullish into H1:27; investors prefer NAND over DRAM due to HBM de-spec risk.",
-      "tickers": [
-        "MU"
-      ],
-      "source_item_ids": [
-        "x:2076838937033941060",
-        "gmail:19f604e61f257e1f"
-      ]
-    },
-    {
-      "title": "HOOD: First ABS offering gauged at $400M+; Robinhood Chain tops 750K accounts",
-      "body": "Robinhood is reportedly gauging investor interest in its first asset-backed securities offering (~$400M+) backed by its branded credit card program. Robinhood Chain daily cumulative accounts crossed 750K. No rating change; these are potential capital markets catalysts.",
-      "tickers": [
-        "HOOD"
-      ],
-      "source_item_ids": [
-        "x:2076751765861794146",
-        "x:2076737665043497115"
-      ]
-    },
-    {
-      "title": "CRCL: Mizuho downgrades to Underperform, PT $50 on Open-USD competitive threat",
-      "body": "Mizuho cuts CRCL to Underperform from Neutral with PT slashed to $50 from $85, citing the Open-USD consortium (backed by Mastercard, Stripe, Coinbase, BlackRock) which routes nearly all reserve income to distributors vs. Circle's float-capture model retaining ~38%. CRCL 2027 adj. EBITDA revised to $699M (~25% below consensus); distribution costs rise from 64% to 73%. Coinbase revenue-sharing agreement renewal in August creates additional leverage risk.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19f5fa6e31d4653d",
-        "gmail:19f5f3cd91da9525"
+        "gmail:19f60f1df78e78cd"
       ]
     }
   ]
