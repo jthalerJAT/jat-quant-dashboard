@@ -1,215 +1,221 @@
 {
-  "digest_type": "eod",
-  "digest_dt": "2026-07-13T18:00:00-04:00",
-  "saved_at": "2026-07-13T22:31:54.408243+00:00",
+  "digest_type": "premarket",
+  "digest_dt": "2026-07-14T08:30:00-04:00",
+  "saved_at": "2026-07-14T14:07:49.281831+00:00",
   "bullets": [
     {
-      "title": "Fed's Waller Puts July Rate Hike On Table; Markets Price 45-50% Odds",
-      "body": "Fed Governor Waller delivered the clearest hawkish signal yet, saying 'if there is another hot core reading on core inflation this week, U.S. policymakers should consider raising rates in the near term' and treating it as signal rather than noise. Markets repriced sharply: fed funds futures moved to 45-50% probability of a July hike (from 35% earlier), treasuries fell, and gold dropped 3%+ to ~$3,994/oz. Waller also floated a 1.5-2.5% inflation target band vs. the fixed 2% point, and dismissed reliance on forward guidance.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2076705773502001178",
-        "x:2076711025437524424"
-      ]
-    },
-    {
-      "title": "Oil +7% to $76/bbl on Hormuz Crisis; Iran Blockade Reinstated",
-      "body": "Crude surged 7.3% above $76/bbl after Trump reinstated the Iranian blockade (with a 24-hour legal notification delay) and declared the U.S. 'Guardian of the Hormuz Strait,' proposing a 20% reimbursement fee on all cargo transiting the strait. Commercial crossings through Hormuz fell ~52% week-over-week (to just 3 transits), and Polymarket traders project crude above $80 this month. Saudi Arabia also intercepted two waves of Houthi ballistic missiles targeting a Saudi airbase, amplifying supply-risk premium.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2076722629386309831",
-        "x:2076686930369028338"
-      ]
-    },
-    {
-      "title": "Morgan Stanley Raises Hyperscaler Capex Forecasts to $1.2T (2027) / $1.4T (2028)",
-      "body": "Morgan Stanley lifted its US hyperscaler capex estimates by 9-10%: $1.2 trillion by 2027 and $1.4 trillion by 2028. The bank explicitly dismissed the recent correction in AI infrastructure names as not signaling the end of the buildout. Separately, Big Tech (Google, Amazon, Microsoft, Meta, Oracle) has already accumulated nearly $700B in debt to fund AI data center spending.",
+      "title": "NVDA: Jensen denies Blackwell delays; Mitsubishi Heavy partnership for AI datacenters",
+      "body": "Jensen Huang publicly debunked rumors of delays on 800V and rack-to-rack optical interconnects, stating both remain on original timeline. Separately, Nikkei reports Mitsubishi Heavy partnering with NVIDIA on AI datacenter cooling and energy management systems for next-gen plants. NVIDIA also promoting its Vera Rubin NVL72 compute tray delivering 200 AI petaFLOPs.",
       "tickers": [
-        "GOOGL",
-        "AMZN",
-        "MSFT",
-        "META",
-        "ORCL"
+        "NVDA"
       ],
       "source_item_ids": [
-        "x:2076711399313862842",
-        "x:2076643598121029902"
+        "x:2076846994614792663",
+        "x:2076925892987850904"
       ]
     },
     {
-      "title": "TSMC June Revenue +67.9% YoY; Beats Q2 Guidance at $40.2B",
-      "body": "TSMC reported June net revenue of NT$442.68B ($13.79B), up 67.9% year-over-year and 6.2% month-over-month, with H1 2026 revenue hitting $74.99B (+35.6% YoY). Q2 total revenue of $40.2B exceeded the high-end of guidance. Options market is pricing a 3.57% implied move around the earnings print scheduled for ~1:30am EDT on July 16.",
+      "title": "NVDA: China H200 approval denied; Asia buyer list halved amid chip crackdown",
+      "body": "FT reports Chinese tech firms are lobbying Beijing to approve Nvidia H200 sales but approval has not been granted and large-scale sales remain unlikely. Separately, NVIDIA is halving its Asia buyer list as part of the China chip export crackdown, signaling a meaningful reduction in addressable market in the region.",
       "tickers": [
-        "TSM"
+        "NVDA"
       ],
       "source_item_ids": [
-        "x:2076686787725217952",
-        "x:2076665035229642779"
+        "x:2076871708984877077",
+        "x:2076871682854465618"
       ]
     },
     {
-      "title": "Memory Supply Tight Until H2 2027; SK Hynix ADR Drops 9.9% on Profit-Taking",
-      "body": "Semianalysis analyst Ray Wang says memory supply is unlikely to improve until H2 2027, with DRAM remaining constrained as chipmakers balance HBM demand from AI against commodity RAM. SK Hynix Korean shares fell a record 15.4% post-Nasdaq debut\u2014analysts say the move reflects profit-taking and repricing between Korean shares and the US ADR, not weakening AI memory demand. SK Hynix ADR extended losses to session-low 9.9%.",
+      "title": "MU: IBD Top 50 #1 rank; bullish consolidation with $1,100\u2013$1,200 price targets",
+      "body": "Micron is ranked #1 on the IBD Top 50 list, described as forming a multi-week consolidation along its 50-day moving average with an expected breakout this week to $1,100\u2013$1,200. Separately, MU announced an additional $3B investment in U.S. semiconductor supply chain focused on HBM for AI, and large bullish options flow was flagged on the tape.",
       "tickers": [
         "MU"
       ],
       "source_item_ids": [
-        "x:2076683453257662816",
-        "x:2076662490549960903"
+        "x:2076838937033941060",
+        "x:2076750994793533581"
       ]
     },
     {
-      "title": "MU: $233M Dark Pool Print; Long-Term Conviction Intact Despite Morning Selling",
-      "body": "Micron continues to see an 'abnormal amount' of dark pool activity, with a fresh $233M print observed. A fintwit analyst noted memory/storage names (MU, SNDK) would get 'pulled down significantly' Monday morning alongside SK Hynix but maintained unchanged long-term conviction, flagging long-dated calendar spreads as an attractive way to play elevated volatility.",
+      "title": "Photonics sector narrative shift: CPO delayed, copper lasting longer, NPO emerging",
+      "body": "Fintwit photonics commentary clusters around a key narrative update: Scale Up CPO adoption is further away than previously anticipated, copper interconnects are outperforming expectations, and NPO plus 'Scale Across' are emerging as the next dominant themes. Substrate layer production uptick seen as positive for AXTI, COHR, LITE, AAOI supply chain. Morgan Stanley CPO note identifies COHR, LITE for lasers; TSEM for silicon photonics; MRVL/Celestial and POET for optical engines.",
       "tickers": [
-        "MU",
-        "SNDK"
+        "COHR",
+        "LITE",
+        "AAOI",
+        "AXTI",
+        "TSEM"
       ],
       "source_item_ids": [
-        "x:2076695708636184635",
-        "x:2076650966997172307"
+        "x:2076827349233119502",
+        "x:2076748688559587338"
       ]
     },
     {
-      "title": "NVDA: Automotive Division Competing Internally for Compute; vLLM Performance Lead",
-      "body": "Nvidia's head of automotive is fighting internally for compute allocation, reflecting extreme cross-divisional demand for Nvidia's resources. Separately, NVIDIA was praised for strong vLLM inference performance leadership while AMD was flagged as having 'a lot of catching up to do on certain models.' GTC Berlin conference early-bird pricing deadline is July 15.",
+      "title": "LITE: $919M Texas AI-server BBU plant investment signals capex acceleration",
+      "body": "Taiwan's Lite-On Technology announced a $919M investment in a McKinney, Texas manufacturing facility focused on Battery Backup Units for AI servers, adding to its existing Plano, Texas plant. 2026 capex expected to rise from NT$13B.",
       "tickers": [
-        "NVDA",
-        "AMD"
+        "LITE"
       ],
       "source_item_ids": [
-        "x:2076685186964844649",
-        "x:2076713679341379760"
+        "x:2076832389733748780"
       ]
     },
     {
-      "title": "META: $40B+ Louisiana Data Center; UBS Cuts PT to $766 from $865",
-      "body": "Meta announced it will spend more than $40 billion on a Louisiana data center\u2014one of the largest single data center commitments disclosed. Offsetting the bullish capex signal, UBS cut its META price target by ~11% to $766 from $865. A large block trade in META also hit the tape intraday, direction unclear.",
+      "title": "META: Analyst reversal to bullish on open-source strategy; social graph as AI moat",
+      "body": "One fintwit analyst reversed a prior bearish META call, crediting the open-source/Llama pivot as the right strategic move and praising execution over the past 9\u201312 months. A second analyst highlighted META's social graph and ecosystem density as a structural advantage for building personal AI agents and developer platforms. META also noted closing above its 200-day MA for two consecutive days, longest such streak since February.",
       "tickers": [
         "META"
       ],
       "source_item_ids": [
-        "x:2076722575141487071",
-        "x:2076667276716367921"
+        "x:2076850857803436423",
+        "x:2076846512588378570"
       ]
     },
     {
-      "title": "INTC: \u20ac5B Ireland Fab 34 Investment for Xeon 6 / Diamond Rapids",
-      "body": "Intel announced a \u20ac5 billion ($5.7B) investment at its Leixlip Fab 34 in Ireland to scale Intel 3 node production targeting Xeon 6 and next-gen Diamond Rapids processors, with capacity expansion targeted by 2027. Former Intel CEO Patrick Gelsinger, now a director, bought 153,846 shares for $500K (~$3.25/share) in coordinated insider buying alongside two other directors totaling $6M in a single day.",
+      "title": "Samsung Foundry secures Anthropic as customer; explores U.S. ADR listing",
+      "body": "Korean local media reports Samsung's foundry division has agreed to manufacture Anthropic's custom AI chips, following recent wins with Tesla and NVIDIA. Separately, Samsung is in preliminary discussions with banks about a potential U.S. ADR share offering, though no final decision has been made.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2076927678905790656",
+        "x:2076931400541081899"
+      ]
+    },
+    {
+      "title": "UMC achieves first mass-produced silicon photonics from Singapore; Citi positive",
+      "body": "UMC announced the first mass-produced silicon photonics wafers from its Singapore facility. SILITH and UMC are reported to have achieved a mass production milestone for silicon photonics, with Citi seeing an improving outlook.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2076931135356182588",
+        "x:2076940850052182111"
+      ]
+    },
+    {
+      "title": "Lightmatter joins NVIDIA NVLink Fusion ecosystem for CPO/NPO optical interconnect",
+      "body": "Lightmatter has joined NVIDIA's NVLink Fusion ecosystem, adapting its bidirectional optical-link architecture to NVLink specs to supply CPO and NPO products. The goal is to reduce fiber and connector counts while maintaining compatibility with NVIDIA's SerDes technologies. Multiple fintwit accounts flagged this as 'real signal, not hype.'",
       "tickers": [
-        "INTC"
+        "NVDA"
       ],
       "source_item_ids": [
-        "x:2076724286622994816",
-        "x:2076700186781323738"
+        "x:2076828790865670169",
+        "x:2076940889247936852"
       ]
     },
     {
-      "title": "WBD: 12-State Lawsuit Filed to Block $110B Paramount Merger",
-      "body": "California AG and 11 other states filed suit to block the Warner Bros. Discovery\u2013Paramount merger, with California's AG presenting live. The deal, valued at $110 billion, now faces significant regulatory headwinds that could materially delay or derail the combination.",
+      "title": "HBM demand as the key variable for duration of memory boom",
+      "body": "Analyst commentary coalesces around the view that HBM demand will determine how long the memory sector boom lasts\u2014if HBM demand declines, the memory cycle ends. Separately, Innolight investor relations takeaways note 1.6T market demand has not contracted and 800G demand was revised meaningfully higher vs prior expectations.",
       "tickers": [
-        "WBD"
+        "MU"
       ],
       "source_item_ids": [
-        "x:2076699781435359582",
-        "x:2076698121384407533"
+        "x:2076852632166257107",
+        "x:2076808331453415674"
       ]
     },
     {
-      "title": "SPY A/D Line at All-Time Highs Despite Put Wall at 750",
-      "body": "The SPY advance/decline line is hitting all-time highs, suggesting broad-based market strength despite bearish sentiment among some participants. However, gamma analysis shows SPY testing a $1.7-2B put wall at 750, with bulls needing to defend that level to avoid additional downside pressure.",
+      "title": "AAOI: CPO laser design wins lacking; CPO timeline 'TBD' per CEO",
+      "body": "Analysis notes AAOI derives revenue primarily from pluggable optical modules and is still in the reliability-work phase for CPO-related lasers, with no design wins and a 'TBD' commercial timing per the CEO. MTSI appears to have lost momentum in the CPO laser competition.",
       "tickers": [
-        "SPY"
+        "AAOI",
+        "MTSI"
       ],
       "source_item_ids": [
-        "x:2076720008231620875",
-        "x:2076680231834755246"
+        "x:2076763334930812936"
       ]
     },
     {
-      "title": "Buffett Indicator Hits Record 234%; S&P Earnings Expected +24% YoY",
-      "body": "The US stock market value-to-GDP ratio hit a new record of 234%, more than 3 standard deviations above its long-term historical average. Simultaneously, S&P 500 earnings are expected to increase 24% this year\u2014a pace only seen outside post-recessionary rebounds\u2014driven by outsized EPS gains in big tech.",
-      "tickers": [],
+      "title": "NBIS: 40% prepayment on MSFT and META contracts improves IRR math",
+      "body": "Fintwit pushback on a bearish NBIS thesis: NBIS received a 40% prepayment on its Microsoft contract and likely a similar prepayment on its Meta contract, which materially improves capital employed and project IRR\u2014a point critics say the bear case omits.",
+      "tickers": [
+        "NBIS",
+        "MSFT",
+        "META"
+      ],
       "source_item_ids": [
-        "x:2076718298046030223",
-        "x:2076678045654499773"
+        "x:2076803289178357838"
       ]
     },
     {
-      "title": "Korean Market Stress: KOSPI 3rd Largest Drop Since Lehman; 1.2M Margin Calls",
-      "body": "The KOSPI experienced its third-largest one-day drop since the Lehman crisis, with 1.2 million Korean leveraged retail accounts triggering margin calls as of July 13 and 320-360K accounts fully liquidated. Retail brokerage deposits fell 30 trillion won to their lowest since February 2020. Goldman's 1-Delta desk asked 'when does the KOSPI selling stop?'",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2076702980921835766",
-        "x:2076699803916894222"
-      ]
-    },
-    {
-      "title": "Gold Falls 3%+ as Waller Hike Signal Overrides Iran Safe-Haven Bid",
-      "body": "Spot gold dropped over 3% to ~$3,994/oz\u2014down more than 20% from its January record high of $5,318/oz\u2014as Fed Governor Waller's hawkish comments on near-term rate hikes outweighed the Middle East geopolitical risk premium. US 10-year yields moved to 4.60%, UK 10-year near 5%, German at 3.10%.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2076709626691600725",
-        "x:2076711988378362087"
-      ]
-    },
-    {
-      "title": "AI Capex Bond Issuance Testing Investor Limits; Banks Racing to Forecast $2T",
-      "body": "A quarter-trillion-dollar wave of AI-related bond issuance is testing investor appetite as hyperscalers fund data center buildouts through debt markets. Multiple banks are now racing to be first to project $2 trillion in 2027 capex, though funding mechanisms at that scale remain unclear.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2076659367860937191",
-        "x:2076704248138498153"
-      ]
-    },
-    {
-      "title": "AAPL Sues OpenAI Over Stolen Secrets; Acquires SigScalr Assets",
-      "body": "Apple filed a lawsuit against OpenAI alleging theft of trade secrets. Separately, Apple agreed to acquire certain assets and hire employees from SigScalr, a strategic move that received relatively less attention amid the broader market noise.",
+      "title": "AAPL: Hits new all-time highs; Siri AI seen as Apple Watch catalyst; M7 Ultra roadmap",
+      "body": "Apple hit new all-time highs during the session. Separately, reviewers note Siri AI upgrades make Apple Watch 'finally feel like a wrist computer.' Apple's M7 Ultra chip (expected 2029) is rumored to support 1.5TB of RAM. A competitor (OnePlus) is reportedly exiting the U.S. market, seen as creating more profitable room for Apple.",
       "tickers": [
         "AAPL"
       ],
       "source_item_ids": [
-        "x:2076678723164873141",
-        "x:2076703137797222689"
+        "x:2076748979849605275",
+        "x:2076772822693896322"
       ]
     },
     {
-      "title": "Semiconductor Wafer Growth Forecast Single Digits; Supply Deficit to Widen to 25% by 2030",
-      "body": "Semiconductor wafer growth for both memory and logic is forecast to grow only single digits YoY. One analyst argues the market is 'super undersupplied even in 2030,' with the supply deficit projected to widen from 18% to 25% by 2030, while traditional cloud CPU volume grows only modestly (20M to 25M units) and physical AI gets near-zero allocation.",
+      "title": "Fed: 45% July hike probability; CPI and Warsh testimony are the key catalysts",
+      "body": "Detailed thread from a credible macro account lays out the framework: Fed funds futures price 45% probability of a July 29 hike. A 0.3% core CPI print implies July hike; 0.2% creates July vs. September debate (September 104% priced); 0.1% implies September. Headline CPI expected at -0.1% due to gasoline (-0.4%). Waller's hawkish speech also repriced hike odds higher on Polymarket and SOFR futures. Warsh House testimony at 9 AM Tuesday is the other key catalyst.",
       "tickers": [],
       "source_item_ids": [
-        "x:2076686860659958200",
-        "x:2076681784369312143"
+        "x:2076850122772664760",
+        "x:2076809742312227302"
       ]
     },
     {
-      "title": "AVGO Market Cap Surpasses SpaceX at $1.9T vs $1.8T",
-      "body": "Broadcom's market cap has grown back above SpaceX's as the latter fell to post-IPO lows (~$140, near its $135 IPO price), wiping approximately $1 trillion from SpaceX's peak valuation of $226/share. Broadcom currently stands at $1.9T market cap.",
-      "tickers": [
-        "AVGO"
-      ],
-      "source_item_ids": [
-        "x:2076670950146220074"
-      ]
-    },
-    {
-      "title": "Software as AI Inverse Trade: UBER, SHOP Named as Holdings",
-      "body": "One trader notes software stocks have been acting inversely to AI\u2014rising when AI names fall and vice versa. UBER and SHOP were cited as specific holdings in a software-focused portfolio as the sector attempts to find a bottom.",
-      "tickers": [
-        "UBER",
-        "SHOP"
-      ],
-      "source_item_ids": [
-        "x:2076671910788915334"
-      ]
-    },
-    {
-      "title": "Global Central Banks Reducing USD Exposure; Yen Weakens Past \u00a5162",
-      "body": "Global central banks are reportedly planning to reduce US dollar exposure, signaling a strategic shift away from dollar reserves. Separately, the Japanese yen weakened past \u00a5162/USD after a media report suggested local pension funds would not face pressure to purchase more domestic securities, adding upward pressure on Japanese yields.",
+      "title": "Oil surges ~10% on U.S.-Iran escalation; Strait of Hormuz disruption risk elevated",
+      "body": "WTI settled at $78.14/bbl (+9.42%) and Brent at $83.30/bbl (+9.59%), the largest single-day oil moves since 2020. Trump announced Iran strikes and proposed a 20% fee on Strait of Hormuz cargo (~$30M per loaded supertanker). Polymarket puts Hormuz normalization before 2027 at very low odds. Iran threatened to fire on any vessel transiting the strait without warning.",
       "tickers": [],
       "source_item_ids": [
-        "x:2076707615275384887",
-        "x:2076646177085202700"
+        "x:2076737211702387079",
+        "x:2076801496960630815"
+      ]
+    },
+    {
+      "title": "US 10-year yield hits 4.63%, 30-year at 5.1%; real yields near 2024 highs",
+      "body": "Treasury yields surged with 10-year at 4.63% and 30-year at 5.1%, driven by rising oil prices stoking inflation concerns and Waller's hawkish Fed speech. 2-year yields hit highest since February 2025. Real yields (not breakevens) drove the move, nearing 2024 peaks.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2076873743838666946",
+        "x:2076803753919791518"
+      ]
+    },
+    {
+      "title": "China June trade data blows out estimates: exports +27% YoY, imports +36% YoY",
+      "body": "China's June trade balance surged to $125.62B (est. $120.10B, prior $105.43B). Exports rose 27% YoY vs. 19% estimate, driven by AI hardware demand and tariff front-loading. Imports jumped 36% YoY vs. 26.1% estimate. Customs Vice Minister noted strong AI-related product export growth in H1.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2076857662344683708",
+        "x:2076884284401758342"
+      ]
+    },
+    {
+      "title": "Hyperscaler debt spreads hit 150bps record high; $700B debt accumulation flagged",
+      "body": "Hyperscaler basket credit spreads crossed 150bps for the first time ever. Fintwit commentary highlights that Google, Amazon, Microsoft, Meta, and Oracle have collectively accumulated nearly $700B in debt tied to AI datacenter capex. One account adds that hyperscaler creditors are concerned they're financing loans against rapidly depreciating memory chips.",
+      "tickers": [
+        "GOOGL",
+        "MSFT",
+        "META",
+        "AMZN",
+        "ORCL"
+      ],
+      "source_item_ids": [
+        "x:2076817357301785027",
+        "x:2076832892559437930"
+      ]
+    },
+    {
+      "title": "INTC: \u20ac5B European manufacturing expansion announced",
+      "body": "Intel Foundry announced a \u20ac5B investment to expand advanced semiconductor manufacturing in Europe, including upgrades to its Ireland facility.",
+      "tickers": [
+        "INTC"
+      ],
+      "source_item_ids": [
+        "x:2076833393640378689"
+      ]
+    },
+    {
+      "title": "HOOD: Robinhood Chain hits 750K accounts; exploring $400M+ asset-backed securities offering",
+      "body": "Robinhood Chain cumulative daily accounts exceeded 750,000. Separately, HOOD is reportedly gauging investor interest in at least $400M in asset-backed securities backed by its branded consumer credit card receivables\u2014its first such offering.",
+      "tickers": [
+        "HOOD"
+      ],
+      "source_item_ids": [
+        "x:2076737665043497115",
+        "x:2076751765861794146"
       ]
     }
   ]
