@@ -1,236 +1,240 @@
 {
-  "digest_type": "midday",
-  "digest_dt": "2026-07-15T12:00:00-04:00",
-  "saved_at": "2026-07-15T16:32:56.917988+00:00",
+  "digest_type": "eod",
+  "digest_dt": "2026-07-15T18:00:00-04:00",
+  "saved_at": "2026-07-15T22:28:16.337220+00:00",
   "bullets": [
     {
-      "title": "AAPL: JPM upgrades to Overweight on China Apple Intelligence approval via Alibaba Qwen",
-      "body": "JPMorgan upgraded Apple to Overweight after Chinese regulators approved Apple Intelligence with Alibaba's Qwen AI integrated across iOS, iPadOS, macOS, and visionOS. JPM argues feature differentiation rather than pricing will drive iPhone 18 upgrade volumes in China, overcoming price elasticity concerns. MS TMT notes C3Q iPhone builds unchanged at 54M with C2Q showing better-than-seasonal 52M units; iOS 17 beta reviewers positive on new Siri functionality.",
+      "title": "GS flow desk: HFs net selling tech/comms at 98th-pct; hyperscalers vs semis rotation",
+      "body": "Goldman's floor reported -5.5% better-for-sale overall, with hedge funds -15% better-for-sale in a move that ranks in the 98th percentile over the past year. The firm flagged a clear rotation theme: buying hyperscalers (Mag7 outperforming NDX by ~3%) while selling semis/memory (GSPRHIMO basket -6.5% on the day). Long-only accounts were slightly better to buy.",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "INTC",
+        "MU",
+        "MSFT",
+        "GOOGL",
+        "AMZN",
+        "META"
+      ],
+      "source_item_ids": [
+        "x:2077446350417904102",
+        "x:2077445176771981592"
+      ]
+    },
+    {
+      "title": "NVDA: Jensen denies Vera Rubin delay; says production already underway 'in giant amounts'",
+      "body": "From Tokyo, Jensen Huang stated directly that reports of AI server manufacturing delays are 'not true' and that Vera Rubin is already in production with large shipment volumes coming. Separately, millions of dollars in NVDA put sweepers were detected intraday, suggesting some downside hedging despite the CEO denial.",
+      "tickers": [
+        "NVDA"
+      ],
+      "source_item_ids": [
+        "x:2077406548012466390",
+        "x:2077425400020426845"
+      ]
+    },
+    {
+      "title": "NVDA/NOK: Launch first AI-RAN platform; 20%+ spectral efficiency gains, subscription model",
+      "body": "Nokia and Nvidia announced the first AI-RAN platform delivering over 20% spectral efficiency gains initially, targeting 50% by 2027 and 100%+ by 2028. The product is sold as a software subscription rather than hardware, potentially opening a recurring revenue stream for both companies.",
+      "tickers": [
+        "NVDA",
+        "NOK"
+      ],
+      "source_item_ids": [
+        "x:2077445684366856283",
+        "x:2077441158452781527"
+      ]
+    },
+    {
+      "title": "AMD: Helios rack shipments reportedly delayed out of 2026 despite company denial",
+      "body": "A source claims visibility that AMD Helios rack shipments are delayed beyond this year, contradicting AMD's public denial of any delays. The source expresses confidence in their read despite the pushback.",
+      "tickers": [
+        "AMD"
+      ],
+      "source_item_ids": [
+        "x:2077437664916394224"
+      ]
+    },
+    {
+      "title": "DELL: Extends drop to 13%, worst since April 2025",
+      "body": "Dell shares fell as much as 13% intraday, the largest single-day decline since April 2025, dropping from $460 to $405 in under two hours. No specific catalyst cited in the flow, though the move tracked broader semi/storage sector weakness.",
+      "tickers": [
+        "DELL"
+      ],
+      "source_item_ids": [
+        "x:2077402803178496092",
+        "x:2077411796655165482"
+      ]
+    },
+    {
+      "title": "SNDK: Drops 11% to session low; DRAM 20%+ price hike expected next quarter despite selloff",
+      "body": "SanDisk extended losses to a session-low -11%. Separately, a source flagged that DRAM prices are expected to increase 20%+ next quarter, SNDK is securing long-term agreements with META and MU, and laser supplies are sold out into early 2029\u2014suggesting the selloff is disconnecting from strong underlying fundamentals.",
+      "tickers": [
+        "SNDK",
+        "MU",
+        "META"
+      ],
+      "source_item_ids": [
+        "x:2077400433241260446",
+        "x:2077423269066784942"
+      ]
+    },
+    {
+      "title": "MU: Conflicting signals \u2014 call sweepers bullish but sell-side warns on DRAM price resistance",
+      "body": "Large MU call sweepers were observed again (millions in notional), and one trader recommended buying at $885 with multi-month conviction. However, GFHK lowered its Q3 DRAM price growth forecasts citing customer pushback near 30% hikes, while a separate trader recommended taking profits on MU. Memory sector broadly sold despite bullish fundamental backdrop.",
+      "tickers": [
+        "MU"
+      ],
+      "source_item_ids": [
+        "x:2077388875840819299",
+        "x:2077366994702332337"
+      ]
+    },
+    {
+      "title": "AAPL: Hits ATH; pursuing AI chip acquisitions per The Information; M2 Ultra underperforms on AI",
+      "body": "Apple hit new all-time highs intraday and is within $250B of a $5T market cap. The Information reports Apple is approaching chip startups to gauge acquisition interest, aiming to build server chips for AI. Separately, M2 Ultra chips reportedly fell short for advanced AI workloads, forcing Apple to rely on Nvidia for compute needs. Alibaba's Qwen AI is also set to be integrated into Apple Intelligence for China, sending BABA up 5.7%.",
       "tickers": [
         "AAPL",
+        "NVDA",
         "BABA"
       ],
       "source_item_ids": [
-        "gmail:19f65ebd6ea42b08",
-        "gmail:19f65eb223b41968"
+        "x:2077401906104738151",
+        "x:2077387882868949045"
       ]
     },
     {
-      "title": "NVDA/Hyperscale Capex: MS raises 2027-28 forecast to $1.2T/$1.4T; NVDA sees customer acceleration",
-      "body": "Morgan Stanley's Brian Nowak raises hyperscale capex forecast to ~$1.2T in 2027 and ~$1.4T in 2028 based on 4x capacity growth 2025-2028, with upward revisions for META, AMZN, and GOOGL. Joe Moore's NVDA CEO/CFO meetings flagged customer acceleration, memory shortages, and Kyber vs. Rubin Ultra timeline debate; Vera CPU ramping. GS notes AI infrastructure stocks expected to account for ~50% of 2026 S&P 500 EPS growth, with NVDA, AVGO, TXN leading semis YTD.",
-      "tickers": [
-        "NVDA",
-        "META",
-        "AMZN",
-        "GOOGL",
-        "AVGO"
-      ],
-      "source_item_ids": [
-        "gmail:19f66803f825ba2f",
-        "gmail:19f65cb946fbc43e"
-      ]
-    },
-    {
-      "title": "MSFT: Citi cuts PT to $570 from $620 on capex/margin compression; Azure/CoPilot trends mixed",
-      "body": "Citi cut Microsoft's price target from $620 to $570, reflecting software multiple compression amid elevated FY27 capex guidance likely ~$261B (Street $232B) and conservative op margin guidance of -100 to -150bps. Azure beat expected ~1pt to ~40% cc y/y in Q4 with CoPilot net adds +8M. DA Davidson notes MSFT positioned as main company working across AI control plane, orchestration layer, and harnesses.",
-      "tickers": [
-        "MSFT"
-      ],
-      "source_item_ids": [
-        "gmail:19f65ed1c8b100cd",
-        "gmail:19f65d80269ae132"
-      ]
-    },
-    {
-      "title": "GOOGL: Buffett confirms he initiated Berkshire's GOOGL position; EU preparing fresh fines",
-      "body": "Warren Buffett confirmed live on CNBC that he personally initiated Berkshire Hathaway's investment in Alphabet, calling it a mistake not to have bought earlier. Separately, Brussels is preparing fresh Google fines amid broader big tech enforcement per FT. JPM names GOOGL as a top Internet pick ahead of 2Q26 earnings.",
+      "title": "GOOGL: Up 3%+ intraday; withdraws Epic antitrust appeal; permits third-party app stores",
+      "body": "Google shares gained over 3% on the day. The company pulled its request to change the court ruling in the Epic antitrust case and separately announced it will permit third-party app stores in its Play Store starting next week \u2014 a significant regulatory compliance move.",
       "tickers": [
         "GOOGL"
       ],
       "source_item_ids": [
-        "gmail:19f662bf86decbac",
-        "x:2077350906161476007"
+        "x:2077420571361423692",
+        "x:2077421694168531262"
       ]
     },
     {
-      "title": "AMD: UBS raises PT to $700 on stronger AI/infrastructure demand; C2027 estimates raised to $83B/$14.63",
-      "body": "UBS raised AMD's C2026 estimates to $51B/$7.69 (from $50B/$7.61) and C2027 to $83B/$14.63 (from $79B/$13.47), lifting the price target to $700 from $670, underpinned by no evidence of curtailment in foundational model/infrastructure spend. Erste Group also upgraded ANET to Buy while downgrading MRVL to Hold in the same session.",
+      "title": "META: $12M OTM call sweep detected; market cap now exceeds MSFT by 28%",
+      "body": "A trader placed $12M in OTM META calls expiring in two months, signaling speculative upside positioning. Meta's market cap now surpasses both Saudi Aramco and Microsoft (larger than MSFT by ~28%), reflecting strong year-to-date performance.",
       "tickers": [
-        "AMD",
-        "ANET",
-        "MRVL"
+        "META",
+        "MSFT"
       ],
       "source_item_ids": [
-        "gmail:19f65d80269ae132",
-        "gmail:19f66424b0b8d11b"
+        "x:2077399042938523676",
+        "x:2077392180352516387"
       ]
     },
     {
-      "title": "NBIS: Launches asset-light partnership model to scale AI cloud globally; stock +3.6% premarket",
-      "body": "Nebius introduced a new business model enabling infrastructure partners to deploy its AI cloud platform in their own data centers, with Nebius supplying systems architecture, supply-chain access, and software stack while taking revenue-sharing, licensing fees, or committed capacity arrangements. MS TMT noted startups are shifting NVDA GPU workloads from AWS (unavailable/uneconomically priced) to Neoclouds including NBIS and CRWV. Stock was +3.6% in premarket.",
+      "title": "UBER: Nearing \u20ac12.5B deal to acquire Delivery Hero; announcement expected Thursday",
+      "body": "Uber is in advanced negotiations to acquire Delivery Hero for approximately \u20ac12.5 billion, with an announcement expected as early as Thursday. As part of the deal, Delivery Hero would divest its Turkish unit Yemeksepeti and several European businesses to an investment firm.",
       "tickers": [
-        "NBIS",
-        "CRWV"
+        "UBER"
       ],
       "source_item_ids": [
-        "gmail:19f65c4fd6985028",
-        "gmail:19f665eb223b41968"
+        "x:2077451475664744731"
       ]
     },
     {
-      "title": "NY Datacenter Moratorium: WULF projects at risk; EQIX remains Citi top pick; CRWV/PANW rally on IBM",
-      "body": "NY Governor Hochul set to sign an EO temporarily banning large new datacenter construction (>50MW) for up to one year; WULF traded lower on concerns about its Lake Mariner and Cayuga NY projects (company says existing construction unaffected). Citi maintains Buy on EQIX as top-ranked datacenter pick and Buy on DLR and WULF. MS TMT flags ~$156B of datacenter projects cancelled/delayed in 2025 and another $130B in 1Q26. CRWV and PANW rallied ~7% on IBM CEO commentary about customers pausing cyber spending.",
-      "tickers": [
-        "EQIX",
-        "DLR",
-        "WULF",
-        "CRWV"
-      ],
-      "source_item_ids": [
-        "gmail:19f6636dbe41426b",
-        "gmail:19f65ed1c8b100cd"
-      ]
-    },
-    {
-      "title": "NXST/FOXA: FCC to vote Aug 6 to repeal 39% TV ownership cap\u2014clears path for deals",
-      "body": "FCC Chair Brendan Carr confirmed in a Breitbart op-ed that the FCC will vote August 6 to eliminate the national TV audience ownership cap in favor of case-by-case review, removing the blanket prohibition on deals exceeding 39%. This is bullish for NXST (Nexstar/Tegna merger previously approved March 2026) and FOXA. Eight state AGs had filed emergency motion to block the Nexstar/Tegna merger citing the cap.",
-      "tickers": [
-        "NXST",
-        "FOXA"
-      ],
-      "source_item_ids": [
-        "gmail:19f66313743a0d7f",
-        "gmail:19f660f59bd62320"
-      ]
-    },
-    {
-      "title": "MSGS upgraded to OW ($450 PT) at MS; BATRK downgraded to UW on MLB labor risk",
-      "body": "Morgan Stanley upgraded Madison Square Garden Sports to Overweight with PT raised to $450 from $295, citing NBA/NHL exposure, planned Rangers/Knicks split, and favorable risk/reward as in-person experiences benefit from AI proliferation. Simultaneously downgraded Atlanta Braves (BATRK) to Underweight from Equal-weight, raising PT to $54 from $45, citing risk that MLB CBA negotiations could extend and limit share performance.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19f66265b6afec6e7"
-      ]
-    },
-    {
-      "title": "CAVA upgraded to OW ($90 PT) at MS; TSCO previewed as miss-and-guide-down",
-      "body": "Morgan Stanley upgraded CAVA to Overweight with $90 PT on best-in-class traffic growth, unit expansion, and margin visibility. MS previews TSCO as likely to miss with -1.5% comps vs. consensus +1.2%, EPS ~80c vs. 85c consensus, and FY guidance cut ~200bps. Also downgraded CHEF to Equal-weight after 60% YTD gain and BRCB to Equal-weight on valuation/growth disconnect.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19f660902430a32c"
-      ]
-    },
-    {
-      "title": "TWLO: Record Q2 checks on AI-comms infrastructure; Piper and Piper survey both very bullish",
-      "body": "Piper Sandler's Q2 communications software survey showed TWLO at +55% net improvement\u2014the strongest reading\u2014driven by AI-Communications-Infrastructure builds and adoption, with all TWLO partners performing above plan. Piper's morning call also highlighted TWLO as a standout with 'record checks.' RNG showed +20% net but faces headwinds in app downloads, pricing, and job postings.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19f65de4d5f43f64",
-        "gmail:19f65eb223b41968"
-      ]
-    },
-    {
-      "title": "SPCX: MS Adam Jonas initiates at Overweight with $300 PT on Starlink/orbital compute thesis",
-      "body": "Morgan Stanley's Adam Jonas initiated SpaceX (SPCX) at Overweight with a $300 price target, with the thesis covering Starship launch cadence, Starlink connectivity upside vs. cable/telco, enterprise AI, orbital compute economics, and defense applications. Separately, FT reports SpaceX bond yields moving towards junk territory.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19f66803f825ba2f"
-      ]
-    },
-    {
-      "title": "INTC: Using ASML High-NA EUV for 18A Panther Lake chips earlier than expected",
-      "body": "Intel is leveraging ASML's High NA EUV technology to produce 18A Panther Lake laptop chips, described by MS TMT as 'earlier than expected.' INTC shares were +2.3% in premarket. Jefferies dismissed market noise about Infineon losing share at NVDA (not in universe) and reiterated confidence in AI power revenue targets.",
+      "title": "INTC: Trading below $100; High NA EUV with 14A seen as scale option for customers",
+      "body": "Intel shares broke below the $100 level intraday. On the product side, analysis of ASML's Q&A session highlighted Intel as potentially helping clean the pipe for High NA EUV, with 14A emerging as a possible scale option for chipmaking customers.",
       "tickers": [
         "INTC"
       ],
       "source_item_ids": [
-        "gmail:19f665eb223b41968",
-        "x:2077357508952244474"
+        "x:2077428947810136400",
+        "x:2077418590962397670"
       ]
     },
     {
-      "title": "PayPal: Stripe/Advent submit $60.50/share (~$53B) bid; SHOP and AFRM face competitive implications",
-      "body": "Stripe and Advent submitted a joint offer to acquire PayPal at $60.50/share (~$53B) with ~$50B in committed bank financing; Block contributing a small equity portion; PayPal board meeting scheduled July 20. UBS notes the combined Stripe+PayPal unbranded TPV would represent ~12-13% of US payment TAM, creating a scaled two-sided global network. SHOP may seek additional processors; AFRM faces increased BNPL competitive pressure from a better-resourced PayPal Branded. UBS maintains Neutral on PYPL; JPM views the offer as a 'gift' at ~28% premium to last sale.",
+      "title": "COHR/LITE: Optical stocks 'completely sold'; Rosenblatt channel check flags sector weakness",
+      "body": "Rosenblatt channel checks flagged weakness in the optical sector impacting networking equipment vendors including COHR and LITE. A trader noted these names are 'completely sold' but sees no fundamental problems, characterizing the correction as leverage-flushing ahead of a resumption higher.",
       "tickers": [
-        "SHOP",
-        "AFRM",
-        "UBER"
-      ],
-      "source_item_ids": [
-        "gmail:19f6677ddd49bd1e",
-        "gmail:19f65ebd6ea42b08"
-      ]
-    },
-    {
-      "title": "MDB: Upbeat on enterprise AI/Vector Search; Atlas growth 28-29% Y/Y vs. 26% guidance",
-      "body": "DA Davidson's checks on MDB showed management upbeat on enterprise AI and Vector Search functionality, expecting FQ2 Atlas growth of ~28-29% Y/Y versus the 26% guidance given. PLTR was noted as allowing customers to be model-agnostic in AI stack integration, with solutions across control plane and orchestration.",
-      "tickers": [
-        "MDB",
-        "PLTR"
-      ],
-      "source_item_ids": [
-        "gmail:19f65dc4f6c7db7a"
-      ]
-    },
-    {
-      "title": "NFLX: JPM top pick into 2Q26; Wolfe hosting earnings callback webcast Thursday 7/16",
-      "body": "JPMorgan named Netflix among its top Internet picks (alongside GOOGL, AMZN, SPOT, DASH) ahead of 2Q26 earnings reporting after Thursday's close. Wolfe Research is hosting a Netflix 2Q26 earnings callback webcast Thursday July 16 at 7:30pm ET with Peter Supino and Logan Angress.",
-      "tickers": [
-        "NFLX",
-        "SPOT",
-        "DASH",
-        "AMZN"
-      ],
-      "source_item_ids": [
-        "gmail:19f662bf86decbac",
-        "gmail:19f6617c2100e57e"
-      ]
-    },
-    {
-      "title": "VRT/CEG/VST: Power grid tightness supports utilities; PJM auction missed reliability target by 6.8 GW",
-      "body": "PJM's 2028/2029 power auction failed to meet its reliability target by 6.8 GW with data centers accounting for ~$6.3B of the record $16.4B auction spend; uncapped price would be $554.72/MW-day vs. capped $325. OPCO highlights CEG, VST, and TLN higher on tight power market; the VRT/MOD long and residential-HVAC short positioning is unwinding. GEV highlighted by MS ESG team as Outperform for power supply margin capture.",
-      "tickers": [
-        "VRT",
-        "GEV",
-        "CEG",
-        "VST",
-        "TLN"
-      ],
-      "source_item_ids": [
-        "gmail:19f65f1000712664",
-        "gmail:19f65f13861d9d2e"
-      ]
-    },
-    {
-      "title": "RCL: JPM maintains OW; 2Q quality beat and FY26 guidance reiteration de-risks 2H",
-      "body": "JPMorgan highlighted Royal Caribbean as having delivered a quality Q2 beat with FY26 guidance reiterated, describing 2H26 as 'de-risked.' Lodging data also showed strong World Cup market tailwinds with US RevPAR +5.2% Y/Y for the week ending 7/11; Hyatt 3Q26 tracking +9.8% vs. consensus +3.5% and MAR +8.2% vs. consensus +3.2%.",
-      "tickers": [
-        "RCL"
-      ],
-      "source_item_ids": [
-        "gmail:19f65ddd9abb6c45"
-      ]
-    },
-    {
-      "title": "LITE/AAOI: Photonics sector bottoming; LITE strongest, AAOI/AXTI stabilizing",
-      "body": "A market observer noted the photonics sector is attempting to find a low, with LITE identified as the strongest name and AAOI and AXTI showing signs of stabilization after multi-month downtrends. AAOI was -2.4% in premarket per StreetAccount pre-market update.",
-      "tickers": [
+        "COHR",
         "LITE",
-        "AAOI"
+        "ANET",
+        "CIEN"
       ],
       "source_item_ids": [
-        "x:2077349040422007079",
-        "gmail:19f65ed9c6dd3f5d"
+        "x:2077412680668008546",
+        "x:2077409813496250522"
       ]
     },
     {
-      "title": "META: Sued over AI-targeting layoffs; AI strategy note from JPM; ADBE faces Runway encroachment risk",
-      "body": "Meta was sued by employees alleging the company used AI to target workers on medical and parental leave for layoffs (ESG/legal risk). JPM included META in recent AI strategy analysis as part of its Internet 2Q26 preview. UBS flagged unfavorable ADBE commentary from Runway, with concerns Runway could encroach on ADBE's editing dominance.",
+      "title": "WBD/PSKY: Paramount's legal tactics signal weak trial confidence despite public bravado",
+      "body": "LightShed notes Paramount's lead trial counsel hinted the case could go to the Supreme Court and hired prominent appellate lawyer Paul Clement \u2014 signals the analyst interprets as weak trial prospects rather than confidence. Paramount is also threatening to leave California and name-checking Netflix in filings, contradicting its 'slam dunk' characterization of the WBD deal.",
       "tickers": [
-        "META"
+        "WBD",
+        "PSKY",
+        "NFLX"
       ],
       "source_item_ids": [
-        "gmail:19f65ce3ef83b4ac",
-        "gmail:19f65d80269ae132"
+        "x:2077437872995696640",
+        "x:2077394624599994878"
+      ]
+    },
+    {
+      "title": "EQIX: Trump files purchase order up to $1M; cites data centers as biggest future jobs driver",
+      "body": "Trump filed a purchase order for up to $1,000,000 of EQIX stock and stated on Truth Social that data centers are 'one of the biggest driving forces in the future for jobs.' He also criticized NY Governor Hochul for terminating data center projects in the state.",
+      "tickers": [
+        "EQIX"
+      ],
+      "source_item_ids": [
+        "x:2077446527174230107"
+      ]
+    },
+    {
+      "title": "DIS: FCC nearing rulings against Disney over 'The View' and TV licenses",
+      "body": "The FCC is reportedly close to issuing adverse rulings against Disney related to 'The View' programming and Disney's TV licenses, representing a potential regulatory headwind for the media giant.",
+      "tickers": [
+        "DIS"
+      ],
+      "source_item_ids": [
+        "x:2077444394370613526"
+      ]
+    },
+    {
+      "title": "MSFT: Microsoft and 3M announce AI data center infrastructure partnership",
+      "body": "Microsoft and 3M entered into a new strategic partnership focused on AI data center infrastructure and enterprise transformation. MSFT is also developing its own internal AI models alongside external partnerships.",
+      "tickers": [
+        "MSFT"
+      ],
+      "source_item_ids": [
+        "x:2077378715156140307",
+        "x:2077405698745405773"
+      ]
+    },
+    {
+      "title": "Semi sector: SMH -3.7% intraday; semis haven't dropped >2% on a Nasdaq-up day since Nov 2024",
+      "body": "The SMH semiconductor ETF fell 3.7% from the open despite indices starting higher, extending an unusual run of volatility. A technical note flags that semis have not been down more than 2% on any day when the Nasdaq finished higher since November 2024 \u2014 making today's action historically notable.",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "INTC",
+        "MU"
+      ],
+      "source_item_ids": [
+        "x:2077403961229722047",
+        "x:2077408229777109176"
+      ]
+    },
+    {
+      "title": "Macro: PPI -0.3% MoM (est. 0.0%), YoY +5.5% vs +6.2% est.; July rate hike odds collapse",
+      "body": "June PPI came in sharply below expectations at -0.3% MoM and +5.5% YoY (vs. +6.2% est.), following yesterday's soft CPI. The miss is large enough that market pricing for a July rate hike was effectively eliminated, though Fed Governor Cook signaled she needs to see disinflation materialize 'soon' before cutting and Warsh flagged ongoing inflation concerns. NY Empire State Manufacturing also beat at +15.6 vs. +9.2 est.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2077370556718932184",
+        "x:2077437584268239228"
+      ]
+    },
+    {
+      "title": "IREN: Appoints Eric Hammersley as Chief Information Security Officer",
+      "body": "IREN appointed Eric Hammersley as its new CISO to lead the company's security program. No financial guidance changes were disclosed alongside the announcement.",
+      "tickers": [
+        "IREN"
+      ],
+      "source_item_ids": [
+        "x:2077408381476933828"
       ]
     }
   ]
