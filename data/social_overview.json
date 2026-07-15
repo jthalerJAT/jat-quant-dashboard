@@ -1,224 +1,217 @@
 {
-  "digest_type": "eod",
-  "digest_dt": "2026-07-14T18:00:00-04:00",
-  "saved_at": "2026-07-14T22:31:31.058838+00:00",
+  "digest_type": "premarket",
+  "digest_dt": "2026-07-15T08:30:00-04:00",
+  "saved_at": "2026-07-15T14:05:09.799277+00:00",
   "bullets": [
     {
-      "title": "June CPI Shocker: Headline -0.4% MoM, Core Flat \u2014 Biggest Drop Since COVID",
-      "body": "June CPI fell 0.4% MoM (vs. -0.1% expected) and 3.5% YoY (vs. 3.8% expected); core CPI printed 0.0% MoM and 2.6% YoY, both below consensus. Supercore services dropped 0.2% MoM, the largest decline since the pandemic, while shelter rose just 0.1% MoM\u2014its smallest monthly gain since Jan 2021. 3-month annualized CPI collapsed from 8.2% to 2.8%.",
-      "tickers": [
-        "SPY"
-      ],
-      "source_item_ids": [
-        "x:2077007936774164525",
-        "x:2077012215660417272"
-      ]
-    },
-    {
-      "title": "Rate-Hike Odds Collapse to ~13-14% on CPI Miss; 2-Year Yield -10bps",
-      "body": "Short-term rate futures surged and 2-year Treasury yields fell 10bps after the CPI print, as traders slashed Fed rate-hike bets. Rate-hike probability for September fell to ~13-14%. SPY futures rose 0.3% immediately following the release; QQQ and IWM each gained ~1.5%.",
-      "tickers": [
-        "SPY"
-      ],
-      "source_item_ids": [
-        "x:2077013097798127828",
-        "x:2077010629756428727"
-      ]
-    },
-    {
-      "title": "Warsh: 'Mission Accomplished' Not My View; Fed Has 'No Tolerance' for High Inflation",
-      "body": "Fed Chair Warsh explicitly rejected the 'mission accomplished' inflation narrative after today's CPI data, calling the fight ongoing and troubling. He characterized inflation as a policy choice rather than an external force, pledged Fed independence, and signaled internal debate ('family fight') on the timing and extent of policy tools. UBS called his tone 'resolutely hawkish.'",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2077057003533291834",
-        "x:2077042625064931477"
-      ]
-    },
-    {
-      "title": "NVDA H200 Shipments to China Begin; Volume Described as 'Trivial' by Officials",
-      "body": "U.S. officials confirmed the first NVIDIA H200 GPU shipments to China and Hong Kong, with Commerce's Kessler calling the volume 'very few' and 'trivial.' The cleared licenses cover ~10 Chinese entities. Large-scale H200 shipments have not resumed; only small initial batches have cleared the licensing and customs pipeline after months of delays.",
+      "title": "NVDA: Vera Rubin on track; H200 shipments to China begin; AI factory capex scaling to $100B+",
+      "body": "NVIDIA CEO Huang confirmed Vera Rubin GPU is on schedule and already in production. Separately, a senior U.S. official confirmed H200 AI chip shipments to China have commenced. Morgan Stanley pegs 1 GW GB200/GB300/Vera Rubin buildout at $35\u201349B, with Jensen Huang suggesting next-gen AI factories could approach $100B per GW\u2014roughly double current estimates.",
       "tickers": [
         "NVDA"
       ],
       "source_item_ids": [
-        "x:2077043337610027182",
-        "x:2077046409841254506"
+        "x:2077306264774910071",
+        "x:2077178917908275526"
       ]
     },
     {
-      "title": "UBER in Advanced Talks to Acquire Delivery Hero for ~$13B at Significant Premium",
-      "body": "Uber is in advanced takeover discussions with German food-delivery company Delivery Hero, valued at just under $13B; Uber is planning to bid well above the recent trading price. UBER shares slipped ~2.5% intraday on the news.",
+      "title": "TSMC Q2 Thursday: +59% net profit, >68% gross margin expected; 2nm ramp with Google Pixel 11",
+      "body": "TSMC reports Q2 on July 16 with consensus expecting NT$1.27T revenue, net profit up 59% YoY to NT$632.6B (US$19.6B), and gross margin exceeding 68%\u2014the 10th consecutive quarter of profit growth. Samsung is mounting a 2nm counteroffensive. Separately, TSMC revenue reportedly surged 36% with Google Pixel 11 allegedly leading 2nm ramp adoption.",
       "tickers": [
-        "UBER"
+        "TSM"
       ],
       "source_item_ids": [
-        "x:2077039744496664961",
-        "x:2077029570356842830"
+        "x:2077293826507677842",
+        "x:2077150517579350499"
       ]
     },
     {
-      "title": "AAPL: KeyBanc Cuts to Underweight on Device Demand Weakness, AI Talks with PrismML",
-      "body": "KeyBanc downgraded Apple to underweight from sector weight, citing weaker device demand and slower US service revenue growth; shares were down ~1.1% premarket. Separately, Apple is in talks with startup PrismML about shrinking AI models to run natively on iPhone, a potential on-device inference play.",
-      "tickers": [
-        "AAPL"
-      ],
-      "source_item_ids": [
-        "x:2077017410100658338",
-        "x:2077077420868505660"
-      ]
-    },
-    {
-      "title": "META: Bearish Options Flow Dominates; AI Layoff Targeting Allegations Add Legal Risk",
-      "body": "META carried the most bearish options flow of any tracked name during the session. The company also faces a Reuters-reported lawsuit alleging it used AI-powered software to identify workers with medical conditions for mass layoffs\u2014raising potential discrimination liability.",
-      "tickers": [
-        "META"
-      ],
-      "source_item_ids": [
-        "x:2077060504384647620",
-        "x:2077039664847028642"
-      ]
-    },
-    {
-      "title": "NVDA + SMCI: AMD Helios/Vera Rubin AI Infrastructure Update; Supermicro CEO Color",
-      "body": "Supermicro CEO discussed next-gen AI server infrastructure: AMD Helios has public customer traction with no pushback on double-wide racks; Vera Rubin mentioned as key upcoming product. Global supply chain is operational across US, Asia, and Europe. Storage (PCIe Gen 6, KV cache offload, software-defined) emerging as primary design consideration. NVDA also partnering with Mitsubishi Heavy on data center cooling and power.",
-      "tickers": [
-        "SMCI",
-        "AMD",
-        "NVDA"
-      ],
-      "source_item_ids": [
-        "x:2077070734124281997",
-        "x:2077038207091524050"
-      ]
-    },
-    {
-      "title": "HUBS: Negative Channel Check \u2014 Tracking 10-15% Below Plan",
-      "body": "A RayJay analyst flagged HubSpot tracking 10-15% below plan for the current period. Enterprise SaaS peers including WDAY, TEAM, and NOW also sold off following IBM's negative preannouncement, which spooked the sector.",
-      "tickers": [
-        "HUBS",
-        "TEAM",
-        "NOW"
-      ],
-      "source_item_ids": [
-        "x:2077065869436325932",
-        "x:2077022105548308521"
-      ]
-    },
-    {
-      "title": "MU: Whale Loaded $16.3M in Short-Dated Calls Pre-Close; +40% Overnight, $6.5M Gain",
-      "body": "A large whale accumulated $16.3M in short-dated Micron calls less than an hour before the prior session's close; MU gapped up overnight and the position gained 40%, netting ~$6.5M. A separate source flagged continued whale accumulation on an intraday basis.",
+      "title": "MU hits $1.1T market cap; SLC NAND seen surging 120-170% in H2 2026; bullish options flow",
+      "body": "Micron's market cap closed above $1.1 trillion, surpassing Berkshire Hathaway. SLC NAND is forecast to rise 120\u2013170% in H2 2026 per Trendforce, with MU holding a 21% share. One trader flagged MU order flow as 'incredibly BULLISH all day,' and noted a head-and-shoulders undercut as a potential short-squeeze setup for the broader semiconductor sector.",
       "tickers": [
         "MU"
       ],
       "source_item_ids": [
-        "x:2077028650570936341",
-        "x:2077038724827726223"
+        "x:2077167697553416439",
+        "x:2077228758491386121"
       ]
     },
     {
-      "title": "TSEM: Japan-Backed 300mm SiPho/SiGe Expansion Announced; CPO Delay Flagged",
-      "body": "Tower Semiconductor announced a Japanese government-backed expansion of 300mm Silicon Photonics, Silicon Germanium, and advanced packaging capacity targeting $1.2B net profit. However, a separate tweet flagged a CPO (customer product order) delay as a near-term headwind. MRVL and TSEM are also being called out as a 'winner couple in AI Photonics.'",
-      "tickers": [
-        "TSEM",
-        "MRVL"
-      ],
-      "source_item_ids": [
-        "x:2077039373711970804",
-        "x:2077025635235422362"
-      ]
-    },
-    {
-      "title": "ORCL: Down 30.5% Over Past Month, Trading at 1-Year Lows",
-      "body": "Oracle has plunged 30.5% over the past month and is now trading at a 1-year low. No new negative catalyst flagged in the window; stock appears to be reflecting macro/sector re-rating pressure.",
+      "title": "ORCL: FCF hits historic low; stock at 52-week lows, down 62% from peak",
+      "body": "Oracle's free cash flow has plummeted to the lowest level in company history. ORCL has fallen 62% from its September 2025 all-time high, erasing over $500 billion in market cap. The stock hit new 52-week lows intraday; Tradr is launching a 2X Short ORCL Daily ETF (ORCZ) on July 15. Separately, FT reports Oracle is the lead contender to provide top-secret cloud services to Japan's government.",
       "tickers": [
         "ORCL"
       ],
       "source_item_ids": [
-        "x:2077028724726186483",
-        "x:2077027966471606746"
+        "x:2077227762759172341",
+        "x:2077120517580923231"
       ]
     },
     {
-      "title": "AVGO: Broadcom Revenue Could Double via MediaTek Integration by Decade's End",
-      "body": "A fintwit analyst with semiconductor industry contacts argues that Broadcom's revenue could grow significantly through the MTK acquisition, potentially doubling MediaTek's current business size by end of the decade. Industry concerns about margin pressure are characterized as overblown.",
+      "title": "META: Q2 earnings July 29; 5GW Louisiana data center prioritizes grid over silicon; AI price war favors well-capitalized players",
+      "body": "Meta confirmed Q2 earnings after close July 29. A tech infrastructure thread highlighted Meta's 5GW Louisiana campus as prioritizing grid power access over chip availability as the primary AI compute constraint. Separately, an analyst initiated deeper META coverage with an AI-to-ARPU model, positioning it as an ads company building a token factory alongside potential compute/API revenue.",
       "tickers": [
-        "AVGO"
+        "META"
       ],
       "source_item_ids": [
-        "x:2077069447102403061"
+        "x:2077122645011648522",
+        "x:2077120949129040323"
       ]
     },
     {
-      "title": "AMZN: Anthropic Stake 'Not Reflected' in Current Valuation; $3T Hypothetical = 20% of AMZN MCap",
-      "body": "A fintwit analyst argues Anthropic's value is not priced into AMZN. If Anthropic IPO'd at $3T, AMZN's stake would represent ~20% of its current market cap\u2014and a 'normal' multiple on AWS alone could already justify AMZN's full valuation, implying Anthropic is essentially free in the stock.",
-      "tickers": [
-        "AMZN"
-      ],
-      "source_item_ids": [
-        "x:2077013308318617761"
-      ]
-    },
-    {
-      "title": "NY State Data Center Moratorium: Analysts Discount Impact, Cite Executive Order Reversibility",
-      "body": "New York became the first state to impose a one-year data center moratorium via executive order (not law). A JMP Citizens analyst and other fintwit voices argue it can be reversed and that the US market is large enough to absorb 25+ state-level moratoriums without material capacity impact.",
+      "title": "Data center buildout faces mounting headwinds: $286B canceled/delayed, PJM 7GW shortfall, NY moratorium",
+      "body": "An estimated $156B in data center projects were canceled or delayed in 2025, with another $130B in Q1 2026 amid community pushback and new moratoriums. PJM failed to secure 7GW needed for 2028 grid stability; without price caps, electricity would clear 70% higher at ~$555/MWh. New York became the first state to impose a one-year ban on new hyperscale data centers (\u226550MW), and state-level moratorium bills are spreading. For the first time, a majority of Americans oppose building more data centers.",
       "tickers": [],
       "source_item_ids": [
-        "x:2077076371277291868",
-        "x:2077038284954305008"
+        "x:2077238770118595070",
+        "x:2077244355115655271"
       ]
     },
     {
-      "title": "SPY Options: $1.6B Call Wall at 757, $375M Dark Pool Print; Positive Gamma Absorbing Volatility",
-      "body": "SPY's largest call wall sits at 757 with $1.6B notional; a $375M dark pool print was also flagged. Positive gamma exposure continues to increase, providing shock absorption against volatility. The call wall has since moved up to 760 with $1.4B notional.",
+      "title": "SEMI raises 2026 equipment forecast to $165.9B (+23%); semiconductor stocks hit 20% of S&P 500",
+      "body": "SEMI raised its global semiconductor equipment sales forecast to $165.9B for 2026, up 23.2% YoY and well above its prior estimate of $145B, citing strong AI-driven demand for leading-edge logic, memory, and advanced packaging. Separately, semiconductor stocks now account for 20% of the S&P 500 weighting\u2014an all-time high.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2077287724403601426",
+        "x:2077306835288109480"
+      ]
+    },
+    {
+      "title": "VIAV flagged as testing-sector play similar to AEHR; silicon photonics burn-in entering high-volume production",
+      "body": "A fintwit account recommended VIAV as a similar play to AEHR in the testing process, noting 'different part of the testing process' but positive on current levels. Separately, silicon photonics burn-in has moved from qualification to automated high-volume production, a bullish signal for optical interconnect supply chain names AVGO, LITE, and COHR.",
       "tickers": [
-        "SPY"
+        "VIAV",
+        "AVGO",
+        "LITE",
+        "COHR"
       ],
       "source_item_ids": [
-        "x:2077040627997352339",
-        "x:2077075304233705720"
+        "x:2077242933003309175",
+        "x:2077175993631211883"
       ]
     },
     {
-      "title": "Macro AI Phase Shift: From Infrastructure Trade to Model-Lab Trade in 2026",
-      "body": "An analyst argues the 2023-2025 AI trade was infrastructure-focused (TSMC, NVDA, memory, power). In 2026, value capture is shifting to model labs\u2014Anthropic ARR has grown from $9B at end-2024 to $44B+ YTD. AI labs can now cut sticker prices while protecting unit economics, pressuring downstream infrastructure margins.",
+      "title": "SNDK and MU seen as HBF beneficiaries; HBM4 timing and silicon photonics ramp discussed",
+      "body": "One account suspects High Bandwidth Fabric (HBF) is being deployed for generative AI data centers, with AEHR validating the technology with customers on its second earnings call\u2014implying SNDK and MU as key beneficiaries. The broader GAI infrastructure trade (NVDA, MU, SNDK, LITE) described as a structural winner regardless of market volatility.",
       "tickers": [
+        "SNDK",
+        "MU",
         "NVDA",
-        "TSEM",
-        "GEV"
+        "LITE"
       ],
       "source_item_ids": [
-        "x:2077031015978025101",
-        "x:2077070734124281997"
+        "x:2077158078135586970",
+        "x:2077095729659568344"
       ]
     },
     {
-      "title": "NBIS: $1B+ Compute Deal with Reflection AI Announced; Stock Falls 5% on News",
-      "body": "Nebius signed a $1B+ compute agreement with Reflection AI for GB300 GPU access through 2029. Reflection AI also signed a multi-billion dollar deal with SpaceX. Despite the announcement, NBIS fell 5% on the news, raising questions about deal quality or market skepticism on contract economics.",
+      "title": "TSEM planning $3B Japan expansion for silicon photonics and advanced packaging",
+      "body": "TSEM is planning a $3B expansion in Japan focused on 300mm silicon photonics capacity, silicon germanium, and advanced packaging\u2014directly aligned with AI interconnect demand.",
       "tickers": [
-        "NBIS"
+        "TSEM"
       ],
       "source_item_ids": [
-        "x:2077044786402660829",
-        "x:2077028063037055134"
+        "x:2077178988011934142"
       ]
     },
     {
-      "title": "GOOGL: Commits to 100% of Output from 1.6GW Arkansas Solar Project Starting 2029",
-      "body": "Google agreed to purchase the entire energy output from Steel River Energy Center in Arkansas\u2014a 1.6GW solar facility expected to begin operations in 2029, described as the biggest solar project of its kind to break ground in the US.",
+      "title": "Intel Foundry secures AMD, NVIDIA, OpenAI design wins on 18A/14A; EMIB yields hit 98%",
+      "body": "Intel Foundry booked design wins from AMD, NVIDIA, and OpenAI on its 18A and 14A process nodes. EMIB (embedded multi-die interconnect bridge) technology has reached 98% yields, a meaningful milestone for advanced packaging credibility.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2077110236863701320"
+      ]
+    },
+    {
+      "title": "GOOGL: Android settlement with Epic allows third-party app stores; MediaTek wins Pixel 11 5G modem over Qualcomm",
+      "body": "Google and Epic settled their dispute, with third-party Android app stores launching the following week\u2014a significant change to Android's app distribution model. Separately, Google selected MediaTek over Qualcomm and Samsung for 5G modem chips in the upcoming Pixel 11, per supply chain sources, as MediaTek expands its standalone modem footprint.",
       "tickers": [
         "GOOGL"
       ],
       "source_item_ids": [
-        "x:2077006758871027856"
+        "x:2077235128498282826",
+        "x:2077213241563058449"
       ]
     },
     {
-      "title": "Geopolitical Escalation: Iran Attacks Kuwait/Bahrain; Oil Futures Volatile; Hormuz Clarified",
-      "body": "Iran fired missiles and drones at Kuwait and Bahrain, with multiple explosions reported on Qeshm Island. Oil futures spiked then pared gains after Trump clarified the Strait of Hormuz remains open to all shipping except Iran and replaced the proposed 20% cargo fee with trade deals. WTI briefly turned negative before recovering near $78-79/bbl.",
+      "title": "BofA sell signal triggered as fund managers at most long since December 2024; cash at 3.6%",
+      "body": "Bank of America warns a stock market sell signal has been triggered after fund manager cash levels fell to 3.6%, one of the lowest levels this century. Separately, fund managers are now the most long stocks since December 2024, and the top 10 S&P 500 stocks make up 43% of total index weight\u2014approaching historical concentration peaks.",
       "tickers": [],
       "source_item_ids": [
-        "x:2077088978163876350",
-        "x:2077048423220478116"
+        "x:2077271770671792203",
+        "x:2077301434433827278"
+      ]
+    },
+    {
+      "title": "China Q2 GDP misses at 4.3% YoY, slowest since 2022; mixed data with industrial output beat",
+      "body": "China's Q2 GDP grew 4.3% YoY, missing the 4.5% consensus and well below 5% prior\u2014the slowest pace since 2022. June industrial production beat at 5.3% YoY vs 4.6% estimate, and retail sales turned positive at +1.0% vs -0.1% estimate. Fixed investment fell 5.7% YTD, worse than expected. DeepSeek reportedly planning IPO as early as Q2 2025 and raised $7.4B, with ARR approaching $500M.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2077212158694441230",
+        "x:2077216064048402900"
+      ]
+    },
+    {
+      "title": "Hyperscaler bond spreads at record wides; Morgan Stanley projects $4\u20138T capex through 2028",
+      "body": "Hyperscaler bond basket spreads widened to record levels, signaling credit stress in mega-cap tech. Morgan Stanley projects 80GW of new compute capacity by 2028 requiring $4\u20138T in capex funded via debt and equity issuance, with free cash flow expected to turn negative during this period.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2077253295920357588",
+        "x:2077252521488224738"
+      ]
+    },
+    {
+      "title": "Soft June CPI drives rate-hike odds below 17%; headline CPI posts one of largest MoM drops in 80 years",
+      "body": "July Fed rate hike odds collapsed from over 40% to under 17% in a single day following the June CPI print. The headline CPI monthly decline was among only the 21st occurrence in 80 years of a \u22650.4% MoM drop. The euro rallied above 1.1400 and Asian stocks surged\u2014KOSPI +6%, SK Hynix +10%\u2014on the data.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2077147128304927034",
+        "x:2077091317117550902"
+      ]
+    },
+    {
+      "title": "VST, CEG, TLN: PJM capacity auction shortfall seen as structural positive for merchant power",
+      "body": "A fintwit account notes the PJM 2028/2029 capacity auction shows a massive shortfall, arguing merchant power names CEG, VST, and TLN should trade up on the tight capacity outlook\u2014though the author flags 18 months of being wrong on similar setups. Talen Energy cleared 10,180 MW at $325/MW-day, implying ~$1.2B gross capacity revenue for the 2028/2029 planning year.",
+      "tickers": [
+        "VST",
+        "TLN",
+        "CEG"
+      ],
+      "source_item_ids": [
+        "x:2077188293666709794",
+        "x:2077188304039203229"
+      ]
+    },
+    {
+      "title": "GEV: New gas turbine orders blocked until 2030, structural demand tailwind",
+      "body": "A fintwit account flagged that new gas turbine deliveries are unavailable until 2030, a structural demand tailwind for GEV as power infrastructure investment accelerates.",
+      "tickers": [
+        "GEV"
+      ],
+      "source_item_ids": [
+        "x:2077200346330575348"
+      ]
+    },
+    {
+      "title": "AMZN deploys novel RNG network topology for data center infrastructure, claiming 45% cost savings",
+      "body": "Amazon unveiled 'Resilient Network Graphs' (RNG) topology for its data center network, based on random graphs rather than traditional fat-tree architecture. The company developed a custom routing protocol (Spraypoint) and claims up to 45% cost savings vs fat-tree networks at similar oversubscription ratios. Amazon has deployed two versions of RNG to date.",
+      "tickers": [
+        "AMZN"
+      ],
+      "source_item_ids": [
+        "x:2077136305411002461",
+        "x:2077136297336975416"
+      ]
+    },
+    {
+      "title": "AAPL: Jony Ive design work criticized; iPhone builds seen slowing in 2027; 20% global smartphone share",
+      "body": "Apple reached 20% global smartphone market share, but a new supply chain report warns iPhone builds are expected to slow in 2027 amid price increases and weak US upgrade cycles. Jony Ive's recent design output was publicly criticized by a verified tech commenter. Separately, OpenAI dismissed Apple's lawsuit alleging trade secret violations related to its home speaker product.",
+      "tickers": [
+        "AAPL"
+      ],
+      "source_item_ids": [
+        "x:2077148441881333770",
+        "x:2077132804492583177"
       ]
     }
   ]
