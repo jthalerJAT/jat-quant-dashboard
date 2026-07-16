@@ -1,222 +1,209 @@
 {
-  "digest_type": "midday",
-  "digest_dt": "2026-07-16T12:00:00-04:00",
-  "saved_at": "2026-07-16T16:27:34.356769+00:00",
+  "digest_type": "eod",
+  "digest_dt": "2026-07-16T18:00:00-04:00",
+  "saved_at": "2026-07-16T22:30:27.245543+00:00",
   "bullets": [
     {
-      "title": "TSMC smashes Q2, raises FY26 guide to >40% rev growth; capex jumps to $60-64B",
-      "body": "TSMC reported Q2 EPS of $4.31 (beat vs $3.95 est), revenue $40.2B (beat vs $39.3B est), and Q3 guide of $45.2B vs $43B consensus. FY26 revenue growth guidance raised to >40% YoY (vs prior >30%), capex raised to $60-64B from $52-56B on AI demand and higher equipment costs. N2 ramp diluting 2H gross margins by 3-4pts, guiding Q3 GM to ~66% vs 67.7% in Q2 \u2014 the one blemish. TSMC also announced an additional $100B Arizona investment for 2nm fabs, bringing total US commitment to $265B.",
+      "title": "Fed hawks warn rates too low; inflation path to 2% requires more restriction",
+      "body": "Dallas Fed's Logan stated inflation is not sustainably returning to 2% on its current path and that modestly higher rates would better balance risks\u2014one month of lower CPI is insufficient evidence. Separately, Kansas City Fed's Schmid called inflation 'persistent across a broad range of goods and services' and pushed back on treating price rises as transitory shocks. Both officials noted the labor market is well-balanced or strengthening, removing the argument for imminent cuts.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2077807557402644501",
+        "x:2077807904246370543"
+      ]
+    },
+    {
+      "title": "Fed's Logan: AI investment surge risks nonlinear inflation; data centers add to power demand pressure",
+      "body": "Logan flagged that the AI investment boom could trigger nonlinear price increases, with demand effects already present while productivity benefits may take years to materialize. She also noted data-center electricity demand will add modest inflationary pressure, and that U.S. oil export growth is being driven by inventory drawdowns rather than new production, constraining supply response despite elevated prices.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2077807668320985360",
+        "x:2077811717434941576"
+      ]
+    },
+    {
+      "title": "July Philly Fed Manufacturing surges to 41.4 vs. 12.5 estimate\u2014highest since Nov 2021",
+      "body": "The Philadelphia Fed Business Outlook jumped to +41.4 in July against consensus of +12.5 and prior reading of +10.3, with new orders at +37, shipments +33.7, employment +10, and prices paid edging to +53.9. The broad beat signals strong regional manufacturing momentum, though rising prices paid adds to inflation concerns flagged by Fed speakers.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2077742810250568146",
+        "x:2077733171572150392"
+      ]
+    },
+    {
+      "title": "Jobless claims beat at 208K; labor market resilience intact",
+      "body": "Initial jobless claims fell to 208K for the week\u2014a 2-month low\u2014versus 217K consensus and 216K prior. Continuing claims also came in below estimates at 1.805M vs. 1.818M expected. The data reinforces the Fed hawks' view that the labor market is not deteriorating and provides no cover for near-term rate cuts.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2077734397499904127",
+        "x:2077732800053051497"
+      ]
+    },
+    {
+      "title": "Retail sales in-line at +0.2% but ex-auto and control group decelerate sequentially",
+      "body": "June retail sales met the +0.2% m/m consensus, with the prior month revised up to +1.0%. However, ex-autos and gas slipped to +0.4% vs. +0.8% prior, and the control group decelerated to +0.5% vs. +0.8%\u2014suggesting consumer momentum is cooling at the margin even as headline spending holds up. Motor vehicles/parts +1.9% and e-commerce +1.9% were bright spots; gas stations -5.3%.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2077733633389990051",
+        "x:2077732681404571680"
+      ]
+    },
+    {
+      "title": "Housing data deteriorates sharply: pending home sales -5.4% vs. -0.5% estimate; NAHB misses",
+      "body": "June pending home sales collapsed 5.4% month-over-month versus -0.5% consensus and +3.5% prior\u2014a significant miss signaling housing demand weakness. The July NAHB Housing Market Index also disappointed at 34 vs. 35 estimate and prior 36, with single-family sales and buyer traffic both declining. The 30-year mortgage rate hit 6.55%, its highest since August 2025, compounding affordability pressure; mortgage applications fell 2.7% week-over-week.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2077768162091647188",
+        "x:2077789800757608686"
+      ]
+    },
+    {
+      "title": "Semiconductor sector under pressure: SMH down 5%, breaking below May highs; Nasdaq-SOX divergence flagged",
+      "body": "The semiconductor index fell another 5% to break below its initial May highs, though it remains up ~53% year-to-date. The prior session saw the rare combination of Nasdaq +0.5% while SOX fell 2%+\u2014a historically unusual divergence since 2010. Multiple large-cap semis moved below their 50-day moving averages, though NVDA has been the notable outperformer. Goldman also cut its global PC shipment forecast citing a memory chip crunch derailing the upgrade cycle.",
+      "tickers": [
+        "NVDA",
+        "MU",
+        "INTC",
+        "AMD"
+      ],
+      "source_item_ids": [
+        "x:2077811755313705386",
+        "x:2077748608711983132"
+      ]
+    },
+    {
+      "title": "South Korean market turmoil: 1-in-30 retail investors margin-called, regulator suspends leveraged ETFs",
+      "body": "Goldman Sachs reported over 1.2 million leveraged Korean retail accounts triggered margin calls as of July 13, with 320K\u2013360K accounts fully liquidated. Korean stock market volatility now exceeds levels seen during the GFC and the 1997\u201398 Asian financial crisis. The regulator suspended new single-stock leveraged ETF listings and raised margin requirements. Goldman advises clients to rotate out of Korea and into the Chinese AI value chain.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2077771238609461547",
+        "x:2077763695992525128"
+      ]
+    },
+    {
+      "title": "US-Iran military conflict escalates: strikes near Bandar Abbas and Qeshm; Hormuz and Bab el-Mandeb closure risks rise",
+      "body": "Iranian media reported U.S. missile strikes near Bandar Abbas and Qeshm Island\u2014the fifth consecutive day of U.S. strikes. Iran warned of 'infrastructure for infrastructure' retaliation and declared Strait of Hormuz control an 'unbreakable red line.' The White House confirmed a full Hormuz blockade is in force and reported Iran struck U.S. bases in Kuwait and Jordan. Separately, Iran reportedly instructed Houthis to prepare Bab el-Mandeb closure if the U.S. targets Iranian power infrastructure.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2077729340930867531",
+        "x:2077743832901341692"
+      ]
+    },
+    {
+      "title": "Oil near $85/bbl; diesel hits $5/gallon nationally\u2014inflation risk building in supply chain",
+      "body": "Brent crude recovered from ~$70 at the start of the month to $85/bbl before dipping back slightly; the White House cited U.S. actions for a 'stable oil market' but geopolitical risk remains elevated. National average diesel prices crossed $5/gallon per GasBuddy, threatening to reverse recent inflation relief across consumer goods including food and lumber. U.S. natural gas storage declined sharply to 41B cu ft vs. 61B prior week.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2077768869276524650",
+        "x:2077754871512465883"
+      ]
+    },
+    {
+      "title": "Gold falls below $4,000/oz; silver crashes 54% from ATH and hits 7.5-month low",
+      "body": "Spot gold broke below $4,000/oz (last -2% at $3,981) as safe-haven positioning unwound. Silver simultaneously crashed to its lowest level in 7.5 months, down approximately 54% from all-time highs, with high retail participation in the position. Wells Fargo upgraded commodities to 'Favorable' from Neutral in the same session.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2077739096114409479",
+        "x:2077753639439937729"
+      ]
+    },
+    {
+      "title": "TSMC Q2: 25% revenue growth to $39.9B; raises FY guidance; stock sells off on 'triple play'",
+      "body": "TSMC reported its fourth consecutive 'triple play' (beating revenue, operating, and net income) with Q2 revenue up ~25% YoY to $39.9B from $31.9B. The company raised both full-year revenue and capex guidance and cited the AI cycle's expansion from accelerators to full-stack infrastructure. Revenue mix: 66% HPC, 22% smartphone, 12% other. Despite strong results and 67.7% gross margin, shares traded lower in a familiar beat-and-decline pattern.",
       "tickers": [
         "TSM"
       ],
       "source_item_ids": [
-        "gmail:19f6b1b6259509ea",
-        "x:2077711615722447125"
+        "x:2077733807684555101",
+        "x:2077765491603734880"
       ]
     },
     {
-      "title": "AI capex momentum unwind: semis/SOX -2%+ despite TSMC strength; memory hardest hit",
-      "body": "Despite TSMC's fundamental beat, the SOX and networking indices fell 2-5% as markets digested elevated expectations and gross margin miss. Memory names led the decline: HYNIX -10%, SAMSUNG -7%, KIOXIA -15% overnight; MU -4.7%, WDC -7.3%, SNDK -6.8%, STX -6.1% pre-market. MS notes a tech momentum index down -24% since June 22, below historical peak-to-trough median. Semi-cap equipment also under pressure (LRCX -3.7%, AMAT -3.3%, COHR -5.1%).",
-      "tickers": [
-        "MU",
-        "SNDK",
-        "WDC",
-        "STX",
-        "COHR",
-        "AMD",
-        "INTC",
-        "AVGO",
-        "MRVL"
-      ],
-      "source_item_ids": [
-        "gmail:19f6b480f1ee9a0c",
-        "gmail:19f6b14d8687e425"
-      ]
-    },
-    {
-      "title": "Memory is the next AI binding constraint; agentic AI could drive 26-77% of incremental DRAM demand by 2030",
-      "body": "Morgan Stanley estimates memory could rise from 12% of cloud capex in 2023 to 40% by 2027 as the AI bottleneck shifts from compute to memory. Goldman Sachs separately sees AI agents driving a 24x increase in token consumption by 2030, worsening near-term chip shortages over the next 12-18 months. Bipartisan US lawmakers are pushing the Trump administration to ban US purchases of Chinese memory chips from CXMT and YMTC.",
-      "tickers": [
-        "MU",
-        "SNDK",
-        "WDC"
-      ],
-      "source_item_ids": [
-        "gmail:19f6b480f1ee9a0c",
-        "x:2077719141809598762"
-      ]
-    },
-    {
-      "title": "NVDA CEO Huang: 'We are still at the beginning of the cycle'; Japan AI factory with 27,500 Rubin GPUs announced",
-      "body": "Nvidia CEO Jensen Huang reiterated the industry is early-cycle at today's event, implying extended AI demand runway. Simultaneously, NVDA announced a partnership with Noetra to build Japan's national AI factory deploying 13,750 Vera CPUs and 27,500 Rubin GPUs at 140MW capacity \u2014 described as the first national-scale AI factory of its kind globally. Oppenheimer also highlighted NVDA's 2H VR200 ramp extending its performance lead.",
+      "title": "Nvidia CEO: 'We are at the beginning of the AI cycle'; Japan building national AI factory with 27,500 Rubin GPUs",
+      "body": "Jensen Huang, speaking in Tokyo, stated the AI boom is still in its early stages. Separately, Japan announced it is building the world's first national AI factory featuring 27,500 Nvidia Rubin GPUs, 13,750 Vera CPUs, and 140 MW of data center capacity. Nvidia remains the clearest positive public-market read-through for AI infrastructure, with the Thinking Machines Inkling model requiring GB300/NVL72 multi-GPU configurations.",
       "tickers": [
         "NVDA"
       ],
       "source_item_ids": [
-        "x:2077704917763100808",
-        "x:2077714773903299014"
+        "x:2077784572797002239",
+        "x:2077794639298404510"
       ]
     },
     {
-      "title": "Citi raises GOOGL/META/AMZN 2027 capex projections 12-22%; hyperscalers collectively on track for $725B+ spend",
-      "body": "Citi raised GOOGL 2027E capex by ~21% to $308B (stronger TPU/GCP demand, negative FCF by '27-'28), META by ~22% to $205B (~14GW compute capacity), and AMZN by ~12% to $288B. AWS projected +32.5% YoY in Q2 and +40% YoY in 2027. MS pegs 2027 AI capex consensus at $1.1T, with Goldman expecting hyperscaler capex increases likely in 2027. JPM notes the four biggest US AI operators expected to spend $725B+ this year.",
+      "title": "EU orders Google to open Android and Search to rivals; structural remedy imposed",
+      "body": "The EU issued a formal order requiring Google to open its Android platform and Search capabilities to competitors, following antitrust findings on dominance in search and AI markets. The mandate is structural and enforceable. Separately, Google is rebranding NotebookLM as Gemini Notebook and expanding its Gemini app with personalized avatar features, and announced an Intel partnership to deploy Gemini Enterprise across Intel's enterprise operations.",
       "tickers": [
         "GOOGL",
-        "META",
-        "AMZN"
+        "INTC"
       ],
       "source_item_ids": [
-        "gmail:19f6b09a38d18379",
-        "gmail:19f6b2d60695cf1d"
+        "x:2077727952431894625",
+        "x:2077726283715449120"
       ]
     },
     {
-      "title": "US macro backdrop solid across the board: retail sales, jobless claims, Philly Fed all beat",
-      "body": "June retail sales rose 8.4% YoY (control group +0.54% MoM, 6.4% YoY), with sporting goods +17.8%, e-commerce +18%, consumer electronics +10.5%. Initial jobless claims fell to 208K (2-month low), 13-week average down 8.3% YoY. Philly Fed manufacturing surged 31pts MoM to an ISM-equivalent of 58.1, highest since late 2021; Empire State manufacturing ISM-adjusted hit 57.5. Morgan Stanley revised 2Q real consumption up 0.3pt to 2.4% and 2Q GDP up 0.2pt to 1.7%.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19f6b422ec7d2468",
-        "gmail:19f6b09a38d18379"
-      ]
-    },
-    {
-      "title": "PPI goods fell sharply m/m in June; portfolio management component soft, lowering PCE estimates",
-      "body": "June PPI saw a massive m/m decline in goods while services ticked modestly higher. The portfolio management sub-component came in surprisingly soft, pulling PCE price index estimates lower. Despite the benign headline, prices for processed intermediate materials continue to rise rapidly, suggesting consumer goods inflation could accelerate in coming months. El-Erian separately commented that 'most of the inflation we were worried about is now in the rearview mirror.'",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2077718056789233818",
-        "x:2077690375305634294"
-      ]
-    },
-    {
-      "title": "South Korea BOK hikes 25bps to 2.75% amid stagflation; Kospi plunges 6.4%, DRAM sector -25.2% from peak",
-      "body": "The Bank of Korea raised rates for the first time in 3.5 years (+25bps to 2.75%), triggering a 6.4% Kospi decline overnight. Hedgeye notes the DRAM sector is now down 25.2% from its cycle peak. South Korean regulators also unveiled curbs on high-risk ETFs, adding to the pressure on speculative semiconductor and AI names.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2077688284600316035",
-        "x:2077697104642806154"
-      ]
-    },
-    {
-      "title": "Middle East escalation: Iran instructs Houthis to prepare to close Bab el-Mandeb Strait; Brent at $84",
-      "body": "Iran reportedly instructed Yemen's Houthis to prepare to close the Bab el-Mandeb Strait \u2014 which carries 10-12% of global maritime trade \u2014 if the US strikes Iranian power infrastructure. Iraq halted all oil loadings at Basra terminals after a drone hit a tanker (no damage). Brent crude fell 1% to $84.07/bbl as traders weigh conflict risk. Gold fell nearly 1% to $4,024/oz.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2077723337069891910",
-        "x:2077716413301883036"
-      ]
-    },
-    {
-      "title": "$2.8T in notional OI expiring in record monthly OPEX; VIX at floor levels, hedging complacent",
-      "body": "This morning marks the largest monthly options expiration on record with $2.8 trillion in notional open interest set to expire. VIX sits at historical floor levels \u2014 15.97 per pre-market data \u2014 with QQQ implied vol at a -15% discount despite NASDAQ only -3.1% from all-time highs. 22V recommends August VIX and TLT calls as cheap vol hedges into Mag 7 earnings next week.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2077693228141179114",
-        "gmail:19f6b014f2905d69"
-      ]
-    },
-    {
-      "title": "Tech rotation is 42 days into an average 201-day cycle; Mag 7 earnings (GOOGL Jul 22, MSFT/META Jul 29) are next key catalyst",
-      "body": "Historical precedent across 9 rotations since 2000 shows tech sector rotations averaging 201 days, suggesting ~4 more months before capital flows back to tech. Hyperscaler earnings represent the dominant near-term catalyst: GOOGL reports July 22, TSLA/TXN also July 22, MSFT and META July 29. 22V recommends staying low-conviction long Momentum and Semis into these prints with Value as a structural hedge given its 2nd-percentile correlation to Momentum.",
+      "title": "Mag 7 diverges from semiconductors: GOOGL and MSFT lead premarket while NVDA lags",
+      "body": "Premarket moves showed Alphabet +1.3%, Microsoft +1.3%, Amazon +0.7%, Apple +0.4%, Meta +0.3%, Tesla -0.2%, and Nvidia -1.5%, illustrating a clear Mag 7 vs. semiconductor rotation. Goldman traders characterized the AI market as a 'rubber band' stretched to breaking point, and market observers noted Mag 7 is rising while SOX falls with CAPEX cut announcements anticipated.",
       "tickers": [
         "GOOGL",
-        "META",
         "MSFT",
-        "TSLA"
-      ],
-      "source_item_ids": [
-        "x:2077691962829000857",
-        "gmail:19f6b014f2905d69"
-      ]
-    },
-    {
-      "title": "TSMC Arizona $100B incremental capex confirmed; NVDA H200 chips entering China market after 6-month delay",
-      "body": "TSMC's additional $100B Arizona investment (2nm and below) was confirmed by the US Commerce Department. Separately, Hedgeye reports NVDA H200 chips approved for China in January 2026 are now entering market: ~200K units at $30K/chip premium = $6B gross sales, $4.5B net after US government tax, $2.7B gross profit. Chinese H200 grey market rental rates trending higher, justifying premium pricing.",
-      "tickers": [
-        "NVDA",
-        "TSM"
-      ],
-      "source_item_ids": [
-        "gmail:19f6b72b7608fd1d",
-        "x:2077722043902984517"
-      ]
-    },
-    {
-      "title": "JPM macro outlook: structurally firmer inflation, higher term premium, tech sovereignty as new regulatory battleground",
-      "body": "JPMorgan's 2H26 strategic themes note identifies structurally firmer inflation and higher term premium as leaving less room for policy errors, with financial stability risks migrating to funding markets and non-banks. Deregulation is characterized as a tailwind while tech sovereignty is the new regulatory battlefield. The firm sees deficits, deregulation, and de-carbonization as the three fastest-accelerating structural forces, and warns retail's larger S&P 500 footprint amplifies downside feedback loops.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19f6b4cc5052c5d0",
-        "gmail:19f6b036899def03"
-      ]
-    },
-    {
-      "title": "EU forces Google to share search data with competitors by Jan-27 and enable Android AI interoperability by Jul-27",
-      "body": "The European Commission issued two legally binding specifications under the Digital Markets Act requiring Google to share search data with eligible search engine providers starting January 2027 and to enable Android AI interoperability by July 2027. Separately, Meta was ordered to change addictive features on Facebook and Instagram, and Alphabet/Microsoft face proposed UK cloud services oversight.",
-      "tickers": [
-        "GOOGL",
+        "AMZN",
+        "AAPL",
         "META",
-        "MSFT"
+        "TSLA",
+        "NVDA"
       ],
       "source_item_ids": [
-        "gmail:19f6b05037d05227",
-        "gmail:19f6b5ec1b04c8d8"
+        "x:2077727715105361936",
+        "x:2077776550842237318"
       ]
     },
     {
-      "title": "Housing data weak: NAHB at 10-month low, pending home sales -5.4%, mortgage apps -2.7%",
-      "body": "The July NAHB Housing Market Index fell to 34, tying its 10-month low, with all three sub-components declining. June pending home sales dropped 5.4% MoM vs. consensus -0.5%. Mortgage applications fell 2.7% WoW, with purchase applications down 7.3%. The effective interest rate on outstanding mortgage debt hit its highest level since end of 2011. Analysts still expect a U-shaped recovery but near-term data is uniformly weak.",
+      "title": "BofA fund manager survey at most bullish since post-pandemic inflation surge; stock-bond ratio at YTD high",
+      "body": "BofA's global fund manager survey shows sentiment at its most optimistic since the post-pandemic inflation peak, with the majority expecting neither a soft nor hard landing. Separately, a risk-matched stock-to-bond relative performance ratio hit its highest year-to-date level, implying elevated market expectations for economic growth\u2014even as semi stocks and housing data point to pockets of weakness.",
       "tickers": [],
       "source_item_ids": [
-        "gmail:19f6b7963217ffba",
-        "x:2077718449699062204"
+        "x:2077726403550662826",
+        "x:2077782648164860265"
       ]
     },
     {
-      "title": "AAPL approved to roll out Apple Intelligence in China; exploring AI semiconductor acquisitions",
-      "body": "Apple received approval to roll out Apple Intelligence in China, its No. 2 market after the US. Morgan Stanley also reports AAPL is exploring AI semiconductor acquisitions, noting current M2 Ultra cannot handle the largest Google Gemini workloads. AAPL also raised AppleCare+ prices by $0.50/month and $5/year. AAPL hit a 52-week high, up 57.8% YTD.",
+      "title": "Consumer spending growth unsustainable: 7% nominal spend vs. 3% income growth; debt collector lawsuits surge",
+      "body": "One analyst noted that consumer nominal spending running at ~7% against 3% income growth is historically extreme and has never persisted more than a couple of quarters without stimulus support. Separately, lawsuits filed by debt collectors over unpaid credit card bills surged to their highest levels in years, corroborating emerging consumer credit stress beneath the headline spending data.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2077803704527224950",
+        "x:2077770755266253270"
+      ]
+    },
+    {
+      "title": "US slaps 25% tariffs on Brazil; Brazil rejects action and denies legal basis",
+      "body": "The U.S. imposed 25% tariffs on Brazil after Rubio cited failed negotiations with the socialist government. Brazil formally rejected the Section 301 investigation, stating there is no legal justification, and noted it has held 30+ contacts with U.S. officials seeking a negotiated solution. China's exports to Germany have meanwhile surged to 70% above the 2010\u20132019 trend, signaling ongoing trade-flow distortions globally.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2077763466631295316",
+        "x:2077808599636828401"
+      ]
+    },
+    {
+      "title": "Netflix heads into Q2 earnings with bearish sentiment; four straight negative post-earnings reactions",
+      "body": "Market positioning is bearish ahead of Netflix's Q2 2026 report tonight, with engagement headwinds cited as the primary concern. The stock has fallen following each of the last four earnings reports\u2014down 9.7% after April's print and 5.1% a year ago\u2014creating a low-bar setup.",
       "tickers": [
-        "AAPL"
+        "NFLX"
       ],
       "source_item_ids": [
-        "gmail:19f6b480f1ee9a0c",
-        "gmail:19f6b3fac1029533"
+        "x:2077760558057521529",
+        "x:2077758990570709182"
       ]
     },
     {
-      "title": "Visa/Mastercard Q2 volumes accelerated ~150bps YoY, beating UBS models; World Cup adds 40-50bps to Visa FY26 revenue",
-      "body": "UBS bank issuer data shows Q2 debit/credit volumes accelerated ~150bps YoY vs. models forecasting only ~50bps (V) and ~10bps (MA) acceleration. Debit grew 9.2% YoY, credit 7.7%. Travel cross-border slowed 600bps for Visa and 6ppts for Mastercard due to Middle East conflict. Visa estimates 40-50bps FY26 revenue benefit from the 2026 World Cup. Clear Street initiated both V (Buy, $403 PT) and MA (Buy, $617 PT).",
-      "tickers": [],
+      "title": "S&P upgrades SoftBank outlook to Stable on ARM stock appreciation; ARM remains credit catalyst",
+      "body": "S&P Global revised SoftBank's credit outlook from negative to stable, specifically citing the rise in ARM's stock price as a key credit positive while affirming the BB+ rating. This reinforces ARM's strategic importance to SoftBank's balance sheet and highlights the stock's macro significance beyond pure semiconductor fundamentals.",
+      "tickers": [
+        "ARM"
+      ],
       "source_item_ids": [
-        "gmail:19f6b4d46ed0a138",
-        "gmail:19f6ae8cbad38322"
-      ]
-    },
-    {
-      "title": "KIMI K3 model with 2-3 trillion parameters expected tonight; Chinese AI competition intensifying",
-      "body": "Chinese AI startup Moonshot is expected to unveil its K3 model tonight \u2014 an open-weight model with 2-3 trillion parameters, reportedly outperforming Anthropic's Opus 4.8 but falling short of Fable 5. Separately, Chinese AI startup Moonshot is also launching a model challenging Anthropic. AI substitution risk from cheaper Chinese models is being cited as competitive pressure on US hyperscaler AI capex leaders.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2077700759362429060",
-        "x:2077703127365500943"
-      ]
-    },
-    {
-      "title": "Section 122 tariff expiring July 24; tariff refund outflows doubled collections in June",
-      "body": "JPMorgan's macro calendar flags the Section 122 tariff expiration on July 24 as a key trade policy inflection point alongside the November 1 trade truce expiration. Adding complexity, the US government paid out nearly double in tariff refunds vs. tariff revenues collected in June, reflecting the strained mechanics of current trade enforcement.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19f6ae88f28f40c4",
-        "x:2077709075337429427"
-      ]
-    },
-    {
-      "title": "Japan, China equities under pressure; Japan largest foreign buyer of US stocks reducing equity exposure",
-      "body": "Japan equities dropped 2.8% overnight with a Vol of Vol breakout confirmed (bearish on margin). Japan's largest foreign buyer of US stocks is reportedly reducing exposure citing valuation concerns. China equities fell 1.9% overnight to new cycle lows with a 'get out' Vol of Vol signal. Eurozone trade balance swung to a -\u20ac4.97B deficit in May vs. +\u20ac2.8B expected, adding to international risk-off sentiment.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2077695405140172849",
-        "x:2077714890739888292"
+        "x:2077730655681774029"
       ]
     }
   ]

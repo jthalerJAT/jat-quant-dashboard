@@ -1,244 +1,203 @@
 {
-  "digest_type": "midday",
-  "digest_dt": "2026-07-16T12:00:00-04:00",
-  "saved_at": "2026-07-16T16:27:34.359822+00:00",
+  "digest_type": "eod",
+  "digest_dt": "2026-07-16T18:00:00-04:00",
+  "saved_at": "2026-07-16T22:30:27.247882+00:00",
   "bullets": [
     {
-      "title": "TSM: Blowout Q2, FY26 Rev Guidance Raised to +40%+ YoY, Capex Hiked to $60-64B",
-      "body": "TSMC Q2 EPS $4.31 (adj. $3.98) beat consensus $3.95; revenue $40.2B beat $39.3B; Q3 guide $44.6-45.8B well above $43B consensus. FY26 revenue guidance raised to 'slightly above 40%' vs. prior '>30%' on 'extremely robust' AI demand. Capex raised to $60-64B from $52-56B (implies ~50-60% y/y growth), with Arizona expanded by $100B to >$260B total. Gross margin 67.7% viewed as slight miss vs. 68-70% buy-side; 2nm ramp dilutes GM 3-4pp in 2H. TSMC plans 13 leading-edge fabs in Taiwan and partner with Amkor for US advanced packaging. CEO C.C. Wei: 'AI CAGR expectations higher than thought a quarter ago.' UBS calls the surprise capex hike a 'confidence signal in AI supply chain.'",
+      "title": "TSM: Record Q2 Revenue Beat but Stock Drops; AI Cycle Broadening",
+      "body": "TSMC reported Q2 revenue of $39.9B (+25% YoY from $31.9B), achieving its fourth consecutive 'triple play' (revenue, operating income, net income beats) and seventh in two years, yet stock fell ~4% premarket. Company raised full-year revenue and capex guidance; HPC represents 66% of platform revenue. Key read-through: AI investment cycle is broadening from accelerator-focused to full-stack infrastructure, and TSMC gross margin printed a remarkable 67.7%.",
       "tickers": [
         "TSM"
       ],
       "source_item_ids": [
-        "gmail:19f6b1b6259509ea",
-        "x:2077711615722447125"
+        "x:2077755306965118996",
+        "x:2077733807684555101"
       ]
     },
     {
-      "title": "NVDA: Jensen Huang Says 'We Are at the Beginning of the Cycle'; Japan AI Factory Deal",
-      "body": "At public remarks, NVIDIA CEO Jensen Huang stated the company is still 'at the beginning of the cycle,' signaling sustained GPU demand runway. Goldman Sachs estimates AI agents could drive a 24x increase in token consumption by 2030, likely worsening chip shortages over the next 12-18 months. Separately, NVIDIA is partnering with Noetra to build Japan's first national-scale AI factory deploying 13,750 Vera CPUs and 27,500 Rubin GPUs across 140MW. Oppenheimer sees NVDA's 2H VR200 ramp extending performance lead; Hedgeye estimates ~$4.5B net China datacenter revenue from H200 chip approvals (200k units at $30k/chip premium).",
+      "title": "NVDA: Jensen Says AI Boom 'In Early Stages'; Japan Builds National AI Factory with Rubin GPUs",
+      "body": "Jensen Huang declared 'we are at the beginning of the cycle' in Tokyo, where he met with Sega executives. Japan is constructing the world's first national AI factory using 27,500 Nvidia Rubin GPUs and 13,750 Vera CPUs with 140 MW capacity. NVDA was outperforming peers while many large-cap semis fell below their 50-day moving averages, but was down 1.5% premarket on the broader tech selloff.",
       "tickers": [
         "NVDA"
       ],
       "source_item_ids": [
-        "x:2077704917763100808",
-        "gmail:19f6b72b7608fd1d"
+        "x:2077784572797002239",
+        "x:2077794639298404510"
       ]
     },
     {
-      "title": "Semis Pre-Market Selloff: MU -4.7%, WDC -7.3%, SNDK -6.8% on AI Momentum Unwind",
-      "body": "Despite TSMC's strong print, the semiconductor complex sold off sharply in pre-market with WDC -7.3%, SNDK -6.8%, STX -6.1%, MU -4.7%, COHR -5.1%, GLW -4.9%, AMD -2.9%, TSEM -2.5%, and TSM itself -3.8%. Morgan Stanley notes AI tech momentum index down -24% since June 22; memory stocks Korean Hynix -10%, Samsung -7%, Kioxia -15% overnight. MS flags memory as 'next AI binding constraint' potentially rising from 12% to 40% of cloud capex by 2027, yet prefers NVDA and AVGO over MU and SNDK near-term. US bipartisan lawmakers are pushing Trump to ban Chinese memory chips from CXMT and YMTC, adding policy tail risk.",
-      "tickers": [
-        "MU",
-        "SNDK",
-        "WDC",
-        "STX",
-        "COHR",
-        "GLW",
-        "AMD",
-        "TSEM",
-        "AVGO",
-        "NVDA"
-      ],
-      "source_item_ids": [
-        "gmail:19f6b480f1ee9a0c",
-        "gmail:19f6b14d8687e425"
-      ]
-    },
-    {
-      "title": "CDNS: Mizuho Reiterates Outperform ($400 PT) on AuraStack AI Agent, Sees TAM 3x Potential",
-      "body": "Cadence announced AuraStack AI Super Agent for PCB and advanced packaging design, delivering up to 2x faster time-to-market and 15x higher productivity. Mizuho reiterated Outperform with $400 PT, arguing agentic AI could shift EDA spend from 11-12% to 33-36% of semiconductor R&D, potentially tripling core EDA TAM. AuraStack is accelerated by NVIDIA Blackwell/CUDA-X. Meaningful revenue contribution expected in FY27; a few million dollars possible in FY26.",
-      "tickers": [
-        "NVDA"
-      ],
-      "source_item_ids": [
-        "gmail:19f6b843d1681f08"
-      ]
-    },
-    {
-      "title": "UBER: KeyBanc Bullish on $14.8B Delivery Hero Deal; PT $105 (+22% Upside)",
-      "body": "Uber acquiring Delivery Hero for \u20ac41.50/share ($14.8B equity value) at ~8x 2027E EV/EBITDA inclusive of >$1.2B run-rate synergies within 18 months. Deal adds 50M+ eligible cross-platform users and expands from 79 to 99 markets; cross-platform users generate 3x gross bookings vs. single-segment. Expected non-GAAP EPS accretive at close, HSD% accretive by year three. Prosus (~17%) irrevocably committed to tender. KeyBanc PT $105 (12.5x 2028E EV/EBITDA); current 8.6x vs. 19.2x three-year NTM median. Jefferies is more cautious, viewing only 9% premium to spot and calling base case a 'slow march out of public markets' for DH shareholders.",
-      "tickers": [
-        "UBER"
-      ],
-      "source_item_ids": [
-        "gmail:19f6b9461d06fa5f",
-        "gmail:19f6b5ae0664ea44"
-      ]
-    },
-    {
-      "title": "GOOGL/META/AMZN: Citi Raises 2027 CapEx Estimates Materially on AI Demand; FCF Goes Negative",
-      "body": "Citi raised 2027E capex for GOOGL by ~21% to $308B, META by ~22% to $205B for ~14GW compute, and AMZN by ~12% to $288B; all three expected to generate negative FCF in 2027-28. AWS projected +32.5% YoY in Q2 and +40% YoY in 2027. Separately, EU Commission issued binding DMA orders requiring Google to share search data with rivals from January 2027 and enable Android AI interoperability by July 2027. The Economist reports Google DeepMind's Demis Hassabis has a plan to manage AI safely. 22V notes GOOGL/MSFT/META hyperscaler earnings (Jul 22-29) as the next critical catalyst for AI demand sentiment.",
+      "title": "GOOGL: EU Forces Android/Search Open to Rivals; Intel Partnership; Massive Call Flow",
+      "body": "EU antitrust ruling orders Google to open Android and Search to competitors in a structurally enforceable mandate\u2014a meaningful threat to its European competitive moat. Separately, Intel and Google Cloud expanded their multi-year strategic partnership to deploy Gemini Enterprise across Intel's enterprise. Options desks flagged tens of millions in GOOGL call flow, and GOOGL was up 1.3% premarket. Google also rebranded NotebookLM to Gemini Notebook and is prepping a Gemini avatar feature.",
       "tickers": [
         "GOOGL",
-        "META",
-        "AMZN",
-        "MSFT"
+        "INTC"
       ],
       "source_item_ids": [
-        "gmail:19f6b09a38d18379",
-        "gmail:19f6b05037d05227"
+        "x:2077727952431894625",
+        "x:2077787668532928529"
       ]
     },
     {
-      "title": "AAPL: China AI Approval Bullish; Exploring AI Chip Acquisitions; AppleCare+ Price Hike",
-      "body": "Apple received approval to roll out Apple Intelligence in China, its #2 market after the US, viewed as a significant positive by Morgan Stanley. AAPL is reportedly exploring AI semiconductor acquisitions as current M2 Ultra cannot handle the largest Gemini workloads. AAPL also raised AppleCare+ prices by $0.50/month and $5/year. Street expects a steady June quarter with limited financial upside at 35x NTM; DRAM/NAND headwinds into 2027 and potential margin pressure on iPhone without a price increase noted as risks. AAPL at a 52-week high, up 57.8% YTD.",
+      "title": "NFLX: Bears in Control Heading Into Q2 Earnings Tonight",
+      "body": "Investors are positioned bearishly ahead of Netflix's Q2 2026 earnings report tonight, citing engagement headwinds. Bespoke notes NFLX has fallen after each of its last four earnings reports, including -9.7% after April results and -5.1% a year ago in July. Sentiment skews negative into the print.",
       "tickers": [
-        "AAPL"
+        "NFLX"
       ],
       "source_item_ids": [
-        "gmail:19f6b480f1ee9a0c",
-        "gmail:19f6af15d1905581"
+        "x:2077760558057521529",
+        "x:2077758990570709182"
       ]
     },
     {
-      "title": "CRWD: Citi Raises PT to $250; Acquires XM Cyber IP (45+ Patents) for Attack Path Tech",
-      "body": "Citi raised CrowdStrike's PT to $250 split-adjusted, citing confidence in high-20%s ARR growth near-term and mid-20s medium-term. Separately, CRWD announced acquisition of XM Cyber's intellectual property including 45+ patents and proprietary source code for attack path visualization and offensive simulation, adding to the Falcon platform. Transaction does not include XM Cyber's revenue or customers; Schwarz Digits will adopt the Falcon platform. Deal closes H2 FY27 pending regulatory approval.",
+      "title": "Semis Broadly Weak: SOX Down 5%, MRVL -31% and AAOI -50% This Month",
+      "body": "The semiconductor index fell another 5% today, breaking below initial May highs, though still up 53% YTD. MRVL is down 31% and AAOI down 50% this month alone, with the AI sector declining indiscriminately across higher-beta names. Goldman cut global PC shipment forecasts citing a memory chip crunch derailing upgrade cycles. Nasdaq gained 0.5%+ yesterday even as SOX fell 2%+\u2014a rare divergence since 2010.",
       "tickers": [
+        "MRVL",
+        "AAOI",
         "NVDA",
-        "AVGO",
-        "GOOGL",
-        "SMCI"
+        "AMD",
+        "INTC",
+        "MU"
       ],
       "source_item_ids": [
-        "gmail:19f6b09a38d18379",
-        "gmail:19f6af383b6a149f"
+        "x:2077811755313705386",
+        "x:2077779117114626132"
       ]
     },
     {
-      "title": "TSEM: $3B Japan Expansion (incl. $1B Gov't Support); 2nm Fabs for Leading US Customers",
-      "body": "Tower Semiconductor announced up to $3B investment in Japan, including $1B in Japanese government support, focused on 300mm silicon photonics, SiGe, and advanced packaging. First phase targets production readiness by late 2027. TSEM is also building multiple 2nm wafer fabs for mass production driven by strong multi-year demand from leading US customers, per conference commentary. TSEM stock trading -2.5% pre-market.",
+      "title": "MU: Down ~19% Since Burry Short; Drops 5.4% Despite QCOM Memory LTA Signing",
+      "body": "Micron fell 5.37% today despite announcing long-term supply agreements with Qualcomm, raising questions about whether declines reflect broader market headwinds rather than company fundamentals. MU is now down roughly 19% since Michael Burry established his short position.",
       "tickers": [
-        "TSEM"
+        "MU"
       ],
       "source_item_ids": [
-        "x:2077722469700636994",
-        "x:2077701320891576744"
+        "x:2077753660592033828",
+        "x:2077799122229174493"
       ]
     },
     {
-      "title": "NET/AKAM: MS Flags Strongest Edge AI Share Gains; NET a Preferred Non-AI Capex Name",
-      "body": "Morgan Stanley identifies Cloudflare (NET) as having the strongest share gains in edge compute, with 52% of partners migrating 10-30% of Cloudflare workloads from hyperscalers. NET is among Morgan Stanley's preferred 'non-AI capex' names alongside CRWD, PANW, SNOW, DDOG, MDB, SHOP, CVNA, SPOT, LYV.",
+      "title": "ORCL: Down 50% Since June; Seen as Leveraged Bearish Play on OpenAI Exposure",
+      "body": "Oracle has declined approximately 50% since June as investors view it as a leveraged negative on the Oracle-OpenAI partnership amid broader AI stock concerns, even as OpenAI's private valuation has risen. One trader flagged ORCL chart patterns beginning to resemble those forming in space and chip stocks\u2014a potentially constructive technical signal.",
       "tickers": [
-        "NET",
-        "ANET"
+        "ORCL"
       ],
       "source_item_ids": [
-        "gmail:19f6b480f1ee9a0c"
+        "x:2077756351934259498",
+        "x:2077772865081094286"
       ]
     },
     {
-      "title": "GLW: JPMorgan Raises PT to $200 from $185; Trading -4.9% Pre-Market in Semis Selloff",
-      "body": "JPMorgan raised its price target on Corning to $200 from $185, a constructive rating action. However, GLW is trading -4.9% pre-market alongside the broader semiconductor and optical components selloff.",
+      "title": "AAPL: Trader Sells Shares Citing 'Too Good to Be True'; OLED iPad Mini Confirmed for 2027; Large Call Flow",
+      "body": "One active trader sold AAPL shares citing skepticism over recent outperformance ('too good to be true lately'). Bloomberg confirmed Apple is readying an OLED iPad Mini with low-end and Air model updates in 2027. Tens of millions in AAPL call flow was flagged by options desks. One analyst also notes AAPL-AVGO pricing power dynamics are shifting as custom silicon complexity grows.",
       "tickers": [
-        "GLW",
+        "AAPL",
+        "AVGO"
+      ],
+      "source_item_ids": [
+        "x:2077790122477842490",
+        "x:2077757502310281505"
+      ]
+    },
+    {
+      "title": "TSLA: FSD Crash Details; Humanoid Lag vs China; Cybercab Unit Economics Modeled",
+      "body": "Investigators confirmed a fatal Texas Tesla FSD crash involved the driver pressing the accelerator 100%, overriding the system. Separately, critics argue Tesla is reluctant to showcase its latest humanoid prototypes while Chinese competitors advance publicly. One analyst models Cybercab at ~$2,500 pretax profit per unit per quarter at scale.",
+      "tickers": [
+        "TSLA"
+      ],
+      "source_item_ids": [
+        "x:2077780838876577922",
+        "x:2077772764015124883"
+      ]
+    },
+    {
+      "title": "LITE & COHR: Morgan Stanley Names Both as Core CPO Laser Players; LITE TAM Expanded 9x to $154B",
+      "body": "Morgan Stanley identified LITE and COHR as core coherent photonics/CPO laser players in a recent note, with Fidelity Research and JP Morgan taking active positions. LITE's historical playbook\u2014growing from $3B to $60B+ by owning the EML chokepoint\u2014is cited as a precedent, with Goldman estimating LITE's TAM expanded 9x to ~$154B by H2 2028.",
+      "tickers": [
+        "LITE",
         "COHR"
       ],
       "source_item_ids": [
-        "x:2077697594109894848",
-        "gmail:19f6b14d8687e425"
+        "x:2077775453604176247",
+        "x:2077773622513643592"
       ]
     },
     {
-      "title": "NBIS/BE: Bloom Energy Secures $1.7B Oaktree Project Investment for Nebius AI Infrastructure",
-      "body": "Industrial Development Funding and Oaktree announced a $1.7B project investment deploying Bloom Energy fuel cells for Nebius AI cloud infrastructure build-out. The May 2026 Master Fuel Cell Capacity agreement covers ~250MW guaranteed and ~328MW installed capacity across three 10-year phases; Nebius will pay up to $2.6B in aggregate service fees. MUFG provided senior debt; Morgan Stanley served as sole tax equity investor. OpCo Research notes BE is a 'poster-child of momentum AI infra trade which is weak to start' and cautions the stock may already be pricing in multiple deals of this size.",
+      "title": "MRVL: Sub-THz Wireless Demo at 153 Gb/s Validates Data Center Interconnect Roadmap",
+      "body": "Marvell's acquired Polariton unit demonstrated a 226 GHz sub-terahertz wireless link over 1,400 meters at 153 Gb/s in a Swiss airfield test alongside ETH Zurich, validating its data center interconnect technology roadmap. The demo is seen as credentialing Marvell's DCI ambitions.",
       "tickers": [
-        "NBIS",
-        "BE"
+        "MRVL"
       ],
       "source_item_ids": [
-        "gmail:19f6ae88f28f40c4",
-        "gmail:19f6b0dccde85fc0"
+        "x:2077728724288733547"
       ]
     },
     {
-      "title": "LULU: Truist Downgrades to Sell, PT Cut to $94 from $115 on Limited Recovery Visibility",
-      "body": "Truist downgraded Lululemon to Sell from Hold and cut its price target to $94 from $115 citing limited recovery visibility and brand issues flagged by TikTok/Google Trends/Amex Platinum Reddit data. Morgan Stanley's resumption of specialty retail coverage echoes concerns, modeling LULU at ~LSD% growth and $10-11 EPS vs. Street's ~MSD% and ~$12; some bears see a path to $6 EPS on Americas reset risk.",
+      "title": "ARM: S&P Upgrades SoftBank Outlook to Stable, Citing ARM Stock Appreciation",
+      "body": "S&P Global revised SoftBank's credit outlook from negative to stable, explicitly citing the rise in ARM's stock price as a key credit positive; SoftBank's BB+ rating was reaffirmed.",
       "tickers": [
-        "SHOP"
+        "ARM"
       ],
       "source_item_ids": [
-        "gmail:19f6afb19f7bc75f",
-        "gmail:19f6b480f1ee9a0c"
+        "x:2077730655681774029"
       ]
     },
     {
-      "title": "PENN/MGM: Citizens Raises PENN PT to $26 on Regional Gaming Beat Expectations; Goldman Prefers RRR",
-      "body": "Citizens expects regional gaming names to beat 2Q26 expectations on stable visitation and healthy spend-per-visit; PENN raised to $26 PT from $24 as top idea given completion of casino investment cycle and digital inflection expected in 2027+. Goldman Sachs separately named PENN and RRR as preferred Locals names into Q2, while MGM and WYNN may face ceiling from weaker June Vegas foot traffic. PENN also received a PT raise to $25 from $23 at Mizuho on World Cup tailwinds.",
+      "title": "GOOGL/INTC: Agentic AI Drives Additive Server-CPU Cycle Benefiting AMD, ARM, Intel",
+      "body": "A research note argues agentic AI is creating additive demand for server CPUs alongside GPU workloads\u2014not a substitution\u2014benefiting AMD, ARM, and Intel. TSMC's Q2 earnings call read-throughs confirm AI investment broadening beyond accelerators into full infrastructure build-out, which supports this thesis.",
       "tickers": [
-        "LYV"
+        "AMD",
+        "ARM",
+        "INTC"
       ],
       "source_item_ids": [
-        "gmail:19f6b93d0581d4d8",
-        "gmail:19f6b2227e217c8d"
+        "x:2077733814760329691"
       ]
     },
     {
-      "title": "W (Wayfair): JPMorgan Retail Laterals Imply +9.5% 2Q Comp vs. Street +5.6%",
-      "body": "JPMorgan's June retail sales lateral analysis using 1-year trends implies Wayfair 2Q comp of +9.5% vs. consensus +5.6%, and BOBS Discount +3.2% vs. +1.9%. Home furnishings returned to positive growth at +2.2% YoY in June vs. -2.1% in May. June overall retail sales grew +6.7% YoY; core retail up +8.3% with strength in sporting goods (+17.8%), consumer electronics (+10.5%), and ecommerce (+18.0%).",
+      "title": "RBLX: Launches AI-Powered Mobile Game Creation",
+      "body": "Roblox will let users create games using AI on their phones, aiming to lower the barrier to game development for casual creators. No financial figures were provided but the feature expands Roblox's creator ecosystem.",
       "tickers": [
-        "W"
+        "RBLX"
       ],
       "source_item_ids": [
-        "gmail:19f6b3867de1eb4c",
-        "gmail:19f6b280681bdbe0"
+        "x:2077797205524828429"
       ]
     },
     {
-      "title": "TKO: DC RESALE Act Passes, ~$95M EBITDA Hit to Ticketmaster in 2027",
-      "body": "Washington DC passed the RESALE Act with a 10% resale price cap; Citi estimates ~$95M impact to Ticketmaster 2027E EBITDA if 20% of tickets are affected. TKO is also trading -5.0% in Canadian-listed shares this morning.",
+      "title": "HOOD: Robinhood Chain Breaks Out, Volume Surpasses Major Crypto DEXs",
+      "body": "Fundstrat notes Robinhood's Chain product experienced a massive breakout, with volume exceeding many established decentralized exchanges. The development signals growing traction for Robinhood's crypto infrastructure ambitions.",
       "tickers": [
-        "TKO",
-        "LYV"
+        "HOOD"
       ],
       "source_item_ids": [
-        "gmail:19f6b09a38d18379",
-        "gmail:19f6b51d7f8dd572"
+        "x:2077780553298821601"
       ]
     },
     {
-      "title": "IONQ: Jefferies Initiates Buy ($85 PT) as Quantum Computing Commercialization Accelerates",
-      "body": "Jefferies initiated IonQ at Buy with an $85 price target, citing a narrowing timeline between quantum milestones and real-world application. Quantinuum's IPO was 20x oversubscribed and trading ~30% above IPO price. Trump's June executive orders allocated ~$2B in federal program backing to nine quantum companies.",
+      "title": "WBD: Prediction Markets Shrug Off California Lawsuit Against Paramount-WBD Merger",
+      "body": "California filed a lawsuit challenging the David Ellison-led Paramount-WBD merger, but prediction markets are pricing in minimal impact from the legal challenge.",
       "tickers": [
-        "IONQ"
+        "WBD"
       ],
       "source_item_ids": [
-        "gmail:19f6b0de4d835bdf"
+        "x:2077775619153093016"
       ]
     },
     {
-      "title": "ETSY: Depop Sale to eBay Expected to Close July 30 per 8-K",
-      "body": "Etsy filed an 8-K confirming it expects to complete the previously announced sale of Depop to eBay on July 30, 2026. ETSY stock was at $85.74 at the time of the alert; Wedbush initiated ETSY at Neutral in broader internet coverage initiation.",
+      "title": "Mag 7 Diverges from SOX; GOOGL/MSFT +1.3%, NVDA -1.5% Premarket",
+      "body": "Premarket action showed clear divergence within the Mag 7: Alphabet and Microsoft each +1.3%, Amazon +0.7%, Apple +0.4%, Meta +0.3%, while Tesla was -0.2% and Nvidia -1.5%. The broader pattern of Mag 7 rising while SOX falls was flagged by Goldman traders, who also cited potential CAPEX cut announcements ahead.",
       "tickers": [
-        "ETSY"
-      ],
-      "source_item_ids": [
-        "gmail:19f6aeb4fc3f257d"
-      ]
-    },
-    {
-      "title": "META: EU Orders Addictive Feature Changes on Facebook/Instagram; Ray-Ban AI Glasses to Blind Veterans",
-      "body": "The EU ordered Meta to change addictive features on Facebook and Instagram under DMA enforcement, with UK also planning a default midnight curfew for teens on social media. Separately, Meta is donating 130,000 pairs of Ray-Ban AI glasses to blinded veterans worldwide, a positive brand/PR initiative. Citi raised META 2027E capex by ~22% to $205B for ~14GW compute capacity with negative FCF expected in 2027-28.",
-      "tickers": [
-        "META"
-      ],
-      "source_item_ids": [
-        "gmail:19f6b5ec1b04c8d8",
-        "gmail:19f6b0cc835ce2fe"
-      ]
-    },
-    {
-      "title": "RMBS: South Korean Antitrust Raid; ITC Second Investigation Names NVDA, AVGO, GOOGL, SMCI as Co-Respondents",
-      "body": "South Korean prosecutors raided Rambus, Renesas, and Montage Technology offices over suspected price collusion on chips supplied to Samsung. Separately, the ITC opened a second investigation into Samsung's use of NLST patents ('537/'937), naming Samsung, Google, Super Micro, Nvidia, and Broadcom as co-respondents; patents cover HBM and DDR5 RDIMM/MRDIMM used in AI infrastructure. Roth maintains NLST Buy ($5 PT vs. $2.69) as the broader complaint increases favorable settlement odds.",
-      "tickers": [
-        "NVDA",
-        "AVGO",
         "GOOGL",
-        "SMCI"
+        "MSFT",
+        "AMZN",
+        "AAPL",
+        "META",
+        "TSLA",
+        "NVDA"
       ],
       "source_item_ids": [
-        "gmail:19f6b97d1236db82",
-        "gmail:19f6b574ac28e912"
+        "x:2077727715105361936",
+        "x:2077736711312785624"
       ]
     }
   ]
