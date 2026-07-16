@@ -1,224 +1,237 @@
 {
-  "digest_type": "eod",
-  "digest_dt": "2026-07-15T18:00:00-04:00",
-  "saved_at": "2026-07-15T22:28:16.340495+00:00",
+  "digest_type": "premarket",
+  "digest_dt": "2026-07-16T08:30:00-04:00",
+  "saved_at": "2026-07-16T13:39:40.405908+00:00",
   "bullets": [
     {
-      "title": "Goldman: HFs selling tech/comms at 98th-pct intensity; hyperscalers outpacing semis",
-      "body": "Goldman's floor desk flagged -5.5% better-for-sale overall, with hedge funds -15% better-for-sale in a 98th-pct reading over the past year\u2014supply concentrated in Tech and Communications Services. Separately, Goldman noted a 'clear theme of buying Hyperscalers vs selling Semis,' with the Mag7 basket outperforming NDX by ~3% while the semiconductor/memory pair basket (GSPRHIMO) fell 6.5% on the day.",
+      "title": "TSMC Q2 Blowout: Revenue $40.2B, Gross Margin 67.7%, EPS $4.31 \u2014 All Above Estimates",
+      "body": "TSMC reported Q2 revenue of $40.2B (+33.7% YoY, top of guidance), gross margin 67.7% (above 65.5-67.5% guided range), operating margin 60.3% vs 56.5-58.5% guide, and EPS of $4.31 vs $3.77 est. Net profit of NT$706.56B hit an all-time high, up 77.4% YoY. Chairman C.C. Wei called AI demand 'so robust' we are 'witnessing the birth of a new industry.'",
       "tickers": [
-        "NVDA",
-        "AMD",
-        "INTC",
-        "MU",
-        "MSFT",
-        "GOOGL",
+        "TSM"
+      ],
+      "source_item_ids": [
+        "x:2077633017401708784",
+        "x:2077644495764758555"
+      ]
+    },
+    {
+      "title": "TSMC Raises 2026 Capex to $60-64B; Next 3 Years Will Be 'Even More' Than Prior 3",
+      "body": "TSMC raised 2026 capex guidance from 'above $56B' to $60-64B. CFO guided that next 3-year capex will exceed the already-elevated prior 3-year period. The company also announced an additional $100B U.S. investment (N2 process and advanced packaging in Arizona) and plans for four additional Arizona fabs contingent on demand.",
+      "tickers": [
+        "TSM"
+      ],
+      "source_item_ids": [
+        "x:2077637082307289542",
+        "x:2077641258399678683"
+      ]
+    },
+    {
+      "title": "TSMC Q3 2026 Guidance Beats: $44.6-45.8B Revenue, 65-67% Gross Margin",
+      "body": "TSMC guided Q3 2026 revenue at $44.6-45.8B (+12% QoQ, +37% YoY midpoint) vs $43.11B consensus, gross margin 65-67% vs 65.9% est, operating margin 56-58%. Chairman Wei expects strong Q3 demand for leading-edge AI chips; consumer electronics softer on high prices.",
+      "tickers": [
+        "TSM"
+      ],
+      "source_item_ids": [
+        "x:2077636052609835133",
+        "x:2077637812720119968"
+      ]
+    },
+    {
+      "title": "TSMC: Demand-Supply Gap 'Very Big,' AI Demand Seen Robust Through 2030",
+      "body": "Chairman C.C. Wei confirmed the demand-supply gap is 'very big' and larger than the memory industry situation. TSMC sees robust demand trend continuing through 2030, is taking steps to avoid excess inventory, and sees AI adoption having broad impact across all industries. No fixed timeline for additional U.S. investment.",
+      "tickers": [
+        "TSM"
+      ],
+      "source_item_ids": [
+        "x:2077650484601721035",
+        "x:2077645340266934712"
+      ]
+    },
+    {
+      "title": "TSMC Global Expansion: 3 New 3nm Fabs, A14 Node on Track for 2028 Mass Production",
+      "body": "TSMC plans three additional 3nm fabs (Taiwan, Arizona, Japan) and 13 advanced semiconductor/packaging facilities in Taiwan. A14 technology development is on track with strong HPC/smartphone demand; A13/A12 extensions target 2029. Arizona expansion pace tied to market demand signals.",
+      "tickers": [
+        "TSM"
+      ],
+      "source_item_ids": [
+        "x:2077639103131378147",
+        "x:2077640226286243965"
+      ]
+    },
+    {
+      "title": "TSMC Welcomes Intel EMIB as Competitive Flexibility; 18A Yields Jump to 85%",
+      "body": "TSMC Chairman Wei said Intel's EMIB packaging competition provides market flexibility that could share loading from TSMC and benefit its front-end wafer growth. Separately, Intel 18A yields reportedly improved to ~85% from 65% last quarter, still below TSMC N2 (~90%) but above Samsung.",
+      "tickers": [
+        "TSM",
+        "INTC"
+      ],
+      "source_item_ids": [
+        "x:2077643438246515119",
+        "x:2077551508355485796"
+      ]
+    },
+    {
+      "title": "NVIDIA Japan Momentum: 27,500 Rubin Chips, Robotics, Bank AI Deployments",
+      "body": "Japan plans to buy 27,500 Nvidia Rubin chips for robot AI; NVIDIA announced Japanese enterprises and banks (Mizuho, SMFG, MUFG NICOS, Rakuten) deploying Nemotron models and Agent Toolkit. NVIDIA also launched Jetson Thor T3000/T2000 for mainstream robotics and expanded Toyota physical AI collaboration. GB300 NVL72 claims 25x performance-per-watt vs Hopper.",
+      "tickers": [
+        "NVDA"
+      ],
+      "source_item_ids": [
+        "x:2077659640524128663",
+        "x:2077541903399076299"
+      ]
+    },
+    {
+      "title": "NVIDIA Shrinks Robotics Chip 50% With Thor T3000/T2000; Groq 3 Racks to Ship H2 2026",
+      "body": "NVIDIA's new Jetson Thor T3000 and T2000 modules halve chip size without performance loss, targeting humanoid robots and edge AI for mass-market expansion. Separately, Nvidia Groq 3 server racks (256 LPUs, 32 compute trays) expected to begin shipping H2 2026.",
+      "tickers": [
+        "NVDA"
+      ],
+      "source_item_ids": [
+        "x:2077532459151831390",
+        "x:2077551436792266852"
+      ]
+    },
+    {
+      "title": "Amazon Ramping AWS Custom Chips to 2.4M Trainium3 Units in 2026; Positive for Taiwan Supply Chain",
+      "body": "At AWS Summit Taipei 2026, Amazon showcased Trainium3, Inferentia, and Graviton chips with Trainium3 already shipping and targeting 2.4M units in 2026, 3.4M in 2027. The ramp is described as a strong positive signal for Taiwan chip supply chain partners.",
+      "tickers": [
         "AMZN",
-        "META"
+        "TSM"
       ],
       "source_item_ids": [
-        "x:2077446350417904102",
-        "x:2077445176771981592"
+        "x:2077551075364864206"
       ]
     },
     {
-      "title": "NVDA CEO Huang in Japan: denies Vera Rubin delay, confirms large-volume production",
-      "body": "Jensen Huang, in Tokyo, stated 'the reports are not true' regarding AI server delays, saying Vera Rubin is already in production in 'giant amounts.' He also announced NVIDIA's partnership with Kawasaki Heavy Industries to build an AI-powered, robot-equipped shipyard, and met SEGA executives to celebrate the 1995 $5M investment that saved Nvidia from bankruptcy.",
+      "title": "Big Tech Capex Crosses $700B in 2026, ~3x Prior Run-Rate; Mag 7 Up 2.3% vs Broader Market",
+      "body": "Amazon, Google, Meta, and Microsoft combined capex for 2026 exceeds $700B, roughly 3x three years prior. On Wednesday, the Mag 7 gained 2.3% while the average S&P 500 stock fell 0.4%, extending the familiar mega-cap divergence.",
       "tickers": [
-        "NVDA"
-      ],
-      "source_item_ids": [
-        "x:2077406548012466390",
-        "x:2077443795533299839"
-      ]
-    },
-    {
-      "title": "AMD Helios rack shipments reportedly delayed out of this year despite company denial",
-      "body": "A source with claimed visibility into AMD's supply chain asserts Helios rack shipments are delayed beyond 2026, contradicting AMD's public denials. The source maintains confidence in their read despite the company's pushback.",
-      "tickers": [
-        "AMD"
-      ],
-      "source_item_ids": [
-        "x:2077437664916394224"
-      ]
-    },
-    {
-      "title": "SNDK and DELL suffer sharp intraday drops; memory fundamentals seen as strong despite selloff",
-      "body": "SanDisk extended losses to a session-low of -11% while DELL dropped to a fresh session low of -8.5%, later extending to -13%\u2014the worst performance since April 2025. One trader noted DRAM prices are expected to rise 20%+ next quarter with SNDK securing LTAs with META, calling the selloff a disconnect from fundamentals; separately, GFHK lowered Q3 DRAM price growth forecasts amid customer pushback but turned more positive on NAND.",
-      "tickers": [
-        "SNDK",
-        "DELL",
-        "MU",
-        "META"
-      ],
-      "source_item_ids": [
-        "x:2077400433241260446",
-        "x:2077423269066784942"
-      ]
-    },
-    {
-      "title": "AAPL hunting AI chip acquisitions; M2 Ultra fell short for AI workloads",
-      "body": "Apple reportedly approached chip startups to gauge acquisition interest, per The Information, aiming to build proprietary server chips for AI. Separately, Apple's M2 Ultra chips were reported to have underperformed on advanced AI workloads, forcing reliance on Nvidia. AAPL also hit new all-time highs and is within $250B of the $5T market cap milestone.",
-      "tickers": [
+        "GOOGL",
+        "META",
+        "MSFT",
+        "AMZN",
         "AAPL",
-        "NVDA"
+        "NVDA",
+        "TSLA"
       ],
       "source_item_ids": [
-        "x:2077401906104738151",
-        "x:2077445080567472300"
+        "x:2077549450021548451",
+        "x:2077489818448110006"
       ]
     },
     {
-      "title": "Nokia and NVDA launch first AI-RAN platform; 20%+ spectral efficiency gains targeted",
-      "body": "NOK and NVDA announced the first AI-RAN platform, delivering 20%+ spectral efficiency gains initially, targeting 50% by 2027 and 100%+ by 2028, sold as a software subscription rather than hardware. NOK is also trading near its prior earnings-day levels ahead of upcoming results, with one trader flagging it as an attractive entry despite Ericsson-related headwinds.",
+      "title": "AAPL Hits All-Time High, Approaching $5T Market Cap; Exploring Chip Acquisitions",
+      "body": "Apple hit a new all-time high on Wednesday and is described as 'within striking distance' of a $5T valuation, which would make it only the second company to reach that milestone. The Information reports Apple is actively seeking chip company acquisitions to bolster server chip development.",
+      "tickers": [
+        "AAPL"
+      ],
+      "source_item_ids": [
+        "x:2077497718759362572",
+        "x:2077554065484251350"
+      ]
+    },
+    {
+      "title": "Microsoft Security Overhaul: 8 Execs Replaced, Hundreds of Cuts in Security Group",
+      "body": "Microsoft's new security chief Hayete Gallot replaced at least eight executives who reported to former boss Charlie Bell and cut several hundred employees from the security group to force an AI-driven overhaul. Separately, Microsoft Xbox cut 379 jobs at ZeniMax/Bethesda.",
+      "tickers": [
+        "MSFT"
+      ],
+      "source_item_ids": [
+        "x:2077462649928118604",
+        "x:2077464026179620880"
+      ]
+    },
+    {
+      "title": "Tesla: Robotaxi Fleet Growing Exponentially; Bears Cite Volume Collapse and Transparency Issues",
+      "body": "One bullish account notes Tesla's robotaxi fleet is growing exponentially 13 months post-launch. Bears counter that TSLA trading volume in dollars has declined since the Nov. 2024 Elon/Trump win, implying declining exit liquidity, and criticize a cancelled lower-cost vehicle program (April 2024, pulled 6 weeks later) with no public announcement.",
+      "tickers": [
+        "TSLA"
+      ],
+      "source_item_ids": [
+        "x:2077655602889986246",
+        "x:2077627958840434988"
+      ]
+    },
+    {
+      "title": "Nokia Launches Nvidia-Powered AI-RAN Platform; ERIC Earnings Raise Cost Pass-Through Concerns for NOK",
+      "body": "Nokia announced an AI-RAN platform powered by Nvidia. Separately, Ericsson's earnings raised concerns about component cost pass-throughs to customers, which a fintwit account flagged as relevant read-through for Nokia at current levels.",
       "tickers": [
         "NOK",
         "NVDA"
       ],
       "source_item_ids": [
-        "x:2077445684366856283",
-        "x:2077441158452781527"
+        "x:2077511407567085608",
+        "x:2077598639162269931"
       ]
     },
     {
-      "title": "Anthropic IPO as early as October at ~$1T implied valuation",
-      "body": "Bloomberg reported Anthropic is targeting an IPO as early as October, planning investor meetings in coming weeks. The company raised $65B in a recent funding round at a $965B valuation, implying a $1T+ current value. Anthropic, Blackstone, and H&F also announced a separate AI services firm launch.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2077437150715666900",
-        "x:2077415784662307126"
-      ]
-    },
-    {
-      "title": "SPY 750 put wall cited as key support; $2B+ call wall building at 755",
-      "body": "Options flow commentary noted SPY bears drove price down to the 750 put wall, described as 'the final line of support for bulls before a potential sharp decline.' The level held and produced a large intraday bounce; a $2B+ call wall is now building at 755.",
+      "title": "Netflix Reports Tonight; Analyst Asks Whether Monetization Can Offset Engagement Plateau",
+      "body": "Netflix reports Q2 earnings after market close Thursday. One analyst frames the key question as whether Netflix can sustain revenue growth through monetization strategies as user engagement may be plateauing.",
       "tickers": [
-        "SPY"
+        "NFLX"
       ],
       "source_item_ids": [
-        "x:2077434315185541572",
-        "x:2077451009698275644"
+        "x:2077505988173980001",
+        "x:2077464572001157160"
       ]
     },
     {
-      "title": "Fed's Cook signals hold in July, prepared to act in September if inflation doesn't slow",
-      "body": "Fed Governor Lisa Cook stated it is prudent to wait 'a bit more time' for inflation to slow, but said she is 'prepared to act' if disinflation signals don't emerge soon. Cook attributed the FOMC's hawkish evolution to AI buildout spending showing no signs of slowdown, and noted risk assessment has shifted toward higher inflation concerns since last summer.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2077441847828320277",
-        "x:2077442593403642032"
-      ]
-    },
-    {
-      "title": "PPI June -0.3% MoM, well below 0.0% estimate; YoY at 5.5% vs 6.2% expected",
-      "body": "June PPI fell 0.3% month-over-month (vs. 0.0% consensus) and rose 5.5% year-over-year (vs. 6.2% estimate), with core PPI at 4.7% vs. 5.1% expected. Nearly two-thirds of the goods decline was driven by a 12% gasoline price drop. Multiple sources noted this effectively takes a July rate hike off the table.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2077370556718932184",
-        "x:2077373017890377842"
-      ]
-    },
-    {
-      "title": "Empire State Manufacturing surges to +15.6 in July vs +9.2 est; broad-based strength",
-      "body": "The July NY Empire State Manufacturing Index printed +15.6, well above the +9.2 consensus and prior +5.7, with new orders moving sharply higher, prices paid easing, and employment strengthening. The beat was characterized as broad-based.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2077399776316760112"
-      ]
-    },
-    {
-      "title": "Uber nearing \u20ac12.5B deal to acquire Delivery Hero; announcement expected Thursday",
-      "body": "Uber is reported to be in advanced negotiations to acquire Delivery Hero for approximately \u20ac12.5 billion, with an announcement potentially as early as Thursday. As part of the deal, Delivery Hero would divest its Turkish unit Yemeksepeti and several European businesses to an investment firm.",
-      "tickers": [
-        "UBER"
-      ],
-      "source_item_ids": [
-        "x:2077451475664744731"
-      ]
-    },
-    {
-      "title": "GOOGL: pulls out of Epic ruling appeal; to permit third-party app stores next week",
-      "body": "Google withdrew its request to change the court ruling in the Epic antitrust case, avoiding further litigation. Separately, Google announced it will permit third-party stores in its app store starting next week, marking a regulatory shift in app distribution.",
-      "tickers": [
-        "GOOGL"
-      ],
-      "source_item_ids": [
-        "x:2077421735616692303",
-        "x:2077421694168531262"
-      ]
-    },
-    {
-      "title": "META OTM call sweep: $12M notional, 2-month expiry",
-      "body": "A flow-monitoring account flagged $12M in out-of-the-money META call options with a two-month expiry, suggesting speculative or directional positioning in the name. META's market cap has also surpassed Saudi Aramco's, and is now 28% larger than MSFT.",
-      "tickers": [
-        "META",
-        "MSFT"
-      ],
-      "source_item_ids": [
-        "x:2077399042938523676",
-        "x:2077392180352516387"
-      ]
-    },
-    {
-      "title": "NVDA put sweepers detected; semis ETF SMH down 3.7% intraday",
-      "body": "Large NVDA put sweepers were detected, signaling downside hedging or directional bearish flow. The $SMH semiconductor ETF fell 3.7% from the open despite an initially higher open, with one analyst noting semis have not been down more than 2% on a day the Nasdaq finished higher since November 2024.",
+      "title": "Semiconductor Sector Down 16% From June Highs; Asian Tech Rout Hits SK Hynix -9%, KOSPI -7%",
+      "body": "Semiconductor stocks have entered a technical correction, falling 16% from June all-time highs and approaching bear market territory. Asian markets saw a broad tech rout with SK Hynix down >9% and Seoul's KOSPI plunging 7% (triggering circuit breakers) following South Korea's first rate hike since early 2023.",
       "tickers": [
         "NVDA",
-        "AMD",
-        "INTC"
+        "MU"
       ],
       "source_item_ids": [
-        "x:2077425400020426845",
-        "x:2077403961229722047"
+        "x:2077461753563074818",
+        "x:2077552695775478270"
       ]
     },
     {
-      "title": "BABA jumps 5.7% on report Alibaba's Qwen AI to be integrated into Apple Intelligence in China",
-      "body": "U.S.-listed Alibaba shares rallied 5.7% on reports that its Qwen AI model will be integrated into Apple Intelligence for the China market, directly benefiting from Apple's AI localization strategy.",
+      "title": "Nasdaq 100 Futures Extend to Session Lows at -0.6%; 1%+ Daily Swings in 20 of Last 26 Days",
+      "body": "Nasdaq 100 futures fell 0.6% to session lows in pre-market. The QQQ has moved 1% or more in 20 of the last 26 trading days \u2014 a pattern that has historically only occurred during Covid, the 2022 bear market, the 2008 financial crisis, and the dot-com bubble.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2077666436353573311",
+        "x:2077664704193823001"
+      ]
+    },
+    {
+      "title": "Hyperscaler Bond Cover Ratios Fell from ~5x to <2x; Terminal Value Debate Intensifies",
+      "body": "Hyperscaler bond cover ratios declined from nearly 5x in February 2026 to below 2x in July, signaling weakening bond investor appetite for hyperscaler debt. One fintwit account argues the 'dirty secret' is that the AI invention erased hyperscalers' previous terminal values and current capex is an attempt to recover and exceed it.",
       "tickers": [
-        "BABA",
-        "AAPL"
+        "GOOGL",
+        "META",
+        "MSFT",
+        "AMZN"
       ],
       "source_item_ids": [
-        "x:2077387882868949045"
+        "x:2077463929177989509",
+        "x:2077624155571359999"
       ]
     },
     {
-      "title": "Iran-US escalation: Hormuz, naval blockade, and US strikes continue",
-      "body": "US forces restarted a naval blockade of Iranian ports, redirecting two commercial vessels, while Trump signaled strikes against Iran would expand next week per Fox News. Iran's top negotiator Qalibaf stated Iran's national security hinges on maintaining control of the Strait of Hormuz and framed negotiations as part of a resistance strategy rather than compromise.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2077450981181370620",
-        "x:2077448751787184220"
-      ]
-    },
-    {
-      "title": "Trump bullish on data centers; files up to $1M EQIX purchase; NY moratorium controversy",
-      "body": "Trump stated data centers are 'one of the biggest driving forces for future jobs' and filed a purchase order for up to $1M of EQIX stock. He criticized NY Governor Hochul for terminating data center projects for 'political reasons,' prompting bipartisan criticism. China was noted as imposing no data center moratoriums, framing the US regulatory friction as an AI competitiveness risk.",
+      "title": "Meta Faces Court Challenge to Block July 22 Layoffs; Tech Down 8% From June Highs",
+      "body": "Meta faces a preliminary injunction request from plaintiffs seeking to block layoffs starting July 22. Separately, one fintwit account contextualizes the broad tech selloff: the sector is down 8% from June highs but gained +24.9% in 2025 YTD and +24.9% in 2024.",
       "tickers": [
-        "EQIX"
+        "META"
       ],
       "source_item_ids": [
-        "x:2077446527174230107",
-        "x:2077421129728155944"
+        "x:2077611935395107268",
+        "x:2077588564662243593"
       ]
     },
     {
-      "title": "Warsh: Fed missed inflation target for 63 months; AI may or may not be inflationary",
-      "body": "Kevin Warsh testified that the Fed has missed its inflation target for 63 months and signaled he wants to review the balance sheet and rate-setting methods. He stated whether AI is inflationary or deflationary will be up to Fed policy decisions, and distanced himself from characterizing AI infrastructure spending as inherently inflationary\u2014a divergence from some FOMC colleagues.",
-      "tickers": [],
+      "title": "COHR/LITE: Analyst Flags UHP Laser CPO Challenges; GPU CPO Scaling 'Not Ramping'",
+      "body": "One analyst flags that UHP lasers for co-packaged optics (CPO) require understanding of high-power laser physics and plans future coverage of COHR and LITE. A separate account claims GPU CPO scaling is not ramping and is delayed from earlier expectations.",
+      "tickers": [
+        "COHR",
+        "LITE"
+      ],
       "source_item_ids": [
-        "x:2077400381466833377",
-        "x:2077409729073074194"
-      ]
-    },
-    {
-      "title": "IPO volume hits highest level since 2021; Morgan Stanley wealth drew $148B in Q2, 50%+ from IPOs",
-      "body": "IPO market activity reached its highest level since 2021 driven by AI-focused deals. Morgan Stanley's wealth management division attracted $148B of new assets in Q2, with more than half linked to new IPOs, signaling that the IPO pipeline is converting meaningfully into client flows.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2077435341569417614",
-        "x:2077368193304154532"
+        "x:2077554057070399603",
+        "x:2077599630645485698"
       ]
     }
   ]
