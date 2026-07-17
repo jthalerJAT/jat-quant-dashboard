@@ -1,7 +1,7 @@
 {
-  "digest_type": "premarket",
-  "digest_dt": "2026-07-17T08:30:00-04:00",
-  "saved_at": "2026-07-17T13:40:51.505844+00:00",
+  "digest_type": "midday",
+  "digest_dt": "2026-07-17T12:00:00-04:00",
+  "saved_at": "2026-07-17T16:27:49.889945+00:00",
   "revisions": {
     "sales": {
       "metric": "sales",
@@ -69,16 +69,6 @@
           "n_obs": 783
         },
         {
-          "ticker": "TSM",
-          "forward_y_code": "27Y",
-          "metric": "sales",
-          "current_estimate": 6787493.872,
-          "prior_estimate": 6592820.844,
-          "pct_change": 2.9528032477504462,
-          "percentile": 85.69604086845466,
-          "n_obs": 783
-        },
-        {
           "ticker": "NVDA",
           "forward_y_code": "28Y",
           "metric": "sales",
@@ -107,6 +97,16 @@
           "pct_change": 1.893404161337986,
           "percentile": 64.65116279069767,
           "n_obs": 215
+        },
+        {
+          "ticker": "STX",
+          "forward_y_code": "27Y",
+          "metric": "sales",
+          "current_estimate": 16875.593,
+          "prior_estimate": 16627.88,
+          "pct_change": 1.4897449344113634,
+          "percentile": 72.66922094508301,
+          "n_obs": 783
         }
       ],
       "by_pct_bottom": [
@@ -263,16 +263,6 @@
           "n_obs": 783
         },
         {
-          "ticker": "TSM",
-          "forward_y_code": "27Y",
-          "metric": "sales",
-          "current_estimate": 6787493.872,
-          "prior_estimate": 6592820.844,
-          "pct_change": 2.9528032477504462,
-          "percentile": 85.69604086845466,
-          "n_obs": 783
-        },
-        {
           "ticker": "OKLO",
           "forward_y_code": "27Y",
           "metric": "sales",
@@ -310,6 +300,16 @@
           "prior_estimate": 28859.382,
           "pct_change": 0.13876596525870255,
           "percentile": 83.5249042145594,
+          "n_obs": 783
+        },
+        {
+          "ticker": "GNRC",
+          "forward_y_code": "27Y",
+          "metric": "sales",
+          "current_estimate": 5650.579,
+          "prior_estimate": 5613.0,
+          "pct_change": 0.6694993764475354,
+          "percentile": 80.5874840357599,
           "n_obs": 783
         }
       ],
@@ -419,7 +419,7 @@
     "ebitda": {
       "metric": "ebitda",
       "metric_display": "EBITDA",
-      "n_total_with_data": 121,
+      "n_total_with_data": 120,
       "by_pct_top": [
         {
           "ticker": "MU",
@@ -706,16 +706,6 @@
           "n_obs": 783
         },
         {
-          "ticker": "GNRC",
-          "forward_y_code": "27Y",
-          "metric": "ebitda",
-          "current_estimate": 1130.632,
-          "prior_estimate": 1118.944,
-          "pct_change": 1.0445562959361832,
-          "percentile": 81.8646232439336,
-          "n_obs": 783
-        },
-        {
           "ticker": "UEC",
           "forward_y_code": "27Y",
           "metric": "ebitda",
@@ -723,6 +713,16 @@
           "prior_estimate": 33.52,
           "pct_change": 4.937350835322185,
           "percentile": 81.60919540229885,
+          "n_obs": 783
+        },
+        {
+          "ticker": "TSLA",
+          "forward_y_code": "27Y",
+          "metric": "ebitda",
+          "current_estimate": 18842.897,
+          "prior_estimate": 18785.939,
+          "pct_change": 0.30319485227756626,
+          "percentile": 80.33205619412516,
           "n_obs": 783
         }
       ],

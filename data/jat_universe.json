@@ -1,245 +1,263 @@
 {
-  "digest_type": "premarket",
-  "digest_dt": "2026-07-17T08:30:00-04:00",
-  "saved_at": "2026-07-17T13:40:51.498430+00:00",
+  "digest_type": "midday",
+  "digest_dt": "2026-07-17T12:00:00-04:00",
+  "saved_at": "2026-07-17T16:27:49.883665+00:00",
   "bullets": [
     {
-      "title": "NFLX: -9-11% premarket on soft 3Q guide, FCF miss; analysts cut PTs, debate deepens",
-      "body": "Netflix Q2 EPS $0.80 beat and revenue $12.56B was roughly in-line, but Q3 revenue guide of $12.86B missed consensus $13.00B, FCF came in at $1.53B vs. $2.51B estimated, and FY26 revenue range was narrowed (not raised). Shifting engagement disclosure to annual cadence amplified bears. Average sell-side PT fell ~6% to ~$106; JPM cut PT to $85 (OW), MS cut to $83 (OW), UBS to $115 (Buy), Wolfe to $84 (OP), Citi to $85 (OP), KeyBanc holds $92 (OW); KGI downgraded to Neutral with $75 PT. Core debate: UCAN deceleration, engagement plateau, and whether ad revenue ramp (~$3B in 2026) and live programming are sufficient catalysts.",
+      "title": "NVDA: CEO dismisses chip delay, Japan AI factory with 27,500 Vera Rubin GPUs live; AAPL overtakes as most valuable",
+      "body": "Jensen Huang pushed back hard on 'chip delay' narrative, saying 'giant amounts' of Vera Rubin GPUs are coming and Japan's first AI factory (27,500 units) is operational. Separately, AAPL briefly surpassed NVDA as world's most valuable company at $4.92T vs NVDA's $4.86T amid the sector selloff.",
       "tickers": [
-        "NFLX"
-      ],
-      "source_item_ids": [
-        "gmail:19f6fe85b4f8a6b2",
-        "gmail:19f6ff88cdae744d"
-      ]
-    },
-    {
-      "title": "AAPL: HSBC upgrades to Buy, raises PT to $366 from $260; stock at all-time high",
-      "body": "HSBC analyst Nicolas Cote-Colisson upgraded AAPL from Hold to Buy, raising the price target to $366 from $260, implying ~10% upside from the ~$333 price at time of alert. Apple shares also reached new all-time highs intraday, approaching a $5T market cap milestone. Stock gained ~0.6% premarket on the upgrade.",
-      "tickers": [
+        "NVDA",
         "AAPL"
       ],
       "source_item_ids": [
-        "gmail:19f6e4cd1f090e20",
-        "x:2078032685931610423"
+        "x:2078083045886988719",
+        "x:2078043605629857843"
       ]
     },
     {
-      "title": "CSCO/ANET: Morgan Stanley VAR checks show accelerating demand; CSCO OW $130 PT",
-      "body": "MS 2Q26 CIO survey and VAR checks show CSCO growth expectations rose to 3.0% from 0.6%, with 67% of VARs expecting sales growth (vs. 48%) and 43% naming CSCO as best positioned for AI/DC spend. Growth is running ~11% YoY, broad-based across data center, campus, and Wi-Fi. ANET showing ~25-26% YoY growth in enterprise data center. Security is now the leading refresh driver at 53% of VARs. MS PT $130, Overweight. FFIV stable at ~7% YoY.",
-      "tickers": [
-        "CSCO",
-        "ANET"
-      ],
-      "source_item_ids": [
-        "gmail:19f7004e40d9c9d0",
-        "gmail:19f700cf7eb05b2b"
-      ]
-    },
-    {
-      "title": "Semi/AI trade sell-off deepens: Kimi K3, positioning unwind, semis -12% in 30 days",
-      "body": "China's Moonshot AI released Kimi K3 (2.8T parameter, world's largest open-weight model), ranking top-3 globally and triggering 'DeepSeek 2.0' fears about frontier AI business model viability. Semis are down ~12% over 30 days after record Q2 gains; CRWV -53%, MRVL -44%, ARM -44%, WDC -43% from 52-week highs. HF gross leverage at 99th pct but momentum not yet fully reset. Jefferies notes tech momentum drawdown exceeds dot-com era on 30-day basis. NDX futures down ~2% premarket; Asian markets closed sharply lower (Nikkei -5%, Taiwan -6%, HK Tech -5%).",
+      "title": "Kimi K3 / China AI triggers record momentum selloff; semis near bear market (-20%)",
+      "body": "MS TMT Momentum is down -40% in 17 days, the fastest/deepest selloff on record (vs -29% in early 2021). China's Moonshot Kimi K3 (2.8T-parameter open-weight MoE) rekindled DeepSeek fears, sending AMD -4.1%, MU -3.4%, CDNS -6.9%, ALAB -5.2%, and CRDO -5.7% in pre-market; SOX approaching -20% bear market threshold. Jefferies notes K3 API pricing jumped 223% vs prior version, which JPM argues makes it uncompetitive on cost-per-task vs Grok 4.5/Claude 4.8.",
       "tickers": [
         "NVDA",
         "AMD",
         "MU",
-        "SNDK",
-        "MRVL",
-        "AVGO",
         "INTC",
-        "WDC",
-        "CRWV"
+        "AVGO",
+        "ALAB",
+        "CRDO",
+        "MRVL"
       ],
       "source_item_ids": [
-        "gmail:19f7002d64051376",
-        "gmail:19f6fa77497568 0e"
+        "gmail:19f7084fed7bff72",
+        "x:2078059067277275335"
       ]
     },
     {
-      "title": "NVDA: Bears cite Chinese model specialization on Huawei chips; Kimi K3 requires GB300/B300 for deployment",
-      "body": "Jensen Huang acknowledged that Chinese AI models may specialize toward Huawei chips rather than NVIDIA hardware, posing a long-term competitive risk. Separately, Kimi K3's 2.8T parameter model cannot fit on a single NVIDIA DGX B200; deployment requires GB300 NVL72 or B300 systems with 288GB memory per GPU, which is bullish for higher-end NVDA hardware but uncertain for China access.",
+      "title": "CDNS/SNPS: Mizuho Buy the dip \u2014 Kimi K3 uses EDA tools, doesn't replace them",
+      "body": "CDNS and SNPS dropped ~10% after Moonshot's K3 autonomously designed a chip in 48 hours using open-source tools (OpenRoad at 45nm), not proprietary CDNS/SNPS solvers. Mizuho argues agentic AI drives incremental EDA usage, could triple core EDA TAM, and K3's result used academic nodes where CDNS/SNPS have no durable edge\u2014recommending buying the dip.",
       "tickers": [
         "NVDA"
       ],
       "source_item_ids": [
-        "x:2077966560447074689",
-        "x:2078012610843484187"
+        "gmail:19f70af8f8ada038",
+        "gmail:19f70b003780062e"
       ]
     },
     {
-      "title": "AMD: Citi/Jefferies bullish into Advancing AI 7/22-23 event; MI455X + Venice CPU catalysts",
-      "body": "AMD's Advancing AI conference (July 22-23) is expected to feature the MI455X with 432GB HBM4 memory and Venice CPU on TSMC 2nm. Citi is a buyer of AMD ahead; Jefferies expects announcements with Microsoft and Anthropic on MI400 series wins. Venice CPU expected to extend leadership over Intel Granite Rapids. AMD positioned as credible GPU second-source at Meta with ramp expected 2H27/2028.",
+      "title": "NFLX: -11% post-earnings; MS cuts PT to $83, Bernstein to $95; 3Q guidance disappoints",
+      "body": "Netflix fell ~11.6% after 2Q revenue of $12.6B (+13.5% YoY) was offset by weaker-than-expected UCAN trends and below-consensus 3Q revenue guidance (+11% ex-FX vs +12% prior). Morgan Stanley cut PT to $83 from $90; Bernstein cut to $95 from $100. Citi warns bears see multiple compression toward traditional video media multiples.",
       "tickers": [
-        "AMD",
-        "META"
+        "NFLX"
       ],
       "source_item_ids": [
-        "gmail:19f6f89d23e052d6",
-        "x:2077820143862706446"
+        "gmail:19f705559a82709d",
+        "gmail:19f7070dff093690"
       ]
     },
     {
-      "title": "TXN/INTC previews: Citi sees 4-13% EPS upside for both into 7/22-23 reports",
-      "body": "Citi models TXN Jun/Sep-Q EPS 1%/4% above consensus, with C26/C27 EPS $8.03/$10.10 (4-13% above Street) on industrial and data center strength. INTC 2Q26 sales modeled at $14.4B (6% QoQ), EPS $0.24 above consensus; 3Q26 upside from CPU demand and custom ASIC. INTC foundry expected to scale in 2027 via Apple, NVIDIA, MediaTek, Terafab ramp.",
-      "tickers": [
-        "TXN",
-        "INTC"
-      ],
-      "source_item_ids": [
-        "gmail:19f6f86bd3704df3",
-        "gmail:19f6fd616ad35b42"
-      ]
-    },
-    {
-      "title": "TSM: PT raises from MS ($2,988), JPM (NT$3,200), DA Davidson ($500); Q2 beat overshadowed by sector fear",
-      "body": "TSMC Q2 revenue $40.2B (+33.7% YoY) at top of guidance; gross margin 67.7% beat guided 65.5-67.5%. Company raised 2026 capex to $60-64B. AI semiconductor revenue tracking above prior 55-60% CAGR\u2014MS sees 70-80% as reasonable. Despite strong print, Taiwan-listed shares fell 3.8% intraday as foreign investors sold $5.8B of Taiwan equities (record). JPM raises FY26/27/28 EPS 4%/2%/6%.",
-      "tickers": [
-        "TSM"
-      ],
-      "source_item_ids": [
-        "gmail:19f6f9727f958498",
-        "gmail:19f6eb5ac4ef1d98"
-      ]
-    },
-    {
-      "title": "NOW: Q2 earnings setup favorable; JPM and MS both see cRPO upside and federal demand",
-      "body": "ServiceNow reports Q2 after the close on 7/22 (consensus EPS $0.86, revenue $3.93B). JPM flags that investors want cc cRPO growth of 18.5%+ vs. guidance of 17.5%; any 3Q subscription deceleration below 21-21.5% will disappoint. MS notes favorable setup with Federal customer demand driving upside. Key risk: customer backlash on 50-100% AI bundle pricing in renewals.",
-      "tickers": [
-        "NOW"
-      ],
-      "source_item_ids": [
-        "gmail:19f6ff88cdae744d",
-        "gmail:19f6fe8cef9add9f"
-      ]
-    },
-    {
-      "title": "META: Hires top AWS exec Dave Brown for data center build-out; exploring cloud push",
-      "body": "Meta has poached Dave Brown, a top Amazon Web Services executive with ~20 years of experience, to lead data center infrastructure. The hire signals Meta's ambition to build a cloud services business. MS notes a Meta cloud launch would increase colocation demand, benefiting EQIX and DLR. GOOGL also featured as a key beneficiary of Kimi K3 fragmentation, with hyperscalers positioned as orchestration layer.",
-      "tickers": [
-        "META",
-        "EQIX"
-      ],
-      "source_item_ids": [
-        "gmail:19f6ff88cdae744d",
-        "gmail:19f6fc671cb22eaf"
-      ]
-    },
-    {
-      "title": "GOOGL: Gemini 3.5 Pro delayed months; engineers frustrated about competitive gap",
-      "body": "Google's Gemini 3.5 Pro launch has been pushed back months beyond its May developer conference target, primarily due to coding capability shortfalls. Internal frustration is growing as engineers worry about losing ground to Anthropic and OpenAI. GOOGL closed down 4.4% Thursday, erasing ~$200B in market cap. Alphabet reports Q2 earnings July 22 after the close (consensus EPS $2.88, revenue $117.0B).",
+      "title": "GOOGL: Gemini 3.5 Pro delayed ~1 month on coding gaps; stock -4.5% pre-market",
+      "body": "GOOGL fell ~4.5% as reports emerged that Gemini 3.5 Pro is delayed roughly one month due to coding capability gaps vs. peers (per Morgan Stanley). GOOGL reports earnings Wednesday after close next week; AMD Advancing AI event also Wednesday-Thursday.",
       "tickers": [
         "GOOGL"
       ],
       "source_item_ids": [
-        "gmail:19f6ff88cdae744d",
-        "x:2077822643328487787"
+        "gmail:19f7084fed7bff72",
+        "gmail:19f700fdfc8bceb1"
       ]
     },
     {
-      "title": "DELL/HPE: DELL widening server/PC/storage leadership vs HPE via supply chain execution",
-      "body": "Morgan Stanley VAR call shows DELL gaining PC share YoY while HPQ lost share; DELL saw strongest QoQ storage improvement vs. peers. Hardware prices surged: servers +70% YoY, storage/PCs +50%, networking +25-30%, with ~70% of 2Q hardware revenue growth pricing-driven. ~10-15% of 2Q demand reflects pull-forward. Deployment resources identified as main constraint on further acceleration.",
+      "title": "META: Hires AWS Compute Chief Dave Brown, signals enterprise cloud push; expanding Louisiana DC to 5GW",
+      "body": "Meta is hiring Dave Brown, one of AWS's most senior executives (nearly two decades at Amazon), to lead its cloud infrastructure buildout as it weighs offering cloud services. Separately, Meta is expanding its Louisiana data center from 2GW to 5GW with a $50B+ commitment, and JPM notes Meta 2026 capex at $125-145B.",
       "tickers": [
-        "DELL",
-        "HPE"
+        "META",
+        "AMZN"
       ],
       "source_item_ids": [
-        "gmail:19f700a51ce5c072"
+        "x:2078073375818182687",
+        "gmail:19f709c7c4f094ac"
       ]
     },
     {
-      "title": "UBER: Acquires Delivery Hero at \u20ac41.50/sh (~$14.8B); antitrust close expected 2H27",
-      "body": "Uber submitted an all-cash offer for Delivery Hero at \u20ac41.50/share, with Prosus (~17% stake) already committed irrevocably. The deal expands Uber's markets to 99 and cross-platform coverage to 59%. Jefferies sees little room for a price bump or counter-bid; antitrust/BaFin approvals expected to gate close to 2H27. Roth maintains Buy on UBER with $105 PT.",
+      "title": "NVDA bullish counter-thesis: UBS says open-source AI adoption expands inference demand",
+      "body": "UBS argues open-source model adoption (growing from sub-1% to multiples of that by mid-2026) is net positive for NVDA because most open-source models are trained/fine-tuned on NVDA hardware, yielding superior inference performance. The firm views open-source as incremental demand, not cannibalistic\u2014and NVDA's Nemotron family positions it for agentic workflows.",
       "tickers": [
-        "UBER"
+        "NVDA",
+        "MSFT"
       ],
       "source_item_ids": [
-        "gmail:19f6efb98bf99e8c",
-        "gmail:19f6fddde94b78a0"
+        "gmail:19f7043d35be0499",
+        "gmail:19f704373d3f4ca3"
       ]
     },
     {
-      "title": "DKNG: Bet365 reaches 7.3% US OSB share in 17 states; mid-single digit threat growing",
-      "body": "Bet365 now operates in 17 US states covering ~39% of US population (vs. 25.5% in Jan 2025), gaining 220bps of OSB GGR share to 7.3% in April 2026. Hold rate gap to FanDuel/DKNG narrowing. UBS sees Bet365 as a mid-single digit threat to the DraftKings/FanDuel duopoly. DKNG/FanDuel combined still hold 70%+ OSB GGR share.",
+      "title": "MRVL: Buy maintained, $280 PT; F2Q27E +12% QoQ revenue, margins above Street",
+      "body": "An analyst maintains Buy on MRVL with $280 price target, forecasting F2Q27 revenue +12% QoQ with ~59% non-GAAP gross margin vs. Street at 58.8%, and F3Q27E +13% QoQ vs. consensus +11%. QCOM initiated at Hold by same analyst. MS separately sized scale-up networking TAM at $73B and upgraded KEYS to OW, with AVGO, ALAB, and MRVL as copper/ASIC ramp beneficiaries.",
       "tickers": [
-        "DKNG"
+        "MRVL",
+        "AVGO",
+        "ALAB",
+        "COHR",
+        "LITE",
+        "GLW"
       ],
       "source_item_ids": [
-        "gmail:19f6fa35d6f40cd5",
-        "gmail:19f6dfd67e47c5a3"
+        "x:2078054898839720120",
+        "gmail:19f70623d4ad43bd"
       ]
     },
     {
-      "title": "VRT: Down 4% premarket on broad AI/tech sector weakness",
-      "body": "Vertiv declined 4.0-4.7% in premarket trading, cited in both the industrials and technology sector summaries as part of the broader AI/data center infrastructure selloff. No company-specific fundamental news was cited as the driver; weakness attributed to the China AI competition narrative weighing on the full AI buildout complex.",
+      "title": "PLTR: DA Davidson upgrades to Buy; pullback is attractive entry despite NHS concerns",
+      "body": "DA Davidson upgraded PLTR to Buy, arguing high-value products and competitive moat warrant a premium to the 30% growth-camp peer multiple. UK NHS contract concerns dismissed as <1% of revenues. BRZE also flagged as taking share from Salesforce/Adobe, trading at 28x CY26 FCF vs. 39x for 20% growth peers.",
       "tickers": [
-        "VRT"
+        "PLTR"
       ],
       "source_item_ids": [
-        "gmail:19f6ff52ee4af319",
-        "gmail:19f6fd9692fad41a"
+        "gmail:19f70742befd2892"
       ]
     },
     {
-      "title": "BE/SEI: Morgan Stanley bullish on onsite power generation as data center buildout drives demand",
-      "body": "MS identifies a 38GW US data center power shortfall through 2028 with interconnection delays extending beyond 5 years. Federal policy is shifting toward requiring large-load customers to fund their own grid upgrades, catalyzing onsite generation. SEI and BE are identified as beneficiaries. The MSXXONPW onsite power basket is down 19% in three weeks, which MS frames as an entry point.",
-      "tickers": [
-        "BE"
-      ],
-      "source_item_ids": [
-        "gmail:19f6febb9e34b0fb"
-      ]
-    },
-    {
-      "title": "NBIS: Cramer bearish near-term; trader commentary confirms weak technicals",
-      "body": "Jim Cramer called NBIS 'a very good company' but said 'it's not done going down' and the current price is not a good entry. Multiple trader comments on X confirm the stock remains weak technically and needs to find a low before the neocloud sector can bounce. One trader disclosed selling at $75.",
-      "tickers": [
-        "NBIS"
-      ],
-      "source_item_ids": [
-        "x:2077912559630311903",
-        "x:2077934933616869631"
-      ]
-    },
-    {
-      "title": "FOXA/ROKU: Citi moves Fox to Top Pick on Roku deal; PT $78 and $157 respectively",
-      "body": "Citi argues the market is overreacting to Fox's Roku acquisition announcement. It models ~$1B in annual EBITDA synergies (revenue + cost), FCF accretion within one year of closing vs. Fox's two-year guide, and a deal close as early as 4Q26 vs. Fox's 1H27 outlook. Fox PT maintained at $78; Roku PT raised from $120 to $157 on 90% deal probability at $161.",
+      "title": "FOXA/ROKU: Citi upgrades FOXA to Top Pick ($78 PT); ROKU PT raised to $157 on deal synergies",
+      "body": "Citi upgraded FOXA to Top Pick with $78 PT, calling the Roku deal FCF accretive one year after close (vs. two-year guide) with ~$1B annual EBITDA synergies and close by 4Q26. ROKU PT raised to $157 from $120 though Citi maintains Neutral on ROKU. FOXA flagged as strong relative-value play in streaming consolidation.",
       "tickers": [
         "FOXA",
         "ROKU"
       ],
       "source_item_ids": [
-        "gmail:19f6d993769739de"
+        "gmail:19f705559a82709d"
       ]
     },
     {
-      "title": "EQIX: MS Overweight at $1,250 PT; CIO survey supports colocation demand acceleration",
-      "body": "MS 2Q26 CIO survey shows IT budget growth accelerating with colocation maintaining stable ~7% share of growing workloads. EQIX forecast to bring ~300MW/year online through 2029; bull case implies 15% recurring revenue growth in 2027 and $50 AFFO/share (~10% above consensus). Shares trade at 21x '27 EBITDA with ~2.2x bull/bear skew. Meta cloud launch viewed as incremental positive for EQIX interconnect demand.",
+      "title": "ALLY: Unusual options volume 1,456% above average ahead of Jul-21 earnings",
+      "body": "ALLY showed 35,866 options contracts traded vs. 2,464-contract average (1,456% above avg) with a 0.00 put/call ratio, signaling aggressive bullish positioning ahead of earnings before market open on July 21.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19f70c69abcae7ad"
+      ]
+    },
+    {
+      "title": "AAPL: iPhone carrier-lock policy shifts value to VZ/T; Baltra chip delays signal AI roadmap risk",
+      "body": "Apple iPhones financed via carrier installment plans are no longer being unlocked, locking customers to carrier networks\u2014positive for AT&T, T-Mobile, and Verizon but negative for Apple's ecosystem control. Separately, Apple is reportedly hunting external AI chip acquisitions due to delays in its own 'Baltra' server chip program. Mizuho views AAPL as relatively safe 'anti-AI capex' play with raised prices and stable unit volumes.",
+      "tickers": [
+        "AAPL",
+        "VZ",
+        "T"
+      ],
+      "source_item_ids": [
+        "gmail:19f709c7c4f094ac",
+        "gmail:19f701a7f7caefe8"
+      ]
+    },
+    {
+      "title": "EQIX: CBO Jon Lin fired after 17-year tenure; negative read on leadership stability",
+      "body": "Equinix's Chief Business Officer Jon Lin was separated/fired on July 18 after 17 years overseeing products and global P&L. Wells Fargo also upgraded SBAC to OW at $210 PT (Citi also maintains Buy on SBAC post-17% pullback, forecasting $12.28 FY26 AFFOPS vs. $12.20 consensus).",
       "tickers": [
         "EQIX"
       ],
       "source_item_ids": [
-        "gmail:19f6fc671cb22eaf"
+        "gmail:19f709c7c4f094ac",
+        "gmail:19f7092d42318350"
       ]
     },
     {
-      "title": "Earnings calendar: GOOGL, TXN, NOW, T, INTC, VZ, CHTR, CMCSA all report next week",
-      "body": "Key earnings next week: GOOGL (Wed 7/22 AMC, est. EPS $2.88, rev $117.0B), TXN (Wed 7/22 AMC, est. EPS $1.92), NOW (Wed 7/22 AMC, est. EPS $0.86), T (Wed 7/22 BMO), INTC (Thu 7/23 AMC, est. EPS $0.21), CMCSA (Thu 7/23 BMO), VZ (Fri 7/24 BMO), CHTR (Fri 7/24 BMO). Hyperscaler 2027 capex guidance is the key watch across GOOGL/AMZN/META calls given the AI spending debate.",
+      "title": "NBIS: Raises $775M senior secured debt to accelerate GPU cloud buildout",
+      "body": "Nebius entered its first senior secured debt facility of ~$775M (SOFR+250bps, maturing Oct 2030), backed by deployed GPU infrastructure and contracted cash flows from an investment-grade customer. Proceeds fund global full-stack AI cloud expansion; facility plus customer cash flows cover >100% of underlying capex.",
       "tickers": [
-        "GOOGL",
-        "TXN",
-        "NOW",
-        "T",
-        "INTC",
-        "VZ",
-        "CHTR",
-        "CMCSA",
-        "AMZN",
-        "META"
+        "NBIS"
       ],
       "source_item_ids": [
-        "gmail:19f6fbdff086962e",
-        "gmail:19f7001f63278e63"
+        "gmail:19f702c2fe56f677"
+      ]
+    },
+    {
+      "title": "DKNG: UBS flags Bet365 as growing competitive threat; PA gaming revenues -1.7% YoY",
+      "body": "UBS highlights Bet365 expanded into 6 new US states since early 2025, now covering 38.9% of US population (from 25.5%), making it a more meaningful threat than BetMGM or Caesars. Pennsylvania June gaming revenues fell 1.7% YoY to $535M with iGaming down 10.2%, though sports wagering handle rose 17.9%.",
+      "tickers": [
+        "DKNG"
+      ],
+      "source_item_ids": [
+        "gmail:19f704bf7e3540c8",
+        "gmail:19f70a47371cc453"
+      ]
+    },
+    {
+      "title": "Semi sector: VRT, WDC, CRWV at 52-week lows; ORCL -48% YTD",
+      "body": "Pre-market data shows VRT down 2.2% at a 52-week low, WDC down 1.5% at 52-week low, and CRWV down 0.4% YTD also at 52-week low. ORCL is down 48.3% YTD at a 52-week low, NFLX at 52-week low down 45.6% YTD. Memory stocks account for ~2/3 of tech selling since the reversal per MS prime brokerage data.",
+      "tickers": [
+        "VRT",
+        "WDC",
+        "CRWV",
+        "ORCL",
+        "NFLX",
+        "MU",
+        "SNDK"
+      ],
+      "source_item_ids": [
+        "gmail:19f707526df44cbd",
+        "gmail:19f7070dff093690"
+      ]
+    },
+    {
+      "title": "Mizuho: Semi weakness is rotation not fundamentals; buy TXN analog semis into earnings",
+      "body": "Mizuho's buy-side tour found no panic selling in semis\u2014weakness attributed to retail/levered ETF unwinding after SOX's 104% rally from March lows. Analog semis (TXN, STM) flagged as best-positioned for upside: TXN can beat Q2 and hit $5.85B Q3 revenue bogey; analog companies raising prices a second time this year with gross margin expansion ahead. Hyperscalers (META, GOOGL, AMZN) flagged as add-on-weakness.",
+      "tickers": [
+        "TXN",
+        "AMZN",
+        "META",
+        "GOOGL",
+        "NVDA",
+        "AVGO",
+        "TSM"
+      ],
+      "source_item_ids": [
+        "gmail:19f701a7f7caefe8"
+      ]
+    },
+    {
+      "title": "CCL preferred, NCLH cautious; VIK PT raised to $115 on strongest pricing growth",
+      "body": "Jefferies upgrades VIK price target to $115 (from $100) on ~12% Y/Y 2H26 pricing growth vs. peers softening (CCL -12%, RCL -5%, NCLH -6%). NCLH faces material pressure with May-July 2027 pricing down ~28% YoY; FY27 EPS cut 15%. CCL benefits from geographic diversification and 4.2% buyback. Ratings: Buy VIK & CCL; Hold RCL & NCLH.",
+      "tickers": [
+        "CCL",
+        "RCL"
+      ],
+      "source_item_ids": [
+        "gmail:19f704200c4f7f27"
+      ]
+    },
+    {
+      "title": "TSLA/GOOGL/INTC earnings next week; AMD Advancing AI event Wednesday-Thursday",
+      "body": "Key week ahead: GOOGL and TSLA report Wednesday after close, INTC Thursday after close. AMD hosting Advancing AI event Wed-Thu. VZ, T, CMCSA, CHTR, NOW, TXN, DLR also on calendar. Fed in blackout before July 29 FOMC; markets pricing 24bp of hikes through year-end.",
+      "tickers": [
+        "TSLA",
+        "GOOGL",
+        "INTC",
+        "AMD",
+        "VZ",
+        "T",
+        "CMCSA",
+        "CHTR",
+        "NOW",
+        "TXN",
+        "DLR"
+      ],
+      "source_item_ids": [
+        "gmail:19f707f2d7aabfba"
+      ]
+    },
+    {
+      "title": "JPM hyperscaler AI capex thesis intact; $1.4T by 2028; K3 seen as bullish for compute",
+      "body": "MS estimates $1.4T hyperscaler capex and 4x compute capacity by 2028. JPM notes Kimi K3 requires GB/B300 chips (cannot fit on single NVDA DGX B200), which is actually bullish for the capex cycle. Hyperscalers approaching FCF neutrality in 2026-27 with further acceleration likely funded via equity/debt. JPM and MS hosting joint hyperscaler equity/credit calls next week (GOOGL, AMZN, META, MSFT, ORCL).",
+      "tickers": [
+        "NVDA",
+        "META",
+        "AMZN",
+        "MSFT",
+        "GOOGL",
+        "ORCL"
+      ],
+      "source_item_ids": [
+        "gmail:19f7084fed7bff72",
+        "gmail:19f70626e08b69ae"
       ]
     }
   ]
