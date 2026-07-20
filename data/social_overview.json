@@ -1,6 +1,233 @@
 {
-  "digest_type": "weekend",
-  "digest_dt": "2026-07-19T18:00:00-04:00",
-  "saved_at": "2026-07-19T22:39:09.549281+00:00",
-  "bullets": []
+  "digest_type": "premarket",
+  "digest_dt": "2026-07-20T08:30:00-04:00",
+  "saved_at": "2026-07-20T13:38:15.254928+00:00",
+  "bullets": [
+    {
+      "title": "AMD Anthropic Customer Confirmed via GitHub; Advancing AI Conf Imminent",
+      "body": "Multiple fintwit accounts confirmed Anthropic will be an AMD customer via AMD's senior director of AI's public GitHub YAML, listing Anthropic with maximum priority boost points equal to existing major customers. However, one observer cautions Anthropic is still in evaluation phase and lacks of announcement at the Advancing AI 2026 conference (this week) would signal ongoing software quality concerns\u2014including insufficient CI testing for Pollara NIC at Kubernetes layer. AMD is simultaneously debuting 2nm Venice server CPUs and MI450/MI455 AI accelerators to compete with Nvidia Rubin.",
+      "tickers": [
+        "AMD"
+      ],
+      "source_item_ids": [
+        "x:2078975424709677359",
+        "x:2079007008183980286"
+      ]
+    },
+    {
+      "title": "TSMC US Investment Hits $265B; CFO Eyes Bond Issuance for AI Capex",
+      "body": "TSMC CFO confirmed the company sees 'strong multi-year' AI chip demand and is accelerating its Arizona fab buildout, with total U.S. investment reaching $265B. CFO is not ruling out bond issuance to fund capex if market timing is favorable, and physical constraints at the Arizona plant are being addressed with ongoing U.S. government cooperation.",
+      "tickers": [
+        "TSM"
+      ],
+      "source_item_ids": [
+        "x:2078983482773291195",
+        "x:2078979679042908278"
+      ]
+    },
+    {
+      "title": "NVDA: SpaceX Awards Foxconn $52B Order for GB300 AI Server Racks",
+      "body": "SpaceX placed its first orders for NVIDIA GB300-based AI servers through Foxconn in a deal reportedly worth $52 billion (13,000 racks at ~$4M each), breaking Dell and Supermicro's duopoly. Elon denied the scale of the report, and one analyst notes Foxconn's exact share of the $52B is undetermined.",
+      "tickers": [
+        "NVDA"
+      ],
+      "source_item_ids": [
+        "x:2078988776983114124",
+        "x:2079015659699352021"
+      ]
+    },
+    {
+      "title": "Semiconductor Selloff Deepens; SOX in Bear Market on Kimi K3 Fears",
+      "body": "The Philadelphia Semiconductor Index entered bear market territory, down 20%+ from June 22 highs and falling 10% in the week\u2014largest weekly decline since April 2025. The selloff was triggered by China's Kimi K3 release (2.8T parameter MoE model), with analysts debating whether linear attention cuts networking/compute demand or actually drives more Nvidia NVL72 usage given the massive weight size.",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "MU",
+        "SNDK",
+        "INTC"
+      ],
+      "source_item_ids": [
+        "x:2078221335176622568",
+        "x:2078954195559006510"
+      ]
+    },
+    {
+      "title": "Kimi K3 Positive for NVDA Large-Scale Inference; KV-Cache Debate Overstated",
+      "body": "SemiAnalysis and multiple fintwit analysts argue the Kimi K3 panic mirrors the DeepSeek R1 selloff in error: K3's 2.8T parameters require massive weight storage that favors NVIDIA NVL72 scale-up infrastructure. While KDA attention cuts KV-cache networking by up to 10x, WideEP weight distribution across GPUs creates offsetting bandwidth demands, and Jevons' Paradox suggests efficiency gains will drive broader AI adoption requiring more hardware.",
+      "tickers": [
+        "NVDA"
+      ],
+      "source_item_ids": [
+        "x:2078250694306345038",
+        "x:2078594446996787568"
+      ]
+    },
+    {
+      "title": "Server DRAM Spot Prices Surge Since Mid-July; 3Q ASP Forecast +21% QoQ",
+      "body": "Meritz Securities channel checks show server DRAM (64GB) spot prices surging sharply since mid-July with the gap widening vs. contract prices. One analyst forecasts 3Q global DRAM ASP up 21% QoQ, more bullish than TrendForce's 13-18% estimate, consistent with channel checks.",
+      "tickers": [
+        "MU"
+      ],
+      "source_item_ids": [
+        "x:2078068303226720265",
+        "x:2078646973905998103"
+      ]
+    },
+    {
+      "title": "SNDK Down 42% from June ATH; Memory Sector Leveraged Unwind Underway",
+      "body": "SanDisk fell over 42% from June all-time highs, losing approximately $150B in market cap. One analyst notes memory stock decline is being driven by unwinding of leveraged positions and the market pricing in future supply expansion risk. SK Group chairman forecasts 60-100% YoY AI semiconductor demand growth next year, calling current high prices 'abnormal.'",
+      "tickers": [
+        "SNDK",
+        "MU"
+      ],
+      "source_item_ids": [
+        "x:2078326699704365361",
+        "x:2078754082370764971"
+      ]
+    },
+    {
+      "title": "Memory Big Three Halt Proprietary CXL Controller Development",
+      "body": "SK Hynix, Samsung, and Micron have scrapped plans for in-house CXL controller development after heavy investment. One analyst argues this is not necessarily bearish for CXL adoption overall\u2014the value will shift to external controller vendors rather than disappearing.",
+      "tickers": [
+        "MU"
+      ],
+      "source_item_ids": [
+        "x:2079103447157338422",
+        "x:2079105217346601204"
+      ]
+    },
+    {
+      "title": "Oracle Credit Risk Hits All-Time High; Project Jupiter Faces 1-2 Year Delay",
+      "body": "Oracle's credit risk gauge hit a fresh all-time high. Separately, detailed research reveals Oracle's 2.45 GW Project Jupiter data center in New Mexico faces potential 1-2 year delay: the required 17-mile gas pipeline lacks an approved route (permit denied July 14), and the fuel cell Air Permit application remains pending with no public hearing date set.",
+      "tickers": [
+        "ORCL"
+      ],
+      "source_item_ids": [
+        "x:2078774135749218484",
+        "x:2078313861556355134"
+      ]
+    },
+    {
+      "title": "LITE & CIEN: Optical Sector Detailed Valuation with Strong Growth Profiles",
+      "body": "Fintwit analyst publishes detailed comps: LITE at ~$57B market cap guiding ~$985M next quarter (+105% YoY), positioned at constrained 800G/1.6T optical layers; CIEN at ~$54.8B guiding ~$1.625B next quarter (+33% YoY) with AI data-center systems exposure. Both names trading at 7-8x NTM sales.",
+      "tickers": [
+        "LITE",
+        "CIEN"
+      ],
+      "source_item_ids": [
+        "x:2078325890069496311",
+        "x:2078550369269936561"
+      ]
+    },
+    {
+      "title": "AAOI: $189M Next-Quarter Guide (+84% YoY); $5.6B Annualized Revenue Path by 2027",
+      "body": "Applied Optoelectronics trades at ~$8.2B market cap with next-quarter guidance of ~$189M (+25% QoQ, +84% YoY) and a next-12-month revenue estimate of $1.45-1.75B. One analyst targets $471M/month by H2 2027 ($5.6B annualized) at 40%+ GAAP gross margins; bears note lowest margins in peer group and execution risk.",
+      "tickers": [
+        "AAOI"
+      ],
+      "source_item_ids": [
+        "x:2078829458480648668",
+        "x:2078272513755263319"
+      ]
+    },
+    {
+      "title": "Meta-Anthropic Compute Lease Talks: ~$10B Deal Being Discussed",
+      "body": "Meta is reportedly in talks to lease AI infrastructure capacity to Anthropic worth up to $10 billion, providing Meta a potential revenue stream from its massive capex buildout and signaling Anthropic's ongoing compute capacity needs.",
+      "tickers": [
+        "META"
+      ],
+      "source_item_ids": [
+        "x:2078178694636478928",
+        "x:2078317530712826248"
+      ]
+    },
+    {
+      "title": "Oil Surges to $88-91/bbl; US SPR at 45-Year Low as Hormuz Risk Rises",
+      "body": "Brent crude surged above $90/bbl (briefly touching $91) on US-Iran military escalation and Iranian threats to close the Strait of Hormuz. US crude inventories sit at 43-day supply\u2014the lowest in 45 years\u2014and the SPR is at its lowest since 1983. Polymarket dropped Hormuz normalization odds to 51% from 64%.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2078995932004389218",
+        "x:2079098891857740287"
+      ]
+    },
+    {
+      "title": "Goldman CTA Thresholds Broken in Nasdaq; SPX Levels Watched",
+      "body": "Goldman flags CTA threshold levels broken in Nasdaq, with SPX key pivot points at 7446 (short-term), 7175 (mid-term), and 6745 (long-term). NDX pivots at 29265/27441/25088 respectively. Single-stock implied volatility is 2.8x the index IV, reaching highest level since 1995.",
+      "tickers": [
+        "SPY"
+      ],
+      "source_item_ids": [
+        "x:2078977182790013416",
+        "x:2078115383156477999"
+      ]
+    },
+    {
+      "title": "Hedge Funds Sold Tech at Record Pace; Semis Positioning Still Elevated",
+      "body": "Goldman data shows hedge funds sold tech stocks in 6 of the past 8 weeks\u2014the largest cumulative percentage selling since GS began tracking\u2014but semiconductor positioning remains near long-term highs with only measured de-risking rather than panic selling.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2079075505328840735",
+        "x:2079115407965794385"
+      ]
+    },
+    {
+      "title": "GOOGL + INTC Earnings as Key Catalysts This Week; TSLA Also Reports",
+      "body": "Alphabet, Tesla, and Intel are all reporting this week. Alphabet is identified as the first hyperscaler reporting with CAPEX guidance seen as the 'biggest single number of the week.' Intel is expected to provide significantly revised guidance. Broader tech earnings season pre-dates MSFT/META/AAPL reports.",
+      "tickers": [
+        "GOOGL",
+        "INTC",
+        "TSLA"
+      ],
+      "source_item_ids": [
+        "x:2078857007138996529",
+        "x:2078785173676781981"
+      ]
+    },
+    {
+      "title": "TSLA: Robotaxi Rollout Missed 3 Straight Earnings; Operating Margin at 4.2%",
+      "body": "Tesla has missed robotaxi/FSD rollout guidance for three consecutive earnings reports, with most recent guidance covering only 7 new cities in H1 2026 vs. prior US-wide targets. Operating margin collapsed from 19.2% to 4.2% over four years, well below the S&P 500 average of 16-17%. Elon's Q2 earnings questions noted for providing wide runway to ramble rather than deliver accountability.",
+      "tickers": [
+        "TSLA"
+      ],
+      "source_item_ids": [
+        "x:2078790992451502509",
+        "x:2078501295812407709"
+      ]
+    },
+    {
+      "title": "Alibaba Launches Qwen3.8 Max; Claims Second Only to Claude 5",
+      "body": "Alibaba released a preview version of Qwen3.8 Max positioning it as second only to Anthropic's Claude 5 in capability, with a separate 2.4T parameter open-weight model (Qwen3.8) also launching soon. Separately, Alibaba open-sourced 'SAIL' as an alternative to NVIDIA's CUDA ecosystem.",
+      "tickers": [
+        "BABA"
+      ],
+      "source_item_ids": [
+        "x:2078802237044777219",
+        "x:2079105066280391088"
+      ]
+    },
+    {
+      "title": "NFLX Hits 52-Week Low; Broad Momentum Meltdown Extends Into Retail Positioning",
+      "body": "Netflix hit a new 52-week low, trading below its 200-day MA by the widest margin in 4 years. High-beta momentum is down 28.9% over the past month. Retail investors have been rotating out of Magnificent 7 names while WSJ reports retail bought more IREN and ONDS than MSFT/GOOGL/AMZN/TSLA combined this month.",
+      "tickers": [
+        "NFLX",
+        "MSFT",
+        "GOOGL",
+        "TSLA",
+        "AMZN"
+      ],
+      "source_item_ids": [
+        "x:2078182944234000467",
+        "x:2079021535344378043"
+      ]
+    },
+    {
+      "title": "Korea Stock Market Volatility Hits Historical High; KOSPI -5%",
+      "body": "South Korea's KOSPI plunged 4-5.1% with the exchange activating its sell-side circuit breaker. Market volatility exceeded 2008 GFC levels as 1.2 million retail traders (~3.4% of adult population) received margin calls and foreign investors dumped Korean equities at record pace amid heavy losses on leveraged AI investments.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2079005817269874940",
+        "x:2078397928796819625"
+      ]
+    }
+  ]
 }
