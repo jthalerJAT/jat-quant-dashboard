@@ -1,200 +1,219 @@
 {
-  "digest_type": "midday",
-  "digest_dt": "2026-07-20T12:00:00-04:00",
-  "saved_at": "2026-07-20T16:26:41.314288+00:00",
+  "digest_type": "eod",
+  "digest_dt": "2026-07-20T18:00:00-04:00",
+  "saved_at": "2026-07-20T22:23:54.088547+00:00",
   "bullets": [
     {
-      "title": "IREN Signs $2.8B AI Contracts, Raises ARR Target; xAI Speculated as Mystery Customer",
-      "body": "IREN announced $2.8B in new customer contracts with leading AI developers and raised its 2026 AI Cloud annualized run-rate revenue target from $3.7B to over $4B. Speculation on social media points to xAI (scaling Colossus) as the mystery customer, citing IREN's renewable power flexibility and diversified supply advantages. Stock was seen bouncing on the news.",
+      "title": "IREN surges 20% on $2.8B AI cloud contracts; sector read-through to HUT, NBIS",
+      "body": "IREN signed $2.8B in new multi-year AI cloud services contracts with Microsoft, Nvidia, Perplexity, and Figure, raising its ARR target to $4B+ and lifting shares ~20%. The company is securing 45% prepayments on new contracts\u2014seen as a bullish neocloud datapoint\u2014and Northland raised NBIS to a $410 price target. HUT gained ~10% following a 15-year $9.8B AI data center lease.",
       "tickers": [
-        "IREN"
+        "IREN",
+        "NBIS",
+        "HUT"
       ],
       "source_item_ids": [
-        "x:2079160309047038311",
-        "x:2079171696817217934"
+        "x:2079254669793316962",
+        "x:2079230755394215970"
       ]
     },
     {
-      "title": "TSMC CFO Confirms $100B Additional US Arizona Capex for AI Chip Demand",
-      "body": "TSMC CFO Wendell Huang confirmed an additional $100B investment in US Arizona operations, driven by soaring structural demand for AI chips. CFO added: 'As long as the megatrend is right, then we're able to continue to deliver profitable growth to shareholders.'",
+      "title": "AMD-Microsoft expand AI partnership; Helios GPUs ramping on Azure at scale",
+      "body": "AMD and Microsoft announced an expanded strategic partnership deploying AMD Helios Rackscale Solution (MI455X GPUs, EPYC Venice CPUs, Pensando DPUs, ROCm software) on Azure for frontier model inference. The announcement is characterized as AMD's 2H26 inflection point, with OpenAI's first 1GW of MI450 deployment beginning this half.",
       "tickers": [
-        "TSM"
+        "AMD",
+        "MSFT"
       ],
       "source_item_ids": [
-        "x:2079158626854576368",
-        "x:2079160920861745500"
+        "x:2079190322194637140",
+        "x:2079218885296091470"
       ]
     },
     {
-      "title": "Nvidia CMX NAND Demand to Surge from 35M TB to 100M+ TB; Samsung Expands NAND Alliance",
-      "body": "Nvidia's CMX cluster is equipped with 576 SSDs totaling 9,600 TB, and NAND demand for CMX deployments is projected to surge from 35M TB this year to over 100M TB next year\u2014a bullish signal for NAND suppliers. Separately, Samsung has begun V10 shipments and is expanding its Nvidia partnership into NAND flash supply alongside existing DRAM, HBM, and foundry relationships.",
+      "title": "Google's 'Frozen V2' custom AI chip targets 6-10x token-per-watt efficiency; 2028 deployment",
+      "body": "Google is developing Frozen V2 chips with Gemini architecture baked directly into silicon, projected to deliver 6-10x more tokens per unit of power than competitors, with deployment targeted as early as 2028. The company is also reportedly working on Taalas-like chips that embed model weights into silicon, signaling deepening vertical integration in AI compute.",
       "tickers": [
-        "NVDA",
+        "GOOGL"
+      ],
+      "source_item_ids": [
+        "x:2079214661766193572",
+        "x:2079190502898028724"
+      ]
+    },
+    {
+      "title": "Meta monetizes surplus GPU capacity via Anthropic compute lease",
+      "body": "Meta is converting excess AI infrastructure into a cloud business by leasing compute capacity to Anthropic. Multiple sources note this as a new revenue stream leveraging Meta's massive capex investment, alongside Qwen3.8 and DeepSeek V4 extending China's open-weight pricing competition.",
+      "tickers": [
+        "META"
+      ],
+      "source_item_ids": [
+        "x:2079232681724796971",
+        "x:2079227926373920938"
+      ]
+    },
+    {
+      "title": "Semiconductor sector now 14% of market cap\u2014nearly double dot-com peak",
+      "body": "Fintwit commentary flagging that semiconductors represent 14% of total market capitalization, approximately double the ~8% peak during the dot-com bubble. Semis ($SOX) are down 17% month-to-date while the broader market held up, and hedge funds have been net sellers of tech for 6 of the past 8 weeks, cutting exposure ~10% in the largest sector outflow on record.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2079252667822383428",
+        "x:2079207323432587582"
+      ]
+    },
+    {
+      "title": "NVDA showcases agentic/physical AI at SIGGRAPH; NemoClaw and Synthetic Video Detector launched",
+      "body": "NVIDIA is using SIGGRAPH 2026 to push agentic and physical AI into creative workflows via NemoClaw (combining Nemotron 3 Ultra, Omniverse, and OpenShell on DGX Station) and a Synthetic Video Detector achieving 92% accuracy on 1080p in 22ms. Samsung's Lee Jae-yong is reportedly visiting Silicon Valley for a potential second meeting with Jensen Huang.",
+      "tickers": [
+        "NVDA"
+      ],
+      "source_item_ids": [
+        "x:2079254592664301778",
+        "x:2079237782518796471"
+      ]
+    },
+    {
+      "title": "MU crosses $1T market cap; bull case built on FCF vs. TSLA and multi-year DRAM shortage",
+      "body": "Micron's market cap crossed $1 trillion, with fintwit bulls arguing MU generated nearly as much FCF last quarter as Tesla has cumulatively. ADATA's chairman warns the DRAM shortage will last another 10 years, with electricity and memory cited as the world's scarcest resources this decade. One analyst projects MU reporting over $70B in revenue in the next two quarters.",
+      "tickers": [
         "MU"
       ],
       "source_item_ids": [
-        "x:2079129709921878438",
-        "x:2079127696827879509"
+        "x:2079224950142255604",
+        "x:2079222580117172481"
       ]
     },
     {
-      "title": "Morgan Stanley: Data Center Memory Prices Up 25% Q2-to-Q3, Shortages Intensifying",
-      "body": "Morgan Stanley's Joseph Moore, after speaking with purchasing managers, found that memory shortages in the data center space show no signs of abating, with memory prices up at least 25% on a like-for-like basis from Q2 to Q3.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2079166902035947716"
-      ]
-    },
-    {
-      "title": "CoreWeave: Fintwit Trader Adds to CRWV at $81.82 Cost Basis",
-      "body": "A tracked fintwit account disclosed adding more CRWV common stock, establishing a new average cost basis of $81.82, noting previous exposure had been mostly via options with limited common stock.",
+      "title": "TSLA underperforms market pre-earnings; critics flag target misses, valuation, and Musk credibility",
+      "body": "Tesla traded lower while the S&P and Nasdaq edged up, with commentary focusing on persistent target misses, an implied EBITDA multiple in Musk's comp package criticized as a 'disgrace,' and a leaked Q2 shareholder deck hinting at hybrid-platform affordable models. One long-term Tesla investor compared MU favorably to TSLA on FCF, risk, and contract visibility.",
       "tickers": [
-        "CRWV"
-      ],
-      "source_item_ids": [
-        "x:2079154518176960893"
-      ]
-    },
-    {
-      "title": "Hyperscaler FCF Projected to Turn Negative Next Year Amid Capex Surge",
-      "body": "Multiple posts flagged a concern that hyperscaler free cash flow will turn negative by next year as capital expenditure outpaces cash generation\u2014a structural risk for mega-cap cloud names if AI ROI doesn't materialize fast enough.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2079132481270194408",
-        "x:2079136246031425794"
-      ]
-    },
-    {
-      "title": "AI Model Guardrails Slowing Agentic Development; Open-Source Models Closing Gap",
-      "body": "Founders building AI agents report post-'cyber guardrails' implementation has caused progress with American AI models to effectively stall, with tasks that took one day now requiring a week or more. Separately, one analyst noted open-source models have crossed the capability threshold where quality parity reduces the competitive moat of proprietary American models.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2079129952025551334",
-        "x:2079131366005014752"
-      ]
-    },
-    {
-      "title": "Trump Admin Eyes Tougher Curbs on Chinese AI Post-Kimi K3 Launch",
-      "body": "The Trump administration is reportedly considering stricter restrictions on Chinese AI models following Moonshot AI's Kimi K3 launch; options under consideration include requiring US hosting providers to guarantee security of Chinese models.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2079158754382389551",
-        "x:2079151855481827530"
-      ]
-    },
-    {
-      "title": "Semiconductors: 259 Companies Account for 20%+ of Global Daily Trading Volumes",
-      "body": "In a universe of over 10,000 global DM and EM stocks, the ~259 semiconductor companies represent more than 20% of daily trading volumes\u2014highlighting the sector's disproportionate liquidity and market influence relative to its company count.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2079167515368763395"
-      ]
-    },
-    {
-      "title": "KOSPI Crash Signal Intensifies: South Korea Down 28.5% from Highs, Pressuring Semis",
-      "body": "South Korea's stock market fell another 4.5% overnight, now down 28.5% from recent highs. Hedgeye's KOSPI Crash Signal continues to weigh on the semiconductor complex, with $SMH and $DRAM flagged as exposed.",
-      "tickers": [
-        "SMR"
-      ],
-      "source_item_ids": [
-        "x:2079134834555760719"
-      ]
-    },
-    {
-      "title": "Semi Industry in 'Ask Hard Questions' Phase After Initial Buy Enthusiasm",
-      "body": "Fintwit commentary notes the semiconductor sector is now in the 'ask hard questions' phase following the initial buying enthusiasm, suggesting a more skeptical reassessment of valuations and growth assumptions is underway.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2079124388117667840"
-      ]
-    },
-    {
-      "title": "Russell 2000: Profitable Stocks Outperforming Non-Profitable YTD, Reversing 2025 Trend",
-      "body": "In 2025, non-profitable Russell 2000 stocks outperformed profitable ones by +20% vs +10%. That trend has reversed in 2026 YTD, with profitable companies (positive trailing 12-month earnings) now leading\u2014a quality rotation signal for small-cap positioning.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2079170288500044129"
-      ]
-    },
-    {
-      "title": "PCE Inflation Set to Print Mild in June: Core +0.18% M/M, Headline -0.07%",
-      "body": "Forecasters transposing PPI and CPI into the PCE expect core PCE at +0.18% m/m (3.3% y/y, lowest monthly print since November) and headline PCE at -0.07% m/m (3.7% y/y) for June\u2014a mild read that could support risk assets.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2079159385071251965"
-      ]
-    },
-    {
-      "title": "Brent Oil Near $90 But Volatile; Hormuz Closure Risk Underpriced",
-      "body": "Brent crude is up nearly 15% since the Middle East ceasefire collapsed earlier this month, with two tankers reported exploded in the Strait of Hormuz and ship traffic near a standstill. One analyst argues global inventories are approaching stress levels and markets are underpricing Hormuz closure risk, even as WTI pulled back 2.6% intraday.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2079166327994916950",
-        "x:2079158153824833787"
-      ]
-    },
-    {
-      "title": "US Strategic Petroleum Reserve at 41-Year Low; Gas Prices Back Above $4/Gallon",
-      "body": "The US Strategic Petroleum Reserve is now at its lowest level since April 1983 following significant drawdowns over the past five years. Separately, the national average gasoline price has climbed back above $4/gallon per AAA data.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2079150507751342186",
-        "x:2079144427310747695"
-      ]
-    },
-    {
-      "title": "China Deploys ~$9B in State Funds to Arrest Domestic Equity Selloff",
-      "body": "China's 'National Team' (state-backed funds) purchased nearly $9 billion of domestic shares to support markets amid a severe selloff, while state media (CCTV) affirmed the government's commitment to meeting annual economic targets.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2079144625823003118",
-        "x:2079153593832128785"
-      ]
-    },
-    {
-      "title": "SoftBank Overtakes Toyota as Japan's Largest Company by Market Cap",
-      "body": "SoftBank has surpassed Toyota in market capitalization to become Japan's largest company\u2014only the second time on record, with the first occurrence at the peak of the 2000 tech bubble. The parallel raises questions about current AI/tech valuation froth.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2079137610501329131"
-      ]
-    },
-    {
-      "title": "Mag 7 Mixed Premarket: NVDA +1.1%, TSLA +0.8%, AAPL/MSFT -0.6%",
-      "body": "Premarket action showed Mag 7 bifurcated: NVDA +1.1%, TSLA +0.8%, GOOGL +0.3% on the positive side; AAPL -0.6%, MSFT -0.6%, META -0.3%, AMZN roughly flat. Nasdaq 100 futures extended gains to session highs of +1%.",
-      "tickers": [
-        "NVDA",
         "TSLA",
-        "GOOGL",
-        "AAPL",
-        "MSFT",
-        "META",
-        "AMZN"
+        "MU"
       ],
       "source_item_ids": [
-        "x:2079170482868261308",
-        "x:2079167555617628320"
+        "x:2079232851929964674",
+        "x:2079223683189805163"
       ]
     },
     {
-      "title": "Nuclear Sector: Western Industry Progress Across SMR and Large Reactor Designs",
-      "body": "Reports highlight renewed momentum in the Western nuclear industry across both small modular reactor and large reactor designs, with the largest reactor fleet owner backing a shipyard prefab model for gas-to-nuclear transition.",
+      "title": "Paramount-Warner Bros. deal hit with TRO; judge gives 14-day pause, ruling expected July 22",
+      "body": "A federal judge issued a temporary restraining order on Paramount's ($PSKY) acquisition of Warner Bros. Discovery ($WBD), framed as a judicial freeze ahead of a preliminary injunction battle. Commentary notes Paramount faces a contradiction between leverage claims pitched to Wall Street and what it denies in court, with a ruling expected by July 22.",
       "tickers": [
-        "OKLO",
-        "CEG",
-        "SMR"
+        "WBD"
       ],
       "source_item_ids": [
-        "x:2079140539115471120",
-        "x:2079170735440814086"
+        "x:2079257905803477061",
+        "x:2079235212135821798"
       ]
     },
     {
-      "title": "AI Boom Contract Risk: Multi-Billion Dollar Commitments May Not Hold If Demand Falters",
-      "body": "A Wall Street Journal 'Heard on the Street' piece flagged that the multi-billion dollar contracts central to sustaining the AI boom are commercially fragile\u2014these commitments may not hold if AI demand slows, exposing investors to significant contract risk.",
+      "title": "COHR flagged as strong buy: 29-36% revenue growth, 40%+ adjusted gross margins guided",
+      "body": "One fintwit account highlights Coherent as a 'favorite company' with next-quarter guidance of ~$1.98B (+9.6% QoQ, +29.5% YoY), next-four-quarter revenue of $8.5-9.0B (29-36% growth), and exit adjusted gross margins of 40.5-42%.",
+      "tickers": [
+        "COHR"
+      ],
+      "source_item_ids": [
+        "x:2079219044637639114"
+      ]
+    },
+    {
+      "title": "GOOGL 100-year Sterling debt down 7% since Feb; investment-grade tech debt broadly losing value",
+      "body": "Alphabet's century bond has lost more than 7% since its February issuance, driven by duration risk, UK political uncertainty, and a glut of Alphabet debt supply. Commentary notes that investment-grade tech debt issued this year has 'almost universally lost value' amid rising longer-term yields.",
+      "tickers": [
+        "GOOGL"
+      ],
+      "source_item_ids": [
+        "x:2079243120135291012",
+        "x:2079243122379288696"
+      ]
+    },
+    {
+      "title": "Barclays upgrades LITE to Overweight ahead of chip earnings on AI networking demand",
+      "body": "Barclays upgraded Lumentum to Overweight citing greater confidence in AI networking and optical components demand ahead of chip earnings, while cutting Allegro and Penguin.",
+      "tickers": [
+        "LITE"
+      ],
+      "source_item_ids": [
+        "x:2079218062742663470"
+      ]
+    },
+    {
+      "title": "AI pricing fork: US closed-source at $26-56/M tokens vs. Chinese open-weight at $0.50-1/M",
+      "body": "Chamath and others highlight the AI market has bifurcated into closed-source US models ($26-56 per 1MM tokens) and Chinese open-weight alternatives ($0.50-1 per 1MM tokens)\u2014a 50-100x cost gap. Chamath also called tokenmaxxing on frontier models 'a bridge to nowhere and money-burning furnace,' while Ramp reports average token spend surged 21x over 12 months.",
       "tickers": [],
       "source_item_ids": [
-        "x:2079137849199165886"
+        "x:2079236756365348888",
+        "x:2079234504405737932"
+      ]
+    },
+    {
+      "title": "Hyperscaler FCF 'collapse' narrative pushed back; OCF at records despite high capex",
+      "body": "One fintwit account characterizes posts framing hyperscaler free cash flow as 'collapsing' as 'pure fear porn,' arguing OCF remains at record levels and that high capex is being mischaracterized. Goldman Sachs separately flagged that $5.3T in AI spending by Meta, Microsoft, Amazon, and Alphabet through 2030 could exert pressure on bond markets.",
+      "tickers": [
+        "META",
+        "MSFT",
+        "AMZN",
+        "GOOGL"
+      ],
+      "source_item_ids": [
+        "x:2079238544007352350",
+        "x:2079193860169732159"
+      ]
+    },
+    {
+      "title": "AAPL hits record 11x price-to-sales, highest valuation in company history",
+      "body": "Apple is now trading at nearly 11x sales, the highest price-to-sales ratio in the company's history, with one fintwit account flagging the metric as notable versus its historical range.",
+      "tickers": [
+        "AAPL"
+      ],
+      "source_item_ids": [
+        "x:2079214195254464837"
+      ]
+    },
+    {
+      "title": "SPY gamma negative; $2.3B put wall at 740; $10M+ SOXX call LEAPS detected",
+      "body": "Options flow commentary shows SPY gamma remains negative with a $2.3B put wall at the 740 strike, while separately $10M+ in call LEAPS were detected on the semiconductor ETF $SOXX, suggesting bifurcated positioning heading into hyperscaler earnings week.",
+      "tickers": [
+        "SPY"
+      ],
+      "source_item_ids": [
+        "x:2079219787415126497",
+        "x:2079252904578314556"
+      ]
+    },
+    {
+      "title": "Leading Economic Index misses at -0.2%; US large-company bankruptcies at 16-year high",
+      "body": "The Conference Board Leading Economic Index fell 0.2% MoM in June, missing the -0.1% estimate and reversing the prior month's +0.1% gain. Separately, U.S. large-company bankruptcies hit 372 in H1 2026\u2014a 16-year high and the fourth consecutive YoY increase.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2079234706999062826",
+        "x:2079249367471395048"
+      ]
+    },
+    {
+      "title": "10-year Treasury yield at 4.60%; UK 30-year gilt hits highest since May at 5.749%",
+      "body": "The 10-year US Treasury yield is back at 4.60%, while UK 30-year gilt yields spiked 8bps to 5.749%\u2014the highest since May 20\u2014following new PM Burnham's comments on fiscal flexibility. Former NY Fed president Dudley expects pressure on the Fed to tighten by fall.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2079249617472856455",
+        "x:2079224436310626414"
+      ]
+    },
+    {
+      "title": "Bernstein raises HOOD price target to $160 on $70B+ prediction market fee opportunity",
+      "body": "Bernstein raised its Robinhood price target from $130 to $160, citing a $70B+ trading fee pool across prediction markets, perpetual futures, tokenized equities, and onchain assets. The firm highlights Robinhood's 27M-user distribution advantage as a key competitive edge.",
+      "tickers": [
+        "HOOD"
+      ],
+      "source_item_ids": [
+        "x:2079212470523335095"
+      ]
+    },
+    {
+      "title": "92% S&P 500 earnings beat rate; Goldman says market bottom 'still a couple of weeks away'",
+      "body": "92% of S&P 500 companies have beaten earnings estimates so far this season. However, Goldman's One-Delta Desk raised concerns about AI capex cycle sustainability and suggested the market bottom is 'still a couple of weeks away,' while commentary on price-driven (rather than narrative-driven) dynamics and retail influence flags tactical trading dominance.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2079234129120444695",
+        "x:2079194639442055295"
       ]
     }
   ]
