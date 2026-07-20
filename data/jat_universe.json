@@ -1,243 +1,231 @@
 {
-  "digest_type": "premarket",
-  "digest_dt": "2026-07-20T08:30:00-04:00",
-  "saved_at": "2026-07-20T13:38:15.251936+00:00",
+  "digest_type": "midday",
+  "digest_dt": "2026-07-20T12:00:00-04:00",
+  "saved_at": "2026-07-20T16:26:41.312094+00:00",
   "bullets": [
     {
-      "title": "META: Hedgeye adds as top long, $1,200+ PT; wall models zero Compute revenue",
-      "body": "Hedgeye added META as a top long idea on 17-Jul with $1,200+ upside target from $646, noting Muse Spark 1.1 frontier benchmarks and AI capacity coming online 2H26. Separately, Hedgeye notes Wall Street models zero revenue for META Compute, while META is reportedly in talks to lease $10B in computing capacity to Anthropic over two years and exploring similar deals with other AI labs.",
+      "title": "AMD: MSFT Azure Helios deployment confirmed; GW-scale customer upside $15-20B/GW",
+      "body": "Microsoft announced deployment of AMD Helios Rackscale for Azure AI inference, new EPYC Venice CPU VMs, and Pensando DPU networking shipping H2 2026. Wolfe sees OpenAI and Meta as GW-scale Helios customers in CY27, with each GW of MI-400 capacity driving $15-20B revenue and $3-4 EPS; AMD trades at premarket +4.9%. Wolfe frames AMD path to $25+ earnings power; Advancing AI Day on 7/23 expected to provide additional deal color.",
       "tickers": [
-        "META"
-      ],
-      "source_item_ids": [
-        "gmail:19f7f7e2df2d7250",
-        "gmail:19f7c79d86176ad4"
-      ]
-    },
-    {
-      "title": "NVDA: Dark fiber buildout confirmed; SpaceX $52B GB300 order; Japan $2.4B Rubin buy",
-      "body": "Wolfe confirms NVIDIA is purchasing long-haul US dark fiber (up to 100 pairs) to address GPU ecosystem bottlenecks, bullish for Ciena and Corning. SpaceX placed its first orders with Foxconn for ~13,000 NVIDIA GB300 AI servers totaling ~$52B at ~$4M each. Japan is deploying $2.4B in Nvidia Rubin chips for humanoid robotics. Kimi K3's 2.8T-parameter model requires NVL72-scale infrastructure, reinforcing large-model inference as NVIDIA's strength.",
-      "tickers": [
-        "NVDA",
-        "CIEN",
-        "GLW",
-        "CSCO"
-      ],
-      "source_item_ids": [
-        "gmail:19f7f6ed489a3209",
-        "x:2078988776983114124"
-      ]
-    },
-    {
-      "title": "Semis bear market: SOX -20% from June highs; semi positioning still elevated",
-      "body": "The SOX semiconductor index entered a bear market, down 20%+ from its late-June highs, with Info Tech the most net-sold US sector for six weeks \u2014 the largest cumulative selling on GS's 10-year record. HF sentiment z-score hit -0.7, historically correlating with +5.5% 1m / +12.3% 3m momentum returns. JPM maintains tactically bullish stance with hyperscaler capex as the key re-rating catalyst.",
-      "tickers": [
-        "NVDA",
         "AMD",
-        "MU",
-        "AVGO",
-        "STX",
-        "SNDK"
+        "MSFT"
       ],
       "source_item_ids": [
-        "gmail:19f7f6056167f45c",
-        "gmail:19f7ee7e06ee2a94"
+        "gmail:19f7fb8c6b18c6e8",
+        "gmail:19f7f9ea6b45a69e"
       ]
     },
     {
-      "title": "TXN earnings Wednesday: +11.4% Q revenue growth expected, pricing hike tailwind",
-      "body": "JPM survey respondents model TXN F2Q at $5.38B (+11.4% QoQ), underpinned by two rounds of price hike letters and strong intra-quarter checks. The 3Q guide bar is set above $5.7B. DC business is annualizing $2B+. Morgan Stanley is raising JunQ/SepQ estimates on analog/industrial strength. Key bear case is 800V platform pushout and auto weakness.",
+      "title": "MU/SNDK: MS bullish post DC checks; memory prices +25% Q2\u2192Q3, shortages intensifying",
+      "body": "Morgan Stanley's Joe Moore, after speaking with purchasing managers, says data center memory shortages show no signs of abating with prices up at least 25% on a like-for-like basis from 2Q to 3Q. Kimi K3 is not memory-light\u2014MS notes it requires substantial HBM, GPUs, and scale-up networking. UBS echoes the view, calling K3 a 'DeepSeek R1 moment' with NVDA and MU as key beneficiaries; Nvidia CMX NAND demand projected to surge from 35M TB this year to 100M+ TB next year.",
+      "tickers": [
+        "MU",
+        "SNDK",
+        "NVDA"
+      ],
+      "source_item_ids": [
+        "gmail:19f7fd9e13c53bf8",
+        "gmail:19f8005ce3cc0407"
+      ]
+    },
+    {
+      "title": "IREN: Signs $2.8B new AI contracts, raises 2026 ARR target to $4B+",
+      "body": "IREN signed $2.8B in new multi-year customer contracts with leading AI developers and formally raised its full-year AI Cloud annualized run-rate revenue target to over $4B from $3.7B, with ~85% of target now under contract. Stock was up ~7.8% premarket. xAI (Colossus scaling) is speculated as the mystery customer given IREN's renewable power flexibility advantages.",
+      "tickers": [
+        "IREN"
+      ],
+      "source_item_ids": [
+        "x:2079160309047038311",
+        "gmail:19f7fabb03e1f561"
+      ]
+    },
+    {
+      "title": "HUT: Beacon Point 1GW campus fully commercialized with $9.8B 15-year lease",
+      "body": "HUT fully commercialized its 1GW Beacon Point AI data center campus via a second 352MW lease worth $9.8B over 15 years (rising to $50.2B with renewals), with total contracted AI DC capacity reaching 949MW and $26.6B in base-term contract value. HUT redesigned its first data hall around NVIDIA's architecture, increasing capacity 57% with the same footprint. Stock was +13.5% premarket.",
+      "tickers": [
+        "HUT"
+      ],
+      "source_item_ids": [
+        "gmail:19f7fa61ab6610b4",
+        "gmail:19f7fabb03e1f561"
+      ]
+    },
+    {
+      "title": "TSLA: Technical deterioration; 22V flags support break risk to $250 ahead of earnings",
+      "body": "22V Research cut TSLA's Technical Score to 1 (Weak) from 2 (Neutral), noting the stock sits beneath weakening 50- and 200-day moving averages with relative performance near 12-month lows vs. S&P 500. Key support at $350; a break implies risk to $250. Analyst recommends tactical put buys (weekly 355 puts ~$5) given implied earnings move of 5% is 'fair.' OPCO expects mixed results and extended timelines on Terafab production.",
+      "tickers": [
+        "TSLA"
+      ],
+      "source_item_ids": [
+        "gmail:19f8035ff28c6e6c",
+        "gmail:19f7fa52f4d81c9b"
+      ]
+    },
+    {
+      "title": "TXN: Strong beat setup into Q2; data center +90% YoY, options imply ~9.8% move",
+      "body": "UBS expects TXN Q2 revenue/EPS of ~$5.35B/$2.01 vs. guidance midpoint, potentially above the high end, with data center growing ~90% YoY in CQ1 and autos accelerating +9.9% YoY. Consensus expects $5.25B revenue and $1.94 EPS with a ~9.8% implied move; TXN has beaten revenue consensus 15 of 20 quarters and EPS 18 of 20. FQ3 guidance could land ~$5.9B vs. Street ~$5.5-5.6B\u2014a meaningful upside surprise.",
       "tickers": [
         "TXN"
       ],
       "source_item_ids": [
-        "gmail:19f7f787109fc3a5",
-        "gmail:19f7e329a878d6f6"
+        "gmail:19f7fb470792bbea",
+        "gmail:19f80032a0a01011"
       ]
     },
     {
-      "title": "MSFT: CLSA initiates outperform $535 PT; Azure growth could beat 41% guided",
-      "body": "CLSA initiates MSFT at outperform with $535 PT (36% upside vs. FactSet avg). Hedgeye removed its MSFT short after Azure/AI data outperformed expectations in June, with Azure Foundry router showing positive trends. MS EU Semis notes AAPL's Baltra ASIC on track for C1H27 volumes.",
+      "title": "GOOGL: Q2 preview (7/22); $117B revenue consensus, 6% implied move; 'Frozen v2' chip catalyst",
+      "body": "StreetAccount consensus expects GOOGL Q2 gross revenue of $117.01B, EPS $2.87, with Google Cloud at $22.24B and Search at $63.42B; options imply ~6% post-earnings move. Google is separately developing 'Frozen v2,' a chip integrated with Gemini AI that could enable 6-10x efficiency gains. GOOGL +2.0% YTD vs. XLK +11.3%, has beaten EPS consensus 16 of 20 quarters.",
       "tickers": [
-        "MSFT"
+        "GOOGL"
       ],
       "source_item_ids": [
-        "gmail:19f7f17c71aa0051",
-        "gmail:19f7c79d86176ad4"
+        "gmail:19f8030c9c53b984",
+        "gmail:19f7fb066796df27"
       ]
     },
     {
-      "title": "GOOGL + TSLA earnings Wednesday; hyperscaler capex the #1 catalyst",
-      "body": "GOOGL (est. $117B rev, $2.87 EPS) and TSLA report Wednesday, INTC Thursday. JPM sees Google 2027 capex at $325-350B (vs $250B street). MS TMT desk and GS both flag hyperscaler earnings as the pivotal test for AI infrastructure trade after a -20% SOX selloff. Google delays to Gemini 3.5 Pro on coding weakness noted separately.",
+      "title": "INTC: UBS raises PT to $121 on DCAI strength; beat-and-raise quarter expected",
+      "body": "UBS raised INTC's JunQ revenue estimate to $15.3B (from $14.8B) and SepQ to $16.4B (from $15.3B) on strong DCAI with higher CPU pricing and units. Price target lifted from $83 to $121 on higher Intel Product EBIT and peer multiples; gross margin expected in the low 40%s vs. 39% guidance despite Panther Lake headwinds. Panther Lake on 18A ramp seen driving notebook growth in CCG.",
       "tickers": [
-        "GOOGL",
-        "TSLA",
         "INTC"
       ],
       "source_item_ids": [
-        "gmail:19f7f3052c9ab810",
-        "gmail:19f7dc10db5e8f1c"
+        "gmail:19f7fb470792bbea",
+        "gmail:19f7f9ea6b45a69e"
       ]
     },
     {
-      "title": "UBS: KLAC cut to Neutral $240; TER raised to Buy $500; LRCX Buy $435; QCOM/ARM cut",
-      "body": "UBS cuts KLAC PT $255\u2192$240 (Neutral) on litho share loss/margin concerns. Raises TER $440\u2192$500 (Buy) as test TAM could hit $19-20B by C28. Maintains LRCX $435 (Buy) on very strong FQ4/FQ1:27 outlook. Cuts ARM $470\u2192$360 on handset weakness. Cuts QCOM $235\u2192$190 on smartphone pricing pressure and Apple modem insourcing. PI maintained at $175 Buy.",
+      "title": "NOW: CLSA initiates underperform; DA Davidson and DEN expert checks remain constructive",
+      "body": "CLSA initiated ServiceNow at underperform (stock -1.9% premarket), while DA Davidson flags positive partner checks showing execution momentum on acquisitions, Moveworks adoption, and agent orchestration positioning. UBS sees stable demand with a modest beat expected; cRPO forecast raised to 20% from 19.7%, with ~100bps beat on lower end of historical norm. Setup described as straightforward heading into earnings.",
       "tickers": [
-        "ARM",
-        "TXN",
-        "MU",
         "NOW"
       ],
       "source_item_ids": [
-        "gmail:19f7f6f2b4c7dd33",
-        "gmail:19f7e6ac68e8a590"
+        "gmail:19f7fc5393cd089e",
+        "gmail:19f7fb470792bbea"
       ]
     },
     {
-      "title": "MU: MS sees >$400B FCF through 2028E; data center DRAM up 40%+ Q2; 3Q ASP +25%",
-      "body": "Morgan Stanley notes data center DRAM prices up 70% Q/Q in 1Q and 40%+ in 2Q; 3Q like-for-like pricing expected +25%+. MS projects MU could generate >$400B FCF through CYE2028 and buyback 40%+ of company once share repo restriction lifts 12/9/26. UBS also flags MU at atypical 0.3x NTM EV/S discount to SK Hynix, calling it a buying opportunity.",
-      "tickers": [
-        "MU"
-      ],
-      "source_item_ids": [
-        "gmail:19f7f42af606946d",
-        "gmail:19f7e60dfddd538b"
-      ]
-    },
-    {
-      "title": "AMD: 2nm Venice/MI450 debut at Advancing AI Thursday; Anthropic confirmed as customer",
-      "body": "AMD's Advancing AI 2026 event Thursday expected to detail 2nm Venice server CPU and MI450/MI455 AI accelerators competing with NVIDIA Rubin, plus $200B+ AI CPU TAM discussion. Separately, AMD Senior Director of AI's public GitHub YAML file lists Anthropic as a customer with maximum priority boost; still in evaluation phase with Kubernetes CI gap flagged.",
-      "tickers": [
-        "AMD"
-      ],
-      "source_item_ids": [
-        "x:2079007008183980286",
-        "x:2078975424709677359"
-      ]
-    },
-    {
-      "title": "ORCL: Multibillion-dollar data-center cost overruns; credit risk at all-time high",
-      "body": "The Information reports Oracle facing multibillion-dollar cost overruns and delays at AI data-center projects, with Project Jupiter in New Mexico at risk of 1-2 year delay due to gas pipeline permitting failure and power generation plan still unapproved. Oracle's credit default swap gauge hit a fresh all-time high. CLSA initiates ORCL at hold with $145 PT.",
-      "tickers": [
-        "ORCL"
-      ],
-      "source_item_ids": [
-        "gmail:19f7f031e709d53b",
-        "x:2078313861556355134"
-      ]
-    },
-    {
-      "title": "NFLX: Wolfe cuts PT to $84; Phillip Capital upgrades to buy at $110; hits 52-week lows",
-      "body": "Wolfe Research cut NFLX PT to $84 from $107 citing weak 2Q26 sub growth, declining TV viewing share, and P/E cut from 28x to 20x. Phillip Capital counters with a buy upgrade at $110 PT on valuation. NFLX hit new 52-week lows Friday. JPM projects 2025-28 CAGR of +12% rev, +24% GAAP EPS.",
+      "title": "NFLX: Hedgeye bearish post-Q2; UCAN growth halved, margin inflection turned negative",
+      "body": "Hedgeye flags NFLX UCAN revenue growth halved to +10% from +14% prior quarter, the worst growth in years, with Q2 operating margin at 33.4%\u2014down 70bps YoY on a clean comp. Revenue grew +13.4% but operating income grew only +11.1%, implying negative operating leverage. NFLX also pulled its 'What We Watched' engagement report to an annual cadence, reducing disclosure on a contested metric.",
       "tickers": [
         "NFLX"
       ],
       "source_item_ids": [
-        "gmail:19f7c7c05f8b5460",
-        "gmail:19f7f02431d14eb9"
+        "gmail:19f801739868268b"
       ]
     },
     {
-      "title": "CMCSA: The Odyssey opens $264M globally ($124.5M domestic); AMC Q2 crushes consensus",
-      "body": "Nolan's The Odyssey posted $264.1M global opening weekend ($124.5M domestic, $139.6M international), including $51.8M from IMAX. AMC reported Q2 AEBITDA of $321.4M vs consensus $202.7M; revenue $1.60B vs $1.50B; FCF $190.1M vs $23.8M consensus. Attendance surged to 71.3M from 62.8M year-ago.",
+      "title": "CLS: Citi Buy; 50%+ Y/Y Jun-Q growth expected, AMD Helios ramp key; stock -17% last week",
+      "body": "Citi expects CLS to report >50% Y/Y Jun-Q sales growth (above guidance midpoint of 43-54%) on hyperscale and enterprise demand, with FY26 revenue $19.1B and EPS $10.14. Investor FY27 sales expectations at $30B+ vs. Street $27B. AMD Helios ramp and 1.6T product timing are the key call topics; Dell'Oro data shows CLS lost share to Accton in Q1, a competitive concern. Stock fell 17.3% last week.",
       "tickers": [
-        "CMCSA",
-        "DIS",
-        "WBD"
+        "CLS",
+        "AMD"
       ],
       "source_item_ids": [
-        "gmail:19f7f77b7e55c923",
-        "gmail:19f7f31366643281"
+        "gmail:19f7fff70f4667b4",
+        "gmail:19f7f964606171f7"
       ]
     },
     {
-      "title": "HUBS: Wells Fargo downgrades to Equal Weight, $225 PT; premarket -2.8%",
-      "body": "Wells Fargo downgraded HubSpot to Equal Weight from Overweight with a $225 PT vs. FactSet consensus of $271. HUBS was -2.8% in premarket on the action.",
+      "title": "APP: Citi Buy; Week 29 eCommerce clients +1.3% to 10.6K; HK losses moderating",
+      "body": "AppLovin's eCommerce client count reached 10,609 as of July 17 (+1.3% w/w); US store count hit 4,996, representing 64.2% of Shopify customers using AppLovin Ads. HK store share fell to 14.7%\u2014down 640bps since last month but only 30bps w/w, suggesting dropshipper churn rather than fundamental loss. Weekly growth decelerated from 3.1% in 1Q26 to 2.2% expected in 2Q26.",
       "tickers": [
-        "HUBS"
+        "APP"
       ],
       "source_item_ids": [
-        "gmail:19f7ed59334b0ed0",
-        "gmail:19f7f77eaa17d4e2"
+        "gmail:19f7ff02fa151508"
       ]
     },
     {
-      "title": "LITE: Barclays upgrades to Overweight; analyst frames $57B market cap, 105% YoY rev",
-      "body": "Barclays upgraded Lumentum to Overweight. An independent analyst frames LITE at $57B market cap with ~$985M next-quarter guidance (+105% YoY), 48-50% exit gross margins, positioned at constrained 800G/1.6T optical layers.",
+      "title": "SPOT: Rivals match price hikes; AI Music upsell scenario adds \u20ac285M-\u20ac1.1B revenue optionality",
+      "body": "Apple Music raised prices following Amazon and YouTube, joining at $1 below Spotify's current level (reflecting audiobook premium)\u2014resolving investor concerns about margin pressure from SPOT's January 2026 hike. Goldman Sachs frames AI Music as a key upside scenario: 4% penetration at \u20ac4.00 adds \u20ac285M revenue/\u20ac100M gross profit; 8% at \u20ac7.00 adds \u20ac1.1B revenue/\u20ac400M gross profit. GS calls SPOT a 'topical name' with potential to become a compounder.",
       "tickers": [
-        "LITE",
-        "COHR"
+        "SPOT"
       ],
       "source_item_ids": [
-        "gmail:19f7f77eaa17d4e2",
-        "x:2078325890069496311"
+        "gmail:19f7fa61ab6610b4",
+        "gmail:19f7faaa7af3a5ea"
       ]
     },
     {
-      "title": "LYV: UBS raises PT to $208 (from $181); 12% 2026 revenue growth, 95%+ sell-through",
-      "body": "UBS raised Live Nation PT to $208 from $181 (Buy). Expects 12% total revenue growth in 2026, concert revenue +13%, sponsorship +15%. Sell-through exceeded 95% vs ~80% for peers; avg ticket $119, 19% above peers. ~20 new O&O venues by YE26.",
-      "tickers": [
-        "LYV"
-      ],
-      "source_item_ids": [
-        "gmail:19f7dee6a343be5e",
-        "gmail:19f7f1aea3d30f8"
-      ]
-    },
-    {
-      "title": "DIS: UBS expects F3Q EPS $1.91 (+18% y/y), PT trimmed to $133; SVOD margins 10%+",
-      "body": "UBS forecasts DIS F3Q EPS of $1.91 vs Street $1.85, FY26 EPS guidance $6.90 (+16% y/y). SVOD margins improving 350 bps to 10.1%. PT reduced from $138 to $133 based on 16x '27-28E EPS. Sports OI declines 14% on higher NBA/WWE rights.",
+      "title": "DIS: Benchmark cuts film outlook; Moana posts $248M theatrical loss, Buy maintained",
+      "body": "Benchmark forecasts Moana's global box office at $284.7M with a $248.2M theatrical loss after first 10-day box office hit only $178.5M through July 19\u2014well below expectations. The firm attributes the miss to a misjudged remake strategy (original still widely available; sequel released just 19 months after Moana 2). Benchmark also flags Avengers: Doomsday (Dec 18) as a strategic mistake given IMAX window conflict with Dune: Part Three; maintains Buy citing DIS's diversified business.",
       "tickers": [
         "DIS"
       ],
       "source_item_ids": [
-        "gmail:19f7dc130981d994"
+        "gmail:19f8030ba7539712"
       ]
     },
     {
-      "title": "BABA: Qwen3.8 Max launches (2.4T params, claims #2 to Anthropic); EU fines \u20ac550M",
-      "body": "Alibaba previewed Qwen3.8 Max with 2.4T parameters, claiming second only to Anthropic's Claude 5. Shares rallied 4-5% in Asia. EU Commission fined AliExpress \u20ac550M for Digital Services Act breach. CLSA initiates ADBE outperform $300 PT. Jefferies reaffirms Buy on BABA for full-stack AI capabilities.",
+      "title": "DKNG: Wells Fargo cuts 2Q26 EBITDA on weak hold outcomes and higher promos",
+      "body": "Wells Fargo reduced DKNG 2Q26 EBITDA estimates citing higher promotional spend in prediction market states and weaker hold outcomes during NBA Finals and World Cup. FanDuel is taking share from DraftKings. Citi separately notes prediction market volume hit 27% of US legal sports-betting during the World Cup (up from 9% at year-start), with Kalshi doubling trading records and outpacing DKNG/FLUT in mobile DAUs during the tournament.",
       "tickers": [
-        "BABA"
+        "DKNG"
       ],
       "source_item_ids": [
-        "gmail:19f7f6056167f45c",
-        "gmail:19f7d58dc801a1d1"
+        "gmail:19f7fc0b84096e82",
+        "gmail:19f7fa61ab6610b4"
       ]
     },
     {
-      "title": "NOW: CLSA initiates underperform $72 PT (-30%); D.A. Davidson maintains Buy",
-      "body": "CLSA initiates ServiceNow at underperform with a $72 PT, implying 30% downside vs FactSet avg of $139. D.A. Davidson maintains a Buy rating on NOW citing acquisition paybook expected to drive value.",
+      "title": "GEV: OPCO likely beat-and-raise; top pick for 800V data center power transition",
+      "body": "OPCO expects GEV to beat and raise on strong bookings as the primary power solutions partner for the 800V data center architecture transition, highlighting bundled solutions, margin expansion, and AI-driven manufacturing efficiencies. GEV and AMSC are OPCO's top picks for power management equipment. Morgan Stanley's Stephen Byrd is also buying the dip in onsite power plays with GEV among preferred equipment manufacturers alongside BE.",
       "tickers": [
-        "NOW"
+        "GEV",
+        "BE"
       ],
       "source_item_ids": [
-        "gmail:19f7f17c71aa0051",
-        "gmail:19f7f41d00ecefd1"
+        "gmail:19f7fa52f4d81c9b",
+        "gmail:19f7fabb03e1f561"
       ]
     },
     {
-      "title": "TSM: Total US investment raised to $265B; accelerating Arizona fab on AI demand",
-      "body": "TSMC CFO confirmed strong multi-year AI chip demand and acceleration of Arizona capacity buildout, lifting total US investment commitment to $265B. CFO said company is not ruling out bond issuance to fund capex. Taiwan lawmakers separately weighing a proposal to require TSMC to self-supply power for large contracts. Morgan Stanley reiterating Overweight with planned PT raise.",
+      "title": "TSM: CFO confirms additional $100B US Arizona capex; reaffirms profitable growth confidence",
+      "body": "TSMC CFO Wendell Huang confirmed an additional $100B investment in US Arizona operations driven by soaring structural AI chip demand. CFO also stated confidence in delivering profitable growth 'as long as the megatrend is right.' Goldman Sachs notes the TSM capex raise is backstopped by 'true' end-demand with no inventory buildup.",
       "tickers": [
         "TSM"
       ],
       "source_item_ids": [
-        "x:2079010631219634455",
-        "gmail:19f7e1eac48975e0"
+        "x:2079158626854576368",
+        "gmail:19f7faaa7af3a5ea"
       ]
     },
     {
-      "title": "ADBE: CLSA initiates outperform $300 PT; MSFT Copilot remains enterprise default",
-      "body": "CLSA initiates Adobe at outperform with a $300 PT, implying 26% upside. JPM channel checks confirm Microsoft Copilot remains the default enterprise AI tool, with Claude and Gemini Enterprise emerging but not yet driving substitution.",
+      "title": "RBLX: Citi Buy; Week 29 CCUs -10% YoY track to low end of 2Q26 bookings guidance",
+      "body": "Roblox Week 29 average peak CCUs were 16.8M, down 10% year-over-year and down 3% sequentially, tracking to 2Q26 bookings of ~$1.57B\u2014slightly below the guidance midpoint of $1.55-1.61B and Visible Alpha consensus of $1.59B. Early 3Q26 CCU trends are consistent with a $1.89B bookings forecast. Citi maintains Buy.",
       "tickers": [
-        "ADBE",
-        "CRM",
-        "MSFT"
+        "RBLX"
       ],
       "source_item_ids": [
-        "gmail:19f7f17c71aa0051",
-        "gmail:19f7efa9e3f2d34d"
+        "gmail:19f7fe3fe51fe9e4"
+      ]
+    },
+    {
+      "title": "ORCL: Project Jupiter power costs surge ~$8B above plan on fuel cell switch",
+      "body": "Morgan Stanley reports Oracle's Project Jupiter power system costs increased to ~$8B\u2014likely several billion above the original plan\u2014due to a switch to fuel cells. Separately, StreetAccount notes Oracle is struggling with cost overruns and delays at AI data center developments with CDS reaching new all-time highs. Apple's Baltra ASIC (with Broadcom) remains on track for C1H27 with no delays.",
+      "tickers": [
+        "ORCL",
+        "AVGO"
+      ],
+      "source_item_ids": [
+        "gmail:19f7fd9e13c53bf8",
+        "gmail:19f7f87861818ca5"
+      ]
+    },
+    {
+      "title": "Hyperscaler AI capex: JPM constructive ($730B 2026, $900B+ 2027); Jefferies warns of capital destruction",
+      "body": "JPMorgan maintains S&P 500 YE PT of $7,800 and remains constructive on hyperscaler capex (~$730B in 2026, $900B+ in 2027), estimating $1.7T debt capacity headroom before index concentration limits. In contrast, Jefferies strategist Chris Wood warns of massive capital destruction risk as top-5 US hyperscalers have accumulated $662B in off-balance-sheet data center lease commitments, LLMs commoditize, and token prices collapse\u2014with value in the arms race captured by picks-and-shovels, not the hyperscalers themselves.",
+      "tickers": [
+        "MSFT",
+        "GOOGL",
+        "META",
+        "AMZN"
+      ],
+      "source_item_ids": [
+        "gmail:19f7ffb63493c034",
+        "gmail:19f7fb2e5595a3cc"
       ]
     }
   ]

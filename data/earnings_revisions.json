@@ -1,7 +1,7 @@
 {
-  "digest_type": "premarket",
-  "digest_dt": "2026-07-20T08:30:00-04:00",
-  "saved_at": "2026-07-20T13:38:15.257074+00:00",
+  "digest_type": "midday",
+  "digest_dt": "2026-07-20T12:00:00-04:00",
+  "saved_at": "2026-07-20T16:26:41.316287+00:00",
   "revisions": {
     "sales": {
       "metric": "sales",
@@ -419,7 +419,7 @@
     "ebitda": {
       "metric": "ebitda",
       "metric_display": "EBITDA",
-      "n_total_with_data": 121,
+      "n_total_with_data": 97,
       "by_pct_top": [
         {
           "ticker": "MU",
@@ -430,16 +430,6 @@
           "pct_change": 30.316413900592654,
           "percentile": 92.18950064020487,
           "n_obs": 781
-        },
-        {
-          "ticker": "AXTI",
-          "forward_y_code": "27Y",
-          "metric": "ebitda",
-          "current_estimate": 42.6,
-          "prior_estimate": 36.5,
-          "pct_change": 16.712328767123296,
-          "percentile": 94.41558441558442,
-          "n_obs": 770
         },
         {
           "ticker": "FIG",
@@ -460,16 +450,6 @@
           "pct_change": 12.209286942717279,
           "percentile": 96.51898734177216,
           "n_obs": 316
-        },
-        {
-          "ticker": "ALAB",
-          "forward_y_code": "27Y",
-          "metric": "ebitda",
-          "current_estimate": 772.625,
-          "prior_estimate": 713.25,
-          "pct_change": 8.324570627409745,
-          "percentile": 69.01408450704226,
-          "n_obs": 568
         },
         {
           "ticker": "HOOD",
@@ -520,6 +500,26 @@
           "pct_change": 3.031576196553476,
           "percentile": 28.869047619047617,
           "n_obs": 336
+        },
+        {
+          "ticker": "STX",
+          "forward_y_code": "27Y",
+          "metric": "ebitda",
+          "current_estimate": 8166.059,
+          "prior_estimate": 7958.118,
+          "pct_change": 2.6129419041034607,
+          "percentile": 63.25224071702945,
+          "n_obs": 781
+        },
+        {
+          "ticker": "WDC",
+          "forward_y_code": "27Y",
+          "metric": "ebitda",
+          "current_estimate": 9132.278,
+          "prior_estimate": 8934.059,
+          "pct_change": 2.218689175882993,
+          "percentile": 53.13700384122919,
+          "n_obs": 781
         }
       ],
       "by_pct_bottom": [
@@ -594,16 +594,6 @@
           "n_obs": 781
         },
         {
-          "ticker": "BABA",
-          "forward_y_code": "28Y",
-          "metric": "ebitda",
-          "current_estimate": 207272.917,
-          "prior_estimate": 212225.139,
-          "pct_change": -2.3334756774502585,
-          "percentile": 33.546734955185656,
-          "n_obs": 781
-        },
-        {
           "ticker": "SEI",
           "forward_y_code": "27Y",
           "metric": "ebitda",
@@ -622,6 +612,16 @@
           "pct_change": -1.1434819211780467,
           "percentile": 17.157490396927017,
           "n_obs": 781
+        },
+        {
+          "ticker": "ACN",
+          "forward_y_code": "27Y",
+          "metric": "ebitda",
+          "current_estimate": 14488.2,
+          "prior_estimate": 14638.95,
+          "pct_change": -1.0297869724263053,
+          "percentile": 11.139564660691422,
+          "n_obs": 781
         }
       ],
       "by_pctile_top": [
@@ -634,16 +634,6 @@
           "pct_change": 12.209286942717279,
           "percentile": 96.51898734177216,
           "n_obs": 316
-        },
-        {
-          "ticker": "AXTI",
-          "forward_y_code": "27Y",
-          "metric": "ebitda",
-          "current_estimate": 42.6,
-          "prior_estimate": 36.5,
-          "pct_change": 16.712328767123296,
-          "percentile": 94.41558441558442,
-          "n_obs": 770
         },
         {
           "ticker": "INTC",
@@ -724,6 +714,16 @@
           "pct_change": 4.937350835322185,
           "percentile": 81.43405889884762,
           "n_obs": 781
+        },
+        {
+          "ticker": "TSLA",
+          "forward_y_code": "27Y",
+          "metric": "ebitda",
+          "current_estimate": 18842.897,
+          "prior_estimate": 18816.091,
+          "pct_change": 0.14246317154822385,
+          "percentile": 78.48911651728552,
+          "n_obs": 781
         }
       ],
       "by_pctile_bottom": [
@@ -738,16 +738,6 @@
           "n_obs": 781
         },
         {
-          "ticker": "APP",
-          "forward_y_code": "27Y",
-          "metric": "ebitda",
-          "current_estimate": 9062.103,
-          "prior_estimate": 9056.815,
-          "pct_change": 0.05838697157884987,
-          "percentile": 8.8348271446863,
-          "n_obs": 781
-        },
-        {
           "ticker": "NNE",
           "forward_y_code": "27Y",
           "metric": "ebitda",
@@ -756,16 +746,6 @@
           "pct_change": -7.900519673348172,
           "percentile": 9.904761904761905,
           "n_obs": 525
-        },
-        {
-          "ticker": "CLS",
-          "forward_y_code": "27Y",
-          "metric": "ebitda",
-          "current_estimate": 2630.235,
-          "prior_estimate": 2630.235,
-          "pct_change": 0.0,
-          "percentile": 10.371318822023047,
-          "n_obs": 781
         },
         {
           "ticker": "MTSI",
@@ -808,16 +788,6 @@
           "n_obs": 781
         },
         {
-          "ticker": "AVGO",
-          "forward_y_code": "27Y",
-          "metric": "ebitda",
-          "current_estimate": 116965.806,
-          "prior_estimate": 116992.964,
-          "pct_change": -0.023213361788154696,
-          "percentile": 12.676056338028168,
-          "n_obs": 781
-        },
-        {
           "ticker": "NBIS",
           "forward_y_code": "27Y",
           "metric": "ebitda",
@@ -826,6 +796,36 @@
           "pct_change": -4.209911116447895,
           "percentile": 13.333333333333334,
           "n_obs": 315
+        },
+        {
+          "ticker": "CVNA",
+          "forward_y_code": "27Y",
+          "metric": "ebitda",
+          "current_estimate": 3953.524,
+          "prior_estimate": 3955.905,
+          "pct_change": -0.06018850301006129,
+          "percentile": 14.084507042253522,
+          "n_obs": 781
+        },
+        {
+          "ticker": "RGTI",
+          "forward_y_code": "27Y",
+          "metric": "ebitda",
+          "current_estimate": -67.275,
+          "prior_estimate": -67.275,
+          "pct_change": 0.0,
+          "percentile": 14.596670934699105,
+          "n_obs": 781
+        },
+        {
+          "ticker": "DELL",
+          "forward_y_code": "28Y",
+          "metric": "ebitda",
+          "current_estimate": 21215.2,
+          "prior_estimate": 21366.25,
+          "pct_change": -0.7069560638857997,
+          "percentile": 16.13316261203585,
+          "n_obs": 781
         }
       ]
     }
