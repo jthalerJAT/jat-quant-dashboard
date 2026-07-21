@@ -1,247 +1,237 @@
 {
-  "digest_type": "premarket",
-  "digest_dt": "2026-07-21T08:30:00-04:00",
-  "saved_at": "2026-07-21T13:36:38.430179+00:00",
+  "digest_type": "eod",
+  "digest_dt": "2026-07-21T18:00:00-04:00",
+  "saved_at": "2026-07-21T22:27:10.036868+00:00",
   "bullets": [
     {
-      "title": "TSMC: +10% price hike in 2027 sparks broad semi rally; SOXX +4.5%",
-      "body": "TSMC is raising chip production prices 5-10% for advanced and mature nodes starting Jan 2027, with up to 15% premium for high-volume HPC orders; price negotiations concluded in July. The announcement sparked a broad semiconductor rally with SOXX up ~4.5% premarket, memory names surging (Kioxia +17%, Samsung +6%), and most semis up 4-6% (MU +6.3%, MRVL +5.7%, INTC +5.9%, ARM +5.1%). TSMC also raised 2026 capex guidance to $60-64B from $52-56B, citing tool inflation, and reiterated 40%+ YoY revenue growth for 2026.",
+      "title": "NVDA: Vera Rubin platform launches with 10x perf/watt; 1,000 racks/day production report",
+      "body": "NVIDIA revealed details on its Vera Rubin NVL72 platform, claiming 10x better performance per watt vs. Blackwell and 10x improvement in tokens/megawatt (per CoreWeave's first measured data on DeepSeek-R1). The Information reports NVDA could manufacture ~1,000 Vera Rubin racks/day, implying a ~$630B quarterly revenue run-rate\u2014the author is skeptical but notes the bull case is real. NVDA also briefed on the Vera CPU (monolithic, not chiplet, Arm-based), positioned for agentic workloads, and claims Vera outperforms AMD's Turin; ecosystem partners CoreWeave, Google Cloud, Microsoft, Oracle, SpaceX, and Tesla are standing up deployments. Spectrum-6 (102.4 Tbps ethernet switch) is shipping to these partners now.",
       "tickers": [
-        "TSM",
-        "MU",
-        "MRVL",
-        "INTC",
-        "AMD"
-      ],
-      "source_item_ids": [
-        "gmail:19f84971baf81a39",
-        "gmail:19f8490a1d43a31b"
-      ]
-    },
-    {
-      "title": "Morgan Stanley software sweep: ADBE to UW/$240, CRM/INTU/WDAY downgraded; MSFT OW/$600",
-      "body": "MS analyst Adam Wood assumed coverage of the software sector, downgrading ADBE to Underweight from Equal-Weight (PT $240 from $365) citing multi-transition execution risk, CRM and INTU to Equal-Weight (PTs $185 and $335 from $287 and $580), and WDAY to Underweight ($145 from $185). MSFT assumed Overweight at $600 (cut from $650) on Azure >40% YoY growth and Copilot monetization. High-conviction OW names include PANW raised to Top Pick at $387, CRWD to $227, and U upgraded to OW at $35. NOW, SHOP, TEAM assumed Overweight at $180, $192, $120 respectively.",
-      "tickers": [
-        "ADBE",
-        "CRM",
-        "INTU",
-        "MSFT",
-        "NOW",
-        "SHOP",
-        "TEAM",
-        "U"
-      ],
-      "source_item_ids": [
-        "gmail:19f841d9473b4a52",
-        "gmail:19f84a1842372f4a"
-      ]
-    },
-    {
-      "title": "NVDA raises NBIS stake to 9.3%; NBIS +6.8% premarket",
-      "body": "Nvidia filed a 13G disclosing its passive stake in Nebius Group increased to 9.3% (22.26M shares including ~21M from a $2B prefunded warrant) from 0.55% as of March 31. NBIS surged ~6.8% premarket on the disclosure.",
-      "tickers": [
-        "NVDA",
-        "NBIS"
-      ],
-      "source_item_ids": [
-        "gmail:19f8199ad6240bb0",
-        "x:2079319999915925938"
-      ]
-    },
-    {
-      "title": "META: Jefferies upgrades to Buy/$825 on $14-18B AI glasses opportunity",
-      "body": "Jefferies initiated a BUY on META at $825 PT (vs. $646, +28% upside) based on a $14-18B hardware revenue opportunity from AI glasses at Apple Watch-scale adoption (~35-45M units at $400 ASP). Meta AI MAUs reached ~1B and daily glasses users are tripling YoY with 7M+ units sold in 2025; EssilorLuxottica doubling production to 20M units in 2026. JPM also reported META is in talks to lease AI compute to Anthropic for ~$10B over two years, and BlackRock is leading a $12B debt financing for Meta data centers in Texas.",
-      "tickers": [
-        "META"
-      ],
-      "source_item_ids": [
-        "gmail:19f8360f0ae75df7",
-        "gmail:19f8491fea0c3b8f"
-      ]
-    },
-    {
-      "title": "ORCL: 50%+ decline since June; $7B Wisconsin collateral risk; Mizuho upgrades to Outperform",
-      "body": "Oracle has collapsed >50% since June, with default risk protection at multi-year highs on AI debt load concerns and potential $7B+ collateral requirement for its Wisconsin data center under stricter power-regulator credit rules. Despite this, Mizuho upgraded ORCL to Outperform, noting shares trade at 14x CY27 EPS (multi-year low), 1GW capacity coming in F1Q27, $8B+ contracts with key customers, and $40B in new fundraising to fund expansion; models FCF turning positive at $8B in FY29.",
-      "tickers": [
-        "ORCL"
-      ],
-      "source_item_ids": [
-        "gmail:19f83b1bba8d0921",
-        "gmail:19f84971baf81a39"
-      ]
-    },
-    {
-      "title": "GOOGL/TSLA: Big Tech earnings kick off Wed; Street focused on cloud, AI capex, robotaxi",
-      "body": "Alphabet (reporting Wednesday after market, $2.88 EPS / $117B revenue consensus) faces scrutiny on cloud growth, Gemini 3.5 Pro delay rationale, and Frozen v2 chip\u2014a custom ASIC expected in 2028 with 6-10x efficiency over current TPUs. KeyBanc maintains $445 PT. Tesla reports Wednesday; focus on robotaxi unsupervised ramp timeline (245 Cybercabs at Giga Texas visible but deemed unscalable without unsupervised autonomy), Optimus production, and margin trajectory. Hedgeye issued a 'Do NOT Buy' call into TSLA earnings.",
-      "tickers": [
-        "GOOGL",
-        "TSLA"
-      ],
-      "source_item_ids": [
-        "gmail:19f84547b15837ed",
-        "gmail:19f8278130c1da96"
-      ]
-    },
-    {
-      "title": "AMD: Helios AI platform launches with MI455X + EPYC; Microsoft Azure adoption confirmed",
-      "body": "AMD unveiled Helios, a next-gen AI platform with MI455X GPUs and 6th Gen EPYC, beginning Azure customer shipments in H2 2026. Microsoft deploying AMD Helios reinforces supply diversity and cost-per-token themes vs NVDA. Citi notes AMD MI450 carries 432GB HBM4 vs NVDA Vera Rubin's 288GB; AMD data center share could rise from 4.5% to 20-25% per Futurum Group. Citi also flagged AMD Instinct secured OpenAI, Meta, Oracle (50k units) contracts. SMH IV at 98th percentile ahead of AMD conference.",
-      "tickers": [
-        "AMD",
-        "MSFT",
         "NVDA"
       ],
       "source_item_ids": [
-        "gmail:19f8217a5c2e83cd",
-        "x:2079363307090104792"
+        "x:2079607708693434850",
+        "x:2079614737579721177"
       ]
     },
     {
-      "title": "MU: BofA adds to US 1 List; DRAM prices surging in early July",
-      "body": "Bank of America added Micron to its US 1 List of top stock picks. South Korean DRAM unit prices are accelerating sharply in July 1-20 data with upward momentum intensifying, supporting the bull case for MU and the broader memory complex.",
+      "title": "AMD: Azure Helios win breaks NVDA rack monopoly; analyst raises PT to $640 on Anthropic deal",
+      "body": "AMD secured the Microsoft Azure Helios AI rack contract, described as the first real test of NVDA's data center rack monopoly. Separately, AMD is pricing its Helios rack ~40% above NVDA's second-gen Rubin, betting customers absorb the premium. One analyst raised AMD's PT to $640 (45x 2027E EPS), revised 2027E EPS up 11%, and expects Anthropic to be unveiled as AMD's third GW-scale customer\u2014a deal GFHK expects to exceed Meta and OpenAI in 2027 scale. AMD's Advancing AI event this week is expected to highlight underappreciated CPU demand.",
       "tickers": [
-        "MU"
+        "AMD",
+        "NVDA"
       ],
       "source_item_ids": [
-        "gmail:19f848e272d40e94",
-        "x:2079392380759965721"
+        "x:2079559887496036854",
+        "x:2079561943082213640"
       ]
     },
     {
-      "title": "INTC: Fresh data center layoffs; Xeon 6 memory bandwidth BIOS update",
-      "body": "Intel is planning a new round of layoffs targeting its Data Center and AI Group despite 22% 1Q26 revenue growth, as part of a broader strategy to become more focused and efficient. On the positive side, Intel released a BIOS update for select Xeon 6 SKUs enabling 8000 MT/s memory bandwidth.",
+      "title": "MU: +13% on TSMC price hike catalyst; bullish options flow; short sellers in panic",
+      "body": "Micron surged ~13% intraday, largely attributed to reports that TSMC plans to raise foundry/chipmaking prices 5-10% in 2027 (boosting memory pricing power) and SK Hynix CEO warning the memory chip shortage will worsen before improving. AI datacenter DRAM demand is cited as the structural driver. MU showed the most bullish options flow in the market session; short sellers described as having paper profits wiped out.",
       "tickers": [
-        "INTC"
+        "MU",
+        "TSM"
       ],
       "source_item_ids": [
-        "x:2079293808383053927",
-        "x:2079273676894261745"
+        "x:2079619727346004450",
+        "x:2079553991411986513"
       ]
     },
     {
-      "title": "SNAP: Settlement reached in social media addiction litigation; META faces trial next week",
-      "body": "Snap is nearing settlement in social media addiction litigation while Meta remains the only defendant facing trial in Los Angeles next week, according to JPM's morning note.",
+      "title": "TSM: Plans 5-10% foundry price hike in 2027; shares fell 7.3% post-earnings on AI model risk",
+      "body": "TSMC is reportedly planning a 5-10% price increase for chipmaking services starting in 2027 to offset higher material, equipment, and overseas fab construction costs; increases vary by customer and product. Despite reporting a 77.4% jump in quarterly net income, TSMC's Taiwan-listed shares fell 7.3% the day after earnings\u2014market reaction driven by concern that Kimi K3 (2.8T parameter open model) could reduce chip intensity.",
       "tickers": [
-        "SNAP",
-        "META"
+        "TSM"
       ],
       "source_item_ids": [
-        "gmail:19f8491fea0c3b8f"
+        "x:2079553991411986513",
+        "x:2079558987880837237"
       ]
     },
     {
-      "title": "LYV: Susquehanna downgrades to Neutral, PT raised to $186; JPM bullish at $205",
-      "body": "Susquehanna downgraded Live Nation to Neutral from Positive but raised the PT to $186 from $181 (3% upside vs. $180.86 current). JPM remains more bullish with a $205 PT, citing double-digit ticket sales growth and stadium/amphitheater weighted to 2H 2026.",
+      "title": "INTC: Data center layoffs planned; EMIB packaging may be bigger AI opportunity than 18A",
+      "body": "Intel plans layoffs within its data center group, per an insider, though the scale of cuts is unclear. Separately, analysts argue INTC's EMIB advanced packaging\u2014not 18A process\u2014could be its biggest AI opportunity, with inference dynamics potentially shifting competitive landscape vs. TSM's CoWoS. Intel and Fortinet also announced a strategic collaboration on Fortinet's SP6 security processor.",
       "tickers": [
-        "LYV"
+        "INTC",
+        "TSM"
       ],
       "source_item_ids": [
-        "gmail:19f843ff5e28371a",
-        "gmail:19f82e4c61ed5640"
+        "x:2079568563388473724",
+        "x:2079569220518756478"
       ]
     },
     {
-      "title": "NOW/HUBS: NOW earnings Wed; Piper constructive on AI pricing uplift; HUBS channel checks muted",
-      "body": "ServiceNow (reporting Wednesday) is highlighted as constructive by Piper Sandler on solid demand and AI pricing (Prime/Advanced/Foundation) with 20-30% uplift and margin upside. UBS's HUBS channel checks show more muted tone: AI adoption building but early monetization (~$30-35M FY26 AI credit revenue, ~1pt growth contribution); UBS maintains Buy at $250 PT.",
+      "title": "TSLA: Robotaxi expands to Tampa, Orlando, Florida; unusual $2.1M OTM call activity; earnings tomorrow",
+      "body": "Tesla's robotaxi/ride-hailing service is now live in 7 areas including Orlando (unsupervised Model Y) and Tampa/Florida. Ahead of Q2 earnings (tomorrow), one analyst estimates adj. EPS of $0.60 vs. $0.55 consensus, assuming 18.8% auto gross margins ex-credits and 480K deliveries. Unusual $2.1M OTM call activity (10 DTE) detected. Bears note TSLA is down 15% YTD vs. F +9%, GM flat, citing management's pattern of overpromising; Cybertruck 240K/year target remains unmet after 18 months.",
       "tickers": [
-        "NOW",
-        "HUBS"
+        "TSLA"
       ],
       "source_item_ids": [
-        "gmail:19f849102243a26d",
-        "gmail:19f81c1b46215ef1"
+        "x:2079577341169123557",
+        "x:2079606437517701460"
       ]
     },
     {
-      "title": "SHOP: Mixed signals\u2014Morgan Stanley OW/$192 vs. Rothschild downgrade to Neutral/$130",
-      "body": "Morgan Stanley assumed SHOP Overweight at $192 PT (54% upside), viewing it as a later-cycle AI beneficiary in commerce. Rothschild & Co Redburn downgraded SHOP to Neutral from Buy, cutting PT to $130 from $160, citing Meta competition as a key headwind. The morning pre-market note also showed SHOP -4.7% on MS's broader software coverage reset.",
-      "tickers": [
-        "SHOP"
-      ],
-      "source_item_ids": [
-        "gmail:19f84a44d8e52825",
-        "gmail:19f8432507939e28"
-      ]
-    },
-    {
-      "title": "DDOG: Jefferies downgrades to Hold; PT raised to $280 from $210 on valuation",
-      "body": "Jefferies analyst Brent Thill downgraded Datadog to Hold from Buy, citing valuation after the stock's run; the PT was raised to $280 from $210, implying only 6% upside vs. $263.",
-      "tickers": [
-        "SNOW",
-        "MSFT"
-      ],
-      "source_item_ids": [
-        "gmail:19f83a1bd540abd3"
-      ]
-    },
-    {
-      "title": "GLW: Morgan Stanley maintains EW/$180; Q2 modest upside, key focus on 3Q optical ramp",
-      "body": "GLW fell ~40% from its late-June GlassBridge peak. MS sees Q2 revenue upside limited (~$50M), with the key debate being whether Street's ~$200M sequential Q3 optical revenue growth estimate is achievable. GLW positioned as architecture-agnostic across CPO/NPO/LPO; management targets 2028 for meaningful optical scale-up adoption. Bear/base/bull case PT: $72/$180/$230.",
-      "tickers": [
-        "GLW"
-      ],
-      "source_item_ids": [
-        "gmail:19f847b07e84e588"
-      ]
-    },
-    {
-      "title": "FWONK/TKO/SPHR: Live entertainment 'funflation' intact; FWONK preferred at 22x vs. TKO 30x",
-      "body": "JPM previews live entertainment Q2: LYV/FWONK top picks. FWONK 2026 EBITDA ~$1B; Formula 1 team payments imply ~$1.35B annualized with Turkey and new races in 2027 as catalysts; valued at 22x '27 LFCF vs. TKO at 30x. TKO Q2 EBITDA revised down to $638M on White House event costs but full-year $2.27B guidance intact. SPHR WoZ contributed ~$123M to Q2 revenue.",
-      "tickers": [
-        "FWONK",
-        "TKO",
-        "SPHR",
-        "LYV"
-      ],
-      "source_item_ids": [
-        "gmail:19f82e4c61ed5640",
-        "gmail:19f849102243a26d"
-      ]
-    },
-    {
-      "title": "VZ/T/CMCSA/CHTR: Cable broadband losses deepen; wireless pricing firm; earnings this week",
-      "body": "JPM previews Big-3 wireless: EBITDA beats expected with healthy pricing (AT&T raised admin fee, T-Mobile migrating 8M legacy customers up to $6/line). Cable broadband net losses forecast at 555k in 2Q26 (vs. 480k prior year) as Starlink scales toward 12.19M US subs by 2030. CMCSA reports Thursday (EPS $0.97, revenue $29.24B), CHTR Friday ($9.98, $13.51B), VZ Friday ($1.28, $35.16B).",
-      "tickers": [
-        "VZ",
-        "T",
-        "CMCSA",
-        "CHTR"
-      ],
-      "source_item_ids": [
-        "gmail:19f833cf48c2fcd1",
-        "gmail:19f84564cde71a46"
-      ]
-    },
-    {
-      "title": "SNDK: Evercore $3,100 PT; memory cycle in focus as NAND shortage to ease in 2027",
-      "body": "Evercore issued a $3,100 PT on SanDisk (SNDK), implying >100% upside. TrendForce projects NAND supply shortage to ease in 2027 as servers account for >40% of NAND bit demand. Samsung separately ramping V-NAND supply to NVIDIA for its Context Memory Storage launching 2H.",
-      "tickers": [
-        "SNDK",
-        "MU"
-      ],
-      "source_item_ids": [
-        "x:2079288778338742538",
-        "x:2079477448841027818"
-      ]
-    },
-    {
-      "title": "AAPL: Trading at 11x sales, highest valuation in history; Apple AI China launch as catalyst",
-      "body": "Apple is trading at nearly 11x sales, the highest valuation in company history (10-year median ~6.6x). Morgan Stanley is positioning Apple AI launch in China as a key catalyst, highlighted in its ASML roadshow webcast. Oppenheimer's sector top-pick list includes AAPL as a Buy.",
+      "title": "AAPL: Launching 'Apple Upgrade' device leasing program July 28 with Klarna",
+      "body": "Apple is partnering with Klarna to launch 'Apple Upgrade'\u2014a subscription-based leasing/lease-to-own program\u2014on July 28 in the U.S., covering most iPhone, Mac, iPad, and Apple Watch models. Users can pay off early, upgrade early, or keep devices. The program is designed to accelerate upgrade cycles. AAPL is currently trading at elevated multiples: P/E 40x vs. 10-yr avg of 26x; EV/EBITDA 31x vs. 19x avg.",
       "tickers": [
         "AAPL"
       ],
       "source_item_ids": [
-        "x:2079313582873887211",
-        "gmail:19f847cef7a6c6c8"
+        "x:2079614403327250604",
+        "x:2079584954061861250"
       ]
     },
     {
-      "title": "IONQ: Jefferies Buy/$85 PT on quantum computing momentum; government program backing",
-      "body": "Jefferies strategist Chris Wood maintains IonQ at Buy with an $85 PT, noting quantum computing gained traction from Trump's June executive orders backed by ~$2B federal program and a 20x oversubscribed Quantinuum IPO.",
+      "title": "GOOGL: Launches Gemini 3.6 Flash family; starts Gemini 4 pre-training",
+      "body": "Google announced Gemini 3.6 Flash ($1.50/$7.50 per million input/output tokens), Gemini 3.5 Flash-Lite ($0.30/$2.50), and Gemini 3.5 Flash Cyber. Google is also testing Gemini 3.5 Pro with select partners ahead of broader release and has begun pre-training for Gemini 4. Aggressive pricing signals Google is competing hard in the AI inference market.",
       "tickers": [
-        "IONQ"
+        "GOOGL"
       ],
       "source_item_ids": [
-        "gmail:19f839b7c295375e"
+        "x:2079583330782122170",
+        "x:2079582501711061492"
+      ]
+    },
+    {
+      "title": "MSFT: Using Kimi K3 for Copilot (potential 60% token cost savings); expands Mistral partnership",
+      "body": "Reports indicate Microsoft will use Kimi K3 (Moonshot AI's 2.8T parameter model) to power flagship Copilot, potentially saving 60% per token. Separately, Microsoft and Mistral AI announced a multibillion-dollar expanded partnership integrating Mistral models across Azure, Copilot Studio, and Microsoft Foundry, with Mistral adding GPU capacity.",
+      "tickers": [
+        "MSFT"
+      ],
+      "source_item_ids": [
+        "x:2079595748178497762",
+        "x:2079546047508910466"
+      ]
+    },
+    {
+      "title": "NVDA/IREN/HUT: Nvidia stakes multibillion-dollar AI cloud deals with Hut 8 and IREN",
+      "body": "NVIDIA has locked multibillion-dollar AI cloud infrastructure partnerships with Hut 8 and IREN, and also staked Nebius. IREN currently has more announced projects under review than NBIS. These deals reinforce NVDA's strategy of anchoring GPU compute buildout through direct investments in cloud/data center operators.",
+      "tickers": [
+        "NVDA",
+        "IREN",
+        "HUT"
+      ],
+      "source_item_ids": [
+        "x:2079585274590376236",
+        "x:2079562633489875050"
+      ]
+    },
+    {
+      "title": "NBIS: 50%+ of 2026 ARR to come from enterprises/AI labs; hyperscaler dependency a stop-gap",
+      "body": "Nebius (NBIS) has acknowledged that selling compute to hyperscalers is a transitional business; management targets 50%+ of 2026 ARR from enterprises, AI labs, and non-hyperscaler customers, who represent longer-term relationships. IREN currently has more announced pipeline under review than NBIS.",
+      "tickers": [
+        "NBIS",
+        "IREN"
+      ],
+      "source_item_ids": [
+        "x:2079616376180728066",
+        "x:2079609320929734860"
+      ]
+    },
+    {
+      "title": "HOOD: Needham raises PT to $123; stock +8% as super-app thesis strengthens",
+      "body": "Needham raised its Robinhood price target to $123, citing continued strength in equities, options, prediction markets, and crypto. The firm sees HOOD as a leading contender to become a financial super app. StockTwits founder Howard Lindzon's early investment (at $8M valuation) highlighted as credibility signal.",
+      "tickers": [
+        "HOOD"
+      ],
+      "source_item_ids": [
+        "x:2079612396415381593",
+        "x:2079547681849192681"
+      ]
+    },
+    {
+      "title": "DIS: ESPN conducting fresh layoffs tied to NFL Network integration",
+      "body": "Disney-owned ESPN is making another round of job cuts, with most layoffs tied to the consolidation of NFL Network operations. Disney also announced a multiyear partnership with Kraft Heinz to serve its products at Disney parks and use Disney characters on retail goods.",
+      "tickers": [
+        "DIS"
+      ],
+      "source_item_ids": [
+        "x:2079576556381360177",
+        "x:2079542232399405095"
+      ]
+    },
+    {
+      "title": "AMD MI500X ISA released; MI455X adds TMA-style architecture modeled after NVDA Hopper",
+      "body": "AMD released the MI500X ISA, which includes 1 TDM MOE descriptor shared across all experts. The MI455X is adding TDM (RMA) capability, explicitly modeled after NVIDIA's SM90 Hopper TMA architecture\u2014signaling AMD is closing architectural gaps in its GPU stack.",
+      "tickers": [
+        "AMD",
+        "NVDA"
+      ],
+      "source_item_ids": [
+        "x:2079625671966396916"
+      ]
+    },
+    {
+      "title": "Semi sector rips: SOX +5.5%; AMD +8%, INTC +8%, MU +13%, SNDK +12% lead",
+      "body": "The Philadelphia Semiconductor Index jumped 5.5% as AI chip stocks staged a powerful rebound. Key movers: MU +12.5%, SNDK +12.8%, INTC +8.2%, AMD +8.1%, MRVL +7.3%, LITE +9.3%, TSEM +10.4%. The primary catalyst was the TSMC chipmaking price hike report and AI data center demand narrative. Market shrugged off escalating U.S.-Iran geopolitical tensions.",
+      "tickers": [
+        "AMD",
+        "INTC",
+        "MU",
+        "SNDK",
+        "MRVL",
+        "LITE",
+        "TSM"
+      ],
+      "source_item_ids": [
+        "x:2079620913839100041",
+        "x:2079622706572804368"
+      ]
+    },
+    {
+      "title": "ARM: Described as most foundational AI play; architecture in every NVDA GPU and AWS Graviton",
+      "body": "ARM is characterized as fitting every milestone on the enterprise AI timeline (2026+), with its architecture embedded in every NVIDIA GPU and AWS Graviton servers. The bull thesis frames ARM as the most foundational AI infrastructure play regardless of which model or hyperscaler wins.",
+      "tickers": [
+        "ARM",
+        "NVDA"
+      ],
+      "source_item_ids": [
+        "x:2079594442718396871"
+      ]
+    },
+    {
+      "title": "AMZN: Iran claims IRGC launched cruise missiles at Amazon data infrastructure in Bahrain",
+      "body": "Iran's Islamic Revolutionary Guard Corps claimed to have launched cruise missiles targeting Amazon data infrastructure in Bahrain, per CNBC. The claim has not been officially confirmed; Bahrain reported air raid sirens and Kuwait reported responding to Iranian drones and missiles in the region. AWS runs significant Gulf infrastructure; unverified but warrants monitoring.",
+      "tickers": [
+        "AMZN"
+      ],
+      "source_item_ids": [
+        "x:2079564824258941221"
+      ]
+    },
+    {
+      "title": "AAOI/LITE/AXTI: Photonics stocks defending support; sector consolidating at lows",
+      "body": "Photonics sector is tightening at support: LITE bulls are defending lows with strong positioning; AXTI is in a wedge formation at its 200-day moving average; AAOI sellers appear exhausted around key support. LITE +9.25%, AXTI +14.12%, AAOI +15.6% on the session as part of the broader semi recovery.",
+      "tickers": [
+        "AAOI",
+        "LITE",
+        "AXTI"
+      ],
+      "source_item_ids": [
+        "x:2079563758121402425",
+        "x:2079622706572804368"
+      ]
+    },
+    {
+      "title": "NFLX: Stratechery analyzes Netflix earnings, questions whether company is 'washed'",
+      "body": "Stratechery published an earnings analysis on Netflix questioning whether the company is losing momentum ('Is Netflix Washed?'). No specific price targets or directional calls extracted from the brief reference, but the piece is flagged as earnings-relevant commentary.",
+      "tickers": [
+        "NFLX"
+      ],
+      "source_item_ids": [
+        "x:2079586967931556007"
+      ]
+    },
+    {
+      "title": "NOK: Earnings Thursday; first clean read on optical demand-supply dynamics",
+      "body": "Nokia reports earnings Thursday; one analyst views it as the first direct read on demand-supply dynamics in the sector optics market, with AEHR providing only a partial signal. Author prefers entry at lower price levels and is seeking evidence of demand outrunning supply.",
+      "tickers": [
+        "NOK"
+      ],
+      "source_item_ids": [
+        "x:2079580851420189113"
       ]
     }
   ]

@@ -1,223 +1,235 @@
 {
-  "digest_type": "premarket",
-  "digest_dt": "2026-07-21T08:30:00-04:00",
-  "saved_at": "2026-07-21T13:36:38.431197+00:00",
+  "digest_type": "eod",
+  "digest_dt": "2026-07-21T18:00:00-04:00",
+  "saved_at": "2026-07-21T22:27:10.039868+00:00",
   "bullets": [
     {
-      "title": "TSMC price hike up to 10% in 2027; US fab costs 4-5x Taiwan",
-      "body": "TSMC is set to raise prices for both advanced and mature node chip production by up to 10% in 2027. Separately, TSMC's CFO has publicly acknowledged US fab construction costs are 4-5x higher than Taiwan, yet the company is pressing ahead with $100B in additional US investment (total $265B, targeting 12 fabs in Arizona). Market concern centers on margin pressure from the cost differential.",
+      "title": "Semiconductor Sector Roars Back: SOX +5.5%, MU +13%, AMD +8%",
+      "body": "The Philadelphia Semiconductor Index surged 5.5% as AI chip stocks staged a powerful broad-based recovery. Micron led with gains of 12-13%, with AMD +8.11%, INTC +8.22%, MRVL +7.27%, SNDK +12.8%, and LITE +9.25% among the notable movers. Short sellers in MU described as being in 'panic' with historical FUD narratives losing effectiveness.",
       "tickers": [
-        "TSM"
-      ],
-      "source_item_ids": [
-        "x:2079483240109527345",
-        "x:2079371907917607093"
-      ]
-    },
-    {
-      "title": "Morgan Stanley cuts ADBE to Underweight with $240 PT",
-      "body": "Morgan Stanley downgraded Adobe to Underweight with a price target of $240, signaling a decidedly negative outlook on the stock.",
-      "tickers": [
-        "ADBE"
-      ],
-      "source_item_ids": [
-        "x:2079481550979375313"
-      ]
-    },
-    {
-      "title": "Broad semiconductor rally premarket: memory, optical, neoclouds all up 4%+",
-      "body": "Memory names surged on Kioxia news (Kioxia +17.18%, Samsung +6.15%), with the rally spreading broadly to optical networking (LITE, AAOI +4%+), neoclouds (NBIS, IREN +4%+), and semis (INTC, AMD, MRVL +4%+) premarket Tuesday. South Korea DRAM unit prices also showing sharply accelerating momentum in the July 1-20 period.",
-      "tickers": [
-        "LITE",
-        "AAOI",
-        "NBIS",
-        "IREN",
-        "INTC",
+        "MU",
         "AMD",
+        "INTC",
+        "SNDK",
         "MRVL",
-        "MU"
+        "LITE"
       ],
       "source_item_ids": [
-        "x:2079479755481776221",
-        "x:2079392380759965721"
+        "x:2079622706572804368",
+        "x:2079619727346004450"
       ]
     },
     {
-      "title": "NVDA discloses 9.3% beneficial stake in NBIS via shares + $2B prefunded warrant",
-      "body": "NVIDIA's SEC filing revealed a 9.3% beneficial ownership position in Nebius Group comprising 1.19M shares plus ~21M shares from a $2B prefunded warrant. Social media highlighted this as a major institutional endorsement, with 'the biggest company in the world owns $NBIS' framing driving post-close price action.",
+      "title": "TSMC Plans 5-10% Foundry Price Hike Starting 2027",
+      "body": "TSMC is reportedly planning to raise chipmaking prices by up to 10% in 2027, varying by customer and product, to offset higher materials, equipment, and overseas fab construction costs. The announcement catalyzed the semiconductor sector rally and sent SNDK +12.2%. TSMC shares fell 7.3% in Taiwan the prior day despite reporting a 77.4% jump in quarterly net income, with markets focused on open-source AI model competition risk.",
       "tickers": [
-        "NVDA",
-        "NBIS"
+        "TSM",
+        "SNDK"
       ],
       "source_item_ids": [
-        "x:2079319999915925938",
-        "x:2079317735582896137"
+        "x:2079553991411986513",
+        "x:2079590440160952426"
       ]
     },
     {
-      "title": "NVDA acquiring massive dark fiber capacity; 7.6 Pbps bandwidth for AI infra",
-      "body": "NVIDIA is reportedly secretly acquiring large-scale dark fiber capacity across the US, with total potential bandwidth reaching 7.6 petabits/second, signaling a major AI infrastructure buildout strategy beyond chips.",
+      "title": "NVIDIA Vera Rubin Platform Launches: 10x Performance/Watt, Spectrum-6 Ethernet Deploying",
+      "body": "NVIDIA detailed the Vera Rubin NVL72 platform claiming 10x improvement in tokens/megawatt vs. Blackwell (measured by CoreWeave on DeepSeek-R1). NVDA was also briefed to analysts on Vera CPU, which uses monolithic architecture for agentic workloads rather than chiplet design, positioning against AMD Turin. Spectrum-6 (102.4 Tbps Ethernet switch) is now arriving at AI factories including CoreWeave, Microsoft, Nebius, SpaceX, and Tesla.",
       "tickers": [
         "NVDA"
       ],
       "source_item_ids": [
-        "x:2079373425970180123"
+        "x:2079614737579721177",
+        "x:2079601314234032474"
       ]
     },
     {
-      "title": "China reviewing AI model/chip export restrictions; Alibaba, ByteDance in talks",
-      "body": "China's Ministry of Commerce has discussed possible restrictions on overseas transfer of AI model training data and foreign access to model weights with companies including Alibaba, ByteDance, and Zhipu AI. China is also reviewing potential expansion of export curbs covering AI models and chips more broadly.",
+      "title": "NVDA Vera Rubin: Report of 1,000 Racks/Day (~$630B Quarterly Run Rate)",
+      "body": "The Information reports NVIDIA could manufacture 1,000 Vera Rubin racks per day, implying a ~$630B quarterly revenue run rate. One credible fintwit voice expressed skepticism about the math but noted the bull case remains credible, warning that using NVDA as a 'safe funding short' carries significant risk. NVIDIA also confirmed Vera Rubin is on track with customer testing underway and claims speed advantage over AMD Turin.",
       "tickers": [
-        "BABA"
+        "NVDA",
+        "AMD"
       ],
       "source_item_ids": [
-        "x:2079424458075279484",
-        "x:2079417271198617678"
+        "x:2079607708693434850",
+        "x:2079582969103311356"
       ]
     },
     {
-      "title": "AAPL at all-time high valuation of ~11x sales, nearly double 10-year median",
-      "body": "Apple is trading at nearly 11x sales, its highest valuation in company history and roughly 67% above its 10-year median of ~6.6x. Multiple fintwit accounts flagged this as a concern for new money.",
+      "title": "AMD Wins Azure Helios Deal; AMD-Anthropic Partnership Expected to Exceed OAI/Meta",
+      "body": "AMD secured the Azure Helios AI rack deal with Microsoft, marking the first real test of NVIDIA's data center rack monopoly. Separately, GFHK now expects AMD's Anthropic deal to be larger than the OpenAI and Meta deals. One analyst raised AMD's TP to $640 (45x 2027E EPS, revised up 11%) and expects Anthropic to be unveiled as AMD's third GW-level customer. AMD's Helios rack is reportedly priced 40% above NVIDIA's second-gen Rubin.",
+      "tickers": [
+        "AMD",
+        "NVDA"
+      ],
+      "source_item_ids": [
+        "x:2079561943082213640",
+        "x:2079559887496036854"
+      ]
+    },
+    {
+      "title": "AMD MI500X ISA Released; MI455X Copying NVIDIA Hopper TMA Architecture",
+      "body": "AMD released the MI500X ISA with 1 TDM MOE descriptor shared across all experts. The MI455X is adding TDM (RMA) modeled after NVIDIA's SM90 Hopper ISA TMA. A fintwit semiconductor analyst framed AMD and INTC CPU demand as being underestimated by the market, with AMD's Advancing AI event and INTC earnings expected to reinforce this theme.",
+      "tickers": [
+        "AMD",
+        "NVDA",
+        "INTC"
+      ],
+      "source_item_ids": [
+        "x:2079625671966396916",
+        "x:2079619487045923202"
+      ]
+    },
+    {
+      "title": "Intel EMIB Packaging May Be Bigger AI Opportunity Than 18A Process",
+      "body": "Analyst argues Intel's EMIB advanced packaging technology could be a larger AI opportunity than its 18A process node, potentially shifting AI inference dynamics vs. TSM's CoWoS. Intel is also reportedly planning layoffs within its data center group, though the scale remains unclear.",
+      "tickers": [
+        "INTC",
+        "TSM"
+      ],
+      "source_item_ids": [
+        "x:2079568563388473724",
+        "x:2079569220518756478"
+      ]
+    },
+    {
+      "title": "NVDA Stakes Nebius, Hut 8, IREN in Multibillion-Dollar AI Cloud Deals",
+      "body": "NVIDIA secured multibillion-dollar AI cloud commitments with Nebius, Hut 8, and IREN. One analyst noted IREN currently has more announced projects under review than NBIS for now. NBIS separately acknowledged its hyperscaler compute business is a stop-gap model, targeting 50%+ of 2026 ARR from enterprises and AI labs.",
+      "tickers": [
+        "NVDA",
+        "IREN",
+        "HUT",
+        "NBIS"
+      ],
+      "source_item_ids": [
+        "x:2079585274590376236",
+        "x:2079616376180728066"
+      ]
+    },
+    {
+      "title": "Apple Launches 'Upgrade' Klarna-Backed Leasing Program July 28",
+      "body": "Apple is partnering with Klarna to launch 'Apple Upgrade,' a subscription-based device leasing program launching July 28 in the US. The program covers most iPhone, Mac, iPad, and Apple Watch models, with options to pay off, upgrade early, or keep devices. The move is seen as targeting acceleration of the upgrade cycle. AAPL currently trades at 40x P/E vs. 26x 10-year average.",
       "tickers": [
         "AAPL"
       ],
       "source_item_ids": [
-        "x:2079313582873887211",
-        "x:2079374787462213977"
+        "x:2079614403327250604",
+        "x:2079537062877745480"
       ]
     },
     {
-      "title": "TSLA hits 3-month closing low; Hedgeye says 'Do NOT Buy' into Wednesday earnings",
-      "body": "Tesla fell to its lowest closing price in over three months. Hedgeye's recommendation is explicitly 'Do NOT Buy' ahead of Wednesday earnings, covering the full Musk complex. Separately, bear commentary noted the 245 Cybercabs at Giga Texas are investor-irrelevant without unsupervised autonomous capability, and that Tesla management has the worst track record of missing promises among large-cap peers.",
+      "title": "Google Launches Gemini 3.6 Flash, Begins Pre-Training Gemini 4",
+      "body": "Google launched three new Gemini models: Gemini 3.6 Flash ($1.50/$7.50 per million input/output tokens), Gemini 3.5 Flash-Lite ($0.30/$2.50), and Gemini 3.5 Flash Cyber. Google also began pre-training for Gemini 4 and is testing Gemini 3.5 Pro with partners ahead of wider release.",
+      "tickers": [
+        "GOOGL"
+      ],
+      "source_item_ids": [
+        "x:2079583330782122170",
+        "x:2079582501711061492"
+      ]
+    },
+    {
+      "title": "TSLA -15% YTD, Cybertruck Misses Target; Robotaxi Expands to Florida",
+      "body": "TSLA is down 15% YTD, underperforming GM (-2%) and F (+9%) as management continues a pattern of overpromising on autonomy. Tesla also missed its 18-month deadline for 240,000 annual Cybertruck sales. On the positive side, Tesla expanded its robotaxi service to Orlando (unsupervised Model Y rides), Tampa, and broader Florida, now live in 7 areas. One analyst estimates 2Q adj EPS at $0.60 vs. $0.55 WS consensus.",
       "tickers": [
         "TSLA"
       ],
       "source_item_ids": [
-        "x:2079276283608068412",
-        "x:2079304568203092260"
+        "x:2079616868763992126",
+        "x:2079577341169123557"
       ]
     },
     {
-      "title": "ORCL faces $7B collateral bill for Wisconsin data center; stock at 52-week lows",
-      "body": "Oracle could face a $7 billion collateral bill related to its Wisconsin data center per FT. The stock hit new 52-week lows during the session and has collapsed more than 50% since June.",
+      "title": "Microsoft Using Kimi K3 for Copilot; Mistral Partnership Expanded",
+      "body": "Microsoft is reportedly deploying Moonshot's Kimi K3 to power its flagship Copilot AI assistant, potentially cutting token costs by 60%. Separately, Microsoft announced an expanded multibillion-dollar partnership with Mistral AI, integrating Mistral models across Azure Foundry, Copilot Studio, and Azure with added GPU capacity in Europe.",
       "tickers": [
-        "ORCL"
+        "MSFT"
       ],
       "source_item_ids": [
-        "x:2079367005178872191",
-        "x:2079283663385121074"
+        "x:2079595748178497762",
+        "x:2079546047508910466"
       ]
     },
     {
-      "title": "INTC planning fresh layoffs in data center group; Xeon 6 memory bandwidth BIOS update",
-      "body": "Intel is planning a new round of layoffs targeting its data center division as part of a broader restructuring toward being 'more focused and efficient.' On the positive side, Intel released a BIOS update for select Xeon 6 SKUs enabling 8000 MT/s memory bandwidth.",
+      "title": "NBIS: Bullish Flow and Hyperscaler-to-Enterprise Revenue Shift",
+      "body": "MU showed the most bullish options flow of the session per unusual flow trackers. NBIS separately detailed its strategy: hyperscaler compute is acknowledged as a stop-gap, with 50%+ of 2026 ARR targeted from enterprises and AI labs as non-hyperscaler long-term customers are prioritized.",
       "tickers": [
-        "INTC"
+        "MU",
+        "NBIS"
       ],
       "source_item_ids": [
-        "x:2079328530706411996",
-        "x:2079273676894261745"
+        "x:2079590294211674428",
+        "x:2079616376180728066"
       ]
     },
     {
-      "title": "AAOI: internal laser manufacturing (InP) is the core investment thesis",
-      "body": "A fintwit analyst argues AAOI is fundamentally a laser manufacturer, not just a transceiver supplier\u2014the company manufactures 100% of lasers in-house for existing 400G/800G products using InP fabrication, with 1.6T products next. This vertical integration is flagged as the primary differentiator and investment thesis.",
+      "title": "Polymarket: 63-64% Odds of Fed Rate Hike in 2026; Futures Price 1.5 Hikes",
+      "body": "Polymarket traders now price a 63-64% probability of a Fed rate hike in 2026, up sharply from 10% in March. Rate futures are simultaneously pricing 1.5 rate hikes by year-end. US 10-year and 30-year yields hit two-month highs. Brent crude neared $92/bbl on Middle East escalation, fueling sticky inflation concerns.",
       "tickers": [
-        "AAOI"
+        "SPY"
       ],
       "source_item_ids": [
-        "x:2079293334926057661"
+        "x:2079603903578906657",
+        "x:2079614298897215862"
       ]
     },
     {
-      "title": "AMD Helios AI platform unveiled with MI455X and 6th Gen EPYC targeting NVDA",
-      "body": "AMD unveiled the Helios next-gen AI platform featuring MI455X GPUs and 6th Generation EPYC to compete directly with NVIDIA's rack-scale AI infrastructure dominance. Separately, a detailed thread highlighted AMD's SGLang nightly CI work catching critical bugs, but noted cluster instability is impeding vLLM gating test progress.",
-      "tickers": [
-        "AMD",
-        "NVDA"
-      ],
-      "source_item_ids": [
-        "x:2079363307090104792",
-        "x:2079300257397997742"
-      ]
-    },
-    {
-      "title": "CPO vendor lock-in debate: ~100 companies sign onto XPO open standard vs. NVDA/AVGO",
-      "body": "Multiple fintwit accounts discussed CPO technology creating vendor lock-in to switch silicon makers like NVIDIA and Broadcom, with ~100 companies now signed onto the XPO open pluggable standard as an alternative. One analyst noted mixing NVIDIA and Chinese AI chips for inference could offer 'substantial cost savings' and pressure NVDA pricing power.",
-      "tickers": [
-        "NVDA",
-        "AVGO"
-      ],
-      "source_item_ids": [
-        "x:2079320561264607543",
-        "x:2079401987754590307"
-      ]
-    },
-    {
-      "title": "Anthropic ARR surges to $79.5B with $10B MoM growth; copyright settlement $1.5B",
-      "body": "Anthropic's ARR has reached $79.5 billion, up ~$10B from $69B in roughly three weeks (note: source flagged a data error and deleted one post). Separately, Anthropic and authors reached a $1.5B copyright settlement\u2014the largest copyright class settlement in US history\u2014with $122M in attorneys' fees approved by the court.",
+      "title": "Oil Hits Five-Week High Above $91 on Red Sea/Hormuz Disruptions; Goldman Warns $120",
+      "body": "Brent crude climbed above $91/bbl (+2%) as the US-Iran conflict escalated, Saudi crude tankers reversed course in the Red Sea, and Houthis declared a naval blockade on Saudi Arabia. Hormuz commercial traffic fell to a three-week low with threat level maintained at 'Severe.' Goldman warns Brent could top $120 if the Gulf chokepoint crisis deepens. Rare earth waivers also expire in November with potential $6.5T GDP cost.",
       "tickers": [],
       "source_item_ids": [
-        "x:2079405439272317109",
-        "x:2079329214076174569"
+        "x:2079590320904278341",
+        "x:2079566592057200662"
       ]
     },
     {
-      "title": "Strait of Hormuz disruption: zero ships transited in 24 hours; Goldman warns $120 Brent",
-      "body": "Ship-tracking data showed no vessels transited the Strait of Hormuz in the past 24 hours. Iran has conditioned reopening on security terms. Goldman Sachs warned Brent crude could reach $120/bbl if the closure persists. Polymarket prices a 65% chance the US announces a halt to Iran offensive operations by August 31.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2079471692708262343",
-        "x:2079388029379301703"
-      ]
-    },
-    {
-      "title": "Jamie Dimon warns: 'Do not buy stocks'; investors underestimating fiscal/geopolitical risk",
-      "body": "JPMorgan CEO Jamie Dimon said investors are underestimating both geopolitical and fiscal risks, and would not buy equities or long-dated US Treasurys at current prices. Social media highlighted the call alongside 30-year Treasury yields approaching pre-GFC highs and total margin debt hitting a record $1.5 trillion.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2079364161939648610",
-        "x:2079349803587129484"
-      ]
-    },
-    {
-      "title": "Hedge funds pulling back from US tech at record pace; gross leverage at all-time high",
-      "body": "Goldman Sachs data shows hedge funds pulled back from US tech stocks at a record pace over the past two months. Simultaneously, hedge fund gross leverage has reached an all-time high, and semiconductor stocks now account for a record 20%+ of global trading volume.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2079269356505055596",
-        "x:2079359686202003469"
-      ]
-    },
-    {
-      "title": "MXL earnings this week: analyst models $800-880M FY revenue (+55-70% YoY), 61-63% GMs",
-      "body": "MXL reports earnings this week. One analyst models next-quarter guidance of ~$165M revenue (+20% QoQ, +52% YoY), full-year revenue of $800-880M (+55-70% YoY), and adjusted gross margins of 61-63% with operating margins of 27-31%. The post flagged potential for an 'explosion' in the stock.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2079411292599689446"
-      ]
-    },
-    {
-      "title": "Meta: BlackRock leads $12B debt raise for Texas data centers; custom NVDA GPU co-design",
-      "body": "BlackRock is leading a $12B+ debt sale for Meta's new data center project in El Paso, Texas. Separately, a fintwit analyst argued Meta's ML/AI infrastructure strategy is underappreciated\u2014the company co-designed a custom NVIDIA GPU SKU and built an ML model specifically optimized for that hardware powering its Andromeda retrieval infrastructure.",
+      "title": "S&P 500 Within 1.5% of All-Time Highs; UBS Raises 2026 Target to 8,100",
+      "body": "The S&P 500 gained 0.7-2% as AI and chip stocks rebounded despite macro headwinds; SPY is now less than $10 and 1.5% below prior all-time highs. UBS raised its 2026 S&P 500 year-end target to 8,100, implying 8.8% upside. SPX gamma resistance is heaviest at 7,520-7,530 per options analysis.",
       "tickers": [
-        "META",
-        "NVDA"
+        "SPY"
       ],
       "source_item_ids": [
-        "x:2079270855683789161",
-        "x:2079276528484167756"
+        "x:2079558685336948797",
+        "x:2079569731011690674"
       ]
     },
     {
-      "title": "SNDK: Evercore predicts $3,100 target (100%+ upside); memory cycle inflection signals",
-      "body": "Evercore set a $3,100 price target on Sandisk implying over 100% upside. Corroborating the bullish memory thesis: Xiaomi raised its 2026 smartphone shipment target from ~90M to 110M units citing expected memory market turnaround, and TrendForce projects NAND supply shortages to ease in 2027 as servers account for 40%+ of NAND demand.",
+      "title": "AI Capex: FCF Collapsing, Hyperscaler Energy Costs Set to Double by 2029",
+      "body": "Hyperscaler AI capex is transitioning from FCF-funded to issuance-based, making Q2 earnings guidance a bond market event. Forward FCF estimates have collapsed due to record AI capex with uncertain payoff timelines. Separately, energy is forecast to rise from ~10% to 20-30% of hyperscaler compute costs by 2029, driven by natural gas-fueled generation pricing. SemiAnalysis models show existing US grid headroom exhausted by 2027/28.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2079621918601142767",
+        "x:2079620434006351893"
+      ]
+    },
+    {
+      "title": "HOOD: Needham Raises PT to $123; StockTwits Founder Early Backer",
+      "body": "Needham raised Robinhood's price target to $123, citing continued strength across equities, options, prediction markets, and crypto, positioning HOOD as a leading contender to become a financial super app. HOOD was also up 8%+ on the session. StockTwits founder Howard Lindzon is noted as an early investor who backed Robinhood at an $8M valuation.",
       "tickers": [
-        "SNDK"
+        "HOOD"
       ],
       "source_item_ids": [
-        "x:2079288778338742538",
-        "x:2079394517216841852"
+        "x:2079612396415381593",
+        "x:2079547681849192681"
+      ]
+    },
+    {
+      "title": "July Russell 1000 Momentum Unwind: Top H1 Performers Down 25% on Average",
+      "body": "The 25 best-performing Russell 1,000 stocks in H1 2026 have declined an average of 25.4% in July, with all 25 down at least 8% MTD. The technology sector entered today 4% below its 50-DMA (the farthest of any sector) while Financials trade 5.3% above their 50-DMA. Despite 'bubble' narratives, only 2 trading days all year have seen tech as the year's best-performing sector on a YTD basis.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2079540273730768941",
+        "x:2079617344704262155"
+      ]
+    },
+    {
+      "title": "AMZN: Iran Claims IRGC Launched Missiles at Amazon Data Infrastructure in Bahrain",
+      "body": "Iran's IRGC claimed it launched cruise missiles at Amazon data infrastructure in Bahrain, per CNBC. The claim has not been independently verified. Amazon's B2B e-commerce site separately is approaching $60B in annual sales. Former senior AWS employee also noted AWS Bedrock carries higher margins than SageMaker.",
+      "tickers": [
+        "AMZN"
+      ],
+      "source_item_ids": [
+        "x:2079564824258941221",
+        "x:2079562824112538096"
       ]
     }
   ]

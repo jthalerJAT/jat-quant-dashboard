@@ -1,237 +1,214 @@
 {
-  "digest_type": "premarket",
-  "digest_dt": "2026-07-21T08:30:00-04:00",
-  "saved_at": "2026-07-21T13:36:38.426666+00:00",
+  "digest_type": "eod",
+  "digest_dt": "2026-07-21T18:00:00-04:00",
+  "saved_at": "2026-07-21T22:27:10.033530+00:00",
   "bullets": [
     {
-      "title": "TSMC Raises Chip Prices 5-10% for 2027; Semiconductor Rally Broadens",
-      "body": "TSMC plans to raise prices 5-10% on advanced and mature nodes starting January 2027, with up to 15% premium for high-volume HPC orders. Negotiations concluded in July. The announcement sparked a broad semiconductor rally: SOXX +4.5%, INTC +5.9%, MU +6.3%, MRVL +5.7%, ARM +5.1%, memory names including Kioxia +17%. Record iShares SOXX inflows of $6.13B MTD.",
+      "title": "Nasdaq +2%, SOX +5.5%: AI chip stocks stage powerful single-day rebound",
+      "body": "The Nasdaq 100 surged ~2% and the Philadelphia Semiconductor Index jumped 5.5% as AI chip names led the tape. Micron rose 12-13%, AMD +8%, Intel +8%, SNDK +12%, and MRVL +7% on the session. S&P 500 approached within 1.5% of all-time highs. UBS raised its 2026 S&P 500 year-end target to 8,100, implying ~8.8% upside from current levels.",
+      "tickers": [
+        "MU",
+        "AMD",
+        "INTC",
+        "SNDK",
+        "SPY"
+      ],
+      "source_item_ids": [
+        "x:2079620892448248138",
+        "x:2079558685336948797"
+      ]
+    },
+    {
+      "title": "TSMC planning 5-10% foundry price hike for 2027; main catalyst for semi rally",
+      "body": "Taiwan Semiconductor is reportedly planning to raise chipmaking prices by 5-10% starting in 2027, varying by customer and product, to offset rising material, equipment, and overseas fab construction costs. This was cited as the primary catalyst for the Philadelphia Semi Index's 5.5% surge and specifically drove SNDK +12%. Notably, TSMC's own Taiwan-listed shares fell 7.3% after its 77.4% quarterly net income beat, as markets focused on AI model efficiency risk (Kimi K3).",
       "tickers": [
         "TSM",
-        "INTC",
-        "MU",
-        "MRVL",
-        "AMD",
-        "AVGO"
+        "SNDK",
+        "MU"
       ],
       "source_item_ids": [
-        "gmail:19f849102243a26d",
-        "gmail:19f84971baf81a39"
+        "x:2079553991411986513",
+        "x:2079590440160952426"
       ]
     },
     {
-      "title": "Morgan Stanley Software Sweep: Downgrades ADBE, CRM, INTU, WDAY; Upgrades MSFT, PANW, CRWD",
-      "body": "Analyst Adam Wood assumes coverage across software with a sweeping ratings reset. ADBE cut to Underweight ($240 PT from $365), WDAY to Underweight ($145 PT), CRM and INTU to Equal-weight. MSFT assumed Overweight with $600 PT (49% upside); PANW raised to Top Pick at $387, CRWD to $227. Framework distinguishes 'moat' (durability) from 'journey' (AI growth trajectory); infrastructure and cyber benefit now, application software later.",
-      "tickers": [
-        "ADBE",
-        "CRM",
-        "INTU",
-        "MSFT",
-        "NOW",
-        "SHOP",
-        "TEAM",
-        "SNOW",
-        "NET"
-      ],
-      "source_item_ids": [
-        "gmail:19f841d9473b4a52",
-        "gmail:19f84971baf81a39"
-      ]
-    },
-    {
-      "title": "US-Iran War Escalates: Strait of Hormuz Shut, Brent Spikes Toward $90; Oil at Multi-Year Supply Lows",
-      "body": "US-Iran conflict entered its 10th consecutive day of strikes; tankers struck in the Strait of Hormuz, no commercial vessels transited in a 24-hour window. Goldman Sachs warns Brent could reach $120/bbl if closure persists. US SPR at a 43-year low. Brent settled at $89.22/bbl (+1.27%) Monday. Polymarket pricing 65% probability of US announcing ceasefire by August 31.",
+      "title": "Oil hits five-week high near $91-92/bbl on Middle East escalation; inflation risk rises",
+      "body": "Brent crude surged ~2% to a five-week high above $91/bbl (with reports touching $92) as US-Iran military operations continued (9 consecutive days of CENTCOM strikes), Houthis declared a naval blockade on Saudi Arabia causing Saudi crude tankers to reverse course in the Red Sea, and Kuwait reported Iranian drone/missile attacks. Goldman Sachs warned Brent could top $120 if the Gulf chokepoint crisis deepens. US 10-year and 30-year yields extended to two-month highs. Gas prices crossed $4/gallon for the first time in a month.",
       "tickers": [],
       "source_item_ids": [
-        "gmail:19f8440d1f7df623",
-        "x:2079388029379301703"
+        "x:2079590320904278341",
+        "x:2079593015467782626"
       ]
     },
     {
-      "title": "Futures Bounce: NDX +140bps Pre-Market on AI Trade Recovery; SOX Momentum Unwind ~75% Complete",
-      "body": "Nasdaq futures up 140bps Tuesday morning with S&P +0.4%; Asia markets led by Taiwan (+3.1% to record), KOSPI +4.35%, Nikkei +3%. JPM estimates the Korean leveraged ETF unwind is ~75% complete and momentum factor drawdown (~13%) is within typical 10-15% unwind range. Tech ETF inflows led at $6.6B (3.1z) with $4.2B into SOXX semis Monday.",
+      "title": "Fed rate hike odds surge to ~63-64% on Polymarket; futures price 1.5 hikes by year-end",
+      "body": "Prediction markets (Polymarket/Kalshi) are pricing a 63-64% probability of a Fed rate hike in 2026, up sharply from 10% in March. Futures markets are pricing approximately 1.5 rate hikes by year-end. Sticky inflation from oil and tariffs is cited as the driver. Treasury Secretary Bessent countered, characterizing the underlying US economy as 'very strong' with core prices stable and 3% GDP growth 'not unreasonable.'",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2079603903578906657",
+        "x:2079614298897215862"
+      ]
+    },
+    {
+      "title": "NVIDIA Vera Rubin platform launches: 10x perf/watt, 1,000 racks/day production claim",
+      "body": "NVIDIA officially detailed its Vera Rubin NVL72 platform, claiming 10x better performance per watt vs. Blackwell and 10x tokens/megawatt on DeepSeek-R1 (per CoreWeave measured data). The Information reported NVIDIA may be able to manufacture 1,000 Vera Rubin racks per day, implying ~$630B quarterly revenue run-rate\u2014though the report was met with some skepticism. The Vera CPU uses a monolithic architecture (not chiplet) with ARM licensing, targeting agentic AI workloads. Ecosystem partners CoreWeave, Google Cloud, Microsoft, Oracle Cloud, SpaceX, and Tesla are deploying the system. NVIDIA's Blackwell Ultra separately set a world record pre-training DeepSeek-V3 at 1,648 TFLOPs/GPU.",
+      "tickers": [
+        "NVDA"
+      ],
+      "source_item_ids": [
+        "x:2079607708693434850",
+        "x:2079614737579721177"
+      ]
+    },
+    {
+      "title": "AMD wins Azure Helios deal vs. Nvidia; Anthropic deal expected larger than Meta/OpenAI",
+      "body": "AMD secured the Microsoft Azure Helios contract, marking the first major competitive challenge to Nvidia's AI accelerator rack monopoly. AMD's Helios rack is reportedly priced 40% above Nvidia's second-gen Rubin, betting customers will absorb the premium. Separately, analyst notes raised AMD's TP to $640 (45x 2027E EPS), with 2027E EPS revised up 11%. GFHK expects AMD's deal with Anthropic\u2014anticipated as the third GW-level customer after Meta/OpenAI\u2014to exceed those prior partnerships in scale.",
+      "tickers": [
+        "AMD",
+        "NVDA"
+      ],
+      "source_item_ids": [
+        "x:2079561943082213640",
+        "x:2079559887496036854"
+      ]
+    },
+    {
+      "title": "US grid headroom exhausted by 2027/28; energy could hit 20-30% of hyperscaler compute costs",
+      "body": "SemiAnalysis modeling shows existing US grid capacity will be fully consumed by 2027/28 and planned utility-scale generation through 2030 is insufficient to meet load growth, driving datacenters toward reciprocating engines as continuous prime power. One analyst noted energy costs are expected to rise from ~10% to 20-30% of hyperscaler compute costs by 2029. Separately, US data centers are projected to account for ~20% of US electricity consumption by 2035, up from 5.9% today.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2079559655915762103",
+        "x:2079620434006351893"
+      ]
+    },
+    {
+      "title": "Hyperscaler AI capex crushing forward FCF; payoff uncertain as AI capex shifts to issuance-based funding",
+      "body": "Multiple sources flagged that hyperscaler record AI capital spending has caused forward free cash flow estimates to collapse. One analyst noted the shift: AI capex is moving from FCF-funded to issuance-based (debt), making Q2 earnings guidance directly relevant to bond markets\u2014not just equity investors. AI accelerators currently represent only 15-20% of active NA data center gross watts, with significant headroom remaining in existing facilities before greenfield is needed.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2079621918601142767",
+        "x:2079576491969413454"
+      ]
+    },
+    {
+      "title": "Momentum unwind deepens: Top H1 Russell 1,000 stocks down 25% avg in July",
+      "body": "Goldman Sachs flagged a global momentum unwind. The 25 best-performing Russell 1,000 stocks in H1 2026 declined an average of 25.4% in July, with all 25 down at least 8% MTD. Technology sector entered today 4% below its 50-DMA\u2014the farthest below of any sector\u2014while Financials were 5.3% above their 50-DMA. Separately, concentrated leverage in AI names at record-low cross-asset correlation may be masking hidden tail risk.",
       "tickers": [
         "SPY"
       ],
       "source_item_ids": [
-        "gmail:19f842241b89023ace",
-        "gmail:19f845ee14dbb366"
+        "x:2079540273730768941",
+        "x:2079547219875598746"
       ]
     },
     {
-      "title": "New US Tariff Wave: 50% on Canadian Goods Effective Aug 19; Section 301 on Dozens of Nations Imminent",
-      "body": "Trump administration invoking Section 338 to impose 50% tariffs on select Canadian imports (wine, hockey sticks, dairy, wood products; energy/potash/critical minerals exempt) effective August 19. Separately, Section 301 tariffs on dozens of countries expected as soon as this week, replacing 10% global duties with 10-12.5% rates.",
+      "title": "Polymarket odds on Hormuz normalization at only 31%; severe threat level maintained",
+      "body": "Kalshi prediction markets show only a 31% chance shipping normalizes in the Strait of Hormuz before December 2026, implying disruptions extend into 2027. UK Maritime Trade Operations maintains a 'Severe' threat level for the Strait. Hormuz commercial traffic fell to a three-week low following tanker attacks in Omani waters. Strategic Petroleum Reserve sits at a 43-year low of 316.5M barrels (peak was 726.6M in 2009).",
       "tickers": [],
       "source_item_ids": [
-        "x:2079313854677586207",
-        "gmail:19f847e58512c160"
+        "x:2079598809001202174",
+        "x:2079573953954147066032"
       ]
     },
     {
-      "title": "China AI Export Controls Tightening; Commerce Discusses Restricting Model Weight Downloads and Training Data Transfers",
-      "body": "China's Ministry of Commerce held talks with Alibaba, ByteDance, and Zhipu AI on potential restrictions on overseas transfer of AI model weights and key training data. Separately, broader semiconductor export controls under review. Chinese token share on OpenRouter hit a record ~58% weekly, driven by Kimi K3 and Alibaba Qwen3.8 Max.",
+      "title": "Philly Fed services surges to +7.4 from -25.8; labor market slowing (ADP 4th straight miss)",
+      "body": "The Philadelphia Fed Non-Manufacturing Activity index jumped to +7.4 in July from -25.8 prior, with new orders rising to +12.5 and employment to +12.4. However, private sector hiring (ADP) slowed for a fourth consecutive week, adding only 16,500 jobs vs. 19,750 prior. Tariff policy is estimated to have cost $1.4M per manufacturing job saved, with $289B in gross tariff revenue collected since January 2025.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2079571921650262146",
+        "x:2079540715429015996"
+      ]
+    },
+    {
+      "title": "Yen at 1986 lows (162.89/$); USD/JPY cross 163 for first time since 1986",
+      "body": "The Japanese yen weakened to 162.89 per dollar, touching 163.04 intraday\u2014the first time at that level since December 1986. The move adds macro cross-asset pressure, particularly for Japan-exposed names, and signals persistent yen carry dynamics.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2079565348207235275",
+        "x:2079553619590836700"
+      ]
+    },
+    {
+      "title": "Memory shortage to deepen; SK Hynix CEO warns shortage gets worse before better",
+      "body": "SK Hynix's CEO warned that the memory chip shortage will worsen before improving, as AI datacenter demand continues absorbing a growing share of global DRAM supply. Memory prices have already surged this cycle. NAND shortages are separately expected to persist until late 2027 as suppliers upgrade production lines. MU's bullish options flow was flagged as the strongest of the day, consistent with the TSMC pricing story.",
       "tickers": [
-        "BABA"
+        "MU"
       ],
       "source_item_ids": [
-        "x:2079424458075279484",
-        "gmail:19f83863dfc507af"
+        "x:2079551213872328788",
+        "x:2079580406161227817"
       ]
     },
     {
-      "title": "NVDA Discloses 9.3% Passive Stake in Nebius; Semis Account for ~Half of Q2 S&P Earnings Growth",
-      "body": "NVIDIA filed 13G showing a 9.3% beneficial stake in Nebius (NBIS) comprising 1.19M shares plus ~21M shares via a $2B prefunded warrant. Separately, semiconductors are expected to account for nearly half of S&P 500 Q2 earnings growth, and the S&P EPS guidance ratio hit 1.4x (above/below), near the strongest since 2021.",
+      "title": "Trump signals imminent escalation against Iran; 9 consecutive days of CENTCOM strikes",
+      "body": "President Trump made multiple statements that the US would hit Iran 'very soon' and 'very heavily,' targeting any facility producing nuclear weapons. US CENTCOM has conducted nine consecutive days of operations. Iran's IRGC claimed to have launched cruise missiles at Amazon data infrastructure in Bahrain. Kuwait called in Iran's ambassador over alleged attacks on a Kuwaiti tanker in the Strait of Hormuz. These developments underscore elevated geopolitical tail risk.",
       "tickers": [
-        "NVDA",
-        "NBIS"
+        "AMZN"
       ],
       "source_item_ids": [
-        "x:2079319999915925938",
-        "gmail:19f84a1842372f4a"
+        "x:2079564824258941221",
+        "x:2079611611778605435"
       ]
     },
     {
-      "title": "Big Tech Earnings Slate: GOOGL, TSLA Wed; INTC, TXN, NOW Thu \u2014 Hyperscaler Capex as Key Swing Factor",
-      "body": "GOOGL (Weds AMC, $2.88 EPS/$117B rev) and TSLA kick off Mag-7 season. Street focused on Alphabet's cloud growth, AI capex ROI, Gemini capacity, and the Frozen v2 chip timeline. Tesla focus on robotaxi scale and Optimus production (limited through FY27). Mag-7 expected to post 31.1% y/y Q2 EPS growth vs 22.8% for the S&P 493.",
+      "title": "USTR signals another round of tariffs coming; Canada Section 338 tariffs up to 50% in 30 days",
+      "body": "USTR Greer signaled another round of Trump tariffs is forthcoming. Trump announced Section 338 tariffs with a maximum 50% rate on selected Canadian imports effective in 30 days\u2014Canada's Carney called it a USMCA violation and preferred a comprehensive trade deal. USTR also labeled China's AI model distillation as IP theft, setting up potential further tech-sector trade friction.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2079554784655229111",
+        "x:2079581244879167935"
+      ]
+    },
+    {
+      "title": "US 30-year yields at two-month highs; Fed reverse repo collapses to $275M (1 counterparty)",
+      "body": "US 30-year yields hit their highest level since May as oil-driven inflation concerns stoked rate hike pricing. Simultaneously, Fed reverse repo usage collapsed to just $275M with only one counterparty accessing the facility, signaling excess system liquidity even as the rate outlook tightens. The juxtaposition of abundant liquidity and rising rate hike odds creates a complex cross-asset backdrop.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2079573616195203413",
+        "x:2079619267256041600"
+      ]
+    },
+    {
+      "title": "SPX approaching gamma resistance at 7,520-7,530; options structure key near-term level",
+      "body": "Options positioning analysis (SpotGamma) flags the S&P 500's positive gamma zone resistance concentrated at 7,520-7,530, with a 'soft underbelly' below suggesting weak support if the level fails. The S&P 500 is currently less than 1.5% from all-time highs.",
+      "tickers": [
+        "SPY"
+      ],
+      "source_item_ids": [
+        "x:2079569731011690674",
+        "x:2079604568728523040"
+      ]
+    },
+    {
+      "title": "AI capex issuance shift: Q2 earnings now a bond market event, not just equity",
+      "body": "As hyperscaler AI capital expenditures shift from FCF-funded to debt/issuance-based, Q2 guidance from major cloud/AI companies will directly affect investment-grade bond markets\u2014amplifying the macro significance of this earnings cycle. Upcoming reports from Alphabet, Tesla, and Intel are viewed as key tests of AI spending conviction and market leadership.",
       "tickers": [
         "GOOGL",
         "TSLA",
-        "INTC",
-        "TXN",
-        "NOW"
-      ],
-      "source_item_ids": [
-        "gmail:19f84547b15837ed",
-        "gmail:19f84564cde71a46"
-      ]
-    },
-    {
-      "title": "Oracle Default Risk at Multi-Year High; May Need $7B+ Collateral for Wisconsin Data Center",
-      "body": "Oracle's credit default risk protection hit a multi-year high as the market questions AI investment payoff; the company may need to post over $7B in collateral for a Wisconsin data center under stricter power-regulator credit rules. AI-related debt issuance industry-wide hit $489B YTD 2026 vs $322B full-year 2025, with 40% from non-hyperscalers.",
-      "tickers": [
-        "ORCL"
-      ],
-      "source_item_ids": [
-        "gmail:19f84971baf81a39",
-        "gmail:19f832325073a3f44"
-      ]
-    },
-    {
-      "title": "UBS Launches Bull Case on US Equities: S&P 8100 by Year-End, 8900 in 18 Months on 25% EPS Growth",
-      "body": "UBS Keith Parker targets $350 EPS 2026 and $410 in 2027 (25% EPS growth over 18 months), with S&P at 8100 by year-end and 8900 in 18 months. Market seen as cheap vs. framework: PEG ratios on forward sales growth near post-GFC lows; tech to represent 50% of earnings next year. Overweights tech/semis, financials, healthcare; underweights retail/staples.",
-      "tickers": [
-        "SPY",
-        "NVDA",
-        "AMD"
-      ],
-      "source_item_ids": [
-        "gmail:19f846b95542e312",
-        "gmail:19f848beb89972c3"
-      ]
-    },
-    {
-      "title": "Jefferies: Hyperscaler AI Capex Return Risk Rising; Top 5 US Firms Carry $662B Off-Balance-Sheet DC Commitments",
-      "body": "Jefferies strategist Chris Wood flags growing risk that hyperscalers may suddenly question AI capex ROI, triggering funding pullback. Top 5 US hyperscalers have accumulated $662B in future data center lease commitments off-balance-sheet, with circular vendor financing arrangements adding systemic risk. Long-term base case: massive capital destruction in US as cheaper open-sourced Chinese LLMs capture share.",
-      "tickers": [
-        "MSFT",
-        "META",
-        "AMZN",
-        "GOOGL"
-      ],
-      "source_item_ids": [
-        "gmail:19f839b7c295375e"
-      ]
-    },
-    {
-      "title": "China State Support: Record $2B Into Semiconductor ETF; KOSPI Dip-Buying as Leveraged Unwind Nears End",
-      "body": "China's government injected a record CNY13.8B ($2B) into China's largest semiconductor-tracking ETF on Monday, signaling policy backing. Korea KOSPI down 28% from June peak but fundamentals remain solid; JPM maintains OW with 12,500 KOSPI 12-month target. Korea logged record ETF inflows with leveraged ETF unwind estimated ~75% complete.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2079398033511330274",
-        "gmail:19f84224b89dbf5a"
-      ]
-    },
-    {
-      "title": "Fed in Blackout Period; Only 15% Probability of July Cut; September 50/50",
-      "body": "The Fed enters its blackout period ahead of the July 29 FOMC decision with only a 15% implied probability of a July cut. September rate hike probability is near 50/50 despite cooler June inflation prints. Fed Chair Warsh task forces focused on: less forward guidance, QE review, AI as disinflationary force, and money supply focus.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19f8456d77adeec8",
-        "gmail:19f8473fdc6b6bbd"
-      ]
-    },
-    {
-      "title": "Ackman/Pershing Square Rotation: MSFT Over GOOGL; Leverage Cited as Top Market Risk",
-      "body": "Pershing Square reduced Alphabet by 95% and initiated 5.7M MSFT shares. Ackman constructive on equities overall, favoring durable AI-beneficiary compounders (MSFT, AMZN, META, UBER, Brookfield). Calls excessive leverage 'greatest market risk' that could trigger forced selling in a macro shock.",
-      "tickers": [
-        "MSFT",
-        "AMZN",
-        "META",
-        "GOOGL",
-        "UBER",
-        "NVDA"
-      ],
-      "source_item_ids": [
-        "gmail:19f84a0dfe612f9a"
-      ]
-    },
-    {
-      "title": "ECB Bank Lending Survey: Eurozone Banks Tighten in Q2; Wage Growth Expectations Ease to 2.5%",
-      "body": "Eurozone banks tightened credit standards in Q2 driven by geopolitical and energy price concerns, with SMEs and energy-intensive firms hardest hit. Mortgage demand fell sharply and banks expect further housing loan demand decline in Q3. Wage growth expectations eased materially to ~2.5% from 3.1%, reflecting demand concerns.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19f84778a1701ffb3",
-        "x:2079477233249648925"
-      ]
-    },
-    {
-      "title": "Memory Cycle Turning: DRAM Prices Surging in Korea; NAND Shortage to Ease in 2027; BofA Adds MU to US 1 List",
-      "body": "South Korean DRAM unit prices are surging in July with accelerating momentum. TrendForce projects the NAND supply shortage to ease in 2027 as server demand hits >40% of total NAND. Xiaomi raised its 2026 smartphone shipment target to 110M units citing a memory market turnaround. BofA added MU to its US 1 List.",
-      "tickers": [
-        "MU",
-        "SNDK"
-      ],
-      "source_item_ids": [
-        "x:2079392380759965721",
-        "gmail:19f848e272d40e94"
-      ]
-    },
-    {
-      "title": "UK Data: Employment Strong (+148K vs 80K Est), Borrowing Better Than Expected; New Chancellor Healey Appointed",
-      "body": "UK employment change of +148K in May beat the 80K consensus, though average earnings slipped to 4.3% from 4.4%. Public sector net borrowing came in at \u00a316B vs \u00a317.8B estimate. New Chancellor John Healey announced a 5% electricity VAT cut, a modest fiscal easing measure costing ~\u00a3850M.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19f83cafeb8fbaeb",
-        "x:2079447606342889548"
-      ]
-    },
-    {
-      "title": "AI Debt Issuance Hits $489B YTD 2026, 52% More Than Full-Year 2025; Hedge Fund Gross Leverage at All-Time High",
-      "body": "AI-related debt issuance reached $489B YTD 2026 vs $322B for full-year 2025, with 40% from non-hyperscalers. Separately, total margin debt hit $1.5T and hedge fund gross leverage reached an all-time high \u2014 key macro fragility signals cited by multiple sell-side desks.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19f849102243a26d",
-        "x:2079349803587129484"
-      ]
-    },
-    {
-      "title": "Intel Announces Fresh Data Center Layoffs Despite 22% Q1 Revenue Growth",
-      "body": "Intel is targeting a new round of layoffs in its Data Center and AI Group as part of a broader strategy to become more focused and efficient. The move follows 22% Q1 revenue growth in the segment, suggesting restructuring is organizational rather than demand-driven.",
-      "tickers": [
         "INTC"
       ],
       "source_item_ids": [
-        "x:2079328530706411996",
-        "gmail:19f848beb89972c3"
+        "x:2079576491969413454",
+        "x:2079620937373438423"
       ]
     },
     {
-      "title": "Gold Near $4,080/oz; Silver +3%; Safe-Haven Demand Elevated on Middle East Conflict",
-      "body": "Spot gold advanced nearly 2% to $4,080/oz and silver rose ~3% to $58.09/oz as US-Iran military exchanges intensified. Gold is holding near $4,000 as traders balance geopolitical escalation against Fed rate hike expectations and oil-driven inflation risks.",
+      "title": "Rare earth waiver expiration in November could cost $6.5T GDP; Xi visit precedes key Q4 risk",
+      "body": "Rare earth export waivers from China expire in November, with one estimate citing a $6.5 trillion GDP impact from expiration. A Xi visit to Washington precedes this deadline, framing it as a potential Q4 geopolitical inflection point for tech supply chains.",
       "tickers": [],
       "source_item_ids": [
-        "x:2079459314545373476",
-        "x:2079365600128995517"
+        "x:2079624483648717095"
+      ]
+    },
+    {
+      "title": "Bessent: 'At the 1-yard line' on Clarity Act in Senate; crypto regulatory milestone near",
+      "body": "Treasury Secretary Bessent signaled the Senate is very close to passing the Clarity Act, a key crypto regulatory framework. Bessent also confirmed the Treasury froze a $130M crypto wallet tied to Iran's IRGC. Robinhood surged 8%+ on the day with Needham raising its price target to $123, citing strength across equities, options, prediction markets, and crypto as HOOD positions as a financial super-app.",
+      "tickers": [
+        "HOOD"
+      ],
+      "source_item_ids": [
+        "x:2079542564383048117",
+        "x:2079612396415381593"
       ]
     }
   ]
