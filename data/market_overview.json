@@ -1,214 +1,215 @@
 {
-  "digest_type": "eod",
-  "digest_dt": "2026-07-21T18:00:00-04:00",
-  "saved_at": "2026-07-21T22:27:10.033530+00:00",
+  "digest_type": "premarket",
+  "digest_dt": "2026-07-22T08:30:00-04:00",
+  "saved_at": "2026-07-22T13:36:17.334103+00:00",
   "bullets": [
     {
-      "title": "Nasdaq +2%, SOX +5.5%: AI chip stocks stage powerful single-day rebound",
-      "body": "The Nasdaq 100 surged ~2% and the Philadelphia Semiconductor Index jumped 5.5% as AI chip names led the tape. Micron rose 12-13%, AMD +8%, Intel +8%, SNDK +12%, and MRVL +7% on the session. S&P 500 approached within 1.5% of all-time highs. UBS raised its 2026 S&P 500 year-end target to 8,100, implying ~8.8% upside from current levels.",
+      "title": "Futures red pre-open: Nasdaq -0.9% as AI rally pauses ahead of GOOGL/TSLA earnings",
+      "body": "S&P 500 futures opened down ~0.4% and Nasdaq 100 futures fell 0.9% Wednesday morning, reversing Tuesday's sharp chip-led rebound. Semi/memory complex broadly lower in pre-market (MU -4.5%, WDC -4.8%, INTC -4.0%, STX -3.8%), while Tuesday's close saw S&P +0.88% and Nasdaq +1.33% on AI momentum. GOOGL and TSLA report after the close Wednesday, with TXN and NOW also on deck.",
       "tickers": [
+        "GOOGL",
+        "TSLA",
+        "TXN",
+        "NOW",
         "MU",
-        "AMD",
+        "WDC",
         "INTC",
-        "SNDK",
-        "SPY"
+        "STX"
       ],
       "source_item_ids": [
-        "x:2079620892448248138",
-        "x:2079558685336948797"
+        "gmail:19f89c23cd53e400",
+        "x:2079839158034448763"
       ]
     },
     {
-      "title": "TSMC planning 5-10% foundry price hike for 2027; main catalyst for semi rally",
-      "body": "Taiwan Semiconductor is reportedly planning to raise chipmaking prices by 5-10% starting in 2027, varying by customer and product, to offset rising material, equipment, and overseas fab construction costs. This was cited as the primary catalyst for the Philadelphia Semi Index's 5.5% surge and specifically drove SNDK +12%. Notably, TSMC's own Taiwan-listed shares fell 7.3% after its 77.4% quarterly net income beat, as markets focused on AI model efficiency risk (Kimi K3).",
+      "title": "Oil spikes to $91+ Brent / $87+ WTI as Hormuz transits hit zero and US-Iran war enters day 11",
+      "body": "Brent crude surged above $91/bbl and WTI to ~$87.54 (+3.8%) as the Strait of Hormuz saw zero commercial transits and the US conducted its 11th consecutive night of strikes on Iranian military targets. Secretary of State Rubio cited Iran's 'lack of seriousness' in negotiations; Iran denied active talks but left message channels open. Roth estimates the war has cost $37.5B so far. Oil strength is pushing global sovereign yields higher and pressuring risk appetite into the earnings window.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2079835199815172190",
+        "gmail:19f8982980c41886"
+      ]
+    },
+    {
+      "title": "Market concentration and breadth divergence at extreme historical levels \u2014 caution signals mounting",
+      "body": "The 24 largest S&P 500 stocks now account for >50% of total market cap, the highest concentration in history and above the dot-com peak. Price-breadth divergence has occurred on 52 trading days YTD, already matching the full-year 2000 dot-com bubble total. Separately, semiconductors now represent 14% of total market cap \u2014 nearly double the dot-com peak \u2014 and the momentum factor hit its highest 3-month realized volatility in 45 years outside of recessions before its 11% bounce Tuesday.",
+      "tickers": [
+        "SPY"
+      ],
+      "source_item_ids": [
+        "x:2079844450709250245",
+        "x:2079011001621369176"
+      ]
+    },
+    {
+      "title": "22V and JPM tactically bullish on Momentum/Growth/Tech into H2; key asymmetric risk is capex disappointment",
+      "body": "22V Research recommends long Momentum, Growth, and Risk-on factors in H2 2026 against a backdrop of benign real growth slowdown to ~2%, falling inflation, and easing AI EPS concerns. JPM is also tactically bullish and says it will flip bearish only if hyperscalers announce capex cuts or buyback reductions. Mag7 hedge fund L/S ratio sits at the 25th percentile since Jan 2018, suggesting positioning is washed out and supportive for upside.",
+      "tickers": [
+        "GOOGL",
+        "META",
+        "MSFT",
+        "AMZN",
+        "NVDA"
+      ],
+      "source_item_ids": [
+        "gmail:19f89b0e76300a0c",
+        "gmail:19f893ef619e2517"
+      ]
+    },
+    {
+      "title": "GOOGL earnings bar very high: buyside expects Cloud +70-75% and 2027 capex $325-350B vs Street $250B",
+      "body": "Google Cloud consensus growth is ~65% but buyside expects 70-75% Y/Y for Q2. JPM models 2027 capex at ~$300B (54% growth) vs Street ~$250B; buyside bar is $325-350B. AI debt issuance hit $489B YTD 2026 \u2014 already exceeding full-year 2025's $322B \u2014 and Google raised ~$85B in equity in June, signaling the shift from FCF to debt/equity financing of capex. Dealers are short gamma on upside strikes in GOOGL/META/MSFT/AMZN, which structurally favors long convexity into prints.",
+      "tickers": [
+        "GOOGL",
+        "META",
+        "MSFT",
+        "AMZN"
+      ],
+      "source_item_ids": [
+        "gmail:19f893ef619e2517",
+        "gmail:19f894a19b9772a7"
+      ]
+    },
+    {
+      "title": "Jefferies warns AI capex returns increasingly debt-funded; risks circular vendor financing and capital destruction",
+      "body": "Jefferies argues the top five US hyperscalers have accumulated $662B in off-balance-sheet future data center lease commitments not yet commenced, and are borrowing increasing amounts to fund AI capex. The firm warns virtually all AI capex arms-race value has been captured by picks-and-shovels semiconductor suppliers, and that LLM commoditization via cheap Chinese open-source models could trigger unwillingness to fund further hyperscaler capex \u2014 the 'long-term end game' being massive US capital destruction. Nikkei separately estimated $1.65T in off-balance-sheet GPU contracts, leases, and JVs across Alphabet, Microsoft, Amazon, Meta, and Oracle.",
+      "tickers": [
+        "GOOGL",
+        "MSFT",
+        "META",
+        "AMZN"
+      ],
+      "source_item_ids": [
+        "gmail:19f88e2850aaf1ed",
+        "x:2079657695976542226"
+      ]
+    },
+    {
+      "title": "NVIDIA Vera Rubin NVL72 launches with 10x token throughput vs Blackwell at same 150MW power draw",
+      "body": "NVIDIA unveiled the Vera Rubin NVL72 rack-scale AI supercomputer on July 21, combining seven co-designed chips including the industry's first co-packaged optics (CPO) switch for scale-out networking \u2014 now described as in 'volume manufacturing.' CoreWeave benchmarks show 10x higher throughput per megawatt vs. Grace Blackwell NVL72. Wistron simultaneously opened a $700M, 324,000 sq ft Fort Worth, Texas facility producing GB300 Grace Blackwell Ultra systems, with a separate production cell being prepared for Vera Rubin. NVIDIA Rubin (SM107) support was also added to PyTorch.",
+      "tickers": [
+        "NVDA"
+      ],
+      "source_item_ids": [
+        "x:2079706850438906246",
+        "x:2079703423080128940"
+      ]
+    },
+    {
+      "title": "Taiwan June export orders surge 59.4% YoY to record $95.3B; TSMC plans ~10% price hikes from 2027",
+      "body": "Taiwan's June export orders rose 59.4% YoY to a record $95.26B, well above the 47.3% expected, with electronics up 79.9% and IT/communications up 81.9%, driven by US demand (+83.6%). Separately, Nikkei reported TSMC plans to raise chipmaking prices by up to 10% from 2027 for advanced and mature nodes. VAT Group reported record Q2 orders of CHF500M (+35% vs consensus), a leading indicator for tool OEMs AMAT and LRCX, with book-to-bill of 1.7x.",
       "tickers": [
         "TSM",
-        "SNDK",
-        "MU"
+        "TSEM"
       ],
       "source_item_ids": [
-        "x:2079553991411986513",
-        "x:2079590440160952426"
+        "x:2079737671682015365",
+        "x:2079705768484610232"
       ]
     },
     {
-      "title": "Oil hits five-week high near $91-92/bbl on Middle East escalation; inflation risk rises",
-      "body": "Brent crude surged ~2% to a five-week high above $91/bbl (with reports touching $92) as US-Iran military operations continued (9 consecutive days of CENTCOM strikes), Houthis declared a naval blockade on Saudi Arabia causing Saudi crude tankers to reverse course in the Red Sea, and Kuwait reported Iranian drone/missile attacks. Goldman Sachs warned Brent could top $120 if the Gulf chokepoint crisis deepens. US 10-year and 30-year yields extended to two-month highs. Gas prices crossed $4/gallon for the first time in a month.",
+      "title": "BoJ signals openness to rate hikes faster than every six months; yen hits 39-year low at 163/USD",
+      "body": "BoJ officials were reported open to accelerating rate hikes beyond the current every-six-month cadence, viewing recent yen weakness as an upside inflation risk. The yen fell to 163/USD \u2014 its weakest since the mid-1980s \u2014 while Japan's 10-year JGB yield rose to 2.75% (+3bps) and the 40-year yield touched 3.91%. Japan's June trade deficit widened to -\u00a5406.9B (vs -\u00a5120B estimate) as imports surged 25.4% YoY, driven by energy dependence.",
       "tickers": [],
       "source_item_ids": [
-        "x:2079590320904278341",
-        "x:2079593015467782626"
+        "x:2079837510184935854",
+        "x:2079717108007747861"
       ]
     },
     {
-      "title": "Fed rate hike odds surge to ~63-64% on Polymarket; futures price 1.5 hikes by year-end",
-      "body": "Prediction markets (Polymarket/Kalshi) are pricing a 63-64% probability of a Fed rate hike in 2026, up sharply from 10% in March. Futures markets are pricing approximately 1.5 rate hikes by year-end. Sticky inflation from oil and tariffs is cited as the driver. Treasury Secretary Bessent countered, characterizing the underlying US economy as 'very strong' with core prices stable and 3% GDP growth 'not unreasonable.'",
+      "title": "UK June CPI prints soft at 2.6% YoY vs 2.7% expected; core holds at 2.6%, services at 3.6%",
+      "body": "UK headline CPI fell to 2.6% in June from 2.8% in May, beating the 2.7% consensus and the BoE's own 3.1% forecast. Core CPI held steady at 2.6% (above 2.5% expected) while services inflation eased to 3.6% from 3.7%. JPM raised its Q4 2026 headline inflation forecast to 3.4% (from 3.0%) on higher oil/TTF assumptions ($85 oil, \u20ac55 TTF), suggesting near-term BoE breathing room but rising H2 pass-through risk. German 2-year yields hit a 2-year high of 2.82%, and French 30-year bond yields reached their highest level since the GFC.",
       "tickers": [],
       "source_item_ids": [
-        "x:2079603903578906657",
-        "x:2079614298897215862"
+        "gmail:19f88d63021abdca",
+        "x:2079809652192338016"
       ]
     },
     {
-      "title": "NVIDIA Vera Rubin platform launches: 10x perf/watt, 1,000 racks/day production claim",
-      "body": "NVIDIA officially detailed its Vera Rubin NVL72 platform, claiming 10x better performance per watt vs. Blackwell and 10x tokens/megawatt on DeepSeek-R1 (per CoreWeave measured data). The Information reported NVIDIA may be able to manufacture 1,000 Vera Rubin racks per day, implying ~$630B quarterly revenue run-rate\u2014though the report was met with some skepticism. The Vera CPU uses a monolithic architecture (not chiplet) with ARM licensing, targeting agentic AI workloads. Ecosystem partners CoreWeave, Google Cloud, Microsoft, Oracle Cloud, SpaceX, and Tesla are deploying the system. NVIDIA's Blackwell Ultra separately set a world record pre-training DeepSeek-V3 at 1,648 TFLOPs/GPU.",
+      "title": "Trump tariff escalation resumes: new levies on dozens of nations by Friday, 100% on generic drugs from 2028",
+      "body": "The temporary 10% global tariff expires Friday and Trump is set to impose fresh tariffs on dozens of nations as early as this week. Separately, Trump announced a 0% tariff on imported generic drugs through August 2028, escalating to 100% for one year and 200% thereafter, aimed at reshoring pharma manufacturing. Section 338 tariffs on Canada are described by Morgan Stanley as having limited macro effect but rising strategic risks.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2079636669108772957",
+        "x:2079709091514220796"
+      ]
+    },
+    {
+      "title": "GPU supply constraints tightening: B200 availability at 0%, GH200 aggressively constrained post-Kimi K3",
+      "body": "Multiple sources confirm B200 GPU availability has fallen to 0% and GH200 availability is tightening aggressively following the Kimi K3 model release. The Chinese AI model's deployment is creating significant incremental demand. This dynamic is seen as bullish for NVDA hardware and the broader AI infrastructure supply chain including memory (MU) and optical components (LITE, AAOI).",
       "tickers": [
-        "NVDA"
+        "NVDA",
+        "MU",
+        "LITE",
+        "AAOI"
       ],
       "source_item_ids": [
-        "x:2079607708693434850",
-        "x:2079614737579721177"
+        "x:2079779988392612241",
+        "x:2079748117310968087"
       ]
     },
     {
-      "title": "AMD wins Azure Helios deal vs. Nvidia; Anthropic deal expected larger than Meta/OpenAI",
-      "body": "AMD secured the Microsoft Azure Helios contract, marking the first major competitive challenge to Nvidia's AI accelerator rack monopoly. AMD's Helios rack is reportedly priced 40% above Nvidia's second-gen Rubin, betting customers will absorb the premium. Separately, analyst notes raised AMD's TP to $640 (45x 2027E EPS), with 2027E EPS revised up 11%. GFHK expects AMD's deal with Anthropic\u2014anticipated as the third GW-level customer after Meta/OpenAI\u2014to exceed those prior partnerships in scale.",
-      "tickers": [
-        "AMD",
-        "NVDA"
-      ],
-      "source_item_ids": [
-        "x:2079561943082213640",
-        "x:2079559887496036854"
-      ]
-    },
-    {
-      "title": "US grid headroom exhausted by 2027/28; energy could hit 20-30% of hyperscaler compute costs",
-      "body": "SemiAnalysis modeling shows existing US grid capacity will be fully consumed by 2027/28 and planned utility-scale generation through 2030 is insufficient to meet load growth, driving datacenters toward reciprocating engines as continuous prime power. One analyst noted energy costs are expected to rise from ~10% to 20-30% of hyperscaler compute costs by 2029. Separately, US data centers are projected to account for ~20% of US electricity consumption by 2035, up from 5.9% today.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2079559655915762103",
-        "x:2079620434006351893"
-      ]
-    },
-    {
-      "title": "Hyperscaler AI capex crushing forward FCF; payoff uncertain as AI capex shifts to issuance-based funding",
-      "body": "Multiple sources flagged that hyperscaler record AI capital spending has caused forward free cash flow estimates to collapse. One analyst noted the shift: AI capex is moving from FCF-funded to issuance-based (debt), making Q2 earnings guidance directly relevant to bond markets\u2014not just equity investors. AI accelerators currently represent only 15-20% of active NA data center gross watts, with significant headroom remaining in existing facilities before greenfield is needed.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2079621918601142767",
-        "x:2079576491969413454"
-      ]
-    },
-    {
-      "title": "Momentum unwind deepens: Top H1 Russell 1,000 stocks down 25% avg in July",
-      "body": "Goldman Sachs flagged a global momentum unwind. The 25 best-performing Russell 1,000 stocks in H1 2026 declined an average of 25.4% in July, with all 25 down at least 8% MTD. Technology sector entered today 4% below its 50-DMA\u2014the farthest below of any sector\u2014while Financials were 5.3% above their 50-DMA. Separately, concentrated leverage in AI names at record-low cross-asset correlation may be masking hidden tail risk.",
-      "tickers": [
-        "SPY"
-      ],
-      "source_item_ids": [
-        "x:2079540273730768941",
-        "x:2079547219875598746"
-      ]
-    },
-    {
-      "title": "Polymarket odds on Hormuz normalization at only 31%; severe threat level maintained",
-      "body": "Kalshi prediction markets show only a 31% chance shipping normalizes in the Strait of Hormuz before December 2026, implying disruptions extend into 2027. UK Maritime Trade Operations maintains a 'Severe' threat level for the Strait. Hormuz commercial traffic fell to a three-week low following tanker attacks in Omani waters. Strategic Petroleum Reserve sits at a 43-year low of 316.5M barrels (peak was 726.6M in 2009).",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2079598809001202174",
-        "x:2079573953954147066032"
-      ]
-    },
-    {
-      "title": "Philly Fed services surges to +7.4 from -25.8; labor market slowing (ADP 4th straight miss)",
-      "body": "The Philadelphia Fed Non-Manufacturing Activity index jumped to +7.4 in July from -25.8 prior, with new orders rising to +12.5 and employment to +12.4. However, private sector hiring (ADP) slowed for a fourth consecutive week, adding only 16,500 jobs vs. 19,750 prior. Tariff policy is estimated to have cost $1.4M per manufacturing job saved, with $289B in gross tariff revenue collected since January 2025.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2079571921650262146",
-        "x:2079540715429015996"
-      ]
-    },
-    {
-      "title": "Yen at 1986 lows (162.89/$); USD/JPY cross 163 for first time since 1986",
-      "body": "The Japanese yen weakened to 162.89 per dollar, touching 163.04 intraday\u2014the first time at that level since December 1986. The move adds macro cross-asset pressure, particularly for Japan-exposed names, and signals persistent yen carry dynamics.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2079565348207235275",
-        "x:2079553619590836700"
-      ]
-    },
-    {
-      "title": "Memory shortage to deepen; SK Hynix CEO warns shortage gets worse before better",
-      "body": "SK Hynix's CEO warned that the memory chip shortage will worsen before improving, as AI datacenter demand continues absorbing a growing share of global DRAM supply. Memory prices have already surged this cycle. NAND shortages are separately expected to persist until late 2027 as suppliers upgrade production lines. MU's bullish options flow was flagged as the strongest of the day, consistent with the TSMC pricing story.",
-      "tickers": [
-        "MU"
-      ],
-      "source_item_ids": [
-        "x:2079551213872328788",
-        "x:2079580406161227817"
-      ]
-    },
-    {
-      "title": "Trump signals imminent escalation against Iran; 9 consecutive days of CENTCOM strikes",
-      "body": "President Trump made multiple statements that the US would hit Iran 'very soon' and 'very heavily,' targeting any facility producing nuclear weapons. US CENTCOM has conducted nine consecutive days of operations. Iran's IRGC claimed to have launched cruise missiles at Amazon data infrastructure in Bahrain. Kuwait called in Iran's ambassador over alleged attacks on a Kuwaiti tanker in the Strait of Hormuz. These developments underscore elevated geopolitical tail risk.",
+      "title": "US retail card data weakening: July MTD spending -2.2% vs June +1.4%; consumer decelerating",
+      "body": "Citi credit card data for July MTD shows aggregate US retail spending at -2.2% (-2.6% ex-food), a sharp deceleration from June's +1.4%. The July weakness is partly due to a difficult YoY comparison (July 2025 was fiscal 2025's strongest month) and Amazon moving Prime Day to June, which pulled forward competitor promotions. Electronics decelerated -1,330bps MTD and Athletic Footwear fell -1,530bps, while Off-Price Retailers decelerated -1,730bps.",
       "tickers": [
         "AMZN"
       ],
       "source_item_ids": [
-        "x:2079564824258941221",
-        "x:2079611611778605435"
+        "gmail:19f8819b3569622c",
+        "gmail:19f89b015512b2ad"
       ]
     },
     {
-      "title": "USTR signals another round of tariffs coming; Canada Section 338 tariffs up to 50% in 30 days",
-      "body": "USTR Greer signaled another round of Trump tariffs is forthcoming. Trump announced Section 338 tariffs with a maximum 50% rate on selected Canadian imports effective in 30 days\u2014Canada's Carney called it a USMCA violation and preferred a comprehensive trade deal. USTR also labeled China's AI model distillation as IP theft, setting up potential further tech-sector trade friction.",
+      "title": "Moody's upgrades Argentina to B3 (positive outlook); all three agencies have now upgraded",
+      "body": "Moody's upgraded Argentina's sovereign rating from Caa1 to B3 with a positive outlook, citing materially declined default risk, fiscal balance, disinflation, end of monetary deficit financing, and economic liberalization. Argentina is forecast to grow GDP 3.4% in 2026 and 3.5% in 2027. All three major rating agencies have now upgraded the country.",
       "tickers": [],
       "source_item_ids": [
-        "x:2079554784655229111",
-        "x:2079581244879167935"
+        "gmail:19f89b46a52452d5",
+        "x:2079668251253149786"
       ]
     },
     {
-      "title": "US 30-year yields at two-month highs; Fed reverse repo collapses to $275M (1 counterparty)",
-      "body": "US 30-year yields hit their highest level since May as oil-driven inflation concerns stoked rate hike pricing. Simultaneously, Fed reverse repo usage collapsed to just $275M with only one counterparty accessing the facility, signaling excess system liquidity even as the rate outlook tightens. The juxtaposition of abundant liquidity and rising rate hike odds creates a complex cross-asset backdrop.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2079573616195203413",
-        "x:2079619267256041600"
-      ]
-    },
-    {
-      "title": "SPX approaching gamma resistance at 7,520-7,530; options structure key near-term level",
-      "body": "Options positioning analysis (SpotGamma) flags the S&P 500's positive gamma zone resistance concentrated at 7,520-7,530, with a 'soft underbelly' below suggesting weak support if the level fails. The S&P 500 is currently less than 1.5% from all-time highs.",
+      "title": "Fed rate hike probability jumps to 71% by September on oil surge and sticky inflation",
+      "body": "Fed funds futures are pricing a >71% probability of a rate hike by September, up from ~15% a week ago, driven by oil's surge above $91/bbl and sticky core inflation signals. The 10-year Treasury yield rose to 4.64% (+1bps) and the 30-year is approaching GFC highs. Hedgeye's QUAD3 framework (bullish oil and yields) is signaling bearishness for housing stocks and bullishness for REITs, software (BUG), and energy.",
       "tickers": [
         "SPY"
       ],
       "source_item_ids": [
-        "x:2079569731011690674",
-        "x:2079604568728523040"
+        "x:2079760571310715302",
+        "gmail:19f893ee99a89ff5"
       ]
     },
     {
-      "title": "AI capex issuance shift: Q2 earnings now a bond market event, not just equity",
-      "body": "As hyperscaler AI capital expenditures shift from FCF-funded to debt/issuance-based, Q2 guidance from major cloud/AI companies will directly affect investment-grade bond markets\u2014amplifying the macro significance of this earnings cycle. Upcoming reports from Alphabet, Tesla, and Intel are viewed as key tests of AI spending conviction and market leadership.",
+      "title": "Open-source AI and token optimization: neutral-to-positive for NVDA/hyperscalers, bigger risk in software",
+      "body": "UBS and multiple sell-side analysts frame the open-source model and token spend optimization debate as neutral-to-positive for Nvidia and hyperscalers (more deployments = more hardware demand) but a potential headwind for software vendors where token cost scrutiny could pressure spending. Piper Sandler notes infrastructure software (TEAM, MDB, SNOW) enable 50-75% token cost savings, creating demand. BofA's Vivek Arya notes open-source AI creates a new memory footprint with each deployment vs. closed models that concentrate HBM demand.",
       "tickers": [
+        "NVDA",
+        "MSFT",
+        "AMZN",
         "GOOGL",
-        "TSLA",
-        "INTC"
+        "MDB",
+        "SNOW",
+        "TEAM"
       ],
       "source_item_ids": [
-        "x:2079576491969413454",
-        "x:2079620937373438423"
+        "gmail:19f8999ed48da759",
+        "gmail:19f89851cb34f6b"
       ]
     },
     {
-      "title": "Rare earth waiver expiration in November could cost $6.5T GDP; Xi visit precedes key Q4 risk",
-      "body": "Rare earth export waivers from China expire in November, with one estimate citing a $6.5 trillion GDP impact from expiration. A Xi visit to Washington precedes this deadline, framing it as a potential Q4 geopolitical inflection point for tech supply chains.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2079624483648717095"
-      ]
-    },
-    {
-      "title": "Bessent: 'At the 1-yard line' on Clarity Act in Senate; crypto regulatory milestone near",
-      "body": "Treasury Secretary Bessent signaled the Senate is very close to passing the Clarity Act, a key crypto regulatory framework. Bessent also confirmed the Treasury froze a $130M crypto wallet tied to Iran's IRGC. Robinhood surged 8%+ on the day with Needham raising its price target to $123, citing strength across equities, options, prediction markets, and crypto as HOOD positions as a financial super-app.",
+      "title": "North America data center installed capacity hits record 75 GW in Q2, with 210 GW planned",
+      "body": "JPM data shows North American installed data center capacity reached a record 75 GW in Q2 2026, up 13 GW sequentially from 62 GW in Q1. Planned capacity rose to 210 GW from 195 GW in Q1 and 116 GW a year ago. Data centers accounted for 46% of PJM's last four capacity auction costs, reflecting rapidly growing power demand. The strong demand and tight supply backdrop support continued AI infrastructure investment, benefiting hardware and networking suppliers.",
       "tickers": [
-        "HOOD"
+        "ANET",
+        "CIEN",
+        "CRDO",
+        "CLS",
+        "COHR",
+        "FN"
       ],
       "source_item_ids": [
-        "x:2079542564383048117",
-        "x:2079612396415381593"
+        "gmail:19f8945f18ffbe73",
+        "x:2079757097676292376"
       ]
     }
   ]
