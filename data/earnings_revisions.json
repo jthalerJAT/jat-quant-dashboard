@@ -1,12 +1,12 @@
 {
-  "digest_type": "midday",
-  "digest_dt": "2026-07-22T12:00:00-04:00",
-  "saved_at": "2026-07-22T16:27:18.255354+00:00",
+  "digest_type": "eod",
+  "digest_dt": "2026-07-22T18:00:00-04:00",
+  "saved_at": "2026-07-22T22:28:55.214706+00:00",
   "revisions": {
     "sales": {
       "metric": "sales",
       "metric_display": "Revenue",
-      "n_total_with_data": 98,
+      "n_total_with_data": 122,
       "by_pct_top": [
         {
           "ticker": "OKLO",
@@ -17,6 +17,16 @@
           "pct_change": 44.1325098259405,
           "percentile": 84.81848184818482,
           "n_obs": 303
+        },
+        {
+          "ticker": "MU",
+          "forward_y_code": "27Y",
+          "metric": "sales",
+          "current_estimate": 249891.149,
+          "prior_estimate": 197150.721,
+          "pct_change": 26.751323927443327,
+          "percentile": 91.94373401534527,
+          "n_obs": 782
         },
         {
           "ticker": "SNDK",
@@ -97,16 +107,6 @@
           "pct_change": 1.1114755773722562,
           "percentile": 75.57544757033247,
           "n_obs": 782
-        },
-        {
-          "ticker": "SEI",
-          "forward_y_code": "27Y",
-          "metric": "sales",
-          "current_estimate": 1252.667,
-          "prior_estimate": 1239.214,
-          "pct_change": 1.0856074899089352,
-          "percentile": 66.24040920716112,
-          "n_obs": 782
         }
       ],
       "by_pct_bottom": [
@@ -121,6 +121,16 @@
           "n_obs": 782
         },
         {
+          "ticker": "NBIS",
+          "forward_y_code": "27Y",
+          "metric": "sales",
+          "current_estimate": 11182.365,
+          "prior_estimate": 11754.193,
+          "pct_change": -4.864885237123461,
+          "percentile": 15.934065934065933,
+          "n_obs": 364
+        },
+        {
           "ticker": "AXTI",
           "forward_y_code": "27Y",
           "metric": "sales",
@@ -131,6 +141,16 @@
           "n_obs": 773
         },
         {
+          "ticker": "HUT",
+          "forward_y_code": "27Y",
+          "metric": "sales",
+          "current_estimate": 636.063,
+          "prior_estimate": 650.133,
+          "pct_change": -2.1641725616143193,
+          "percentile": 21.22762148337596,
+          "n_obs": 782
+        },
+        {
           "ticker": "SMR",
           "forward_y_code": "27Y",
           "metric": "sales",
@@ -138,6 +158,26 @@
           "prior_estimate": 186.958,
           "pct_change": -1.715893409214908,
           "percentile": 49.87212276214834,
+          "n_obs": 782
+        },
+        {
+          "ticker": "IREN",
+          "forward_y_code": "27Y",
+          "metric": "sales",
+          "current_estimate": 2831.412,
+          "prior_estimate": 2876.353,
+          "pct_change": -1.5624299242825934,
+          "percentile": 24.296675191815854,
+          "n_obs": 782
+        },
+        {
+          "ticker": "IONQ",
+          "forward_y_code": "27Y",
+          "metric": "sales",
+          "current_estimate": 381.727,
+          "prior_estimate": 384.7,
+          "pct_change": -0.7728099818040013,
+          "percentile": 11.381074168797953,
           "n_obs": 782
         },
         {
@@ -169,46 +209,6 @@
           "pct_change": -0.6084061744467184,
           "percentile": 26.982097186700766,
           "n_obs": 782
-        },
-        {
-          "ticker": "TSLA",
-          "forward_y_code": "27Y",
-          "metric": "sales",
-          "current_estimate": 117406.098,
-          "prior_estimate": 118105.563,
-          "pct_change": -0.5922371328097364,
-          "percentile": 60.48593350383632,
-          "n_obs": 782
-        },
-        {
-          "ticker": "TTD",
-          "forward_y_code": "27Y",
-          "metric": "sales",
-          "current_estimate": 3485.649,
-          "prior_estimate": 3505.921,
-          "pct_change": -0.5782218138971174,
-          "percentile": 20.716112531969312,
-          "n_obs": 782
-        },
-        {
-          "ticker": "TLN",
-          "forward_y_code": "27Y",
-          "metric": "sales",
-          "current_estimate": 5328.0,
-          "prior_estimate": 5355.818,
-          "pct_change": -0.5193977838679364,
-          "percentile": 21.55688622754491,
-          "n_obs": 668
-        },
-        {
-          "ticker": "CIEN",
-          "forward_y_code": "27Y",
-          "metric": "sales",
-          "current_estimate": 8002.556,
-          "prior_estimate": 8043.588,
-          "pct_change": -0.5101206078680365,
-          "percentile": 9.59079283887468,
-          "n_obs": 782
         }
       ],
       "by_pctile_top": [
@@ -233,6 +233,16 @@
           "n_obs": 782
         },
         {
+          "ticker": "MU",
+          "forward_y_code": "27Y",
+          "metric": "sales",
+          "current_estimate": 249891.149,
+          "prior_estimate": 197150.721,
+          "pct_change": 26.751323927443327,
+          "percentile": 91.94373401534527,
+          "n_obs": 782
+        },
+        {
           "ticker": "ETSY",
           "forward_y_code": "27Y",
           "metric": "sales",
@@ -250,6 +260,16 @@
           "prior_estimate": 1298.931,
           "pct_change": 0.058432665014529483,
           "percentile": 87.46803069053708,
+          "n_obs": 782
+        },
+        {
+          "ticker": "INTC",
+          "forward_y_code": "27Y",
+          "metric": "sales",
+          "current_estimate": 65721.808,
+          "prior_estimate": 65353.961,
+          "pct_change": 0.5628534129706431,
+          "percentile": 85.16624040920716,
           "n_obs": 782
         },
         {
@@ -291,29 +311,19 @@
           "pct_change": 0.13876596525870255,
           "percentile": 83.12020460358056,
           "n_obs": 782
-        },
-        {
-          "ticker": "GNRC",
-          "forward_y_code": "27Y",
-          "metric": "sales",
-          "current_estimate": 5650.579,
-          "prior_estimate": 5613.0,
-          "pct_change": 0.6694993764475354,
-          "percentile": 80.17902813299233,
-          "n_obs": 782
-        },
-        {
-          "ticker": "HOOD",
-          "forward_y_code": "27Y",
-          "metric": "sales",
-          "current_estimate": 6495.533,
-          "prior_estimate": 6185.72,
-          "pct_change": 5.00851962261466,
-          "percentile": 79.53964194373401,
-          "n_obs": 782
         }
       ],
       "by_pctile_bottom": [
+        {
+          "ticker": "NFLX",
+          "forward_y_code": "27Y",
+          "metric": "sales",
+          "current_estimate": 57266.0,
+          "prior_estimate": 57327.654,
+          "pct_change": -0.10754669988763954,
+          "percentile": 5.88235294117647,
+          "n_obs": 782
+        },
         {
           "ticker": "CLS",
           "forward_y_code": "27Y",
@@ -365,6 +375,16 @@
           "n_obs": 782
         },
         {
+          "ticker": "IONQ",
+          "forward_y_code": "27Y",
+          "metric": "sales",
+          "current_estimate": 381.727,
+          "prior_estimate": 384.7,
+          "pct_change": -0.7728099818040013,
+          "percentile": 11.381074168797953,
+          "n_obs": 782
+        },
+        {
           "ticker": "WIX",
           "forward_y_code": "27Y",
           "metric": "sales",
@@ -392,26 +412,6 @@
           "prior_estimate": 77143.885,
           "pct_change": -0.6968497891958525,
           "percentile": 15.217391304347828,
-          "n_obs": 782
-        },
-        {
-          "ticker": "TEAM",
-          "forward_y_code": "27Y",
-          "metric": "sales",
-          "current_estimate": 7422.677,
-          "prior_estimate": 7448.065,
-          "pct_change": -0.340867057416927,
-          "percentile": 17.647058823529413,
-          "n_obs": 782
-        },
-        {
-          "ticker": "VZ",
-          "forward_y_code": "27Y",
-          "metric": "sales",
-          "current_estimate": 144518.16,
-          "prior_estimate": 144806.542,
-          "pct_change": -0.1991498422771465,
-          "percentile": 17.902813299232736,
           "n_obs": 782
         }
       ]
