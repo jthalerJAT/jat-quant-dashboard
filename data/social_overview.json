@@ -1,220 +1,207 @@
 {
-  "digest_type": "premarket",
-  "digest_dt": "2026-07-22T08:30:00-04:00",
-  "saved_at": "2026-07-22T13:36:17.340319+00:00",
+  "digest_type": "midday",
+  "digest_dt": "2026-07-22T12:00:00-04:00",
+  "saved_at": "2026-07-22T16:27:18.254351+00:00",
   "bullets": [
     {
-      "title": "NVIDIA Vera Rubin launch: 10x throughput vs. Blackwell, CPO in volume manufacturing",
-      "body": "NVIDIA launched the Vera Rubin NVL72 rack-scale supercomputer on July 21, delivering 10x higher tokens/megawatt vs. Grace Blackwell NVL72 (800K vs. 80K tokens/s at same 150MW draw). Crucially, NVIDIA confirmed its co-packaged optics (CPO) switch for scale-out networking is now in 'volume manufacturing,' resolving prior concerns. Wistron opened a $700M, 324K sq-ft Texas facility already producing GB300 Grace Blackwell Ultra systems and preparing a cell for Vera Rubin.",
-      "tickers": [
-        "NVDA"
-      ],
+      "title": "Brent crude surges 34% in July to $95/bbl on Iran escalation; Hormuz traffic craters",
+      "body": "Brent crude hit $95/bbl (up from $71 on July 1, a ~34% move) as US-Iran military exchanges intensify, with oil vol spiking to 63. Hormuz transits fell to just 9 vessels vs. a historical 29, and European natural gas surged 5.5% on supply-risk fears. Shipping firms are paying massive bonuses to sailors willing to cross the strait.",
+      "tickers": [],
       "source_item_ids": [
-        "x:2079706850438906246",
-        "x:2079699527888404973"
+        "x:2079882853891125339",
+        "x:2079891652710375928"
       ]
     },
     {
-      "title": "NVDA Vera Rubin supply: 1,000 racks/day capacity, ~$630B annualized; DRAM cut in half",
-      "body": "Per The Information (via GavinSBaker), NVIDIA can manufacture ~1,000 Vera Rubin racks per day, implying ~$630B in annualized production capacity. SemiAnalysis reports NVIDIA cut DRAM on Vera Rubin by 50%, betting on CMX/flash offload to reduce inference memory requirements\u2014a potential headwind for DRAM suppliers.",
+      "title": "Equity futures extend losses; real yields hit 2023 highs as bonds sell off alongside oil",
+      "body": "S&P 500 and Nasdaq 100 futures extended losses as rising oil collided with a bond market already under pressure\u2014one account noted the 'equities bond shock' as yields push toward cycle highs on stretched growth pricing. Real yields on US 10-year Treasuries hit their highest level since 2023, and a Hedgeye macro note flagged 'Oil Up, Bonds Down = Quad3' as the dominant regime.",
       "tickers": [
-        "NVDA"
+        "SPY"
       ],
       "source_item_ids": [
-        "x:2079704511304913067",
-        "x:2079631360226959466"
+        "x:2079876337213305028",
+        "x:2079873398398673375"
       ]
     },
     {
-      "title": "GPU supply tightening post-Kimi K3: B200 at 0%, GH200 rapidly tightening",
-      "body": "Multiple fintwit accounts (WarrenPies/SemiAnalysis retweeted) note GPU availability is tightening again: B200 already sold out at 0% availability, GH200 tightening aggressively following Kimi K3 launch. Reads as broadly bullish for NVDA near-term demand.",
+      "title": "SPY first up day in 4 came on decelerating volume \u2014 weak conviction signal",
+      "body": "SPY's lone up day over the prior four sessions occurred on volume that was decelerating vs. both 1-month and 3-month averages, suggesting the bounce lacked conviction.",
       "tickers": [
-        "NVDA"
+        "SPY"
       ],
       "source_item_ids": [
-        "x:2079779988392612241",
-        "x:2079748117310968087"
+        "x:2079854017778192878"
       ]
     },
     {
-      "title": "SMCI: $60B+ record Q4 backlog, but Q4 revenue near low end of $11B-$12.5B guide",
-      "body": "Super Micro disclosed a record backlog from over $60B in new Q4 FY2026 orders. However, Q4 revenue is expected near the low end of the $11B\u2013$12.5B guidance range. On the positive side, Q4 gross margin guidance raised to 15\u201317% on favorable customer/product mix. Stock +15% after-hours.",
-      "tickers": [
-        "SMCI"
-      ],
+      "title": "NYSE margin debt +136% since Oct 2023 \u2014 fastest since dot-com bubble per Deutsche Bank",
+      "body": "Deutsche Bank analysts warn NYSE margin debt has expanded 136% since October 2023, the fastest rate on record except for February\u2013March 2000, partly attributable to the surprise dovish Fed pivot in December 2023.",
+      "tickers": [],
       "source_item_ids": [
-        "x:2079677788345586110",
-        "x:2079660957798994390"
+        "x:2079863765491667002"
       ]
     },
     {
-      "title": "META custom AMD MI400-series chip: half MI455X size, optimized for recsys, LLM-suboptimal",
-      "body": "SemiAnalysis/SemiDoped breaks: Meta is developing a custom AMD MI400-series chip roughly half the physical size of a standard MI455X, using 144GB HBM vs. 432GB standard, specifically optimized for recommendation systems. The chip is poorly suited for LLM training/inference, and Meta's custom packaging will complicate rental strategies. Critics flag this as emblematic of Meta's infrastructure over-engineering.",
+      "title": "Levered semiconductor ETF rebalancing created $6.5B MOC buy imbalance \u2014 largest in 1+ month",
+      "body": "SOXL jumped 15.8% the prior session, generating an estimated $6.5 billion end-of-day MOC buy imbalance, the largest in more than a month. Inflows into levered ETFs are flagged as perpetuating the 'epic vol in high beta momentum.'",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2079857140634714256",
+        "x:2079856952616611919"
+      ]
+    },
+    {
+      "title": "GEV misses EPS, beats revenue; FCF guidance nearly doubled \u2014 stock hits -10% premarket",
+      "body": "GE Vernova reported Q2 EPS of $2.47, missing the $3.10 estimate, but revenue of $11.1B beat the $10.73B consensus. The company raised FY revenue guidance to $45.5B\u2013$46.5B and nearly doubled its FY adj. FCF outlook to $11.5B\u2013$12.5B from $6.5B\u2013$7.5B. Despite the guidance raise, shares fell to session lows of -10% in premarket trading.",
       "tickers": [
+        "GEV"
+      ],
+      "source_item_ids": [
+        "x:2079887329918083579",
+        "x:2079887093111955566"
+      ]
+    },
+    {
+      "title": "Mag 7 mixed premarket; NVDA underperforming chipmakers ahead of Alphabet & Tesla earnings",
+      "body": "Premarket: GOOGL +0.8%, MSFT +0.4%, AMZN +0.2%, META flat, AAPL -0.3%, TSLA -0.3%, with NVDA underperforming the group as chipmakers broadly declined ahead of key earnings from Alphabet and Tesla.",
+      "tickers": [
+        "GOOGL",
+        "TSLA",
+        "NVDA",
+        "AAPL",
         "META",
-        "AMD"
+        "AMZN",
+        "MSFT"
       ],
       "source_item_ids": [
-        "x:2079730285391024536",
-        "x:2079655511515930687"
+        "x:2079881170074935671"
       ]
     },
     {
-      "title": "Intel Ohio fab: denies outright sale; SK Hynix denies acquisition; JV possibility unaddressed",
-      "body": "Intel formally denied selling its Ohio fab; SK Hynix denied plans to acquire it. However, neither party addressed a potential joint venture structure, which multiple observers (including chip analyst @jukan05/SemiAnalysis) view as the most likely outcome. SK Hynix proximity to Purdue/Ohio State engineering talent cited as strategic rationale.",
+      "title": "Jensen Huang defends Chinese AI models, says US should NOT ban them",
+      "body": "In an Axios interview, Nvidia CEO Jensen Huang stated the US government should not ban or restrict Chinese AI models like Kimi K3, calling them 'excellent.' He advocated for using open-source models that are best-in-class, regardless of origin.",
       "tickers": [
-        "INTC"
+        "NVDA"
       ],
       "source_item_ids": [
-        "x:2079715834835116341",
-        "x:2079712121068421406"
+        "x:2079881008254484952",
+        "x:2079872715658526973"
       ]
     },
     {
-      "title": "Taiwan June export orders hit record $95.26B (+59.4% YoY), electronics +79.9%",
-      "body": "Taiwan's June export orders surged 59.4% YoY to a record $95.26B, blowing past 47.3% expectations. Electronics orders rose 79.9% to $40.5B and IT/communications +81.9% to $34.15B, with US orders leading at +83.6%. Strong positive read-through for the semiconductor supply chain including TSM.",
-      "tickers": [
-        "TSM",
-        "TSEM"
-      ],
-      "source_item_ids": [
-        "x:2079737671682015365"
-      ]
-    },
-    {
-      "title": "TSMC to raise chipmaking prices by up to 10% from 2027",
-      "body": "Nikkei Asia reports TSMC plans to raise chipmaking prices by up to 10% starting in 2027. This would be a meaningful pricing power signal and a margin tailwind for TSM, while adding to cost pressures for chip designers.",
-      "tickers": [
-        "TSM"
-      ],
-      "source_item_ids": [
-        "x:2079705768484610232"
-      ]
-    },
-    {
-      "title": "VAT Group Q2 record orders (CHF500m) \u2014 leading indicator for AMAT, LRCX",
-      "body": "VAT Group reported a record Q2 order intake of CHF500m, led by semiconductor valves, with backlog reaching CHF648m. The author notes VAT's order book is a leading indicator for tool OEMs, implying a positive forward read-through for AMAT and LRCX.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2079826573147156642"
-      ]
-    },
-    {
-      "title": "MU: $40M put sale to open signals bullish positioning; short-seller thesis challenged",
-      "body": "Unusual Whales flagged $40M in MU puts sold to open \u2014 an unusually large premium-collection/bullish bet. Separately, a fintwit account dismissed MU short sellers as 'brain dead and crazy risk-takers' with no fundamental basis. MU listed among top S&P 500 gainers today (+10%+).",
-      "tickers": [
-        "MU"
-      ],
-      "source_item_ids": [
-        "x:2079648775279120398",
-        "x:2079676174557429809"
-      ]
-    },
-    {
-      "title": "Open-source AI and HBM demand: BofA's Arya questions demand concentration",
-      "body": "BofA's Vivek Arya (via fintwit) raised the question of whether open-source AI distributes HBM demand (each deployment creates its own memory footprint) vs. closed models which concentrate HBM demand in shared hyperscaler pools. The framing is relevant for MU/SNDK demand sustainability.",
-      "tickers": [
-        "MU",
-        "SNDK"
-      ],
-      "source_item_ids": [
-        "x:2079831926698078460"
-      ]
-    },
-    {
-      "title": "Photonics bottleneck shifting: CPO volume manufacturing validates LITE, AAOI thesis",
-      "body": "Multiple accounts flag that NVIDIA's confirmation of CPO switch in 'volume manufacturing' is hyper-bullish for co-packaged optics names. One author tracking CW lasers notes supply-demand gap continues to widen with massive new CW supply expected in 2027-2028 across multiple companies. FN ($19B mkt cap) flagged as undercovered with $1.27B next-quarter guide (+39.6% YoY).",
-      "tickers": [
-        "LITE",
-        "AAOI",
-        "COHR",
-        "FN"
-      ],
-      "source_item_ids": [
-        "x:2079695564380532912",
-        "x:2079646089305796668"
-      ]
-    },
-    {
-      "title": "Apple P/E at 40x vs. 26x 10-year avg; elevated multiples flagged ahead of earnings",
-      "body": "Charliebilello data (via fintwit): AAPL P/E is 40x vs. 10-year average of 26x; EV/EBITDA at 31x vs. 19x 10-year average. Elevated multiples flagged as a concern heading into big tech earnings week.",
-      "tickers": [
-        "AAPL"
-      ],
-      "source_item_ids": [
-        "x:2079774162206216635"
-      ]
-    },
-    {
-      "title": "S&P 500 price-breadth divergence matches entire dot-com bubble; concentration at 50-year high",
-      "body": "S&P 500 price and breadth have moved in opposite directions on 52 trading days YTD \u2014 equaling the full 2000 dot-com peak total. Separately, the 24 largest stocks now account for >50% of S&P 500 market cap, the highest concentration in history. Semiconductors now represent 14% of total market cap, nearly double the dot-com peak.",
-      "tickers": [
-        "SPY"
-      ],
-      "source_item_ids": [
-        "x:2079844450709250245",
-        "x:2079811001621369176"
-      ]
-    },
-    {
-      "title": "Macro: NQ futures -0.9% pre-market; AI stock rally losing steam ahead of Mag-7 earnings",
-      "body": "Nasdaq 100 futures are down 0.9% and S&P e-mini futures down 0.4% as of pre-market. Headlines note the AI stock rally is losing momentum ahead of key Magnificent Seven earnings (GOOGL, TSLA, MSFT among those reporting). Bearish positioning near record highs.",
-      "tickers": [
-        "SPY"
-      ],
-      "source_item_ids": [
-        "x:2079839158034448763",
-        "x:2079845127774715949"
-      ]
-    },
-    {
-      "title": "Geopolitical risk: Strait of Hormuz effectively closed; Brent above $91/bbl",
-      "body": "Iran has attacked 30+ commercial vessels over three months; CENTCOM reports 11 consecutive nights of U.S. strikes on Iranian military targets. Brent crude settled at $91.01 (+2.01%); one account flagged Brent touching $95 with Hormuz transits at zero. Japan Finance Minister calls the situation 'very difficult.' Yen at 39-year low of \u00a5163/USD.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2079835199815172190",
-        "x:2079639608258867671"
-      ]
-    },
-    {
-      "title": "GOOGL: Australia ACCC proposes authorizing Google Play Store fees through 2032",
-      "body": "Australia's competition regulator proposes a draft determination authorizing Google and Epic Games' settlement terms through September 30, 2032, governing Google Play service fees for developers. Limits regulatory uncertainty for GOOGL's app store monetization in Australia.",
+      "title": "Reddit considers cutting off Google's $60M/year AI training data access",
+      "body": "Reddit is reportedly weighing termination of Google's access to its content for AI model training, putting the $60 million-per-year deal struck in 2024 at risk. This would remove a key data pipeline for Google's AI development.",
       "tickers": [
         "GOOGL"
       ],
       "source_item_ids": [
-        "x:2079811141417804235"
+        "x:2079875731950117062"
       ]
     },
     {
-      "title": "TSLA: FSD 14.3.6 released; Cybercab on display at Tesla Diner; L3 adoption debate",
-      "body": "Tesla released FSD version 14.3.6. The Cybercab was placed on public display at the Tesla Diner. Separately, fintwit discusses L3 autonomous vehicle approval requiring 99.99%+ reliability, with one investor asserting Tesla will be first and best to market. Long-horizon self-driving debate (7-15 years to widespread adoption) continues.",
-      "tickers": [
-        "TSLA"
-      ],
-      "source_item_ids": [
-        "x:2079705489567273450",
-        "x:2079774508257587357"
-      ]
-    },
-    {
-      "title": "NVDA RTX Spark AI PC platform debuting Fall; Wistron Texas manufacturing underway",
-      "body": "NVIDIA's RTX Spark chip platform for AI PCs launches this Fall, with Asustek and MSI as first Taiwan OEM adopters. Jensen Huang attended opening of Wistron's Fort Worth facility (324K sq ft, $700M) already producing GB300 Grace Blackwell compute boards, with a separate manufacturing cell being prepared for Vera Rubin Superchip.",
-      "tickers": [
-        "NVDA"
-      ],
-      "source_item_ids": [
-        "x:2079736384672460929",
-        "x:2079703423080128940"
-      ]
-    },
-    {
-      "title": "White House redirects $200B federal research budget toward AI; tariff escalation on track",
-      "body": "The White House plans to redirect ~$200B in annual federal research funding toward AI and individual scientists, away from traditional university grants. Separately, Trump's temporary 10% global tariff expires Friday with new country-specific tariffs expected 'as early as this week,' and 100% tariffs on imported generic drugs announced for August 2028 (escalating to 200%).",
+      "title": "Bloomberg: AI sales beginning to justify data-center spending boom",
+      "body": "Bloomberg reports that AI revenue generation is starting to validate the scale of hyperscaler capex buildouts, supporting the thesis that data-center infrastructure investment will be economically justified.",
       "tickers": [],
       "source_item_ids": [
-        "x:2079702282443293037",
-        "x:2079636669108772957"
+        "x:2079893469116436512"
+      ]
+    },
+    {
+      "title": "Economist warns AI backlash is in early innings and will intensify",
+      "body": "The Economist flagged that social and regulatory resistance to AI adoption is growing and the AI backlash is 'only getting started,' representing a potential sector headwind beyond near-term earnings catalysts.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2079898502226739563"
+      ]
+    },
+    {
+      "title": "AT&T beats on wireless net adds (+432K vs. 325K est.) and EPS; maintains $18B+ FCF guide",
+      "body": "AT&T Q2 results: wireless postpaid phone net adds of 432K crushed the 325K estimate, adjusted EPS of $0.65 beat the $0.59 estimate, and EBITDA of $12.38B exceeded the $12.1B consensus. Revenue of $31.6B was a slight miss vs. $31.77B. Company maintained FY FCF guidance of at least $18B.",
+      "tickers": [
+        "T"
+      ],
+      "source_item_ids": [
+        "x:2079877809225519161"
+      ]
+    },
+    {
+      "title": "Wells Fargo cuts ARM price target to $350 from $410",
+      "body": "Wells Fargo reduced its ARM Holdings price target by $60 to $350, signaling reduced upside from prior levels.",
+      "tickers": [
+        "ARM"
+      ],
+      "source_item_ids": [
+        "x:2079880461011349611"
+      ]
+    },
+    {
+      "title": "MSFT flagged as cheap on valuation by fintwit account",
+      "body": "At least one credible fintwit account called MSFT 'cheap' on current valuation ahead of upcoming earnings, a bullish contrarian signal given the recent market weakness.",
+      "tickers": [
+        "MSFT"
+      ],
+      "source_item_ids": [
+        "x:2079867986563768557"
+      ]
+    },
+    {
+      "title": "TSLA seen pivoting to niche 1-2 passenger market; UBER better positioned at scale",
+      "body": "One account argues Tesla is evolving toward the 1-2 passenger market (less than 1% of total auto sales), while Uber is already at scale and will benefit additively from 10-15 driverless partners on its platform \u2014 framing UBER as the structural winner in autonomous mobility.",
+      "tickers": [
+        "TSLA",
+        "UBER"
+      ],
+      "source_item_ids": [
+        "x:2079862160658686313"
+      ]
+    },
+    {
+      "title": "Trump greenlights Saudi nuclear deal including potential uranium enrichment",
+      "body": "The Trump administration formally approved a landmark civilian nuclear agreement with Saudi Arabia that opens the door to uranium enrichment within the Kingdom, a potential demand catalyst for US uranium producers.",
+      "tickers": [
+        "UEC"
+      ],
+      "source_item_ids": [
+        "x:2079882930323669120",
+        "x:2079885117208617465"
+      ]
+    },
+    {
+      "title": "Philadelphia Fed services survey: firm activity surges to +17.5; future expectations hit highest since Nov 2024",
+      "body": "The Philadelphia Fed's July services sector survey showed firm-level activity jumped to +17.5 from +2.4 the prior month, while future business expectations surged to +41.9 from -0.3, the highest reading since November 2024. Services sector capex on equipment and software also hit its highest level since May 2022.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2079897325808312502",
+        "x:2079897619954794590"
+      ]
+    },
+    {
+      "title": "Photonics sector flagged as durable higher-beta semiconductor expression",
+      "body": "One account highlighted LITE, AAOI, COHR, and NOK as established photonics plays positioned as higher-beta expressions of the semiconductor sector, calling the space 'here to stay.'",
+      "tickers": [
+        "NOK",
+        "COHR",
+        "AAOI",
+        "LITE"
+      ],
+      "source_item_ids": [
+        "x:2079870317238067204"
+      ]
+    },
+    {
+      "title": "BEA methodology change expected to lower June core PCE by ~0.2 ppts",
+      "body": "Upcoming BEA methodology revisions are anticipated to reduce measured June core PCE inflation by approximately 0.2 percentage points, a potentially meaningful downside surprise for the print.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2079880043623330029"
+      ]
+    },
+    {
+      "title": "Yen at 40-year lows despite authorities threatening 'bold' intervention",
+      "body": "The Japanese yen continues to trade at levels last seen 40 years ago, with authorities' warnings of bold intervention failing to move the currency meaningfully \u2014 raising the stakes for any actual policy action.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2079876998063604161"
       ]
     }
   ]
