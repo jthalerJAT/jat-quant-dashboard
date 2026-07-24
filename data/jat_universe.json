@@ -1,225 +1,236 @@
 {
-  "digest_type": "eod",
-  "digest_dt": "2026-07-23T18:00:00-04:00",
-  "saved_at": "2026-07-23T22:28:15.047720+00:00",
+  "digest_type": "premarket",
+  "digest_dt": "2026-07-24T08:30:00-04:00",
+  "saved_at": "2026-07-24T13:36:34.034739+00:00",
   "bullets": [
     {
-      "title": "TSLA: Down 14% post-earnings \u2014 2nd worst earnings day ever on margin collapse",
-      "body": "Tesla Q2 revenue hit a record $28B (+26% YoY) but operating margins collapsed to 1.4% from 4.1%, net income fell 5% to $1.1B, and deliveries of 480k (+25% YoY) still couldn't offset the profit miss. The stock fell ~14.1% intraday \u2014 the 2nd worst single-day earnings reaction in TSLA's public history, putting it -23% YTD vs. NDX +15-16%. Analysts flagged no disclosure of unsupervised autonomous vehicle metrics, a $2028 profitability runway from Musk's commentary, and BYD cost pressure as structural bears; VWAP analysis shows no evidence of buyer control.",
+      "title": "INTC: Massive 2Q beat; raises capex to $20B+; stocks fades post-call",
+      "body": "Intel reported 2Q26 revenue of $16.13B (+25% YoY vs. $14.4B consensus) and EPS of $0.42 vs. $0.22 est, driven by DCAI revenue of $6.26B (+59.9% YoY). 3Q guidance of $15.8-$16.8B and $0.38 EPS well above consensus. FY26 capex raised from $17B to $20B+ with FY27 guided 'significantly higher.' 18A yields ahead of targets, 14A targeting 2028 HVM. However, stock faded post-call\u2014investors frustrated by equity raise disclosure, 14A described as 'internal products only,' and capex guidance spread across all segments vs. foundry-focused. Sell-side consensus: PT range $109-$155, avg ~$116. KeyBanc raised to $155 OW; Roth to $120 Buy; UBS Neutral at $121; Wolfe Peer Perform.",
       "tickers": [
-        "TSLA"
+        "INTC"
       ],
       "source_item_ids": [
-        "x:2080318090131148839",
-        "x:2080326308052038122"
+        "gmail:19f93b912ff19d96",
+        "gmail:19f93d81b03db6d3"
       ]
     },
     {
-      "title": "GOOGL: Down 7.6% on record capex, negative FCF, and earnings quality concerns",
-      "body": "Alphabet's Q2 FCF turned negative for the first time ever at -$5.9B as capex surged to $44.9B/quarter (full-year guidance raised to $195-205B from $180-190B). Headline net income of $112B was 87% driven by SpaceX/Anthropic equity mark-ups, not operations; core net income was only ~$33B, up ~2% QoQ. Google Cloud grew 81.8% YoY \u2014 fastest on record \u2014 and the Cloud CEO cited 50% YoY customer spending growth on CNBC. Piper Sandler cut PT to $395 (from $445) and Wells Fargo trimmed to $411 (from $418), both maintaining Overweight. Stock was down 5.8-7.6% on the session.",
-      "tickers": [
-        "GOOGL"
-      ],
-      "source_item_ids": [
-        "x:2080292592692986370",
-        "x:2080301507619049879"
-      ]
-    },
-    {
-      "title": "GOOGL: $811B in contracted future spending commitments \u2014 up $500B in 3 months",
-      "body": "As of June 30, Google disclosed $811B in contracted future spending commitments (supply agreements, open purchase orders), up ~$500B from the March 30 figure. The total committed capex ecosystem across hyperscalers is now tracked at $2.3 trillion, raising questions about return on capital and whether circular AI financing is sustainable if Anthropic/OpenAI cannot monetize their commitments.",
-      "tickers": [
-        "GOOGL"
-      ],
-      "source_item_ids": [
-        "x:2080345893266485586",
-        "x:2080326506371248224"
-      ]
-    },
-    {
-      "title": "AMD: Lisa Su keynote \u2014 $1.4T AI accelerator TAM, $2T compute market, Venice EPYC lead",
-      "body": "AMD CEO Lisa Su at the Advancing AI 2026 event projected the AI accelerator market at $1.4T by 2030 and overall compute TAM at $2T. Venice EPYC is in full production with strong demand, claims 20% performance lead over NVIDIA CPUs and a wide lead over ARM; Venice-based systems ship Q4. AMD raised its CPU TAM estimate from $60B \u2192 $120B \u2192 $220B on agentic workload demand, and Su noted 2026 is the first year inference compute exceeds training compute. AMD also announced a partnership with Cerebras to combine the Helios GPU rack and Cerebras wafer-scale chip for ultra-low-latency AI inference, launching on Cerebras Cloud in H2 2026. One bearish note: at least one sell-side desk flagged TAM figures came in below BofA estimates.",
+      "title": "AMD: AI Day lifts PT to $650-$730; Helios in production, Anthropic 2GW win, TAM to $1.4T",
+      "body": "AMD's Advancing AI Day 2026 delivered outsized positive signals: Helios rack-scale GPU platform in full production with shipments starting Sept 2026; Anthropic committed to 2GW of MI450/MI455X (1GW deploying 1H27); extended Microsoft Azure partnership; OpenAI and Meta each deploying 6GW. AI accelerator TAM raised to $1.4T by 2030 (45%+ CAGR) and server CPU TAM to $220B (50%+ CAGR). Multiple houses raised PTs: UBS $700\u2192$730, Roth $500\u2192$650, Wolfe $650 OW. AMD Venice CPU achieves 2.8x agents-per-watt vs. NVIDIA Vera. AMD-Cerebras disaggregated inference delivers 5x tokens-per-second-per-watt advantage.",
       "tickers": [
         "AMD"
       ],
       "source_item_ids": [
-        "x:2080334043091005528",
-        "x:2080345415602561348"
+        "gmail:19f9301dac58dc6a",
+        "gmail:19f93a26d8dec6fe"
       ]
     },
     {
-      "title": "AMD: Intel and AMD locking Chinese cloud firms into year-long CPU deals at +40% prices",
-      "body": "Intel and AMD are securing multi-year CPU supply agreements with Chinese AI cloud firms amid surging demand, with CPU prices reportedly up ~40%. AMD's long-term EPYC playbook is seen as a favorable precedent; Anthropic confirmed Claude can run on AMD Instinct + ROCm, suggesting NVIDIA's CUDA moat is weakening as models become more hardware-agnostic. Unusual OTM put activity of $6M+ in AMD and SPY was also flagged intraday.",
+      "title": "CHTR: 2Q EBITDA miss, broadband ARPU declining; analysts expect guidance cuts",
+      "body": "Charter reported 2Q26 revenue of $13.53B (slight beat) but adj. EBITDA of $5.45B missed the $5.58B consensus by 200+ bps, with margins down 110bps YoY to 40.3%. Core residential HSD net losses accelerated to -166K/-212K depending on source; broadband ARPU fell 1.5% YoY. Mobile lines +406K beat expectations (+18.9% YoY revenue). FCF of $969M missed. UBS maintains Neutral. KeyBanc expects company to talk down EBITDA, internet net add, and ARPU guidance. Stock down ~5.7% premarket.",
       "tickers": [
-        "AMD",
-        "INTC",
-        "NVDA"
+        "CHTR"
       ],
       "source_item_ids": [
-        "x:2080308202487402855",
-        "x:2080342288237305968"
+        "gmail:19f9411841a4cc2e",
+        "gmail:19f94098d86c9e1a"
       ]
     },
     {
-      "title": "NVDA: Groq acquisition reported; RTX GPU price hike; Blackwell cableless design context",
-      "body": "NVIDIA is reportedly acquiring Groq (vs. AMD partnering with Cerebras), intensifying competition in premium AI inference. RTX GPUs are facing another price hike as NVIDIA passes increased memory kit costs to board partners. A tech commentator noted NVIDIA went cableless on Blackwell to resolve prior hardware reliability issues. Chinese open-source AI proliferation was flagged as a bear thesis against NVIDIA's moat. Jensen Huang commissioned a DGX GB300 system at the Naval Postgraduate School, extending NVIDIA's federal/public sector presence.",
+      "title": "VZ: 2Q beat on FCF and postpaid phone adds; raises FY26 guidance",
+      "body": "Verizon reported 2Q26 adj. EPS of $1.30 (beat $1.28E) and FCF of $6.43B (well above $5.28B est), though revenue of $34.25B missed $35.16B consensus. Postpaid phone net adds of +184K crushed +112K consensus; postpaid ARPA fell 1.4% YoY. Raised FY26 mobility/broadband service revenue guidance to 2.5-3.0%, EPS to $4.99-5.04 (6-7% growth), and FCF to $21.9-22.1B. UBS and KeyBanc both maintain Neutral/Sector Weight.",
       "tickers": [
-        "NVDA"
+        "VZ"
       ],
       "source_item_ids": [
-        "x:2080345903207207111",
-        "x:2080299394486923316"
+        "gmail:19f93fb2b7a91d19",
+        "gmail:19f9405eee3e8ca6"
       ]
     },
     {
-      "title": "GOOGL: Google holds $94B in SpaceX shares; RDDT bullish per Needham",
-      "body": "Google disclosed it holds $94B in SpaceX shares post-IPO, a meaningful contributor to the equity mark-up driving headline Q2 net income. Separately, Needham's Laura Martin is bullish on Reddit, arguing Google strategically needs the platform (data licensing angle); analyst sees the relationship as more than posturing.",
+      "title": "DLR: Record 2Q bookings and backlog; Citi upgrades to Buy, JPM raises PT to $235",
+      "body": "Digital Realty reported record 0-1MW plus interconnection bookings of $108M in 2Q26 (third consecutive record quarter), with total backlog rising to $1.4B DLR share ($1.9B at 100%). Two additional hyperscale leases signed in July totaling $205M DLR share. FY26 guidance raised: revenue +$200M, EBITDA +$100M, core FFO/sh +$0.13. Management projects double-digit core FFOPS growth through at least 2028. UBS raises PT to $227 (Buy); JPMorgan raises PT to $235; Citi upgrades to Buy citing AI-driven demand tailwind.",
       "tickers": [
+        "DLR"
+      ],
+      "source_item_ids": [
+        "gmail:19f92dda2daba3ba",
+        "gmail:19f9327157279c3e"
+      ]
+    },
+    {
+      "title": "ORCL and CRM win massive government contracts; ORCL +2.2% premarket",
+      "body": "Oracle was awarded a $3.31B US Navy five-year software contract and a separate $7B 10-year Pentagon software consolidation deal. Salesforce won a $1.6B three-year VA contract. ORCL trading +2.2% in premarket; CRM +1.7%.",
+      "tickers": [
+        "ORCL",
+        "CRM"
+      ],
+      "source_item_ids": [
+        "gmail:19f9416b95f020e6",
+        "gmail:19f9386c33ea447c"
+      ]
+    },
+    {
+      "title": "TSLA: Down 14.5% on worst day since March 2025; management cautious on autonomy scaling",
+      "body": "Tesla shares fell 14.5% Thursday, worst single day since March 2025, after management cautioned against scaling unsupervised autonomy until ~40 test vehicles demonstrate safety\u2014providing no specifics on paid rides or active autonomous vehicles. Short sellers banked ~$4.1-4.3B in mark-to-market gains. Waymo comparison: 3,500 unsupervised AVs and 500K paid rides/week vs. Tesla's ~40 vehicles and ~4K rides/week.",
+      "tickers": [
+        "TSLA"
+      ],
+      "source_item_ids": [
+        "x:2080383508619440244",
+        "x:2080390364897087729"
+      ]
+    },
+    {
+      "title": "GOOGL: Down 7.1%, breaks 200-day MA; capex raise and token growth deceleration concern investors",
+      "body": "Alphabet fell 7.1% Thursday\u2014its worst day in years\u2014after raising FY26 capex guidance by $15B to $195-205B, raising AI spending sustainability concerns. Token growth decelerated to 38% QoQ vs. 60% prior quarter. GOOGL broke below its 200-day moving average for the first time in over a year, and is down 13%+ on the week. Market cap loss ~$300B. Cloud growth was +82% YoY but elevated capex weighed on sentiment. Hedge funds had added tactical shorts ahead of earnings.",
+      "tickers": [
+        "GOOGL"
+      ],
+      "source_item_ids": [
+        "x:2080451321585713544",
+        "gmail:19f93f5ac29b30d7"
+      ]
+    },
+    {
+      "title": "DELL and HPE: Citi raises PTs to $515/$74 on larger CPU TAM and AI server demand",
+      "body": "Citi raised Dell Technologies PT from $475 to $515 and HPE PT from $70 to $74, citing Intel's +60% YoY DC growth, AMD's server CPU TAM expansion to $220B by 2030, and strengthening enterprise AI infrastructure demand. Both maintained at Buy with upside catalyst watches through Oct 22. PC vendors with larger volume (Apple, Dell) seen better positioned to gain share as PC units decline low-double digits in FY26 on memory constraints.",
+      "tickers": [
+        "DELL",
+        "HPE"
+      ],
+      "source_item_ids": [
+        "gmail:19f93ee3e0670a01",
+        "gmail:19f935dc791caedd"
+      ]
+    },
+    {
+      "title": "Mag 7 loses $797B in single day; biggest collective drop since April 2025",
+      "body": "All seven Mag 7 names fell more than 1% Thursday, with the basket down 4.8%\u2014the largest one-day selloff in five years\u2014erasing $797B in combined market value. TSLA (-14.5%) and GOOGL (-7.1%) were the primary drivers. AI capex ROI uncertainty, rising oil above $100/bbl, higher rates (10Y above 4.7%), and new 10-12.5% tariffs on 60+ countries all contributed. Mag 7 bouncing modestly Friday with S&P futures +0.2%.",
+      "tickers": [
+        "TSLA",
         "GOOGL",
-        "RDDT"
+        "META",
+        "MSFT",
+        "AMZN",
+        "AAPL",
+        "NVDA"
       ],
       "source_item_ids": [
-        "x:2080311221560266839",
-        "x:2080261840865497477"
+        "x:2080397570690384171",
+        "gmail:19f940a75861a68f"
       ]
     },
     {
-      "title": "NFLX: Slowest revenue growth in 1+ year \u2014 contrarian thesis emerging",
-      "body": "Netflix reported its slowest revenue growth rate in over a year, triggering a sell-off. At least one analyst is examining whether the market is overlooking important fundamentals (subscriber leadership, valuation) and whether the pullback creates a buying opportunity.",
+      "title": "NVDA: $1.5B Amkor partnership for US chip packaging; GPU residual value guarantees enable bank financing",
+      "body": "Nvidia signed a multi-year strategic partnership with Amkor Technology including $1.5B prepayment to expand US advanced packaging and test capacity. Separately, NVIDIA reportedly implementing GPU residual value guarantees (price floors) to enable bank financing of AI clusters. 800V HVDC architecture targeting production in 1Q27 with Delta Electronics positioned for 2Q ramp.",
       "tickers": [
-        "NFLX"
+        "NVDA"
       ],
       "source_item_ids": [
-        "x:2080291852255625354",
-        "x:2080278833253769315"
+        "x:2080410890109886869",
+        "x:2080420313968341485"
       ]
     },
     {
-      "title": "CMCSA: NBCU split raises NFL rights questions; parks softening more than expected",
-      "body": "With NBCU set to split from Comcast, analysts question whether locking in NFL rights beyond 2029 becomes a priority during the separation process. Comcast also flagged a softer-than-expected parks operating environment, particularly in Orlando geography, though Epic Universe is performing well. The stock has retraced to pre-separation price levels as the new EPS call format (no live Q&A) drew criticism and failed to address where FreeWheel/Universal Ads land post-split.",
+      "title": "TMUS: Down >10% on beat-and-reiterate; MS reiterates OW at $230, Wolfe cuts PT to $236",
+      "body": "T-Mobile fell over 10% despite reporting 2Q26 results above estimates\u2014postpaid phone net adds of +277K, service revenue +9% YoY, core adj. EBITDA +12%\u2014and raising FY26 FCF guidance by $200M. Management guided 3Q KPIs below consensus citing rate plan modernization churn friction. Morgan Stanley reiterates Top Pick Overweight at $230, calling stock at 7x EV/EBITDA its lowest multiple in 5+ years. Wolfe cuts PT to $236 from previous but keeps Outperform.",
       "tickers": [
-        "CMCSA",
-        "DIS"
+        "T"
       ],
       "source_item_ids": [
-        "x:2080326614378754358",
-        "x:2080274241925128576"
+        "gmail:19f93d94193380fe",
+        "gmail:19f935c838ad6369"
       ]
     },
     {
-      "title": "MSFT: Azure West US connectivity failures and latency issues since 14:44 UTC",
-      "body": "Microsoft disclosed it is actively investigating networking and traffic-routing anomalies behind intermittent connectivity failures and elevated latency in the Azure West US region, with issues beginning at 14:44 UTC on July 23. Separately, MSFT is testing a free, ad-supported cloud gaming tier for Xbox Insiders.",
+      "title": "UBER: Piper most bullish in gig economy; institutional interest high (Ackman 15.7%, Tepper tripled stake)",
+      "body": "Piper Sandler is most bullish on UBER among gig economy and OTA cohort. Citi previews 2Q26 earnings (Aug 5), projecting total gross bookings of $57.3B (+20% YoY ex-FX) and adj. EBITDA of $2.78B. Separately, David Tepper nearly tripled UBER stake to ~6.3M shares and Bill Ackman holds 15.7% of his portfolio in UBER.",
+      "tickers": [
+        "UBER"
+      ],
+      "source_item_ids": [
+        "gmail:19f92639dcb0947d",
+        "x:2080373323381314036"
+      ]
+    },
+    {
+      "title": "MSFT: KeyBanc reiterates OW at $600 PT but flags FY27 capex upside risk",
+      "body": "KeyBanc estimates MSFT FY27 capex ~$17B above consensus and warns the figure may still be too low. GOOGL's negative stock reaction to elevated capex makes KeyBanc more concerned MSFT cloud upside must be substantial to offset capex pressure. Azure bulls target mid-40s% growth. Key risks: OpenAI dependence, non-AI Azure slowdown, and slower Copilot adoption.",
       "tickers": [
         "MSFT"
       ],
       "source_item_ids": [
-        "x:2080350290570834083",
-        "x:2080322805514768782"
+        "gmail:19f93ca8c3fa5ded"
       ]
     },
     {
-      "title": "AAPL: Ford partnership for Apple Maps in EV platform; Apple sues OpenAI",
-      "body": "Ford will integrate Apple Maps directly into its upcoming Universal Electric Vehicle Platform and updated BlueCruise system per NYT. Apple has also filed a lawsuit against OpenAI in a dispute over who controls the post-smartphone computing era, representing a strategic escalation in AI.",
+      "title": "CMCSA: Morgan Stanley cuts PT to $29; broadband competition intensifies from FWA/Starlink/fiber",
+      "body": "Morgan Stanley lowered CMCSA PT from $30 to $29 and maintains Equal-weight, projecting 2027-28 as increasingly painful as DSL migration wanes while fiber, FWA, and Starlink expand. 2Q26 residential broadband net losses -167K; ARPU down 3.8% YoY. Peacock achieved profitability for first time with +$189M EBITDA. Wolfe recommends CMCSA/CHTR pair trade with CMCSA preferred on lower leverage.",
       "tickers": [
-        "AAPL"
+        "CMCSA"
       ],
       "source_item_ids": [
-        "x:2080277656071811557",
-        "x:2080292401114235249"
+        "gmail:19f93dbcd852f0f8",
+        "gmail:19f935c7fad45ac9"
       ]
     },
     {
-      "title": "AMZN: Luna cloud gaming integrated into Prime Video",
-      "body": "Amazon is integrating Luna cloud-streamed games directly into Prime Video, with titles like Fallout 4 as examples. This bundles gaming into the Prime ecosystem, potentially improving subscriber retention.",
-      "tickers": [
-        "AMZN"
-      ],
-      "source_item_ids": [
-        "x:2080332437104771436"
-      ]
-    },
-    {
-      "title": "META: Retail buying on pullback; skepticism on AI offline connection strategy",
-      "body": "At least one retail investor cited META as undervalued and added to the position on today's pullback. One macro commentator expressed skepticism about Meta's true intention to use AI to foster offline connection. No analyst rating changes noted in the window.",
+      "title": "META: $12B Texas data center financing at 7% yields, 40bps higher than prior Hyperion deal",
+      "body": "Meta faces rising borrowing costs, securing $12B Texas data center financing at 7% yields\u201440bps higher than the $27B Hyperion deal nine months ago. Meta launched a new Seller app for Facebook Marketplace with AI-powered listing tools for US merchants.",
       "tickers": [
         "META"
       ],
       "source_item_ids": [
-        "x:2080328215424340375",
-        "x:2080279872627187773"
+        "x:2080448212398395543",
+        "gmail:19f941241f5beddd"
       ]
     },
     {
-      "title": "MU: Bullish options flow (put sellers active) on return to $1,000",
-      "body": "Micron options flow was dominated by put sellers \u2014 typically a bullish signal \u2014 as the stock returned to the $1,000 level per one widely-followed account's earlier price target.",
+      "title": "RDDT: Sentiment decisively positive ahead of 2Q; analyst expects $775M revenue vs. $730M Street",
+      "body": "JPMorgan expects Reddit to beat 2Q revenue by $50-60M above the high end of guidance (~$775M vs. $730M Street). Q3 adj. EBITDA margin expected ~44% with guide of $360-370M. Investor sentiment shifted to decisively positive. Citi previews strong digital ad environment with rising engagement metrics supporting RDDT, PINS, SNAP heading into print.",
       "tickers": [
-        "MU"
+        "RDDT",
+        "SNAP",
+        "PINS"
       ],
       "source_item_ids": [
-        "x:2080338860303589592",
-        "x:2080344148666949712"
+        "gmail:19f94095b5745445",
+        "gmail:19f93e6a8d5a7c85"
       ]
     },
     {
-      "title": "ORCL hits new 52-week lows; off-balance-sheet AI debt flagged across Big Tech",
-      "body": "Oracle stock hit new 52-week lows today. Separately, a Nikkei study cited in social media highlighted that Alphabet, Microsoft, Amazon, Meta, and Oracle collectively carry $1.65 trillion in off-balance-sheet obligations that grew 8x over four years \u2014 a structural risk framing for AI infrastructure financing.",
+      "title": "FSLR: Oversold technicals; 232 tariff policy in August is the binary catalyst",
+      "body": "FSLR technicals are oversold (RSI 31) after failing to hold $300 in June; current support at $200-190. Bulls model $350-400 PT if Section 232 lands with ~38c/W MIP and 25-35% AVT; bears risk $160 test if 232 is delayed or diluted. Q2 bookings expected light at ~1.3GW; 50GW/$14B backlog provides revenue visibility through 2028+.",
       "tickers": [
-        "ORCL",
-        "GOOGL",
-        "MSFT",
-        "AMZN",
-        "META"
+        "FSLR"
       ],
       "source_item_ids": [
-        "x:2080350453649318288",
-        "x:2080265505563136193"
+        "gmail:19f93fed2634cd82",
+        "gmail:19f93e5f638411f8"
       ]
     },
     {
-      "title": "TXN: Second consecutive triple play but stock fades after prior quarter's 19.4% surge",
-      "body": "Texas Instruments reported another earnings triple play (beat on EPS, revenue, and guidance), following last quarter's triple play which drove a 19.4% stock gain. The stock is trading lower today despite the clean beat, suggesting the prior-quarter move has been priced in.",
+      "title": "TEAM: Citi reiterates Buy at $110 as down 50% YTD; FY27 guide likely conservative",
+      "body": "Citi reiterates Buy on Atlassian (earnings Aug 6) noting shares are down 50%+ YTD with unjustifiably bearish sentiment. Post-conference intra-Q checks show resilient fundamentals, no material churn. FY27 revenue guidance likely to miss consensus, driven by conservative new CFO and smaller Cloud price increases, but analyst expects beat-and-raise motion through the year. OPCO also sees FY27 guide at/slightly below consensus as likely bottom.",
       "tickers": [
-        "TXN"
+        "TEAM"
       ],
       "source_item_ids": [
-        "x:2080290198051573817"
+        "gmail:19f93f1a908f8e0a",
+        "gmail:19f93ee8c0b4dead"
       ]
     },
     {
-      "title": "Mag 7 on pace for worst day since April 2025 amid oil shock and rate spike",
-      "body": "The Magnificent 7 is tracking its worst single session since April 2025, driven by GOOGL and TSLA post-earnings selling plus macro headwinds: Brent crude surged above $100/barrel (+10% in 48 hours) on Iran/Houthi escalation and the US 10Y yield broke above 4.70% for the first time since January, hitting new 52-week highs. Rate hike probability jumped from 12% to 36% in one week per CME FedWatch. NASDAQ fell ~2% and S&P 500 ~1.3% intraday.",
+      "title": "PSKY/WBD: Merger pause extended to Aug 17; judge orders timeline for preliminary injunction",
+      "body": "The PSKY-WBD $110B merger pause was extended through August 17 amid legal challenges from US states and screenwriters. Separately, the presiding judge asked both sides to agree on a preliminary injunction hearing timeline and format by July 24 noon, with consequences if parties cannot agree.",
       "tickers": [
-        "GOOGL",
-        "TSLA",
-        "NVDA",
-        "MSFT",
-        "AMZN",
-        "META"
+        "PSKY",
+        "WBD"
       ],
       "source_item_ids": [
-        "x:2080275664780017729",
-        "x:2080280998730686905"
-      ]
-    },
-    {
-      "title": "NBIS: First NVIDIA Vera Rubin NVL72 rack deployed in Finland data center",
-      "body": "Nebius announced deployment of its first full NVIDIA Vera Rubin NVL72 rack in its Finland data center, a signal of accelerating Vera Rubin adoption outside Hyperscalers.",
-      "tickers": [
-        "NBIS",
-        "NVDA"
-      ],
-      "source_item_ids": [
-        "x:2080282932971717018"
-      ]
-    },
-    {
-      "title": "TMUS: T-Mobile/SpaceX satellite JV reportedly near dissolution",
-      "body": "The T-Mobile and SpaceX satellite connectivity joint venture appears to be effectively dead based on commentary from Lightshed's Walt Mossberg, citing TMUS commentary on the call.",
-      "tickers": [
-        "TMUS"
-      ],
-      "source_item_ids": [
-        "x:2080270259630518332"
+        "gmail:19f9406b28ecbf6f",
+        "x:2080408830567919847"
       ]
     }
   ]
