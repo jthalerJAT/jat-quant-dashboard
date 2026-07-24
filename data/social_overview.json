@@ -1,228 +1,177 @@
 {
-  "digest_type": "premarket",
-  "digest_dt": "2026-07-24T08:30:00-04:00",
-  "saved_at": "2026-07-24T13:36:34.037736+00:00",
+  "digest_type": "midday",
+  "digest_dt": "2026-07-24T12:00:00-04:00",
+  "saved_at": "2026-07-24T16:25:27.779079+00:00",
   "bullets": [
     {
-      "title": "Intel massive earnings beat: EPS $0.42 vs $0.21 est, revenue $16.1B vs $14.4B est",
-      "body": "Intel reported Q2 EPS of $0.42 vs $0.21 consensus (100% beat) and revenue of $16.1B vs $14.43B expected, with Q3 guidance of $15.8-16.8B vs $15.06B est and adj EPS $0.38 vs $0.27. CFO signals 2026 capex rising to $20B from $18B with 2027 capex 'up meaningfully'; Intel locked 10+ long-term customer agreements and is undershipping data center customers by significant margin. Stock initially surged 10-11% AH before paring gains to ~3%.",
+      "title": "AMD MI500 Leads Nvidia Rubin Ultra in Key AI Chip Specs; HBM4 Samsung Deal Imminent",
+      "body": "Multiple accounts flag AMD's MI500 as ahead of Nvidia's Rubin Ultra in optical interconnects, HBM capability, 4-die packaging, and scale-up domain. Separately, AMD is reported close to signing a definitive large-scale HBM4 supply agreement with Samsung. Jefferies raised its AMD price target to $640 from $515, maintaining Buy, citing AI accelerator TAM now seen at $1.4T by 2030 (up from $1T) with agentic AI comprising ~50% of that.",
+      "tickers": [
+        "AMD",
+        "NVDA"
+      ],
+      "source_item_ids": [
+        "x:2080594785426170143",
+        "x:2080578325702205898"
+      ]
+    },
+    {
+      "title": "Intel 2Q26 Blowout: Revenue $16.1B vs $14.3B Est; 3Q Guide Also Beats",
+      "body": "Intel's 2Q26 revenue of $16.1B was described as the strongest growth in 15+ years, well above the $14.3B consensus. 3Q26 guidance of $16.3B also beats consensus of $15.1B with 42% gross margin guided. One analyst sets a $136 price target based on 5x 2027E book value and 34x 2028E EPS, citing strong data center momentum.",
       "tickers": [
         "INTC"
       ],
       "source_item_ids": [
-        "x:2080383667629694985",
-        "x:2080384031687118987"
+        "x:2080593475553386730"
       ]
     },
     {
-      "title": "Intel foundry inflection: 18A-P enters risk production; 14A high-volume ramp committed for 2028",
-      "body": "Intel's 18A-P process is entering risk production for external customers, and management formally committed to a high-volume ramp in 2028 during the Q2 call. Early work on Intel 14A continues to make good progress with IP portfolio buildout confirmed. CFO also notes foundry is two businesses\u2014wafers and advanced packaging\u2014with early customer traction on the packaging side. Intel reportedly entering memory business (ZAM/XBM) per CEO comment.",
+      "title": "Mag 7 Premarket: Tesla +1.3% Bounce After 15% Plunge; Nvidia Only Decliner",
+      "body": "Tesla led Mag 7 names in premarket recovery (+1.3%) following a ~15% drop on Thursday. Microsoft +1.1%, Alphabet +0.7%, Meta +0.7%, Amazon +0.5%, Apple +0.2%. Nvidia was the sole decliner at -0.4%. Separately, TSLA is noted as down ~22% since Michael Burry opened his short position.",
       "tickers": [
-        "INTC"
-      ],
-      "source_item_ids": [
-        "x:2080389072057479344",
-        "x:2080402853752107349"
-      ]
-    },
-    {
-      "title": "TSLA plunges 14.5%, worst day since March 2025, on autonomy scale-up caution",
-      "body": "Tesla fell 14.5% after management cautioned against scaling unsupervised autonomy until ~40 test vehicles demonstrate safety, while providing no key metrics (paid unsupervised rides, AV unit count). Waymo operates 3,500 unsupervised AVs vs Tesla's ~40, generating 500K paid rides/week vs Tesla's 4K. Short sellers banked $4.1-4.3B on the move, and TSLA options showed the most bearish flow of any name on the day.",
-      "tickers": [
-        "TSLA"
-      ],
-      "source_item_ids": [
-        "x:2080383508619440244",
-        "x:2080490803399422076"
-      ]
-    },
-    {
-      "title": "GOOGL breaks 200-day MA for first time in over a year on $185B capex shock",
-      "body": "Alphabet fell 7.1% and broke its 200-day moving average for the first time in over a year, erasing ~$300B in market cap. The stock is down 13% on the week. Alphabet plans $185B capex in 2026, more than doubling prior year, while Google token growth decelerated to 38% QoQ from 60% prior quarter\u2014a 22pp deceleration raising monetization questions. Google's Anthropic stake is now valued at $124B.",
-      "tickers": [
-        "GOOGL"
-      ],
-      "source_item_ids": [
-        "x:2080391790012596365",
-        "x:2080442335499088081"
-      ]
-    },
-    {
-      "title": "Mag-7 suffers worst single-day collective selloff in 5 years; S&P below 50-day MA by widest margin since April",
-      "body": "The Mag-7 basket fell 4.80% in one of its largest down days in years, with every member down more than 1.5%. S&P 500 (SPY) closed below its 50-day moving average by the largest margin since April; S&P 500 on track for first red July since 2014. GOOGL broke trade and trend; TSLA bearish; MSFT failed another trend transition; AAPL is the lone Mag-7 bright spot.",
-      "tickers": [
-        "SPY",
         "TSLA",
-        "GOOGL",
+        "NVDA",
         "MSFT",
-        "AAPL",
-        "NVDA",
+        "GOOGL",
         "META",
-        "AMZN"
-      ],
-      "source_item_ids": [
-        "x:2080397570690384171",
-        "x:2080494506550456331"
-      ]
-    },
-    {
-      "title": "AMD launches Instinct MI455X (320B transistors, 50% more HBM4 than NVIDIA Rubin) and EPYC Venice CPUs outperform NVIDIA Vera 20% single-core",
-      "body": "AMD unveiled the Instinct MI455X GPU with 320B transistors and 40 PFLOPs of AI compute, claiming 50% more HBM4 memory than NVIDIA's Rubin alternative. AMD EPYC Venice CPUs are reportedly 20% faster in single-core and deliver 2.2x higher throughput vs NVIDIA Vera, with 256 Zen 6 cores and 203B transistors at 5GHz+. AMD CEO Lisa Su raised the server CPU TAM to $200B by 2030, tripling the $60B estimate from November 2025.",
-      "tickers": [
-        "AMD",
-        "NVDA"
-      ],
-      "source_item_ids": [
-        "x:2080394171446067351",
-        "x:2080428003302273095"
-      ]
-    },
-    {
-      "title": "AMD-Cerebras partnership: disaggregated inference targets 5x better token/watt vs NVIDIA Groq",
-      "body": "AMD and Cerebras introduced a disaggregated inference solution pairing the Cerebras Wafer-Scale Engine with AMD's Helios platform, claiming 5x higher tokens-per-second-per-watt vs NVIDIA's Groq positioning. AMD's Venice and MI455X are in production at TSMC on 2nm using CoWoS-L packaging (capacity still tight). Channel checks suggest AMD may pursue CPO for future Helios generations, and Anthropic confirmed it will use AMD CPUs and GPUs across clouds and neoclouds.",
-      "tickers": [
-        "AMD",
-        "NVDA",
-        "TSM"
-      ],
-      "source_item_ids": [
-        "x:2080463805725745411",
-        "x:2080457798144741775"
-      ]
-    },
-    {
-      "title": "TSMC 3nm fully booked through 2027; Tesla AI6.5 chip first 2nm in Arizona; Tesla AI5 for Optimus in mass production mid-2027",
-      "body": "TSMC's 3nm process has full visibility through 2027 with orders from Qualcomm (Snapdragon 8 Elite Gen 5) and Tesla (AI5 for Optimus/automotive mass production by mid-2027). Tesla's AI6.5 chip will be TSMC's first 2nm production in Arizona, with Global Unichip as design partner for AI5. CoWoS-L packaging capacity remains constrained.",
-      "tickers": [
-        "TSM",
-        "TSLA",
-        "AMD"
-      ],
-      "source_item_ids": [
-        "x:2080449510866866313",
-        "x:2080449341681262768"
-      ]
-    },
-    {
-      "title": "NVIDIA prepays $1.5B to Amkor for US chip packaging; GPU residual value guarantees enable bank financing of AI clusters",
-      "body": "NVIDIA signed a $1.5B strategic partnership with Amkor Technology focused on advanced semiconductor packaging and test technologies for next-generation AI chips in the US. Separately, NVIDIA is implementing residual value guarantees (price floors) on GPUs, converting previously unbankable speculative AI clusters into financeable projects. Nvidia's 800V HVDC architecture enters production in 1Q27 with Delta ramp in 2Q.",
-      "tickers": [
-        "NVDA"
-      ],
-      "source_item_ids": [
-        "x:2080410890109886869",
-        "x:2080420313968341485"
-      ]
-    },
-    {
-      "title": "SK Hynix develops 3D-stacked DRAM for on-device AI; Apple speculated as North American partner",
-      "body": "SK Hynix is accelerating development of 3D-stacked DRAM for on-device AI and recruiting engineers for joint development. One analyst speculates the unnamed North American customer collaborating with SK Hynix is Apple, noting stacked DRAM as prerequisite for widespread on-device AI adoption. Morgan Stanley analyst Shawn Kim's bearish memory call is circulating (unverified) and may have cost the firm the SK Hynix US listing mandate.",
-      "tickers": [
+        "AMZN",
         "AAPL"
       ],
       "source_item_ids": [
-        "x:2080477408478769186",
-        "x:2080178160009990207"
+        "x:2080605759331565601",
+        "x:2080600305603903960"
       ]
     },
     {
-      "title": "GOOGL token growth decelerates sharply; AI monetization questioned as only 2.2% of households pay for AI",
-      "body": "Google token growth decelerated to 38% QoQ from 60% in the prior quarter per Hedgeye Tech, a 22pp deceleration raising ROI questions on massive AI capex. Separately, only 2.2% of US households report paying for AI despite hundreds of billions in sector spending, highlighting a monetization gap. US stocks declined on tech earnings raising questions over sustainability of heavy AI investment.",
+      "title": "Google's Anthropic Stake Now Worth ~$124B; SpaceX Stake ~$94B",
+      "body": "Google's equity stake in Anthropic is valued at approximately $124 billion, with its SpaceX stake at ~$94 billion, underscoring the growing hidden value in Alphabet's venture portfolio.",
       "tickers": [
         "GOOGL"
       ],
       "source_item_ids": [
-        "x:2080385086374007127",
-        "x:2080385216443555949"
+        "x:2080614115354071231"
       ]
     },
     {
-      "title": "Oil surges 7% to $100+ Brent; rate-hike odds climb; 10-year Treasury breaks 4.7%",
-      "body": "Brent crude settled at $100.69/bbl (+7.04%) and WTI at $92.19 (+6.17%) after Houthi attacks on Saudi oil tankers and Trump threatening massive strikes on Iran. Oil volatility (OVX) is breaking higher while equity VIX remains calm. The 10-year Treasury yield broke above 4.7% for the first time since January 2025; 30-year hit 5.18% (19-year high); mortgage rates at 11-month highs. Markets now pricing ~34-36% chance of a Fed rate hike by September and nearly 2 full hikes by year-end.",
+      "title": "Token Costs at 3.5-Month Lows, Erasing Agentic Bounce; Hyperscaler Index Also Weak",
+      "body": "Token costs have fully retraced the agentic AI rally and are at 3.5-month lows. The hyperscaler index is also at lows. Goldman Delta-1 warns that AI bond repricing is 'punitive for equity multiples' even as hyperscalers maintain low balance sheet leverage, flagging reflexivity as the key risk dynamic.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2080597378394931417",
+        "x:2080586900042117237"
+      ]
+    },
+    {
+      "title": "Hyperscalers Raising Large Debt/Equity as Returns Deteriorate",
+      "body": "One fintwit commentator notes an emerging dynamic: hyperscalers now need to raise large amounts of debt and/or equity, while trailing returns on both are weakening \u2014 a capital cycle concern for the AI infrastructure build-out.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2080599504894435701"
+      ]
+    },
+    {
+      "title": "Samsung & SK Hynix to Announce 'Very Large-Scale' U.S. Tech Contracts",
+      "body": "South Korea's presidential policy chief announced Samsung and SK Hynix will sign major long-term chip supply agreements with U.S. technology companies, timed to President Lee Jae-myung's Silicon Valley visit.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2080618741101191377",
+        "x:2080613306948288946"
+      ]
+    },
+    {
+      "title": "Semiconductor Equipment Delivery Times Doubling, Pressuring Chipmakers",
+      "body": "A report flagged on fintwit notes semiconductor equipment delivery times have doubled, putting chipmakers under increasing supply-side pressure \u2014 a potential constraint on capacity expansion timelines.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2080582653284344223"
+      ]
+    },
+    {
+      "title": "American Express Q2 Beats on EPS; Raises Revenue Growth Guide to +10%",
+      "body": "AXP reported Q2 EPS of $4.53 vs. $4.41 estimate (beat) on revenue of $19.64B vs. $19.69B estimate (slight miss). Billed Business of $455.8B beat estimates. FY26 EPS guidance maintained at $17.30\u2013$17.90 while revenue growth guidance was nudged up to +10% from +9%\u2013+10%.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2080611951022092708"
+      ]
+    },
+    {
+      "title": "Verizon Q2 EBITDA Beat; Raises FY EPS Guide for Second Consecutive Quarter",
+      "body": "VZ reported adj. EBITDA of $13.7B vs. $13.65B estimate, with operating revenue of $34.3B missing the $35.17B estimate. FY adjusted EPS guidance was raised to $4.99\u2013$5.04 from $4.95\u2013$4.99, marking the second consecutive quarter of upward guidance revision.",
       "tickers": [
-        "SPY"
+        "VZ"
       ],
       "source_item_ids": [
-        "x:2080366566655541414",
-        "x:2080358391214465214"
+        "x:2080610924734689524"
       ]
     },
     {
-      "title": "Japan JGB yields hitting multi-decade highs across the curve; Finance Minister signals FX intervention readiness",
-      "body": "Japan's 2-year JGB yield hit a 30-year high at 1.505%; 5-year hit an all-time high of 2.045%; 10-year rose 4bps to 2.810%; 30-year rose 5bps to 3.965%. Japanese Finance Minister Katayama stated authorities are prepared to take decisive action on FX and maintain close 24-hour contact with Washington. Yen is near 40-year lows vs the dollar.",
+      "title": "Oil Drops Sharply: Brent Below $97, WTI Below $89 Despite Geopolitical Risk Premium",
+      "body": "Brent crude fell over $4 to ~$96.48/bbl and WTI dropped over $3 to ~$88.82/bbl, with one analyst estimating Iran/Houthi geopolitical factors add $49 to the price while demand weakness offsets $10. Political betting markets expect supply disruption to persist while oil futures price a swift resolution \u2014 a notable divergence.",
       "tickers": [],
       "source_item_ids": [
-        "x:2080531582616731676",
-        "x:2080503400769229098"
+        "x:2080589815016554653",
+        "x:2080603504368832623"
       ]
     },
     {
-      "title": "Eurozone PMI surprise: composite at 51.9 vs 50.2 forecast; Germany 51.2 vs 49.8",
-      "body": "Eurozone July composite PMI beat consensus at 51.9 vs 50.2 forecast, signaling expansion. Germany's flash composite PMI came in at 51.2 vs 49.8 expected, despite GFK consumer confidence missing at -29.6. UK June retail sales also beat across all measures (inc. auto fuel +4.2% YoY vs 2.4% est; ex-auto/fuel +5.4% YoY vs 3.2% est). ECB inflation expectations fell: 1Y to 3.0% vs 3.2% est.",
+      "title": "Initial Jobless Claims Hit 187k \u2014 Lowest Since 1969",
+      "body": "Initial jobless claims dropped to 187k from 209k prior, the lowest reading since 1969. Continuing claims also remain below year-ago levels on a YoY basis, signaling continued labor market resilience.",
       "tickers": [],
       "source_item_ids": [
-        "x:2080563763162546270",
-        "x:2080556365538619877"
+        "x:2080606003951780060",
+        "x:2080613889402687711"
       ]
     },
     {
-      "title": "US initial jobless claims fall to lowest level since 1969; labor market re-tightening",
-      "body": "Initial jobless claims dropped to the lowest level since 1969 (Nixon era), reversing the prior cooling trend. One economist notes the labor market is no longer cooling while inflation remains well above the Fed target, adding context to rising rate-hike probabilities.",
+      "title": "Global Treasury Yields Hit 16-Year High at 3.68%",
+      "body": "The Bloomberg Global Treasury Index yield rose to 3.68%, surpassing the 2008 global financial crisis peak \u2014 a macro headwind for equity valuations and duration-sensitive assets.",
       "tickers": [],
       "source_item_ids": [
-        "x:2080571025117335948",
-        "x:2080425193214713930"
+        "x:2080610612665528720"
       ]
     },
     {
-      "title": "Trump Section 301 tariffs of 10-12.5% hit 60 countries; oil, gas, food exempted",
-      "body": "Trump administration unveiled broad new Section 301 tariffs of 10% (forced-labor-compliant nations) to 12.5% (non-compliant) on 60 trading partners, replacing expiring 10% global duties effective July 24 at 12:01am ET. Oil, gas, fertilizer, foodstuffs, Section 232 goods, and USMCA-compliant products are exempted. EU expressed surprise and will seek answers from Washington; Canada says 'everything on the table' if no deal; Brazil, Australia formally objected.",
+      "title": "ECB Officials Signal Inflation Upside Risk; $100 Oil a Key Concern",
+      "body": "Multiple ECB officials (Simkus, Rehn) flagged that inflation risks remain to the upside, with Simkus specifically warning that $100 oil 'will have repercussions on inflation.' Rehn noted the energy crisis is 'still ongoing' and no second-round effects are visible yet, with the ECB deferring further decisions to September.",
       "tickers": [],
       "source_item_ids": [
-        "x:2080400648047390809",
-        "x:2080399675463524694"
+        "x:2080591156296245721",
+        "x:2080601204124737938"
       ]
     },
     {
-      "title": "Oracle wins $3.3B Navy contract plus up to $7B Pentagon software deal",
-      "body": "Oracle was awarded a $3.3B 5-year contract with the US Navy for software licensing, maintenance, and SaaS. Separately, Oracle signed a 10-year software contract with the Pentagon worth up to $7B. CEO Larry Ellison has donated $45M to pro-Trump groups and has a $500B 'Stargate' AI data project with the administration.",
+      "title": "Trump Forced-Labor Tariffs on 60 Countries; EU and Brazil Push Back",
+      "body": "The Trump administration imposed forced-labor duties on 60 countries. EU's Kallas questioned U.S. rationale, and Brazil characterized the tariffs as 'arbitrary and unjustified,' raising risks of further trade retaliation.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2080613996302864866",
+        "x:2080617958942945508"
+      ]
+    },
+    {
+      "title": "Diesel Prices Up 10% Since July 5, Adding Input Cost Pressure",
+      "body": "U.S. diesel prices have risen 10% since July 5, described as a key input cost driver for consumer goods, groceries, and construction \u2014 a potential contributor to near-term CPI upside.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2080608177502978226"
+      ]
+    },
+    {
+      "title": "AXTI: Possible Workarounds for China Permit Restrictions Under Review",
+      "body": "One fintwit account highlights that AXTI may have potential workarounds for its China permit restrictions, though the author notes limited clarity on full viability, describing feasibility as 'possible to a certain extent' pending further industry checks.",
       "tickers": [
-        "ORCL"
+        "AXTI"
       ],
       "source_item_ids": [
-        "x:2080400658000212190",
-        "x:2080410352907690262"
+        "x:2080595847448830348"
       ]
     },
     {
-      "title": "AAII bullish sentiment collapses 15pp to 29.6%; single-stock vol at 10-year highs relative to index",
-      "body": "AAII bullish sentiment plunged 15 percentage points to 29.6% (vs 37.5% historical average), while bearish sentiment surged to 42.3% from 32.9%. Single-stock volatility hit a 10-year high relative to the broad index, with dispersion (not correlation) driving the tape\u2014a market structure inflection point for active managers.",
+      "title": "SPCX Bonds Hit All-Time Low at 87, Down 7.7% YTD, Trading Near High-Yield Averages",
+      "body": "SpaceX bonds (SPCX) hit an all-time low of 87, down 7.7% YTD, and are now trading as a B-rated credit approaching Caa high-yield averages \u2014 notable credit deterioration in a closely watched private-company proxy.",
       "tickers": [],
       "source_item_ids": [
-        "x:2080385148109926737",
-        "x:2080406218359611569"
-      ]
-    },
-    {
-      "title": "NOK: optical up 20%, IP up 16%, AI orders tripled\u2014earnings stronger than stock reaction suggests",
-      "body": "Nokia's Q2 optical segment grew 20% and IP 16% on design-win conversions; AI orders have tripled, making NOK a long-term call option on Jensen's AI-RAN/6G ambitions. One analyst argues the earnings were materially stronger than the stock reaction implies, though macro conditions remain heavy. Skeptics note only a small portion of NOK revenue is currently tied to AI, limiting near-term upside.",
-      "tickers": [
-        "NOK"
-      ],
-      "source_item_ids": [
-        "x:2080360540967522607",
-        "x:2080370552800199161"
-      ]
-    },
-    {
-      "title": "Meta secures $12B data center financing at higher borrowing costs; hyperscaler IG spreads widening",
-      "body": "Meta faces higher borrowing costs on its latest $12B data center financing round. Separately, one account warns IG bond spreads in the hyperscaler segment are 'exploding every day' with credit investors refusing to fund memory chip purchases, while equity markets have not yet priced the bond market stress.",
-      "tickers": [
-        "META"
-      ],
-      "source_item_ids": [
-        "x:2080448212398395543",
-        "x:2080364746918744548"
+        "x:2080595603583553632"
       ]
     }
   ]
