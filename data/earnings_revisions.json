@@ -1,12 +1,12 @@
 {
-  "digest_type": "premarket",
-  "digest_dt": "2026-07-27T08:30:00-04:00",
-  "saved_at": "2026-07-27T13:37:50.839022+00:00",
+  "digest_type": "midday",
+  "digest_dt": "2026-07-27T12:00:00-04:00",
+  "saved_at": "2026-07-27T16:28:49.302429+00:00",
   "revisions": {
     "sales": {
       "metric": "sales",
       "metric_display": "Revenue",
-      "n_total_with_data": 122,
+      "n_total_with_data": 98,
       "by_pct_top": [
         {
           "ticker": "OKLO",
@@ -46,16 +46,6 @@
           "prior_estimate": 236639.783,
           "pct_change": 5.599804830787902,
           "percentile": 74.00768245838668,
-          "n_obs": 781
-        },
-        {
-          "ticker": "HOOD",
-          "forward_y_code": "27Y",
-          "metric": "sales",
-          "current_estimate": 6495.533,
-          "prior_estimate": 6196.44,
-          "pct_change": 4.82685219254928,
-          "percentile": 77.20870678617158,
           "n_obs": 781
         },
         {
@@ -106,6 +96,16 @@
           "prior_estimate": 6446.133,
           "pct_change": 1.0343100274226469,
           "percentile": 68.11779769526248,
+          "n_obs": 781
+        },
+        {
+          "ticker": "COHR",
+          "forward_y_code": "27Y",
+          "metric": "sales",
+          "current_estimate": 9711.875,
+          "prior_estimate": 9614.652,
+          "pct_change": 1.0111962450642942,
+          "percentile": 75.16005121638925,
           "n_obs": 781
         }
       ],
@@ -233,26 +233,6 @@
           "n_obs": 781
         },
         {
-          "ticker": "ETSY",
-          "forward_y_code": "27Y",
-          "metric": "sales",
-          "current_estimate": 2890.074,
-          "prior_estimate": 2885.964,
-          "pct_change": 0.14241341887841763,
-          "percentile": 87.45198463508322,
-          "n_obs": 781
-        },
-        {
-          "ticker": "ENPH",
-          "forward_y_code": "27Y",
-          "metric": "sales",
-          "current_estimate": 1299.69,
-          "prior_estimate": 1298.931,
-          "pct_change": 0.058432665014529483,
-          "percentile": 87.06786171574905,
-          "n_obs": 781
-        },
-        {
           "ticker": "OKLO",
           "forward_y_code": "27Y",
           "metric": "sales",
@@ -310,6 +290,26 @@
           "prior_estimate": 3947.167,
           "pct_change": 0.16748721298085467,
           "percentile": 78.74519846350833,
+          "n_obs": 781
+        },
+        {
+          "ticker": "NOK",
+          "forward_y_code": "27Y",
+          "metric": "sales",
+          "current_estimate": 21778.357,
+          "prior_estimate": 21654.107,
+          "pct_change": 0.5737941536910318,
+          "percentile": 77.20870678617158,
+          "n_obs": 781
+        },
+        {
+          "ticker": "COHR",
+          "forward_y_code": "27Y",
+          "metric": "sales",
+          "current_estimate": 9711.875,
+          "prior_estimate": 9614.652,
+          "pct_change": 1.0111962450642942,
+          "percentile": 75.16005121638925,
           "n_obs": 781
         }
       ],
