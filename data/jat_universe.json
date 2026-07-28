@@ -1,230 +1,238 @@
 {
-  "digest_type": "eod",
-  "digest_dt": "2026-07-27T18:00:00-04:00",
-  "saved_at": "2026-07-27T22:29:26.588493+00:00",
+  "digest_type": "midday",
+  "digest_dt": "2026-07-28T12:00:00-04:00",
+  "saved_at": "2026-07-28T16:29:22.709978+00:00",
   "bullets": [
     {
-      "title": "NVDA: Invests $5B in Ilya Sutskever's Safe Superintelligence (SSI); Korea supply chain deepens",
-      "body": "NVIDIA announced a multi-billion dollar investment (widely cited as ~$5B) in Ilya Sutskever's Safe Superintelligence startup, with SSI gaining long-term access to next-gen Vera chips. Separately, Korea's $950B AI summit locked Samsung and SK Hynix deeper into NVIDIA's supply chain, and NVIDIA also committed $1B to invest in NAVER Corp. On the day, NVDA options flow was described as the most bearish of major names, and NVDA has turned negative for the month even as Apple reclaimed the largest-company title (~$4.95T vs NVDA's ~$4.81T).",
+      "title": "MSFT F4Q26 Preview: Azure ~40% growth expected; capex guidance key watch",
+      "body": "Street consensus expects MSFT F4Q26 revenue of $87.62B (above $87.25B guidance midpoint), EPS $4.63, and Azure constant-currency growth of 40.3% with buyside expecting upside. Key investor focus is FY27 capex guidance (consensus $189.3B), Copilot penetration and monetization, and open-source AI strategy implications for cloud margins.",
       "tickers": [
-        "NVDA"
+        "MSFT"
       ],
       "source_item_ids": [
-        "x:2081780645940933107",
-        "x:2081726866646290640"
+        "gmail:19fa95e5f9e544d3",
+        "gmail:19fa942bf3921cb5"
       ]
     },
     {
-      "title": "NVDA/MSFT: Launch open AI security alliance excluding OpenAI, Google, Anthropic",
-      "body": "Satya Nadella and Jensen Huang announced a joint open AI security alliance focused on the frontier AI ecosystem. Notably, the alliance excludes OpenAI, Google, and Anthropic\u2014a competitive signal worth watching heading into this week's earnings.",
+      "title": "AMZN Q2 Preview: $197B revenue, $40.5B AWS expected; AI strategy overhauled",
+      "body": "Street expects AMZN Q2 revenue $197.03B (midpoint of $194-199B guidance), AWS revenue $40.54B, operating income $23.56B, and EPS $1.82; options imply ~6.9% move. Separately, Amazon is reportedly overhauling its AI strategy and winding down most flagship in-house models, a meaningful strategic pivot.",
+      "tickers": [
+        "AMZN"
+      ],
+      "source_item_ids": [
+        "gmail:19fa9597337f0cff",
+        "x:2082029432840286558"
+      ]
+    },
+    {
+      "title": "NVDA: $5B stake in Safe Superintelligence; $50B HUT Texas DC leases; circular-finance concerns mount",
+      "body": "NVDA takes $5B stake in Ilya Sutskever's Safe Superintelligence and signs ~$50B in leases for HUT's Texas data centers. However, credit spreads are spiking sharply on circular-finance concerns: NVDA and other hyperscalers are funding data center buildouts that buy their own chips, creating a potential negative feedback loop if AI ROI disappoints. MS credit analysis sees no immediate funding problem but the market is pricing elevated risk.",
       "tickers": [
         "NVDA",
-        "MSFT"
+        "HUT"
       ],
       "source_item_ids": [
-        "x:2081714862342983887",
-        "x:2081798436874076344"
+        "gmail:19fa8cb4dd2eb9ca",
+        "gmail:19fa8b5886665a08"
       ]
     },
     {
-      "title": "MSFT: Copilot sales beat in FY26Q4; Azure capacity/pricing trends positive ahead of earnings",
-      "body": "A sell-side preview flagged that Microsoft's FY26Q4 Copilot sales likely beat prior expectations, user experience is improving, and Azure capacity and pricing trends are positive\u2014offset by intense AI competition. Separately, market chatter flagged investor worry that Microsoft may cut capex, though the Copilot beat thesis runs counter to that concern.",
-      "tickers": [
-        "MSFT"
-      ],
-      "source_item_ids": [
-        "x:2081794454219088131",
-        "x:2081791404905295886"
-      ]
-    },
-    {
-      "title": "Semis -4% vs. Software +3%: Sharp sector unwind underway; chip valuations flagged as above dot-com peak",
-      "body": "Semiconductor stocks reversed a 1%+ opening gain to trade down ~4% on the day\u2014led by China DUV news\u2014while software (IGV) rallied ~3%. Multiple commentators flagged that US chipmaker valuations now exceed dot-com bubble peaks and that NAND price weakness is a canary in the AI trade. MU fell 6.1% to below $1T market cap. One analyst argued the China DUV panic is overblown and suggested buying the dip in chip stocks.",
+      "title": "Semis broad selloff deepens: MU, AMD, STX, WDC down 4-7% premarket on KOSPI crash + China DUV fears",
+      "body": "Semiconductor stocks broadly down 3-7% premarket (SOXX -3.68%): MU -6.2%, STX -7.1%, WDC/SNDK -7%, AMD -4.4%, ARM -4.1%. The dual catalyst is South Korea's KOSPI halting after a 10.8% crash (SK Hynix -14.7%, Samsung -13.4%) and fears over China's immersion DUV progress enabling sub-28nm chips via multi-patterning. Jefferies and JPM both flag the AI trade unwind is positioning/narrative-driven, not fundamental, with SOX at 15.8x 2Y forward PE (widest discount to SPX since Oct 2022).",
       "tickers": [
         "MU",
-        "NVDA",
         "AMD",
+        "STX",
+        "WDC",
+        "SNDK",
         "INTC",
-        "SNDK"
+        "NVDA",
+        "AVGO",
+        "ARM"
       ],
       "source_item_ids": [
-        "x:2081748729250361556",
-        "x:2081749491892314176"
+        "gmail:19fa8e373a10f2d3",
+        "gmail:19fa9374de0fadc8"
       ]
     },
     {
-      "title": "China DUV mass production: Goldman warns 'memory has a new problem'; ASML -6-8%",
-      "body": "The Information reported China has started mass-producing homegrown DUV lithography tools, with initial targets of 5 machines this year scaling to 20 by 2027. Goldman warned this creates a new problem for the memory industry. ASML shares were halted and reopened down 7-8%; BESI also dropped 7-8%. One semi-industry contact argued the development changes nothing for long-term WFE demand (>$300B by 2030) and that DUV demand is additive not subtractive.",
+      "title": "META: $14B Texas 1GW data center JV with BlackRock; $12.5B debt offering priced at wider spreads",
+      "body": "META and BlackRock announced a ~$14B, 1-gigawatt data center campus in El Paso, Texas, expected online by 2028. META simultaneously priced a $12.5B debt offering for data center projects at higher rates than a comparable year-ago deal, with hyperscaler CDS blowing out to record wides\u2014raising questions about the sustainability of AI financing structures.",
       "tickers": [
-        "INTC",
-        "MU",
-        "NVDA"
+        "META"
       ],
       "source_item_ids": [
-        "x:2081728910325432640",
-        "x:2081768123661725873"
+        "x:2082055716701950334",
+        "x:2082036295086338551"
       ]
     },
     {
-      "title": "TSLA: Deutsche Bank cuts PT to $420 (from $465), maintains Buy; Elon buyback thesis questioned",
-      "body": "Deutsche Bank's Edison Yu trimmed his Tesla price target to $420 from $465, keeping a Buy rating. Separately, social commentary suggested Elon is unlikely to repeat his September stock purchase (which boosted morale for the comp package) given changed circumstances. TSLA is trading at the same level as one year ago and October 2021\u2014five years of no net price progress.",
+      "title": "GOOGL/META/AMZN valuation compression: MS marks sector 'Attractive' at 18-21x 2027 EPS",
+      "body": "Internet names fell 7% overall (META -8%, GOOGL -8%, AMZN -6%, UBER -9%) on AI capex scrutiny. Morgan Stanley notes sector now trades at AMZN 20x, GOOGL 21x, META 18x 2027 EPS\u2014valuations down 12-25% vs TTM average\u2014and marks the sector 'Attractive.' JPM models 25-50% ROIC for hyperscalers owning both models and infrastructure (GOOGL ~46%, AMZN/MSFT/META ~25-30%).",
       "tickers": [
-        "TSLA"
+        "GOOGL",
+        "META",
+        "AMZN",
+        "UBER"
       ],
       "source_item_ids": [
-        "x:2081723912191160506",
-        "x:2081753491433763280"
+        "gmail:19fa90c3bc9d142c",
+        "gmail:19fa9272e67139a0"
       ]
     },
     {
-      "title": "AAPL reclaims world's largest company at ~$4.95T; up 16% MTD vs NVDA down MTD",
-      "body": "Apple moved back ahead of NVIDIA as the world's largest company by market cap (~$4.95T vs ~$4.81T). AAPL has rallied ~16% month-to-date while NVDA has turned negative for July. AAPL reports earnings this week.",
+      "title": "QCOM F3Q26 Preview: $9.7B revenue, DC ramp and China handset recovery in focus",
+      "body": "QCOM reports F3Q26 AMC on July 29; Street expects $9,695M revenue (vs $9,700M guidance midpoint), EPS $2.24, and gross margin 55.6%. Key debates: ramp of DragonFly DC portfolio toward $15B DC revenue by 2029, China QCT android shipments expected to bottom in June quarter, and reported double-digit customer price increases starting September.",
+      "tickers": [
+        "QCOM"
+      ],
+      "source_item_ids": [
+        "gmail:19fa9607d91af4f3"
+      ]
+    },
+    {
+      "title": "MA Q2 Preview: $9.08B revenue, 20 straight beat quarters; options imply ~3.8% move",
+      "body": "Mastercard reports Q2 on July 30; consensus expects $9.08B revenue (+11.6% YoY), EPS $4.77, and operating margin 60.3%. MA has beaten revenue and EPS consensus for 20 consecutive quarters; stock +6.8% since April vs S&P +4.2%. Near-term options imply ~3.8% post-earnings move.",
+      "tickers": [
+        "MA"
+      ],
+      "source_item_ids": [
+        "gmail:19fa967b45fac2f0"
+      ]
+    },
+    {
+      "title": "GLW down ~15% premarket: optical comms supply chain falls in sympathy",
+      "body": "Corning beat Q2 revenue ($4.74B vs $4.63B est) and raised its Springboard Plan targets to $20B run rate by end-2026 and $40B by 2030 on AI optical/photonics demand, but the stock is down ~14.9% premarket\u2014likely on profitability miss vs. expectations. Sympathy selling hits AAOI -6.6%, CIEN -6.6%, AXTI -6.3%, LITE, and other optical names.",
+      "tickers": [
+        "GLW",
+        "CIEN",
+        "LITE"
+      ],
+      "source_item_ids": [
+        "gmail:19fa905f9b0e5bf8",
+        "gmail:19fa8e373a10f2d3"
+      ]
+    },
+    {
+      "title": "CLS raises FY guidance; CORZ +5% on AMD 2.5GW data center deal",
+      "body": "Celestica raised FY guidance with EPS $11.30 ex-items vs prior $10.15, with Citi noting FY27 sales could reach $34B+ vs Street $27B. Core Scientific (CORZ) +5% premarket after announcing a 530 MW (scalable to 2.5 GW) infrastructure partnership with AMD beginning 2027 under a 15-year agreement implying >$14B base revenue and at least 15% unlevered yield.",
+      "tickers": [
+        "CLS",
+        "CORZ",
+        "AMD"
+      ],
+      "source_item_ids": [
+        "gmail:19fa8e429481a49c",
+        "gmail:19fa8e9169fcdca6"
+      ]
+    },
+    {
+      "title": "CDNS raises FY26 guidance; 85% buy-rated with 20% upside to avg $406 PT",
+      "body": "Cadence beat Q2 EPS by $0.06, raised FY26 EPS guidance $0.16 above consensus, and reported organic revenue growth of ~21% YoY\u2014highest since 2022. Backlog grew to $8.10B; all segments expected to grow >mid-teens in H2. Street is 85% Buy with avg PT $405.91, and NTM P/E 38.2x vs 5-year avg 42.0x.",
+      "tickers": [
+        "CDNS"
+      ],
+      "source_item_ids": [
+        "gmail:19fa8f48ea39b91e"
+      ]
+    },
+    {
+      "title": "RCL Q2 beat; JPM/UBS raise FY26 EPS to $17.75-$17.87; 2H 'de-risked'",
+      "body": "Royal Caribbean reported Q2 adj. EPS $4.21 (vs $3.97 consensus), net yield +1.2% cc (vs +0.2% guide) on strong close-in demand, and raised FY26 EPS guidance to $17.73-$17.87 from $17.10-$17.50. JPM maintains Overweight with $345 PT; UBS maintains Buy with PT under review. 2027 bookings pacing ahead of historic levels.",
+      "tickers": [
+        "RCL"
+      ],
+      "source_item_ids": [
+        "gmail:19fa8dfc7668d861",
+        "gmail:19fa910b485a0d29"
+      ]
+    },
+    {
+      "title": "AAPL reclaims world's most valuable company from NVDA; stock at 52-week high (+57.8% YTD)",
+      "body": "Apple reclaimed the title of world's most valuable company after 10 months, surpassing Nvidia. AAPL sits at $337.50, up 57.8% YTD and at a 52-week high. Separately, Zach AM Attack flags AAPL gross margin downside risk from memory cost inflation despite ~16% revenue growth from iPhone strength.",
       "tickers": [
         "AAPL",
         "NVDA"
       ],
       "source_item_ids": [
-        "x:2081754723825205288",
-        "x:2081756248450412882"
+        "x:2082067261716672850",
+        "gmail:19fa8c75d0a45890"
       ]
     },
     {
-      "title": "AMZN: $4B compute deal with Pinterest on AWS Trainium; LEO satellite network (5,105 sats) planned for 2028",
-      "body": "Amazon signed a $4B long-term compute deal with Pinterest using AWS Trainium chips\u2014seen as evidence the compute bottleneck is being underappreciated vs. the semiconductor bottleneck. Separately, Amazon LEO proposed a new constellation of up to 5,105 satellites for direct mobile connectivity, with deployment beginning 2028.",
+      "title": "SMCI Taiwan offices raided in NVDA chip-smuggling probe; NVDA employee detained",
+      "body": "Taiwan prosecutors raided Super Micro Computer's Taiwan offices as part of an investigation into alleged smuggling of NVDA chips to China. Separately, an NVDA employee was detained by Taiwan prosecutors in connection with the probe. Both events add to geopolitical/export-control headline risk for NVDA.",
       "tickers": [
-        "AMZN",
-        "PINS"
+        "SMCI",
+        "NVDA"
       ],
       "source_item_ids": [
-        "x:2081728620607819898",
-        "x:2081725345338704206"
+        "gmail:19fa91a64f9743e2",
+        "gmail:19fa8bbc04c80c73"
       ]
     },
     {
-      "title": "META/GOOGL/AMZN: Moody's warns 'unprecedented' AI capex threatens credit quality; Mark Cuban pickleball court warning",
-      "body": "Moody's flagged that 'unprecedented' AI spending by Amazon, Meta, and Alphabet threatens their credit quality. Mark Cuban echoed the overcapacity risk, warning that data centers built on hundreds of billions in borrowed capital could become 'pickleball courts.' Hyperscaler capex is projected to hit $1.4T by 2028 (from $426B in 2025). Macro overlay: Goldman's quant desk separately flagged rising real-rate pressure and policy reflexivity concerns around hyperscaler debt.",
+      "title": "INTU downgraded to Hold at TD Cowen; target cut to $304 from $504",
+      "body": "Intuit was downgraded to Hold from Buy at TD Cowen, with the price target slashed to $304 from $504\u2014a 40% cut\u2014reflecting valuation concerns in the broader software/AI momentum unwind.",
       "tickers": [
-        "META",
-        "GOOGL",
-        "AMZN",
-        "MSFT"
+        "INTU"
       ],
       "source_item_ids": [
-        "x:2081746537097347083",
-        "x:2081751243353977301"
+        "gmail:19fa8b53d01313fc"
       ]
     },
     {
-      "title": "GOOGL: Climbs back above $4T market cap; YouTube Premium to bundle Peacock starting 2025",
-      "body": "Google reclaimed $4T market cap intraday. Separately, YouTube TV and Peacock signed a new content distribution deal making all Peacock content (including live sports) available to YouTube Premium subscribers in the US, launching in early 2025\u2014a meaningful content value-add for YouTube's subscription business.",
-      "tickers": [
-        "GOOGL",
-        "CMCSA"
-      ],
-      "source_item_ids": [
-        "x:2081736519493058640",
-        "x:2081770475089273236"
-      ]
-    },
-    {
-      "title": "NOW/GOOGL: Memory pullback seen as overreaction; NOW 2Q26 pull-forward and GCP ROI inflection flagged as bullish",
-      "body": "One sell-side weekly noted the Kimi K3 KV cache-driven memory selloff looks like an overreaction, and highlighted two bullish single-stock setups: ServiceNow pulling forward 2Q26 demand, and Google Cloud Platform showing a return-on-investment inflection.",
-      "tickers": [
-        "NOW",
-        "GOOGL"
-      ],
-      "source_item_ids": [
-        "x:2081726571430191111"
-      ]
-    },
-    {
-      "title": "SNDK: Down $1,000+ from June 25 ATH; Total Return Swap meltup unwinds",
-      "body": "SNDK has fallen more than $1,000 from its June 25 all-time high, which was described as the result of a historic Total Return Swap meltup. The unwind is continuing\u2014one trader posted a triple-down-arrow on the name today.",
-      "tickers": [
-        "SNDK"
-      ],
-      "source_item_ids": [
-        "x:2081742415891755098",
-        "x:2081751501882507298"
-      ]
-    },
-    {
-      "title": "INTC: Intel 18A-P and 14A secure Cadence's full EDA toolchain",
-      "body": "Intel's 18A-P and 14A advanced process nodes gained access to Cadence's complete EDA toolchain, tightening the ecosystem around Intel Foundry and signaling Cadence's confidence in Intel's manufacturing capability as it challenges TSMC's foundry leadership.",
-      "tickers": [
-        "INTC"
-      ],
-      "source_item_ids": [
-        "x:2081779144136769762"
-      ]
-    },
-    {
-      "title": "ADBE: Recovers full 10.5% decline from 7/17\u20137/23 in just two trading days",
-      "body": "Adobe recovered its entire 10.5% selloff (July 17\u201323) over the last two trading sessions, a notable technical reversal worth monitoring heading into the broader mega-cap earnings week.",
-      "tickers": [
-        "ADBE"
-      ],
-      "source_item_ids": [
-        "x:2081742911905907020"
-      ]
-    },
-    {
-      "title": "HOOD: Robinhood cut 290 staff (10%) in broader crypto sector restructuring",
-      "body": "Robinhood announced 290 layoffs representing ~10% of its workforce, disclosed in the context of broader crypto sector stress. Coinbase also cut 500 employees (14%). HOOD reports earnings this week.",
-      "tickers": [
-        "HOOD"
-      ],
-      "source_item_ids": [
-        "x:2081731429533106611"
-      ]
-    },
-    {
-      "title": "PSKY/WBD: LightShed analyst says acquisition 'devolved into multiyear mess'",
-      "body": "LightShed analyst characterized the PSKY acquisition of WBD as a deal that made sense for scale at the time but has since become a multiyear problem\u2014no specific rating action noted but directionally negative framing ahead of any catalyst.",
-      "tickers": [
-        "PSKY",
-        "WBD"
-      ],
-      "source_item_ids": [
-        "x:2081712194438193169"
-      ]
-    },
-    {
-      "title": "NOK: Insiders voluntarily buy ~$1.6M in shares on July 24",
-      "body": "Nokia insiders made voluntary open-market purchases of approximately $1.585M in shares on Friday, July 24\u2014distinct from compensation-related transactions\u2014signaling insider confidence in the name.",
-      "tickers": [
-        "NOK"
-      ],
-      "source_item_ids": [
-        "x:2081723743517503859"
-      ]
-    },
-    {
-      "title": "SPOT: Spotify acknowledges unspecified technical issues",
-      "body": "Spotify flagged awareness of unspecified platform issues and said it was investigating. No further financial or operational details disclosed, but worth monitoring for any service disruption headlines.",
+      "title": "SPOT: Citi hosting bull vs. bear debate July 31 amid margin timing questions",
+      "body": "Spotify has underperformed since May's A-Day earnings, with investors debating the timing of new AI product rollouts and the trajectory of margin expansion. Citi is hosting a formal bull vs. bear debate on July 31 ahead of the next print.",
       "tickers": [
         "SPOT"
       ],
       "source_item_ids": [
-        "x:2081718387017908464"
+        "gmail:19fa92da67e36946"
       ]
     },
     {
-      "title": "Mega-cap earnings week: AMZN, META, MSFT, AAPL, GOOGL all reporting; FOMC Wednesday",
-      "body": "This is the busiest earnings week of the quarter with all five Mag-7 companies reporting. Macro overlay includes Wednesday's FOMC (futures pricing ~36% odds of a hike), PCE, and GDP data. Goldman warns macro risks (inflation, real rates) are rising and markets may be mispricing geopolitical and rate volatility.",
+      "title": "ORCL and CRWV among 52-week lows; ORCL down 53% from high, CRWV down 7%+ today",
+      "body": "ORCL hit a 52-week low at $114.80, down 53.2% from its 52-week high (down 4.3% intraday). CRWV is also at 52-week lows, down 7.1% on the Canadian exchange. Both neocloud names are down 21-28% since META's July 1 neocloud announcement, though MS argues compute scarcity provides pricing power.",
       "tickers": [
-        "AAPL",
-        "MSFT",
-        "META",
-        "AMZN",
-        "GOOGL",
-        "RDDT",
-        "HOOD",
-        "RBLX"
+        "ORCL",
+        "CRWV"
       ],
       "source_item_ids": [
-        "x:2081760959572455744",
-        "x:2081782933099045309"
+        "gmail:19fa91ea8bcb86ce",
+        "gmail:19fa942bf3921cb5"
+      ]
+    },
+    {
+      "title": "CVNA: 22V flags bearish technical setup into earnings; avg post-earnings move >17%",
+      "body": "22V Research notes Carvana's technical profile has broken below long-term trend support, with a chart pattern resembling Tesla before its recent earnings decline. Historical post-earnings moves average >17% while current options imply a smaller move, suggesting the market is underpricing event risk.",
+      "tickers": [
+        "CVNA"
+      ],
+      "source_item_ids": [
+        "gmail:19fa911a182ddd22"
+      ]
+    },
+    {
+      "title": "DDOG: Citi raises PT to $300 from $270; 34% revenue growth seen as achievable",
+      "body": "Citi raised its Datadog price target to $300 from $270 ahead of the print, citing 34% revenue growth as achievable and upside from AI-native customer demand. DDOG is up >80% YTD but analysts see further runway from both traditional and AI-native workloads.",
+      "tickers": [
+        "DDOG"
+      ],
+      "source_item_ids": [
+        "gmail:19fa8e429481a49c"
+      ]
+    },
+    {
+      "title": "TSLA: Multiple sources flag excessive 175x FY26 P/E; bear targets sub-$300",
+      "body": "Multiple sources flag Tesla trading at over 175x FY26 P/E as AI-related multiples unwind more broadly. At least one analyst explicitly targets a decline below $300/share in the coming weeks, calling the valuation excessive relative to fundamentals and the broader multiple compression underway in AI-adjacent names.",
+      "tickers": [
+        "TSLA"
+      ],
+      "source_item_ids": [
+        "x:2082037359596454394",
+        "x:2082037502521618616"
       ]
     }
   ]
