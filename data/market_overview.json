@@ -1,227 +1,198 @@
 {
-  "digest_type": "midday",
-  "digest_dt": "2026-07-28T12:00:00-04:00",
-  "saved_at": "2026-07-28T16:29:22.705589+00:00",
+  "digest_type": "eod",
+  "digest_dt": "2026-07-28T18:00:00-04:00",
+  "saved_at": "2026-07-28T22:39:39.154934+00:00",
   "bullets": [
     {
-      "title": "Global chip selloff deepens: semis down 3-5% amid AI capex ROI doubts and China DUV threat",
-      "body": "Semiconductor stocks extended losses globally with the iShares Semi ETF (SOXX) down ~3.7% premarket; MU -6.2%, STX -7.1%, WDC/SNDK -7%, AMD -4.4%, NVDA credit spreads spiking. Dual catalysts: China's DUV lithography progress stoking competitive fears (though analysts note ASML's 2008-era tech only reaches 28nm single-shot, requiring multi-patterning for 7nm) and mounting skepticism over AI capex ROI with hyperscaler FCF turning negative.",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "MU",
-        "INTC",
-        "TSM"
-      ],
-      "source_item_ids": [
-        "x:2082056967665877089",
-        "gmail:19fa8e373a10f2d3"
-      ]
-    },
-    {
-      "title": "KOSPI crashes 10.8%, 2nd biggest drop on record; Korea AI bubble unwinding triggers global contagion",
-      "body": "South Korea's KOSPI halted twice after crashing 10.8% \u2014 its 2nd largest single-day drop on record \u2014 as leveraged ETF margin calls cascaded (AUM halved from $53B to $27B). The index is now down 34% from June highs after a 297% bull run since April 2025, with 25% of sessions since June 1 closing down 5%+. SK Hynix fell 14.7%, Samsung 13.4%; the KOSPI now trades at a record-low 5.1x forward PE.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2082060209728401700",
-        "x:2082067906255364452"
-      ]
-    },
-    {
-      "title": "AI circular-finance narrative spooks credit markets; hyperscaler CDS hits record wides",
-      "body": "Multiple sell-side desks (22V, MS, Jefferies) flagged a growing concern: NVDA's $250B OpenAI DC financing and $50B HUT Texas lease deals create circular dependency where hyperscaler capex funds NVDA chip purchases. Hyperscaler CDS spreads hit new record wides; META's $12.5B data center bond priced near junk-level rates (+25bps wider YTD). MS credit analysts see no systemic funding problem given NVDA's balance sheet strength, but market is treating it as distress signal.",
-      "tickers": [
-        "NVDA",
-        "META"
-      ],
-      "source_item_ids": [
-        "gmail:19fa8b5886665a08",
-        "gmail:19fa9374de0fadc8"
-      ]
-    },
-    {
-      "title": "Morgan Stanley maintains AI bull case: 25-50% ROIC for hyperscalers; momentum selloff at dotcom-era volatility",
-      "body": "MS's Brian Nowak models 25-50% ROIC for hyperscalers owning both models and infrastructure (GOOGL ~46%, AMZN/MSFT/META ~25-30%). US TMT momentum has reversed its entire 20%+ bounce and dropped 40% from June highs \u2014 volatility at levels only seen in dotcom unwind, GFC, and post-COVID boom. SOX trades at 15.8x 2Y forward PE, 8% discount to SPX (widest since Oct 2022). MS stays bullish: compute demand to exceed supply for years constrained by power, memory, packaging.",
-      "tickers": [
-        "NVDA",
-        "AMZN",
-        "GOOGL",
-        "MSFT",
-        "META",
-        "AVGO"
-      ],
-      "source_item_ids": [
-        "gmail:19fa9272e67139a0",
-        "x:2082035079870583015"
-      ]
-    },
-    {
-      "title": "JPMorgan turns bullish on stocks broadly; Fed hike probability priced ~33-40%",
-      "body": "JPMorgan officially shifted to a bullish equity stance. Separately, Citadel Securities expects the Fed to raise rates this week; market pricing implies 33-40% probability of a hike per multiple sources. Internal Fed dissent is elevated with Waller publicly challenging Warsh, suggesting 3-6 dissenters on next decision. JPM research itself labels the meeting a 'hawkish hold.'",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2082072829495820581",
-        "x:2082052696576864353"
-      ]
-    },
-    {
-      "title": "2Q GDP tracking ~2% with solid 3% domestic demand; trade drags ~1ppt on import reversal",
-      "body": "PSC Macro and Morgan Stanley both tracking 2Q real GDP at ~2%, with trade/inventories subtracting ~1ppt after a broad-based decline in imports (reversing May front-loading). Private domestic final demand tracks ~2.7-3% supported by AI-driven capex. Tariff refunds now exceed tariff payments; effective tariff rate below 7% and falling. Richmond Fed ISM-equivalent at 53.3-58.2%, pointing to July ISM upside vs 54.0% consensus.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19fa958c6c0d77ca",
-        "gmail:19fa8f53cfcdb841"
-      ]
-    },
-    {
-      "title": "Consumer confidence softens to 90.8; lower-income cohort hit hardest by Iran War gas prices",
-      "body": "Conference Board consumer confidence fell 1.4pts to 90.8 in July, with the Present Situation Index hitting a cycle low of 114.9 (-3.6pts). The <$15K income cohort sits at 63.4 confidence. Contrarily, BofA card data shows lower-income spending growth now outpacing higher-income for the first time (K-shape ending), supported by stronger labor income and lower fuel costs.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19fa958c6c0d77ca",
-        "x:2082040246699495717"
-      ]
-    },
-    {
-      "title": "Tech sector down 12% from peak in 56 days \u2014 historically shallow vs. median 25.7% / 73-day correction",
-      "body": "The tech sector is down 12% from its peak over 56 days. Historically, the median tech selloff drops 25.7% and bottoms in 73 days; current drawdown is one of the shallowest on record. All historical tech drawdowns have recovered to new all-time highs.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2082071069859737812"
-      ]
-    },
-    {
-      "title": "Dealer gamma collapsed to zero; short gamma regime dominates with -$14B/1% SPX exposure",
-      "body": "MS QDS flags dealer option gamma at zero with levered ETF short gamma now dominating. Global short gamma estimated at -$14bn per 1% SPX move. Macro systematic strategies hold no stock to sell currently but at 70th percentile leverage \u2014 will be material sellers on 2%+ down days. Hedge funds saw largest single-day degrossing since April; nets at 35th percentile but grosses still elevated at 85th percentile.",
+      "title": "Market structure: Nasdaq 100 in correction; S&P breadth positive as equal-weight leads",
+      "body": "The Nasdaq 100 fell ~1.6% on the session and entered correction territory (down 10%+ from June ATH), with the SOX in a 25.7% drawdown and four consecutive sessions of weakness. Meanwhile equal-weight S&P 500 outperformed cap-weighted by ~90 bps and hit new ATHs, with breadth solidly positive \u2014 reflecting violent rotation rather than broad market collapse. Healthcare, staples, software, regional banks, payments, cruise lines, and airlines outperformed; semis, energy, and AI-adjacent names lagged.",
       "tickers": [
         "SPY"
       ],
       "source_item_ids": [
-        "gmail:19fa8f8043b10502"
+        "gmail:19faa5a812715f8d",
+        "x:2082152525260632544"
       ]
     },
     {
-      "title": "META and BlackRock announce $14B, 1-GW Texas data center campus targeting 2028 launch",
-      "body": "META and BlackRock are establishing a joint venture to develop a ~$14B, 1-gigawatt data center campus in El Paso, Texas, expected online by 2028. META separately priced a $12.5B debt offering Monday at higher rates than comparable prior-year deals, underscoring rising cost of AI capex financing.",
+      "title": "AI/momentum selloff accelerating: Goldman's high-beta momentum basket on pace for worst monthly performance in history",
+      "body": "Goldman's high-beta momentum basket is tracking for its worst monthly decline on record, worse than 2000 and 2009. GS TMT Momentum Pair (leaders vs laggards) is down 40%+ in July. JPM TMT specialist cited weak earnings prints, circular financing concerns, anxiety over CSP capex cuts, and elevated positioning as the four drivers. H/F de-grossing reached largest pace since Sep 2025; Global Info Tech saw largest long selling in past two sessions since January 2021.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2082112332277117380",
+        "gmail:19faa10f972674cc"
+      ]
+    },
+    {
+      "title": "FOMC tomorrow: JPM/22V expect hawkish hold with ~30% hike probability; market pricing ~35-40%",
+      "body": "JPM expects the Fed to hold with at least two hawkish dissents (Hammack, Logan) and assigns 50% probability to a hawkish hold (SPX flat to -50 bps), 20% to a 25 bp hike (SPX -1.5% to -2%, NDX amplified 2-4x), and 28% to a dovish hold (SPX +50-100 bps). Citadel Securities separately argued for a hike. BofA notes a July hike would be unprecedented \u2014 the Fed has not hiked with less than 60% market-priced odds since 1994. FOMC press conference with Chair Warsh at 2:30 pm ET Wednesday.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19fa9f905b5a89f6",
+        "x:2082149110434435099"
+      ]
+    },
+    {
+      "title": "Oil plunges 5%+ to below $80/bbl on US-Iran d\u00e9tente signals; Hormuz flow physically halted",
+      "body": "Brent crude fell more than 5% to below $84/bbl and WTI dropped below $80 \u2014 a third consecutive day of declines \u2014 on reports mediators believe the US and Iran are close to resurrecting a failed MoU deal. Paradoxically, zero tankers are transiting the Strait of Hormuz in either direction per physical flow data, with oil algo-selling dominant. Saudi Aramco also shut its 400k bpd Jazan refinery after a Red Sea attack. JPMorgan's global inflation monitor notes its $83/bbl Brent baseline; a Hormuz/Red Sea disruption scenario would push inflation to ~4% annualized.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2082139819363446913",
+        "x:2082124613228863749"
+      ]
+    },
+    {
+      "title": "Iran-US Hormuz standoff: Iran rejects Omani route, threatens to block strait for entities seizing frozen assets",
+      "body": "Iran's deputy FM denied seeking US talks in the past 16-17 days, rejected the Omani-proposed Hormuz route, and threatened to bar strait access for any country or company receiving Iranian frozen assets. Iran also claimed the US sent messages via Oman assuring no attack. Diplomatic impasse remains; GOP advancing Graham sanctions bill.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2082158608360595896",
+        "x:2082155437106122947"
+      ]
+    },
+    {
+      "title": "Consumer confidence miss and labor market softening add to macro headwinds",
+      "body": "July Consumer Confidence came in at 90.8 vs 92.4 consensus, declining for a third straight month with the present situations index at multi-year lows. ADP private payrolls averaged 15k/week in the four weeks ending July 11, the fifth consecutive weekly slowdown, down from 35,750/week in early May. Home prices beat in May, but the Conference Board survey flagged the weakest 'present situation' labor reading in 5+ years.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2082103858965496234",
+        "x:2082078827644092587"
+      ]
+    },
+    {
+      "title": "7-year Treasury auction weak on domestic side; 30-year TIPS real yield hits record high",
+      "body": "The 7-year note auction cleared at 4.473% (up 21 bps from prior), with direct bidder participation collapsing from 29.7% to 16.9% while indirect (foreign) buyers stepped up to 70.1% from 57.6%. Separately, 30-year TIPS real yield hit an all-time record high. JPM recommends 5s/30s flatteners as hawkish repricing continues; expects August refunding to hold coupon sizes steady with coupon increases beginning February 2027.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2082150389097648434",
+        "x:2082083344766939475"
+      ]
+    },
+    {
+      "title": "NVDA/AMD circular financing concerns weigh on semis; UBS pushes back, projects $900B NVDA FCF through 2028",
+      "body": "The semis correction has been amplified by perceived circular financing (NVDA backing $50B leases for HUT Texas site; AMD partnering with CORZ on 2.5GW capacity), open-weight model proliferation, memory cycle sustainability questions, and crowded positioning. UBS pushes back, arguing NVDA will generate ~$900B FCF through CYE2028 with MU ~$450B and AMD ~$90B, and that hyperscaler FCF turns only mildly negative in C2027 (~$60B) before memory normalization in late C2027/mid-C2028 improves the picture. Mag 7 positioning at 1-year lows (3rd percentile) ahead of megacap earnings.",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "MU"
+      ],
+      "source_item_ids": [
+        "gmail:19faa4dd11f42907",
+        "gmail:19fa9fb532a1d8e2"
+      ]
+    },
+    {
+      "title": "China mass-producing domestic DUV lithography; Korean markets hit circuit breakers on chip rout",
+      "body": "China has begun mass production of domestic immersion DUV lithography tools (SMEE reportedly shipping to SMIC, CXMT, YMTC since May 2025), raising long-term equipment self-sufficiency concerns \u2014 though BofA and multiple analysts argue it is still years from threatening ASML's position. South Korea's KOSPI volatility hit an all-time high (exceeding 1997 and 2020 extremes), with memory-chip stocks now comprising over 50% of the index. Asian chip stocks posted their worst single day since Liberation Day.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2082092681723818020",
+        "x:2082132642816819465"
+      ]
+    },
+    {
+      "title": "Apple hits $5T market cap (2nd ever after NVDA); launches Klarna-powered device leasing program",
+      "body": "Apple briefly surpassed $5 trillion in market cap, only the second company to do so after Nvidia. Simultaneously, Apple launched 'Apple Upgrade,' a Klarna-powered 0%-interest device leasing program (iPhone from $17.99/mo, MacBook Air from $24.99/mo, iPad from $11.99/mo), replacing the prior upgrade/payments programs. Analysts note this removes the need for price cuts while expanding ecosystem access; HomePad smart home device also reportedly on track for October launch.",
+      "tickers": [
+        "AAPL"
+      ],
+      "source_item_ids": [
+        "x:2082098311109206124",
+        "x:2082079062433181851"
+      ]
+    },
+    {
+      "title": "Global inflation: June CPI slows to 3.3% YoY on energy; baseline 2.7% for 2H but risks skewed higher",
+      "body": "JPMorgan's global inflation monitor shows June CPI ex-China/Turkey fell 0.1% MoM, decelerating to 3.3% YoY and 3.0% on a 3-month annualized basis. The 2H26 baseline assumes $83/bbl Brent and headline at ~2.7% annualized; a Hormuz/Red Sea disruption scenario lifts inflation to ~4%. US core goods momentum slid to -0.7% 3m annualized; global core services edging down. BIS economists separately warned the AI boom is distorting economic signals and increasing central bank miscalibration risk.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19faa4b3a16933ec",
+        "gmail:19faa71482689296"
+      ]
+    },
+    {
+      "title": "Broad AI capex ROI skepticism grows; open-weight models seen pressuring frontier providers",
+      "body": "Multiple sources \u2014 22V, FactSet evening recap, and GS TMT \u2014 confirm persistent investor concern about AI capex sustainability and ROI on hyperscaler spend. The narrative is reinforced by Nasdaq 100 entering correction. Open-weight models and China competition are cited as incremental headwinds to frontier providers. 22V notes 74% of investors still expect next 10% momentum move to be higher, and AI services/application-layer companies are seen as potential beneficiaries as intelligence commoditizes.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19faa80ea1745028",
+        "gmail:19faa76a40235640"
+      ]
+    },
+    {
+      "title": "Hyperscaler credit spreads at record: cost to insure AI hyperscaler default hits new highs",
+      "body": "The cost of insuring against default by AI hyperscalers has hit record levels per one source, and MS Credit notes IBOXIG TRS NAV basis near record compression with client positioning at record net longs. MS credit desk favors shorting IBOXIG TRS on basis re-widening and prefers ratio payer spreads as low-premium widening expressions.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2082128194698633366",
+        "gmail:19faaa0eed839b23"
+      ]
+    },
+    {
+      "title": "HF leverage unwind largest since Sep 2025; all three HF styles down >1% same day for first time since COVID",
+      "body": "Fundamental L/S -1.3%, Systematic L/S -1.0%, Multi-Strats -1.7% as of noon on July 28 \u2014 first time all three down >1% simultaneously since March 2020. Gross leverage fell 13.5 pts since end of May, reversing ~45% of YTD build. Memory names saw largest net selling on a 2-day basis since the AI trade first gained popularity. Mag7 net exposure at 3rd percentile vs 1-year history.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19fa9b8ebc2b95a3",
+        "gmail:19faa10f972674cc"
+      ]
+    },
+    {
+      "title": "OPEC+ expected to pause output hikes after September through year-end 2026",
+      "body": "Multiple sources report OPEC+ delegates expect the cartel to hold 2026 output steady after the September increase, pausing through the remainder of the year. This comes as Brent crude is already down 5%+ on diplomatic Iran headlines.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2082077756100165771",
+        "x:2082123161483596161"
+      ]
+    },
+    {
+      "title": "Treasury Secretary Bessent touts strong economy; core inflation at 2.6%, record investment inflows",
+      "body": "Treasury Secretary Bessent stated the underlying economy is very strong, consumer remains resilient, lower-income workers are seeing larger wage gains, core inflation has eased to 2.6%, and record investment is flowing into the US. He described current conditions as a 'manufacturing renaissance.'",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2082106540119503167",
+        "x:2082154298947870850"
+      ]
+    },
+    {
+      "title": "Rotation playbook: Financials, staples, healthcare, software outperform; semis/servers/energy lag",
+      "body": "The S&P 500 Financials Index rose 1.2% with Cards/Payments +2.3% and Regional Banks +1.7%. Equal-weight S&P hit new ATHs while cap-weighted lagged. Consumer staples (XLP +2%), healthcare, media (+1.7% Communications Services), and software (IGV volume 2x+ recent trend) led rotational inflows. Energy, Medicaid MCOs, and semiconductor names lagged. Dow Jones +1.03% vs Nasdaq -0.22%.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19faa5a812715f8d",
+        "gmail:19faa6b4cd7a5968"
+      ]
+    },
+    {
+      "title": "Meta + BlackRock announce $14B El Paso data center joint venture",
+      "body": "Meta and BlackRock announced a $14 billion partnership to develop and operate a data center in El Paso focused on AI infrastructure, representing one of the largest single data center investments disclosed this cycle.",
       "tickers": [
         "META"
       ],
       "source_item_ids": [
-        "x:2082055716701950334",
-        "x:2082036295086338551"
+        "x:2082117134969459126",
+        "x:2082117190376116455"
       ]
     },
     {
-      "title": "MSFT F4Q26 preview: Street expects $87.6B revenue, 40.3% Azure growth; capex guidance key watch",
-      "body": "MSFT reports F4Q26 with Street at $87.62B revenue (above $87.25B guide midpoint) and 40.3% Azure cc growth with buy-side expecting higher. EPS consensus $4.63. Key focus: capex guidance ($189B FY27 consensus), M365 Copilot monetization details, and open-source AI strategy signal. Amazon separately is winding down most flagship in-house AI models, pivoting strategy.",
-      "tickers": [
-        "MSFT",
-        "AMZN"
-      ],
-      "source_item_ids": [
-        "gmail:19fa95e5f9e544d3",
-        "x:2082029432840286558"
-      ]
-    },
-    {
-      "title": "Jefferies: AI trade unwind driven by narrative/positioning, not fundamentals; no clear re-entry catalyst near-term",
-      "body": "Jefferies flags tech momentum down 50% in recent stretch with the best and worst 30-day returns both occurring in the last 2 months. Key concerns: frontier lab business model durability, open-weight competition, capex funded via debt/equity raises, and CSP credit spreads blowing out. No consensus catalyst to exit digestion phase over the next 2-3 weeks of earnings; post-GOOGL capex confirmation no longer seen as bullish.",
-      "tickers": [
-        "GOOGL"
-      ],
-      "source_item_ids": [
-        "gmail:19fa9374de0fadc8"
-      ]
-    },
-    {
-      "title": "Internet sector fell 6-9% on AI capex debate; AMZN, GOOGL, META each -8% with 2027 valuations compressed",
-      "body": "Morgan Stanley notes internet names fell ~7% overall (SPX -1%, NDX -2%), with META/GOOGL both -8%, AMZN -6%, UBER -9%, APP -8%. Multiples: AMZN 20x, GOOGL 21x, META 18x 2027 EPS \u2014 down 12-25% vs trailing twelve-month averages. MS marks sector as 'Attractive.'",
-      "tickers": [
-        "AMZN",
-        "GOOGL",
-        "META",
-        "UBER"
-      ],
-      "source_item_ids": [
-        "gmail:19fa90c3bc9d142c"
-      ]
-    },
-    {
-      "title": "NVDA takes $5B stake in Sutskever's Safe Superintelligence; in talks to guarantee OpenAI financing",
-      "body": "NVDA announced a $5B stake in Ilya Sutskever's Safe Superintelligence and is reportedly in talks to guarantee financing for OpenAI's data center buildout, deploying its balance sheet to anchor the AI infrastructure ecosystem. Jim Cramer separately stated he will not sell NVDA.",
-      "tickers": [
-        "NVDA"
-      ],
-      "source_item_ids": [
-        "gmail:19fa8cb4dd2eb9ca",
-        "x:2082062653757837371"
-      ]
-    },
-    {
-      "title": "Brent crude falls 3.5% to $85 on US-Iran pause; oil 10% above last FOMC meeting level",
-      "body": "Brent crude declined ~3.5% to $85 on hopes of a Strait of Hormuz reopening after a US-Iran pause. Despite today's pullback, oil prices remain approximately 10% above levels at the last FOMC meeting, complicating the Fed's inflation calculus. OPEC+ separately indicated it expects to hold 2026 output steady after September.",
+      "title": "FOMC dovish-hold scenario: Warsh faces board opposition; rate hike at July unprecedented per BofA",
+      "body": "Multiple sources note Chair Warsh wants to do 'the right thing' but faces opposition among the 12 FOMC voters. BofA notes the Fed has not hiked since 1994 when less than 60% market odds were priced, suggesting a July hike is historically unprecedented. One macro analyst (MacDonell) argues raising rates as a 'credibility stunt' is weak policy logic \u2014 real Fed credibility comes from avoiding frequent direction reversals.",
       "tickers": [],
       "source_item_ids": [
-        "x:2082044065269322237",
-        "x:2082066455986586098"
+        "x:2082082687095910466",
+        "gmail:19faa5499111f509"
       ]
     },
     {
-      "title": "Retail investor sentiment craters: AAII bullish sentiment -15pts in one week, largest drop in 25 years",
-      "body": "JPM notes retail net buying fell to its lowest level since the Covid pandemic; the basket of retail favorites is down 13% in July, the worst month since 2022. AAII bullish sentiment fell more than 15 points in a single week \u2014 the largest such drop in 25 years. Semis L/S positioning at 98th percentile remains a structural headwind.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19fa8c25013a545c"
-      ]
-    },
-    {
-      "title": "US home prices modestly accelerating; Case-Shiller +1.11% y/y in May, MS targets 2% by year-end",
-      "body": "Morgan Stanley notes Case-Shiller National Index accelerated to +1.11% y/y in May from +0.94% in April; FHFA rose +2.24% y/y. Strategists believe home price appreciation has bottomed and expect pickup to ~2% y/y by year-end as inventory growth slows, though affordability remains challenged and lower rates are needed to spark demand.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19fa8f0e4c5f03cd"
-      ]
-    },
-    {
-      "title": "JPM semis update: SOX gained 87.8% in Q2 (best quarter ever), then fell 20% peak-to-trough; bull case intact",
-      "body": "JPM's Global Thematic notes SOX's best-ever quarterly gain of 87.8% in Q2 2026 (INTC, MRVL, MU all +200%), followed by a 20.2% peak-to-trough drawdown June 22-July 17 driven by retail deleveraging and ETF rebalancing. JPM aligns with the bull case: fundamental story intact with ~12% US semis revenue growth and ~23% earnings growth expected YoY. Chinese LLMs now represent ~60% token share used by US firms on OpenRouter at costs as low as $0.02/task vs $2.75 for Claude.",
+      "title": "Seagate massive beat-and-raise on AI data center demand; Q1 guide ~25% above Street",
+      "body": "STX delivered fiscal Q4 revenue of $3.63B (+48% YoY, beat $3.50B est.) with EPS of $5.71 (+121% YoY, beat $5.10 est.), gross margins 52.7% (+1,480 bps YoY), and FCF $1.1B. F1Q27 guidance of $4.1B revenue and $7.30 EPS was ~25% above Street expectations of $3.78B/$5.85, with ~90% of shipments going to data center customers. Stock +7.3% after hours.",
       "tickers": [
-        "NVDA",
-        "MU",
-        "MRVL",
-        "INTC",
-        "META",
-        "GOOGL"
+        "STX"
       ],
       "source_item_ids": [
-        "gmail:19fa8f2c92ea22b2"
-      ]
-    },
-    {
-      "title": "SMCI Taiwan offices raided over alleged NVDA chip smuggling to China; NVDA employee detained",
-      "body": "Taiwan prosecutors detained an NVDA employee and raided SMCI's Taiwan offices as part of an investigation into alleged smuggling of NVDA chips to China. This adds regulatory and geopolitical risk to the NVDA/SMCI supply chain narrative.",
-      "tickers": [
-        "NVDA",
-        "SMCI"
-      ],
-      "source_item_ids": [
-        "gmail:19fa91a64f9743e2",
-        "gmail:19fa8bbc04c80c73"
-      ]
-    },
-    {
-      "title": "Hyperscaler capex accelerating: Google 2027 capex tracking $287B (+45% y/y); compute scarcity benefits neoclouds",
-      "body": "Per a liquid cooling/hyperscaler note, Google's 2027 capex is moving toward ~$287B (+$23B, +45% y/y) while MSFT capex expected $40B+ per quarter in 2026. H100 spot index at all-time highs despite new AI infrastructure announcements. Neocloud stocks (ORCL, CRWV, NBIS) down 21-32% since META's July 1 neocloud announcement but may benefit from pricing power and compute scarcity.",
-      "tickers": [
-        "MSFT",
-        "META",
-        "GOOGL",
-        "ORCL",
-        "CRWV",
-        "NBIS"
-      ],
-      "source_item_ids": [
-        "gmail:19fa942bf3921cb5"
+        "gmail:19faa847c3e7adb7",
+        "gmail:19faa5ae9c7e1fe2"
       ]
     }
   ]
