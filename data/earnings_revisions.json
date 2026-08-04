@@ -1,7 +1,7 @@
 {
-  "digest_type": "premarket",
-  "digest_dt": "2026-08-04T08:30:00-04:00",
-  "saved_at": "2026-08-04T14:21:28.517759+00:00",
+  "digest_type": "midday",
+  "digest_dt": "2026-08-04T12:00:00-04:00",
+  "saved_at": "2026-08-04T17:50:27.713991+00:00",
   "revisions": {
     "sales": {
       "metric": "sales",
@@ -419,7 +419,7 @@
     "ebitda": {
       "metric": "ebitda",
       "metric_display": "EBITDA",
-      "n_total_with_data": 92,
+      "n_total_with_data": 121,
       "by_pct_top": [
         {
           "ticker": "UEC",
@@ -429,6 +429,16 @@
           "prior_estimate": 29.14,
           "pct_change": 72.0658888126287,
           "percentile": 95.00640204865557,
+          "n_obs": 781
+        },
+        {
+          "ticker": "CLS",
+          "forward_y_code": "27Y",
+          "metric": "ebitda",
+          "current_estimate": 3230.471,
+          "prior_estimate": 2630.235,
+          "pct_change": 22.82062249190662,
+          "percentile": 99.48783610755441,
           "n_obs": 781
         },
         {
@@ -450,6 +460,16 @@
           "pct_change": 16.96857670979668,
           "percentile": 74.13572343149808,
           "n_obs": 781
+        },
+        {
+          "ticker": "CORZ",
+          "forward_y_code": "27Y",
+          "metric": "ebitda",
+          "current_estimate": 623.213,
+          "prior_estimate": 535.56,
+          "pct_change": 16.366606916125193,
+          "percentile": 92.02657807308971,
+          "n_obs": 602
         },
         {
           "ticker": "SMCI",
@@ -500,26 +520,6 @@
           "pct_change": 9.140267142122593,
           "percentile": 96.41485275288092,
           "n_obs": 781
-        },
-        {
-          "ticker": "SNDK",
-          "forward_y_code": "27Y",
-          "metric": "ebitda",
-          "current_estimate": 37309.143,
-          "prior_estimate": 34926.857,
-          "pct_change": 6.820785506122107,
-          "percentile": 42.65129682997118,
-          "n_obs": 347
-        },
-        {
-          "ticker": "OKLO",
-          "forward_y_code": "27Y",
-          "metric": "ebitda",
-          "current_estimate": -193.412,
-          "prior_estimate": -181.231,
-          "pct_change": 6.721256297211853,
-          "percentile": 69.61325966850829,
-          "n_obs": 543
         }
       ],
       "by_pct_bottom": [
@@ -564,6 +564,36 @@
           "n_obs": 781
         },
         {
+          "ticker": "CAR",
+          "forward_y_code": "27Y",
+          "metric": "ebitda",
+          "current_estimate": 1015.5,
+          "prior_estimate": 1067.625,
+          "pct_change": -4.88233227959255,
+          "percentile": 18.950064020486558,
+          "n_obs": 781
+        },
+        {
+          "ticker": "AXTI",
+          "forward_y_code": "27Y",
+          "metric": "ebitda",
+          "current_estimate": 40.55,
+          "prior_estimate": 42.6,
+          "pct_change": -4.812206572769961,
+          "percentile": 34.95518565941101,
+          "n_obs": 781
+        },
+        {
+          "ticker": "CEG",
+          "forward_y_code": "27Y",
+          "metric": "ebitda",
+          "current_estimate": 9055.313,
+          "prior_estimate": 9391.786,
+          "pct_change": -3.582630609343096,
+          "percentile": 6.530089628681178,
+          "n_obs": 781
+        },
+        {
           "ticker": "SEI",
           "forward_y_code": "27Y",
           "metric": "ebitda",
@@ -592,39 +622,19 @@
           "pct_change": -1.9208165377955333,
           "percentile": 3.0729833546734953,
           "n_obs": 781
-        },
-        {
-          "ticker": "NXST",
-          "forward_y_code": "27Y",
-          "metric": "ebitda",
-          "current_estimate": 2240.571,
-          "prior_estimate": 2277.75,
-          "pct_change": -1.6322686862034974,
-          "percentile": 21.254801536491676,
-          "n_obs": 781
-        },
-        {
-          "ticker": "DKNG",
-          "forward_y_code": "27Y",
-          "metric": "ebitda",
-          "current_estimate": 1143.412,
-          "prior_estimate": 1162.061,
-          "pct_change": -1.6048210894264447,
-          "percentile": 29.449423815621,
-          "n_obs": 781
-        },
-        {
-          "ticker": "SHOP",
-          "forward_y_code": "27Y",
-          "metric": "ebitda",
-          "current_estimate": 3459.425,
-          "prior_estimate": 3514.541,
-          "pct_change": -1.5682275437959081,
-          "percentile": 12.03585147247119,
-          "n_obs": 781
         }
       ],
       "by_pctile_top": [
+        {
+          "ticker": "CLS",
+          "forward_y_code": "27Y",
+          "metric": "ebitda",
+          "current_estimate": 3230.471,
+          "prior_estimate": 2630.235,
+          "pct_change": 22.82062249190662,
+          "percentile": 99.48783610755441,
+          "n_obs": 781
+        },
         {
           "ticker": "DLR",
           "forward_y_code": "27Y",
@@ -696,37 +706,37 @@
           "n_obs": 781
         },
         {
-          "ticker": "NOW",
+          "ticker": "CORZ",
           "forward_y_code": "27Y",
           "metric": "ebitda",
-          "current_estimate": 7458.5,
-          "prior_estimate": 7231.25,
-          "pct_change": 3.1426101987899635,
-          "percentile": 91.2932138284251,
-          "n_obs": 781
+          "current_estimate": 623.213,
+          "prior_estimate": 535.56,
+          "pct_change": 16.366606916125193,
+          "percentile": 92.02657807308971,
+          "n_obs": 602
         },
         {
-          "ticker": "SMCI",
+          "ticker": "AMD",
           "forward_y_code": "27Y",
           "metric": "ebitda",
-          "current_estimate": 3407.727,
-          "prior_estimate": 2968.182,
-          "pct_change": 14.808559582936631,
-          "percentile": 90.39692701664532,
-          "n_obs": 781
-        },
-        {
-          "ticker": "T",
-          "forward_y_code": "27Y",
-          "metric": "ebitda",
-          "current_estimate": 50076.35,
-          "prior_estimate": 49827.0,
-          "pct_change": 0.5004314929656584,
-          "percentile": 88.86043533930858,
+          "current_estimate": 25830.152,
+          "prior_estimate": 24363.645,
+          "pct_change": 6.019243015566822,
+          "percentile": 91.93341869398208,
           "n_obs": 781
         }
       ],
       "by_pctile_bottom": [
+        {
+          "ticker": "CHTR",
+          "forward_y_code": "27Y",
+          "metric": "ebitda",
+          "current_estimate": 22405.95,
+          "prior_estimate": 22781.522,
+          "pct_change": -1.6485816882647275,
+          "percentile": 1.4084507042253522,
+          "n_obs": 781
+        },
         {
           "ticker": "TEAM",
           "forward_y_code": "27Y",
@@ -768,6 +778,26 @@
           "n_obs": 781
         },
         {
+          "ticker": "APP",
+          "forward_y_code": "27Y",
+          "metric": "ebitda",
+          "current_estimate": 9051.724,
+          "prior_estimate": 9068.586,
+          "pct_change": -0.1859385796197932,
+          "percentile": 5.121638924455826,
+          "n_obs": 781
+        },
+        {
+          "ticker": "CEG",
+          "forward_y_code": "27Y",
+          "metric": "ebitda",
+          "current_estimate": 9055.313,
+          "prior_estimate": 9391.786,
+          "pct_change": -3.582630609343096,
+          "percentile": 6.530089628681178,
+          "n_obs": 781
+        },
+        {
           "ticker": "MTSI",
           "forward_y_code": "27Y",
           "metric": "ebitda",
@@ -795,36 +825,6 @@
           "prior_estimate": 485201.5,
           "pct_change": -1.4900339343551061,
           "percentile": 11.523687580025609,
-          "n_obs": 781
-        },
-        {
-          "ticker": "SHOP",
-          "forward_y_code": "27Y",
-          "metric": "ebitda",
-          "current_estimate": 3459.425,
-          "prior_estimate": 3514.541,
-          "pct_change": -1.5682275437959081,
-          "percentile": 12.03585147247119,
-          "n_obs": 781
-        },
-        {
-          "ticker": "CVNA",
-          "forward_y_code": "27Y",
-          "metric": "ebitda",
-          "current_estimate": 3943.476,
-          "prior_estimate": 3952.524,
-          "pct_change": -0.22891701606365666,
-          "percentile": 12.548015364916774,
-          "n_obs": 781
-        },
-        {
-          "ticker": "TSLA",
-          "forward_y_code": "27Y",
-          "metric": "ebitda",
-          "current_estimate": 17454.439,
-          "prior_estimate": 18787.543,
-          "pct_change": -7.095680366506696,
-          "percentile": 15.620998719590268,
           "n_obs": 781
         }
       ]
