@@ -1,235 +1,232 @@
 {
-  "digest_type": "midday",
-  "digest_dt": "2026-08-04T12:00:00-04:00",
-  "saved_at": "2026-08-04T17:50:27.706618+00:00",
+  "digest_type": "eod",
+  "digest_dt": "2026-08-04T18:00:00-04:00",
+  "saved_at": "2026-08-04T23:26:41.533861+00:00",
   "bullets": [
     {
-      "title": "PLTR: Monster Q2 Beat\u2014US Commercial +149% YoY, Stock +26%, Deutsche Bank Upgrades",
-      "body": "Palantir reported Q2 revenue $1.94B (+7.2% above consensus), operating margin 61.7%, and raised FY guidance ~11 points; US Commercial growth accelerated to +149% YoY and US Government grew +90%. Deutsche Bank upgraded to Buy with $200 PT; Mizuho raised PT to $215 from $185 (Outperform); DA Davidson reiterates Buy citing 90% growth, 60% margins, and +150% net retention. Stock +26% intraday.",
+      "title": "PLTR: +27% after Q2 earnings; 5th straight triple play, 93% YoY revenue growth",
+      "body": "Palantir surged ~27% after reporting Q2 revenue of $1.94B (+93% YoY, +19% QoQ), marking the 12th consecutive quarter of YoY acceleration and fifth straight 'triple play.' Deutsche Bank upgraded to Buy with a $200 PT. The AI sovereignty narrative is gaining traction as a re-rating catalyst.",
       "tickers": [
         "PLTR"
       ],
       "source_item_ids": [
-        "gmail:19fcce248e871208",
-        "gmail:19fccde5fc1009a5"
+        "x:2084640159623188982",
+        "x:2084632653215711679"
       ]
     },
     {
-      "title": "Optical ban catalyst: COHR +14%, LITE +11%, AAOI soaring on US Chinese data-center component import restrictions",
-      "body": "Reuters reported the Trump administration is drafting a ban on imports of Chinese optical transceivers used in AI data centers (FCC rule expected this year), sending COHR +14%, LITE +11%, AAOI +17%, CIEN +9%, GLW +8% in pre/intraday trading. Morgan Stanley notes COHR is the clearest beneficiary via vertical integration; non-Chinese suppliers lack near-term capacity to fully backfill ~50% Chinese market share, and InP substrate supply from China (AXTI) is a critical bottleneck.",
+      "title": "Photonics/Optical ban: FCC drafts rule blocking Chinese transceivers; AAOI, COHR, LITE, CIEN key beneficiaries",
+      "body": "FCC is drafting rules to ban imports of new Chinese optical transceiver models used in AI data centers, a policy seen as directly benefiting U.S. suppliers. AAOI jumped ~18%, LITE jumped ~7%, COHR highlighted as most vertically integrated with a $5.81B backlog and NVDA's $2B backing. CIEN's WaveLogic 6 (only 1.6T coherent system at scale) and $7.8B backlog make it the dominant domestic alternative; VIAV seen as testing-layer beneficiary as transceiver replacements require validation.",
+      "tickers": [
+        "AAOI",
+        "COHR",
+        "LITE",
+        "CIEN",
+        "VIAV",
+        "ANET"
+      ],
+      "source_item_ids": [
+        "x:2084659577585545566",
+        "x:2084685041959846329"
+      ]
+    },
+    {
+      "title": "AXTI: Sharp decline then 12% bounce; bull case is InP permit negotiating leverage",
+      "body": "AXTI plunged (down ~55% from highs per one trader) on China InP export control fears, then bounced 12% off lows. Bulls argue AXTI's position as the key InP substrate supplier to LITE gives it negotiating leverage and that the Trump administration is aware of and working on easing InP permit constraints. Bears cite China's ability to cut off InP exports entirely. AXTI supplies InP substrates to LITE and receives upfront funding plus long-term demand visibility.",
+      "tickers": [
+        "AXTI",
+        "LITE"
+      ],
+      "source_item_ids": [
+        "x:2084671201063084210",
+        "x:2084610837457895511"
+      ]
+    },
+    {
+      "title": "CRWV: +20% on Indonesia data center expansion (360MW, three facilities)",
+      "body": "CoreWeave announced expansion into Indonesia with three new data centers totaling 360MW of capacity, expected online in 2028, driven by demand for localized AI compute. The stock surged ~20% on the news.",
+      "tickers": [
+        "CRWV"
+      ],
+      "source_item_ids": [
+        "x:2084633571038273883",
+        "x:2084656618957152459"
+      ]
+    },
+    {
+      "title": "MU: BofA reiterates Buy/$1,550 PT; calls pullback a buying opportunity; HBM non-commodity thesis",
+      "body": "BofA reiterated its Buy rating on Micron with a $1,550 PT, characterizing recent weakness as an 'enhanced buying opportunity' as memory pricing is expected to normalize in 2027\u20132028. Separately, Trendforce reports NVDA is evaluating multiple HBM4 variants for Rubin Ultra amid expected 2027 DRAM supply constraints, a potential tailwind for MU's HBM position.",
+      "tickers": [
+        "MU"
+      ],
+      "source_item_ids": [
+        "x:2084632265481498917",
+        "x:2084654124755193944"
+      ]
+    },
+    {
+      "title": "NVDA: Memory LTAs seen durable; evaluating HBM4 variants for Rubin Ultra; cloud revenue share upside",
+      "body": "Game theory analysis argues NVDA's memory long-term agreements (LTAs) are likely durable. NVDA is reportedly evaluating 8-Hi HBM4e, 12-Hi HBM4, and 8-Hi HBM4 alternatives for Rubin Ultra starting 3Q26 due to HBM4e validation risks and 2027 DRAM supply constraints. NVDA may also have a meaningful cloud revenue-share business. Jensen Huang launched Alpamayo 2 Super, an open frontier reasoning model for autonomous vehicles.",
+      "tickers": [
+        "NVDA"
+      ],
+      "source_item_ids": [
+        "x:2084627898871509483",
+        "x:2084699467010195882"
+      ]
+    },
+    {
+      "title": "COHR, LITE, AAOI, AXTI: Photonics supply chain consolidating; Trump optical ban as secular catalyst",
+      "body": "Multiple analysts frame the Trump Chinese optical transceiver ban as a multi-year secular catalyst for the entire photonics stack. COHR's 6-inch InP wafers enable 4x chip count at half cost; LITE is the sole 200Gbps EML supplier critical to NVDA GB200 and Google TPUv7; AAOI is a direct domestic beneficiary; AXTI controls InP substrate supply chain. The consensus view: whoever locks up photonics supply wins the AI infrastructure buildout.",
       "tickers": [
         "COHR",
         "LITE",
         "AAOI",
-        "CIEN",
-        "GLW",
-        "AXTI",
-        "FN",
-        "CRDO",
-        "ALAB",
-        "VIAV"
+        "AXTI"
       ],
       "source_item_ids": [
-        "gmail:19fcd4b85db298f5",
-        "gmail:19fcce14c87b3be5"
+        "x:2084635724595466490",
+        "x:2084659580236390455"
       ]
     },
     {
-      "title": "AMZN: Hits $3T market cap; Bezos files to sell ~$4B; NJ AG files antitrust suit\u2014stock -2.5%",
-      "body": "Amazon became the fifth company to cross $3 trillion market cap (joining NVDA, GOOGL, MSFT, AAPL), but pulled back ~2.5% on two overhangs: Bezos filed to sell up to 15M shares (~$4.07B of founder stock from 1994) and New Jersey AG Jennifer Davenport filed an antitrust lawsuit alleging Amazon abused market power over independent delivery drivers.",
+      "title": "SHOP: Earnings tomorrow; Strong Buy consensus, stock below analyst PT",
+      "body": "Shopify reports earnings tomorrow (Aug 5). The stock carries a Strong Buy consensus rating and trades well below the average analyst price target, with strong revenue growth highlighted as the key positive thesis.",
+      "tickers": [
+        "SHOP"
+      ],
+      "source_item_ids": [
+        "x:2084685296851993082"
+      ]
+    },
+    {
+      "title": "MRVL: Breaks $200/$217 levels; highlighted as hot semiconductor stock on AI infrastructure thesis",
+      "body": "Marvell broke above $200 and subsequently $217 intraday, with multiple observers flagging it as one of the hottest semiconductor names. A detailed post on PCIe switch transition (ALAB, AVGO, MRVL) and AWS warrant dynamics was published. Marvell itself highlighted memory, bandwidth, and connectivity as critical AI infrastructure layers.",
+      "tickers": [
+        "MRVL",
+        "ALAB",
+        "AVGO"
+      ],
+      "source_item_ids": [
+        "x:2084659762751557689",
+        "x:2084681506254143747"
+      ]
+    },
+    {
+      "title": "AMZN: Bezos files to sell $4B in stock; AWS cited as best-positioned inference cloud",
+      "body": "Jeff Bezos filed to sell approximately $4.07B in Amazon stock following a recent surge, pressuring the stock ~2% in premarket. Separately, AWS is characterized as the best-positioned inference cloud provider, and AMZN is investing multiple billions in a North Carolina data center. Oracle-AWS interconnect is cited as evidence of expanding cross-cloud DCI demand.",
       "tickers": [
         "AMZN"
       ],
       "source_item_ids": [
-        "gmail:19fcd4fc9e4c8f70",
-        "x:2084605457016979677"
+        "x:2084651598651805846",
+        "x:2084668236562592127"
       ]
     },
     {
-      "title": "W: +20% on 2Q beat and stronger 3Q guide (high-single-digit growth vs mid-single-digit consensus)",
-      "body": "Wayfair reported Q2 revenue $3.52B (+7.5% YoY), ~2% above consensus, adj. EBITDA $242M vs $230M consensus (6.9% margin). Q3 guidance was high-single-digit growth vs Street's ~+4.8%, driving the stock up ~20%. Perigold luxury +35%, specialty brands +20%; Citi maintains Buy with $95 PT.",
+      "title": "MSFT: Azure hits $100B run rate; enterprise AI moving beyond single-model dependency",
+      "body": "Microsoft's Azure reached a $100B annual run rate, with commentary indicating enterprise AI adoption is broadening beyond reliance on any single model, implying durable, diversified cloud AI workload growth. MSFT trading near $500 per bullish commentary.",
       "tickers": [
-        "W"
+        "MSFT"
       ],
       "source_item_ids": [
-        "gmail:19fcce8b06e62fe5",
-        "gmail:19fccbb229c50cbb"
+        "x:2084664852782760225",
+        "x:2084665928193560731"
       ]
     },
     {
-      "title": "SPOT: Q2 margin beat, 300M subscribers\u2014but Q3 MAU guide (788M vs 793M consensus) weighs, stock -6%",
-      "body": "Spotify hit 300M premium subscribers (+7M in Q2) and record gross margins of 33.4% (+193bps YoY) with FCF of \u20ac797M. However, Q3 total MAU guidance of 788M missed consensus ~793M and Q3 operating income guided \u20ac670M vs \u20ac678M Street; Morgan Stanley reiterates OW with $640 PT but Street broadly sidelined by opex concerns.",
+      "title": "ALAB, AVGO, MRVL: PCIe switch transition and AWS warrant dynamics analyzed",
+      "body": "A detailed research note examined the transition from PCIe retimers to switches across Astera Labs, Broadcom, and Marvell for scale-up AI infrastructure, including AWS warrant dynamics and protocol choice implications for each vendor's competitive position.",
       "tickers": [
-        "SPOT"
-      ],
-      "source_item_ids": [
-        "gmail:19fccd3b8ab09b19",
-        "gmail:19fcce3d52fbd9e5"
-      ]
-    },
-    {
-      "title": "NVDA: Citi flags Rubin Ultra shifting to 8-Hi HBM4 (from 12-Hi) to scale GPU count to 576; pivot to scale-out",
-      "body": "Citi reports NVIDIA is reportedly considering lowering Rubin Ultra HBM content from 12-Hi to 8-Hi (reducing per-GPU capacity 33% to 192GB), pivoting from scale-up to scale-out: Rubin Ultra NVL576 would expand NVLink domain from 72 to 576 GPUs, increasing aggregate HBM capacity by 433% to 110.6TB. HBM supply remains persistently tight as memory suppliers prioritize higher-margin alternatives.",
-      "tickers": [
-        "NVDA"
-      ],
-      "source_item_ids": [
-        "gmail:19fcd6e29407a01b"
-      ]
-    },
-    {
-      "title": "CRWV/NBIS: Citi cuts PTs (CRWV to $142, NBIS to $278) but stays constructive\u2014supply delays, not demand weakness",
-      "body": "Citi reduced CRWV PT to $142 and NBIS PT to $278 after recent selloffs in the NeoCloud group, but remains constructive: delays are supply-side (permitting, NIMBY, costs) not demand-side, AI capacity is largely sold out, and project delays reinforce scarcity value. NVDA holds a 9.3% stake in NBIS; CRWV backlog growth expected to continue despite Meta capacity announcement.",
-      "tickers": [
-        "CRWV",
-        "NBIS",
-        "NVDA"
-      ],
-      "source_item_ids": [
-        "gmail:19fcd27e861f9bc2"
-      ]
-    },
-    {
-      "title": "ANET: F2Q26 earnings today\u2014Street at $2.83B revenue, billings facing tough Q2 comp; new 52-week high",
-      "body": "Arista reports today with consensus at F2Q26 revenue $2.83B (slightly above $2.8B guidance), GM 62.2%, EPS $0.89. Investors watching for billings growth (accelerated +54% YoY in F1Q26 vs tough $3.2B F2Q25 comp), FY26 guidance raise on big-tech capex, and supply/pricing commentary. ANET hit a new 52-week high (+2.6% on the day, +61.3% YTD).",
-      "tickers": [
-        "ANET"
-      ],
-      "source_item_ids": [
-        "gmail:19fcd1fc57f49ad2",
-        "gmail:19fcd1ce7fe6f38c"
-      ]
-    },
-    {
-      "title": "SNAP: Q2 EBITDA beats by 29.5%; Specs launch Sept 16 overhang; Wells Fargo raises PT to $6",
-      "body": "Snap reported Q2 revenue $1.60B (+3.8% above consensus) and adj. EBITDA $249.6M (+29.5% beat); non-advertising revenue surged 85% YoY. Q3 guidance implies ~7% ad growth (vs Q2's 9%) with EBITDA slightly light vs estimates. Wells Fargo raised PT to $6 from $5; sell-side mix is 23% Buy / 71% Hold. Stock +14.8% on the day.",
-      "tickers": [
-        "SNAP"
-      ],
-      "source_item_ids": [
-        "gmail:19fcd246017bc87f"
-      ]
-    },
-    {
-      "title": "NVDA/MU/SNDK: Memory 2027 capacity fully allocated; HBM could absorb 70% of DRAM capacity",
-      "body": "Digitimes reports global DRAM and HBM capacity for 2027 is fully allocated; memory suppliers seeing only 60-70% order fulfillment vs requested volumes. MU, Samsung, SanDisk fully presold 2027 NAND capacity. Wolfe initiates SK Hynix ADR (SKHY) Outperform at $200 PT, noting DRAM supply/demand gap to widen in CY27 due to cleanroom constraints and rising HBM content doubling on Rubin Ultra in 2H27.",
-      "tickers": [
-        "MU",
-        "SNDK",
-        "NVDA"
-      ],
-      "source_item_ids": [
-        "gmail:19fcce14c87b3be5",
-        "gmail:19fccf37cf041c27"
-      ]
-    },
-    {
-      "title": "GOOGL/AVGO: Blackstone opens talks on ~$36B debt financing for Anthropic to buy Google TPU chips",
-      "body": "Blackstone is in early talks with investors on a potential new debt financing package of at least $36B for Anthropic to purchase Google TPU chips\u2014following the June $35B package. Broadcom is backstopping payments on the largest segments; separately, Anthropic signed a $10B deal with Volta for compute capacity in Norway, with NVDA and DELL as strategic investors in Volta.",
-      "tickers": [
-        "GOOGL",
+        "ALAB",
         "AVGO",
-        "NVDA"
+        "MRVL"
       ],
       "source_item_ids": [
-        "gmail:19fcd4f3fa02ab8b",
-        "gmail:19fccd08fcfc6f981"
+        "x:2084681506254143747"
       ]
     },
     {
-      "title": "NET: Cloudflare reports Q2 in line/beat; launches AI wallet payments; stock +10% since May, new 52-week high",
-      "body": "Cloudflare's Q2 revenue $664.7M beat guidance midpoint, with FY26 revenue guided $2.81B in line with consensus; the stock hit a new 52-week high (+4.6% on the day, +47.8% YTD). Additionally, Cloudflare announced Cloudflare Wallets and cloudflare.pay, enabling AI agents to make purchases online with configurable spending caps and merchant whitelists.",
+      "title": "TSEM: Q3 revenue guidance of $520M beats $506M consensus; Q2 EPS beats",
+      "body": "Tower Semiconductor guided Q3 revenue at $520M vs. $506.4M consensus, and reported Q2 adjusted EPS of $0.88 vs. $0.76 estimate \u2014 a clean beat across the board.",
       "tickers": [
-        "NET"
+        "TSEM"
       ],
       "source_item_ids": [
-        "gmail:19fcd75b1246a726",
-        "gmail:19fcce71ceb02b97"
+        "x:2084651633833603123"
       ]
     },
     {
-      "title": "TKO: Beat-and-raise; FY guidance raised $75M revenue and $25M EBITDA on World Cup and Freedom 250 upside",
-      "body": "TKO raised FY guidance by $75M revenue and $25M adjusted EBITDA driven by World Cup demand and Freedom 250 upside; WWE results were in-line to slightly below consensus with Wrestlemania mix shifting toward international events. JPMorgan rates TKO Overweight with $222 PT.",
+      "title": "WDC: SK Hynix and SanDisk release first High Bandwidth Flash spec; AI storage convergence theme",
+      "body": "SK Hynix and SanDisk (WDC) released the first OCP High Bandwidth Flash specification at FMS 2026, enabling GPUs to pull data from storage in microseconds \u2014 signaling storage is converging with memory as a tier for long-context AI inference. NVDA's FMS announcements reinforced the storage-as-memory narrative.",
       "tickers": [
-        "TKO"
+        "WDC"
       ],
       "source_item_ids": [
-        "gmail:19fcccd4e975186b",
-        "gmail:19fcce0fad1c0259"
+        "x:2084642349599043748",
+        "x:2084667058890113140"
       ]
     },
     {
-      "title": "BTDR: +10% on $4.7B, 16-year Tydal data center lease; 22% implied yield vs 18.6% sector high",
-      "body": "Bit Digital announced a $4.7B revenue deal (extendable to $8B) over 16 years for its Tydal, Norway AI/HPC campus at $2.4M per MW with 90% NOI margin, implying a 22% yield vs the prior 18.6% sector high. Capex remaining is $4/watt vs $8-12/watt range; Morgan Stanley notes investors expect lower capex and higher yields going forward.",
+      "title": "GLW: Trump admin preparing polysilicon price floor and tariffs, supportive of Hemlock/Corning",
+      "body": "The Trump administration is preparing a price floor and new tariffs on polysilicon and derivative products (chips, solar panels) to protect U.S. producers, including Hemlock Semiconductor, a joint venture in which Corning (GLW) is a major partner.",
       "tickers": [
-        "BTDR"
+        "GLW"
       ],
       "source_item_ids": [
-        "gmail:19fccf7d1a9a5b5b"
+        "x:2084672356329410958"
       ]
     },
     {
-      "title": "TSLA: China July deliveries +37.8% YoY to 93,579 units",
-      "body": "Tesla China July deliveries rose 37.8% year-over-year to 93,579 units per CPCA/PCA preliminary data, signaling a strong demand recovery in its largest international market.",
+      "title": "DOCN: Shares -11% premarket on Q2 revenue miss and weak Q3 EBITDA margin guidance",
+      "body": "DigitalOcean fell ~11% in premarket after Q2 revenue slightly missed expectations and the company guided Q3 EBITDA margin growth below analyst estimates, signaling near-term margin pressure.",
       "tickers": [
-        "TSLA"
+        "DOCN"
       ],
       "source_item_ids": [
-        "x:2084603470712107029"
+        "x:2084652079784591818"
       ]
     },
     {
-      "title": "AAPL: DZ Bank downgrades to Hold from Buy, PT $310; India sales top $10B for first time",
-      "body": "DZ Bank cut Apple to Hold from Buy with a $310 price target. Separately, Apple's annual sales in India exceeded $10 billion for the first time, underscoring the country's growing importance as a growth market. OpenAI also published message exchanges suggesting conflict with Apple over integration terms.",
+      "title": "META: Seen as persistently undervalued; trading at 18x fwd P/E despite consistent value creation",
+      "body": "One observer notes META has historically traded at a valuation discount relative to its long-term value creation, currently at roughly 18x forward P/E, and argues the market continuously underestimates the company's earnings power.",
       "tickers": [
-        "AAPL"
+        "META"
       ],
       "source_item_ids": [
-        "x:2084565668079280196",
-        "x:2084585523125850525"
+        "x:2084670172242075890"
       ]
     },
     {
-      "title": "FOXA: Q4 earnings preview\u2014$3.64B revenue, $1.44 EPS; Wolfe hosting callback webcast Aug 6",
-      "body": "Fox Corp reports Q4 with consensus at $3.64B revenue (Cable $1.64B, TV $1.94B), EBITDA $1.0B, EPS $1.44. FOXA has beaten revenue consensus 17 of past 20 quarters; options imply ~7.5% move. Wolfe Research hosting 15-min callback webcast Aug 6 at 5:30pm ET.",
+      "title": "GOOGL: Bespoke flags 'maybe not done' narrative; GOOG seen as better risk/reward than QQQ",
+      "body": "Bespoke highlighted a potential positive inflection for Google, suggesting the GOOGL story is 'not finished.' A separate commenter argues GOOG offers better risk/reward versus QQQ and growth VC strategies. GOOGL was down ~1.5% in premarket.",
       "tickers": [
-        "FOXA"
+        "GOOGL"
       ],
       "source_item_ids": [
-        "gmail:19fcd26e90812c9a",
-        "gmail:19fcd6e973095b35"
+        "x:2084678098692223128",
+        "x:2084654289839145196"
       ]
     },
     {
-      "title": "AMD: Post-earnings webcast Aug 5 at 10:30am ET (Wolfe); focus on data center and connectivity demand",
-      "body": "Wolfe Research is hosting a post-earnings AMD webcast on August 5 at 10:30am ET with management callback; Chris Caso hosting. Goldman Sachs notes all eyes on AMD and ANET today for data center and connectivity demand signals.",
+      "title": "IREN: Zuckerberg validates cautious capacity strategy; OKLO flagged alongside oil price drop",
+      "body": "Mark Zuckerberg's comments on compute validated IREN's strategy of avoiding large deals and taking a cautious approach to future capacity additions following Q2 results. WTI crude fell 5.4% and Brent fell 4.7% to session lows on Hormuz reopening hopes, creating headwinds for energy-adjacent names.",
       "tickers": [
-        "AMD"
+        "IREN"
       ],
       "source_item_ids": [
-        "gmail:19fccf332e3ecd195",
-        "gmail:19fcce0fad1c0259"
+        "x:2084667586000855242"
       ]
     },
     {
-      "title": "HUT: Q2 margins miss badly\u2014EBITDA $10M vs $27M consensus; stock -4.8%, +144% YTD",
-      "body": "Hut 8 reported Q2 results with EBITDA of only ~$10M versus consensus $27M (adjusted for digital asset mark-to-market changes), missing on margins. The stock is down ~4.8% on the day but remains +144% year-to-date.",
+      "title": "VRT: Data center power/thermal OEMs retain multiyear backlog and pricing support",
+      "body": "A cross-portfolio analysis of Sterling Infrastructure Q2 earnings flagged Vertiv and peers in electrical/thermal-management OEM as highest-conviction positive read-throughs, citing multiyear volume, backlog, and pricing support as data center infrastructure demand sustains at elevated levels.",
       "tickers": [
-        "HUT"
+        "VRT"
       ],
       "source_item_ids": [
-        "gmail:19fcd67886c5dee4",
-        "gmail:19fccf7d1a9a5b5b"
-      ]
-    },
-    {
-      "title": "ACN: UBS Buy\u2014Qantas Project iQ AI transformation; share of enterprises preferring ACN as AI partner rises to 58%",
-      "body": "UBS reiterates Buy on Accenture with $275 PT: Qantas is in advanced discussions for Project iQ, an AI transformation covering ~1,000 back-office positions. Accenture's share of large enterprises (>10k employees) identifying it as preferred AI implementation partner rose to 58% from 47% in October 2025, and only ~19% of enterprises have AI deployed at scale, implying a multi-year demand runway.",
-      "tickers": [
-        "ACN"
-      ],
-      "source_item_ids": [
-        "gmail:19fcd54530abefd4"
+        "x:2084671286521856138",
+        "x:2084671289172586878"
       ]
     }
   ]

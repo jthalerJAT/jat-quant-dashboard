@@ -1,184 +1,225 @@
 {
-  "digest_type": "midday",
-  "digest_dt": "2026-08-04T12:00:00-04:00",
-  "saved_at": "2026-08-04T17:50:27.709619+00:00",
+  "digest_type": "eod",
+  "digest_dt": "2026-08-04T18:00:00-04:00",
+  "saved_at": "2026-08-04T23:26:41.536861+00:00",
   "bullets": [
     {
-      "title": "US Optical Transceiver Ban Draft Sparks Major Rally in LITE, COHR, AAOI, CIEN",
-      "body": "The Trump administration is reportedly drafting a ban on imports of Chinese optical transceivers and data center components, per Reuters. Coherent surged +14%, Lumentum +11%, and Corning +7.9% in premarket, with traders noting InP laser array supply chains as the key bottleneck. One analyst flagged the ban could slow DC buildout by ~50%, but sees Western optical suppliers as material beneficiaries despite near-term capacity constraints.",
+      "title": "PLTR surges 27% on fifth straight triple play; Deutsche Bank upgrades to Buy at $200",
+      "body": "Palantir jumped 27% on Q2 results showing $1.94B revenue, +93% YoY\u2014its 12th consecutive quarter of accelerating growth. Bespoke notes it's the only Russell 1000 stock that has never moved less than 5% on earnings, having now posted five straight triple plays (eight in nine quarters). Deutsche Bank upgraded to Buy with a $200 price target as AI sovereignty narrative gains traction.",
       "tickers": [
-        "COHR",
-        "LITE",
-        "AAOI",
-        "CIEN"
+        "PLTR"
       ],
       "source_item_ids": [
-        "x:2084599001131683855",
-        "x:2084597612175618342"
+        "x:2084640159623188982",
+        "x:2084632653215711679"
       ]
     },
     {
-      "title": "Bezos Files to Sell 15M AMZN Shares (~$4.07B); Stock Crosses $3T Market Cap",
-      "body": "Jeff Bezos filed to sell up to 15 million Amazon shares worth approximately $4.07B\u2014stock acquired as founder shares in July 1994. Despite the overhang, AMZN crossed $3 trillion market cap for the first time this session, with Stocktwits sentiment having surged 97% ten days prior.",
+      "title": "FCC drafts ban on Chinese optical transceivers; AAOI +18%, LITE +7%, COHR and photonics stack rally",
+      "body": "The FCC is drafting a rule to block imports of new Chinese optical transceiver models used in AI data centers. Fintwit bulls argue the ban benefits U.S. suppliers: AAOI jumped 18% as sole domestic alternative, LITE surged 7% as the only supplier of 200Gbps EMLs critical to Nvidia GB200 and Google TPUv7, COHR has a $5.81B backlog through 2027 and received a $2B NVDA strategic investment, and CIEN holds ~50% North American optical networking share with a $7.8B backlog. One account framed the ban as 'The Trump administration is telling you exactly what to invest in.'",
+      "tickers": [
+        "AAOI",
+        "LITE",
+        "COHR",
+        "CIEN"
+      ],
+      "source_item_ids": [
+        "x:2084659577585545566",
+        "x:2084635724595466490"
+      ]
+    },
+    {
+      "title": "AXTI split: bulls see InP permit leverage, bears fear China export controls",
+      "body": "AXTI fell sharply on news of potential China InP export restrictions, then bounced 12% off lows. Bulls argue AXTI is actually in a 'powerful negotiating position' because the U.S. needs InP substrate supply easing and the Trump administration is aware\u2014making this a potential bullish catalyst if rules relax. Bears counter that if China restricts InP exports, AXTI loses its primary supply chain advantage. One account noted AXTI supplies InP substrates to LITE, giving it upfront funding and long-term demand visibility.",
+      "tickers": [
+        "AXTI",
+        "LITE"
+      ],
+      "source_item_ids": [
+        "x:2084671201063084210",
+        "x:2084610837457895511"
+      ]
+    },
+    {
+      "title": "NVDA: HBM4 alternative evaluation underway for Rubin Ultra; Blackwell GPUs at $2/hr for AI startups",
+      "body": "Trendforce reports Nvidia has been evaluating 8-Hi HBM4e, 12-Hi HBM4, and 8-Hi HBM4 alternatives for Rubin Ultra since early Q3 2026 due to supply constraints and HBM4e validation risks, with a 2027 DRAM shortage expected to limit memory availability. Separately, Gavin Baker disclosed a top-tier AI startup renting Blackwell clusters at mid-$2 per GPU hour\u2014pricing that implies compressed hyperscaler utilization economics. A separate analyst noted game theory supports durability of memory LTAs and Nvidia may derive significant revenue from cloud revenue-share arrangements.",
+      "tickers": [
+        "NVDA",
+        "MU"
+      ],
+      "source_item_ids": [
+        "x:2084627898871509483",
+        "x:2084661890035175627"
+      ]
+    },
+    {
+      "title": "Gamma squeeze and negative gamma at 6th-largest on record as S&P hits ATH",
+      "body": "Nomura's McElligott described 'absolute scenes' with negative gamma from options and leveraged ETF rebalancing at the 6th largest print on record, driving a 'vol up, spot up' dynamic. A separate account noted 'massive demand for short-dated index upside this week' (primarily S&P and Nasdaq) following July de-risking, with $30M+ in OTM SPY calls and a $2.7M QQQ call at a 900 strike observed. QQQ rose 9% since last Wednesday, nearly exiting correction territory, while 70% of S&P 500 stocks are above their 200-day moving averages\u2014the highest level in a year.",
+      "tickers": [
+        "SPY"
+      ],
+      "source_item_ids": [
+        "x:2084690813422858538",
+        "x:2084667877844566266"
+      ]
+    },
+    {
+      "title": "Strait of Hormuz: Iran signals mine-clearing flexibility; oil plunges 5.7%; reopening still uncertain",
+      "body": "Iran is considering allowing European nations to clear mines in the Strait of Hormuz, with Iran-Oman talks described as 'positive at technical and political levels.' Bessent suggested a deal could materialize by Tuesday or Wednesday. However, Rubio cautioned 'nothing final,' Nomura's McElligott called it 'v33' of the ceasefire narrative (implying repeated failed attempts), and shipping analysts note fewer than 10 ships in current traffic patterns. Oil dropped 5.7% to below $76/bbl on the news.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2084684662413164874",
+        "x:2084685565161623973"
+      ]
+    },
+    {
+      "title": "MRVL breaks $200; ALAB PCIe switch thesis articulated vs. AVGO and MRVL",
+      "body": "MRVL broke above $200 and was cited as 'one of the hottest semiconductor stocks lately.' A separate detailed thread analyzed the transition from PCIe retimers to switches, comparing ALAB, Broadcom, and Marvell offerings for scale-up AI infrastructure with AWS warrant dynamics as a key consideration.",
+      "tickers": [
+        "MRVL",
+        "ALAB",
+        "AVGO"
+      ],
+      "source_item_ids": [
+        "x:2084619025393578111",
+        "x:2084681506254143747"
+      ]
+    },
+    {
+      "title": "MU pullback called buying opportunity by BofA; $707 post-market flagged as potential bottom",
+      "body": "BofA reiterated its Buy rating on Micron with a $1,550 price target, calling the recent selloff an 'enhanced buying opportunity' as memory pricing normalizes 2027\u20132028. Separately, one account noted MU's $707 post-market price 'appears to mark the bottom,' emphasizing MU's non-commodity positioning in HBM. Trendforce also flagged a 2027 DRAM shortage supporting the memory bull case.",
+      "tickers": [
+        "MU"
+      ],
+      "source_item_ids": [
+        "x:2084632265481498917",
+        "x:2084654124755193944"
+      ]
+    },
+    {
+      "title": "CRWV +20% on Indonesia data center expansion; 360MW across three facilities",
+      "body": "CoreWeave announced expansion into Indonesia with three new data centers totaling 360 megawatts, driven by growing demand for localized AI compute capacity. Stock surged 20% on the announcement with facilities expected to come online in 2028.",
+      "tickers": [
+        "CRWV"
+      ],
+      "source_item_ids": [
+        "x:2084633571038273883",
+        "x:2084656618957152459"
+      ]
+    },
+    {
+      "title": "NVDA launches Alpamayo 2 Super open reasoning model for autonomous vehicles",
+      "body": "Jensen Huang announced the commercial launch of Alpamayo 2 Super, described as a frontier open reasoning model designed for robotaxis and autonomous vehicles, featuring 360\u00b0 awareness, high-level driving decisions, and automated reasoning labels.",
+      "tickers": [
+        "NVDA"
+      ],
+      "source_item_ids": [
+        "x:2084660556623974578",
+        "x:2084663782018543841"
+      ]
+    },
+    {
+      "title": "MSFT Azure hits $100B run rate; enterprise AI moving beyond single-model dependency",
+      "body": "Microsoft's Azure reached a $100B annual run rate, with one account highlighting that 'enterprise AI is moving beyond one model'\u2014implying diversified AI workloads across the customer base. MSFT was cited as approaching a $500 price target.",
+      "tickers": [
+        "MSFT"
+      ],
+      "source_item_ids": [
+        "x:2084664852782760225",
+        "x:2084665928193560731"
+      ]
+    },
+    {
+      "title": "LITE: AXTI InP substrate supply relationship detailed; FN, CIEN calls positive",
+      "body": "Multiple accounts highlighted that AXTI supplies InP substrates (essential for lasers) to LITE, providing AXTI upfront funding and long-term demand visibility while LITE secures a critical input. Separately, analyst calls with FN, CIEN, and LITE all characterized these as 'great companies' with strong long-term prospects. CIEN's WaveLogic 6 remains the only 1.6T coherent system deployed at scale with a $7.8B backlog.",
+      "tickers": [
+        "LITE",
+        "CIEN",
+        "FN",
+        "AXTI"
+      ],
+      "source_item_ids": [
+        "x:2084661945060450590",
+        "x:2084684198993072301"
+      ]
+    },
+    {
+      "title": "AI capex demand strong 9-12+ months; Morgan Stanley says open-weight models expand market",
+      "body": "One account assessed AI capex demand as solid for at least 9-12 months, with lagging cyclicals (housing, office) expected to inflect higher and consumption to hold up on labor market resilience. Morgan Stanley separately argued open-weight models (Kimi K3, Qwen, Llama) should accelerate AI adoption by lowering costs and are unlikely to hurt industry leaders.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2084680192597868868",
+        "x:2084647801619669320"
+      ]
+    },
+    {
+      "title": "AMZN: Bezos files $4B stock sale; AWS cited as best-positioned inference cloud",
+      "body": "Jeff Bezos filed to sell ~$4B in Amazon stock following a recent surge, with premarket shares down ~2%. One account separately argued AWS is the best-positioned inference cloud provider, and another cited AMZN's multi-billion dollar North Carolina data center investment as evidence of AI infrastructure conviction.",
       "tickers": [
         "AMZN"
       ],
       "source_item_ids": [
-        "x:2084605457016979677",
-        "x:2084559603665096909"
+        "x:2084651598651805846",
+        "x:2084646016930939071"
       ]
     },
     {
-      "title": "MSFT and AMZN Up 20%+ in a Week, Now 'Well Into Overbought' Territory",
-      "body": "A week ago MSFT and AMZN were solidly below their 50-DMAs; both have since gained 20%+ and are now 'well into overbought' territory. GOOGL has moved from 'deep oversold' to 'slightly overbought' over the same period.",
+      "title": "Tech sector forward P/E at ~20x, near year lows and below 10-year avg of 23x",
+      "body": "Bespoke noted the tech sector forward P/E ratio is approximately 20x, near the lowest level of the year and below the 10-year historical average of 23x\u2014suggesting valuation compression despite the rally.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2084631988258947506"
+      ]
+    },
+    {
+      "title": "SK Hynix and SanDisk release first OCP High Bandwidth Flash spec at FMS 2026",
+      "body": "SK Hynix and SanDisk jointly released the first OCP High Bandwidth Flash specification at Flash Memory Summit 2026. One account noted agentic AI will require an 'entirely new approach to storage' and that FMS this week is expected to feature significant AI storage news, with storage beginning to 'behave more like memory' as GPUs access SSDs directly in microseconds for long-context inference.",
       "tickers": [
-        "MSFT",
-        "AMZN",
-        "GOOGL"
+        "WDC"
       ],
       "source_item_ids": [
-        "x:2084608208123863459"
+        "x:2084642349599043748",
+        "x:2084667058890113140"
       ]
     },
     {
-      "title": "TSLA China July Deliveries +37.8% Y/Y to 93,579 Units",
-      "body": "Tesla's China July deliveries came in at 93,579 units per CPCA/PCA preliminary data, up 37.8% year-over-year, signaling a strong demand recovery in its largest EV market.",
-      "tickers": [
-        "TSLA"
-      ],
+      "title": "Macro: JOLTS misses at 7.359M, core factory orders plunge; durable goods beat",
+      "body": "JOLTS job openings came in at 7.359M vs. 7.454M consensus and down from 7.594M prior, while core factory orders fell by the most in a year. Durable goods orders beat at 0.5% vs. 0.3% expected. Atlanta Fed GDPNow fell to 5.86% from 6.18%, far above the average bank Q3 GDP forecast of 2.0%.",
+      "tickers": [],
       "source_item_ids": [
-        "x:2084603470712107029",
-        "x:2084599910188642346"
+        "x:2084640701380272364",
+        "x:2084644550564335715"
       ]
     },
     {
-      "title": "S&P 500 Hits All-Time High; Nasdaq 100 Futures Extend Climb to +1.1%",
-      "body": "The S&P 500 (SPY) reached a new all-time high during the session, with Nasdaq 100 futures extending gains to 1.1%. Yesterday marked the first time in 29 months the S&P gained >1% on the first trading day of a month\u2014ending the longest such streak since 1996.",
-      "tickers": [
-        "SPY"
-      ],
+      "title": "Fed's Paulson: not a close call to hold; will act if inflation progress stalls",
+      "body": "Philadelphia Fed President Paulson said the decision to hold rates was 'not a close call,' current policy is 'mildly restrictive,' and the Fed will need to act if progress on inflation is not made. Bessent's dovish lean was noted: his messaging shifted from 'cut rates' in January to 'don't hike' in August, signaling a less dovish stance than earlier this year.",
+      "tickers": [],
       "source_item_ids": [
-        "x:2084606539264856110",
-        "x:2084597085681094862"
+        "x:2084620824724779065",
+        "x:2084669171346837743"
       ]
     },
     {
-      "title": "Citadel's Rubner: July Selloff 'Reset the Bull Market, Not Ended It'",
-      "body": "Citadel's Scott Rubner says July's sharp selloff and sector rotation cleared excessive positioning\u2014including heavy selling of AI and semiconductor stocks by retail\u2014but the broader bull market uptrend remains intact.",
-      "tickers": [
-        "NVDA",
-        "AMD"
-      ],
-      "source_item_ids": [
-        "x:2084584519898689559"
-      ]
-    },
-    {
-      "title": "SPX 0DTE Straddle at Historical Lows Despite Elevated Realized Vol",
-      "body": "SPX 0DTE straddles pricing at just $25/33 bps\u2014near the lowest levels seen\u2014despite 5-day realized vol running at 20% and a 1.5% SPX move yesterday. The observation: dealers are slamming index vol while buying single-stock calls.",
+      "title": "SocGen sees S&P 500 at 8,000; SPX at ATH with 86% earnings beat rate and record 16.7% margins",
+      "body": "Societe Generale upgraded its S&P 500 target to 8,000, citing 86% earnings beat rate, record profit margins of 16.7%, and broadening strength beyond Big Tech. The S&P 500 hit a new intraday all-time high during the session\u2014a fast round-trip from one-month closing low to ATH in just four sessions. SocGen's message: 'buy the dip.'",
       "tickers": [
         "SPY"
       ],
       "source_item_ids": [
-        "x:2084600701670338896"
+        "x:2084618634853220859",
+        "x:2084638641519763658"
       ]
     },
     {
-      "title": "Bessent: Possible Iran Deal to Open Hormuz Tuesday/Wednesday; Algos No Longer Reacting",
-      "body": "Treasury Secretary Bessent told CNBC a deal to open the Strait of Hormuz could come Tuesday or Wednesday, though Qatar simultaneously said there is no set agenda for direct US-Iran talks. Commentary noted algos have stopped responding to Hormuz deal headlines, with WTI crude later extending losses as much as 4.5% on deal hopes.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2084606438689673298",
-        "x:2084607924727341519"
-      ]
-    },
-    {
-      "title": "Bessent on Yen: BOJ Will Do What's Needed; FIMA Repo as FX Swap Equivalent",
-      "body": "Bessent backed Japan's yen stabilization efforts, stating he sees no reason Japan should stop accumulating overseas assets. He also flagged the Fed's FIMA repo facility as functionally equivalent to FX swap lines and 'reasonable' to upsize\u2014a hawkish FX coordination signal. BOJ data suggests no large-scale intervention actually occurred Monday, with USDJPY rebounding nearly 300 pips from intervention lows.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2084605631806276062",
-        "x:2084584788485145058"
-      ]
-    },
-    {
-      "title": "10Y JGB Auction Posts 'Second Biggest Tail in Two Decades' as Buyers Step Away",
-      "body": "Japan's 10-year JGB auction was characterized as having the 2nd largest tail in 20 years as buyers withdrew, raising concerns about stability in Japan's bond market. Yen continues weakening despite intervention efforts.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2084602156112310547"
-      ]
-    },
-    {
-      "title": "AAPL India Sales Top $10B for First Time; DZ Bank Downgrades to Hold, PT $310",
-      "body": "Apple's annual India sales exceeded $10 billion for the first time, signaling growing EM penetration. Separately, DZ Bank downgraded AAPL from Buy to Hold with a $310 price target. OpenAI also published message exchanges claiming 'Apple is getting this wrong' regarding their integration partnership.",
+      "title": "GLW: Trump administration drafting polysilicon price floor and new tariffs to protect Hemlock",
+      "body": "The Trump administration is preparing a price floor on polysilicon and new tariffs on polysilicon and derivative products used in chips and solar panels. The move aims to protect U.S. producers including Hemlock Semiconductor, which is majority-owned by Corning.",
       "tickers": [
-        "AAPL"
+        "GLW"
       ],
       "source_item_ids": [
-        "x:2084585523125850525",
-        "x:2084565668079280196"
-      ]
-    },
-    {
-      "title": "KLA Purchase Commitments Jump from $2.75B to $4.83B in One Quarter",
-      "body": "KLA's purchase commitments more than doubled to $4.83B quarter-over-quarter, a sharp break from the 2-5% growth trend seen over the prior two years\u2014suggesting a major acceleration in semiconductor equipment demand.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2084561737496576398"
-      ]
-    },
-    {
-      "title": "Barclays: 85% of S&P 500 Beat Q2 Estimates; EPS Up 25.1% YoY Led by Big Tech",
-      "body": "Barclays reports 85% of S&P 500 companies beat Q2 earnings estimates versus a 76% historical average, with EPS growing 25.1% YoY and revenue up 11.2% YoY. Big Tech was singled out as the primary driver of outperformance.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2084577606586839406"
-      ]
-    },
-    {
-      "title": "SPOT Hits 300M Premium Subscribers; Q3 Revenue Guidance Beats",
-      "body": "Spotify crossed 300 million premium subscribers (vs. 299.2M estimate) and delivered Q3 revenue guidance of \u20ac5B vs. consensus \u20ac4.93B. Q2 revenue was essentially in-line at \u20ac4.78B, gross margin beat at 33.4%, and FCF came in at \u20ac797M.",
-      "tickers": [
-        "SPOT"
-      ],
-      "source_item_ids": [
-        "x:2084580856601923636"
-      ]
-    },
-    {
-      "title": "BofA Bull & Bear Indicator at Extreme Sell Reading, but Only 63% Accurate",
-      "body": "BofA's Bull & Bear Indicator is at one of its most extreme sell readings since 2000. However, the indicator's historical hit rate is only 63%, meaning it is wrong roughly one-third of the time\u2014worth monitoring but not a standalone signal.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2084604043150671937"
-      ]
-    },
-    {
-      "title": "43% of SPY's Yesterday's Rally Came from Just 5 Stocks",
-      "body": "Per Hedgeye/T1Alpha data, 43% of the SPY's prior session rally was attributable to just five stocks, underscoring the concentration of index-level momentum.",
-      "tickers": [
-        "SPY"
-      ],
-      "source_item_ids": [
-        "x:2084567614097965253"
-      ]
-    },
-    {
-      "title": "US Army Reportedly Depleted Most ATACMS and PrSM Long-Range Missiles in Iran Conflict",
-      "body": "Reuters reports the U.S. Army has used 'virtually all' of its long-range ATACMS and PrSM missiles over five months of the Iran conflict, raising questions about defense contractor production rates and resupply timelines.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2084581391627366645"
-      ]
-    },
-    {
-      "title": "Hormuz Shipping at ~10% of Pre-Conflict Levels; Aramco CEO: 18 Months to Rebuild Inventories",
-      "body": "Saudi Aramco's CEO Amin Nasser warned that even if the Strait of Hormuz reopened today, replenishing global oil inventories could take 18 months. Aramco is rerouting crude via its East-West pipeline to the Red Sea; Hormuz shipping has fallen to roughly one-tenth of pre-conflict levels.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2084559555355390292",
-        "x:2084557679461277925"
+        "x:2084672356329410958",
+        "x:2084671559432634684"
       ]
     }
   ]
