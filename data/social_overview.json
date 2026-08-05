@@ -1,225 +1,230 @@
 {
-  "digest_type": "eod",
-  "digest_dt": "2026-08-04T18:00:00-04:00",
-  "saved_at": "2026-08-04T23:26:41.536861+00:00",
+  "digest_type": "premarket",
+  "digest_dt": "2026-08-05T08:30:00-04:00",
+  "saved_at": "2026-08-05T14:12:37.099608+00:00",
   "bullets": [
     {
-      "title": "PLTR surges 27% on fifth straight triple play; Deutsche Bank upgrades to Buy at $200",
-      "body": "Palantir jumped 27% on Q2 results showing $1.94B revenue, +93% YoY\u2014its 12th consecutive quarter of accelerating growth. Bespoke notes it's the only Russell 1000 stock that has never moved less than 5% on earnings, having now posted five straight triple plays (eight in nine quarters). Deutsche Bank upgraded to Buy with a $200 price target as AI sovereignty narrative gains traction.",
+      "title": "AMD Q2 beats but -8% post-earnings on capex shock",
+      "body": "AMD reported Q2 revenue of $11.54B (+50% YoY) with Data Center doubling to $6.72B and non-GAAP EPS of $1.66 vs. $1.62 estimate\u2014all beats. Stock fell ~8% on Q2 capex of $808M vs. $298.6M expected, nearly triple consensus. Q3 guidance of $12.70\u2013$13.30B (midpoint $13B) topped the $12.51B consensus, but fintwit reads the capex surprise as a signal the market punished a stock priced for perfection. One account notes AMD's capex positions it for 2026\u201327 outgrowth, arguing the selloff is an overreaction.",
       "tickers": [
-        "PLTR"
+        "AMD"
       ],
       "source_item_ids": [
-        "x:2084640159623188982",
-        "x:2084632653215711679"
+        "x:2084752925633450323",
+        "x:2084896865548747161"
       ]
     },
     {
-      "title": "FCC drafts ban on Chinese optical transceivers; AAOI +18%, LITE +7%, COHR and photonics stack rally",
-      "body": "The FCC is drafting a rule to block imports of new Chinese optical transceiver models used in AI data centers. Fintwit bulls argue the ban benefits U.S. suppliers: AAOI jumped 18% as sole domestic alternative, LITE surged 7% as the only supplier of 200Gbps EMLs critical to Nvidia GB200 and Google TPUv7, COHR has a $5.81B backlog through 2027 and received a $2B NVDA strategic investment, and CIEN holds ~50% North American optical networking share with a $7.8B backlog. One account framed the ban as 'The Trump administration is telling you exactly what to invest in.'",
-      "tickers": [
-        "AAOI",
-        "LITE",
-        "COHR",
-        "CIEN"
-      ],
-      "source_item_ids": [
-        "x:2084659577585545566",
-        "x:2084635724595466490"
-      ]
-    },
-    {
-      "title": "AXTI split: bulls see InP permit leverage, bears fear China export controls",
-      "body": "AXTI fell sharply on news of potential China InP export restrictions, then bounced 12% off lows. Bulls argue AXTI is actually in a 'powerful negotiating position' because the U.S. needs InP substrate supply easing and the Trump administration is aware\u2014making this a potential bullish catalyst if rules relax. Bears counter that if China restricts InP exports, AXTI loses its primary supply chain advantage. One account noted AXTI supplies InP substrates to LITE, giving it upfront funding and long-term demand visibility.",
-      "tickers": [
-        "AXTI",
-        "LITE"
-      ],
-      "source_item_ids": [
-        "x:2084671201063084210",
-        "x:2084610837457895511"
-      ]
-    },
-    {
-      "title": "NVDA: HBM4 alternative evaluation underway for Rubin Ultra; Blackwell GPUs at $2/hr for AI startups",
-      "body": "Trendforce reports Nvidia has been evaluating 8-Hi HBM4e, 12-Hi HBM4, and 8-Hi HBM4 alternatives for Rubin Ultra since early Q3 2026 due to supply constraints and HBM4e validation risks, with a 2027 DRAM shortage expected to limit memory availability. Separately, Gavin Baker disclosed a top-tier AI startup renting Blackwell clusters at mid-$2 per GPU hour\u2014pricing that implies compressed hyperscaler utilization economics. A separate analyst noted game theory supports durability of memory LTAs and Nvidia may derive significant revenue from cloud revenue-share arrangements.",
-      "tickers": [
-        "NVDA",
-        "MU"
-      ],
-      "source_item_ids": [
-        "x:2084627898871509483",
-        "x:2084661890035175627"
-      ]
-    },
-    {
-      "title": "Gamma squeeze and negative gamma at 6th-largest on record as S&P hits ATH",
-      "body": "Nomura's McElligott described 'absolute scenes' with negative gamma from options and leveraged ETF rebalancing at the 6th largest print on record, driving a 'vol up, spot up' dynamic. A separate account noted 'massive demand for short-dated index upside this week' (primarily S&P and Nasdaq) following July de-risking, with $30M+ in OTM SPY calls and a $2.7M QQQ call at a 900 strike observed. QQQ rose 9% since last Wednesday, nearly exiting correction territory, while 70% of S&P 500 stocks are above their 200-day moving averages\u2014the highest level in a year.",
-      "tickers": [
-        "SPY"
-      ],
-      "source_item_ids": [
-        "x:2084690813422858538",
-        "x:2084667877844566266"
-      ]
-    },
-    {
-      "title": "Strait of Hormuz: Iran signals mine-clearing flexibility; oil plunges 5.7%; reopening still uncertain",
-      "body": "Iran is considering allowing European nations to clear mines in the Strait of Hormuz, with Iran-Oman talks described as 'positive at technical and political levels.' Bessent suggested a deal could materialize by Tuesday or Wednesday. However, Rubio cautioned 'nothing final,' Nomura's McElligott called it 'v33' of the ceasefire narrative (implying repeated failed attempts), and shipping analysts note fewer than 10 ships in current traffic patterns. Oil dropped 5.7% to below $76/bbl on the news.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2084684662413164874",
-        "x:2084685565161623973"
-      ]
-    },
-    {
-      "title": "MRVL breaks $200; ALAB PCIe switch thesis articulated vs. AVGO and MRVL",
-      "body": "MRVL broke above $200 and was cited as 'one of the hottest semiconductor stocks lately.' A separate detailed thread analyzed the transition from PCIe retimers to switches, comparing ALAB, Broadcom, and Marvell offerings for scale-up AI infrastructure with AWS warrant dynamics as a key consideration.",
-      "tickers": [
-        "MRVL",
-        "ALAB",
-        "AVGO"
-      ],
-      "source_item_ids": [
-        "x:2084619025393578111",
-        "x:2084681506254143747"
-      ]
-    },
-    {
-      "title": "MU pullback called buying opportunity by BofA; $707 post-market flagged as potential bottom",
-      "body": "BofA reiterated its Buy rating on Micron with a $1,550 price target, calling the recent selloff an 'enhanced buying opportunity' as memory pricing normalizes 2027\u20132028. Separately, one account noted MU's $707 post-market price 'appears to mark the bottom,' emphasizing MU's non-commodity positioning in HBM. Trendforce also flagged a 2027 DRAM shortage supporting the memory bull case.",
-      "tickers": [
-        "MU"
-      ],
-      "source_item_ids": [
-        "x:2084632265481498917",
-        "x:2084654124755193944"
-      ]
-    },
-    {
-      "title": "CRWV +20% on Indonesia data center expansion; 360MW across three facilities",
-      "body": "CoreWeave announced expansion into Indonesia with three new data centers totaling 360 megawatts, driven by growing demand for localized AI compute capacity. Stock surged 20% on the announcement with facilities expected to come online in 2028.",
-      "tickers": [
-        "CRWV"
-      ],
-      "source_item_ids": [
-        "x:2084633571038273883",
-        "x:2084656618957152459"
-      ]
-    },
-    {
-      "title": "NVDA launches Alpamayo 2 Super open reasoning model for autonomous vehicles",
-      "body": "Jensen Huang announced the commercial launch of Alpamayo 2 Super, described as a frontier open reasoning model designed for robotaxis and autonomous vehicles, featuring 360\u00b0 awareness, high-level driving decisions, and automated reasoning labels.",
+      "title": "SpaceX commits to NVDA-exclusive GPU supply; satellite AI compute confirmed",
+      "body": "On its first public earnings call, SpaceX CEO Musk confirmed the company is building exclusively on NVIDIA chips going forward and expects a 'significant percentage' of NVIDIA GPU output next year. The Starmind AI1 satellite compute payload will use NVIDIA Vera Rubin NVL72 GPUs and Vera CPUs. SpaceX reported Q2 revenue of $7.8B (+92% YoY), adj. EBITDA $3.5B (+191% YoY), AI segment revenue $2.56B, and $100B in cash/securities, yet shares fell ~7% post-market on share lockup concerns ahead of a 136.95M share secondary.",
       "tickers": [
         "NVDA"
       ],
       "source_item_ids": [
-        "x:2084660556623974578",
-        "x:2084663782018543841"
+        "x:2084747977403621421",
+        "x:2084733460690903204"
       ]
     },
     {
-      "title": "MSFT Azure hits $100B run rate; enterprise AI moving beyond single-model dependency",
-      "body": "Microsoft's Azure reached a $100B annual run rate, with one account highlighting that 'enterprise AI is moving beyond one model'\u2014implying diversified AI workloads across the customer base. MSFT was cited as approaching a $500 price target.",
+      "title": "COHR, AAOI, LITE, FN flagged as primary optical beneficiaries of China transceiver curbs",
+      "body": "Sell-side consensus identifies COHR and AAOI as main beneficiaries of FCC restrictions on Chinese data-center optical transceivers, with FN and LITE as secondary plays. COHR separately secured a CHIPS Act LOI for up to $50M to quadruple InP wafer capacity at its Sherman, Texas facility. Counterpoint Research warns that missing a single batch of Chinese transceivers can idle billion-dollar GPU allocations, amplifying the supply-chain urgency for domestic alternatives.",
+      "tickers": [
+        "COHR",
+        "AAOI",
+        "LITE",
+        "FN"
+      ],
+      "source_item_ids": [
+        "x:2084819947268800905",
+        "x:2084812632784265629"
+      ]
+    },
+    {
+      "title": "MU: HBM demand sold out through 2027; CXL broadening inference memory spend",
+      "body": "Digitimes reports SK Hynix, Micron, and Samsung have fully allocated 2027 DRAM and HBM production capacity. Separately, CXL momentum is described as confirming memory capacity and pricing stress while broadening inference memory spend beyond HBM\u2014a positive, high-magnitude catalyst for Micron. One account summarizes: 'AJ and Micron = no brainer.'",
+      "tickers": [
+        "MU"
+      ],
+      "source_item_ids": [
+        "x:2084760791040004235",
+        "x:2084785141340160176"
+      ]
+    },
+    {
+      "title": "ANET Q2: AI networking demand 'vastly outpaces supply'; growth broadening beyond back-end",
+      "body": "Arista Networks Q2 2026 earnings call read-throughs indicate AI networking demand materially exceeds available supply, with growth expanding beyond back-end data center infrastructure across a broader customer base. Operating margin came in at 48.8% vs. 46.8% consensus. Liquid cooling adoption is flagged as expanding from accelerators into the broader network fabric, benefiting ANET alongside COHR and LITE.",
+      "tickers": [
+        "ANET",
+        "COHR",
+        "LITE"
+      ],
+      "source_item_ids": [
+        "x:2084785616462414285",
+        "x:2084735197078048883"
+      ]
+    },
+    {
+      "title": "ALAB Q2 strong beat; AI infra spending broadening into switching and signal conditioning",
+      "body": "Astera Labs reported Q2 adjusted EPS of $0.83 vs. $0.69 estimate and revenue of $392M vs. $360M estimate\u2014a ~20% and ~9% beat respectively. Earnings call read-throughs show AI infrastructure spending broadening beyond accelerator silicon into high-radix scale-up switching and signal conditioning. NBIS, AAOI, and ALAB each surged 33\u201350% in the five trading days surrounding earnings.",
+      "tickers": [
+        "ALAB",
+        "AAOI",
+        "NBIS"
+      ],
+      "source_item_ids": [
+        "x:2084734097948311656",
+        "x:2084785134402953620"
+      ]
+    },
+    {
+      "title": "PLTR surges 25%+ on 'otherworldly' commercial demand; HSBC raises PT to $162",
+      "body": "Palantir soared after boosting forecasts and describing commercial demand as 'otherworldly.' HSBC raised its price target from $151 to $162. Michael Burry remains short PLTR (closed Jan 2026 puts but rolled the short). A separate report notes Palantir is shifting European profits to the U.S. to minimize European tax liability.",
+      "tickers": [
+        "PLTR"
+      ],
+      "source_item_ids": [
+        "x:2084874483400401015",
+        "x:2084738076241432949"
+      ]
+    },
+    {
+      "title": "GOOGL commits $150B to AI chip infrastructure; Gemini expands to all ages in Classroom",
+      "body": "Google's reported $150B commitment to AI chip infrastructure signals intensifying competition in AI compute capacity with potential to influence semiconductor and networking pricing dynamics. Separately, Google is expanding Gemini AI to all ages in Google Classroom starting August 10, with K-12 rollout underway.",
+      "tickers": [
+        "GOOGL"
+      ],
+      "source_item_ids": [
+        "x:2084903494092513350",
+        "x:2084732994603102210"
+      ]
+    },
+    {
+      "title": "TSEM: Tower Semi raises 2028 model by $800M; silicon wafer supply tightening",
+      "body": "Tower Semiconductor lifted its 2028 revenue forecast by $800M following Q2 2026 earnings that showed AI spending broadening into optical interconnects and analog power. Separately, GlobalWafers reports 12-inch, 8-inch, and 6-inch silicon wafer capacity is nearly full with demand recovering, with meaningful 2027 revenue growth expected from new capacity.",
+      "tickers": [
+        "TSEM"
+      ],
+      "source_item_ids": [
+        "x:2084721187587043545",
+        "x:2084808061634609539"
+      ]
+    },
+    {
+      "title": "MRVL: Memory access\u2014not compute\u2014is the AI inference bottleneck; CXL positioning strong",
+      "body": "Marvell highlighted that GPU utilization in AI inference is increasingly constrained by memory access as KV caches grow, not compute capacity. Flash Memory Summit attendees note Marvell's Celestial platform is well-positioned for the CXL opportunity.",
+      "tickers": [
+        "MRVL"
+      ],
+      "source_item_ids": [
+        "x:2084831545169506344",
+        "x:2084729632117686474"
+      ]
+    },
+    {
+      "title": "MSFT: 605 Redmond layoffs filed; $637M dark pool print signals post-earnings selling",
+      "body": "Microsoft filed a WARN notice for 605 workers in Redmond effective September 4, 2026. Separately, a $637M dark pool print in MSFT was flagged post-earnings rally, suggesting a large shareholder cashing out. Burry disclosed he exited his MSFT long calls entirely.",
       "tickers": [
         "MSFT"
       ],
       "source_item_ids": [
-        "x:2084664852782760225",
-        "x:2084665928193560731"
+        "x:2084902586298311131",
+        "x:2084733280159482190"
       ]
     },
     {
-      "title": "LITE: AXTI InP substrate supply relationship detailed; FN, CIEN calls positive",
-      "body": "Multiple accounts highlighted that AXTI supplies InP substrates (essential for lasers) to LITE, providing AXTI upfront funding and long-term demand visibility while LITE secures a critical input. Separately, analyst calls with FN, CIEN, and LITE all characterized these as 'great companies' with strong long-term prospects. CIEN's WaveLogic 6 remains the only 1.6T coherent system deployed at scale with a $7.8B backlog.",
+      "title": "BKNG Q2 beats across all metrics; guides Q3 +5-7% at constant FX",
+      "body": "Booking Holdings posted Q2 revenue of $7.35B (est. $7.18B), gross bookings $51.0B (est. $49.68B), and adj. EBITDA $2.65B (est. $2.56B). Q3 revenue guidance of +5\u20137% at constant FX and room night growth of +3\u20135%. CEO cited resilient U.S. demand (high single digits) and Middle East conflict as a headwind to long-haul travel, while AI-driven referrals remain a small but growing contributor.",
       "tickers": [
-        "LITE",
-        "CIEN",
-        "FN",
-        "AXTI"
+        "BKNG"
       ],
       "source_item_ids": [
-        "x:2084661945060450590",
-        "x:2084684198993072301"
+        "x:2084733109875224663",
+        "x:2084751590599397607"
       ]
     },
     {
-      "title": "AI capex demand strong 9-12+ months; Morgan Stanley says open-weight models expand market",
-      "body": "One account assessed AI capex demand as solid for at least 9-12 months, with lagging cyclicals (housing, office) expected to inflect higher and consumption to hold up on labor market resilience. Morgan Stanley separately argued open-weight models (Kimi K3, Qwen, Llama) should accelerate AI adoption by lowering costs and are unlikely to hurt industry leaders.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2084680192597868868",
-        "x:2084647801619669320"
-      ]
-    },
-    {
-      "title": "AMZN: Bezos files $4B stock sale; AWS cited as best-positioned inference cloud",
-      "body": "Jeff Bezos filed to sell ~$4B in Amazon stock following a recent surge, with premarket shares down ~2%. One account separately argued AWS is the best-positioned inference cloud provider, and another cited AMZN's multi-billion dollar North Carolina data center investment as evidence of AI infrastructure conviction.",
+      "title": "AAPL faces DRAM cost pressure as CXMT rejects price-cut request",
+      "body": "South Korean media reports Apple recently negotiated with China's CXMT for lower LPDDR5X DRAM prices ahead of next-gen iPhone production\u2014and was rejected. This strengthens Samsung and SK Hynix's bargaining position with Apple and keeps DRAM pricing firm. CXMT separately reported 716% YoY revenue growth, becoming the world's fastest-growing DRAM maker.",
       "tickers": [
-        "AMZN"
+        "AAPL"
       ],
       "source_item_ids": [
-        "x:2084651598651805846",
-        "x:2084646016930939071"
+        "x:2084885618757079402",
+        "x:2084886157415084168"
       ]
     },
     {
-      "title": "Tech sector forward P/E at ~20x, near year lows and below 10-year avg of 23x",
-      "body": "Bespoke noted the tech sector forward P/E ratio is approximately 20x, near the lowest level of the year and below the 10-year historical average of 23x\u2014suggesting valuation compression despite the rally.",
+      "title": "Samsung and SK Hynix evaluate Chinese AMEC etching equipment for China fabs",
+      "body": "Reuters reports Samsung and SK Hynix began testing AMEC etchers approximately two years ago as a hedge against U.S. sanctions making it difficult to bring equipment into Chinese fabrication plants. The evaluation reflects escalating concerns about supply chain resilience as export control risk intensifies.",
       "tickers": [],
       "source_item_ids": [
-        "x:2084631988258947506"
+        "x:2084827925833302106",
+        "x:2084830486631678367"
       ]
     },
     {
-      "title": "SK Hynix and SanDisk release first OCP High Bandwidth Flash spec at FMS 2026",
-      "body": "SK Hynix and SanDisk jointly released the first OCP High Bandwidth Flash specification at Flash Memory Summit 2026. One account noted agentic AI will require an 'entirely new approach to storage' and that FMS this week is expected to feature significant AI storage news, with storage beginning to 'behave more like memory' as GPUs access SSDs directly in microseconds for long-context inference.",
-      "tickers": [
-        "WDC"
-      ],
-      "source_item_ids": [
-        "x:2084642349599043748",
-        "x:2084667058890113140"
-      ]
-    },
-    {
-      "title": "Macro: JOLTS misses at 7.359M, core factory orders plunge; durable goods beat",
-      "body": "JOLTS job openings came in at 7.359M vs. 7.454M consensus and down from 7.594M prior, while core factory orders fell by the most in a year. Durable goods orders beat at 0.5% vs. 0.3% expected. Atlanta Fed GDPNow fell to 5.86% from 6.18%, far above the average bank Q3 GDP forecast of 2.0%.",
+      "title": "Fed's Schmid: AI investment is an inflation driver; current policy not restrictive enough",
+      "body": "KC Fed President Schmid (non-voter) became the fifth Fed official since last week's FOMC to signal openness to rate action, explicitly flagging AI investment as a potential inflation driver and stating the Fed 'should not ignore' it. He characterized current monetary policy as not restrictive and said tighter policy is needed to sustainably return inflation to 2%. Markets were briefly pricing a 58% chance of a September hike before the print, though one source suggests the probability is lower.",
       "tickers": [],
       "source_item_ids": [
-        "x:2084640701380272364",
-        "x:2084644550564335715"
+        "x:2084795788891475994",
+        "x:2084796356279808155"
       ]
     },
     {
-      "title": "Fed's Paulson: not a close call to hold; will act if inflation progress stalls",
-      "body": "Philadelphia Fed President Paulson said the decision to hold rates was 'not a close call,' current policy is 'mildly restrictive,' and the Fed will need to act if progress on inflation is not made. Bessent's dovish lean was noted: his messaging shifted from 'cut rates' in January to 'don't hike' in August, signaling a less dovish stance than earlier this year.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2084620824724779065",
-        "x:2084669171346837743"
-      ]
-    },
-    {
-      "title": "SocGen sees S&P 500 at 8,000; SPX at ATH with 86% earnings beat rate and record 16.7% margins",
-      "body": "Societe Generale upgraded its S&P 500 target to 8,000, citing 86% earnings beat rate, record profit margins of 16.7%, and broadening strength beyond Big Tech. The S&P 500 hit a new intraday all-time high during the session\u2014a fast round-trip from one-month closing low to ATH in just four sessions. SocGen's message: 'buy the dip.'",
+      "title": "S&P 500 closes at first record since June; Nasdaq 100 up ~945 bps in four sessions",
+      "body": "The S&P 500 and Dow hit all-time highs on Hormuz deal optimism, strong earnings, and falling oil. Goldman's Peter Callahan flagged the Nasdaq-100's 9.38% four-session return as the 6th-best such period in 20 years. $8.3T sits in money market funds at an all-time high, and a $16M SPY call sweep with a 31x V/OI ratio was flagged as highly unusual institutional conviction. Michael Burry publicly bet against the rally, calling for a potential 1987-style crash.",
       "tickers": [
         "SPY"
       ],
       "source_item_ids": [
-        "x:2084618634853220859",
-        "x:2084638641519763658"
+        "x:2084729196345999413",
+        "x:2084746254987169794"
       ]
     },
     {
-      "title": "GLW: Trump administration drafting polysilicon price floor and new tariffs to protect Hemlock",
-      "body": "The Trump administration is preparing a price floor on polysilicon and new tariffs on polysilicon and derivative products used in chips and solar panels. The move aims to protect U.S. producers including Hemlock Semiconductor, which is majority-owned by Corning.",
+      "title": "Oil -5.7% to $75.77/bbl on Hormuz deal hopes; Polymarket puts reopen at 32%",
+      "body": "WTI crude settled down 5.69% at $75.77/bbl and Brent below $80 on prospects of a U.S.-Iran interim deal to reopen the Strait of Hormuz\u2014though Iran denied knowledge of imminent talks and rejected an earlier Omani framework. Polymarket assigns 32% probability to Strait traffic normalization by September 30. Trump said gas prices 'could fall if Hormuz reopens.'",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2084709111304946090",
+        "x:2084819410901205022"
+      ]
+    },
+    {
+      "title": "AI datacenter buildout: 15GW+ of new capacity being built without backup generators",
+      "body": "SemiAnalysis datacenter team identified 15GW+ of new capacity\u2014including at Microsoft and Meta GPU halls\u2014being constructed without gensets or central UPS. The trend reflects training workload tolerance for downtime via checkpointing, cutting capex and accelerating deployment timelines. ABF substrate makers are being pre-funded for 2029\u20132030 capacity expansions as AI chip die sizes grow and LTAs prove insufficient.",
       "tickers": [
-        "GLW"
+        "MSFT",
+        "META"
       ],
       "source_item_ids": [
-        "x:2084672356329410958",
-        "x:2084671559432634684"
+        "x:2084811554961121348",
+        "x:2084833258202882084"
+      ]
+    },
+    {
+      "title": "Telecom stocks (VZ, T) fall 4%+ on SpaceX competitive threat comments",
+      "body": "Verizon, AT&T, and T-Mobile each fell more than 4% on SpaceX earnings call comments about Starlink's ambitions. Musk stated it is 'not out of the question' that Starlink delivers the majority of global internet within 10 years. SpaceX also announced it acquired EchoStar spectrum, adding to competitive pressure on incumbent telcos.",
+      "tickers": [
+        "VZ",
+        "T"
+      ],
+      "source_item_ids": [
+        "x:2084755854448873556",
+        "x:2084741044243993014"
+      ]
+    },
+    {
+      "title": "SNDK and WDC report after close Wednesday; SanDisk/SK Hynix announce High Bandwidth Flash standard",
+      "body": "SanDisk and Western Digital are scheduled to report Q2 earnings after Wednesday's close. Separately, SK Hynix in collaboration with SanDisk unveiled a new High Bandwidth Flash (HBF) standard designed to address AI inference memory bottlenecks, targeting up to 3TB/s bandwidth. One fintwit account noted a meeting with SanDisk management at Flash Memory Summit on Thursday.",
+      "tickers": [
+        "SNDK",
+        "WDC"
+      ],
+      "source_item_ids": [
+        "x:2084753870710861866",
+        "x:2084733822890115087"
       ]
     }
   ]
