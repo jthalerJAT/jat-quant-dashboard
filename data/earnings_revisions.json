@@ -1,12 +1,12 @@
 {
-  "digest_type": "midday",
-  "digest_dt": "2026-08-05T12:00:00-04:00",
-  "saved_at": "2026-08-05T16:43:10.325204+00:00",
+  "digest_type": "eod",
+  "digest_dt": "2026-08-05T18:00:00-04:00",
+  "saved_at": "2026-08-05T22:31:47.697149+00:00",
   "revisions": {
     "sales": {
       "metric": "sales",
       "metric_display": "Revenue",
-      "n_total_with_data": 122,
+      "n_total_with_data": 94,
       "by_pct_top": [
         {
           "ticker": "OKLO",
@@ -171,26 +171,6 @@
           "n_obs": 782
         },
         {
-          "ticker": "AFRM",
-          "forward_y_code": "27Y",
-          "metric": "sales",
-          "current_estimate": 5122.727,
-          "prior_estimate": 5191.067,
-          "pct_change": -1.3164923511871485,
-          "percentile": 3.324808184143223,
-          "n_obs": 782
-        },
-        {
-          "ticker": "CCL",
-          "forward_y_code": "27Y",
-          "metric": "sales",
-          "current_estimate": 28338.0,
-          "prior_estimate": 28664.692,
-          "pct_change": -1.1397017627121198,
-          "percentile": 1.278772378516624,
-          "n_obs": 782
-        },
-        {
           "ticker": "NXST",
           "forward_y_code": "27Y",
           "metric": "sales",
@@ -208,6 +188,26 @@
           "prior_estimate": 7435.548,
           "pct_change": -1.0456256889203042,
           "percentile": 3.8363171355498724,
+          "n_obs": 782
+        },
+        {
+          "ticker": "VZ",
+          "forward_y_code": "27Y",
+          "metric": "sales",
+          "current_estimate": 143755.889,
+          "prior_estimate": 144635.0,
+          "pct_change": -0.6078134614719843,
+          "percentile": 3.0690537084398977,
+          "n_obs": 782
+        },
+        {
+          "ticker": "NFLX",
+          "forward_y_code": "27Y",
+          "metric": "sales",
+          "current_estimate": 57032.636,
+          "prior_estimate": 57320.808,
+          "pct_change": -0.5027354115454852,
+          "percentile": 0.5115089514066496,
           "n_obs": 782
         }
       ],
@@ -335,16 +335,6 @@
           "n_obs": 782
         },
         {
-          "ticker": "CCL",
-          "forward_y_code": "27Y",
-          "metric": "sales",
-          "current_estimate": 28338.0,
-          "prior_estimate": 28664.692,
-          "pct_change": -1.1397017627121198,
-          "percentile": 1.278772378516624,
-          "n_obs": 782
-        },
-        {
           "ticker": "VZ",
           "forward_y_code": "27Y",
           "metric": "sales",
@@ -355,16 +345,6 @@
           "n_obs": 782
         },
         {
-          "ticker": "AFRM",
-          "forward_y_code": "27Y",
-          "metric": "sales",
-          "current_estimate": 5122.727,
-          "prior_estimate": 5191.067,
-          "pct_change": -1.3164923511871485,
-          "percentile": 3.324808184143223,
-          "n_obs": 782
-        },
-        {
           "ticker": "TEAM",
           "forward_y_code": "27Y",
           "metric": "sales",
@@ -372,16 +352,6 @@
           "prior_estimate": 7435.548,
           "pct_change": -1.0456256889203042,
           "percentile": 3.8363171355498724,
-          "n_obs": 782
-        },
-        {
-          "ticker": "CMCSA",
-          "forward_y_code": "27Y",
-          "metric": "sales",
-          "current_estimate": 118913.25,
-          "prior_estimate": 120159.8,
-          "pct_change": -1.037410182107501,
-          "percentile": 4.092071611253197,
           "n_obs": 782
         },
         {
@@ -412,6 +382,36 @@
           "prior_estimate": 132269.957,
           "pct_change": -0.25291306324382035,
           "percentile": 6.7774936061381075,
+          "n_obs": 782
+        },
+        {
+          "ticker": "TLN",
+          "forward_y_code": "27Y",
+          "metric": "sales",
+          "current_estimate": 5258.5,
+          "prior_estimate": 5373.75,
+          "pct_change": -2.144684810421027,
+          "percentile": 7.079646017699115,
+          "n_obs": 678
+        },
+        {
+          "ticker": "SHOP",
+          "forward_y_code": "27Y",
+          "metric": "sales",
+          "current_estimate": 18356.24,
+          "prior_estimate": 18371.633,
+          "pct_change": -0.0837867815016824,
+          "percentile": 9.59079283887468,
+          "n_obs": 782
+        },
+        {
+          "ticker": "MU",
+          "forward_y_code": "27Y",
+          "metric": "sales",
+          "current_estimate": 248746.292,
+          "prior_estimate": 248961.978,
+          "pct_change": -0.08663411245873887,
+          "percentile": 16.624040920716112,
           "n_obs": 782
         }
       ]
