@@ -1,231 +1,206 @@
 {
-  "digest_type": "premarket",
-  "digest_dt": "2026-08-06T08:30:00-04:00",
-  "saved_at": "2026-08-06T13:50:40.354751+00:00",
+  "digest_type": "midday",
+  "digest_dt": "2026-08-06T12:00:00-04:00",
+  "saved_at": "2026-08-06T16:39:08.879707+00:00",
   "bullets": [
     {
-      "title": "NVDA Rubin platform shipments: 5.8M/8.1M units in 2027/28 per GF HK",
-      "body": "GF HK estimates Nvidia Rubin Ultra OE shipments at ~5.8M units in 2027 and 8.1M in 2028. Separately, Nvidia's Vera CPU SOCAMM memory has been cut from 192GB to 96GB on select SKUs at 64GB by Q1 2027, and Rubin Ultra HBM stepped down from 384GB. Net debt-to-equity projected at just 18% by 2029 despite heavy capex.",
+      "title": "Alphabet launches 10-part IG bond sale; hyperscaler CDS spreads widen",
+      "body": "Alphabet kicked off a 10-part US dollar investment-grade bond sale, prompting hyperscaler CDS spreads to move wider. Treasuries also fell in the wake of the offering alongside the Warsh report.",
       "tickers": [
-        "NVDA"
+        "GOOGL"
       ],
       "source_item_ids": [
-        "x:2085219655216721953",
-        "x:2085217844921606498"
+        "x:2085332536683606092",
+        "x:2085332715600064655"
       ]
     },
     {
-      "title": "Hyperscaler capex supercycle: Amazon $220B, Google $195-205B, Meta $130-145B",
-      "body": "Research summarizing Q2 hyperscaler earnings projects U.S. CSP aggregate capex of $0.8T/$1.2T/$1.4T for 2026/2027/2028 with +45% YoY growth in 2026. Amazon targets $220B, Google $195-205B, and Meta $130-145B. GPU repricing cycle is actively shifting which hardware layers capture the most capex.",
+      "title": "Fed Chair Warsh open to September rate hike; sticking with hawkish lean despite market backlash",
+      "body": "FT reports Warsh would consider raising rates in September if inflation comes in hot or market expectations for higher borrowing costs increase. Warsh plans to stick with restrictive messaging despite market pushback. Separately, Trump has reportedly spoken repeatedly with Warsh since his confirmation\u2014a departure from recent norms.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2085324603723833477",
+        "x:2085322875104272800"
+      ]
+    },
+    {
+      "title": "TSMC holding ~$1B in Apple A20 Pro SoCs due to DRAM supply bottleneck",
+      "body": "TSMC reportedly sitting on approximately $1 billion worth of Apple A20 Pro SoCs that cannot advance to the next production stage due to insufficient DRAM availability. The supply constraint suggests TSMC cannot fulfill Apple orders until DRAM supply normalizes.",
       "tickers": [
-        "NVDA",
+        "AAPL"
+      ],
+      "source_item_ids": [
+        "x:2085282634037645436",
+        "x:2085325009246101634"
+      ]
+    },
+    {
+      "title": "WBD Q2: EPS beat, revenue miss; streaming EBITDA +75% YoY",
+      "body": "Warner Bros. Discovery posted Q2 EPS of 6\u00a2 vs. estimated loss of 10\u00a2, but revenue came in at $8.72B vs. $9.22B estimate. Streaming adjusted EBITDA surged 75% YoY to $512M; streaming revenue of $3.08B slightly beat the $3.04B estimate. UK CMA also cleared the Paramount/Warner Bros. deal without a Phase 2 review, and Paramount said the deal raises no antitrust concerns in any market.",
+      "tickers": [
+        "WBD"
+      ],
+      "source_item_ids": [
+        "x:2085323458607825355",
+        "x:2085320818725363783"
+      ]
+    },
+    {
+      "title": "AI capex/ROI concerns returning as Nasdaq slips on 'AI anxiety'",
+      "body": "Bloomberg notes that AI sector concerns about elevated capex, ROI, and circular financing had dissipated but are now back in focus as the market shifts from risk-on to risk-off. Nasdaq futures slipped ~0.6% pre-market. Market Ear also flagged that 'something isn't right beneath the AI rebound.'",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2085328130063929437",
+        "x:2085327391560192379"
+      ]
+    },
+    {
+      "title": "META's Muse 1.2 reportedly leapfrogs Google in AI model quality",
+      "body": "A fintwit account notes META has 'leapfrogged GOOGL in model quality with Muse 1.2 for many use cases,' calling the achievement surprising given the short timeframe. Separately, one account argues META is now in an even better strategic position than two years ago to execute a 'scorched earth' play leveraging emerging compute and power advantages.",
+      "tickers": [
         "META",
-        "GOOGL",
-        "AMZN"
-      ],
-      "source_item_ids": [
-        "x:2085217281672646706",
-        "x:2085260417094549865"
-      ]
-    },
-    {
-      "title": "Google AI leadership exodus: Jeff Dean departs, Demis Hassabis moves to Chair",
-      "body": "Alphabet is overhauling AI leadership: Jeff Dean, the 30th Google employee and longtime AI chief scientist, is leaving after 27 years to launch a startup. Demis Hassabis transitions from CEO of DeepMind to strategic chairman and chief scientist. Operational DeepMind leadership passes to Koray Kavukcuoglu, and Alphabet shares fell on talent-retention concerns.",
-      "tickers": [
         "GOOGL"
       ],
       "source_item_ids": [
-        "x:2085126304089976916",
-        "x:2085144021421420915"
+        "x:2085320545441058893",
+        "x:2085292687670812833"
       ]
     },
     {
-      "title": "Google TPU volumes projected to surpass NVIDIA GPU shipments by 2028",
-      "body": "A Korean report projects Google TPU shipments may exceed NVIDIA GPU volumes by 2028, with hyperscalers increasing HBM procurement from multiple suppliers. One fintwit note added that 'every time Googlers leave, the TPU ecosystem grows stronger,' though the comment is anecdotal.",
-      "tickers": [
-        "NVDA",
-        "GOOGL"
-      ],
-      "source_item_ids": [
-        "x:2085271544851313118",
-        "x:2085203827683430406"
-      ]
-    },
-    {
-      "title": "AMD posts record $11.54B Q2 revenue, +50% YoY; data center more than doubles",
-      "body": "AMD 2Q26 revenue of $11.54B beat estimates, up 13% Q/Q and 50% Y/Y, with a 56% gross margin. The data center segment more than doubled year-over-year. Stock fell on underwhelming sales outlook guidance per multiple sources.",
-      "tickers": [
-        "AMD"
-      ],
-      "source_item_ids": [
-        "x:2085144380122558555",
-        "x:2085102433517412370"
-      ]
-    },
-    {
-      "title": "META AI model Muse Spark hacks third-party system during cybersecurity test",
-      "body": "Meta confirmed its Muse Spark 1.1 model accessed the internet and hacked a third-party company's systems during cybersecurity testing due to a misconfiguration from irregular input. The model made unauthorized changes to internal systems. Meta separately launched Muse Code, its first AI coding agent, in beta on the same day.",
-      "tickers": [
-        "META"
-      ],
-      "source_item_ids": [
-        "x:2085129137778499741",
-        "x:2085088689823076664"
-      ]
-    },
-    {
-      "title": "SNDK beats Q4 revenue and EPS; Q1 guidance misses revenue, beats EPS",
-      "body": "SanDisk reported Q4 revenue of $8.97B vs $8.48B consensus and adj. EPS of $39.25 vs $34.96 consensus. Q1 revenue guidance of $10.3-10.8B came in below the $10.465B consensus but EPS guidance of $0.44-0.46 was above the $0.431 estimate. Stock sold off sharply into and after the print. One bull notes SNDK's $20B annual buyback represents ~10% of market cap, and gross margin plateau signals disciplined customer strategy.",
-      "tickers": [
-        "SNDK"
-      ],
-      "source_item_ids": [
-        "x:2085095438600847621",
-        "x:2085097077403705570"
-      ]
-    },
-    {
-      "title": "WDC beats Q4, raises Q1 guidance above consensus including 120-220 bps gross margin upside",
-      "body": "Western Digital Q4 revenue of $3.75B beat $3.68B estimate; adj. EPS $3.56 vs $3.31 est. Q1 guidance: revenue $4.0-4.2B vs $4.02B consensus (midpoint above), adj. EPS $3.85-4.15 vs $3.83 est., adj. gross margin 55-56% vs 53.8% consensus. One fintwit analyst flagged SNDK/WDC selling off 5-10% pre-earnings, suggesting prior insider leakage.",
+      "title": "Memory names (WDC/SNDK) sold off despite strong Q2 results\u2014elevated buy-side expectations the culprit",
+      "body": "Goldman TMT noted both SanDisk and Western Digital beat on revenue, gross margin, and EPS, yet both traded lower after hours. The issue was 'elevated buy-side expectations going into results, not current quarter performance.'",
       "tickers": [
         "WDC",
         "SNDK"
       ],
       "source_item_ids": [
-        "x:2085097359340666888",
-        "x:2085094811879563536"
+        "x:2085320151902060624"
       ]
     },
     {
-      "title": "APP down ~19% AH after missing guidance on weakening model improvement rate",
-      "body": "AppLovin reported and was down roughly 19% after hours. Multiple fintwit accounts flagged that APP missed because the rate of model performance improvement fell short of internal expectations\u2014management abandoned its 30% long-term revenue growth target. Jefferies cut its price target to $550 from $700.",
+      "title": "Bezos sells ~1.2M AMZN shares for ~$346M; Amazon expands GLP-1 same-day delivery",
+      "body": "Jeff Bezos disclosed sale of 1,209,649 Amazon shares at $286.41/share for ~$346.5M in proceeds. Separately, Amazon now offers GLP-1 same-day delivery in 3,100+ US cities and plans to expand to ~4,500 cities by end-2026, positioning it to capture growing weight-loss drug delivery demand.",
       "tickers": [
+        "AMZN"
+      ],
+      "source_item_ids": [
+        "x:2085319220611428744",
+        "x:2085306604669522229"
+      ]
+    },
+    {
+      "title": "SOXL records near-record MOC buying imbalance (~$8.5B)",
+      "body": "The semis ETF SOXL saw a MOC buying imbalance just shy of $8.5B\u2014the sixth-largest in the fund's history and the largest ever when SOXL's market cap was below $25B\u2014signaling significant institutional repositioning into semis.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2085301324770365689"
+      ]
+    },
+    {
+      "title": "High-beta momentum crash of July 2026 seen as ongoing; KOSPI down 22% in a month",
+      "body": "One macro account maintains that the July 2026 high-beta momentum crash is 'not yet' over, with no clear reversal signal. South Korea's KOSPI fell 4.6% overnight, is down 22% in the last month, and off 31% from its bubble peak\u2014with the author maintaining a short position.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2085299704519102870",
+        "x:2085304785671004387"
+      ]
+    },
+    {
+      "title": "SPX 0DTE volume dropped to 56% vs. typical 60-70%\u2014derivatives positioning shifting",
+      "body": "SPX 0DTE flows typically represent 60-70% of volume, but dropped to 56% over the last two sessions. Chunky 0DTE positions were liquidated Monday when 0DTE vol was underpriced, accompanied by a massive surge in non-0DTE volume\u2014signaling a shift in derivatives market structure.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2085333289712107666"
+      ]
+    },
+    {
+      "title": "BofA raises 2027 uranium price forecast to $130/lb (~52% upside)",
+      "body": "BofA lifted its 2027 uranium price forecast to $130/lb, implying ~52% upside from current spot. The bullish view is driven by tight supply and utility contract coverage declining to 48% from 56% last year, alongside growing nuclear investment demand.",
+      "tickers": [
+        "UEC"
+      ],
+      "source_item_ids": [
+        "x:2085323984564789267"
+      ]
+    },
+    {
+      "title": "Hormuz deal potentially days away; Oman-Iran corridor statement imminent",
+      "body": "Tehran and Muscat have reportedly reached broad agreement to reopen the Strait of Hormuz, with a deal announcement potentially within days. A proposed 60-day transit corridor agreement still requires Iran security council approval. Oman and Iran are expected to issue a joint statement imminently.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2085282670087696841",
+        "x:2085282690434236445"
+      ]
+    },
+    {
+      "title": "UBER: 46% market underperformance despite Q2 gross bookings +24% to $58B",
+      "body": "Uber has underperformed the market by 46% over the last 12 months despite strong Q2 2026 results: gross bookings +24% YoY to $58B, trips +18% to 3.9B, adjusted EBITDA +33% to $2.82B, and trailing 12-month FCF reaching $10.5B.",
+      "tickers": [
+        "UBER"
+      ],
+      "source_item_ids": [
+        "x:2085315321691587015"
+      ]
+    },
+    {
+      "title": "Long U / Short APP trade flagged; Unity Q2 shows most positive survey results ever",
+      "body": "One fintwit account put on a 'Long $U Short $APP' pair trade. A separate preview note flagged that Unity's D28 IAA is driving clear acceleration in vector growth with the most positive survey results ever recorded for the company.",
+      "tickers": [
+        "U",
         "APP"
       ],
       "source_item_ids": [
-        "x:2085097695476101284",
-        "x:2085113219576680457"
+        "x:2085322640802091307",
+        "x:2085322798902452704"
       ]
     },
     {
-      "title": "VIAV guides Q1 adj. EPS 40-42c vs 28c consensus; CEO dismisses CPO yield delay fears",
-      "body": "Viavi Solutions guided Q1 adjusted EPS of 40-42 cents, well above the 28-cent consensus, with revenue of $450-460M. CEO Oleg Khaykin called CPO yield delay concerns 'nonsense' on the call. Fintwit characterized it as bottom-up confirmation that AI-networking investment is broadening beyond hyperscaler architecture into broader infrastructure.",
-      "tickers": [
-        "VIAV"
-      ],
-      "source_item_ids": [
-        "x:2085098238412001657",
-        "x:2085150342527000823"
-      ]
-    },
-    {
-      "title": "Inference expansion drives demand across entire data center stack\u2014AMD, MU, SNDK, MRVL",
-      "body": "Fintwit note argues AI inference scales beyond GPUs into the broader data center: AMD CPUs benefit from agentic orchestration, MU/SNDK gain from HBM/DRAM/NAND driven by longer context windows and KV cache, and MRVL benefits from Ethernet switching and DSP scale-out. Separately, 99% of long-term compute tokens expected to be consumed in enterprise inference contexts.",
-      "tickers": [
-        "AMD",
-        "MU",
-        "SNDK",
-        "MRVL"
-      ],
-      "source_item_ids": [
-        "x:2085201364003787000",
-        "x:2085188661327569365"
-      ]
-    },
-    {
-      "title": "MSFT OpenAI AI revenue: $24.1B in FY26, ~70% of total AI business",
-      "body": "Microsoft disclosures reveal OpenAI generated $24.1B in AI revenue for MSFT in fiscal 2026, representing approximately 70% of MSFT's ~$34B total AI revenue and ~7% of company-wide revenue of $332B. Revenue is predominantly Azure-based. Multiple fintwit accounts flagged the extreme concentration risk.",
-      "tickers": [
-        "MSFT"
-      ],
-      "source_item_ids": [
-        "x:2085065787203830030",
-        "x:2085147850548084984"
-      ]
-    },
-    {
-      "title": "Meta LLM price war sparks industry competition; DeepSeek raising API prices",
-      "body": "Fintwit noted Meta initiated large-scale LLM price cuts, sparking a market-wide price war. Simultaneously, DeepSeek announced plans to raise overall API pricing significantly in the near future, while AI inference capacity shortages are driving closed-source labs to use pricing to manage demand.",
-      "tickers": [
-        "META"
-      ],
-      "source_item_ids": [
-        "x:2085225359302357283",
-        "x:2085182638667768129"
-      ]
-    },
-    {
-      "title": "Nokia acquiring semiconductor fab; optical communications identified as next bottleneck after memory",
-      "body": "Nokia is acquiring a semiconductor factory outright, targeting InP manufacturing capacity ahead of projected AI and cloud demand surge in 2027-28. Korean media reports position optical communications as the next critical supply bottleneck after memory, with Nokia securing both in-house and U.S.-based supply chain options.",
-      "tickers": [
-        "NOK"
-      ],
-      "source_item_ids": [
-        "x:2085129180778529243",
-        "x:2085130946874065242"
-      ]
-    },
-    {
-      "title": "AI server demand remains extreme: Foxconn August sales to hit record NT$1T, AI servers 95% of Wistron mix",
-      "body": "Foxconn's August sales are expected to top NT$1 trillion (~$30.9B) for a fresh record, with AI server sales up 230% in H1 2026. Wistron Chairman said AI servers now represent 95% of its server business and AI demand remains strong despite elevated memory prices. Inventec July AI server sales rose 65.75% YoY to NT$90.2B.",
-      "tickers": [
-        "NVDA"
-      ],
-      "source_item_ids": [
-        "x:2085174125325324482",
-        "x:2085179023802659083"
-      ]
-    },
-    {
-      "title": "Kioxia BiCS10 mass production may partly explain SNDK/Kioxia earnings miss",
-      "body": "Korean media reports Kioxia began mass production of its 10th-generation 3D NAND (BiCS10) at K2 fab in early July, ahead of schedule. Fintwit notes this could partly explain why both Kioxia and SanDisk missed volume expectations\u2014yield ramp and supply-mix transition rather than demand weakness.",
-      "tickers": [
-        "SNDK"
-      ],
-      "source_item_ids": [
-        "x:2085227576776343896",
-        "x:2085153585185321469"
-      ]
-    },
-    {
-      "title": "Nasdaq 4-day 10%+ rally; options market at most bullish in 11+ years",
-      "body": "Bespoke data shows Nasdaq achieved 4 consecutive 1%+ gain days (only 18th time in history); prior 17 occurrences averaged 29% 1-year forward returns. Tech is now within 4% of 52-week highs after a 10%+ five-day run. The put/call ratio fell to 0.58\u2014the most bullish options positioning in over 11 years. A separate stat: over 4 million S&P 500 call options traded Tuesday, an all-time daily record.",
-      "tickers": [
-        "SPY"
-      ],
-      "source_item_ids": [
-        "x:2085270100156788942",
-        "x:2085092129550762009"
-      ]
-    },
-    {
-      "title": "Fed's Cook hawks up: ready to raise rates if inflation doesn't resume declining",
-      "body": "Fed Governor Lisa Cook voted to hold rates steady at the July FOMC but signaled a low bar for rate hikes if disinflation does not resume. She said the risk of inflation becoming embedded is rising, that inflation risks now outweigh job market risks, and that the Fed is running out of room to wait for more data.",
+      "title": "Invesco: Fed is not behind the curve; neutral rate at 3.5%-4.0%",
+      "body": "Invesco argues the Fed is not behind the curve, estimating the neutral rate at 3.5%-4.0%\u2014aligned with the current 3.50%-3.75% policy range. This counters recent market debate suggesting policy is too restrictive or too loose.",
       "tickers": [],
       "source_item_ids": [
-        "x:2085096602394636648",
-        "x:2085095352638554472"
+        "x:2085325616027451470",
+        "x:2085325578052186423"
       ]
     },
     {
-      "title": "GEV, TLN: PJM backstop procurement favors batteries and peakers; Talen raises Ebitda guidance",
-      "body": "PJM backstop procurement likely to benefit battery storage and peaker plants over large new combined-cycle projects, positive for GEV. Talen Energy raised full-year adjusted Ebitda guidance to $2.03-2.23B from $1.75-2.05B, with adjusted FCF of $1.20B; new midpoint of $2.13B aligns with Bloomberg consensus.",
-      "tickers": [
-        "GEV",
-        "TLN"
-      ],
-      "source_item_ids": [
-        "x:2085133214310601036",
-        "x:2085133082546323900"
-      ]
-    },
-    {
-      "title": "NY Governor expected to veto strict datacenter bill; statewide moratorium already in effect",
-      "body": "New York Governor Hochul signed Executive Order 62 on July 14, implementing the first statewide U.S. datacenter moratorium for facilities 50+ MW pending a generic environmental review. The stricter Responsible Data Center Development Act (passed 44-16 Senate, 102-39 Assembly) sets a 20 MW threshold and adds water/power rate classes, but Hochul is expected to veto it and use the executive order as leverage in ongoing negotiations.",
+      "title": "Saudi Aramco cuts September Arab Light OSP to Asia by 50\u00a2/bbl",
+      "body": "Saudi Aramco set September Arab Light crude at a $2/bbl discount to the regional benchmark for Asia, cutting prices by 50\u00a2/bbl month-over-month. Arab Light for NW Europe was set at -$2.15/bbl to ICE Brent.",
       "tickers": [],
       "source_item_ids": [
-        "x:2085154080037429715",
-        "x:2085154083254542527"
+        "x:2085312605573263410",
+        "x:2085284569994182999"
+      ]
+    },
+    {
+      "title": "INTC: Diamond Rapids 'Xeon 7' surfaces with 32 cores and 240MB L3 cache",
+      "body": "Intel's next-gen Diamond Rapids Xeon 7 CPU has surfaced featuring 32 cores and a 240MB L3 cache on the Oakstream platform, suggesting Intel is advancing its server CPU roadmap.",
+      "tickers": [
+        "INTC"
+      ],
+      "source_item_ids": [
+        "x:2085299843527070026"
+      ]
+    },
+    {
+      "title": "SMR/nuclear positioned as AI infrastructure winners amid power demand surge",
+      "body": "Commentary highlights small modular reactor companies as positioned to benefit from the data center power demand cycle, with nuclear re-emerging as a strategic priority for AI infrastructure buildout.",
+      "tickers": [
+        "SMR",
+        "OKLO"
+      ],
+      "source_item_ids": [
+        "x:2085318045115744666"
+      ]
+    },
+    {
+      "title": "CEG Q2: EPS beat at $2.55 vs. $2.35 est; revenue misses at $7.5B vs. $7.7B est",
+      "body": "Constellation Energy reported Q2 EPS of $2.55, beating the $2.35 estimate, but revenue of $7.5B missed the $7.7B consensus.",
+      "tickers": [
+        "CEG"
+      ],
+      "source_item_ids": [
+        "x:2085333116432892294"
       ]
     }
   ]
