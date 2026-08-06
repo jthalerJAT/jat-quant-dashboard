@@ -1,235 +1,208 @@
 {
-  "digest_type": "midday",
-  "digest_dt": "2026-08-06T12:00:00-04:00",
-  "saved_at": "2026-08-06T16:39:08.877707+00:00",
+  "digest_type": "eod",
+  "digest_dt": "2026-08-06T18:00:00-04:00",
+  "saved_at": "2026-08-06T22:31:43.099767+00:00",
   "bullets": [
     {
-      "title": "Fed's Warsh signals openness to September rate hike; Invesco sees Fed at neutral",
-      "body": "FT reports Fed Chair Warsh plans to stick with lean/hawkish messaging despite market backlash and is open to raising rates in September if inflation data surprises to the upside. Invesco argues the Fed is not behind the curve, estimating neutral at 3.5%-4.0%, roughly consistent with the current 3.50%-3.75% policy range. Trump has spoken repeatedly with Warsh since his appointment, a departure from recent practice.",
+      "title": "Fed Chair Warsh signals September rate hike; BofA sees three hikes this year",
+      "body": "Fed Chair Kevin Warsh is reportedly prepared to support a September rate hike per FT, with markets now pricing ~70% probability of at least one hike this year. Bank of America has revised its outlook to expect three rate hikes total. Separately, critics note Warsh's stated goal of eliminating forward guidance is being undercut by colleagues leaking policy speculation to the FT, damaging Fed credibility.",
       "tickers": [],
       "source_item_ids": [
-        "x:2085324603723833477",
-        "x:2085321854366130666"
+        "x:2085399751185633306",
+        "x:2085409870887399679"
       ]
     },
     {
-      "title": "Labor market remains strong: jobless claims 199K (3rd sub-200K print), layoffs plunge 46% YoY",
-      "body": "Initial jobless claims came in at 199K vs. 203K expected, the third consecutive reading below 200K, with the four-week moving average also sub-200K. Challenger July job cuts plunged 46.1% YoY and 27% MoM to 33,429\u2014the lowest monthly total in three years. Q2 productivity rose 1.4% QoQ AR (vs. 0.6% consensus) while unit labor costs climbed just 1.3% QoQ AR, supporting benign inflation and consumer income outlook. July NFP consensus sits around +80K.",
+      "title": "U.S. labor data strong: jobless claims 199K, productivity beats at +1.4% QoQ",
+      "body": "Initial jobless claims fell to 199K (est. 205K), remaining near 57-year lows for a third consecutive week. Q2 nonfarm productivity rose 1.4% vs. 0.6% consensus, while unit labor costs came in at 1.3% vs. 2.1% forecast \u2014 a broadly disinflationary labor print that nonetheless supports a hawkish Fed pivot.",
       "tickers": [],
       "source_item_ids": [
-        "gmail:19fd75e4449bc467",
-        "gmail:19fd763601803ca7"
+        "x:2085342795036815612",
+        "x:2085345698396979498"
       ]
     },
     {
-      "title": "Hormuz Strait reopening deal imminent; oil higher on optimism",
-      "body": "Tehran and Muscat have reportedly reached broad agreement on a temporary Hormuz transit corridor, with a formal joint statement expected within days. The proposed deal spans 60 days and still requires Iran's security council approval. Oil and yields are both higher in response; Brent crude was up ~1% to $80/bbl in pre-market. UBS energy flow data confirms Hormuz flows remain at low levels with Bab el Mandeb also declining.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2085282670087696841",
-        "x:2085334733794254978"
-      ]
-    },
-    {
-      "title": "Tech HF losses hit record -10% in July; semis/memory liquidation dominated",
-      "body": "TMT-dedicated hedge funds suffered their worst monthly drawdown on record at -10.2% in July; multi-strat funds lost 2.3% (fourth-worst ever). Losses were driven by concentrated positions in semis/memory, mishandled vol/correlation in options, and inadequate liquidity stress-testing. The Situational Awareness fund saw AUM collapse from $45B to $10B. Tech rally is now more dependent on retail flows and leveraged ETFs, increasing volatility. SOXL saw its sixth-largest MOC buying imbalance (~$8.5B) in its history.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19fd746af9b27bad",
-        "gmail:19fd70f5df70be6e"
-      ]
-    },
-    {
-      "title": "AI capex/ROI concerns re-emerging as risk-on/risk-off factor; hyperscaler CDS widening",
-      "body": "Bloomberg and Morgan Stanley note AI sector concerns around elevated capex, ROI, and circular financing\u2014which had dissipated\u2014are returning and the market is treating AI as a macro risk-on/risk-off factor. Hyperscaler CDS spreads moved wider following Alphabet's 10-part investment-grade bond offering. MS projects $1.4T in AI capex with 25-50% GenAI ROIC across three business models; SpaceX reportedly guided $100B 2026 exit revenue on a 4x Nvidia compute ramp (2GW to 8+GW).",
-      "tickers": [
-        "GOOGL",
-        "NVDA",
-        "AVGO"
-      ],
-      "source_item_ids": [
-        "x:2085328130063929437",
-        "gmail:19fd7bd1ca53f524"
-      ]
-    },
-    {
-      "title": "GOOGL talent exodus to Discovery Loop raises frontier model credibility concerns",
-      "body": "Jeff Dean and three Google AI executives departed to launch the Discovery Loop startup, sending GOOGL down ~4%. Demis Hassabis is stepping down as DeepMind CEO to Chief Scientist, refocusing on Isomorphic Labs. GOOGL researchers are frustrated by compute being diverted to TPU sales vs. internal R&D, with talent flowing to OpenAI and Anthropic. Gemini 4 is reportedly on track but GOOGL's frontier model status is increasingly in question, even as the GCP/infrastructure business shows strong customer momentum.",
-      "tickers": [
-        "GOOGL",
-        "META"
-      ],
-      "source_item_ids": [
-        "gmail:19fd77335332b35d",
-        "gmail:19fd759f46e268b7"
-      ]
-    },
-    {
-      "title": "Software sentiment mixed: SHOP/DASH break out, HUBS/APP/DDOG disappoint sharply",
-      "body": "Earnings divergence is sharp in software: SHOP surged 17% on 33% revenue growth and AI acceleration (Citi PT raised to $196); DASH +4% on biggest EBITDA beat in 2+ years with US restaurant GOV +17% and Q3 EBITDA guide 10% above consensus. HUBS fell ~24% after cutting FY guidance, with net new customer adds at lowest since Q1 2020 and NRR ticking to 102%\u2014Wolfe downgraded to Peer Perform guiding FY27 growth to 13% vs. consensus 15%. DDOG dropped 17% as Q3 revenue guide implies deceleration to +28-29% from +36%. APP fell 19% on its first revenue miss in 14 quarters with compute costs accelerating and install volumes negative for four consecutive quarters.",
-      "tickers": [
-        "SHOP",
-        "DASH",
-        "HUBS",
-        "APP",
-        "DDOG"
-      ],
-      "source_item_ids": [
-        "gmail:19fd759f46e268b7",
-        "gmail:19fd7a1bfe679ca4"
-      ]
-    },
-    {
-      "title": "Memory complex under pressure: WDC -13%, SNDK -7% despite strong quarters; expectations too high",
-      "body": "Goldman TMT notes both SanDisk and Western Digital traded down after hours despite strong results, attributing the move to elevated buy-side expectations rather than fundamental deterioration. SNDK beat on revenue/margin/EPS but Q3 guide missed by 5%; it has signed 8 New Business Models covering ~50% of FY27 bits and ~66% of FY28 bits at floor pricing. WDC gross margin expanded to 54.4% but exabyte shipments lagged due to 40TB ePMR product transition. Citi maintains Buy on both: SNDK PT $2,100, WDC PT $740. Analysts prefer STX, which guided 14% QoQ revenue growth vs. WDC's 9% with superior HAMR technology positioning.",
-      "tickers": [
-        "WDC",
-        "SNDK",
-        "STX",
-        "MU"
-      ],
-      "source_item_ids": [
-        "x:2085320151902060624",
-        "gmail:19fd778fd53beb35"
-      ]
-    },
-    {
-      "title": "Broad market near flat; S&P 500 at 7,712, VIX at 15.31; market broadening to highest in 10 years",
-      "body": "S&P 500 is up 0.1% to 7,712.53 with VIX at 15.31 (+3.2%). Nasdaq futures are slipping on tech earnings-driven anxiety. JPM notes 57% of SPY constituents are beating the index, the highest breadth reading in 10 years. Russell 2000 is up 21.6% YTD, outperforming S&P by 8.8%, with aggregate earnings 9.4% above expectations. Info tech is trading at 20x post-July selloff, a one-year low vs. the 10-year average of 23x. AAII bullish sentiment improved to 37% (highest in 3 weeks) with bull-bear spread at -1%.",
+      "title": "Tom Lee targets S&P 500 8,000 in August; record call option volume confirms bullish positioning",
+      "body": "Fundstrat's Tom Lee sees the S&P 500 hitting 7,900\u20138,000 in August, citing technical momentum, broadening market breadth, and accelerating earnings. S&P 500 call option volume hit a record 4M+ contracts on Tuesday, and Kalshi prediction markets assign 66.9% probability to the index reaching 8,000 in 2026; the index is currently ~3.6% below that level. A $2.7B SPY call wall sits at 775.",
       "tickers": [
         "SPY"
       ],
       "source_item_ids": [
-        "gmail:19fd7ccc9820730b",
-        "gmail:19fd746af9b27bad"
+        "x:2085354083120988385",
+        "x:2085347616783560819"
       ]
     },
     {
-      "title": "TSMC sitting on $1B Apple A20 Pro SoCs due to DRAM bottleneck",
-      "body": "TSMC reportedly holds approximately $1B worth of Apple A20 Pro SoCs that cannot advance to the next production stage due to insufficient DRAM supply. The bottleneck suggests DRAM supply constraints are creating ripple effects across the semiconductor supply chain beyond memory names directly.",
+      "title": "Strait of Hormuz geopolitical crisis escalates: Iran proposes transit controls, US/Israel vessels reportedly banned",
+      "body": "Iran's parliament is reviewing a draft bill to restrict Hormuz transit, with Iranian state media FARS reporting US and Israeli vessels are prohibited under a potential Iran-Oman framework deal. The US has affirmed Hormuz is an international waterway and that no single party controls the lanes, but traffic data shows only 3 outbound/0 inbound vessels on 8/5. Brent crude jumped above $82/bbl on the news, and European gas prices surged 5.7% to \u20ac55.39/MWh.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2085403322241175880",
+        "x:2085402547406159890"
+      ]
+    },
+    {
+      "title": "Yardeni calls for hawkish Fed pivot; Warsh's Trump ties and anti-guidance stance in focus",
+      "body": "Yardeni Research argues the Fed should turn more hawkish, citing consumer spending up 3.3%, business investment up 8.4%, and AI-driven capex supporting growth. Bloomberg reports Trump has held regular calls with Fed Chair Warsh since May discussing the economy, though no direct policy direction is reported. Warsh's push to eliminate forward guidance faces internal resistance from colleagues speculating to media about upcoming meetings.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2085348003083145367",
+        "x:2085355919307583841"
+      ]
+    },
+    {
+      "title": "U.S. crude inventories at 40-year lows; Saudi imports hit zero for first time since 1985",
+      "body": "US crude oil inventories have fallen for a record 17 consecutive weeks to their lowest level since March 1984. US imports of Saudi crude fell to zero in July \u2014 the first full month at zero since 1985 \u2014 as Gulf supply disruptions forced refiners to seek alternatives including Venezuela. Fitch forecasts Brent returning to oversupply from September and targeting $70/bbl by Q4 2026.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2085340741635567895",
+        "x:2085424813728739426"
+      ]
+    },
+    {
+      "title": "Hyperscaler bond issuance surges: GOOGL raises $25B with $115B demand; AMZN/META at $170B YTD",
+      "body": "Alphabet launched a $25B investment-grade bond offering across up to 10 tranches (2\u201340yr maturities) and drew ~$115B in investor demand, widening hyperscaler credit spreads. Amazon, Alphabet, and Meta have collectively sold nearly $170B in IG bonds YTD 2026, dwarfing prior year tech issuance. Morgan Stanley projects global cloud capex to hit $1.2T by 2027, up from ~1.4% of GDP in 2025 to ~3% by 2027\u20132029.",
       "tickers": [
-        "AAPL",
+        "GOOGL",
+        "AMZN",
+        "META"
+      ],
+      "source_item_ids": [
+        "x:2085392871721451730",
+        "x:2085363055320264713"
+      ]
+    },
+    {
+      "title": "NVIDIA weighing HBM reduction in Rubin Ultra GPU amid advanced memory shortage",
+      "body": "The Information reports NVIDIA is considering using less high-bandwidth memory in its upcoming Rubin Ultra GPU design to address a severe HBM chip shortage. The move would be a negative for HBM suppliers (SK hynix, Samsung, Micron) and reflects ongoing DRAM/HBM supply constraints. South Korea's KOSPI fell 4.6% on the news, with SK hynix -10.4% and Samsung -6.3%.",
+      "tickers": [
+        "NVDA",
+        "MU"
+      ],
+      "source_item_ids": [
+        "x:2085400564809314412",
+        "x:2085400431929221556"
+      ]
+    },
+    {
+      "title": "Semiconductor test cycle inflection confirmed: Advantest raises 2026 TAM, OSAT capex at all-time highs",
+      "body": "Advantest revised its 2026 memory TAM estimate up 12% to $2.75B and SoC TAM up 21% to $11B. Q2 test capex at major OSATs hit an all-time high at nearly 2x the prior peak, with monthly tester installs at record levels. Teradyne notes test equipment is now growing faster than fab equipment after a decade of underperformance, with memory book-to-bill exceeding 2.",
+      "tickers": [
+        "TSEM",
+        "MU"
+      ],
+      "source_item_ids": [
+        "x:2085411190897799404",
+        "x:2085411192105730071"
+      ]
+    },
+    {
+      "title": "Tesla Terafab: 1TW compute target, DRAM hiring, chip demand signals major semiconductor tailwind",
+      "body": "Tesla announced Terafab will be built in Grimes County, Texas, targeting over 1 terawatt of compute output per year. The company is actively hiring memory process engineers for DRAM production, and Elon Musk estimates ~25% of Terafab compute will serve Tesla Optimus, ~75% for AI/spacecraft. Tesla and SpaceX stated they will need far more chips than current global production can supply.",
+      "tickers": [
         "TSLA"
       ],
       "source_item_ids": [
-        "x:2085325009246101634",
-        "x:2085282634037645436"
+        "x:2085367009106141563",
+        "x:2085366157603971551"
       ]
     },
     {
-      "title": "Alphabet kicks off 10-part investment-grade bond offering; Treasuries fall on Warsh report",
-      "body": "Alphabet launched a 10-part US dollar investment-grade bond sale, with hyperscaler CDS spreads widening in response. Treasuries declined following the Warsh hawkish-lean report, with 10-year yields at 4.64-4.65% (+2-3 bps) and 2-year at 4.204% (+2.5 bps). MUFG sees the dollar as still undervalued against 8 of 9 G10 currencies, with geopolitical risk premium remaining priced in.",
+      "title": "Retail traders rotating defensive; 'FOMO to Oh No' sentiment shift underway",
+      "body": "Retail traders are flipping from momentum-chasing FOMO positioning to defensive allocations amid macro uncertainty. Simultaneously, record S&P 500 call option volumes and bullish Kalshi market pricing suggest institutional/options market participants remain constructive \u2014 a divergence between retail sentiment and derivatives positioning.",
       "tickers": [
-        "GOOGL"
+        "SPY"
       ],
       "source_item_ids": [
-        "x:2085332536683606092",
-        "x:2085332987197956273"
+        "x:2085402570319610107",
+        "x:2085389685321335074"
       ]
     },
     {
-      "title": "Key macro data next week: CPI Aug 12, PPI Aug 13, Retail Sales Aug 14",
-      "body": "JPM's macro calendar flags the most important data cluster of the month: CPI and real average hourly earnings on Aug 12, PPI on Aug 13, and retail sales on Aug 14. These prints will be critical for the September Fed meeting (Sep 16) and for determining whether Warsh's hawkish lean is validated. Chase card tracker already shows spending decelerated to 3.8% YoY in July vs. 6.0% in June, with durable goods growth collapsing to 1.0% MTD.",
+      "title": "Eurozone EPS revisions outpacing U.S. for first time since January 2025",
+      "body": "Eurozone EPS revisions have risen for 17 consecutive weeks and are now above U.S. EPS revision levels for the first time since January 2025, suggesting a potential rotation opportunity into European equities relative to U.S.",
       "tickers": [],
       "source_item_ids": [
-        "gmail:19fd7ad46a04ae39",
-        "gmail:19fd746af9b27bad"
+        "x:2085401841341235345"
       ]
     },
     {
-      "title": "SpaceX/Tesla Terafab chip fab announced; SPCX lockup of 911.5M shares begins today",
-      "body": "SpaceX and Tesla announced Terafab, a $16.8B chip fabrication facility in Grimes County, Texas targeting 1 terawatt of combined compute. Intel joined the project in April 2026. Separately, SpaceX faces a massive share unlock today of up to 911.5M shares (6.9% of outstanding), and SpaceX guidance reportedly calls for $100B 2026 exit revenue on a 4x Nvidia compute ramp. Neocloud stocks face near-term pressure from SpaceX capacity announcement.",
-      "tickers": [
-        "TSLA",
-        "INTC",
-        "NVDA"
-      ],
-      "source_item_ids": [
-        "gmail:19fd7770df4135ac",
-        "gmail:19fd72899a8f74e2"
-      ]
-    },
-    {
-      "title": "FCC eliminates 39% broadcast TV ownership cap; Hormuz-threatened Starlink selloff in tower stocks seen as overdone",
-      "body": "The FCC voted to eliminate the 39% national broadcast TV ownership cap, shifting to case-by-case review for deals exceeding the threshold\u2014a clear positive for FOXA and NXST M&A optionality. Separately, Citi argues the ~5% selloff in tower stocks (AMT, SBAC, CCI) on SpaceX mobile network fears is overdone, as SpaceX may still use macro cell sites on towers and telcos (T, VZ) face greater long-term risk.",
-      "tickers": [
-        "FOXA",
-        "NXST"
-      ],
-      "source_item_ids": [
-        "gmail:19fd7bee6c8e6a41",
-        "gmail:19fd781c668bb26e"
-      ]
-    },
-    {
-      "title": "AI cost discipline emerging as competitive edge; model routing and token optimization key theme",
-      "body": "Across multiple earnings calls, companies are embedding AI model routing strategies to manage token costs: BKNG uses routing for simple vs. complex tasks, DASH uses Dash Bench tools, NOW optimizes across frontier models. DeepSeek is reportedly planning substantial price increases, reversing the cheap-Chinese-model narrative and validating AI monetization pricing discipline. META launched Muse Code beta based on Muse Spark 1.2, narrowing the gap to frontier labs.",
-      "tickers": [
-        "META",
-        "GOOGL",
-        "DASH"
-      ],
-      "source_item_ids": [
-        "gmail:19fd759f46e268b7",
-        "x:2085289588369543656"
-      ]
-    },
-    {
-      "title": "Saudi Aramco cuts Asia OSP by 50\u00a2/bbl; copper near record highs; uranium bull case intact",
-      "body": "Saudi Aramco set September Arab Light OSP at a $2/bbl discount to the regional benchmark for Asia, cutting 50\u00a2/bbl MoM, and at -$2.15/bbl to ICE Brent for NW Europe\u2014reflecting soft demand. LME copper climbed 1.5% to $14,316/ton on US tariff concerns and improved sentiment. BofA raised its 2027 uranium price forecast to $130/lb (~52% upside from spot) on tight supply and growing nuclear demand, with utility contract coverage declining to 48% from 56%.",
-      "tickers": [
-        "UEC"
-      ],
-      "source_item_ids": [
-        "x:2085312605573263410",
-        "x:2085323984564789267"
-      ]
-    },
-    {
-      "title": "High-beta momentum crash of July 2026 not over; long gold/short high-beta working",
-      "body": "Multiple strategists flag the July 2026 high-beta momentum drawdown as ongoing with no clear reversal signal. Gold is breaking out of a two-month consolidation on dollar weakness, yield compression, and 14-day streak of China ETF inflows. The long gold / short high-beta momentum factor strategy has been working. Analysts advise booking some gold gains ahead of Friday's NFP print given hawkish risk.",
+      "title": "Yardeni/Bessent: K-shaped economy 'definitively over'; US capturing more global profit share",
+      "body": "Treasury Secretary Bessent declared the K-shaped economy is 'definitively over,' signaling a macro view that divergence between high- and low-income outcomes is closing. Separately, data shows the U.S. is capturing an ever-greater share of global corporate profits, while Visa research notes Gen X and millennials have built more wealth than boomers at comparable ages.",
       "tickers": [],
       "source_item_ids": [
-        "x:2085299704519102870",
-        "x:2085255069941776802"
+        "x:2085424917013795194",
+        "x:2085381667154235651"
       ]
     },
     {
-      "title": "RDDT and NYT facing structural headwinds from Google AI Overviews cannibalizing search referrals",
-      "body": "Both Reddit and NYT saw inbound search traffic decline due to Google AI Overviews, with RDDT search referrals described as 'choppy.' Citi notes SEO pressure persists across RDDT and BKNG from the same source, with the impact not yet offset by broader ecosystem value. This is an emerging structural headwind for ad-supported and traffic-dependent media models.",
-      "tickers": [
-        "RDDT",
-        "NYT",
-        "GOOGL"
-      ],
-      "source_item_ids": [
-        "gmail:19fd70e00360594d",
-        "gmail:19fd759f46e268b7"
-      ]
-    },
-    {
-      "title": "Data center power constraints intensifying; Batch Zero delay benefits on-site power (SEI, BE) over IPPs",
-      "body": "Morgan Stanley's Stephen Byrd views the Texas Batch Zero delay as temporary (1-3 months) and bullish for on-site power providers (SEI, BE, INIO), with negative marginal impact on IPPs (VST, CEG, NRG). On-site power solutions trading at $2.09-$5.88/watt vs. a $15/watt REIT endgame. FCC targeting a ban on Chinese optical transceivers (Innolight, Eoptolink) by year-end, with Beijing signaling retaliation via indium phosphide export restrictions affecting Coherent and Lumentum.",
-      "tickers": [
-        "CEG",
-        "VST",
-        "SEI",
-        "BE",
-        "COHR",
-        "LITE"
-      ],
-      "source_item_ids": [
-        "gmail:19fd746cf4b611c5",
-        "gmail:19fd72899a8f74e2"
-      ]
-    },
-    {
-      "title": "Fiserv major guide-cut: FY26 EPS slashed to $7.20-7.40 from $8.00-8.30 on Argentina macro and client delays",
-      "body": "FISV Q2 missed on revenue ($4.96B vs. $5.05B est.) and EPS ($1.84 vs. $1.91 est.), then cut its FY26 organic revenue guidance to -1% to 0% from +1% to +3% and adj. EPS guidance by ~10%. Management attributed headwinds to Argentina macro, hardware timing, client ramp delays, and divestitures\u2014characterizing none as structural. A $100M incremental tech investment in H2 2026 and a portfolio review with potential divestitures were announced.",
+      "title": "U.S. pending home sales hit 5-month low; mortgage rates still pressuring buyers",
+      "body": "Pending home sales fell 3.7% week-over-week and 1.9% year-over-year to 311,150 units, the lowest level in over five months. Elevated mortgage rates are cited as the primary driver of buyer pullback, consistent with the broader rate-hike expectations now being priced in by markets.",
       "tickers": [],
       "source_item_ids": [
-        "x:2085328571573366839",
-        "gmail:19fd759b5aa47158"
+        "x:2085414117972537773"
+      ]
+    },
+    {
+      "title": "Copper at record highs on data center demand and Congo supply disruption",
+      "body": "Copper hit a new record high driven by strong global demand \u2014 particularly from data center construction \u2014 and supply tightness compounded by DR Congo export disruptions. One data center rack manufacturer reported a 2.5-year order backlog as of February 2026. Since October, copper is up 40% while the Mag7 is roughly flat.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2085383669833728278",
+        "x:2085350757541261362"
+      ]
+    },
+    {
+      "title": "Google warns of sophisticated ransomware campaign targeting Wall Street firms",
+      "body": "Google flagged a ransomware hacking campaign targeting over two dozen major U.S. financial institutions including Blackstone, Moody's, and CME via phone-based social engineering to steal employee credentials and create fake IT helpdesk sites.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2085413051713368161",
+        "x:2085412806271041964"
+      ]
+    },
+    {
+      "title": "WDC -21%, SNDK -13% on session; Jefferies cuts SNDK PT 42% to $1,750",
+      "body": "Western Digital and SanDisk are seeing sharp selloffs, with WDC down 21% and SNDK down 13% on the session. Jefferies cut its SNDK price target from $3,000 to $1,750 (a 42% reduction) while maintaining a Buy rating, reflecting deteriorating memory sector sentiment tied to the NVDA HBM reduction report and Korean market weakness.",
+      "tickers": [
+        "WDC",
+        "SNDK",
+        "MU"
+      ],
+      "source_item_ids": [
+        "x:2085358155861528711",
+        "x:2085349096840171686"
+      ]
+    },
+    {
+      "title": "PCE inflation methodology change starting August could reduce reported inflation readings",
+      "body": "Senator Elizabeth Warren is seeking details on new PCE inflation methodology changes taking effect with August data (released in September), which could mechanically reduce reported inflation figures and complicate Fed policy interpretation.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2085403398614958483"
+      ]
+    },
+    {
+      "title": "Japan's second-largest ever yen intervention ($85B) adds liquidity; yen weakens past 158",
+      "body": "Japan conducted its second-largest currency intervention on record at $85B last week, second only to the Fukushima-era support. Despite the intervention, USD/JPY has weakened back beyond 158 \u2014 its weakest level in nearly a week \u2014 with critics questioning intervention effectiveness. The joint U.S.-Japan support mechanism is described as unusual and adds liquidity to already-flush U.S. markets.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2085344608142188566",
+        "x:2085379618593485059"
+      ]
+    },
+    {
+      "title": "AI semiconductor July 2026 drawdown: worst month since 2002, $1T+ market cap wiped",
+      "body": "July 2026 was characterized as the sharpest drawdown of the AI cycle, with semiconductors posting their worst month since 2002 and over $1 trillion in AI-linked market value declining. The key debate centers on compute as the deepest moat in LLM competition and whether the memory supercycle thesis remains intact as names like NVDA, AMD, and others attempt to recover.",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "MU",
+        "AVGO"
+      ],
+      "source_item_ids": [
+        "x:2085350177590702406",
+        "x:2085380386536800740"
       ]
     }
   ]
