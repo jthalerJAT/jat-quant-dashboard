@@ -1,7 +1,7 @@
 {
-  "digest_type": "premarket",
-  "digest_dt": "2026-08-10T08:30:00-04:00",
-  "saved_at": "2026-08-10T12:58:45.201643+00:00",
+  "digest_type": "midday",
+  "digest_dt": "2026-08-10T12:00:00-04:00",
+  "saved_at": "2026-08-10T16:26:21.764758+00:00",
   "revisions": {
     "sales": {
       "metric": "sales",
@@ -419,8 +419,18 @@
     "ebitda": {
       "metric": "ebitda",
       "metric_display": "EBITDA",
-      "n_total_with_data": 120,
+      "n_total_with_data": 121,
       "by_pct_top": [
+        {
+          "ticker": "UEC",
+          "forward_y_code": "27Y",
+          "metric": "ebitda",
+          "current_estimate": 50.14,
+          "prior_estimate": 34.675,
+          "pct_change": 44.59985580389332,
+          "percentile": 92.57362355953906,
+          "n_obs": 781
+        },
         {
           "ticker": "CLS",
           "forward_y_code": "27Y",
@@ -510,16 +520,6 @@
           "pct_change": 8.353480519300316,
           "percentile": 95.26248399487837,
           "n_obs": 781
-        },
-        {
-          "ticker": "OKLO",
-          "forward_y_code": "27Y",
-          "metric": "ebitda",
-          "current_estimate": -193.412,
-          "prior_estimate": -180.0,
-          "pct_change": 7.4511111111111195,
-          "percentile": 70.74954296160878,
-          "n_obs": 547
         }
       ],
       "by_pct_bottom": [
@@ -696,6 +696,16 @@
           "n_obs": 781
         },
         {
+          "ticker": "UEC",
+          "forward_y_code": "27Y",
+          "metric": "ebitda",
+          "current_estimate": 50.14,
+          "prior_estimate": 34.675,
+          "pct_change": 44.59985580389332,
+          "percentile": 92.57362355953906,
+          "n_obs": 781
+        },
+        {
           "ticker": "NOW",
           "forward_y_code": "27Y",
           "metric": "ebitda",
@@ -714,16 +724,6 @@
           "pct_change": 16.366606916125193,
           "percentile": 91.41914191419141,
           "n_obs": 606
-        },
-        {
-          "ticker": "ARM",
-          "forward_y_code": "28Y",
-          "metric": "ebitda",
-          "current_estimate": 3811.9,
-          "prior_estimate": 3689.862,
-          "pct_change": 3.30738656350833,
-          "percentile": 91.00671140939596,
-          "n_obs": 745
         }
       ],
       "by_pctile_bottom": [
