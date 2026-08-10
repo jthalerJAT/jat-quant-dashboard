@@ -1,221 +1,224 @@
 {
-  "digest_type": "midday",
-  "digest_dt": "2026-08-10T12:00:00-04:00",
-  "saved_at": "2026-08-10T16:26:21.754620+00:00",
+  "digest_type": "eod",
+  "digest_dt": "2026-08-10T18:00:00-04:00",
+  "saved_at": "2026-08-10T22:32:45.202736+00:00",
   "bullets": [
     {
-      "title": "AAPL: Jefferies downgrades to Underperform, PT $264 on all-glass iPhone cancellation",
-      "body": "Jefferies cuts AAPL to Underperform with PT $263.66 (16% downside) after supply chain checks confirmed cancellation of the 20th anniversary all-glass iPhone due to low production yields. This removes the primary ASP driver, lowering iPhone ASP CAGR FY26-FY31 from 9.0% to 6.8% and cutting FY28/29E EPS by 2.1%/3.4%. Compounding pressure: iPhone 18 Pro memory upgrade appears limited, and JPM notes memory is now 34% of iPhone BOM (up from 10%), with Apple testing Chinese CXMT chips to manage supply squeeze.",
+      "title": "NVDA: $500B AI financing deal with Wall Street giants; stock drops ~3%",
+      "body": "NVIDIA confirmed MOUs with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, and KKR to mobilize over $500B of third-party capital for AI infrastructure financing. Despite the scale of the announcement, NVDA shares fell ~3% to session lows on the day, with some critics characterizing the deal as masking limited FCF. Unusual $3M+ call prints were also noted in NVDA options tape.",
+      "tickers": [
+        "NVDA"
+      ],
+      "source_item_ids": [
+        "gmail:19fed4930a8197d8",
+        "x:2086855015382073598"
+      ]
+    },
+    {
+      "title": "AAPL: Jefferies downgrades to Underperform on iPhone roadmap concerns; CXMT chip testing reported",
+      "body": "Jefferies cut Apple to Underperform from Hold with a $263.66 PT, citing a challenging path to higher-priced iPhones including cancellation of the planned all-glass iPhone (scrapped due to poor yields; was expected at ~$2,600 ASP in Sept 2027). Separately, Apple is testing CXMT Chinese DRAM chips for iPhone and MacBook, adding supply chain/geopolitical complexity. Shares fell 2.5%.",
       "tickers": [
         "AAPL"
       ],
       "source_item_ids": [
-        "gmail:19febb0341b6fa32",
-        "gmail:19febd74fc3df6ad"
+        "x:2086808244987601299",
+        "x:2086832311702626388"
       ]
     },
     {
-      "title": "INTC: $15B equity offering dilutes CY27 EPS ~3.3%; WFE suppliers benefit",
-      "body": "Intel announced a ~$15B common stock offering (plus $2.25B overwriter option) to fund next-gen leading-edge fabs (52/62 AZ, Ireland, then Ohio Fab 27), with aggregate demand exceeding deal size. Dilution estimated at ~6c or -3.3% to CY27 EPS. Mizuho notes INTC has no major customer announcements pre-offering but has >$10B in non-core assets to monetize. Secondary beneficiaries: ASML, AMAT, LRCX, KLAC on incremental WFE demand.",
+      "title": "INTC: $15B equity offering, multiple times oversubscribed; stock down ~4-5%",
+      "body": "Intel launched a $15B common stock secondary offering (underwritten by JPMorgan, Goldman, Morgan Stanley, Citi) to fund AI compute capacity expansion, including capex guidance raised to ~$20B. The offering was multiple times oversubscribed despite shares falling 4-5%. Intel also secured customer commitments for its 14A node process.",
       "tickers": [
         "INTC"
       ],
       "source_item_ids": [
-        "gmail:19febc513fb0d69e",
-        "gmail:19febbbd1129d6778"
+        "gmail:19fed41b7f048063",
+        "x:2086820985760780332"
       ]
     },
     {
-      "title": "MU: Bullish multi-source consensus \u2014 DRAM undersupply to 2028, $250B capex plan, 80%+ GMs sustainable",
-      "body": "Micron at KeyBanc forum flagged DRAM supply-demand imbalance persisting beyond 2027 (2027 tighter than 2026), with $250B investment plan and $22B+ in upfront customer cash commitments through 2030. UBS reiterates Buy at $1,625 PT (~11x C2029E EPS of ~$165). Mizuho adds HBM bit growth 50-60% YoY in 2027 still insufficient to meet demand, keeping pricing power intact. Memory sentiment has turned negative (MU -15% since July 1) despite no fundamental change, which Mizuho views as a buying opportunity.",
-      "tickers": [
-        "MU"
-      ],
-      "source_item_ids": [
-        "gmail:19fec37be483bc4a",
-        "gmail:19febc758bb8c879"
-      ]
-    },
-    {
-      "title": "NVDA/SPCX: SpaceX targeting 10GW AI compute by CY27, exclusively on NVDA; $200B+ revenue potential",
-      "body": "Multiple sources flag SpaceX building AI infrastructure exclusively on NVIDIA, with Musk targeting ~10GW capacity by CY27 \u2014 implying ~$200B in NVDA GPU revenue potential. SemiAnalysis deems 8-10GW feasible; MS notes MSFT could become SPCX's largest compute offtaker at ~3GW, potentially accelerating Azure growth from 42% to >100%. NVIDIA also reportedly investing up to $3B in Lancium (Stargate data center developer).",
-      "tickers": [
-        "NVDA",
-        "MSFT"
-      ],
-      "source_item_ids": [
-        "gmail:19febe55a6ef6676",
-        "gmail:19febe159594ff25"
-      ]
-    },
-    {
-      "title": "AVGO: Mizuho sees $225B FY28 AI revenue vs $141-165B Street; 50% TPU share by 2028",
-      "body": "Mizuho argues AVGO is positioned for 18M+ TPU units by 2028E with ~50% share (~10-12M units, 3x current volume) in Google TPU training chips. FY26 AI revenues estimated at $72B, FY27 consensus $141-165B, vs Mizuho's $225B FY28 estimate. Bear thesis that AVGO loses Google share to MediaTek seen as unsustainable; Hock Tan expected to take offensive stance on the September 2 earnings call.",
-      "tickers": [
-        "AVGO",
-        "GOOGL"
-      ],
-      "source_item_ids": [
-        "gmail:19febc758bb8c879"
-      ]
-    },
-    {
-      "title": "AMD: Taalas acquisition tackles memory wall; Wolfe sees 163% DC revenue growth CY27",
-      "body": "UBS highlights AMD's acquisition of Taalas as addressing the memory wall via a differentiated approach while expanding custom silicon offerings. Wolfe's Chips with Caso webcast projects AMD 70% YoY server CPU growth and 163% YoY data center revenue growth in CY27, with a base $20 EPS and $25 bull case. Notebook ODM weakness (PC shipments -27% MoM in July) represents a headwind for AMD's consumer segment.",
-      "tickers": [
-        "AMD"
-      ],
-      "source_item_ids": [
-        "gmail:19febe55a6ef6676",
-        "gmail:19fec4869e9b25e2"
-      ]
-    },
-    {
-      "title": "CSCO: Q4 earnings preview \u2014 beat likely but FY27 guidance could disappoint at 25x NTM",
-      "body": "UBS rates Buy at $132 PT; expects Networking revenue ~$9.6B (+26% YoY), product orders +35% last quarter (strongest in decade), and Oct FY1 guidance $16.6-16.8B. However JPM flags risk that FY27 guidance disappoints given stock is up ~60% YTD and trades at 25x NTM \u2014 consensus expects $16.82B Q4 revenue and $1.17 EPS, with options implying ~8% move. CSCO has beaten EPS in 20 of the last 20 quarters.",
-      "tickers": [
-        "CSCO"
-      ],
-      "source_item_ids": [
-        "gmail:19fec0dc3e9a6490",
-        "gmail:19febb88818a50e3"
-      ]
-    },
-    {
-      "title": "MSFT: Custom Maia 300 chip targets Sept 2026 unveiling; SpaceX partnership a potential Azure inflection",
-      "body": "Morgan Stanley reports MSFT is escalating custom AI silicon with Maia 300 targeting a September 2026 unveiling with 300K+ chips in 2027 (vs. tens of thousands of Maia 200s). MSFT potentially becoming SpaceX's largest compute offtaker at ~3GW, which MS says could accelerate Azure growth from 42% to >100% next year. The Information confirms Maia chips now deployed in Azure data centers after overcoming initial delays.",
-      "tickers": [
-        "MSFT"
-      ],
-      "source_item_ids": [
-        "gmail:19febe159594ff25",
-        "gmail:19febcc2e7f75fd1"
-      ]
-    },
-    {
-      "title": "HPE: Morgan Stanley upgrades to Overweight on FOMP-driven enterprise hardware cycle",
-      "body": "MS upgraded HPE (and P/Everpure) to Overweight, shifting IT Hardware sector from Cautious to In-Line, citing 'Fear of Missing Procurement' pull-forward in enterprise spending \u2014 70-75% of CIOs pulling forward 2026 Server/Storage/PC spending. AlphaWise survey confirms cycle driven by refresh and AI. HPE was up ~5% in pre-market. MS sees Server/Storage upcycle extending to 2027-2028; prefers Storage > Servers > PCs.",
-      "tickers": [
-        "HPE"
-      ],
-      "source_item_ids": [
-        "gmail:19feba91574f53e8",
-        "gmail:19febe159594ff25"
-      ]
-    },
-    {
-      "title": "NET: Cloudflare re-accelerating but launches $2.175B convertible; FedRAMP High adds TAM",
-      "body": "Hedgeye is bullish on NET post-earnings: revenue +36% YoY (re-accelerated 4 of last 5 quarters), large customer adds +27% YoY, DBNR +120%, RPO +38%, gross margin up 30bps for first time in 8 quarters. Headcount cut ~14% while guiding higher revenue signals productivity inflection. Cloudflare also achieved FedRAMP High Authorization (plus GovRAMP Moderate), opening federal/DoD markets. Stock down 2.1% in pre-market on the $2.175B convertible offering.",
-      "tickers": [
-        "NET"
-      ],
-      "source_item_ids": [
-        "gmail:19fec338c37a94af",
-        "gmail:19febc4d8589ee7c"
-      ]
-    },
-    {
-      "title": "APP: Hedgeye short thesis \u2014 model improvement slowing, Q3 guide disappoints",
-      "body": "Hedgeye maintains active short on AppLovin: Q2 NRPU growth slowed to +58% vs +93% in Q1, install volume -2%, and EBITDA flow-through declining sequentially. Q3 guide implies only +7.6% sequential growth vs prior low-to-mid teens, suggesting the latest model release is insufficient to sustain the prior pace. Hedgeye attributes the slowdown to loss of first-party games data (post-divestiture) and ML diminishing returns.",
-      "tickers": [
-        "APP"
-      ],
-      "source_item_ids": [
-        "gmail:19fec338c37a94af"
-      ]
-    },
-    {
-      "title": "HUBS: Hedgeye short \u2014 FY26 revenue guide cut $22M, customer adds halved, AI costs rising",
-      "body": "HubSpot beat reported P&L but Hedgeye flags deteriorating fundamentals: FY26 revenue guide cut $22M, expected net new customer adds halved to 5,000-6,000, and subscription COGS +37% YoY vs revenue +18% as AI inference costs pressure margins. NRR flat for the year; CEO acknowledged April was slow and the expected quarter 'did not materialize.' Non-GAAP margin beat was driven by buybacks and tax rate cuts, not operational improvement. Stock -1.4% pre-market.",
-      "tickers": [
-        "HUBS"
-      ],
-      "source_item_ids": [
-        "gmail:19fec338c37a94af"
-      ]
-    },
-    {
-      "title": "TTD: DA Davidson downgrades to Neutral, PT $16; significant share losses, multi-quarter recovery",
-      "body": "DA Davidson cut The Trade Desk to Neutral with a $16 PT after TTD missed materially on Q3 revenues and EBITDA, with guidance drastically below consensus. Management cited macro headwinds at large global clients and lacks visibility on spend churn. Davidson expects a sizeable restructuring in coming months and a multi-quarter recovery. DSP seen as a share gainer given mid-market domestic advertiser mix. TTD was down 2.2% in pre-market.",
+      "title": "TTD: Multiple downgrades across sell-side (BNP to Underperform, DA Davidson to Neutral, HSBC to Reduce)",
+      "body": "Trade Desk was cut to Underperform at BNP Paribas Exane (PT to $10 from $22, implying 23% downside), to Neutral at DA Davidson, and to Reduce at HSBC, with the consensus concern being Q3 guidance implying the first year-over-year revenue decline since going public.",
       "tickers": [
         "TTD"
       ],
       "source_item_ids": [
-        "gmail:19fec0409adc28ea"
+        "gmail:19fec6e2d6ffd160",
+        "gmail:19fed6199c53b8ea"
       ]
     },
     {
-      "title": "UBER: Jefferies elevates to Franchise Pick, $110 PT on 20% bookings growth and AV scaling",
-      "body": "Jefferies elevated UBER to Franchise Pick with a $110 PT, citing durable ~20% bookings growth and growing confidence in scaling autonomous vehicles. LYFT also reported a solid Q2 (gross bookings $5.50B beat $5.37E; EBITDA $177M beat $172E) but KeyBanc maintains Sector Weight, noting Q3 guidance of $5.50-5.67B is slightly below Street at $5.58B.",
+      "title": "NFLX: Nearly doubles US upfront ad commitments; CFO sells 9.2K shares",
+      "body": "Netflix doubled its US upfront ad sales commitments and is on track for $3B in ad revenue in 2026. Shares rallied ~2.9% on the session. Separately, CFO Spencer Neumann sold 9.2K shares at $76.29 via Form 4, retaining 73.8K shares.",
       "tickers": [
-        "UBER"
+        "NFLX"
       ],
       "source_item_ids": [
-        "gmail:19febfd96985f731",
-        "gmail:19febb4174a28dc6"
+        "gmail:19fec74531bd7e2b",
+        "gmail:19fed63d7482f13d"
       ]
     },
     {
-      "title": "DKNG: 2Q miss significant but prediction markets driving 75% YoY customer acquisition; Citi raises PT to $32",
-      "body": "DraftKings reported 2Q Adjusted EBITDA of $115M, missing Street significantly (-62% YoY vs. Street -45%), with revenue of $1.44B below guidance. However, customer acquisition rose 75% YoY and the Predictions product attracted 600K+ customers YTD. Citi raised PT from $30 to $32, cutting FY26/27 EBITDA but raising FY28 estimate. Hedgeye separately flagged iGaming showing no real improvement despite marketing spend.",
-      "tickers": [
-        "DKNG"
-      ],
-      "source_item_ids": [
-        "gmail:19febaf3c945d6bd",
-        "gmail:19fec10cd0606f5a"
-      ]
-    },
-    {
-      "title": "META: Recommits to open models; Muse Glimmer 30B released; $1B data center community fund",
-      "body": "META CEO Zuckerberg publicly recommitted to open-weight models, releasing Muse Glimmer 30B (runs on single consumer GPU) and establishing a $1B fund to invest in local communities hosting AI data centers. Stock +1.7% in pre-market. Morgan Stanley notes META as a key AI adopter beneficiary; MS CIO Wilson prefers hyperscalers including META over semis in current cycle.",
+      "title": "META +2%: Muse Glimmer open-weights release and free/affordable AI plans",
+      "body": "Meta released Muse Glimmer, a 30B parameter model optimized for single consumer GPU deployment, and plans to release weights for the more powerful Muse Spark model. Shares rose ~2.1% to a two-week high. CEO open-source strategy seen as major competitive move vs. OpenAI/Anthropic. Additionally, appeals court allowed 3,000+ addiction lawsuits against Meta (and Google) to proceed.",
       "tickers": [
         "META"
       ],
       "source_item_ids": [
-        "gmail:19febe159594ff25",
-        "gmail:19febd3b0b723209"
+        "x:2086802472950239618",
+        "gmail:19fed6199c53b8ea"
       ]
     },
     {
-      "title": "RBLX: Citi maintains Buy; Week 32 CCU data implies Q3 bookings $1.68B above guidance high-end",
-      "body": "Citi's RoMonitor shows Week 32 average peak CCUs of 16.2M, up 3% sequentially (though -21% YoY). Using a conservative $51 bookings/payer assumption, Citi projects Q3 bookings of $1.68B, above the company's $1.57-1.65B guidance range and Visible Alpha consensus of $1.61B. Citi maintains Buy.",
+      "title": "MSFT: Maia 300 AI chip to be unveiled in September; targeting ~1M unit production",
+      "body": "Microsoft plans to unveil its next-generation Maia 300 AI chip in September, aiming for roughly 1 million units but constrained by TSMC capacity. The company is also in discussions with TSMC for next-gen production of custom chips and is ramping AI chip efforts to reduce reliance on NVDA.",
       "tickers": [
-        "RBLX"
+        "MSFT"
       ],
       "source_item_ids": [
-        "gmail:19febdbd33ff0c22"
+        "x:2086829170265321817",
+        "x:2086802893609586876"
       ]
     },
     {
-      "title": "Semis PC headwind: July notebook ODMs -27% MoM; KeyBanc cuts Q3 forecast to -4% QoQ",
-      "body": "KeyBanc's July notebook ODM analysis shows shipments of 12.2M units vs. 13.3M estimate, down 27% MoM and 19% YoY. Quanta missed 26% (weak Apple demand), Compal missed on weak Dell demand. Q3 forecast cut to 41.9M units (-4% QoQ, -12% YoY); full-year 2026 forecast -8% to -12% YoY. PC-exposed names AMD, INTC, MU, and NVDA face incremental headwinds from this data point.",
+      "title": "TSM: July revenue +45% YoY to $14.5B; FY guidance raised above 40% growth",
+      "body": "TSMC reported July revenue of NT$467.58B (~$14.5B), up ~45% year-over-year on AI chip demand. Revenue for the first seven months reached $89.1B (+37% YoY), with full-year growth now expected above 40%. TSM and Sony are also forming a \u00a51 trillion joint venture in Kumamoto for next-gen chip production.",
       "tickers": [
-        "AMD",
-        "INTC",
-        "MU",
-        "NVDA"
+        "TSM"
       ],
       "source_item_ids": [
-        "gmail:19fec52a0e76427d"
+        "x:2086815777672577379",
+        "x:2086821688831005183"
       ]
     },
     {
-      "title": "FSLY: KeyBanc forum highlights 20%+ revenue growth, 117% NRR, 70% compute growth \u2014 execution turnaround intact",
-      "body": "Fastly at the KeyBanc Technology Leadership Forum: 20%+ YoY revenue growth, NRR at 117% (4-year high), compute revenue +70% YoY, and record gross margins exceeding long-term targets. RPO (commit-based contracts) up 38% YoY improves visibility. Leadership overhaul since mid-2024 credited for improvement. No GPU/AI infrastructure investment planned; focus remains on CPU-based edge compute.",
+      "title": "MU: KeyBanc raises PT to $1,750 at KBCM TLF; demand outstripping supply into 2027",
+      "body": "KeyBanc maintains Overweight with $1,750 PT (9x FY27 EPS of $189.62). Key takeaways: MU cannot meet half of datacenter customer demand; SCAs now cover ~50% of revenue with multi-year take-or-pay contracts through CY30; custom HBM (HBM4E+) shifts memory toward ASIC-like single/dual-sourcing model with premium pricing; physical AI (humanoids) seen as next major demand driver. Memory expected at 42% of iPhone 18 Pro BoM and 62% of NVDA Vera Rubin BoM.",
+      "tickers": [
+        "MU"
+      ],
+      "source_item_ids": [
+        "gmail:19fecd45633f6e47",
+        "x:2086796929166393845"
+      ]
+    },
+    {
+      "title": "SNDK: Upgraded to Buy at Argus Research, PT $1,600; stock fell from $2,000 to $1,200",
+      "body": "Argus Research upgraded SanDisk to Buy with a $1,600 price target. SNDK has fallen ~40% from its $2,000 high amid memory sector volatility. The weekly memory rundown showed mixed results and guidance from SanDisk and Western Digital vs. elevated expectations.",
+      "tickers": [
+        "SNDK",
+        "WDC"
+      ],
+      "source_item_ids": [
+        "gmail:19fed65d1f0d62bd",
+        "gmail:19fecfdbddff361e"
+      ]
+    },
+    {
+      "title": "COHR/LITE: Optical names pulling back after 70%+ runs; CLSA prefers LITE",
+      "body": "Coherent experienced reversion after a >70% rally in 7 days following the optical-memory spread. LITE also pulled back on profit-taking, insider selling, and high valuation. CLSA analyst Briley prefers LITE over COHR in optical components, estimating COHR's annual 3D sensing run-rate below $100M. Wolfe Research hosting LITE earnings callback Aug 11 and COHR callback Aug 12.",
+      "tickers": [
+        "COHR",
+        "LITE"
+      ],
+      "source_item_ids": [
+        "gmail:19fed3aaa8cbd7fa",
+        "x:2086830548836655488"
+      ]
+    },
+    {
+      "title": "APP: Citi Buy; Week 32 eCommerce store count grows 0.7% to 10,908; Jefferies hosts expert call Aug 17",
+      "body": "AppLovin's eCommerce client base reached 10,908 stores as of Week 32 (up 0.7% WoW), with US stores at 5,064 (+0.5%). 3Q26 QTD weekly store growth averaging 1.0%, implying ~11.1K average. Jefferies hosts expert call Aug 17 with DIFF Eyewear discussing ROAS vs. Meta/Google. Jefferies maintains Buy/$550 PT.",
+      "tickers": [
+        "APP"
+      ],
+      "source_item_ids": [
+        "gmail:19fed1902b210286",
+        "gmail:19fece8da0f704f4"
+      ]
+    },
+    {
+      "title": "SPOT/UBER: GS desk flags follow-through buying; MS intern survey shows SPOT at 71% music streaming share",
+      "body": "Goldman sales desk notes SPOT up ~5% on healthy bull/bear balance post-2Q earnings and UBER up ~20% in two weeks re-testing 200-dma. Morgan Stanley 2026 intern survey shows Spotify extending lead as most popular music streaming service at 71% (up from 69%), beating Apple Music at 28%; Netflix dropped from #1 to #3 in video streaming behind YouTube (22%) and others.",
+      "tickers": [
+        "SPOT",
+        "UBER",
+        "NFLX"
+      ],
+      "source_item_ids": [
+        "gmail:19fed3aaa8cbd7fa",
+        "gmail:19fed855fff68a26"
+      ]
+    },
+    {
+      "title": "HPE: Upgraded to Overweight at Morgan Stanley; breaks to 52-week high above $30",
+      "body": "HPE was upgraded to Overweight at Morgan Stanley on improved enterprise storage spending trends and broke out to a 52-week high above $30 for the first time in ~15 months.",
+      "tickers": [
+        "HPE"
+      ],
+      "source_item_ids": [
+        "gmail:19fed576943c3202",
+        "gmail:19fed3aaa8cbd7fa"
+      ]
+    },
+    {
+      "title": "GOOGL: YouTube doubles monetization watch-hour threshold; $200B CapEx guiding FCF negative",
+      "body": "YouTube raised its minimum watch-hour requirement to 10M (from 5M) for creator monetization. Alphabet is guiding to ~$200B in CapEx for 2026 (25% of total hyperscaler spend), with FCF turning negative at -$5B in Q2 and management expecting spend to rise into 2027. Google also added AI/agentic capabilities to Google Ads and Analytics. Appeals court allowed addiction lawsuits against Google (and Meta) to proceed.",
+      "tickers": [
+        "GOOGL"
+      ],
+      "source_item_ids": [
+        "x:2086829621539115464",
+        "gmail:19fed20b8dd6c32d"
+      ]
+    },
+    {
+      "title": "CEVA: UBS maintains Buy/$48 PT; new major US AI deal and Apple handset ramp intact for C27",
+      "body": "UBS keeps Buy on CEVA with $48 PT (44x 2028E P/E on $1.11 EPS). Key catalysts: new AI licensing partnership with major US AI company described as most strategically significant in CEVA history, materially larger than typical $1-2MM deals; Apple premium-tier ramp expected to contribute ~$7-10MM royalty revenue in C27 at ~$0.075/device; FY26 revenue growth guidance raised to 13-15%. AI contributes ~20% of revenues now with strong royalty growth expected from 2027.",
+      "tickers": [
+        "AAPL"
+      ],
+      "source_item_ids": [
+        "gmail:19fed46fb75d62f3"
+      ]
+    },
+    {
+      "title": "WBD: Upgraded to Buy at Freedom Broker with $31 PT; PSKY offers 3-year theatrical exclusivity",
+      "body": "Warner Bros. Discovery was upgraded to Buy from Hold at Freedom Broker with a $31 price target (14% upside from $27.08). Separately, PSKY offered 3-year contracts guaranteeing 45-day theatrical exclusivity and 90-day no-streaming as part of a potential WBD acquisition bid, pledging 30 films/year in theaters.",
+      "tickers": [
+        "WBD",
+        "PSKY"
+      ],
+      "source_item_ids": [
+        "gmail:19fec87ec80ac3e0",
+        "gmail:19fed6199c53b8ea"
+      ]
+    },
+    {
+      "title": "HD/LOW: UBS bullish into 2Q; models $4.84/share for HD and $4.24 for LOW; deferred demand ~$74B",
+      "body": "UBS expects 2Q results to build confidence in home improvement recovery. HD modeled at 2Q EPS $4.84 (cons $4.73) and LOW at $4.24 (in line), with HD targeting $400M pro cross-selling run-rate by end of 2026. UBS estimates ~$74B in deferred discretionary home improvement demand. HD trades ~22x CY27 EPS, LOW ~17x\u2014UBS views as undemanding given business quality.",
       "tickers": [],
       "source_item_ids": [
-        "gmail:19fec5abb870476d"
+        "gmail:19feda99c1e28e13"
       ]
     },
     {
-      "title": "BABA: GS previews Q2 with cloud expected +45% YoY; tactically constructive on China soft-tech ADRs",
-      "body": "Goldman Sachs expects BABA cloud revenue to accelerate 7 points to 45% YoY when it reports August 20, with GS anticipating an EPS revision cycle bottom. GS strategists turned incrementally more constructive on offshore internet ADRs vs hard-tech peers, citing substantial underperformance, trough valuations, narrowing subsidy losses, and improving AI monetization. China internet profits forecast to decline -12% YoY in the June quarter \u2014 a significant improvement from -35% and -31% in Dec/Mar quarters.",
+      "title": "CSCO: F4Q26 earnings preview\u2014Street at $16.82B revenue, $1.17 EPS; AI orders $9B FY26",
+      "body": "Cisco reports with Street expecting F4Q26 revenue of $16.82B and non-GAAP EPS of $1.17. Investors focused on AI orders trajectory ($9B FY26 target), security segment recovery (weak F1Q-F3Q on cloud shift), and whether 34% operating margin holds in FY27. Wolfe Research hosting management meetings at ECOC 2026 Sept 21-22.",
       "tickers": [
-        "BABA"
+        "CSCO"
       ],
       "source_item_ids": [
-        "gmail:19fec2c67b8f928e"
+        "gmail:19fec77d6bfa0e35",
+        "gmail:19fed6232462383e"
+      ]
+    },
+    {
+      "title": "AMAT: F3Q26 earnings preview Aug 13\u2014Street at $9.0B revenue; DRAM/packaging to drive >80% of WFE growth",
+      "body": "Applied Materials reports F3Q26 on August 13. Street consensus is $9.0B revenue (+0.6% above guidance midpoint) and EPS of $3.40. DRAM and advanced packaging expected to drive over 80% of wafer fab equipment growth in CY26, with WFE spending projected to double from CY23 to CY27.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:19fed40cee3c2af4"
       ]
     }
   ]
