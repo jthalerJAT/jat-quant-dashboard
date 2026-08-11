@@ -1,7 +1,7 @@
 {
-  "digest_type": "premarket",
-  "digest_dt": "2026-08-11T08:30:00-04:00",
-  "saved_at": "2026-08-11T13:24:09.693712+00:00",
+  "digest_type": "midday",
+  "digest_dt": "2026-08-11T12:00:00-04:00",
+  "saved_at": "2026-08-11T16:24:28.604706+00:00",
   "revisions": {
     "sales": {
       "metric": "sales",
@@ -419,7 +419,7 @@
     "ebitda": {
       "metric": "ebitda",
       "metric_display": "EBITDA",
-      "n_total_with_data": 121,
+      "n_total_with_data": 119,
       "by_pct_top": [
         {
           "ticker": "AXTI",
@@ -758,16 +758,6 @@
           "n_obs": 781
         },
         {
-          "ticker": "APP",
-          "forward_y_code": "27Y",
-          "metric": "ebitda",
-          "current_estimate": 8914.034,
-          "prior_estimate": 9070.207,
-          "pct_change": -1.721823989243032,
-          "percentile": 0.7682458386683738,
-          "n_obs": 781
-        },
-        {
           "ticker": "VST",
           "forward_y_code": "27Y",
           "metric": "ebitda",
@@ -825,6 +815,16 @@
           "prior_estimate": 2277.75,
           "pct_change": -3.451871364284931,
           "percentile": 3.713188220230474,
+          "n_obs": 781
+        },
+        {
+          "ticker": "AAPL",
+          "forward_y_code": "27Y",
+          "metric": "ebitda",
+          "current_estimate": 181015.625,
+          "prior_estimate": 184202.909,
+          "pct_change": -1.7303114360696759,
+          "percentile": 4.097311139564661,
           "n_obs": 781
         }
       ]
