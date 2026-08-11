@@ -1,7 +1,7 @@
 {
-  "digest_type": "eod",
-  "digest_dt": "2026-08-10T18:00:00-04:00",
-  "saved_at": "2026-08-10T22:32:45.209221+00:00",
+  "digest_type": "premarket",
+  "digest_dt": "2026-08-11T08:30:00-04:00",
+  "saved_at": "2026-08-11T13:24:09.693712+00:00",
   "revisions": {
     "sales": {
       "metric": "sales",
@@ -15,7 +15,7 @@
           "current_estimate": 460.6,
           "prior_estimate": 222.25,
           "pct_change": 107.24409448818899,
-          "percentile": 100.0,
+          "percentile": 99.8719590268886,
           "n_obs": 781
         },
         {
@@ -25,8 +25,8 @@
           "current_estimate": 7.273,
           "prior_estimate": 4.267,
           "pct_change": 70.44762127958751,
-          "percentile": 90.82278481012658,
-          "n_obs": 316
+          "percentile": 90.53627760252367,
+          "n_obs": 317
         },
         {
           "ticker": "ALAB",
@@ -35,8 +35,8 @@
           "current_estimate": 2981.556,
           "prior_estimate": 2218.962,
           "pct_change": 34.36715004583224,
-          "percentile": 100.0,
-          "n_obs": 598
+          "percentile": 99.8330550918197,
+          "n_obs": 599
         },
         {
           "ticker": "UEC",
@@ -45,7 +45,7 @@
           "current_estimate": 110.575,
           "prior_estimate": 85.267,
           "pct_change": 29.6808847502551,
-          "percentile": 90.39692701664532,
+          "percentile": 90.26888604353394,
           "n_obs": 781
         },
         {
@@ -55,7 +55,7 @@
           "current_estimate": 35366.895,
           "prior_estimate": 27387.316,
           "pct_change": 29.13603874143782,
-          "percentile": 100.0,
+          "percentile": 99.8719590268886,
           "n_obs": 781
         },
         {
@@ -65,7 +65,7 @@
           "current_estimate": 51.277,
           "prior_estimate": 44.51,
           "pct_change": 15.203325095484166,
-          "percentile": 98.71959026888605,
+          "percentile": 98.59154929577466,
           "n_obs": 781
         },
         {
@@ -75,7 +75,7 @@
           "current_estimate": 16311.333,
           "prior_estimate": 14300.464,
           "pct_change": 14.061564715662378,
-          "percentile": 100.0,
+          "percentile": 99.8719590268886,
           "n_obs": 781
         },
         {
@@ -85,7 +85,7 @@
           "current_estimate": 86156.586,
           "prior_estimate": 77017.458,
           "pct_change": 11.866306987176856,
-          "percentile": 100.0,
+          "percentile": 99.8719590268886,
           "n_obs": 781
         },
         {
@@ -95,7 +95,7 @@
           "current_estimate": 18488.071,
           "prior_estimate": 16808.185,
           "pct_change": 9.994452107708241,
-          "percentile": 95.00640204865557,
+          "percentile": 94.87836107554418,
           "n_obs": 781
         },
         {
@@ -105,8 +105,8 @@
           "current_estimate": 8.138,
           "prior_estimate": 7.4,
           "pct_change": 9.972972972972972,
-          "percentile": 93.07359307359307,
-          "n_obs": 462
+          "percentile": 92.87257019438445,
+          "n_obs": 463
         }
       ],
       "by_pct_bottom": [
@@ -157,8 +157,8 @@
           "current_estimate": 10773.549,
           "prior_estimate": 11182.365,
           "pct_change": -3.6558992663895284,
-          "percentile": 18.30238726790451,
-          "n_obs": 377
+          "percentile": 18.253968253968253,
+          "n_obs": 378
         },
         {
           "ticker": "TLN",
@@ -167,8 +167,8 @@
           "current_estimate": 5143.75,
           "prior_estimate": 5328.0,
           "pct_change": -3.4581456456456494,
-          "percentile": 6.901615271659324,
-          "n_obs": 681
+          "percentile": 6.89149560117302,
+          "n_obs": 682
         },
         {
           "ticker": "ENPH",
@@ -177,7 +177,7 @@
           "current_estimate": 1255.733,
           "prior_estimate": 1299.69,
           "pct_change": -3.382114196462238,
-          "percentile": 40.46094750320102,
+          "percentile": 40.33290653008963,
           "n_obs": 781
         },
         {
@@ -213,23 +213,13 @@
       ],
       "by_pctile_top": [
         {
-          "ticker": "ALAB",
-          "forward_y_code": "27Y",
-          "metric": "sales",
-          "current_estimate": 2981.556,
-          "prior_estimate": 2218.962,
-          "pct_change": 34.36715004583224,
-          "percentile": 100.0,
-          "n_obs": 598
-        },
-        {
           "ticker": "AMD",
           "forward_y_code": "27Y",
           "metric": "sales",
           "current_estimate": 86156.586,
           "prior_estimate": 77017.458,
           "pct_change": 11.866306987176856,
-          "percentile": 100.0,
+          "percentile": 99.8719590268886,
           "n_obs": 781
         },
         {
@@ -239,7 +229,7 @@
           "current_estimate": 16311.333,
           "prior_estimate": 14300.464,
           "pct_change": 14.061564715662378,
-          "percentile": 100.0,
+          "percentile": 99.8719590268886,
           "n_obs": 781
         },
         {
@@ -249,7 +239,7 @@
           "current_estimate": 460.6,
           "prior_estimate": 222.25,
           "pct_change": 107.24409448818899,
-          "percentile": 100.0,
+          "percentile": 99.8719590268886,
           "n_obs": 781
         },
         {
@@ -259,7 +249,7 @@
           "current_estimate": 35366.895,
           "prior_estimate": 27387.316,
           "pct_change": 29.13603874143782,
-          "percentile": 100.0,
+          "percentile": 99.8719590268886,
           "n_obs": 781
         },
         {
@@ -269,7 +259,7 @@
           "current_estimate": 7879.615,
           "prior_estimate": 7537.036,
           "pct_change": 4.545274826868284,
-          "percentile": 100.0,
+          "percentile": 99.8719590268886,
           "n_obs": 781
         },
         {
@@ -279,7 +269,7 @@
           "current_estimate": 2979.133,
           "prior_estimate": 2887.0,
           "pct_change": 3.1913058538274974,
-          "percentile": 100.0,
+          "percentile": 99.8719590268886,
           "n_obs": 781
         },
         {
@@ -289,7 +279,7 @@
           "current_estimate": 5992.15,
           "prior_estimate": 5650.579,
           "pct_change": 6.044884957806973,
-          "percentile": 100.0,
+          "percentile": 99.8719590268886,
           "n_obs": 781
         },
         {
@@ -299,8 +289,18 @@
           "current_estimate": 2633.464,
           "prior_estimate": 2437.37,
           "pct_change": 8.045311134542565,
-          "percentile": 100.0,
+          "percentile": 99.8719590268886,
           "n_obs": 781
+        },
+        {
+          "ticker": "ALAB",
+          "forward_y_code": "27Y",
+          "metric": "sales",
+          "current_estimate": 2981.556,
+          "prior_estimate": 2218.962,
+          "pct_change": 34.36715004583224,
+          "percentile": 99.8330550918197,
+          "n_obs": 599
         },
         {
           "ticker": "TSLA",
@@ -309,7 +309,7 @@
           "current_estimate": 120245.943,
           "prior_estimate": 117099.647,
           "pct_change": 2.686853530822342,
-          "percentile": 99.74391805377721,
+          "percentile": 99.61587708066581,
           "n_obs": 781
         }
       ],
@@ -428,7 +428,7 @@
           "current_estimate": 165.5,
           "prior_estimate": 42.6,
           "pct_change": 288.4976525821596,
-          "percentile": 100.0,
+          "percentile": 99.8719590268886,
           "n_obs": 781
         },
         {
@@ -448,8 +448,8 @@
           "current_estimate": 1121.889,
           "prior_estimate": 772.625,
           "pct_change": 45.204853583562524,
-          "percentile": 91.42367066895368,
-          "n_obs": 583
+          "percentile": 91.26712328767124,
+          "n_obs": 584
         },
         {
           "ticker": "IONQ",
@@ -458,7 +458,7 @@
           "current_estimate": -412.75,
           "prior_estimate": -293.167,
           "pct_change": 40.79006163722385,
-          "percentile": 91.2932138284251,
+          "percentile": 91.1651728553137,
           "n_obs": 781
         },
         {
@@ -468,7 +468,7 @@
           "current_estimate": 3390.875,
           "prior_estimate": 2630.235,
           "pct_change": 28.91908897874145,
-          "percentile": 100.0,
+          "percentile": 99.8719590268886,
           "n_obs": 781
         },
         {
@@ -478,8 +478,8 @@
           "current_estimate": 678.067,
           "prior_estimate": 535.56,
           "pct_change": 26.6089700500411,
-          "percentile": 97.35973597359737,
-          "n_obs": 606
+          "percentile": 97.19934102141681,
+          "n_obs": 607
         },
         {
           "ticker": "STX",
@@ -488,7 +488,7 @@
           "current_estimate": 10080.684,
           "prior_estimate": 8086.588,
           "pct_change": 24.659300065738464,
-          "percentile": 95.13444302176697,
+          "percentile": 95.00640204865557,
           "n_obs": 781
         },
         {
@@ -498,8 +498,8 @@
           "current_estimate": -219.882,
           "prior_estimate": -180.0,
           "pct_change": 22.15666666666667,
-          "percentile": 91.77330895795247,
-          "n_obs": 547
+          "percentile": 91.6058394160584,
+          "n_obs": 548
         },
         {
           "ticker": "VIAV",
@@ -508,7 +508,7 @@
           "current_estimate": 561.0,
           "prior_estimate": 462.5,
           "pct_change": 21.297297297297302,
-          "percentile": 98.46350832266324,
+          "percentile": 98.33546734955185,
           "n_obs": 781
         },
         {
@@ -518,7 +518,7 @@
           "current_estimate": -408.909,
           "prior_estimate": -338.125,
           "pct_change": 20.934269870609977,
-          "percentile": 78.10499359795135,
+          "percentile": 77.97695262483995,
           "n_obs": 781
         }
       ],
@@ -540,8 +540,8 @@
           "current_estimate": 410.0,
           "prior_estimate": 551.5,
           "pct_change": -25.6572982774252,
-          "percentile": 7.973856209150326,
-          "n_obs": 765
+          "percentile": 7.963446475195822,
+          "n_obs": 766
         },
         {
           "ticker": "RBLX",
@@ -610,7 +610,7 @@
           "current_estimate": 344.727,
           "prior_estimate": 365.048,
           "pct_change": -5.566665205671595,
-          "percentile": 32.01024327784891,
+          "percentile": 31.88220230473752,
           "n_obs": 781
         },
         {
@@ -632,7 +632,7 @@
           "current_estimate": 29165.059,
           "prior_estimate": 24641.656,
           "pct_change": 18.3567330052818,
-          "percentile": 100.0,
+          "percentile": 99.8719590268886,
           "n_obs": 781
         },
         {
@@ -642,7 +642,7 @@
           "current_estimate": 7997.522,
           "prior_estimate": 6741.227,
           "pct_change": 18.63599905477149,
-          "percentile": 100.0,
+          "percentile": 99.8719590268886,
           "n_obs": 781
         },
         {
@@ -652,7 +652,7 @@
           "current_estimate": 165.5,
           "prior_estimate": 42.6,
           "pct_change": 288.4976525821596,
-          "percentile": 100.0,
+          "percentile": 99.8719590268886,
           "n_obs": 781
         },
         {
@@ -662,7 +662,7 @@
           "current_estimate": 3390.875,
           "prior_estimate": 2630.235,
           "pct_change": 28.91908897874145,
-          "percentile": 100.0,
+          "percentile": 99.8719590268886,
           "n_obs": 781
         },
         {
@@ -672,7 +672,7 @@
           "current_estimate": 4288.333,
           "prior_estimate": 4082.75,
           "pct_change": 5.035405057865394,
-          "percentile": 100.0,
+          "percentile": 99.8719590268886,
           "n_obs": 781
         },
         {
@@ -682,7 +682,7 @@
           "current_estimate": 901.731,
           "prior_estimate": 763.8,
           "pct_change": 18.058523173605657,
-          "percentile": 100.0,
+          "percentile": 99.8719590268886,
           "n_obs": 781
         },
         {
@@ -692,7 +692,7 @@
           "current_estimate": 7018.1,
           "prior_estimate": 6620.091,
           "pct_change": 6.012137899614967,
-          "percentile": 99.48783610755441,
+          "percentile": 99.35979513444302,
           "n_obs": 781
         },
         {
@@ -702,7 +702,7 @@
           "current_estimate": 1189.85,
           "prior_estimate": 1130.632,
           "pct_change": 5.237601624578092,
-          "percentile": 99.10371318822023,
+          "percentile": 98.97567221510883,
           "n_obs": 781
         },
         {
@@ -712,7 +712,7 @@
           "current_estimate": 561.0,
           "prior_estimate": 462.5,
           "pct_change": 21.297297297297302,
-          "percentile": 98.46350832266324,
+          "percentile": 98.33546734955185,
           "n_obs": 781
         },
         {
@@ -722,8 +722,8 @@
           "current_estimate": 678.067,
           "prior_estimate": 535.56,
           "pct_change": 26.6089700500411,
-          "percentile": 97.35973597359737,
-          "n_obs": 606
+          "percentile": 97.19934102141681,
+          "n_obs": 607
         }
       ],
       "by_pctile_bottom": [
