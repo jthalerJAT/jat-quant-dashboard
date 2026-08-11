@@ -1,224 +1,235 @@
 {
-  "digest_type": "midday",
-  "digest_dt": "2026-08-11T12:00:00-04:00",
-  "saved_at": "2026-08-11T16:24:28.598505+00:00",
+  "digest_type": "eod",
+  "digest_dt": "2026-08-11T18:00:00-04:00",
+  "saved_at": "2026-08-11T22:37:30.560491+00:00",
   "bullets": [
     {
-      "title": "NVDA: $500B AI infrastructure financing platform \u2013 Wells Fargo OW $315, MS riterates Top Pick $288",
-      "body": "NVDA confirmed a partnership with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, and KKR to mobilize $500B+ in third-party AI infrastructure financing. Wells Fargo reiterates Overweight with $315 PT; Morgan Stanley's Joe Moore sees 10%+ FY29 EPS upside from a revenue-share annuity at ~100% gross margin and reiterates Top Pick at $288, noting the structure shifts capital risk to third parties while preserving 25% NVDA co-investment upside. NVDA also maintains one of the lowest forward P/E multiples in semis heading into a strong product cycle.",
+      "title": "NVDA: $500B AI financing plan, Nemotron releases, HBM downspec optionality, IBM deal",
+      "body": "NVIDIA announced a $500B+ third-party AI financing plan with Apollo, BlackRock, Blackstone, Brookfield, GS, and KKR to drive chip demand without NVDA balance sheet usage. Separately, NVDA released Nemotron 3.5 Lightning (30B MoE, open-source) and is developing Nemotron 4 (1T+ parameters). One analyst estimates a broad HBM downspec across Rubin could enable 30\u201350% more GPU shipments from the same HBM supply. IBM signed a $240M deal with Together AI to deploy NVIDIA HGX B300 clusters on IBM Cloud (Q1 2027). Systematic buyers (Citadel) are reportedly ready to add exposure as leverage unwinds complete.",
       "tickers": [
         "NVDA"
       ],
       "source_item_ids": [
-        "x:2087130732359528707",
-        "gmail:19ff1132769b2c56"
+        "gmail:19ff2745b914d203",
+        "x:2087200271403286921"
       ]
     },
     {
-      "title": "NVDA: Rubin Ultra HBM tiering, $91B Q2 guide, and upcoming earnings setup",
-      "body": "JPMorgan buyside survey ahead of NVDA's F2Q27 earnings (Aug 26, $91B revenue guide) focuses on hyperscale vs. ACIE segment breakdown, gross margin at 75%, and memory stock catalyst potential. MS notes Rubin Ultra likely features tiered HBM specs (HBM4e 8Hi high-end, HBM4 12Hi/8Hi lower-end) to manage HBM4 capacity shortages \u2014 reducing memory content per chip but boosting chip shipment volumes.",
+      "title": "LITE: Strong Q4 beat/raise; stock down on expectations bar \u2014 JPM and UBS both positive",
+      "body": "Lumentum Q4 revenue beat at $1.10B vs. consensus $988M; guided Q1 to $1.225\u20131.275B midpoint (24% sequential growth). EPS beat by 28c vs. JPM buyside bars and gross margin beat consensus by 610bps at 50.4%. UBS highlighted broad-based OCS and cloud module traction with 1.6T adoption and CPO laser demand. Stock down ~0.4% despite the solid print, likely due to high expectations \u2014 JPM notes market was pricing $1.3B+ guide.",
       "tickers": [
-        "NVDA",
-        "MU",
-        "SNDK"
+        "LITE"
       ],
       "source_item_ids": [
-        "gmail:19ff1515cba170c8",
-        "gmail:19ff1132769b2c56"
+        "gmail:19ff28e070d55aa3",
+        "gmail:19ff28f1a9597b67"
       ]
     },
     {
-      "title": "Memory: JPM raises TAM 4-8%, sees DRAM/NAND shortage through 2028; HBM pricing +42% y/y",
-      "body": "JPMorgan's Jay Kwon lifts FY26-28E memory TAM forecasts by 4-8% and sees supply/demand shortage worsening through 2028, especially DRAM. HBM pricing revised up to +42% y/y supported by longer 8Hi cycle and slower 12Hi ramp. Valuations seen as attractive with upside to shareholder returns; SNDK analyst day upcoming as a near-term catalyst.",
+      "title": "SMCI: Q4 beat and massive FY27 raise on $60B new orders; margins expand sharply",
+      "body": "Super Micro Q4 revenue $11.1B beat guidance; EPS $1.70 vs. consensus $0.92. FY27 guidance raised to $65\u201372B vs. prior consensus $52.99B, driven by $60B in new orders and record backlog. Gross margin expanded to 17.6% from 9.9% YoY, and EBITDA margin improved to 15% from 5.8% on DCBBS architecture and enterprise mix.",
       "tickers": [
-        "SNDK",
-        "MU",
-        "NVDA"
+        "SMCI"
       ],
       "source_item_ids": [
-        "gmail:19ff1771fee89943",
-        "x:2087143363938058709"
+        "gmail:19ff28f1a9597b67",
+        "gmail:19ff281e969b0b87"
       ]
     },
     {
-      "title": "INTC: Upsized $20B secondary priced at $95, 6.5% discount",
-      "body": "Intel raised $20B in an upsized secondary offering (vs. $15B target) priced at $95/share, a 6.5% discount to the prior close. Wolfe Research flagged the INTC secondary as a discussion topic for its Aug 14 semiconductor webcast. The deal represents a significant equity issuance event to watch for post-offering price pressure.",
+      "title": "CRWV: Q2 inline revenue with $104B backlog and accelerating enterprise demand",
+      "body": "CoreWeave Q2 revenue $2.58B was in line; EPS and EBITDA ($1.51B, 59% margin) beat guidance. Backlog reached ~$104B plus >$425B in Q3 commitments. UBS cites accelerating customer demand and broadening enterprise adoption. Stock was +13.6% after-hours on the print.",
+      "tickers": [
+        "CRWV"
+      ],
+      "source_item_ids": [
+        "gmail:19ff28f1a9597b67",
+        "gmail:19ff2d019f57b4a"
+      ]
+    },
+    {
+      "title": "AMD: 80%+ server CPU growth guided for H2 2026; Helios ramp driving billions in revenue",
+      "body": "At KeyBanc forum, AMD guided server CPU revenue growth >80% in H2 2026 and >70% in 2027, led by Venice CPUs with Helios rack shipments starting September. Multi-gigawatt commitments from OpenAI, Meta, and Anthropic through early 2028. Company targets 50%+ server CPU market share by 2030 ($220B TAM). Jefferies rates AMD Buy with $650 PT.",
+      "tickers": [
+        "AMD"
+      ],
+      "source_item_ids": [
+        "gmail:19ff1a4c2b1e0306",
+        "gmail:19ff2b629624fe51"
+      ]
+    },
+    {
+      "title": "INTC: $20B share sale oversubscribed; unusual $5M+ call flow; foundry AI narrative intact",
+      "body": "Intel priced a $20B equity offering that was multiple times oversubscribed \u2014 roughly 1 in 3 investors received no shares. CEO frames the offering as capital to fund AI foundry expansion, priced into a rally rather than in distress. Separately, $5M+ in unusual call options activity detected. Jefferies holds Intel at HOLD with $120 PT.",
       "tickers": [
         "INTC"
       ],
       "source_item_ids": [
-        "x:2087138867505774925",
-        "gmail:19ff0e7be3df5ef6"
+        "x:2087191313393320339",
+        "x:2087189038591508551"
       ]
     },
     {
-      "title": "TSM/TSEM: Sony-TSMC $4.7B JV for image sensors; CoWoS capacity doubling annually",
-      "body": "TSMC and Sony officially announced a $4.7B joint venture ('Advanced Vision') in Kumamoto, Japan for next-gen smartphone image sensors, with Sony contributing $2.92B (controlling stake) and TSMC $1.77B; volume production targets 2029. Separately, TSMC VP Jun He reports CoWoS capacity has doubled each of the last 3 years, now operating 10 advanced packaging plants, with 5.5x reticle CoWoS in mass production at 98%+ yields \u2014 'very close' to meeting demand but not yet satisfied.",
+      "title": "GOOGL: Gemini reaches 1B+ monthly users, Google's 14th product to hit that milestone",
+      "body": "Google CEO Sundar Pichai announced Gemini surpassed 1 billion monthly active users, calling it Google's fastest-growing product ever and its 14th to reach the 1B-user milestone. Separately, S&P 1500 Communications Services Index fell 2.1% with GOOGL as a major detractor.",
       "tickers": [
-        "TSM",
-        "TSEM"
+        "GOOGL"
       ],
       "source_item_ids": [
-        "x:2087127256821084447",
-        "x:2087125005658407295"
+        "x:2087234135278707127",
+        "x:2087224432678797538"
       ]
     },
     {
-      "title": "NXP Semiconductors (NXPI): KeyBanc forum takeaways \u2013 book-to-bill >1, Kinara pipeline $1.5B record",
-      "body": "At the KeyBanc Technology Leadership Forum, NXPI cited improved business environment vs. 90 days ago, book-to-bill solidly above 1 across all end markets, and distribution inventory normalizing to 11-week target. Kinara opportunity pipeline grew to $1.5B (fastest in company history); accelerated auto growth drivers now ~50% of auto revenue. Next-gen auto products (S32N, K5) to drive revenue from late 2027. Targeted price increases due to input cost inflation expected to be more material in H2 2026.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19ff177c2107c884"
-      ]
-    },
-    {
-      "title": "AAPL: Glass-centric 2027 iPhone on track, countering Jefferies downgrade; Hedgeye flips short",
-      "body": "A source report confirms Apple's glass-centric 20th-anniversary iPhone (2027) remains on track, cited as a direct refutation of the Jefferies downgrade thesis \u2014 a positive read for Corning (GLW) as glass supplier. Separately, Hedgeye is flipping AAPL from long to short, citing China reports of iPhone 18 price hikes of 10-23% and a foldable Ultra priced $400 above prior models ($2,223-$2,667), arguing the margin-protection strategy could backfire materially with 23% downside flagged.",
-      "tickers": [
-        "AAPL",
-        "GLW"
-      ],
-      "source_item_ids": [
-        "x:2087145042997616739",
-        "gmail:19ff12274ecd5676"
-      ]
-    },
-    {
-      "title": "GLW: Morgan Stanley flags capacity tightness as bullish; buy-the-dip recommended",
-      "body": "MS notes GLW's hyperscaler LTAs are absorbing all available fiber capacity, limiting near-term pricing upside vs. peers like Fujikura (which achieved ~25% like-for-like price increases). GLW capex rising to 12.6% of sales in 2H FY26. The NVDA-backed long-haul fiber build (16 routes, 1,728 fibers/route) extends AI fiber demand beyond data centers. MS recommends buying the dip.",
-      "tickers": [
-        "GLW"
-      ],
-      "source_item_ids": [
-        "gmail:19ff0d6451d903a0",
-        "gmail:19ff1132769b2c56"
-      ]
-    },
-    {
-      "title": "AVGO/MRVL: JPM survey ahead of Aug-Sept earnings; AI silicon wins in focus",
-      "body": "JPMorgan's buyside survey ahead of AVGO's F3Q26 earnings (Sept 2) asks whether AVGO raises its F27 AI guide above $100B and announces new AI project wins. For MRVL (F2Q27 due Aug 27), focus is on data center revenue, gross margins, and potential new AI silicon wins. Both names flagged as best-positioned for AI-driven spending alongside NVDA and MU.",
-      "tickers": [
-        "AVGO",
-        "MRVL"
-      ],
-      "source_item_ids": [
-        "gmail:19ff1515cba170c8",
-        "gmail:19ff0ed49b9870f6"
-      ]
-    },
-    {
-      "title": "PI (Everpure): Second top-5 hyperscaler design win; stock hits $108",
-      "body": "Everpure announced a second major hyperscaler Master Supply Agreement (likely Oracle) within one day of MS's upgrade to Overweight. DirectFlash technology validated for large-scale AI/cloud applications; hyperscale gross margins guided at 75-85% vs. 90%+ for Meta. JPM notes management's conservative outlook appears overly cautious per channel checks.",
-      "tickers": [
-        "PI"
-      ],
-      "source_item_ids": [
-        "x:2087113007813849411",
-        "gmail:19ff0ed49b9870f6"
-      ]
-    },
-    {
-      "title": "HIMS: Branded GLP-1 drives reacceleration but EBITDA guidance cut to fund growth; -6.9% pre-mkt",
-      "body": "Truist post-call Q&A: branded GLP-1 was the primary 2Q26 U.S. growth driver with similar dollar EBITDA contribution per subscriber vs. compounded GLP-1. HIMS lowered 2026 EBITDA guidance ceiling to fund affordability initiatives, AI, and international expansion. Eucalyptus contributed ~$40M in one month; international expected near EBITDA break-even. Gross margin headwinds expected in 2H26 as weight loss/international mix grows.",
-      "tickers": [
-        "HIMS"
-      ],
-      "source_item_ids": [
-        "gmail:19ff12152af9ba2b",
-        "gmail:19ff0fa736a98d23"
-      ]
-    },
-    {
-      "title": "PLTR: DA Davidson bull thesis \u2013 93% growth, 50x forward CF, durable moat vs. OpenAI/Anthropic",
-      "body": "DA Davidson argues Palantir deserves premium valuation at ~50x forward cash flow, citing 93% revenue growth, ~150% commercial and ~90% government growth, and a competitive moat from forward-deployed engineers, proprietary ontology, and outcome-based pricing. 50-70% compound growth seen as underwritable for 3-5 years; Snowflake, Datadog, and CrowdStrike cited as closest comparables but Palantir argued to deserve a premium.",
-      "tickers": [
-        "PLTR"
-      ],
-      "source_item_ids": [
-        "gmail:19ff0f38e907b9c3"
-      ]
-    },
-    {
-      "title": "CVLT: KeyBanc forum \u2013 19% subscription ARR growth, 10-yr high margins, H2 SaaS acceleration",
-      "body": "CommVault guided 19% y/y subscription ARR growth for FY26 with SaaS at 38% y/y growth in Q1 and 70% gross margins. EBIT margin hit a 10-year high of ~23% in Q1. Significant H2 ARR acceleration expected from SaaS cross-sell; share buybacks to accelerate in Q2, targeting at least 60% of FCF returned.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19ff17797c6e52d9"
-      ]
-    },
-    {
-      "title": "NOK: Jefferies top pick into year-end; 30%+ 2027 earnings growth, stock at 1-year lows",
-      "body": "Jefferies names Nokia a top EU semis pick for the next 6 months alongside IFX, citing 25-28% NI growth running well ahead of management's 6-8% CAGR guidance. Consensus-beating upgrades expected at Q3 and Q4; orders/backlog rising rapidly in optical and data center switching. Stock at \u20ac8, down on momentum unwind and index fund selling, trading at April lows despite an upgraded IP+Optical guide and record order intake. ECOC conference Sept 20-24 seen as sector catalyst.",
-      "tickers": [
-        "NOK"
-      ],
-      "source_item_ids": [
-        "gmail:19ff16f982959148"
-      ]
-    },
-    {
-      "title": "FSLR: Baird upgrades to outperform, raises PT to $318 from $205",
-      "body": "Baird upgraded First Solar to outperform from neutral and raised its price target to $318 from $205 (vs. FactSet average ~$277). Stock was +3.5% pre-market on the upgrade.",
-      "tickers": [
-        "FSLR"
-      ],
-      "source_item_ids": [
-        "gmail:19ff0db4843ae8de",
-        "gmail:19ff0fa736a98d23"
-      ]
-    },
-    {
-      "title": "CEG/VST/TLN/GEV/VRT: Political risk to data-center approvals from rising electricity bills",
-      "body": "Roth is surveying to assess whether rising electricity costs are generating political resistance to data-center buildout approvals in PJM and ERCOT regions \u2014 a potential headwind for power-sector names. The survey will measure consumer blame attribution to AI data centers and identify concessions needed to convert opposition to support.",
-      "tickers": [
-        "CEG",
-        "VST",
-        "TLN",
-        "GEV",
-        "VRT"
-      ],
-      "source_item_ids": [
-        "gmail:19ff0e9d4f86814e"
-      ]
-    },
-    {
-      "title": "AFRM: Reports Aug 27; JPM expects 28%+ GMV growth, trading at historical average valuation",
-      "body": "JPMorgan previews AFRM's F4Q26 (Aug 27): base case is 28%+ GMV growth, 4.0% RLTC margins, ~30% adjusted operating margins. AFRM has beaten Street GMV estimates by 4.5% over last 8 quarters; Intuit partnership adds ~2ppts to GMV growth. Stock trading at 10x NTM gross profit, in line with historical averages.",
-      "tickers": [
-        "AFRM"
-      ],
-      "source_item_ids": [
-        "gmail:19ff0fd2dddf14c1"
-      ]
-    },
-    {
-      "title": "MELI: JPM credit review \u2013 Brazil +75% y/y, Mexico +85% y/y, but Brazil complaints index worsens",
-      "body": "JPMorgan's monthly MELI credit review shows Argentina gross loans $1.4B (+9% m/m, +27% y/y) with improving NPLs; Brazil book R$48.3B (+75% y/y); Mexico loan book +85% y/y and +12% q/q in 1Q26, accelerating from 73% in 4Q25. Negative: MELI's Brazil complaints ranking worsened to 5th highest per 1M users in 2Q26 vs. 9th previously.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:19ff1430bf122c3d"
-      ]
-    },
-    {
-      "title": "APP (AppLovin): BofA downgrade, stock -5.3% at 52-week lows; -2.3% pre-market",
-      "body": "AppLovin was downgraded by BofA, contributing to a -2.3% pre-market decline. The stock hit a 52-week low with a -29.6% trailing drawdown, per StreetAccount's 52-week highs/lows screen.",
+      "title": "APP: BofA downgrades to Neutral, cuts PT to $400 from $430; stock down ~6%",
+      "body": "Bank of America downgraded AppLovin to Neutral from Buy and cut the price target to $400 from $430, citing risks to the 40% revenue growth trajectory. Stock declined 6.0% on the day. The Communications Services advertising segment was the weakest sector group, down 3.7%.",
       "tickers": [
         "APP"
       ],
       "source_item_ids": [
-        "gmail:19ff0fa736a98d23",
-        "gmail:19ff11ff94a67603"
+        "gmail:19ff27c1e0d3082e",
+        "gmail:19ff281e969b0b87"
       ]
     },
     {
-      "title": "NET: $2.175B convertible offering priced; FWONK $600M convertible also priced",
-      "body": "Cloudflare (NET) priced a $2.175B convertible note offering on August 11. Liberty Media Formula One (FWONK) priced a $600M convertible. Both are notable capital markets events for the portfolio.",
+      "title": "Jefferies semis analyst roadshow: BUY AVGO, NVDA, AMD, COHR, CRDO, LITE, MRVL, MTSI, SNDK",
+      "body": "Jefferies' Blayne Curtis is conducting a NYC analyst roadshow September 2\u20133 covering post-earnings themes and AI infrastructure outlook. Buy ratings: AMD ($650 PT), NVDA ($300 PT), AVGO ($550 PT), COHR ($375 PT), CRDO ($270 PT), ALAB ($450 PT), MRVL ($325 PT), LITE ($1,200 PT), MTSI ($450 PT), SNDK ($1,750 PT). Hold ratings: INTC ($120 PT), TXN ($260 PT).",
       "tickers": [
-        "NET",
-        "FWONK"
+        "AMD",
+        "NVDA",
+        "AVGO",
+        "COHR",
+        "CRDO",
+        "MRVL",
+        "MTSI",
+        "SNDK",
+        "INTC",
+        "TXN",
+        "ALAB",
+        "LITE"
       ],
       "source_item_ids": [
-        "gmail:19ff0e7be3df5ef6"
+        "gmail:19ff2b629624fe51"
+      ]
+    },
+    {
+      "title": "AAPL: Pay/Wallet exec departure in October; India manufacturing ramp; all-glass iPhone 2027",
+      "body": "Apple's executive overseeing Pay and Wallet services is departing in October. The company is aggressively boosting iPhone production in India to hedge against China risk. Reports also indicate Apple planning an all-glass iPhone for 2027. Stock was down on the day as part of broader Mag 7 weakness.",
+      "tickers": [
+        "AAPL"
+      ],
+      "source_item_ids": [
+        "x:2087235968973893950",
+        "x:2087178700731347070"
+      ]
+    },
+    {
+      "title": "TSMC: Record July revenue as AI fills every wafer slot; CoWoS near capacity",
+      "body": "TSMC reported record July revenue with AI demand filling every wafer slot. Discussions at OCP APAC highlighted CoWoS packaging constraints \u2014 TSMC is close to but not fully meeting demand. No formal guidance change but the data point supports AI infrastructure capex thesis.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2087218629079175382",
+        "x:2087187872348610985"
+      ]
+    },
+    {
+      "title": "MU, SNDK: Memory supply tighter longer; data-center demand supports pricing",
+      "body": "At the Future of Memory and Storage Conference 2026, the takeaway was that memory ASP flattening does not signal oversupply \u2014 higher contract spot price (CSP) LTA mix will support pricing. Data-center demand is the key driver keeping memory tight. Systematic buyers (Citadel) reportedly ready to add MU, SNDK exposure as leverage unwind completes.",
+      "tickers": [
+        "MU",
+        "SNDK"
+      ],
+      "source_item_ids": [
+        "x:2087185222861455801",
+        "x:2087230194247434361"
+      ]
+    },
+    {
+      "title": "ORCL: CDS spreads back above 200bps; Oracle-Quantinuum quantum partnership announced",
+      "body": "Oracle CDS spreads widened back above 200 basis points, flagged as a notable credit stress signal. Separately, Oracle announced a multi-year strategic partnership with Quantinuum, giving OCI customers access to Helios quantum computing alongside HPC/GPU infrastructure.",
+      "tickers": [
+        "ORCL"
+      ],
+      "source_item_ids": [
+        "x:2087230994822689258",
+        "gmail:19ff26c0c9a563f9"
+      ]
+    },
+    {
+      "title": "DLR: +8.7% on earnings day; data centers most crowded REIT sector per Citi",
+      "body": "Digital Realty was the top REIT performer on earnings day (+8.7%), per Citi's 2Q26 REIT wrap. Citi notes Data Center REITs and Storage REITs as the best-performing sectors since mid-July earnings. Data Centers are also the most crowded REIT sector in Citi's August factor analysis.",
+      "tickers": [
+        "DLR"
+      ],
+      "source_item_ids": [
+        "gmail:19ff2c9dd60bdb9f",
+        "gmail:19ff2c9c3bb9fd2e"
+      ]
+    },
+    {
+      "title": "FSLR: Upgraded to Outperform at Baird, PT raised to $318 from $205",
+      "body": "Baird upgraded First Solar to Outperform and raised its price target to $318 from $205. Utilities and energy were top sector gainers as the broader S&P 500 declined 0.3%, with NNE +4.4%, OKLO +5.6%, and TLN +4.3% also outperforming.",
+      "tickers": [
+        "FSLR",
+        "TLN",
+        "OKLO",
+        "NNE"
+      ],
+      "source_item_ids": [
+        "gmail:19ff27e6bfd83610"
+      ]
+    },
+    {
+      "title": "AMZN: Far-dated put selling signals bullish positioning; Trump-Snow trade flags governance risk",
+      "body": "Millions in far-dated AMZN 2027 put-selling reflects bullish long-term conviction. Separately, Trump's May 21 purchase of SNOW preceded an Amazon AI deal by less than a week \u2014 stock up 94% since \u2014 raising insider trading questions. Morgan Stanley's internet team rates AMZN attractive, stock +1% on the day.",
+      "tickers": [
+        "AMZN",
+        "SNOW"
+      ],
+      "source_item_ids": [
+        "x:2087234853813080195",
+        "x:2087177432176484446"
+      ]
+    },
+    {
+      "title": "TSLA: Most bullish options flow of the day; Morgan Stanley: Robotaxi proof needed",
+      "body": "TSLA showed the most bullish options flow among tracked names on Tuesday. Morgan Stanley states Tesla must demonstrate clear Robotaxi scaling evidence to maintain investor confidence, while noting that stronger FSD adoption supports the physical AI narrative.",
+      "tickers": [
+        "TSLA"
+      ],
+      "source_item_ids": [
+        "x:2087208015413797096",
+        "x:2087150721116352555"
+      ]
+    },
+    {
+      "title": "MPWR: Analyst initiates Buy with $1,706 PT on AI power demand and design wins",
+      "body": "A buy initiation on Monolithic Power with a $1,706 price target cites key positioning in AI GPU and ASIC power (VPD module uplift), firm DrMOS pricing, and design wins in storage, enterprise data, and auto. EPS forecast $28 for 2026E.",
+      "tickers": [
+        "MPWR"
+      ],
+      "source_item_ids": [
+        "x:2087154205077422580"
+      ]
+    },
+    {
+      "title": "SHOP: Strong Q2 GMV +32% YoY; UBS highlights payments momentum and upgraded outlook",
+      "body": "Shopify Q2 GMV grew 32% YoY (30% FXN) with revenue and gross profit each up ~32%/30% FXN. Q3 revenue guided to low-30s% YoY growth. UBS flags SHOP as showing notable strength within payments/fintech and reiterates constructive view on V and MA as most preferred large-cap payments.",
+      "tickers": [
+        "SHOP"
+      ],
+      "source_item_ids": [
+        "gmail:19ff1f48be8b7b87"
+      ]
+    },
+    {
+      "title": "DKNG: CFTC invokes emergency authority to shield Kalshi prediction markets from NY AG",
+      "body": "The CFTC used emergency authority to protect Kalshi prediction markets after NY AG filed a complaint seeking $36B in damages. CFTC Chairman Selig stated New York has no jurisdiction over CFTC-regulated derivatives exchanges. CFTC has filed suit against 9 states attempting to regulate its exchanges \u2014 a potential competitive read-through for DKNG's online gaming regulatory environment.",
+      "tickers": [
+        "DKNG"
+      ],
+      "source_item_ids": [
+        "gmail:19ff2c49a94d2d7d"
       ]
     }
   ]
