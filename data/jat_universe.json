@@ -1,239 +1,229 @@
 {
-  "digest_type": "midday",
-  "digest_dt": "2026-08-13T12:00:00-04:00",
-  "saved_at": "2026-08-13T17:14:19.130196+00:00",
+  "digest_type": "eod",
+  "digest_dt": "2026-08-13T18:00:00-04:00",
+  "saved_at": "2026-08-13T22:21:30.242601+00:00",
   "bullets": [
     {
-      "title": "CSCO: -7% on GM headwinds despite AI order strength",
-      "body": "Cisco fell ~7% after reporting lower gross margin guidance despite strong AI and enterprise orders. Hardware product mix shift (hyperscale/AI) is pressuring GMs; Citi TMT notes the 'Buy the Stock' dynamic means CSCO is underperforming sector peers like ANET. Stock feels 'full' per Mizuho.",
+      "title": "SNDK Investor Day: 50% FCF margin, $93.9B backlog, Meta joins HBF consortium",
+      "body": "SanDisk CEO guided mid-to-high teens revenue growth and ~80% non-GAAP gross margins through FY2028-2030, with adj. FCF margins of 50% by that window. The company disclosed $93.9B in total contract value across 8 customers and plans to return 100% of excess cash to shareholders. Separately, Meta is joining a SanDisk-led consortium to develop an open standard for high-bandwidth flash; SNDK has already taped out its first HBF die. Analyst commentary flagged conservative signed NVM RPO calculation methodology as a source of upside. Wide bid/ask spreads noted today as HFTs exploit the spread.",
+      "tickers": [
+        "SNDK",
+        "META"
+      ],
+      "source_item_ids": [
+        "x:2087918746132488403",
+        "x:2087930204085690721"
+      ]
+    },
+    {
+      "title": "NVDA: Spectrum-X photonics in full production; A100 lifecycle extended to 2029; Rubin Ultra HBM4E detail",
+      "body": "NVIDIA's Spectrum-X Ethernet photonics entered full production for gigawatt-scale AI factory networking. CEO Jensen Huang confirmed A100 GPUs remain mission-capable through 2029 (9-year lifecycle). Separately, Aletheia reports Rubin Ultra will use 8-high/12-high HBM4E (not HBM4), and the four-die configuration for Kyber remains on roadmap. CoreWeave is renting A100s through 2029, defying typical deprecation curves.",
+      "tickers": [
+        "NVDA",
+        "LITE"
+      ],
+      "source_item_ids": [
+        "x:2087958628561023408",
+        "x:2087901960146170161"
+      ]
+    },
+    {
+      "title": "AMD: $5B debt offering to fund AI expansion; UBS sees Intel foundry deal; unusual 1DTE call buying",
+      "body": "AMD plans to raise up to $5B via a four-part bond sale\u2014potentially its largest ever\u2014to fund AI capacity ramp following major deals with Anthropic and Microsoft. UBS sees AMD eventually striking a foundry partnership with Intel given its underdog status in the data center rack market. Additionally, $2M+ in 1DTE call options on NVDA and AMD were flagged as unusual activity.",
+      "tickers": [
+        "AMD",
+        "INTC",
+        "NVDA"
+      ],
+      "source_item_ids": [
+        "x:2087923265385779223",
+        "x:2087926153126482006"
+      ]
+    },
+    {
+      "title": "INTC: CEO buys $12-13M in recent offering; memory reentry hints; analyst coverage inflects bullish",
+      "body": "Intel's CEO purchased $12-13M of stock in a recent offering per SEC 8-K, signaling insider confidence. Intel reportedly hinted at reentry into the memory business. Analyst coverage has shifted dramatically: from 9 buys / 23 holds / 12 sells in 2023 to 19 buys / 33 holds / 2 sells in 2026, with the stock at $106 consensus PT and outperforming NVDA since early 2024. In Q2, Intel lost server CPU unit share but gained revenue share. Separately, millions in far OTM INTC calls hit the tape today.",
+      "tickers": [
+        "INTC"
+      ],
+      "source_item_ids": [
+        "x:2087909890572390690",
+        "x:2087925976831332567"
+      ]
+    },
+    {
+      "title": "CSCO: Earnings miss sends stock down >10%; AI spending reaching enterprise but mixed signal",
+      "body": "Cisco's Q2 earnings miss led to a >10% stock decline, per the daily semiconductor/AI infrastructure update. Commentary noted AI spending is reaching enterprise hardware but adoption signals remain mixed compared to hyperscaler-level buildouts.",
       "tickers": [
         "CSCO"
       ],
       "source_item_ids": [
-        "gmail:19ffb7c015cee2e9",
-        "gmail:19ffb2b95bce1a28"
+        "x:2087935299951235349"
       ]
     },
     {
-      "title": "COHR: -7% on margin disappointment; bull case intact per Mizuho",
-      "body": "COHR fell ~7% on earnings despite a revenue beat, with gross margins coming in at the low end of expectations. Mizuho pushes back: COHR is guiding to $3B quarterly revenue within 4 quarters (vs. consensus $2.7B), will achieve and then raise its 42% GM target, and CPO program ramp in 2H27 remains on track with bookings extending to 2028\u20132030. JPM also notes COHR disappointed vs. peer LITE which beat with 50.4% GMs (+140bps vs. consensus) and got a PT raise to $1,000.",
+      "title": "MU: $707 seen as the low; $2.7M call at $2,000 strike; semis recover half their losses",
+      "body": "One analyst argues MU at $707 was the cycle bottom, framing HBM and DRAM as non-commodity, high-margin data center products. Separately, a $2.7M call order at the $2,000 strike (109% OTM) appeared, described as a major speculative bullish bet. The broader semiconductor ETF (SMH) has recovered roughly half of June/July losses. Earlier in the week, NVDA/AMD/MU call positions reportedly doubled as the sector rallied.",
       "tickers": [
+        "MU",
+        "NVDA",
+        "AMD"
+      ],
+      "source_item_ids": [
+        "x:2087935496563413448",
+        "x:2087936456186601712"
+      ]
+    },
+    {
+      "title": "CIEN / NOK: AI campus scale trend seen as structural tailwind; COHR confirms supply chain clarity",
+      "body": "An analyst argues CIEN and NOK stand to benefit from AI campus scale-across trends flagged in LITE and COHR Q4 guidance. COHR's Q4 call confirmed that transceiver assembly is not the primary supply chain bottleneck, clarifying concerns. Silicon germanium capacity at GlobalFoundries is oversubscribed due to 200G/400G optics demand for TIAs.",
+      "tickers": [
+        "CIEN",
+        "NOK",
         "COHR",
         "LITE"
       ],
       "source_item_ids": [
-        "gmail:19ffb2b95bce1a28",
-        "gmail:19ffb7c015cee2e9"
+        "x:2087909561290068438",
+        "x:2087904123337474443"
       ]
     },
     {
-      "title": "DELL/HPE: sympathy rally on Lenovo blowout; DELL +288% YTD",
-      "body": "DELL +4% and HPE +3.4% pre-market on Lenovo earnings sympathy \u2014 Lenovo reported infrastructure solutions revenue +100% YoY and AI-related revenue +60% YoY. Mizuho notes DELL is up 288% YTD with 50-60% revenue and 85-100% EPS growth; it has outperformed STX, MU, AMD, and LITE. HPE also benefiting from enterprise server/storage demand surge.",
+      "title": "NFLX: Bill Ackman re-enters with new position; Pershing Square largest portfolio revamp in years",
+      "body": "Bill Ackman disclosed a new Netflix position as part of his largest portfolio overhaul in years. Pershing Square's Q2 additions include Netflix alongside Visa, Mastercard, and others. Ackman expects strong earnings growth to drive long-term value; Pershing Square is down 3.5% YTD through July vs. S&P 500's 13% gain.",
       "tickers": [
-        "DELL",
-        "HPE"
+        "NFLX"
       ],
       "source_item_ids": [
-        "gmail:19ffb2b95bce1a28",
-        "gmail:19ffb47d57f99360"
+        "x:2087884909964603550",
+        "x:2087894292790415765"
       ]
     },
     {
-      "title": "CRM: JPMorgan resumes at Overweight; +1.9% pre-market",
-      "body": "JPMorgan resumed coverage of Salesforce with an Overweight rating, driving the stock up ~1.9% pre-market. No price target cited in sources but the upgrade is the primary catalyst. DT (Dynatrace) also received an Outperform initiation from Wolfe (PT $65) following its $915M Arize AI observability acquisition, expected to add ~200bps to ARR growth.",
-      "tickers": [
-        "CRM"
-      ],
-      "source_item_ids": [
-        "x:2087830200394670291",
-        "gmail:19ffb47d57f99360"
-      ]
-    },
-    {
-      "title": "NVDA: AI financing platform mobilizes $500B; Burry Enron comparison surfaces",
-      "body": "NVDA is near June highs at ~$224 with Mizuho overweight into Aug 26 earnings as a key catalyst. MS notes NVDA announced a $500B financing platform to address 'circularity' concerns by pulling in pension funds and sovereign wealth as infrastructure debt buyers. On the bear side, Michael Burry drew a comparison between NVDA and Enron, though this is a single data point. The Economist also covered NVDA's tension with hyperscaler customers building competing silicon.",
-      "tickers": [
-        "NVDA"
-      ],
-      "source_item_ids": [
-        "gmail:19ffb2b95bce1a28",
-        "gmail:19ffb1c068e552bd"
-      ]
-    },
-    {
-      "title": "CRWV/NBIS: neocloud earnings beat; compute demand tight, pricing at highs",
-      "body": "CoreWeave (CRWV) beat on active power and margins with >$25B in early-Q3 commitments; Nebius (NBIS) beat topline and raised FY26 contracted power targets with positive Q3 trends. Both names are off slightly in pre-market (-1.5% and -2.5% respectively) after runs. CoreWeave is raising prices 25% as Blackwell pricing hits new highs, reflecting tight compute supply.",
-      "tickers": [
-        "CRWV",
-        "NBIS"
-      ],
-      "source_item_ids": [
-        "gmail:19ffb7c015cee2e9",
-        "gmail:19ffb1c068e552bd"
-      ]
-    },
-    {
-      "title": "IREN: delivers Horizon 1 to MSFT, achieves NVIDIA GB300 Exemplar Cloud status",
-      "body": "IREN delivered its 50MW Horizon 1 cloud deployment to Microsoft at Childress, Texas and became the first to achieve NVIDIA Exemplar Cloud status on the GB300 NVL72 platform. IREN is targeting 480MW AI Cloud capacity in 2026 and 1.2GW gross AI Cloud capacity in FY27.",
+      "title": "IREN delivers Horizon 1 to MSFT; achieves NVIDIA Exemplar Cloud status on GB300",
+      "body": "IREN announced it delivered its Horizon 1 product to Microsoft and achieved NVIDIA Exemplar Cloud status on the GB300 platform. MSFT also cut carbon removal credit purchases by ~80% YoY (8.55M metric tons vs prior year) to prioritize AI spending.",
       "tickers": [
         "IREN",
+        "NVDA",
         "MSFT"
       ],
       "source_item_ids": [
-        "x:2087869354197278867",
-        "gmail:19ffb30a9fa2279b"
+        "x:2087925809222938804",
+        "x:2087917099121336770"
       ]
     },
     {
-      "title": "AAOI: strong coherent-wavelength demand surge; 1.6T ramp not yet in numbers",
-      "body": "Multiple sources flag enormous CW (coherent-wavelength) demand imbalance driven by NVDA ramp. AAOI and SIVE are emerging as scarce, independent CW laser/transceiver capacity holders. The 1.6T hyperscaler ramp scaling from H1 to H2 2027 is not yet reflected in current demand figures. AAOI -1.7% pre-market after the LITE/COHR earnings volatility.",
-      "tickers": [
-        "AAOI"
-      ],
-      "source_item_ids": [
-        "x:2087857563354476920",
-        "x:2087849557829046296"
-      ]
-    },
-    {
-      "title": "TEAM/TTD/ADBE/DKNG: tech conf day 1 key takeaways",
-      "body": "TEAM management tone positive on seat expansion, cross-sell, and AI (Teamwork Graph/MCP); JSM gaining traction; enterprise underpenetrated. TTD flagged headwinds broader than discussed on the earnings call. ADBE margins under pressure in next FY guide due to freemium transition costs ahead of usage scaling. DKNG's 2026 optics hinge on NFL (Sept, neutral) vs. NBA (late-Oct, negative near-term/better 2027) prediction market launch timing.",
-      "tickers": [
-        "TEAM",
-        "TTD",
-        "ADBE",
-        "DKNG"
-      ],
-      "source_item_ids": [
-        "gmail:19ffb853123cb5c5",
-        "gmail:19ffb83b79050840"
-      ]
-    },
-    {
-      "title": "AMD: files debt shelf registration of indeterminate amount",
-      "body": "AMD filed both a 424B5 and an S-3ASR automatic debt shelf registration of indeterminate amount, with Barclays, BofA, Citi, JPM, Morgan Stanley, and Wells Fargo as joint book-runners. Stock was at $482.93 at filing. BofA also raised its 2030 server CPU market forecast to $210B+ (from $170B, nearly 5x 2025 levels) on AI agent demand, benefiting AMD and INTC.",
-      "tickers": [
-        "AMD",
-        "INTC"
-      ],
-      "source_item_ids": [
-        "gmail:19ffb39f0a4a176f",
-        "x:2087866086347747377"
-      ]
-    },
-    {
-      "title": "GOOGL/MSFT/AMZN: hyperscalers benefit from open-weight AI efficiency; remain top picks",
-      "body": "MS TMT notes open-weight models drive healthy returns for hyperscalers via higher token throughput efficiency. JPM names AMZN, GOOGL, SPOT as top large-cap internet picks. Pershing Square (PSUS) expects hyperscaler margins to expand and CapEx-to-sales ratios to decline over 2-3 years as AI data center investments mature. GOOGL remains underweight concern: up only 9% YTD, leadership changes in AI and Gemini advanced model gaps weighing on stock per Mizuho, though firm argues underestimation is persistent.",
+      "title": "GOOGL: Gemini 3.7 Flash launched for coding/agents; NVDA hyperscaler dynamic intensifying",
+      "body": "Google launched Gemini 3.7 Flash, described as its most intelligent workhorse model for coding and agents. One analyst note outlines NVDA's strategy to commoditize the data center layer while hyperscalers (AMZN, MSFT, GOOGL) attack the chip design layer; neocloud business models are affected by NVDA revenue share arrangements.",
       "tickers": [
         "GOOGL",
+        "NVDA",
+        "AMZN",
+        "MSFT"
+      ],
+      "source_item_ids": [
+        "x:2087950085199921612",
+        "x:2087881570522648702"
+      ]
+    },
+    {
+      "title": "SMCI: Earnings-day buyer holds; smuggling scandal and $65-72B FY27 guidance vs $25B market cap scrutinized",
+      "body": "One trader bought SMCI on earnings day after reviewing guidance and sees recent weakness as overdone. A bearish take flags SMCI's alleged smuggling of NVDA GPUs and questions whether $65-72B FY2027 revenue guidance is credible against a ~$25B market cap, contrasting the company unfavorably with DELL.",
+      "tickers": [
+        "SMCI",
+        "NVDA",
+        "DELL"
+      ],
+      "source_item_ids": [
+        "x:2087902683474891106",
+        "x:2087908137831698627"
+      ]
+    },
+    {
+      "title": "IONQ / RGTI / QBTS: Q2 quantum earnings reviewed; thesis intact, now a stock-picker's market",
+      "body": "All five U.S. quantum pure-plays reported Q2. The quantum thesis survived but the trade has shifted from a basket approach to individual stock selection. IONQ is cited by one user as 'in the strongest position to dominate in coming years.' Government spending is accelerating and Q2 revenue/guidance trends were up.",
+      "tickers": [
+        "IONQ",
+        "RGTI",
+        "QBTS"
+      ],
+      "source_item_ids": [
+        "x:2087907067155693956",
+        "x:2087911488287539222"
+      ]
+    },
+    {
+      "title": "AAPL: Trader buys pre-iPhone event calls targeting all-time highs",
+      "body": "A trader disclosed buying AAPL $315 calls at $4 and $325 calls at $1.70, both expiring 9/11, as a directional bet on a run-up into the upcoming iPhone launch event, with intent to exit before the event itself.",
+      "tickers": [
+        "AAPL"
+      ],
+      "source_item_ids": [
+        "x:2087898426545492254"
+      ]
+    },
+    {
+      "title": "AMZN: Sales desk signals buy at open; Pershing Square holds position",
+      "body": "One trader signaled buying AMZN at the open and discussing bullish/bearish single-stock views. Bill Ackman's Pershing Square also held AMZN among Q2 disclosed positions alongside UBER, MSFT, and META.",
+      "tickers": [
+        "AMZN",
         "MSFT",
-        "AMZN"
+        "META",
+        "UBER"
       ],
       "source_item_ids": [
-        "gmail:19ffb7c015cee2e9",
-        "gmail:19ffb6566b55ad01"
+        "x:2087875837475299371",
+        "x:2087877760857333980"
       ]
     },
     {
-      "title": "LRCX/CDNS: JPM conf takeaways bullish on WFE outlook and agentic AI EDA",
-      "body": "LRCX raised its AI capex-to-WFE framework from ~$8B to $9-10B per $100B of AI capex and lifted WFE industry outlook from ~$135B to ~$150B for 2026; mid-50% GM and mid-40% OM targeted. CDNS sees record Q1-Q2 backlog with recurring EDA revenue +18-20% YoY; agentic AI tools (ChipStack, ViraStack) cut design cycles from ~5 weeks to days; Intel 14A engagement is a multi-year opportunity barely in near-term numbers.",
-      "tickers": [
-        "COHR",
-        "LITE",
-        "AAOI"
-      ],
+      "title": "30Y Treasury auction at highest yield since 2001: 5.216%; macro rate regime matters for tech",
+      "body": "The 30-year bond auction cleared at 5.216% with a 0.4bps tail\u2014the highest yield since 2001. Bid-to-cover was 2.39x; indirect bidders took 66.8%. BofA economists separately forecast 3 Fed rate hikes in 2026, while CreditSights sees rates unchanged through H1 2027. Fed speakers Barkin and Hammack both kept rate hikes on the table but showed no urgency post soft PPI.",
+      "tickers": [],
       "source_item_ids": [
-        "gmail:19ffb7f2b0fe8ac7"
+        "x:2087948505348522380",
+        "x:2087913511103893666"
       ]
     },
     {
-      "title": "SHOP/CLS: Canadian mid-morning outperformers",
-      "body": "Shopify (SHOP) trading +2.6% and Celestica (CLS) +4.4% on the TSX mid-morning. No specific fundamental catalyst cited beyond the broader market move.",
+      "title": "PPI cooler than expected in July; S&P 500 hits all-time high at 7,800",
+      "body": "July PPI came in flat at 0.0% M/M vs +0.2% estimate (YoY +4.7% vs +4.9% est); core PPI +0.2% vs +0.3% est. The soft print drove rate-hike probability sharply lower. The S&P 500 crossed 7,800 for the first time (9th 100-point milestone of the year) and the VIX plunged below 15 to 2026 lows. Equal-weight RSP also hit all-time highs, signaling market breadth.",
       "tickers": [
-        "SHOP",
-        "CLS"
+        "SPY"
       ],
       "source_item_ids": [
-        "gmail:19ffb96719a866bd"
+        "x:2087879480924635230",
+        "x:2087924265379086659"
       ]
     },
     {
-      "title": "ABNB: Jefferies raises PT to $215 from $175",
-      "body": "Jefferies raised its Airbnb price target to $215 from $175, consistent with broader travel/hospitality PT upgrades seen across the Street today.",
-      "tickers": [
-        "ABNB"
-      ],
+      "title": "Tech guidance raises running at 2.3x historical average this earnings season",
+      "body": "Nearly one-third of tech stocks that reported earnings this season raised guidance\u20142.3x the 25-year historical average of 14%. Health Care, Real Estate, and Industrials are also raising guidance at double historical rates, suggesting broad corporate optimism.",
+      "tickers": [],
       "source_item_ids": [
-        "x:2087855963952886243"
+        "x:2087946015894630538"
       ]
     },
     {
-      "title": "META: $567M liability ruling in NM; smart glasses criminal complaint in Germany",
-      "body": "New Mexico court found Meta liable for harm to young users and ordered it to pay $567M. Separately, a German privacy group filed a criminal complaint alleging Meta's smart glasses enable covert filming; German prosecutors are reviewing. Meta also removed 750K+ teen accounts in Australia under compliance mandate.",
+      "title": "TSLA: Swedish union suspends industrial action as of Aug 19; self-inflicted issues cited by former bull",
+      "body": "Swedish union IF Metall will suspend its industrial action against Tesla starting August 19, removing a labor headwind. A former Tesla bull (2019-2023, cautious since 2024) argues most of TSLA's current challenges are self-inflicted and fixable with marketing investment, but holds no current position.",
       "tickers": [
-        "META"
+        "TSLA"
       ],
       "source_item_ids": [
-        "gmail:19ffb95ba949cc4d",
-        "gmail:19ffb58fe293781e"
+        "x:2087890999834189957",
+        "x:2087889864368738402"
       ]
     },
     {
-      "title": "RKLB: ATM 'repapering' not new dilution \u2014 $1.9B is residual from existing $3B program",
-      "body": "Commentary clarifies that the $1.9B RKLB ATM headline is reuse of remaining capacity from the $3B program established in May 2026, not incremental dilution. H1 2026 ATM proceeds were approximately $1.53B.",
+      "title": "NBIS/NVDA: Nebius deploys NVIDIA-powered AI infrastructure with Vantage Data Centers in Wales",
+      "body": "Nebius secured a commercial capacity commitment with Vantage Data Centers to deploy high-density NVIDIA-powered AI infrastructure at the CWL1 campus in Newport, Wales\u2014its first announced commercial capacity commitment in the South Wales AI Growth zone.",
       "tickers": [
-        "RKLB"
+        "NBIS",
+        "NVDA"
       ],
       "source_item_ids": [
-        "x:2087859094140985486"
-      ]
-    },
-    {
-      "title": "DELL/HPE/CSCO: Citi flags margin compression risk spreading from AAPL to enterprise hardware",
-      "body": "Citi TMT flags that AAPL flipped the hardware narrative negative on 7/30 with softer guidance and margin pressure, CSCO added to the pressure, and the concern is now whether DELL/HPQ/NTAP will follow. The Q3 theme shifts from 'Buy the Group' to 'Buy the Stock' \u2014 ANET outperforms CSCO, LITE outperforms GLW/COHR, STX outperforms WDC as key pair trades.",
-      "tickers": [
-        "DELL",
-        "CSCO",
-        "LITE",
-        "COHR"
-      ],
-      "source_item_ids": [
-        "gmail:19ffb9f9b277e6b2"
-      ]
-    },
-    {
-      "title": "DIS/NFLX/LYV: MS LA Media Bus Tour Sept 28-29 with C-suite access",
-      "body": "Morgan Stanley's September 28-29 LA Media Bus Tour features Walt Disney CFO Hugh Johnston (Sept 28 AM), Netflix co-CEO Ted Sarandos (Sept 29 PM), and Live Nation CFO/IR. Event limited to select hedge funds; request deadline August 26.",
-      "tickers": [
-        "DIS",
-        "NFLX",
-        "LYV"
-      ],
-      "source_item_ids": [
-        "gmail:19ffbb5fe2657aa2"
-      ]
-    },
-    {
-      "title": "DELL: 52-week high, +254% YTD; MDB +120%, NET +61% also at highs",
-      "body": "StreetAccount flags 171 stocks at 52-week highs: DELL at $501.50 (+254% YTD), MDB at $457.90 (+120% YTD), NET at $325 (+61% YTD), PANW at $395.40 (+125% YTD), LYV also at a high (+18% YTD).",
-      "tickers": [
-        "DELL",
-        "MDB",
-        "NET",
-        "LYV"
-      ],
-      "source_item_ids": [
-        "gmail:19ffb88027f767e4"
-      ]
-    },
-    {
-      "title": "ORCL: anchor tenant for Vantage Data Centers exploring $100B IPO",
-      "body": "Vantage Data Centers is exploring going public at approximately $100B valuation, with ORCL identified as its anchor tenant for Stargate (OpenAI end user). Anthropic IPO also expected.",
-      "tickers": [
-        "ORCL"
-      ],
-      "source_item_ids": [
-        "x:2087867722784805170"
+        "x:2087872328239616192"
       ]
     }
   ]

@@ -1,206 +1,236 @@
 {
-  "digest_type": "midday",
-  "digest_dt": "2026-08-13T12:00:00-04:00",
-  "saved_at": "2026-08-13T17:14:19.135631+00:00",
+  "digest_type": "eod",
+  "digest_dt": "2026-08-13T18:00:00-04:00",
+  "saved_at": "2026-08-13T22:21:30.247088+00:00",
   "bullets": [
     {
-      "title": "IREN delivers Horizon 1 to Microsoft, achieves NVIDIA Exemplar Cloud status on GB300 NVL72",
-      "body": "IREN delivered its Horizon 1 product to Microsoft and was awarded NVIDIA Exemplar Cloud status tied to the GB300 NVL72 platform, a meaningful validator of its AI infrastructure positioning.",
+      "title": "SNDK Investor Day: 80% Gross Margins, $93.9B Contract Value, Flash Market to $500B by 2027",
+      "body": "SanDisk CEO guided mid-to-high teens revenue growth through FY2030, targeting ~80% non-GAAP gross margins and 50% adj FCF margins. Notably, the company expects to collect $93.9B in total contract value from 8 customers over contract lives. One analyst flagged that SNDK is 'sandbagging' projections via conservative NVM RPO calculation methodology, suggesting more upside than guided. Flash memory market projected to grow from $300B (2026) to nearly $500B (2027).",
       "tickers": [
-        "IREN",
-        "NVDA"
+        "SNDK"
       ],
       "source_item_ids": [
-        "x:2087869354197278867"
+        "x:2087918746132488403",
+        "x:2087955259159204289"
       ]
     },
     {
-      "title": "BofA raises 2030 server CPU market forecast to $210B+ on AI agent demand shift",
-      "body": "BofA lifted its 2030 server CPU market forecast to $210B+ from $170B (~5x estimated 2025 market size), arguing AI agents are shifting CPUs from supporting roles to orchestration control-plane functions, potentially improving the CPU-to-GPU ratio. AMD and INTC are the primary beneficiaries cited.",
+      "title": "SanDisk Tapes Out First High-Bandwidth Flash Die; Meta Joins Open Standard Consortium",
+      "body": "SanDisk exec confirmed tape-out of the first high-bandwidth flash (HBF) memory die targeting inference applications. Meta is joining a SanDisk-led consortium to develop an open standard for high-bandwidth flash\u2014a meaningful ecosystem development that could accelerate HBF adoption across hyperscalers including GOOGL and NVDA.",
+      "tickers": [
+        "SNDK",
+        "META",
+        "NVDA",
+        "GOOGL"
+      ],
+      "source_item_ids": [
+        "x:2087930204085690721",
+        "x:2087926199053926885"
+      ]
+    },
+    {
+      "title": "MU $707 Flagged as the Low; HBM/DRAM Framed as Non-Commodity Premium Business",
+      "body": "A fintwit analyst argues MU at $707 marked the cycle bottom, characterizing HBM, DRAM, and SNDK NAND as 'non-commodity' high-margin data center products rather than generic memory. Separately, a $2.7M call order on MU at a $2,000 strike (109% OTM) was flagged as unusual; NVDA/AMD/MU calls also reportedly 'doubled' after whale positioning earlier in the week preceded a semiconductor sector rally.",
+      "tickers": [
+        "MU",
+        "SNDK",
+        "NVDA",
+        "AMD"
+      ],
+      "source_item_ids": [
+        "x:2087935496563413448",
+        "x:2087906655782474041"
+      ]
+    },
+    {
+      "title": "AMD Plans $5B Debt Sale for AI Expansion; Unusual Far-OTM INTC Calls Hit Tape",
+      "body": "AMD is raising up to $5B in a four-part bond deal (potentially largest ever) to fund AI infrastructure expansion following major deals with Anthropic and Microsoft. Separately, millions of dollars in far out-of-the-money INTC calls hit the tape, flagged as unusual positioning; multi-desk attention noted on Intel hinting at potential memory reentry alongside CEO purchasing $12-13M in shares.",
       "tickers": [
         "AMD",
-        "INTC"
+        "INTC",
+        "MSFT"
       ],
       "source_item_ids": [
-        "x:2087866086347747377"
+        "x:2087923265385779223",
+        "x:2087909890572390690"
       ]
     },
     {
-      "title": "Coherent-wavelength demand imbalance surging; AAOI and SIVE flagged as scarce CW laser/transceiver capacity",
-      "body": "A researcher flags 'enormous' CW demand imbalance driven by NVDA ramps, with additional 1.6T scale-up not yet reflected in current demand. AAOI and SIVE highlighted as companies emerging with scarce, independent CW laser or transceiver capacity. Revenue conversion timing remains uncertain into H1\u2013H2 2027 hyperscaler ramp.",
+      "title": "INTC Analyst Consensus Flipped: 9 Buys in 2023 vs 19 Buys in 2026; Outperforming NVDA",
+      "body": "A widely-shared chart shows INTC analyst sentiment reversed dramatically\u2014from 9 buys/23 holds/12 sells in 2023 at $25 to 19 buys/33 holds/2 sells in 2026 near $106 consensus PT. Intel reportedly outperforming NVDA since early 2024. UBS also flagged potential AMD foundry deal with Intel amid AMD's underdog status in data center rack markets.",
       "tickers": [
-        "AAOI",
+        "INTC",
+        "NVDA",
+        "AMD"
+      ],
+      "source_item_ids": [
+        "x:2087925976831332567",
+        "x:2087926153126482006"
+      ]
+    },
+    {
+      "title": "NVDA Spectrum-X Ethernet Photonics in Full Production; Rubin Ultra Uses HBM4E Not HBM4",
+      "body": "NVIDIA's Spectrum-X Ethernet photonics entered full production for gigawatt-scale AI factory networking. Separately, Aletheia research reveals Rubin Ultra will use 8-high/12-high HBM4E (not HBM4 as assumed), and the four-die Rubin Ultra configuration remains on roadmap for Kyber\u2014Kyber has not been canceled.",
+      "tickers": [
+        "NVDA",
+        "LITE",
+        "TSM"
+      ],
+      "source_item_ids": [
+        "x:2087958628561023408",
+        "x:2087901960146170161"
+      ]
+    },
+    {
+      "title": "CoreWeave/NVDA A100 Contracts Extended to 2029; AI Infrastructure 'Supercycle' Confirmed",
+      "body": "CoreWeave is renting NVIDIA's 6-year-old A100 GPUs through 2029, extending Ampere's lifespan to nine years\u2014defying typical deprecation. CoreWeave and Nebius earnings were cited as underlining the AI infrastructure supercycle. NVIDIA also published an 'AI Tokenomics Guide' framing compute-to-revenue conversion; early NVIDIA chip contracts reportedly extend to 2029.",
+      "tickers": [
         "NVDA"
       ],
       "source_item_ids": [
-        "x:2087857563354476920",
-        "x:2087849557829046296"
+        "x:2087872441196621878",
+        "x:2087935639337517365"
       ]
     },
     {
-      "title": "RKLB ATM: $1.9B offering is re-papering of existing program, not new dilution",
-      "body": "A commentator pushes back on RKLB panic, noting the $1.9B ATM simply repurposes remaining capacity from the $3B program established in May; H1 2026 ATM proceeds were approximately $1.53B already.",
+      "title": "CSCO Stock Drops >10% After Earnings Miss; AI Spending Signals Mixed at Enterprise Layer",
+      "body": "Cisco and Cerebras both dropped over 10% in this session, per a daily semiconductor recap. CoreWeave/Nebius earnings highlight AI infrastructure supercycle while Cisco/Lenovo suggest AI spending is reaching enterprise hardware\u2014but with execution gaps. YMTC also gained third place in NAND, adding competitive pressure.",
       "tickers": [
-        "RKLB"
+        "CSCO"
       ],
       "source_item_ids": [
-        "x:2087859094140985486"
+        "x:2087935299951235349"
       ]
     },
     {
-      "title": "POET receives $2.3M purchase order; researcher skeptical of dilution-heavy $830M cash raise",
-      "body": "POET received a new $2.3M purchase order ahead of its earnings call. However, a researcher raises red flags on the ~$830M cash accumulated through significant shareholder dilution, stating 'I have 0 idea. ZERO.' about the capital deployment thesis.",
+      "title": "CIEN, NOK Bullish Thesis: AI Campus Scale Expansion Supported by LITE and COHR Commentary",
+      "body": "A fintwit analyst argues CIEN and NOK stand to benefit from expanding AI campus footprints spanning multiple geographies, citing bullish scale commentary from LITE and COHR earnings calls. COHR Q4 call separately confirmed transceiver assembly is not the primary supply chain bottleneck.",
       "tickers": [
-        "POET"
-      ],
-      "source_item_ids": [
-        "x:2087870374751187320",
-        "x:2087845820020457894"
-      ]
-    },
-    {
-      "title": "IQE/AXTI optical supply-chain thesis validated; trader remains long AXTI and LITE-linked names",
-      "body": "A trader reports their early-2026 thesis on IQE as a distressed-but-critical chokepoint in the optical supply chain has been validated alongside AXTI and others. Maintains long positions in IQE and AXTI, flagging links to LITE and related optical companies.",
-      "tickers": [
-        "AXTI",
+        "CIEN",
+        "NOK",
+        "COHR",
         "LITE"
       ],
       "source_item_ids": [
-        "x:2087838176677376186"
+        "x:2087909561290068438",
+        "x:2087904123337474443"
       ]
     },
     {
-      "title": "Vantage Data Centers exploring $100B IPO; ORCL named anchor tenant for Stargate",
-      "body": "Vantage Data Centers is exploring a public listing at roughly $100B valuation. Oracle is the anchor tenant for the Stargate AI infrastructure build (with OpenAI as end user). Anthropic IPO is also expected. Poster frames these as signals of continued hyperscaler infrastructure demand.",
+      "title": "LITE Earnings Call: Scale Across Strategy Highlighted; CIEN and CSCO Named as Competitors",
+      "body": "One of the more notable elements of LITE's latest earnings call was discussion of the 'Scale Across' strategy. Competitors CIEN (coherent DSP/NPO/CPO/FST) and CSCO/Acacia (coherent pluggables, 800G DSP, coherent transmission) were named as active in overlapping segments.",
       "tickers": [
-        "ORCL"
+        "LITE",
+        "CIEN",
+        "CSCO"
       ],
       "source_item_ids": [
-        "x:2087867722784805170"
+        "x:2087961030622343666"
       ]
     },
     {
-      "title": "Hyperscaler capex commitments >$1.5T could compete with government financing for market funding",
-      "body": "A macro commentator flags that hyperscalers' purchase commitments exceeding $1.5 trillion, arriving alongside large sovereign borrowing needs, could create meaningful market funding pressure \u2014 a structural risk for rates and risk assets.",
+      "title": "30-Year Treasury Auction Clears at 5.216%, Highest Yield Since 2001; 0.4bp Tail",
+      "body": "The 30Y bond auction drew a high yield of 5.216% with a 0.4bps tail, the highest yield since 2001. Bid-to-cover was 2.39x; indirect bidders took 66.8%, primary dealers 11.5%, directs 21.6%. Multiple fintwit accounts flagged this as signaling elevated borrowing costs and potential demand weakness.",
       "tickers": [],
       "source_item_ids": [
-        "x:2087851261697593476"
+        "x:2087948505348522380",
+        "x:2087948131677675645"
       ]
     },
     {
-      "title": "Hyperscalers not broken out yet on relative performance",
-      "body": "Market observers note hyperscalers' relative performance remains in the middle of its historical range, with no breakout yet \u2014 suggesting the AI infrastructure trade has room to run or faces a continued consolidation phase.",
+      "title": "PPI Misses Across the Board; Rate-Hike Odds Plummet, VIX Below 15",
+      "body": "July PPI came in flat M/M (0.0% vs +0.2% est) and +4.7% Y/Y (vs +4.9% est); core PPI +0.2% M/M vs +0.3% est. Following the miss, market expectations for Fed rate hikes in 2026 dropped sharply. VIX fell below 15 to 2026 lows. BofA economists still forecast 3 Fed rate increases in 2026 while CreditSights sees rates unchanged through H1 2027.",
       "tickers": [],
       "source_item_ids": [
-        "x:2087866721994518781"
+        "x:2087879480924635230",
+        "x:2087891950867251670"
       ]
     },
     {
-      "title": "Michael Burry compares NVDA to Enron",
-      "body": "A tweet circulates Burry's comparison of Nvidia to Enron, implying concerns about accounting sustainability or valuation credibility. No specific financial details provided, but notable as a high-profile bearish signal in the fintwit ecosystem.",
+      "title": "S&P 500 Hits New All-Time Highs at 7,800; Equal-Weight RSP Also at ATH",
+      "body": "S&P 500 crossed above 7,800 for the first time, its 9th 100-point milestone of the year; index was at 6,400 one year ago and 4,400 five years ago. Equal-weight RSP also reached all-time highs, signaling broad market participation rather than just mega-cap leadership. SPY call walls at $775 ($5B+) and $780 ($6B) noted as significant options exposure.",
       "tickers": [
+        "SPY"
+      ],
+      "source_item_ids": [
+        "x:2087924265379086659",
+        "x:2087895879093022900"
+      ]
+    },
+    {
+      "title": "Tech Guidance Raises at 2.3x Historical Average; One-Third of Reporters Raised Guidance",
+      "body": "Nearly one-third of tech stocks that reported Q2 earnings raised guidance this season, running at 2.3x the 25-year historical average of 14%. Health Care, Real Estate, and Industrials are also raising guidance at approximately double historical rates\u2014broad earnings cycle strength.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2087946015894630538"
+      ]
+    },
+    {
+      "title": "Diesel Crack Spread Hits All-Time High Above $98 on Houthi Attack on Saudi Aramco Refinery",
+      "body": "Yemen's Houthis reportedly struck Saudi Aramco's Jizan Refinery, sending diesel crack spreads to an all-time high above $98/barrel. Brent crude futures fell ~$1 in net on profit-taking after a 5-session rally, with WTI below $82. Hormuz commercial traffic remains 'single digits' in both directions per UKMTO.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2087942668101828920",
+        "x:2087923820380250469"
+      ]
+    },
+    {
+      "title": "Anthropic Valued at $2-3T; $100-120B ARR Expected by Year-End; CRO Departs",
+      "body": "Anthropic backers are reportedly projecting a $2-3T valuation ahead of a potential October IPO that could be the largest market debut ever. Backers expect $100-120B annualized revenue by year-end. However, CRO Denise Dresser departed after less than a year; Dali Rajic named as replacement CRO, signaling potential revenue execution uncertainty.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2087946532586955126",
+        "x:2087943158822834656"
+      ]
+    },
+    {
+      "title": "Google Launches Gemini 3.7 Flash for Coding and Agents; DeepSeek Raises Prices 4x",
+      "body": "Google released Gemini 3.7 Flash, described as its 'most intelligent workhorse model' for coding and agents. Simultaneously, DeepSeek raised AI model prices more than 4x effective August 16 (V4-Flash from $0.28 to $1.32 per million output tokens), moving closer to competitor pricing\u2014reduces the deflationary pricing pressure narrative from DeepSeek.",
+      "tickers": [
+        "GOOGL"
+      ],
+      "source_item_ids": [
+        "x:2087950085199921612",
+        "x:2087893402704920883"
+      ]
+    },
+    {
+      "title": "Bill Ackman Adds Netflix, UBER, MSFT, META, AMZN in Largest Portfolio Revamp in Years",
+      "body": "Pershing Square disclosed six new positions including Netflix, Visa, Mastercard, UBER, MSFT, META, and AMZN in Q2. Ackman repurchased NFLX after a prior 2022 exit, viewing the company as dominant in its category. Pershing Square was reportedly down 3.5% YTD through July vs. S&P 500's 13% gain.",
+      "tickers": [
+        "NFLX",
+        "UBER",
+        "MSFT",
+        "META",
+        "AMZN"
+      ],
+      "source_item_ids": [
+        "x:2087884909964603550",
+        "x:2087894292790415765"
+      ]
+    },
+    {
+      "title": "IREN Delivers Horizon 1 to Microsoft; Achieves NVIDIA GB300 Exemplar Cloud Status",
+      "body": "IREN announced delivery of its Horizon 1 product to Microsoft and confirmed achievement of NVIDIA Exemplar Cloud status on the GB300 platform\u2014a certification that validates AI infrastructure readiness at the highest tier.",
+      "tickers": [
+        "IREN",
+        "NVDA",
+        "MSFT"
+      ],
+      "source_item_ids": [
+        "x:2087925809222938804"
+      ]
+    },
+    {
+      "title": "SMCI: $65-72B FY27 Revenue Guidance vs $25B Market Cap; Analyst Flags GPU Smuggling Scandal",
+      "body": "Analyst notes SMCI guided $65-72B revenue for FY2027 while the stock trades at only ~$25B market cap, suggesting either a credibility discount or valuation opportunity. The same analyst flagged SMCI's alleged attempt to smuggle NVDA GPUs using hairdryers as a key overhang distinguishing it from a DELL-like trajectory.",
+      "tickers": [
+        "SMCI",
+        "DELL",
         "NVDA"
       ],
       "source_item_ids": [
-        "x:2087845380738203739"
-      ]
-    },
-    {
-      "title": "TSLA lacks marketing leadership to drive autonomous driving and Optimus narratives",
-      "body": "A commentator argues Tesla, despite its $1.3T market cap, has under-invested in marketing leadership relative to its ambitions in autonomous driving and Optimus robotics, contrasting it with Apple's $4.4T market cap built partly on marketing excellence.",
-      "tickers": [
-        "TSLA",
-        "AAPL"
-      ],
-      "source_item_ids": [
-        "x:2087830727647773138"
-      ]
-    },
-    {
-      "title": "DeepSeek introduces peak/off-peak API pricing effective Aug. 16",
-      "body": "DeepSeek is rolling out a tiered API pricing structure with peak and off-peak rates, effective August 16. No direct universe ticker impact cited, but relevant as a competitive pricing signal in the AI inference market.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2087866244821364900",
-        "x:2087866271849381988"
-      ]
-    },
-    {
-      "title": "Soft July CPI: supercore at +2.84% y/y; 41% of core categories running >4% annualized",
-      "body": "July supercore inflation eased to +2.84% y/y continuing decline from May peak, but 41% of core CPI categories are running at annualized monthly gains above 4% (up from prior) while 36% saw outright price declines. Prescription drug prices fell at record pace (-3.1% y/y). Data broadly supports a Fed hold in September.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2087866925414039657",
-        "x:2087866705133343130"
-      ]
-    },
-    {
-      "title": "CreditSights: Fed could hold rates through H1 2027 as inflation stays at 3.4%",
-      "body": "CreditSights forecasts the Fed may keep rates unchanged through all of 2026 and into H1 2027, with July inflation easing only marginally to 3.4% from 3.5%, wage growth slowing, and payrolls weakening. Yield curve short-end broke a key technical level; Hedgeye's long steepener hit cycle highs.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2087865916960866639",
-        "x:2087847967470366802"
-      ]
-    },
-    {
-      "title": "Russell 1679 companies report +31% y/y EPS acceleration; breadth expanding",
-      "body": "Hedgeye notes 1,679 Russell companies have reported +31% year-over-year EPS acceleration, with 8 of 11 sector styles rising on the prior session as market breadth continues to expand post-quadruple witching. Small caps are at all-time highs.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2087835590549020947",
-        "x:2087835148561633754"
-      ]
-    },
-    {
-      "title": "Hormuz risk showing up in cracks/spreads, not crude outright \u2014 Jefferies",
-      "body": "Jefferies frames the Hormuz geopolitical tension as 'manifesting itself in cracks, not crude,' suggesting the shock is appearing in refining spreads and risk premiums rather than immediate supply-driven crude price spikes. Oil futures dropped 2%+ on the session on rising US inventories and IEA/OPEC demand downgrades.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2087868051089686730",
-        "x:2087851915292053904"
-      ]
-    },
-    {
-      "title": "Qualcomm targets $300 laptops with Snapdragon C, claims 67% speed edge over Intel Twin Lake",
-      "body": "Qualcomm launched Snapdragon C aimed at the budget $300 laptop segment, claiming 67% faster speeds and 2x power efficiency versus Intel's Twin Lake processor. Directly competitive with INTC's entry-level PC silicon.",
-      "tickers": [
-        "INTC"
-      ],
-      "source_item_ids": [
-        "x:2087833034842407360"
-      ]
-    },
-    {
-      "title": "DELL up 100%+ since prior bullish call; flagged as momentum signal",
-      "body": "A fintwit account notes DELL has appreciated over 100% since a prior published bullish call, highlighting it as a strong performer in the AI infrastructure trade.",
-      "tickers": [
-        "DELL"
-      ],
-      "source_item_ids": [
-        "x:2087827617353248985"
-      ]
-    },
-    {
-      "title": "HUBS Polatis division doubled capital in 6 months; described as disciplined ROIC allocator",
-      "body": "A commentator notes HUBS's Polatis division doubled its capital base over a 6-month period and characterizes HubSpot as a disciplined return-on-invested-capital allocator poised for strong first-half results.",
-      "tickers": [
-        "HUBS"
-      ],
-      "source_item_ids": [
-        "x:2087857108058509821"
-      ]
-    },
-    {
-      "title": "China germanium export restrictions create supply squeeze; domestic alternatives flagged",
-      "body": "China's germanium export controls are seen creating supply constraints critical for semiconductors and quantum computing, with a commentator flagging domestic U.S. alternative suppliers \u2014 including CEG, IONQ, and UEC \u2014 as potential beneficiaries.",
-      "tickers": [
-        "CEG",
-        "IONQ",
-        "UEC"
-      ],
-      "source_item_ids": [
-        "x:2087855466776850645"
+        "x:2087902683474891106"
       ]
     }
   ]
