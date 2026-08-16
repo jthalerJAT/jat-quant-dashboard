@@ -1,7 +1,7 @@
 {
   "digest_type": "weekend",
-  "digest_dt": "2026-08-15T18:00:00-04:00",
-  "saved_at": "2026-08-15T22:40:09.516771+00:00",
+  "digest_dt": "2026-08-16T18:00:00-04:00",
+  "saved_at": "2026-08-16T22:40:17.987669+00:00",
   "revisions": {
     "sales": {
       "metric": "sales",
@@ -217,7 +217,7 @@
     "ebitda": {
       "metric": "ebitda",
       "metric_display": "EBITDA",
-      "n_total_with_data": 121,
+      "n_total_with_data": 115,
       "by_pct_top": [
         {
           "ticker": "AXTI",
@@ -226,16 +226,6 @@
           "current_estimate": 165.5,
           "prior_estimate": 42.6,
           "pct_change": 288.4976525821596,
-          "percentile": null,
-          "n_obs": 0
-        },
-        {
-          "ticker": "UEC",
-          "forward_y_code": "27Y",
-          "metric": "ebitda",
-          "current_estimate": 52.54,
-          "prior_estimate": 35.175,
-          "pct_change": 49.36744847192609,
           "percentile": null,
           "n_obs": 0
         },
@@ -316,6 +306,16 @@
           "current_estimate": 7997.522,
           "prior_estimate": 6741.227,
           "pct_change": 18.63599905477149,
+          "percentile": null,
+          "n_obs": 0
+        },
+        {
+          "ticker": "U",
+          "forward_y_code": "27Y",
+          "metric": "ebitda",
+          "current_estimate": 901.731,
+          "prior_estimate": 763.8,
+          "pct_change": 18.058523173605657,
           "percentile": null,
           "n_obs": 0
         }
