@@ -1,221 +1,151 @@
 {
-  "digest_type": "premarket",
-  "digest_dt": "2026-08-19T08:30:00-04:00",
-  "saved_at": "2026-08-19T13:18:31.056304+00:00",
+  "digest_type": "midday",
+  "digest_dt": "2026-08-19T12:00:00-04:00",
+  "saved_at": "2026-08-19T16:25:12.281442+00:00",
   "bullets": [
     {
-      "title": "Semis/Nasdaq sold off hard on yield spike and Iran fears",
-      "body": "The semiconductor index dropped 5% (SOXX failed at the 50-day MA), Nasdaq fell 1.35% to 26,285, and S&P fell 0.66% to 7,694. 10-year Treasury yield hit highest since Jan 2025 (~4.70%), 30-year hit 5.31\u20135.34% (highest since 2007); commentary describes the move as bond-market repricing of reflation rather than panic (BBB spreads unchanged). One fintwit account warns 'Tech ignored rates for months \u2014 the bill may be coming due.'",
+      "title": "Samsung Foundry hikes 4nm prices 10-15%; full capacity signal",
+      "body": "Multiple fintwit accounts flagged that Samsung Foundry raised SF4 (4nm) node prices 10-15% month-over-month in July-August for US and China clients, with Pyeongtaek operating at full capacity since late last year. Chinese customers are reportedly accepting the largest increases. This is a meaningful signal on foundry pricing power and downstream cost pass-through risk for chipmakers.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2090001358569230675",
+        "x:2090000427706446267"
+      ]
+    },
+    {
+      "title": "Asia tech plunges: KOSPI -6%, ChiNext -6%, STAR 50 -7%, Nikkei -3.2%",
+      "body": "Asia tech indices suffered a 'proper tech puke' overnight per multiple accounts, with KOSPI down 5.8-6%, ChiNext -6%, STAR 50 -7%, and Japan's Nikkei off 3.2%, breaking Hedgeye TRADE Signal Support for the second time in two months. One account noted the KOSPI is now 29% off its recent peak, flagging '#MOAB Semis peak' language.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2090038068585570445",
+        "x:2090023427138523364"
+      ]
+    },
+    {
+      "title": "Global bond yields at highest since 2008; macro headwinds mount",
+      "body": "Global bond yields rose to their highest level since 2008, per fintwit commentary, compounding the macro pressure on equities. NY Fed Services PMI saw double-digit declines in business activity and climate components in August, with six-month expectations turning more pessimistic.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2090044325778403746",
+        "x:2090032129576955988"
+      ]
+    },
+    {
+      "title": "SPY correction from ATH on decelerating volume; buy-dips regime intact",
+      "body": "Hedgeye noted SPY's 3-day correction from all-time highs is occurring on decelerating volume, distinguishing current August action from July's Quad4 environment. The current regime is characterized as an 'Investable Bucket Vol Regime' with a sell-rips/buy-dips tactical stance, not a systemic breakdown.",
       "tickers": [
         "SPY"
       ],
       "source_item_ids": [
-        "x:2089810437475070191",
-        "x:2089806066959757422"
+        "x:2090012155592475071",
+        "x:2090014695239426436"
       ]
     },
     {
-      "title": "NYSE breadth divergence at record levels \u2014 bearish divergence last seen Dec 2021",
-      "body": "More than 3x as many NYSE securities hitting 52-week lows as highs while SPY sits ~2% from all-time highs. One account notes 'we have never seen such a decoupling between price and breadth' \u2014 last comparable divergence preceded the 2022 drawdown. Hindenburg Omen also triggered 15 times in past 3 months, historically associated with major corrections.",
+      "title": "High beta momentum stocks -6.4% yesterday; healthcare +1.6% outperforms",
+      "body": "Hedgeye flagged high beta momentum names down another 6.4% on Tuesday while their long healthcare (XLV) position gained 1.6%, highlighting sharp sector rotation away from momentum/risk. Retail investor portfolios reportedly flat YTD and down 4% on the day.",
       "tickers": [
         "SPY"
       ],
       "source_item_ids": [
-        "x:2089806294286782837",
-        "x:2089785920895496554"
+        "x:2090015539376611579",
+        "x:2090016685398864260"
       ]
     },
     {
-      "title": "Optical supply chain remains severely under-supplied; LITE, MTSI, AAOI all confirm",
-      "body": "Multiple fintwit accounts citing earnings from LITE, MTSI, and AAOI showing 'extreme demand imbalances in lasers, TIA and DSP.' AAOI management stated the company is 'sold out at least through second half of next year and beyond,' with capacity booked through Q2 2027. Silicon photonics commercial production described as 'accelerating across leading foundries and IDMs' with COHR wireline delivering record orders, more than doubling YoY.",
+      "title": "S&P 500 earnings: 458 companies report +50% aggregate YoY growth",
+      "body": "Hedgeye noted that 458 S&P 500 companies have reported earnings with an aggregate year-over-year growth of 50%, which they cite as driving the broadening rally to all-time highs before the current pullback.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2090013847172088146"
+      ]
+    },
+    {
+      "title": "Macro FX: veteran trader long EUR + JPY simultaneously\u2014rare 27-year first",
+      "body": "A fintwit veteran noted being long both Euros and Yen simultaneously\u2014described as an exceedingly rare positioning in a 27-year career\u2014while separately reiterating a short USD view. Gold long vs. short USD cited as the current alpha trade over bitcoin.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2090028856539267302",
+        "x:2090029157795119209"
+      ]
+    },
+    {
+      "title": "Import/export prices decelerating; housing demand weakening",
+      "body": "July import prices rose 5.9% YoY (down from 6.7%) and export prices +8.2% YoY (down from 10.0%), suggesting sequential inflation deceleration. Pending home sales fell 2.5% YoY in July\u2014entering negative territory for the first time since January\u2014with all four regions declining, led by the West (-4.7% m/m).",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2090032727080714708",
+        "x:2090032491218288824"
+      ]
+    },
+    {
+      "title": "U.S.-made semiconductors and optical modules commanding pricing premium",
+      "body": "Fintwit commentary noted that U.S.-manufactured products now command a premium in the current tariff environment, specifically calling out AAOI's U.S.-made optical modules and Micron's domestic DRAM as beneficiaries, with hyperscalers reportedly willing to pay up for U.S.-sourced supply.",
       "tickers": [
-        "LITE",
-        "MTSI",
         "AAOI",
-        "COHR"
+        "MU"
       ],
       "source_item_ids": [
-        "x:2089973433182589111",
-        "x:2089889026212065708"
+        "x:2090045731864539387"
       ]
     },
     {
-      "title": "NBIS: Pennsylvania data center executive order moderately negative but not thesis-breaking",
-      "body": "Investment committee analysis characterizes Pennsylvania Gov. Shapiro's Aug. 18 data center executive order as 'materially more consequential than a conventional environmental-policy statement' but 'materially less absolute than social-media language implies.' Not a project cancellation; power procurement framework under PJM ('bring, build or buy') adds complexity. CEG flagged as clearest relative beneficiary among PA power suppliers given Crane/Three Mile Island project with MSFT.",
-      "tickers": [
-        "NBIS",
-        "CEG",
-        "MSFT"
-      ],
-      "source_item_ids": [
-        "x:2089845295442186596",
-        "x:2089945257391604186"
-      ]
-    },
-    {
-      "title": "NVDA: $105B OpenAI Ohio guarantee; Groq raises at half valuation with NVDA in round",
-      "body": "Nvidia backed OpenAI's Ohio campus with a $105B guarantee. Separately, Groq raised $350M at roughly half last year's valuation with Nvidia participating \u2014 one analyst notes concern about capital raises given Nvidia's recent large-scale M&A activity. LG Electronics accelerating robotics pact with Nvidia.",
-      "tickers": [
-        "NVDA"
-      ],
-      "source_item_ids": [
-        "x:2089788898528440476",
-        "x:2089839075599536625"
-      ]
-    },
-    {
-      "title": "MRVL: $3.25B acquisition under scrutiny \u2014 2026 paper is process evidence only, no performance data",
-      "body": "Deep-dive thread on what Marvell acquired for $3.25B (closed Feb 2): ECTC papers by same authors one year apart, with domain shifted from 'Assembly Process' to 'Demonstration.' The 2026 paper provides only process evidence with no new optical characterization data; reliability testing listed as future work. Assembly planned 2025, potential product delivery ~2027.",
-      "tickers": [
-        "MRVL"
-      ],
-      "source_item_ids": [
-        "x:2089972897700057597",
-        "x:2089972900019499021"
-      ]
-    },
-    {
-      "title": "PCB price hikes 5\u201330% in 1H26; fresh hikes signaled for 2H26 as CCL/prepreg tightens",
-      "body": "Taiwan PCB makers raised quoted prices 5\u201330% in 1H 2026 as copper-clad laminates and prepreg supply tightened. Industry sources now whispering another round of hikes in 2H 2026. Resin prices (used to make prepreg) rising quickly. Intel Malaysia reportedly absorbing TSMC CoWoS overflow as packaging orders surge.",
-      "tickers": [
-        "TSM",
-        "TSEM"
-      ],
-      "source_item_ids": [
-        "x:2089869094728380902",
-        "x:2089861385509552493"
-      ]
-    },
-    {
-      "title": "Hyperscaler IG debt approaching big-bank scale; data center credit crowding out Treasuries",
-      "body": "Hyperscaler investment-grade debt on pace to grow from $288B to $659B in two years, approaching levels of major US/non-US banks. IG supply forecast at $1.9T in 2026, exceeding the 2020 record of $1.66T. One account describes data center credit growth as 'crowding out US Treasury bond sales.' 10-year MACD broke upward, signaling possible new bond bear phase.",
+      "title": "OpenAI ARR growth slows; Anthropic doubles revenue and pulls ahead",
+      "body": "OpenAI's Q2 revenue grew 18% YoY to $6.7B, while Anthropic's revenue more than doubled to $11.6B\u2014surpassing OpenAI for the first time. Separately, July showed acceleration in combined ARR for both companies, with a note that Anthropic may have shifted to net ARR reporting ahead of a potential IPO, making the $65B net figure more conservative than prior gross metrics.",
       "tickers": [],
       "source_item_ids": [
-        "x:2089968244379521470",
-        "x:2089801894252216729"
+        "x:2090026168619847880",
+        "x:2090046053395402862"
       ]
     },
     {
-      "title": "Anthropic overtakes OpenAI in quarterly revenue; AI ARR acceleration accelerating",
-      "body": "Anthropic Q2 revenue hit $11.6B (more than doubled), surpassing OpenAI's $6.7B (+18% QoQ) for the first time. Anthropic's 14-fold annual revenue surge described as anchoring AI chip demand ahead of a potential record IPO. OpenAI and Anthropic ARR growth also confirmed to have accelerated YoY in July, contradicting 2nd-derivative slowdown narrative.",
+      "title": "Amazon drone delivery expanding to ~500 U.S. cities; Chicago and Atlanta added",
+      "body": "Amazon Prime Air has already delivered 'hundreds of thousands of packages' in 2024 and is expanding to suburban Chicago and Atlanta as the program transitions from R&D to commercial operations, with plans to reach nearly 500 U.S. cities and towns.",
+      "tickers": [
+        "AMZN"
+      ],
+      "source_item_ids": [
+        "x:2090043503858307220",
+        "x:2090023683385651224"
+      ]
+    },
+    {
+      "title": "Cerebras CS-4 claims 30x faster AI inference than GPU systems",
+      "body": "Cerebras announced its CS-4 AI accelerator, claiming up to 30x faster inference than GPU systems. This is a direct competitive claim against GPU incumbents and worth monitoring for implications on AI infrastructure spending priorities.",
       "tickers": [],
       "source_item_ids": [
-        "x:2089856192570859815",
-        "x:2089834522380734775"
+        "x:2090001033263296838"
       ]
     },
     {
-      "title": "AAOI: Government funding for domestic optics capacity to displace Chinese suppliers already underway",
-      "body": "AAOI management noted at Rosenblatt conference that the US may need government funding to replace Chinese optics \u2014 and indicated that funding is already occurring. Author cross-references ALMU as a related beneficiary. AAOI described as 'sold out' with capacity booked through Q2 2027.",
+      "title": "Intel Nova Lake-S ES leaks; alleged chip faster than all current-gen Intel CPUs",
+      "body": "A leaked Intel Core Ultra 9 4950K engineering sample points to a new naming scheme for Nova Lake-S desktop CPUs and is reportedly faster than all current-generation Intel CPUs in early benchmarks.",
       "tickers": [
-        "AAOI"
+        "INTC"
       ],
       "source_item_ids": [
-        "x:2089822105886200180",
-        "x:2089889026212065708"
+        "x:2090030228081172690"
       ]
     },
     {
-      "title": "META: $1.4T penalty risk in federal trial; talent disadvantage vs. space/search/AI also flagged",
-      "body": "Four state AGs (CA, CO, KY, NJ) filed consumer protection suit against META with trial in Oakland; calculated penalty exposure up to $1.4T. Separately, commentary argues great engineers prefer space/search/AI companies over ad-tech, and Zuckerberg avoids the topic. Hedgeye analysis also cited: 'Meta's biggest threat isn't AI.'",
+      "title": "Chip stocks steady ahead of Fed minutes; markets in wait-and-see mode",
+      "body": "Fintwit noted chip stocks holding steady as markets await release of Fed meeting minutes, with bonds also flat. The session framed as a pause in the broader risk-off move from Asia overnight.",
       "tickers": [
-        "META"
+        "NVDA",
+        "AMD",
+        "INTC"
       ],
       "source_item_ids": [
-        "x:2089785129791111543",
-        "x:2089979959968239847"
+        "x:2089996005731094669"
       ]
     },
     {
-      "title": "GLW: $3.1M institutional call sweep signals bullish bet on AI-fiber capacity build",
-      "body": "A $3.1M long-dated $200 call sweep with 34x volume-to-open-interest ratio was flagged in Corning, linked to the company's AI fiber capacity expansion thesis.",
-      "tickers": [
-        "GLW"
-      ],
-      "source_item_ids": [
-        "x:2089849858148483132"
-      ]
-    },
-    {
-      "title": "GOOGL: All 'Attention Is All You Need' co-authors have now left Google",
-      "body": "SemiAnalysis podcast highlights that every co-author of the seminal transformer paper has departed Google \u2014 Jeff Dean and Sanjay Ghemawat to Discovery Loop, Noam Shazeer to OpenAI, John Jumper to Anthropic, Demis Hassabis stepping back from DeepMind. Google's talent exodus and cultural issues identified as key headwinds; one account draws the Google/See's Candies/Berkshire analogy for search vs. AI bet.",
-      "tickers": [
-        "GOOGL"
-      ],
-      "source_item_ids": [
-        "x:2089819841511264292",
-        "x:2089848013992656971"
-      ]
-    },
-    {
-      "title": "Trump pauses 50% Canada tariffs 3 days pending deal; deal reported reached pending finalization",
-      "body": "Trump paused 50% Canadian tariffs through Aug. 21; Trump later stated a deal was reached awaiting document finalization. USTR Greer says deal includes market access and economic security commitments. USD/CAD fell 0.2% to C$1.3877 on the news. Auto sector remains the main sticking point.",
+      "title": "Geopolitical risk elevated: China Taiwan drills, Iran Europe threat, Saudi dark-sail",
+      "body": "Three concurrent geopolitical signals flagged: China deployed 20 warplanes and 7 warships near Taiwan; Iran reportedly weighing strikes on U.S. targets in Europe (Bulgaria, Cyprus); Saudi Arabia selling oil near Oman, suggesting dark-sailing tankers through Hormuz. Brent and WTI futures up over 1% to highest since late July.",
       "tickers": [],
       "source_item_ids": [
-        "x:2089901462742569352",
-        "x:2089899787810435486"
-      ]
-    },
-    {
-      "title": "US-Iran tensions: Strait of Hormuz at 6 vessel crossings/day; oil at $85 WTI / $91 Brent",
-      "body": "Strait of Hormuz saw just 6 vessel crossings Tuesday (preliminary). Iran fired two ballistic missiles at UAE (both intercepted). Trump ordered all Iran talks halted. WTI settled at $84.94 (+0.52%); Brent at $91.02. U.S. diesel reserves at 23-year lows with crack spreads above $102/bbl. Iran Foreign Ministry says Strait won't reopen until US lifts blockade.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2089902458437079476",
-        "x:2089793262403928527"
-      ]
-    },
-    {
-      "title": "30-year US Treasury hits 5.31\u20135.34%, highest since 2007; $25B auction clears at 5.216%",
-      "body": "The US sold $25B of 30-year bonds at 5.216%, the highest yield in 25 years. The 30-year briefly hit 5.34% intraday. Dalio cited markets 'rising close to but not at levels seen in 2000 and 1929.' US national debt at $39.93T with $600B added since July 1. France's 30-year yield also hit highest since 2008 GFC.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2089872725091426715",
-        "x:2089906165517815937"
-      ]
-    },
-    {
-      "title": "INTC: Intel gaining advanced packaging share on TSMC as AI demand overwhelms supply",
-      "body": "One account flags that 'Intel Malaysia took over advanced packaging for TSMC due to a surge in CoWoS orders from a major mutual client.' Intel reportedly gaining ground on TSMC's packaging dominance as AI demand overwhelms the industry leader. ASE, Unimicron, Gudeng Precision flagged as additional beneficiaries.",
-      "tickers": [
-        "INTC",
-        "TSM"
-      ],
-      "source_item_ids": [
-        "x:2089778827807609109",
-        "x:2089861385509552493"
-      ]
-    },
-    {
-      "title": "CRDO up 150% since March selling-exhaustion signal; all-time highs flagged as next target",
-      "body": "One account notes CRDO identified as a selling-exhaustion buy in early March 2026 and is now up 150%, with all-time highs described as 'in sight.'",
-      "tickers": [
-        "CRDO"
-      ],
-      "source_item_ids": [
-        "x:2089789174027092303"
-      ]
-    },
-    {
-      "title": "AAPL: Tepper reportedly bet against Apple in Q2 2026; EU App Store reforms underway",
-      "body": "Hedge fund Q2 filings show Tepper took an unexpected bearish position against Apple and Berkshire. Separately, Apple is reforming EU App Store policies by cutting fee barriers and easing access for alternative stores under regulatory pressure.",
-      "tickers": [
-        "AAPL"
-      ],
-      "source_item_ids": [
-        "x:2089841990498168923",
-        "x:2089875943305445797"
-      ]
-    },
-    {
-      "title": "TSLA: Semi page update highlights lower TCO vs. diesel; robotaxi safety monitor debate active",
-      "body": "Tesla updated its Semi page emphasizing lower energy costs and fewer maintenance parts vs. diesel. On robotaxi, a critic argues Tesla vehicles still rely on safety monitors in the vast majority of deployments unlike Waymo, framing this as an autonomous capability gap.",
-      "tickers": [
-        "TSLA"
-      ],
-      "source_item_ids": [
-        "x:2089948518425506016",
-        "x:2089813550571343922"
+        "x:2090000508853657876",
+        "x:2090007093348544999"
       ]
     }
   ]
