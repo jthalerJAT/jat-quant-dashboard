@@ -1,216 +1,221 @@
 {
-  "digest_type": "eod",
-  "digest_dt": "2026-08-18T18:00:00-04:00",
-  "saved_at": "2026-08-18T22:27:39.808901+00:00",
+  "digest_type": "premarket",
+  "digest_dt": "2026-08-19T08:30:00-04:00",
+  "saved_at": "2026-08-19T13:18:31.056304+00:00",
   "bullets": [
     {
-      "title": "NVDA: BofA Sum-of-Parts Sees 34\u201350% Upside; Bearish Flow Dominates Today",
-      "body": "Bank of America's sum-of-parts analysis on Nvidia's free cash flow suggests the stock trades at a 34\u201350% discount to fair value, with AI risks viewed as overblown. Separately, NVDA registered the most bearish options flow of any stock today, and a tweet flagged Jensen Huang's reduction of the Ohio data center commitment from $250B to $105B while pressuring private credit firms to fund a $500B SPV replacement\u2014raising questions about undisclosed strategic drivers.",
+      "title": "Semis/Nasdaq sold off hard on yield spike and Iran fears",
+      "body": "The semiconductor index dropped 5% (SOXX failed at the 50-day MA), Nasdaq fell 1.35% to 26,285, and S&P fell 0.66% to 7,694. 10-year Treasury yield hit highest since Jan 2025 (~4.70%), 30-year hit 5.31\u20135.34% (highest since 2007); commentary describes the move as bond-market repricing of reflation rather than panic (BBB spreads unchanged). One fintwit account warns 'Tech ignored rates for months \u2014 the bill may be coming due.'",
+      "tickers": [
+        "SPY"
+      ],
+      "source_item_ids": [
+        "x:2089810437475070191",
+        "x:2089806066959757422"
+      ]
+    },
+    {
+      "title": "NYSE breadth divergence at record levels \u2014 bearish divergence last seen Dec 2021",
+      "body": "More than 3x as many NYSE securities hitting 52-week lows as highs while SPY sits ~2% from all-time highs. One account notes 'we have never seen such a decoupling between price and breadth' \u2014 last comparable divergence preceded the 2022 drawdown. Hindenburg Omen also triggered 15 times in past 3 months, historically associated with major corrections.",
+      "tickers": [
+        "SPY"
+      ],
+      "source_item_ids": [
+        "x:2089806294286782837",
+        "x:2089785920895496554"
+      ]
+    },
+    {
+      "title": "Optical supply chain remains severely under-supplied; LITE, MTSI, AAOI all confirm",
+      "body": "Multiple fintwit accounts citing earnings from LITE, MTSI, and AAOI showing 'extreme demand imbalances in lasers, TIA and DSP.' AAOI management stated the company is 'sold out at least through second half of next year and beyond,' with capacity booked through Q2 2027. Silicon photonics commercial production described as 'accelerating across leading foundries and IDMs' with COHR wireline delivering record orders, more than doubling YoY.",
+      "tickers": [
+        "LITE",
+        "MTSI",
+        "AAOI",
+        "COHR"
+      ],
+      "source_item_ids": [
+        "x:2089973433182589111",
+        "x:2089889026212065708"
+      ]
+    },
+    {
+      "title": "NBIS: Pennsylvania data center executive order moderately negative but not thesis-breaking",
+      "body": "Investment committee analysis characterizes Pennsylvania Gov. Shapiro's Aug. 18 data center executive order as 'materially more consequential than a conventional environmental-policy statement' but 'materially less absolute than social-media language implies.' Not a project cancellation; power procurement framework under PJM ('bring, build or buy') adds complexity. CEG flagged as clearest relative beneficiary among PA power suppliers given Crane/Three Mile Island project with MSFT.",
+      "tickers": [
+        "NBIS",
+        "CEG",
+        "MSFT"
+      ],
+      "source_item_ids": [
+        "x:2089845295442186596",
+        "x:2089945257391604186"
+      ]
+    },
+    {
+      "title": "NVDA: $105B OpenAI Ohio guarantee; Groq raises at half valuation with NVDA in round",
+      "body": "Nvidia backed OpenAI's Ohio campus with a $105B guarantee. Separately, Groq raised $350M at roughly half last year's valuation with Nvidia participating \u2014 one analyst notes concern about capital raises given Nvidia's recent large-scale M&A activity. LG Electronics accelerating robotics pact with Nvidia.",
       "tickers": [
         "NVDA"
       ],
       "source_item_ids": [
-        "x:2089729837866840173",
-        "x:2089717195764912510"
+        "x:2089788898528440476",
+        "x:2089839075599536625"
       ]
     },
     {
-      "title": "NVDA: Ben Thompson Says Price Cuts Happening Via Financing, Not List Price",
-      "body": "Citing Ben Thompson's Stratechery analysis, multiple accounts flagged that Nvidia is effectively cutting prices through circular customer-financing structures rather than reducing official list prices, implying margin compression that won't show up in headline ASP data. The move reflects intensifying competitive dynamics.",
+      "title": "MRVL: $3.25B acquisition under scrutiny \u2014 2026 paper is process evidence only, no performance data",
+      "body": "Deep-dive thread on what Marvell acquired for $3.25B (closed Feb 2): ECTC papers by same authors one year apart, with domain shifted from 'Assembly Process' to 'Demonstration.' The 2026 paper provides only process evidence with no new optical characterization data; reliability testing listed as future work. Assembly planned 2025, potential product delivery ~2027.",
       "tickers": [
-        "NVDA"
+        "MRVL"
       ],
       "source_item_ids": [
-        "x:2089767414598603013",
-        "x:2089752629958062482"
+        "x:2089972897700057597",
+        "x:2089972900019499021"
       ]
     },
     {
-      "title": "FN Earnings Beat: +45% Revenue Growth, Data Center at 51% of Mix",
-      "body": "Fabrinet reported Q4 revenue of $1.316B, +45% YoY, above guidance, with adj. EPS of $4.10. Data Center revenue surged 68% YoY to $669M (51% of total), with new 800G hyperscaler-direct ramps beginning. Q1 guide of $1.375\u2013$1.425B implies ~43% YoY growth at the midpoint.",
+      "title": "PCB price hikes 5\u201330% in 1H26; fresh hikes signaled for 2H26 as CCL/prepreg tightens",
+      "body": "Taiwan PCB makers raised quoted prices 5\u201330% in 1H 2026 as copper-clad laminates and prepreg supply tightened. Industry sources now whispering another round of hikes in 2H 2026. Resin prices (used to make prepreg) rising quickly. Intel Malaysia reportedly absorbing TSMC CoWoS overflow as packaging orders surge.",
       "tickers": [
-        "FN"
+        "TSM",
+        "TSEM"
       ],
       "source_item_ids": [
-        "x:2089754057162588430"
+        "x:2089869094728380902",
+        "x:2089861385509552493"
       ]
     },
     {
-      "title": "META Down 16%+ YTD, Worst Year Since 2022; Youth Exploitation Trial Underway",
-      "body": "META has spent most of 2026 below its 200-day moving average and is down over 16% YTD\u2014its worst performance since the 74% drawdown in 2022. A major multistate trial kicked off Tuesday with prosecutors alleging the company deliberately 'hooked and exploited' children and misled the public; META shares fell 3.8% on the session to a two-week low.",
+      "title": "Hyperscaler IG debt approaching big-bank scale; data center credit crowding out Treasuries",
+      "body": "Hyperscaler investment-grade debt on pace to grow from $288B to $659B in two years, approaching levels of major US/non-US banks. IG supply forecast at $1.9T in 2026, exceeding the 2020 record of $1.66T. One account describes data center credit growth as 'crowding out US Treasury bond sales.' 10-year MACD broke upward, signaling possible new bond bear phase.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2089968244379521470",
+        "x:2089801894252216729"
+      ]
+    },
+    {
+      "title": "Anthropic overtakes OpenAI in quarterly revenue; AI ARR acceleration accelerating",
+      "body": "Anthropic Q2 revenue hit $11.6B (more than doubled), surpassing OpenAI's $6.7B (+18% QoQ) for the first time. Anthropic's 14-fold annual revenue surge described as anchoring AI chip demand ahead of a potential record IPO. OpenAI and Anthropic ARR growth also confirmed to have accelerated YoY in July, contradicting 2nd-derivative slowdown narrative.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2089856192570859815",
+        "x:2089834522380734775"
+      ]
+    },
+    {
+      "title": "AAOI: Government funding for domestic optics capacity to displace Chinese suppliers already underway",
+      "body": "AAOI management noted at Rosenblatt conference that the US may need government funding to replace Chinese optics \u2014 and indicated that funding is already occurring. Author cross-references ALMU as a related beneficiary. AAOI described as 'sold out' with capacity booked through Q2 2027.",
+      "tickers": [
+        "AAOI"
+      ],
+      "source_item_ids": [
+        "x:2089822105886200180",
+        "x:2089889026212065708"
+      ]
+    },
+    {
+      "title": "META: $1.4T penalty risk in federal trial; talent disadvantage vs. space/search/AI also flagged",
+      "body": "Four state AGs (CA, CO, KY, NJ) filed consumer protection suit against META with trial in Oakland; calculated penalty exposure up to $1.4T. Separately, commentary argues great engineers prefer space/search/AI companies over ad-tech, and Zuckerberg avoids the topic. Hedgeye analysis also cited: 'Meta's biggest threat isn't AI.'",
       "tickers": [
         "META"
       ],
       "source_item_ids": [
-        "x:2089763146277744937",
-        "x:2089719758795030854"
+        "x:2089785129791111543",
+        "x:2089979959968239847"
       ]
     },
     {
-      "title": "TSLA Bulls vs. Reality: FCF Swings to -$9.7B, Autonomy Thesis Questioned",
-      "body": "Multiple accounts pushed back hard on Tesla bull thesis: per Bloomberg data, TSLA FCF is projected to swing from +$3.6B in 2021 to -$9.7B in 2026. The stock has also underperformed the Nasdaq-100 by nearly 2x over five years (+51% vs. +98%). Skeptics argue competitors will solve autonomy alongside Tesla, making the Cybercab narrative unsupported by evidence.",
+      "title": "GLW: $3.1M institutional call sweep signals bullish bet on AI-fiber capacity build",
+      "body": "A $3.1M long-dated $200 call sweep with 34x volume-to-open-interest ratio was flagged in Corning, linked to the company's AI fiber capacity expansion thesis.",
       "tickers": [
-        "TSLA"
+        "GLW"
       ],
       "source_item_ids": [
-        "x:2089771951929800520146",
-        "x:2089692910065250747"
+        "x:2089849858148483132"
       ]
     },
     {
-      "title": "TSLA Semi: Einride Orders 500 Trucks in Largest Public Commitment",
-      "body": "Einride agreed to purchase 500 Tesla Semi trucks for U.S. operations, the largest public commitment to the electric truck. First deliveries begin next month, with remaining units arriving in phases over 24 months.",
-      "tickers": [
-        "TSLA"
-      ],
-      "source_item_ids": [
-        "x:2089716641126899759"
-      ]
-    },
-    {
-      "title": "AAPL: EU App Store Overhaul Takes Effect October 1\u2014New Fee Tiers Detailed",
-      "body": "Apple announced a comprehensive restructuring of EU App Store terms effective October 1: in-app purchases carry a 26% commission, alternative payment methods face a 20% fee, apps linking to external purchase pages pay 15%, and the Core Technology Fee is replaced by a 5% commission on out-of-app digital transactions. Apple also broadened access to alternative app marketplaces and added under-18 safety protections.",
-      "tickers": [
-        "AAPL"
-      ],
-      "source_item_ids": [
-        "x:2089744406769209473",
-        "x:2089753816140787878"
-      ]
-    },
-    {
-      "title": "AAPL: Congress Pressures Apple to Pledge No Chinese Memory Chips",
-      "body": "U.S. Congress is reportedly requesting Apple sign a written pledge not to use Chinese memory chips, even as SK Hynix invests in U.S. fabs. The move reflects escalating geopolitical pressure on Apple's supply chain sourcing decisions.",
-      "tickers": [
-        "AAPL"
-      ],
-      "source_item_ids": [
-        "x:2089733026611962086"
-      ]
-    },
-    {
-      "title": "SNDK Up 62% from July Lows on 6-Day Win Streak; Technicals Bullish",
-      "body": "SanDisk is up 62% since its July low and on a 6-day winning streak, trading above its 20-, 100-, and 200-day moving averages. One trader implied further upside toward all-time highs given the technical setup.",
-      "tickers": [
-        "SNDK"
-      ],
-      "source_item_ids": [
-        "x:2089741459004002813"
-      ]
-    },
-    {
-      "title": "AI Semis vs. SaaS: Observers Note Inverse Correlation Suggesting Institutional Unwind",
-      "body": "A trader flagged a pattern over recent months where GAI infrastructure names (NVDA, MU, SNDK, LITE) sell off while SaaS rallies\u2014suggesting coordinated unwinding of long-GAI/short-SaaS institutional positions rather than fundamental news flow.",
-      "tickers": [
-        "NVDA",
-        "MU",
-        "SNDK",
-        "LITE"
-      ],
-      "source_item_ids": [
-        "x:2089745730445377910"
-      ]
-    },
-    {
-      "title": "LLM Model-Layer Revenue: $423B Run-Rate Central Case by December 2027",
-      "body": "One account published a global LLM model-layer revenue projection: central case of $422.8B annualized run-rate by December 2027, with a bear case of $254.3B and bull case of $703.5B. The analysis is framed as bullish for NVDA, MU, SNDK, and LITE.",
-      "tickers": [
-        "NVDA",
-        "MU",
-        "SNDK",
-        "LITE"
-      ],
-      "source_item_ids": [
-        "x:2089733675386544342"
-      ]
-    },
-    {
-      "title": "AAOI: Sold Out of Capacity, US Production Premiums Positive for ASPs/Margins",
-      "body": "AAOI Rosenblatt Summit notes: company is sold out of current capacity, expects premiums for U.S. production of 800G/1.6T. Multiple LTAs under discussion but management is avoiding signing deals that could block capacity for higher-value customers including NVDA-adjacent opportunities.",
-      "tickers": [
-        "AAOI",
-        "NVDA"
-      ],
-      "source_item_ids": [
-        "x:2089766053274661143",
-        "x:2089717828916289860"
-      ]
-    },
-    {
-      "title": "Optical NPO/CPO Attach Rates to Rise Slowly Due to Manufacturing Constraints",
-      "body": "A supply-chain research note flagged that manufacturing\u2014not demand\u2014remains the binding constraint for NPO/CPO products. Higher attach rates will grow more slowly than market expectations, with multiple supply-chain visits confirming capacity constraints.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2089751674139426826"
-      ]
-    },
-    {
-      "title": "GOOGL Plans to Exit China for Pixel Manufacturing by 2027",
-      "body": "Google is reportedly shifting its entire Pixel smartphone, watch, and earbud production out of China by 2027, targeting Vietnam and India as primary new manufacturing destinations\u2014consistent with broader tech supply-chain diversification.",
+      "title": "GOOGL: All 'Attention Is All You Need' co-authors have now left Google",
+      "body": "SemiAnalysis podcast highlights that every co-author of the seminal transformer paper has departed Google \u2014 Jeff Dean and Sanjay Ghemawat to Discovery Loop, Noam Shazeer to OpenAI, John Jumper to Anthropic, Demis Hassabis stepping back from DeepMind. Google's talent exodus and cultural issues identified as key headwinds; one account draws the Google/See's Candies/Berkshire analogy for search vs. AI bet.",
       "tickers": [
         "GOOGL"
       ],
       "source_item_ids": [
-        "x:2089758472036356399",
-        "x:2089691194007879932"
+        "x:2089819841511264292",
+        "x:2089848013992656971"
       ]
     },
     {
-      "title": "AMZN Expands Louisiana Data Center Investment from $12B to $18B",
-      "body": "Amazon announced it is increasing its planned Louisiana data center investment from $12B to $18B, adding a third campus. The move underscores continued hyperscaler infrastructure buildout momentum.",
+      "title": "Trump pauses 50% Canada tariffs 3 days pending deal; deal reported reached pending finalization",
+      "body": "Trump paused 50% Canadian tariffs through Aug. 21; Trump later stated a deal was reached awaiting document finalization. USTR Greer says deal includes market access and economic security commitments. USD/CAD fell 0.2% to C$1.3877 on the news. Auto sector remains the main sticking point.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2089901462742569352",
+        "x:2089899787810435486"
+      ]
+    },
+    {
+      "title": "US-Iran tensions: Strait of Hormuz at 6 vessel crossings/day; oil at $85 WTI / $91 Brent",
+      "body": "Strait of Hormuz saw just 6 vessel crossings Tuesday (preliminary). Iran fired two ballistic missiles at UAE (both intercepted). Trump ordered all Iran talks halted. WTI settled at $84.94 (+0.52%); Brent at $91.02. U.S. diesel reserves at 23-year lows with crack spreads above $102/bbl. Iran Foreign Ministry says Strait won't reopen until US lifts blockade.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2089902458437079476",
+        "x:2089793262403928527"
+      ]
+    },
+    {
+      "title": "30-year US Treasury hits 5.31\u20135.34%, highest since 2007; $25B auction clears at 5.216%",
+      "body": "The US sold $25B of 30-year bonds at 5.216%, the highest yield in 25 years. The 30-year briefly hit 5.34% intraday. Dalio cited markets 'rising close to but not at levels seen in 2000 and 1929.' US national debt at $39.93T with $600B added since July 1. France's 30-year yield also hit highest since 2008 GFC.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2089872725091426715",
+        "x:2089906165517815937"
+      ]
+    },
+    {
+      "title": "INTC: Intel gaining advanced packaging share on TSMC as AI demand overwhelms supply",
+      "body": "One account flags that 'Intel Malaysia took over advanced packaging for TSMC due to a surge in CoWoS orders from a major mutual client.' Intel reportedly gaining ground on TSMC's packaging dominance as AI demand overwhelms the industry leader. ASE, Unimicron, Gudeng Precision flagged as additional beneficiaries.",
       "tickers": [
-        "AMZN"
+        "INTC",
+        "TSM"
       ],
       "source_item_ids": [
-        "x:2089749005966151854"
+        "x:2089778827807609109",
+        "x:2089861385509552493"
       ]
     },
     {
-      "title": "Hyperscaler Debt Issuance Approaching Major-Bank Scale in IG Bond Market",
-      "body": "One macro observer noted that hyperscalers are issuing investment-grade debt at a scale approaching that of major banks, a trend that could materialize fully within a few years. Separately, Charlie Bilello's work on off-balance-sheet AI commitments suggests nine major tech companies have ~$3 trillion in AI-related spending not captured in reported capex.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2089771488903561423",
-        "x:2089691623374340466"
-      ]
-    },
-    {
-      "title": "30-Year Treasury Hits Multi-Decade High; Goldman Warns Fed May Be Forced to Hike",
-      "body": "The U.S. 30-year Treasury yield reached 5.31%, its highest since June 2007, while the 10-year hit 4.75%\u2014a 19-month high. Goldman Sachs' Delta-One desk warned the Fed may be forced to hike amid global bond market stress. Ed Yardeni identified 5% on the 10-year as the key threshold that would signal a problem; the current level of 4.75% is not yet alarming in his view.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2089697431646503150",
-        "x:2089707916441870419"
-      ]
-    },
-    {
-      "title": "Geopolitical Risk: UAE Intercepts Iranian Missiles; Diesel Margins Hit Record $102/bbl",
-      "body": "UAE defense ministry confirmed detection of two Iranian ballistic missiles; a tanker attack was also reported in the Strait of Hormuz. U.S. diesel refining margins surged to a record $102/barrel, driven by Hormuz supply disruptions and Ukrainian strikes on Russian infrastructure. Trump stated no Iran talks are underway while claiming all Hormuz mines have been cleared.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2089753090685825495",
-        "x:2089751755026215258"
-      ]
-    },
-    {
-      "title": "US Housing Starts Plunge 12.4% in July; Pending Home Sales Miss Again",
-      "body": "July housing starts fell 12.4% to 1.239M units, well below the 1.345M consensus and approaching COVID-era lows. July pending home sales dropped 2.3% MoM vs. flat expectations, hitting the lowest level since January. Building permits were the lone bright spot, beating at 1.443M vs. 1.375M expected.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2089691546878615579",
-        "x:2089714031439298762"
-      ]
-    },
-    {
-      "title": "SPY Gamma Flip: $2.3B Put Wall at 765; $20M Unusual Put Buying in SPY and MU",
-      "body": "Options activity flags a $2.3B put wall at SPY 765 after a gamma flip, and a separate ~$20M unusual put purchase was detected across SPY and MU, suggesting traders are positioning for downside in both the broad market and memory semiconductors. SPY was also on track to close below its 8-day EMA for the first time in three weeks.",
+      "title": "CRDO up 150% since March selling-exhaustion signal; all-time highs flagged as next target",
+      "body": "One account notes CRDO identified as a selling-exhaustion buy in early March 2026 and is now up 150%, with all-time highs described as 'in sight.'",
       "tickers": [
-        "SPY",
-        "MU"
+        "CRDO"
       ],
       "source_item_ids": [
-        "x:2089711567155646883",
-        "x:2089740094240395374"
+        "x:2089789174027092303"
+      ]
+    },
+    {
+      "title": "AAPL: Tepper reportedly bet against Apple in Q2 2026; EU App Store reforms underway",
+      "body": "Hedge fund Q2 filings show Tepper took an unexpected bearish position against Apple and Berkshire. Separately, Apple is reforming EU App Store policies by cutting fee barriers and easing access for alternative stores under regulatory pressure.",
+      "tickers": [
+        "AAPL"
+      ],
+      "source_item_ids": [
+        "x:2089841990498168923",
+        "x:2089875943305445797"
+      ]
+    },
+    {
+      "title": "TSLA: Semi page update highlights lower TCO vs. diesel; robotaxi safety monitor debate active",
+      "body": "Tesla updated its Semi page emphasizing lower energy costs and fewer maintenance parts vs. diesel. On robotaxi, a critic argues Tesla vehicles still rely on safety monitors in the vast majority of deployments unlike Waymo, framing this as an autonomous capability gap.",
+      "tickers": [
+        "TSLA"
+      ],
+      "source_item_ids": [
+        "x:2089948518425506016",
+        "x:2089813550571343922"
       ]
     }
   ]
