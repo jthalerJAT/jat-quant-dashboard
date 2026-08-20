@@ -1,7 +1,7 @@
 {
-  "digest_type": "midday",
-  "digest_dt": "2026-08-20T12:00:00-04:00",
-  "saved_at": "2026-08-20T16:25:14.654591+00:00",
+  "digest_type": "eod",
+  "digest_dt": "2026-08-20T18:00:00-04:00",
+  "saved_at": "2026-08-20T22:29:51.931588+00:00",
   "revisions": {
     "sales": {
       "metric": "sales",
@@ -12,10 +12,10 @@
           "ticker": "OKLO",
           "forward_y_code": "27Y",
           "metric": "sales",
-          "current_estimate": 12.794,
+          "current_estimate": 13.581,
           "prior_estimate": 5.134,
-          "pct_change": 149.20140241527076,
-          "percentile": 92.28395061728395,
+          "pct_change": 164.53058044409815,
+          "percentile": 93.20987654320987,
           "n_obs": 324
         },
         {
@@ -92,10 +92,10 @@
           "ticker": "HIMS",
           "forward_y_code": "27Y",
           "metric": "sales",
-          "current_estimate": 3912.846,
+          "current_estimate": 3940.6,
           "prior_estimate": 3456.188,
-          "pct_change": 13.212765046345854,
-          "percentile": 96.6794380587484,
+          "pct_change": 14.015788492987058,
+          "percentile": 97.06257982120052,
           "n_obs": 783
         },
         {
@@ -111,6 +111,16 @@
       ],
       "by_pct_bottom": [
         {
+          "ticker": "SMR",
+          "forward_y_code": "27Y",
+          "metric": "sales",
+          "current_estimate": 137.094,
+          "prior_estimate": 183.75,
+          "pct_change": -25.391020408163268,
+          "percentile": 12.260536398467432,
+          "n_obs": 783
+        },
+        {
           "ticker": "TTD",
           "forward_y_code": "27Y",
           "metric": "sales",
@@ -118,16 +128,6 @@
           "prior_estimate": 3485.649,
           "pct_change": -23.899996815514125,
           "percentile": 0.38314176245210724,
-          "n_obs": 783
-        },
-        {
-          "ticker": "SMR",
-          "forward_y_code": "27Y",
-          "metric": "sales",
-          "current_estimate": 146.565,
-          "prior_estimate": 183.75,
-          "pct_change": -20.236734693877555,
-          "percentile": 14.687100893997446,
           "n_obs": 783
         },
         {
@@ -191,6 +191,16 @@
           "n_obs": 783
         },
         {
+          "ticker": "APP",
+          "forward_y_code": "27Y",
+          "metric": "sales",
+          "current_estimate": 10405.324,
+          "prior_estimate": 10735.548,
+          "pct_change": -3.0759864331098896,
+          "percentile": 0.0,
+          "n_obs": 783
+        },
+        {
           "ticker": "ENPH",
           "forward_y_code": "27Y",
           "metric": "sales",
@@ -199,19 +209,19 @@
           "pct_change": -3.0512660711400574,
           "percentile": 46.87100893997446,
           "n_obs": 783
-        },
-        {
-          "ticker": "APP",
-          "forward_y_code": "27Y",
-          "metric": "sales",
-          "current_estimate": 10442.824,
-          "prior_estimate": 10735.548,
-          "pct_change": -2.7266796254834857,
-          "percentile": 0.0,
-          "n_obs": 783
         }
       ],
       "by_pctile_top": [
+        {
+          "ticker": "AMD",
+          "forward_y_code": "27Y",
+          "metric": "sales",
+          "current_estimate": 86776.068,
+          "prior_estimate": 77065.831,
+          "pct_change": 12.599925121160371,
+          "percentile": 100.0,
+          "n_obs": 783
+        },
         {
           "ticker": "CSCO",
           "forward_y_code": "27Y",
@@ -233,22 +243,22 @@
           "n_obs": 783
         },
         {
-          "ticker": "AMD",
-          "forward_y_code": "27Y",
-          "metric": "sales",
-          "current_estimate": 86657.424,
-          "prior_estimate": 77065.831,
-          "pct_change": 12.445973624809149,
-          "percentile": 99.74457215836526,
-          "n_obs": 783
-        },
-        {
           "ticker": "ANET",
           "forward_y_code": "27Y",
           "metric": "sales",
           "current_estimate": 16319.533,
           "prior_estimate": 14300.464,
           "pct_change": 14.118905512436509,
+          "percentile": 99.74457215836526,
+          "n_obs": 783
+        },
+        {
+          "ticker": "ETSY",
+          "forward_y_code": "27Y",
+          "metric": "sales",
+          "current_estimate": 2981.767,
+          "prior_estimate": 2890.074,
+          "pct_change": 3.172686927739554,
           "percentile": 99.74457215836526,
           "n_obs": 783
         },
@@ -270,16 +280,6 @@
           "prior_estimate": 7546.321,
           "pct_change": 4.645548473222916,
           "percentile": 99.61685823754789,
-          "n_obs": 783
-        },
-        {
-          "ticker": "ETSY",
-          "forward_y_code": "27Y",
-          "metric": "sales",
-          "current_estimate": 2979.793,
-          "prior_estimate": 2890.074,
-          "pct_change": 3.1043841783982007,
-          "percentile": 99.23371647509579,
           "n_obs": 783
         },
         {
@@ -348,9 +348,9 @@
           "ticker": "APP",
           "forward_y_code": "27Y",
           "metric": "sales",
-          "current_estimate": 10442.824,
+          "current_estimate": 10405.324,
           "prior_estimate": 10735.548,
-          "pct_change": -2.7266796254834857,
+          "pct_change": -3.0759864331098896,
           "percentile": 0.0,
           "n_obs": 783
         },
@@ -435,9 +435,9 @@
           "ticker": "SMCI",
           "forward_y_code": "27Y",
           "metric": "ebitda",
-          "current_estimate": 5317.0,
+          "current_estimate": 5311.857,
           "prior_estimate": 3028.455,
-          "pct_change": 75.56807018760392,
+          "pct_change": 75.39824762131187,
           "percentile": 99.61685823754789,
           "n_obs": 783
         },
@@ -460,6 +460,16 @@
           "pct_change": 45.204853583562524,
           "percentile": 90.18612521150592,
           "n_obs": 591
+        },
+        {
+          "ticker": "OKLO",
+          "forward_y_code": "27Y",
+          "metric": "ebitda",
+          "current_estimate": -268.79,
+          "prior_estimate": -190.0,
+          "pct_change": 41.4684210526316,
+          "percentile": 100.0,
+          "n_obs": 555
         },
         {
           "ticker": "IONQ",
@@ -509,16 +519,6 @@
           "prior_estimate": 763.8,
           "pct_change": 23.18407960199005,
           "percentile": 99.87228607918263,
-          "n_obs": 783
-        },
-        {
-          "ticker": "SMR",
-          "forward_y_code": "27Y",
-          "metric": "ebitda",
-          "current_estimate": -393.583,
-          "prior_estimate": -323.667,
-          "pct_change": 21.601213592982926,
-          "percentile": 78.28863346104725,
           "n_obs": 783
         }
       ],
@@ -597,10 +597,10 @@
           "ticker": "CEG",
           "forward_y_code": "27Y",
           "metric": "ebitda",
-          "current_estimate": 8940.765,
+          "current_estimate": 8940.882,
           "prior_estimate": 9391.786,
-          "pct_change": -4.802292130591567,
-          "percentile": 1.277139208173691,
+          "pct_change": -4.801046361150052,
+          "percentile": 1.40485312899106,
           "n_obs": 783
         },
         {
@@ -617,14 +617,24 @@
           "ticker": "APP",
           "forward_y_code": "27Y",
           "metric": "ebitda",
-          "current_estimate": 8759.909,
+          "current_estimate": 8720.455,
           "prior_estimate": 9062.103,
-          "pct_change": -3.334700565641324,
+          "pct_change": -3.770074120764233,
           "percentile": 0.0,
           "n_obs": 783
         }
       ],
       "by_pctile_top": [
+        {
+          "ticker": "OKLO",
+          "forward_y_code": "27Y",
+          "metric": "ebitda",
+          "current_estimate": -268.79,
+          "prior_estimate": -190.0,
+          "pct_change": 41.4684210526316,
+          "percentile": 100.0,
+          "n_obs": 555
+        },
         {
           "ticker": "U",
           "forward_y_code": "27Y",
@@ -633,16 +643,6 @@
           "prior_estimate": 763.8,
           "pct_change": 23.18407960199005,
           "percentile": 99.87228607918263,
-          "n_obs": 783
-        },
-        {
-          "ticker": "CSCO",
-          "forward_y_code": "27Y",
-          "metric": "ebitda",
-          "current_estimate": 27729.316,
-          "prior_estimate": 25847.167,
-          "pct_change": 7.281838663401663,
-          "percentile": 99.74457215836526,
           "n_obs": 783
         },
         {
@@ -666,6 +666,16 @@
           "n_obs": 783
         },
         {
+          "ticker": "CSCO",
+          "forward_y_code": "27Y",
+          "metric": "ebitda",
+          "current_estimate": 27469.7,
+          "prior_estimate": 25847.167,
+          "pct_change": 6.277411369687047,
+          "percentile": 99.61685823754789,
+          "n_obs": 783
+        },
+        {
           "ticker": "DLR",
           "forward_y_code": "27Y",
           "metric": "ebitda",
@@ -679,9 +689,9 @@
           "ticker": "SMCI",
           "forward_y_code": "27Y",
           "metric": "ebitda",
-          "current_estimate": 5317.0,
+          "current_estimate": 5311.857,
           "prior_estimate": 3028.455,
-          "pct_change": 75.56807018760392,
+          "pct_change": 75.39824762131187,
           "percentile": 99.61685823754789,
           "n_obs": 783
         },
@@ -714,16 +724,6 @@
           "pct_change": 26.533370592361514,
           "percentile": 98.97828863346105,
           "n_obs": 783
-        },
-        {
-          "ticker": "GNRC",
-          "forward_y_code": "27Y",
-          "metric": "ebitda",
-          "current_estimate": 1189.85,
-          "prior_estimate": 1130.632,
-          "pct_change": 5.237601624578092,
-          "percentile": 98.08429118773945,
-          "n_obs": 783
         }
       ],
       "by_pctile_bottom": [
@@ -741,9 +741,9 @@
           "ticker": "APP",
           "forward_y_code": "27Y",
           "metric": "ebitda",
-          "current_estimate": 8759.909,
+          "current_estimate": 8720.455,
           "prior_estimate": 9062.103,
-          "pct_change": -3.334700565641324,
+          "pct_change": -3.770074120764233,
           "percentile": 0.0,
           "n_obs": 783
         },
@@ -758,16 +758,6 @@
           "n_obs": 783
         },
         {
-          "ticker": "CVNA",
-          "forward_y_code": "27Y",
-          "metric": "ebitda",
-          "current_estimate": 3860.45,
-          "prior_estimate": 3953.524,
-          "pct_change": -2.354203490354434,
-          "percentile": 0.1277139208173691,
-          "n_obs": 783
-        },
-        {
           "ticker": "TTD",
           "forward_y_code": "27Y",
           "metric": "ebitda",
@@ -778,13 +768,23 @@
           "n_obs": 783
         },
         {
+          "ticker": "CVNA",
+          "forward_y_code": "27Y",
+          "metric": "ebitda",
+          "current_estimate": 3861.7,
+          "prior_estimate": 3953.524,
+          "pct_change": -2.322586128223836,
+          "percentile": 0.7662835249042145,
+          "n_obs": 783
+        },
+        {
           "ticker": "CEG",
           "forward_y_code": "27Y",
           "metric": "ebitda",
-          "current_estimate": 8940.765,
+          "current_estimate": 8940.882,
           "prior_estimate": 9391.786,
-          "pct_change": -4.802292130591567,
-          "percentile": 1.277139208173691,
+          "pct_change": -4.801046361150052,
+          "percentile": 1.40485312899106,
           "n_obs": 783
         },
         {

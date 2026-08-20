@@ -1,172 +1,221 @@
 {
-  "digest_type": "midday",
-  "digest_dt": "2026-08-20T12:00:00-04:00",
-  "saved_at": "2026-08-20T16:25:14.650593+00:00",
+  "digest_type": "eod",
+  "digest_dt": "2026-08-20T18:00:00-04:00",
+  "saved_at": "2026-08-20T22:29:51.927556+00:00",
   "bullets": [
     {
-      "title": "Nasdaq 100 futures slip 0.5% as session opens weak",
-      "body": "Nasdaq 100 futures extended declines to 0.5% in the morning session, while SPY notched its first up day in four with re-accelerating volume \u2014 setting up a mixed tape for tech-heavy names.",
+      "title": "NVIDIA China Chip: Small-Batch Shipments of Export-Compliant AI Chip by Year-End",
+      "body": "NVIDIA is planning small-batch shipments of a new AI chip designed specifically for Chinese customers by end of 2026. The chip is a China-specific LPU variant that works alongside GPUs to accelerate processing, complies with US export controls, and has already attracted orders from several Chinese customers. Whether Beijing will permit orders remains unclear.",
       "tickers": [
-        "SPY"
+        "NVDA"
       ],
       "source_item_ids": [
-        "x:2090408373779063273",
-        "x:2090371487572136082"
+        "x:2090485916078874748",
+        "x:2090485051091726812"
       ]
     },
     {
-      "title": "AI capex boom called largest GDP driver in history (Bloomberg)",
-      "body": "Bloomberg and multiple fintwit accounts flagged that AI infrastructure investment \u2014 spanning data centers, chips, cloud, and energy \u2014 is generating the biggest capex-driven GDP boost on record. Separately, Mag7/Neural9 names are showing meaningful divergence in price action, ending the era of monolithic mega-cap tech moves.",
-      "tickers": [],
+      "title": "NVDA/ORCL Hyperscaler CDS Blowing Out to All-Time Wide Spreads",
+      "body": "Credit spreads on major hyperscalers are widening sharply, with ORCL and NVDA at all-time wide CDS levels and META approaching records. One fintwit account notes the 'post-July rip is over' as market structure stress signals emerge beyond just equity prices.",
+      "tickers": [
+        "NVDA",
+        "ORCL",
+        "META"
+      ],
       "source_item_ids": [
-        "x:2090402717201997833",
-        "x:2090405414634438657"
+        "x:2090477521691177051"
       ]
     },
     {
-      "title": "META quietly among MSFT's largest AI customers",
-      "body": "Reports circulating on fintwit that Meta has become one of Microsoft's largest AI customers, with the partnership having proceeded without major public announcements.",
+      "title": "NVIDIA Vera Rubin Racks Now Live at OpenAI; CoreWeave Deal with HRT",
+      "body": "The first NVIDIA Vera Rubin racks are now powering OpenAI's training infrastructure. Separately, Hudson River Trading signed a multi-billion compute deal with CoreWeave to run AI research on NVIDIA Vera Rubin NVL72 and HGX B200 GPUs \u2014 HRT becomes one of the first Vera Rubin customers.",
+      "tickers": [
+        "NVDA"
+      ],
+      "source_item_ids": [
+        "x:2090473127658570184",
+        "x:2090436379016560981"
+      ]
+    },
+    {
+      "title": "NVDA Foundry Strategy: Likely to Reduce TSMC Dependency vs. Prior Cycle",
+      "body": "Informed semiconductor analyst notes NVIDIA shifted from ~70% internal production (Pico/Hopper era) to external sourcing for Rubin compute tiles, having previously flagged margin headwinds from external foundry reliance. Analyst questions whether NVIDIA will return to prior TSMC volume levels.",
+      "tickers": [
+        "NVDA"
+      ],
+      "source_item_ids": [
+        "x:2090465211522404701"
+      ]
+    },
+    {
+      "title": "INTC Nova Lake-S Power Draw 2.4x Expected TDP; Foundry Margin Risk if IO-Tile-Only",
+      "body": "Intel's 28-core Nova Lake-S reportedly draws 296W PL1 vs. a 125W expected TDP \u2014 a 2.4x overshoot raising efficiency concerns. Separately, a well-sourced analyst warns Intel foundry margins would 'absolutely crater' if limited to IO tiles; the strategy requires in-house compute tiles to be viable.",
+      "tickers": [
+        "INTC"
+      ],
+      "source_item_ids": [
+        "x:2090493897831292972",
+        "x:2090437179671728208"
+      ]
+    },
+    {
+      "title": "TSMC Offloads 30-Year Fab Overcapacity Risk to Big Tech Customers",
+      "body": "Commentary from a credible analyst highlights that TSMC has effectively transferred the risk of fab overcapacity to major tech customers, who 'didn't fully appreciate the extent' of that risk transfer. TSMC expects its fab infrastructure to run for 30 years.",
+      "tickers": [
+        "TSM",
+        "INTC"
+      ],
+      "source_item_ids": [
+        "x:2090461810474295519"
+      ]
+    },
+    {
+      "title": "Optical Sector (AAOI, COHR): Severely Capacity-Constrained Despite Underperformance",
+      "body": "A fintwit analyst argues the optical sector is 'severely capacity-constrained' with 'exceptional demand visibility' \u2014 AAOI and Coherent combined are still struggling to meet customer demand. However, a separate analyst cautions against overestimating optical attach rates and warns manufacturing constraints will delay deployment timelines.",
+      "tickers": [
+        "AAOI",
+        "COHR"
+      ],
+      "source_item_ids": [
+        "x:2090490101260591481",
+        "x:2090451909828395080"
+      ]
+    },
+    {
+      "title": "FN: Rosenblatt Reiterates Buy/$750 PT; NOK Now 11% of Revenue",
+      "body": "Rosenblatt reiterated a Buy and $750 PT on Fabrinet post-earnings with the stock around $440 \u2014 implying ~70% upside. A separate note flags that Nokia now represents 11% of FN's entire revenue, an emerging concentration to watch.",
+      "tickers": [
+        "FN",
+        "NOK"
+      ],
+      "source_item_ids": [
+        "x:2090474245373780204",
+        "x:2090410267691847983"
+      ]
+    },
+    {
+      "title": "MU: $250B+ US Investment Announced; $10B Research Labs; Employee Stock Speculation",
+      "body": "Micron announced it will invest more than $250B in US advanced memory manufacturing and R&D over the coming years, expected to create 90K+ jobs. The company also unveiled a new Micron Gigaresearch Lab with $10B dedicated to memory and compute breakthroughs. The scale of the investment sparked fintwit speculation on employee equity monetization.",
+      "tickers": [
+        "MU"
+      ],
+      "source_item_ids": [
+        "x:2090409732049883501",
+        "x:2090417988415697208"
+      ]
+    },
+    {
+      "title": "BABA AI Revenue Approaching $10B Annualized; In-House Chips to Lift Margins",
+      "body": "Alibaba guided AI-product annualized revenue to approach $10B next quarter from a current ~$7.3B run rate (~37% sequential growth). The company also expects 'substantially higher' gross margins and profitability as its own AI chips replace purchased chips in data centers, with AI investment payback shortening toward 2.5 years.",
+      "tickers": [
+        "BABA"
+      ],
+      "source_item_ids": [
+        "x:2090415471019409903",
+        "x:2090417894450680303"
+      ]
+    },
+    {
+      "title": "META Quietly Becomes One of MSFT's Largest AI Customers",
+      "body": "Bloomberg reports Meta has quietly become one of Microsoft's largest AI customers. Meta is also heading to trial over allegations it designed Facebook and Instagram to addict young users while concealing child safety risks.",
       "tickers": [
         "META",
         "MSFT"
       ],
       "source_item_ids": [
-        "x:2090394223157903602"
+        "x:2090442982331936956",
+        "x:2090417816809939173"
       ]
     },
     {
-      "title": "Alibaba Q1 beats revenue/EBITDA but EPS misses sharply; AI chip adoption broadening",
-      "body": "Alibaba Q1 revenue of 268.95B yuan beat the 268.52B yuan estimate and adj EBITDA of 39.14B yuan topped the 36.92B estimate, but adj EPS of 8.52 yuan badly missed the 11.28 yuan consensus. The company highlighted broad commercial adoption of its Zhenwu AI chips and sustained full-stack AI investment. ADRs erased early losses to trade +0.5%.",
+      "title": "SMCI: Independent Probe Finds No Evidence of Sanctioned-Party Sales; Shares +1.6% Premarket",
+      "body": "Supermicro completed an independent investigation and found no proof that current senior management was aware of any alleged diversion scheme, and no direct sales to banned parties were identified. Terminated employees were cited for rule violations. Shares rose 1.6% in premarket on the news; the board also approved export compliance improvements.",
       "tickers": [
-        "BABA"
+        "SMCI"
       ],
       "source_item_ids": [
-        "x:2090372797713498530",
-        "x:2090374837671739568"
+        "x:2090430105231454420",
+        "x:2090430130086899861"
       ]
     },
     {
-      "title": "Walmart Q2 comp sales miss weighs on consumer sentiment read",
-      "body": "Walmart US comp sales ex-gas came in at +2.6% vs. the +3.67% consensus, though adj EPS of $0.81 beat the $0.74 estimate and revenue of $187.94B edged above the $186.87B forecast. Q3 EPS guidance of $0.62\u2013$0.64 missed the $0.68 estimate; FY adj EPS raised to $2.80\u2013$2.87 from $2.75\u2013$2.85. The comp miss is a notable read-through for consumer spending.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2090395365744980064",
-        "x:2090403734673125773"
-      ]
-    },
-    {
-      "title": "30Y UST yields rebound to 5.23% after prior-day drop; Treasury buybacks may only briefly tame curve",
-      "body": "Thirty-year Treasury yields rose 4bps to 5.23% after a 9bps drop the prior session. Commentary suggests Treasury wants the long end controlled and is using the dollar as an economic release valve. Analysis warns buyback programs may provide only temporary yield relief.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2090384043363778970",
-        "x:2090369657827991641"
-      ]
-    },
-    {
-      "title": "US national debt crosses $40 trillion; $3.8B/day in interest payments",
-      "body": "US national debt hit a record $40 trillion amid historically fast borrowing. The government now spends $3.8B per day on interest \u2014 exceeding $3.1B/day on Medicare and $2.5B/day on Defense \u2014 stoking growing investor concern over fiscal sustainability.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2090408060942447007",
-        "x:2090407996153041322"
-      ]
-    },
-    {
-      "title": "German 5Y yield hits 3% for first time since 2008; European gas spikes to \u20ac65/MWh",
-      "body": "German 5-year yields reached 3% for the first time since 2008, signaling tighter European monetary conditions. Simultaneously, European natural gas prices hit \u20ac65/MWh \u2014 the highest since March \u2014 though the EU Commission noted storage is at 62% with no immediate supply concern.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2090403905490329924",
-        "x:2090400359651082698"
-      ]
-    },
-    {
-      "title": "Healthcare most-shorted basket surges 6.4% in a day, +31.5% over 3 months",
-      "body": "The 'Healthcare Most Short' consensus hedge-fund basket ripped 6.4% in a single session and is up 31.5% over the past three months on short-squeeze momentum. The healthcare sector overall was called one of the best relative days in market history vs. tech.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2090375134154514911",
-        "x:2090372528740900902"
-      ]
-    },
-    {
-      "title": "High-beta momentum stocks down 7.3%; hedge fund pessimism tracks short books",
-      "body": "A high-beta momentum index fell 7.3% in the prior session. Fintwit commentary notes that hedge fund bearishness tends to reflect the composition of their own short books rather than independent macro views.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2090374475879469146"
-      ]
-    },
-    {
-      "title": "Crypto short liquidations hit record $2.73B; BTC crosses 200-day MA at $71K",
-      "body": "Yesterday's crypto surge triggered $2.73B in short liquidations across perpetuals \u2014 flagged as the largest such event on record. Bitcoin subsequently climbed above its 200-day moving average and reached $71,000. Crypto stocks were also surging premarket following a White House meeting.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2090388081018908721",
-        "x:2090359094934671713"
-      ]
-    },
-    {
-      "title": "CCL/advanced laminate supply capacity expanding but running behind schedule",
-      "body": "Taiwan-based DigiTimes reports that suppliers in Taiwan, Japan, South Korea, and China are expanding advanced copper-clad laminate (CCL) production capacity, but additions are running behind schedule amid existing supply shortages and higher margins.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2090390949436563733"
-      ]
-    },
-    {
-      "title": "CrowdStrike CTO departing to launch AI-cyber fund",
-      "body": "CrowdStrike's CTO is leaving the company to launch a new AI-focused cybersecurity fund \u2014 a potential signal of accelerating private capital formation in the AI-security space.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2090388197155237995"
-      ]
-    },
-    {
-      "title": "Amazon market cap now exceeds Walmart's",
-      "body": "Fintwit noted that Amazon's market capitalization has surpassed Walmart's, a milestone commentary tied to Amazon's scale gains across e-commerce and cloud.",
+      "title": "NET: 30%+ Growth But Supply Chain Analysis Flags Warning Sign",
+      "body": "Two posts flag Cloudflare growing 30%+ annually but warn that custom supply chain mapping across NET, Akamai, Fastly, hyperscalers, and neoclouds reveals a warning sign \u2014 competitive power and profits may not be accruing to Cloudflare as investors expect.",
       "tickers": [
-        "AMZN"
+        "NET"
       ],
       "source_item_ids": [
-        "x:2090401451637891344"
+        "x:2090438704783589767",
+        "x:2090422944510181876"
       ]
     },
     {
-      "title": "Retail leverage rotating out of AI stocks into biotech; SK Hynix buybacks supporting EWY",
-      "body": "One fintwit trader flagged that leveraged retail money is rotating from AI stocks into biotech names like MRNA. SK Hynix buybacks were cited as a support factor for EWY, with Samsung Foundry trading in a 10\u201315% range.",
+      "title": "GOOGL/Waymo: 1.4M Monthly Rides in California, 10x Growth; Custom 5nm ASIC Chip Revealed",
+      "body": "Waymo is now executing over 1.4 million monthly rides in California, a 10x increase over two years. The company also revealed for the first time a purpose-built 5nm ASIC chip for robotaxi ML inference as part of broader custom component development.",
+      "tickers": [
+        "GOOGL"
+      ],
+      "source_item_ids": [
+        "x:2090451785752162596",
+        "x:2090454982835286298"
+      ]
+    },
+    {
+      "title": "TSLA Robotaxi: 170 Unsupervised Austin Rides Completed Over Two Weeks",
+      "body": "All 170 Tesla Robotaxi rides in Austin over the past two weeks were unsupervised, per monitoring by Robo Report. Separate fintwit commentary on FSD competitive dynamics notes advanced AI will eventually lower barriers to FSD creation, eroding current competitive advantages.",
+      "tickers": [
+        "TSLA"
+      ],
+      "source_item_ids": [
+        "x:2090454561970643011"
+      ]
+    },
+    {
+      "title": "MDB: Unusual ~$2M OTM Call Purchase Flags Upside Speculation",
+      "body": "Traders flagged approximately $2M in far out-of-the-money call options on MongoDB, suggesting positioning for a significant upside move ahead.",
+      "tickers": [
+        "MDB"
+      ],
+      "source_item_ids": [
+        "x:2090454470400303157"
+      ]
+    },
+    {
+      "title": "Bessent Treasury Intervention: Buyback Gains Erased; JPM/$GS Critical",
+      "body": "US 30-year Treasury yields erased all gains from Bessent's buyback announcement, with the 30Y yield rising 6bp to 5.25% and 10Y breaking above 4.70%. JPMorgan warned the market would view Treasury as 'lacking credibility,' Goldman characterized the move as a 'band-aid on a bullet hole' driven by fiscal fears not technical factors, and Nomura said losing the long-end is 'unacceptable.' Bessent signaled buybacks could exceed the announced $4B.",
       "tickers": [],
       "source_item_ids": [
-        "x:2090374603264929981"
+        "x:2090463901653639218",
+        "x:2090424891354775714"
       ]
     },
     {
-      "title": "Unitree IPO surges from $9.1B to ~$50B on debut; humanoid mass market within a decade",
-      "body": "Chinese humanoid robotics firm Unitree went public at a $9.1B valuation and surged to approximately $50B on its first trading day. The founder projects humanoid robots will reach mass-market status within a decade, even as IPO momentum in the sector shows early signs of fading.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2090400956894642395",
-        "x:2090404760645955636"
-      ]
-    },
-    {
-      "title": "SPY volume re-accelerates on first up day in four",
-      "body": "SPY posted its first up day after four consecutive declining sessions, with volume notably re-accelerating \u2014 a constructive technical signal watched by fintwit momentum traders.",
+      "title": "SPY: Millions in OTM Puts at the Open for Third Consecutive Day; $3.1B Put Wall at 765",
+      "body": "For the third consecutive day, traders accumulated millions in out-of-the-money SPY puts at the market open. A $3.1B put wall sits at the 765 strike, suggesting significant downside hedging activity building in the market.",
       "tickers": [
         "SPY"
       ],
       "source_item_ids": [
-        "x:2090371487572136082"
+        "x:2090441328626651261",
+        "x:2090439218921160942"
       ]
     },
     {
-      "title": "Tanker seized in Gulf of Aden; Iran losing Strait of Hormuz control per CNN",
-      "body": "Armed persons took control of a tanker in the Gulf of Aden per UKMTO alerts. Separately, CNN reports Iran has lost significant control of the Strait of Hormuz \u2014 a potential tail risk for oil supply routes and energy prices.",
+      "title": "US Debt Hits $40T; Bessent Signals Deficit Has Peaked; JPM Forecasts $3.5T Funding Gap",
+      "body": "US national debt crossed $40 trillion for the first time, with the last $1T added in 152 days and daily deficit spending at $6.58B. Bessent stated there is a 'very good chance' the fiscal deficit has peaked and argued the US can 'grow our way' out of debt. JPMorgan countered by forecasting a $3.5T+ funding gap in coming fiscal years requiring more duration supply, not less.",
       "tickers": [],
       "source_item_ids": [
-        "x:2090382689148829833",
-        "x:2090387617569558895"
+        "x:2090498509464306047",
+        "x:2090461643603898436"
+      ]
+    },
+    {
+      "title": "Philly Fed Smashes Estimates at 47.4; Jobless Claims Beat at 206K; Leading Index +0.2%",
+      "body": "August Philadelphia Fed Manufacturing Index came in at 47.4 vs. a 24.8 estimate and 41.4 prior \u2014 the largest monthly jump in the survey's 56-year history. Initial jobless claims declined to 206K vs. 210K expected, and the Conference Board Leading Economic Index rose 0.2% vs. 0.1% estimate. Prices paid eased to 40.9 from 53.9.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2090419215605944517",
+        "x:2090419025335525428"
       ]
     }
   ]
