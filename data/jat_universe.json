@@ -1,226 +1,220 @@
 {
-  "digest_type": "eod",
-  "digest_dt": "2026-08-19T18:00:00-04:00",
-  "saved_at": "2026-08-19T22:32:37.933679+00:00",
+  "digest_type": "premarket",
+  "digest_dt": "2026-08-20T08:30:00-04:00",
+  "saved_at": "2026-08-20T13:20:02.710454+00:00",
   "bullets": [
     {
-      "title": "MRVL +10%: Google expands AI chip partnership with $12.2B warrant deal",
-      "body": "Marvell issued Google a warrant for up to 58.97M shares at $206.58 (strike), with full vesting implying ~$120B in cumulative Google purchases over ~7 years. The expanded partnership covers custom AI inference accelerators, storage controllers, NICs, and near-memory compute for the TPU ecosystem. Oppenheimer maintains Outperform, noting the deal validates MRVL's XPU guidance to double to $4B+ next year before reaching $10B+ in CY28; MRVL added ~$17B of equity value on the day, closing around $235.",
-      "tickers": [
-        "MRVL",
-        "GOOGL"
-      ],
-      "source_item_ids": [
-        "gmail:1a01c03fd17d2f22",
-        "gmail:1a01bc9e60f08d5e"
-      ]
-    },
-    {
-      "title": "AVGO: Google-Marvell deal viewed as incremental negative, not existential threat",
-      "body": "JPM explicitly notes the Google-Marvell deal should NOT be viewed as negative for AVGO; AVGO remains Google's primary TPU partner with a 5-year LTA through 2031 signed April 2026 and is ramping six other major projects (META, OpenAI, Anthropic). Analysts remain buyers of both MRVL and AVGO. Broadcom fell 4.6% on the day amid initial concern, but the deal is framed as an 'attach to TPU ecosystem' rather than displacement.",
-      "tickers": [
-        "AVGO",
-        "MRVL",
-        "GOOGL"
-      ],
-      "source_item_ids": [
-        "gmail:1a01c03fd17d2f22",
-        "gmail:1a01ba4763620808"
-      ]
-    },
-    {
-      "title": "ADI: Record $4B quarter; UBS reiterates Buy at $490, Bernstein upgrades to Outperform",
-      "body": "ADI reported Q3 revenue of $4.02B and non-GAAP EPS of $3.45 (top of guidance range); Q4 guided to $4.30B (+7% vs normal +5% seasonality) with gross margin expanding ~150bps to ~74%. Data Center revenue surged 95%+ Y/Y; ADI estimates $1.0-1.5B per GW of analog opportunity in AI infrastructure. Bernstein upgraded to Outperform with a $465 PT (25% upside); KeyBanc maintains Overweight at $525; UBS reiterates Buy at $490. Channel inventory remains below target with no restocking signals.",
-      "tickers": [
-        "ADI"
-      ],
-      "source_item_ids": [
-        "gmail:1a01be18117e65d8",
-        "gmail:1a01ba47b2b3af32"
-      ]
-    },
-    {
-      "title": "INTU: Mizuho cutting estimates/PT ahead of FQ4; debrief call Aug 25",
-      "body": "Mizuho expects INTU's FQ4 results to trigger a reset to expectations and is reducing estimates and price target ahead of the August 25 earnings. Analyst is hosting a post-earnings debrief at 8:30 PM ET that evening.",
-      "tickers": [
-        "INTU"
-      ],
-      "source_item_ids": [
-        "gmail:1a01bf28768072ef"
-      ]
-    },
-    {
-      "title": "MU: S&P upgrades credit rating to BBB+ with positive outlook on demand recovery",
-      "body": "S&P Global raised Micron Technology's credit rating to BBB+ with a positive outlook, citing higher confidence in near-term demand recovery. No price target or equity rating action accompanies the credit upgrade.",
-      "tickers": [
-        "MU"
-      ],
-      "source_item_ids": [
-        "x:2090131086693257286"
-      ]
-    },
-    {
-      "title": "NVDA: Facilitating Nordic data-center matchmaking; weighing $20B investment in AI data supplier Mercor",
-      "body": "Nvidia is brokering deals between GPU customers and Nordic data-center operators to accelerate AI infrastructure deployment in the region (power, land, cooling advantages). Separately, NVDA is in discussions to invest in Mercor, an AI training data supplier, at a $20B valuation, consistent with Bloomberg's July reports. NVDA CDS hedging is 100% hedge fund-led per MS credit desk; NVDA/SpaceX expected to be added to CDX IG47 with ~95% probability at the next roll.",
+      "title": "NVDA: Jefferies previews Aug 26 print \u2014 $95B July rev, $108B Oct guide; Rubin ramp drives 2H27 upside",
+      "body": "Jefferies (Blayne Curtis) models NVDA July Q revenue of $95B vs. Street $91.9B, with October guidance of $108B vs. $103.7B consensus. Rubin ramps are the key call: 12% of GPU revenue in F3Q27, climbing to ~40-50% by F4Q27. Cloud revenue is inflecting at MSFT and AMZN, OAI is locked in through 2030, and SPCX has committed to all-NVDA architecture. Wolfe and Opco also flag>$1T cumulative Blackwell/Rubin revenue visibility through CY27, while valuations sit at the lowest since the AI upcycle began (16x CY27E vs. five-year avg 32x).",
       "tickers": [
         "NVDA"
       ],
       "source_item_ids": [
-        "gmail:1a01b2d83aeb673d",
-        "x:2090082616020258970"
+        "gmail:1a01f032cb157d23",
+        "gmail:1a01e64bdc7358d0"
       ]
     },
     {
-      "title": "AMD: Engineers integrating directly into NVDA's NIXL library; 2030 rack claims 570x MI300X performance",
-      "body": "AMD engineers are now landing code directly into NVIDIA's NIXL upstream inference communications library, eliminating monthly sync overhead\u2014a notable shift after a decade of NVIDIA blocking AMD contributions. Separately, AMD claims its 2030 AI racks will match 570 MI300X racks using just 2 racks and slash power consumption 20x.",
+      "title": "MRVL: Google deal could imply $120B cumulative revenue through FY33; UBS raises PT to $310",
+      "body": "Marvell disclosed an expanded commercial agreement with Google spanning custom silicon attached to the TPU ecosystem (AI inference accelerators, storage/NICs/memory controllers, near-memory compute). A warrant structure \u2014 240 tranches tied to $500M of custom product revenue each \u2014 implies up to $120B cumulative revenue (~$18B/yr average) over ~7 years. UBS raises PT from $300 to $310 (30x C2028 EPS of $10.31), and notes no negative read-through to AVGO as MRVL is focused on XPU-attach/disaggregated inference rather than TPU development itself. Custom AI ASIC (XPU) sales expected to double to $4B+ next year, reaching $10B+ by CY28.",
       "tickers": [
+        "MRVL",
+        "AVGO",
+        "GOOGL"
+      ],
+      "source_item_ids": [
+        "gmail:1a01c6c46356efa4",
+        "gmail:1a01ef9346026bd4"
+      ]
+    },
+    {
+      "title": "CRM: JPM Overweight ahead of F2Q \u2014 needs CRPO at +13%+ and subscription reaccel signal",
+      "body": "JPM's Samik Chatterjee moved CRM to Overweight. Street expects ~+11% Y/Y subscription revenue growth in F2Q; a beat would boost confidence in 2H FY27 reacceleration. cRPO is guided +13% Y/Y FXN organic; FY27 subscription guidance currently +11% FXN needs +11.5% to support the 2H story. Share count is down ~15% Y/Y from an ASR, so per-share metrics will look materially better. Opco maintains $250 PT on favorable F2Q setup with low expectations and strong Agentforce/Data Cloud adoption.",
+      "tickers": [
+        "CRM"
+      ],
+      "source_item_ids": [
+        "gmail:1a01f1ab914270b2",
+        "gmail:1a01ef9346026bd4"
+      ]
+    },
+    {
+      "title": "CRWD: CTO departure adds overhang; needs $20M+ NNARR beat and guide raise to move stock",
+      "body": "CRWD CTO Elia Zaitsev is departing to launch an AI-focused cyber venture fund called Cognition, adding a personnel overhang to a stock already up ~100% since the April Mythos launch. JPM notes channel conversations are the most positive in any covered company this quarter, but says the stock needs a 2Q NNARR beat of $20M+ with flow-through to FY guidance to move higher. Identity expected to accelerate; Cloud and Next-Gen SIEM are performing strongly.",
+      "tickers": [
+        "CRWD"
+      ],
+      "source_item_ids": [
+        "gmail:1a01f1ab914270b2",
+        "gmail:1a01ec3250dc8f0c"
+      ]
+    },
+    {
+      "title": "ADI: 10th consecutive above-seasonal quarter; second price hike mid-Sept; DC drives visibility to 2027",
+      "body": "ADI posted F3Q26 revenue of $4.02B (beat $3.91B est) and EPS $3.45 (beat $3.32), with F4Q26 guidance of $4.30B and EPS $3.86 \u2014 both ~7-10% above consensus. A second round of price hikes takes effect September 13, expected to provide mid-single-digit revenue impact with gross margin uplift in FY27. Citi raises FY26/27 EPS 3%/7%, maintaining Buy at $460 PT. AI/DC businesses (~20% of sales) expected to grow from ~$3B in FY26 to ~$5.3B by FY28 (32% CAGR). Seaport Research and Bernstein both upgraded ADI to Buy/Outperform on the print.",
+      "tickers": [
+        "AVGO"
+      ],
+      "source_item_ids": [
+        "gmail:1a01cb1ee64e4b4c",
+        "gmail:1a01f21150cdaac0"
+      ]
+    },
+    {
+      "title": "MU / memory: SK Hynix \u20a940tn buyback expands cash return program; MU unlocks post-Dec 2026 Chips Act",
+      "body": "Wolfe notes SK Hynix expanded its buyback from 50% to >50% FCF with quarterly execution rather than post-CY27, and a special dividend and ordinary dividend increase under consideration. GS notes SK Hynix EPS was raised 4%/10%/10% for 2026E/2027E/2028E. MU will unlock incremental cash returns once Chips Act restrictions expire in December 2026. Memory upcycle remains intact on tight inventories, strong KV cache demand, and HBM shortage. NVDA is pushing HBM vendors to exceed JEDEC HBM4 spec to 11 GBPS to stay ahead of AMD MI450; SK Hynix has already hit that mark.",
+      "tickers": [
+        "MU",
+        "SNDK"
+      ],
+      "source_item_ids": [
+        "gmail:1a01f25794e9827e",
+        "gmail:1a01c7817fbfa185"
+      ]
+    },
+    {
+      "title": "BABA: Q1 Cloud revenue +45% YoY but EPS misses on margin compression and capex surge",
+      "body": "BABA reported Q1 revenue of CNY268.95B (in-line) but EPS of CNY8.52 vs. CNY10.14 consensus (miss). AI Cloud revenue accelerated to +45% YoY with 12% EBITA margin. Operating margin declined 8pp YoY to 6% as capex surged 75% YoY to CNY67.68B vs. Tencent's CNY53bn, and FCF turned deeply negative. International eCommerce declined 20% YoY. Quick commerce grew 45%.",
+      "tickers": [
+        "BABA"
+      ],
+      "source_item_ids": [
+        "gmail:1a01ea6d8fd09572",
+        "gmail:1a01eaae40f0455"
+      ]
+    },
+    {
+      "title": "DIS: Morgan Stanley reiterates Overweight with $125 PT; Disney+ path to 20%+ EBIT margins",
+      "body": "Morgan Stanley reiterates OW with $125 PT (~15x FY28 EPS of $8.33), noting Disney+ has similar margins on similar revenues to Netflix in 2019 with a path to 20%+ EBIT margins on $30B+ revenues in ~5 years. Parks/Experiences durability supported by $60B capex over 10 years. Content catalysts include Avengers: Doomsday ($1.8B Dec '26), Frozen III ($1.4B Nov '27), and Secret Wars ($2.0B Dec '27). EPS CAGR of 12-13% FY26-30.",
+      "tickers": [
+        "DIS"
+      ],
+      "source_item_ids": [
+        "gmail:1a01f0cb2fd9177f",
+        "gmail:1a01ef07398714a5"
+      ]
+    },
+    {
+      "title": "FOXA: Wolfe raises PT to $93 on $1B Roku merger synergies; 36.8% upside",
+      "body": "Wolfe Research raises FOXA PT to $93 (Outperform) on ~$1B incremental EBITDA from cost and revenue synergies post-Roku merger. Roku data could boost Tubi revenue ~$125M via enhanced ad targeting; Fox's ad sales team could drive ~$300M uplift for Roku; Roku's content hooks could add 1M Fox One subscribers. Pro-forma FOXA trades at 12.1x fully-synergized UFCF and 9.7x EBITDA. SOTP suggests fair value of $105/share.",
+      "tickers": [
+        "FOXA"
+      ],
+      "source_item_ids": [
+        "gmail:1a01e67aa8e60f4a"
+      ]
+    },
+    {
+      "title": "CHTR: Cox/Liberty deal closes; Charter issues ~46M shares, Cox owns ~26%, expects $500M synergies",
+      "body": "Charter completed its acquisition of Cox Communications and Liberty Broadband. Charter issued ~46M shares to Cox Enterprises; Cox now owns ~26% of the combined entity on a fully diluted basis. Net share count decreased ~4.7M from the Liberty transaction. ~$12B of Cox debt remains at Charter subsidiaries. Pro forma net leverage ~3.9x; long-term target 3.50-4.00x. Combined company to be renamed Cox Communications within one year. Charter expects ~$500M annualized cost synergies within three years.",
+      "tickers": [
+        "CHTR"
+      ],
+      "source_item_ids": [
+        "gmail:1a01ed8c443cb08a",
+        "gmail:1a01f0d4060c81ce"
+      ]
+    },
+    {
+      "title": "ETSY: BofA and Rosenblatt both initiate Buy; 18-30% upside cited",
+      "body": "BofA upgraded ETSY from neutral to Buy, raising PT to $105 from $88 (30% upside from $80.46). Separately, Rosenblatt initiated ETSY at Buy with a $95 PT (18% upside). Pre-market ETSY was trading +2.7%.",
+      "tickers": [
+        "ETSY"
+      ],
+      "source_item_ids": [
+        "gmail:1a01f0c27802e431",
+        "gmail:1a01eb225098568e"
+      ]
+    },
+    {
+      "title": "NBIS: Upsizes convertible to $5B; proceeds fund data center expansion and GPU procurement",
+      "body": "Nebius upsized its convertible note offering from $4.5B to $5.0B: $3.0B of 0.50% 2030 notes at ~$313.46 conversion price (40% premium) and $2.0B of 4.50% 2034 notes at ~$324.65 (45% premium). The company is simultaneously exchanging $800M of existing convertibles for ~15.8M Class A shares. Proceeds fund data center expansion, full-stack AI cloud development, and GPU procurement.",
+      "tickers": [
+        "NBIS"
+      ],
+      "source_item_ids": [
+        "gmail:1a01d2d9d84ee891"
+      ]
+    },
+    {
+      "title": "EQIX/DLR: Morgan Stanley reiterates EQIX OW ($1,250 PT) on open-weight AI and interconnection pricing",
+      "body": "Morgan Stanley reiterates EQIX as top pick with $1,250 PT; open-weight AI model adoption tilts incremental inference demand toward colocation providers. Interconnection pricing is an underappreciated lever; sovereign AI/data residency trends favor EQIX's global distributed footprint. Closed-weight outcomes would skew more to hyperscale-focused DLR, though EQIX participates via xScale. Citi separately supports both EQIX ($1,260 PT) and DLR ($226 PT) after the Applied Digital data center tour.",
+      "tickers": [
+        "EQIX",
+        "DLR"
+      ],
+      "source_item_ids": [
+        "gmail:1a01ef5931dabd6c",
+        "gmail:1a01c3d407fea355"
+      ]
+    },
+    {
+      "title": "SPHR: Piper Sandler initiates Overweight at $185 PT on live entertainment strength",
+      "body": "Piper Sandler initiated Sphere Entertainment (SPHR) at Overweight with a $185 PT (16% upside from $159.79), calling it levered to strong live entertainment ex-sports consumer spending. Vegas market expectations are seen as achievable in '27E with additional upside from venue rollout. MSG Entertainment (MSGE) was initiated at Neutral with an $86 PT, as premium venue valuation at ~15x '27E AOI feels factored in.",
+      "tickers": [
+        "SPHR"
+      ],
+      "source_item_ids": [
+        "gmail:1a01f1d62f311cf0",
+        "gmail:1a01e5178c239a4f"
+      ]
+    },
+    {
+      "title": "GOOGL: Rosenblatt upgrades to Buy with $410 PT; YouTube offering millions for exclusive creator content",
+      "body": "Rosenblatt upgraded GOOGL from Neutral to Buy, raising the PT to $410 from $393 (19% upside). Separately, YouTube is offering millions of dollars to popular creators for exclusive upload periods to counter Netflix's talent acquisition strategy. Hedgeye signals GOOGL as Bearish trend; buy range $335, sell $359.",
+      "tickers": [
+        "GOOGL",
+        "NFLX"
+      ],
+      "source_item_ids": [
+        "gmail:1a01eb225098568e",
+        "gmail:1a01efc900090ba3"
+      ]
+    },
+    {
+      "title": "INTC: Razor Lake reportedly shifting to TSMC N2X; may squeeze AMD TSMC server CPU capacity",
+      "body": "Rumors indicate Intel's upcoming Razor Lake desktop processor will use TSMC's high-performance N2X (2nm) process. An analyst argues Intel can block AMD from securing additional TSMC server CPU capacity simply by maintaining or increasing its own fab allocation. Samsung is also prioritizing 2nm foundry expansion (SF2P/SF2P+) for mass production next year. TSM CoWoS packaging is full and Samsung has raised foundry prices up to 15%.",
+      "tickers": [
+        "INTC",
         "AMD",
+        "TSM"
+      ],
+      "source_item_ids": [
+        "x:2090256403776831516",
+        "x:2090228827687645498"
+      ]
+    },
+    {
+      "title": "LRCX: UBS sees ~40% upside; WFE share rising from 11.5% to >15% by 2027 on NAND and packaging spend",
+      "body": "UBS ranks LRCX near the top of its HOLT scorecard (peer rank 98) with CFROI forecast to rise to ~40% next year from ~30%. WFE share is expected to climb from ~11.5% in 2025 to >15% by 2027 driven by NAND upgrades and advanced packaging spending. HOLT market-implied scenario embeds only 10% long-term sales growth vs. consensus of 50% for next year.",
+      "tickers": [
+        "MRVL"
+      ],
+      "source_item_ids": [
+        "gmail:1a01f14830ccf624"
+      ]
+    },
+    {
+      "title": "FN: Wolfe maintains Outperform at $775 PT; NVDA transceiver business dipped 40-50% Q/Q in June",
+      "body": "Wolfe Research maintains Outperform on Fabrinet (FN) at $775 PT (~70% upside). NVIDIA transceiver revenue fell ~40-50% Q/Q in June (estimated ~$125M vs. $211M prior Q), and NVDA is now <10% of accounts receivable. However, purchase obligations surged 123% YoY to $3.15B (58% of NTM COGS), Telecom/DCI and Nokia optical businesses are expanding, and Amazon transceiver wins are ramping. Analyst expects 30%+ revenue and EPS growth for several years.",
+      "tickers": [
+        "FN",
         "NVDA"
       ],
       "source_item_ids": [
-        "x:2090122133036806468",
-        "x:2090123495854481914"
+        "gmail:1a01d9b26a4d2d9a"
       ]
     },
     {
-      "title": "INTC down while market rallies; bullish options flow noted alongside weakness",
-      "body": "INTC was one of the few stocks declining on a broad market up day. Separately, options flow data showed INTC among the most bullish flow names earlier in the session, creating a conflicting near-term signal.",
+      "title": "CRWV/NBIS: 22V Research long compute on firm pricing; warns on data center regulatory headwinds pre-election",
+      "body": "22V Research is long compute through CRWV and NBIS, citing demand outstripping supply with higher contract rates for next-gen compute (Vera Rubin). Pennsylvania Governor signed an executive order removing data centers from Fast Track permitting \u2014 the strictest guardrails in the nation \u2014 and data center regulation is becoming a primary midterm election issue in OH, GA, PA, and TX. Anthropic IPO (~early October) expected to be larger than the SpaceX IPO and a critical signal for the AI trade.",
       "tickers": [
-        "INTC"
+        "CRWV",
+        "NBIS",
+        "SMCI"
       ],
       "source_item_ids": [
-        "x:2090122389409407360",
-        "x:2090102918259044473"
-      ]
-    },
-    {
-      "title": "SNOW: UBS CFO survey sees dedicated data warehouse instances as AI pull-through beneficiary",
-      "body": "UBS surveyed CFOs and found AI token spend ramping 20x per developer since year-end 2025, with 50-100% spending growth planned through year-end 2026. CFOs are planning dedicated data warehouse instances (e.g., Snowflake) for AI-enabled FP&A, representing a key data-layer pull-through theme. SNOW also appeared on Hedgeye's top-30 signal strength longs for Aug 19.",
-      "tickers": [
-        "SNOW"
-      ],
-      "source_item_ids": [
-        "gmail:1a01bc606c48e42c",
-        "gmail:1a01b1377fbec0cb"
-      ]
-    },
-    {
-      "title": "LOW: Mixed Q2; FY26 guidance lowered; KeyBanc Overweight $275, Mizuho raises PT to $250",
-      "body": "LOW reported Q2 comps +0.2% (missed HD for first time in ~1 year), with online sales +15.7%. FY26 guidance lowered citing DIY weakness, supply chain costs, and 10Y yield headwinds (now ~4.64% vs ~4.05% in February). KeyBanc maintains Overweight at $275 PT; Mizuho raises PT to $250 (from $280) on ~18x FY28E, noting $80M in IEEPA tariff refunds received with more to flow.",
-      "tickers": [
-        "LOW"
-      ],
-      "source_item_ids": [
-        "gmail:1a01bdf5a79ba92c",
-        "gmail:1a01b7aaf8190763"
-      ]
-    },
-    {
-      "title": "ADBE: BofA raises PT to $220 from $190",
-      "body": "BofA Global Research raised Adobe's price target to $220 from $190. No rating change mentioned in available content.",
-      "tickers": [
-        "ADBE"
-      ],
-      "source_item_ids": [
-        "x:2090073130354246062"
-      ]
-    },
-    {
-      "title": "BILL: FQ4 beat; FY27 revenue guide below consensus at +11-14%",
-      "body": "BILL reported FQ4 revenue of $436M (vs $431M consensus) and non-GAAP operating income of $102M (vs $85M consensus). FY27 core revenue guidance of +11-14% YoY came in below the +14% consensus, though FY27 profitability outlook of ~24% margin beat expectations at 22%. Mizuho maintains Neutral. BILL repurchased 8M shares in FQ4 for $300M.",
-      "tickers": [
-        "BILL"
-      ],
-      "source_item_ids": [
-        "gmail:1a01bbd94bacf338",
-        "gmail:1a01ba4763620808"
-      ]
-    },
-    {
-      "title": "HOOD +4.6%, AFRM +5.1% on crypto regulatory tailwinds and CLARITY Act progress",
-      "body": "HOOD gained 4.6% and AFRM gained 5.1% as Senate confirmed a September vote for the CLARITY Act. COIN surged 9.5% on the same catalyst. Banking index fell 2.1% while rate-sensitive fintech names outperformed on bull-flattening following Treasury's announced buyback expansion.",
-      "tickers": [
-        "HOOD",
-        "AFRM"
-      ],
-      "source_item_ids": [
-        "gmail:1a01bc906987ff48"
-      ]
-    },
-    {
-      "title": "UBER +4.6% on autonomous rides launch in Europe",
-      "body": "UBER gained 4.6% on the day following the launch of autonomous rides in Europe. Internet sector led the broader tech complex with a +2.1% gain.",
-      "tickers": [
-        "UBER"
-      ],
-      "source_item_ids": [
-        "gmail:1a01ba4763620808"
-      ]
-    },
-    {
-      "title": "RCL: Hedgeye upgrades to top of best-ideas list; sees path to ~$400+",
-      "body": "Hedgeye upgraded Royal Caribbean to the top of its best-ideas list, calling Q3 yield weakness temporary and flagging Q4 yield inflection with 2027-28 as the real upside catalysts. Same-ship pricing growth, new ship additions, and shoreside revenue drivers (beach clubs, river cruising) support the $400+ price path. Hedgeye cites AI-driven search tailwinds and growing direct booking mix as additional factors.",
-      "tickers": [
-        "RCL"
-      ],
-      "source_item_ids": [
-        "gmail:1a01b4d8dae59684"
-      ]
-    },
-    {
-      "title": "DKNG: PA sports betting GGR surges 33% YoY in July with 33% handle share",
-      "body": "DraftKings captured 33% of Pennsylvania sports betting handle in July (up from 27%), with GGR +33% YoY. FanDuel posted +26% GGR YoY, while Caesars declined 11% YoY. iGaming revenue across PA grew +9% YoY; overall casino floor revenue was flat YoY.",
-      "tickers": [
-        "DKNG"
-      ],
-      "source_item_ids": [
-        "gmail:1a01b10eb2814ded"
-      ]
-    },
-    {
-      "title": "U (Unity): Wolfe Research discontinues coverage; prior rating Peer Perform",
-      "body": "Wolfe Research dropped coverage of Unity Software due to analyst resource reallocation. Prior rating was Peer Perform; current price $46.74, market cap $20.6B, 9.7% short interest. Final estimates should no longer be relied upon.",
-      "tickers": [
-        "U"
-      ],
-      "source_item_ids": [
-        "gmail:1a01bbdc4f91a38b"
-      ]
-    },
-    {
-      "title": "GS TMT desk: AI momentum under pressure; broadening trade gaining traction ahead of NVDA earnings",
-      "body": "GS TMT Momentum Pair fell 9% in two sessions as market leadership inverted (Small > Big, Low Vol > High Vol). The desk sees the AI theme as increasingly two-way, with the inference/media/internet diversity trade gaining vs. pure-play semis. Upcoming key events: CRDO and AVGO earnings near-term, NVDA and DELL shortly after, followed by out-of-favor software (WDAY, CRM, ADBE, INTU). JPM raises 2026 S&P 500 target to 8,000 and maintains tactical bullish view.",
-      "tickers": [
-        "NVDA",
-        "AVGO",
-        "CRDO",
-        "CRM",
-        "ADBE",
-        "INTU",
-        "DELL"
-      ],
-      "source_item_ids": [
-        "gmail:1a01be6efe65f224",
-        "gmail:1a01bc9e60f08d5e"
-      ]
-    },
-    {
-      "title": "OpenAI ARR hits ~$45B (35% QTD growth); sequential growth slowing; IPO by 2027",
-      "body": "OpenAI's CFO reported ARR grew from ~$33B (June 30) to ~$44.5B (August 18), representing 35% QTD growth with enterprise revenue up 50% QTD. However, monthly sequential growth slowed to 11% in August vs 22% in July. AI coding products hit 20M weekly active users. Token monetization is declining due to aggressive price cuts. IPO targeted for 2027 at the latest, potentially sooner. OpenAI's Q2 losses widened despite sequential revenue growth, indicating margin pressure from compute/infra scaling.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a01be858bbd5eaf",
-        "gmail:1a01b19955f18d31"
-      ]
-    },
-    {
-      "title": "AMZN: Prime Air drone delivery expanding to ~500 US cities by end of 2026",
-      "body": "Amazon plans to expand its Prime Air drone delivery program to nearly 500 US cities and towns by end of 2026, adding Georgia, Ohio, Illinois, Idaho, and New York to its current seven-state footprint. No guidance impact commentary provided.",
-      "tickers": [
-        "AMZN"
-      ],
-      "source_item_ids": [
-        "gmail:1a01ae31e15a6959"
+        "gmail:1a01c4868790108f"
       ]
     }
   ]
