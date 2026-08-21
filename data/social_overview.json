@@ -1,216 +1,194 @@
 {
-  "digest_type": "premarket",
-  "digest_dt": "2026-08-21T08:30:00-04:00",
-  "saved_at": "2026-08-21T13:15:34.115839+00:00",
+  "digest_type": "midday",
+  "digest_dt": "2026-08-21T12:00:00-04:00",
+  "saved_at": "2026-08-21T16:21:33.586022+00:00",
   "bullets": [
     {
-      "title": "NVDA: HSBC raises PT to $360, Poolside AI deal ($6B license + $1B investment), China LPU chip denied",
-      "body": "HSBC lifted its NVIDIA price target to $360 from $325. Separately, NVIDIA agreed to pay $6B to license AI models from coding startup Poolside and invest an additional $1B at a $12B valuation, while also absorbing most of Poolside's engineering team. NVIDIA simultaneously denied reports of a China-specific LPU product, stating 'NVIDIA has no China-specific LPU product in its roadmap and no LPU sales in China market currently.'",
+      "title": "UBS raises S&P 500 targets; Citi says buy pre-midterm dips",
+      "body": "UBS raised its S&P 500 targets to 8,100 (Dec 2026) and 8,400 (June 2027), citing tech/semis strength and EPS expectations of $350 in 2026 and $400 in 2027. Citi maintains overweight equities and recommends adding exposure on any pullbacks ahead of midterm elections, citing supportive earnings revisions and improving liquidity with 'limited warning signs.'",
       "tickers": [
-        "NVDA"
+        "SPY"
       ],
       "source_item_ids": [
-        "x:2090588879741202510",
-        "x:2090529186922553833"
+        "x:2090764724656873840",
+        "x:2090764560475062440"
       ]
     },
     {
-      "title": "NVDA: Gigabyte desktop PC with GB300 Grace Blackwell Ultra ships; NVIDIA China LPU report in conflict with company denial",
-      "body": "Gigabyte unveiled a desktop PC using NVIDIA's GB300 Grace Blackwell Ultra Desktop Superchip, marketed as a 'data-center-in-a-box' supporting 400 simultaneous user queries. Separately, a report claimed NVIDIA is developing an LPU-based inference chip for China with SMIC as monopoly foundry\u2014directly contradicted by NVIDIA's official denial.",
+      "title": "S&P 500 earnings momentum at historic highs: 69% beat revenue, 64% beat guidance",
+      "body": "Of 465 S&P 500 companies reporting Q2, 69% beat revenue expectations and 64% of firms issuing Q3 guidance exceeded consensus \u2014 described as the highest share on record for guidance beats. Context for continued bull case in large-cap tech.",
       "tickers": [
-        "NVDA"
+        "SPY"
       ],
       "source_item_ids": [
-        "x:2090607349291692465",
-        "x:2090528857917112684"
+        "x:2090738738779279748"
       ]
     },
     {
-      "title": "MRVL: Oppenheimer lifts PT to $300; custom silicon thesis reaffirmed with $10B FY29 target",
-      "body": "Oppenheimer raised MRVL's price target to $300 from $250. A separate note maintained a Buy rating with a $290 PT based on 20x FY29E EPS of $14.50, citing strong hyperscaler positioning (Google, AWS, MSFT) and DSP ASP upside from shortages. The community is also watching Marvell's Celestia photonic fabric concept but views it as a 2027 story.",
-      "tickers": [
-        "MRVL"
-      ],
+      "title": "BofA warns: 30-year yields above 5% risk asset sell-off; AI shorts expected to build",
+      "body": "BofA's Michael Hartnett warns that failure of the U.S. Treasury bond plan \u2014 with 30-year yields staying above 5% \u2014 could trigger selling in risk assets, dollar weakness, and increased short positioning against AI names specifically.",
+      "tickers": [],
       "source_item_ids": [
-        "x:2090637834843771080",
-        "x:2090591324303196624"
+        "x:2090757689118736474"
       ]
     },
     {
-      "title": "MRVL: $1.5B custom silicon business targeting >$10B FY29 revenue; stock 'left for dead' in 2025",
-      "body": "One fintwit account noted MRVL's custom silicon grew from ~$1.5B to a >$10B FY29 target after the stock missed the late-2025 optical rally, calling it 'one of more interesting setups over next few years.'",
-      "tickers": [
-        "MRVL"
-      ],
+      "title": "30-year Treasury yields near decade highs at 5.23% after hitting 5.311% Monday",
+      "body": "Long-term bond yields remain elevated despite Treasury intervention efforts; the 30-year eased to ~5.23% Friday after hitting a nearly 20-year closing high of 5.311% on Monday. Bond market volatility also moved higher, with policy environment described as unpredictable.",
+      "tickers": [],
       "source_item_ids": [
-        "x:2090574267536883789"
+        "x:2090749444203442205",
+        "x:2090740130541711539"
       ]
     },
     {
-      "title": "MU: $50B Boise expansion, $10B Research Labs launch; stock up 670% YoY amid AI memory race",
-      "body": "Micron CEO announced a $10B Micron Research Labs investment in Boise with a multi-decade horizon. Total Boise commitment is ~$50B, including two new fabs expected to create 17,000+ jobs. Fintwit bullishly notes Micron's long-term investment durability as evidence of structural memory demand confidence; stock cited as up 670% over the past year.",
+      "title": "US Dollar hits new cycle lows post-government intervention",
+      "body": "Keith McCullough flags the US Dollar breaking to new cycle lows following what he characterizes as US government intervention/manipulation, reinforcing the weak-dollar macro backdrop. He remains long Euros and Yen.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2090751597361963482",
+        "x:2090754895657710060"
+      ]
+    },
+    {
+      "title": "SPX correcting on decelerating volume: risk range shows only -0.4% downside vs +2.5% upside",
+      "body": "SPX is correcting from ATHs for the 3rd day in 4 on decelerating volume, which Hedgeye reads as marginally bullish. Their Risk Range signal shows only -0.4% daily downside with +2.5% upside to new ATHs at 7835. Separately, XLF implied volatility spiked +77% above 30-day realized vol on 'consensus panic-selling.'",
+      "tickers": [
+        "SPY"
+      ],
+      "source_item_ids": [
+        "x:2090739206209335538",
+        "x:2090737942285136126"
+      ]
+    },
+    {
+      "title": "OPEX day: bulk of SPX positioning expired at open; residual in weeklies and single-stocks",
+      "body": "Options expiration reminder: most SPX positioning ceases trading at today's open, with residual exposure concentrated in weekly and single-stock options \u2014 suggesting potential for reduced intraday volatility post-open.",
+      "tickers": [
+        "SPY"
+      ],
+      "source_item_ids": [
+        "x:2090744747400810791"
+      ]
+    },
+    {
+      "title": "Conference Board LEI turns positive for first time in 4+ years; Philly Fed capex forecasts at multi-decade highs",
+      "body": "The 6-month annual change in the Conference Board Leading Economic Index turned positive for the first time in more than four years, with 9 of 10 components advancing. Philadelphia Fed's 6-month forecasts for general activity and capex are at multi-decade highs, and employment/workweek components hit cycle highs in August.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2090752761386201413",
+        "x:2090752410322911392"
+      ]
+    },
+    {
+      "title": "Jackson Hole: Fed Chair Warsh expected to offer modest reassurance on policy",
+      "body": "TD Securities expects Fed Chair Kevin Warsh to provide modest reassurance for investors at the Jackson Hole symposium, with markets watching for clearer signals on his policy approach amid an elevated yield environment.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2090762739677282338"
+      ]
+    },
+    {
+      "title": "Tesla recalls ~2.74M-2.98M vehicles in China over door-release safety issue",
+      "body": "China's market regulator ordered Tesla to recall approximately 1.96M\u20132.98M vehicles (Model Y, and in some reports Model 3/Y) made in China, over emergency door-release safety concerns. The fix involves warning labels and a software update that lowers windows \u2014 described as Tesla's largest-ever recall in China.",
+      "tickers": [
+        "TSLA"
+      ],
+      "source_item_ids": [
+        "x:2090754743475818498",
+        "x:2090744711489397108"
+      ]
+    },
+    {
+      "title": "AI sector at 'Aversion' phase; MU made higher-high but must hold above invalidation level",
+      "body": "One fintwit macro-cycle trader characterizes AI broadly as being at the 'Aversion' stage of the market cycle, with crypto approaching 'Anxiety.' On MU specifically, the same account notes the stock has bounced to form a higher-high but must prove itself above the invalidation level, with stop-loss under recent discouragement lows.",
       "tickers": [
         "MU"
       ],
       "source_item_ids": [
-        "x:2090534099203371476",
-        "x:2090534581053362463"
+        "x:2090755618831495398",
+        "x:2090756998728225163"
       ]
     },
     {
-      "title": "AVGO: Seeking $60B+ in debt for AI chip financing; Anthropic primary beneficiary",
-      "body": "Broadcom is in talks to raise more than $60 billion in debt\u2014potentially including a $30B junior tranche\u2014to fund AI chip deals, with Anthropic among key beneficiaries. Reports suggest total potential funding could reach $100B, highlighting the massive capital requirements of the AI buildout.",
+      "title": "AI capex projected as largest GDP boost in history; Bloomberg",
+      "body": "Bloomberg cited AI infrastructure investment as expected to deliver the largest capex-driven GDP contribution in economic history \u2014 broadly supportive of hyperscaler and semiconductor capex narratives.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2090760071890542729"
+      ]
+    },
+    {
+      "title": "Alibaba flagged as having structural edge in monetizing AI agents",
+      "body": "Commentary circulating that Alibaba has competitive first-mover or structural advantages in AI agent monetization, positioning it ahead of competitors in that emerging market segment.",
       "tickers": [
-        "AVGO"
+        "BABA"
       ],
       "source_item_ids": [
-        "x:2090532303118196943",
-        "x:2090576866713489471"
+        "x:2090765892023910565"
       ]
     },
     {
-      "title": "SNDK: Pricing and volume each ~50% of FY27 Q1 earnings growth per Tianfeng interview",
-      "body": "A Tianfeng Securities note summarizing an interview with SanDisk's IR indicated that pricing is a slightly larger contributor to FY27 Q1 earnings growth, with pricing and volume each estimated to account for roughly half of total earnings growth.",
-      "tickers": [
-        "SNDK"
-      ],
+      "title": "Samsung launches $80B shareholder return; SK Hynix Japan facility decision still pending",
+      "body": "Samsung announced an $80 billion shareholder return program, framed as a competitive response to SK Hynix's aggressive buyback. Separately, SK Hynix confirmed it has not yet made a decision on its Japan facility.",
+      "tickers": [],
       "source_item_ids": [
-        "x:2090592449978851486"
+        "x:2090759599120863341",
+        "x:2090743237183168586"
       ]
     },
     {
-      "title": "NVDA/MU/SNDK/LITE 'Elastic Expectations' report: stronger near-term AI infrastructure demand case",
-      "body": "A curated report published August 18, 2026 ('Elastic Expectations') presents a 'materially stronger near-term case for sustained AI infrastructure demand,' flagging NVDA, MU, SNDK, and LITE as key beneficiaries. The same account cautioned that majority of current GAI industry coverage is 'garbage' lacking unique analysis.",
-      "tickers": [
-        "NVDA",
-        "MU",
-        "SNDK",
-        "LITE"
-      ],
+      "title": "AI data center LPDDR5X demand creating supply constraints affecting consumer electronics pricing",
+      "body": "AI data centers are consuming LPDDR5X RAM supply, with downstream consequence flagged as potentially making PlayStation 6 handheld hardware less affordable \u2014 a signal of tightening memory supply across end markets.",
+      "tickers": [],
       "source_item_ids": [
-        "x:2090587836739097065",
-        "x:2090569528896065770"
+        "x:2090763347235143749"
       ]
     },
     {
-      "title": "Cloud hyperscaler Q2 combined revenue $106.3B, +43% YoY; EBITDA margins seen reaching ~50% by 2030",
-      "body": "AWS, Microsoft Intelligent Cloud, and Google Cloud combined Q2 revenue reached approximately $106.3B, up 43% YoY and 15% sequentially. Separately, analysts forecast hyperscaler EBITDA margins rising to roughly 50% by decade-end from ~30% today, a critical assumption underpinning AI capex models.",
+      "title": "Bitcoin surges to $78-79K, up $15K since Monday; BTC RSI at 84",
+      "body": "Bitcoin broke through $79,000, up $15K since Monday and +21% week-to-date. The Market Ear notes BTC RSI at 84 with shorts 'obliterated.' Hedgeye maintains Bitcoin as 'Bullish TRADE and TREND.' MicroStrategy's BTC position is reportedly back in the green.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2090765950337339897",
+        "x:2090751006292234359"
+      ]
+    },
+    {
+      "title": "Ackman Q2 portfolio: UBER 12.7%, MSFT 11.9%, AMZN 10.5% as top three holdings",
+      "body": "Bill Ackman's Q2 13F visualized: UBER represents 12.7% ($2.5B), MSFT 11.9% ($2.3B), and AMZN 10.5% ($2.0B) of his portfolio \u2014 flagging continued conviction in mega-cap tech and consumer internet.",
       "tickers": [
-        "AMZN",
+        "UBER",
         "MSFT",
-        "GOOGL"
+        "AMZN"
       ],
       "source_item_ids": [
-        "x:2090587843660070962",
-        "x:2090513632455004195"
+        "x:2090768198824067190"
       ]
     },
     {
-      "title": "Taiwan export orders +61.9% YoY to record $97.94B in July; US orders surged 88.9% YoY",
-      "body": "Taiwan's July export orders reached a fresh record of $97.94B, up 61.9% YoY and well ahead of the 52.7% forecast. US orders alone surged 88.9% YoY to $40.79B, the fastest growth on record, driven by IT/communications products\u2014a strong forward demand signal for chip and semiconductor supply chains.",
-      "tickers": [
-        "TSM",
-        "TSEM"
-      ],
-      "source_item_ids": [
-        "x:2090606646976467377"
-      ]
-    },
-    {
-      "title": "Japan chip-making equipment billings +35.4% YoY in July; South Korea DRAM export prices continue rising",
-      "body": "Japan chip-making equipment billings surged 35.4% YoY in July per SEAJ, signaling robust semiconductor capex. South Korea's preliminary DRAM export unit prices for August 1-20 also continued to rise, supporting the memory pricing narrative.",
-      "tickers": [
-        "MU",
-        "SNDK"
-      ],
-      "source_item_ids": [
-        "x:2090697891233103969",
-        "x:2090642131371294862"
-      ]
-    },
-    {
-      "title": "CHTR: Charter-Cox merger closes, creating world's largest cable operator with 70M+ locations",
-      "body": "Charter Communications completed its merger with Cox, combining to pass over 70 million locations under the Spectrum brand and becoming the world's largest cable operator.",
-      "tickers": [
-        "CHTR"
-      ],
-      "source_item_ids": [
-        "x:2090581913228435788"
-      ]
-    },
-    {
-      "title": "SPOT: Spotify adds $1.5B to share buyback program",
-      "body": "Spotify announced an additional $1.5 billion added to its share repurchase program, signaling management confidence in the stock's valuation.",
-      "tickers": [
-        "SPOT"
-      ],
-      "source_item_ids": [
-        "x:2090534044391874804"
-      ]
-    },
-    {
-      "title": "PLTR: Michael Burry re-enters bearish bet with March 2027 OTM puts at $100 strike",
-      "body": "Burry reportedly re-entered out-of-the-money put positions on Palantir with March 2027 expiration and strike prices in the low-to-mid $100 range, entering the trade as implied volatility declined.",
-      "tickers": [
-        "PLTR"
-      ],
-      "source_item_ids": [
-        "x:2090597500713681256"
-      ]
-    },
-    {
-      "title": "AMD: Low-volume pullback setting up higher low; technical trader expects move higher",
-      "body": "One active technical trader flagged AMD's 'low volume, choppy looking pullback that's starting to set up a Higher Low,' expecting a move higher as early as Friday into next week.",
-      "tickers": [
-        "AMD"
-      ],
-      "source_item_ids": [
-        "x:2090604085116629094"
-      ]
-    },
-    {
-      "title": "Macro: 30-year Treasury yield hits 5.25%; DXY below 200-day MA; Treasury buyback skepticism dominates",
-      "body": "The 30-year Treasury yield climbed 6bp to 5.25% even after Treasury Secretary Bessent announced expanded debt buybacks, with market observers noting yields rose back above pre-announcement levels. The U.S. Dollar Index fell below its 200-day moving average for the first time in 3+ months, and Charlie McElligott publicly mocked the 'cringingly executed' buyback announcement.",
+      "title": "Analyst optimism at 'Gekko-era' levels \u2014 dot-com bubble comparison raised",
+      "body": "Edwards/The Market Ear flag analyst optimism at levels only previously seen before the dot-com bubble and in post-recession recoveries, raising a contrarian sentiment warning even as earnings beats remain historically strong.",
       "tickers": [],
       "source_item_ids": [
-        "x:2090615912881627580",
-        "x:2090623620993146967"
+        "x:2090747454270345631"
       ]
     },
     {
-      "title": "Macro: Gold overtakes US Treasuries as top central bank reserve asset; foreign Treasury custody holdings 14-year low",
-      "body": "Gold now represents 26.3% of central bank reserves vs. Treasuries at 20.2%, the first time since 1996 gold has overtaken Treasuries. Foreign official Treasury holdings at the Fed fell to $2.6T, a 14-year low, while Japan has dumped $123B in Treasuries since February.",
+      "title": "Trump's 50% tariffs set to kick in after midnight; Iran sanctions may target Chinese banks",
+      "body": "Trump's 50% tariffs were set to take effect just after midnight, with immediate market implications pending. Separately, Washington is preparing tougher Iran economic isolation measures that could target major Chinese banks buying ~90% of Iran's oil exports, risking trade escalation with Beijing.",
       "tickers": [],
       "source_item_ids": [
-        "x:2090609899097170039",
-        "x:2090609613825822858"
+        "x:2090734611110535226",
+        "x:2090760708002590837"
       ]
     },
     {
-      "title": "Macro: Diesel crack spread surpasses $100 for first time in history; oil +5% weekly on Iran isolation campaign",
-      "body": "Diesel crack spread exceeded $100/bbl for the first time historically. Oil gained more than 5% on the week with Brent above $93 and WTI near $86-$88, driven by Trump administration's threatened 'greatest coordinated economic isolation campaign against Iran' and Iran's Central Bank Governor confirming oil exports have stopped.",
+      "title": "New York overtakes San Francisco as top US tech talent market for first time in 13 years",
+      "body": "A new CBRE report found New York's office market now hosts more tech workers than San Francisco \u2014 the first time in 13 years of CBRE analysis \u2014 with AI growth cited as the primary driver of the geographic shift.",
       "tickers": [],
       "source_item_ids": [
-        "x:2090610513273053409",
-        "x:2090593185110388795"
-      ]
-    },
-    {
-      "title": "Data center political headwinds: Texas halts 1,800 projects; Republican Senate candidate eyes moratorium",
-      "body": "Texas Governor Abbott's directive halted up to 1,800 data center projects pending new community guidelines. Separately, Republican US Senate candidate Mike Rogers endorsed a one-year moratorium on new data center construction. One observer compared the speed of the anti-datacenter sentiment shift to major macro events.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2090608008191430942",
-        "x:2090524448889745758"
-      ]
-    },
-    {
-      "title": "AI sector: Goldman Delta One notes frontier lab debate shifting; model economics improving rapidly",
-      "body": "Goldman Sachs Delta One desk noted the frontier AI lab debate has 'shifted towards whether growth can sustain elevated expectations' with 'model economics improving at a rapid pace.' Qwen 3.8 cited as demonstrating 'increasingly useful intelligence.' Separately, Goldman research estimated AI job substitution eliminated ~25K jobs/month over the past year while augmentation added back ~9K.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2090634235824504907",
-        "x:2090612600182853766"
+        "x:2090765173774487702"
       ]
     }
   ]

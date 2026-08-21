@@ -1,12 +1,12 @@
 {
-  "digest_type": "premarket",
-  "digest_dt": "2026-08-21T08:30:00-04:00",
-  "saved_at": "2026-08-21T13:15:34.120161+00:00",
+  "digest_type": "midday",
+  "digest_dt": "2026-08-21T12:00:00-04:00",
+  "saved_at": "2026-08-21T16:21:33.589340+00:00",
   "revisions": {
     "sales": {
       "metric": "sales",
       "metric_display": "Revenue",
-      "n_total_with_data": 122,
+      "n_total_with_data": 121,
       "by_pct_top": [
         {
           "ticker": "OKLO",
@@ -365,16 +365,6 @@
           "n_obs": 783
         },
         {
-          "ticker": "HUBS",
-          "forward_y_code": "27Y",
-          "metric": "sales",
-          "current_estimate": 4207.485,
-          "prior_estimate": 4290.452,
-          "pct_change": -1.9337589605943784,
-          "percentile": 0.6385696040868455,
-          "n_obs": 783
-        },
-        {
           "ticker": "PSKY",
           "forward_y_code": "27Y",
           "metric": "sales",
@@ -412,6 +402,16 @@
           "prior_estimate": 7499.774,
           "pct_change": -7.099133920568812,
           "percentile": 3.7037037037037033,
+          "n_obs": 783
+        },
+        {
+          "ticker": "CMCSA",
+          "forward_y_code": "27Y",
+          "metric": "sales",
+          "current_estimate": 118586.44,
+          "prior_estimate": 120048.0,
+          "pct_change": -1.217479674796751,
+          "percentile": 3.8314176245210727,
           "n_obs": 783
         }
       ]
