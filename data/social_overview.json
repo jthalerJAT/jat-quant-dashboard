@@ -1,221 +1,216 @@
 {
-  "digest_type": "eod",
-  "digest_dt": "2026-08-20T18:00:00-04:00",
-  "saved_at": "2026-08-20T22:29:51.927556+00:00",
+  "digest_type": "premarket",
+  "digest_dt": "2026-08-21T08:30:00-04:00",
+  "saved_at": "2026-08-21T13:15:34.115839+00:00",
   "bullets": [
     {
-      "title": "NVIDIA China Chip: Small-Batch Shipments of Export-Compliant AI Chip by Year-End",
-      "body": "NVIDIA is planning small-batch shipments of a new AI chip designed specifically for Chinese customers by end of 2026. The chip is a China-specific LPU variant that works alongside GPUs to accelerate processing, complies with US export controls, and has already attracted orders from several Chinese customers. Whether Beijing will permit orders remains unclear.",
+      "title": "NVDA: HSBC raises PT to $360, Poolside AI deal ($6B license + $1B investment), China LPU chip denied",
+      "body": "HSBC lifted its NVIDIA price target to $360 from $325. Separately, NVIDIA agreed to pay $6B to license AI models from coding startup Poolside and invest an additional $1B at a $12B valuation, while also absorbing most of Poolside's engineering team. NVIDIA simultaneously denied reports of a China-specific LPU product, stating 'NVIDIA has no China-specific LPU product in its roadmap and no LPU sales in China market currently.'",
       "tickers": [
         "NVDA"
       ],
       "source_item_ids": [
-        "x:2090485916078874748",
-        "x:2090485051091726812"
+        "x:2090588879741202510",
+        "x:2090529186922553833"
       ]
     },
     {
-      "title": "NVDA/ORCL Hyperscaler CDS Blowing Out to All-Time Wide Spreads",
-      "body": "Credit spreads on major hyperscalers are widening sharply, with ORCL and NVDA at all-time wide CDS levels and META approaching records. One fintwit account notes the 'post-July rip is over' as market structure stress signals emerge beyond just equity prices.",
-      "tickers": [
-        "NVDA",
-        "ORCL",
-        "META"
-      ],
-      "source_item_ids": [
-        "x:2090477521691177051"
-      ]
-    },
-    {
-      "title": "NVIDIA Vera Rubin Racks Now Live at OpenAI; CoreWeave Deal with HRT",
-      "body": "The first NVIDIA Vera Rubin racks are now powering OpenAI's training infrastructure. Separately, Hudson River Trading signed a multi-billion compute deal with CoreWeave to run AI research on NVIDIA Vera Rubin NVL72 and HGX B200 GPUs \u2014 HRT becomes one of the first Vera Rubin customers.",
+      "title": "NVDA: Gigabyte desktop PC with GB300 Grace Blackwell Ultra ships; NVIDIA China LPU report in conflict with company denial",
+      "body": "Gigabyte unveiled a desktop PC using NVIDIA's GB300 Grace Blackwell Ultra Desktop Superchip, marketed as a 'data-center-in-a-box' supporting 400 simultaneous user queries. Separately, a report claimed NVIDIA is developing an LPU-based inference chip for China with SMIC as monopoly foundry\u2014directly contradicted by NVIDIA's official denial.",
       "tickers": [
         "NVDA"
       ],
       "source_item_ids": [
-        "x:2090473127658570184",
-        "x:2090436379016560981"
+        "x:2090607349291692465",
+        "x:2090528857917112684"
       ]
     },
     {
-      "title": "NVDA Foundry Strategy: Likely to Reduce TSMC Dependency vs. Prior Cycle",
-      "body": "Informed semiconductor analyst notes NVIDIA shifted from ~70% internal production (Pico/Hopper era) to external sourcing for Rubin compute tiles, having previously flagged margin headwinds from external foundry reliance. Analyst questions whether NVIDIA will return to prior TSMC volume levels.",
+      "title": "MRVL: Oppenheimer lifts PT to $300; custom silicon thesis reaffirmed with $10B FY29 target",
+      "body": "Oppenheimer raised MRVL's price target to $300 from $250. A separate note maintained a Buy rating with a $290 PT based on 20x FY29E EPS of $14.50, citing strong hyperscaler positioning (Google, AWS, MSFT) and DSP ASP upside from shortages. The community is also watching Marvell's Celestia photonic fabric concept but views it as a 2027 story.",
       "tickers": [
-        "NVDA"
+        "MRVL"
       ],
       "source_item_ids": [
-        "x:2090465211522404701"
+        "x:2090637834843771080",
+        "x:2090591324303196624"
       ]
     },
     {
-      "title": "INTC Nova Lake-S Power Draw 2.4x Expected TDP; Foundry Margin Risk if IO-Tile-Only",
-      "body": "Intel's 28-core Nova Lake-S reportedly draws 296W PL1 vs. a 125W expected TDP \u2014 a 2.4x overshoot raising efficiency concerns. Separately, a well-sourced analyst warns Intel foundry margins would 'absolutely crater' if limited to IO tiles; the strategy requires in-house compute tiles to be viable.",
+      "title": "MRVL: $1.5B custom silicon business targeting >$10B FY29 revenue; stock 'left for dead' in 2025",
+      "body": "One fintwit account noted MRVL's custom silicon grew from ~$1.5B to a >$10B FY29 target after the stock missed the late-2025 optical rally, calling it 'one of more interesting setups over next few years.'",
       "tickers": [
-        "INTC"
+        "MRVL"
       ],
       "source_item_ids": [
-        "x:2090493897831292972",
-        "x:2090437179671728208"
+        "x:2090574267536883789"
       ]
     },
     {
-      "title": "TSMC Offloads 30-Year Fab Overcapacity Risk to Big Tech Customers",
-      "body": "Commentary from a credible analyst highlights that TSMC has effectively transferred the risk of fab overcapacity to major tech customers, who 'didn't fully appreciate the extent' of that risk transfer. TSMC expects its fab infrastructure to run for 30 years.",
-      "tickers": [
-        "TSM",
-        "INTC"
-      ],
-      "source_item_ids": [
-        "x:2090461810474295519"
-      ]
-    },
-    {
-      "title": "Optical Sector (AAOI, COHR): Severely Capacity-Constrained Despite Underperformance",
-      "body": "A fintwit analyst argues the optical sector is 'severely capacity-constrained' with 'exceptional demand visibility' \u2014 AAOI and Coherent combined are still struggling to meet customer demand. However, a separate analyst cautions against overestimating optical attach rates and warns manufacturing constraints will delay deployment timelines.",
-      "tickers": [
-        "AAOI",
-        "COHR"
-      ],
-      "source_item_ids": [
-        "x:2090490101260591481",
-        "x:2090451909828395080"
-      ]
-    },
-    {
-      "title": "FN: Rosenblatt Reiterates Buy/$750 PT; NOK Now 11% of Revenue",
-      "body": "Rosenblatt reiterated a Buy and $750 PT on Fabrinet post-earnings with the stock around $440 \u2014 implying ~70% upside. A separate note flags that Nokia now represents 11% of FN's entire revenue, an emerging concentration to watch.",
-      "tickers": [
-        "FN",
-        "NOK"
-      ],
-      "source_item_ids": [
-        "x:2090474245373780204",
-        "x:2090410267691847983"
-      ]
-    },
-    {
-      "title": "MU: $250B+ US Investment Announced; $10B Research Labs; Employee Stock Speculation",
-      "body": "Micron announced it will invest more than $250B in US advanced memory manufacturing and R&D over the coming years, expected to create 90K+ jobs. The company also unveiled a new Micron Gigaresearch Lab with $10B dedicated to memory and compute breakthroughs. The scale of the investment sparked fintwit speculation on employee equity monetization.",
+      "title": "MU: $50B Boise expansion, $10B Research Labs launch; stock up 670% YoY amid AI memory race",
+      "body": "Micron CEO announced a $10B Micron Research Labs investment in Boise with a multi-decade horizon. Total Boise commitment is ~$50B, including two new fabs expected to create 17,000+ jobs. Fintwit bullishly notes Micron's long-term investment durability as evidence of structural memory demand confidence; stock cited as up 670% over the past year.",
       "tickers": [
         "MU"
       ],
       "source_item_ids": [
-        "x:2090409732049883501",
-        "x:2090417988415697208"
+        "x:2090534099203371476",
+        "x:2090534581053362463"
       ]
     },
     {
-      "title": "BABA AI Revenue Approaching $10B Annualized; In-House Chips to Lift Margins",
-      "body": "Alibaba guided AI-product annualized revenue to approach $10B next quarter from a current ~$7.3B run rate (~37% sequential growth). The company also expects 'substantially higher' gross margins and profitability as its own AI chips replace purchased chips in data centers, with AI investment payback shortening toward 2.5 years.",
+      "title": "AVGO: Seeking $60B+ in debt for AI chip financing; Anthropic primary beneficiary",
+      "body": "Broadcom is in talks to raise more than $60 billion in debt\u2014potentially including a $30B junior tranche\u2014to fund AI chip deals, with Anthropic among key beneficiaries. Reports suggest total potential funding could reach $100B, highlighting the massive capital requirements of the AI buildout.",
       "tickers": [
-        "BABA"
+        "AVGO"
       ],
       "source_item_ids": [
-        "x:2090415471019409903",
-        "x:2090417894450680303"
+        "x:2090532303118196943",
+        "x:2090576866713489471"
       ]
     },
     {
-      "title": "META Quietly Becomes One of MSFT's Largest AI Customers",
-      "body": "Bloomberg reports Meta has quietly become one of Microsoft's largest AI customers. Meta is also heading to trial over allegations it designed Facebook and Instagram to addict young users while concealing child safety risks.",
+      "title": "SNDK: Pricing and volume each ~50% of FY27 Q1 earnings growth per Tianfeng interview",
+      "body": "A Tianfeng Securities note summarizing an interview with SanDisk's IR indicated that pricing is a slightly larger contributor to FY27 Q1 earnings growth, with pricing and volume each estimated to account for roughly half of total earnings growth.",
       "tickers": [
-        "META",
-        "MSFT"
+        "SNDK"
       ],
       "source_item_ids": [
-        "x:2090442982331936956",
-        "x:2090417816809939173"
+        "x:2090592449978851486"
       ]
     },
     {
-      "title": "SMCI: Independent Probe Finds No Evidence of Sanctioned-Party Sales; Shares +1.6% Premarket",
-      "body": "Supermicro completed an independent investigation and found no proof that current senior management was aware of any alleged diversion scheme, and no direct sales to banned parties were identified. Terminated employees were cited for rule violations. Shares rose 1.6% in premarket on the news; the board also approved export compliance improvements.",
+      "title": "NVDA/MU/SNDK/LITE 'Elastic Expectations' report: stronger near-term AI infrastructure demand case",
+      "body": "A curated report published August 18, 2026 ('Elastic Expectations') presents a 'materially stronger near-term case for sustained AI infrastructure demand,' flagging NVDA, MU, SNDK, and LITE as key beneficiaries. The same account cautioned that majority of current GAI industry coverage is 'garbage' lacking unique analysis.",
       "tickers": [
-        "SMCI"
+        "NVDA",
+        "MU",
+        "SNDK",
+        "LITE"
       ],
       "source_item_ids": [
-        "x:2090430105231454420",
-        "x:2090430130086899861"
+        "x:2090587836739097065",
+        "x:2090569528896065770"
       ]
     },
     {
-      "title": "NET: 30%+ Growth But Supply Chain Analysis Flags Warning Sign",
-      "body": "Two posts flag Cloudflare growing 30%+ annually but warn that custom supply chain mapping across NET, Akamai, Fastly, hyperscalers, and neoclouds reveals a warning sign \u2014 competitive power and profits may not be accruing to Cloudflare as investors expect.",
+      "title": "Cloud hyperscaler Q2 combined revenue $106.3B, +43% YoY; EBITDA margins seen reaching ~50% by 2030",
+      "body": "AWS, Microsoft Intelligent Cloud, and Google Cloud combined Q2 revenue reached approximately $106.3B, up 43% YoY and 15% sequentially. Separately, analysts forecast hyperscaler EBITDA margins rising to roughly 50% by decade-end from ~30% today, a critical assumption underpinning AI capex models.",
       "tickers": [
-        "NET"
-      ],
-      "source_item_ids": [
-        "x:2090438704783589767",
-        "x:2090422944510181876"
-      ]
-    },
-    {
-      "title": "GOOGL/Waymo: 1.4M Monthly Rides in California, 10x Growth; Custom 5nm ASIC Chip Revealed",
-      "body": "Waymo is now executing over 1.4 million monthly rides in California, a 10x increase over two years. The company also revealed for the first time a purpose-built 5nm ASIC chip for robotaxi ML inference as part of broader custom component development.",
-      "tickers": [
+        "AMZN",
+        "MSFT",
         "GOOGL"
       ],
       "source_item_ids": [
-        "x:2090451785752162596",
-        "x:2090454982835286298"
+        "x:2090587843660070962",
+        "x:2090513632455004195"
       ]
     },
     {
-      "title": "TSLA Robotaxi: 170 Unsupervised Austin Rides Completed Over Two Weeks",
-      "body": "All 170 Tesla Robotaxi rides in Austin over the past two weeks were unsupervised, per monitoring by Robo Report. Separate fintwit commentary on FSD competitive dynamics notes advanced AI will eventually lower barriers to FSD creation, eroding current competitive advantages.",
+      "title": "Taiwan export orders +61.9% YoY to record $97.94B in July; US orders surged 88.9% YoY",
+      "body": "Taiwan's July export orders reached a fresh record of $97.94B, up 61.9% YoY and well ahead of the 52.7% forecast. US orders alone surged 88.9% YoY to $40.79B, the fastest growth on record, driven by IT/communications products\u2014a strong forward demand signal for chip and semiconductor supply chains.",
       "tickers": [
-        "TSLA"
+        "TSM",
+        "TSEM"
       ],
       "source_item_ids": [
-        "x:2090454561970643011"
+        "x:2090606646976467377"
       ]
     },
     {
-      "title": "MDB: Unusual ~$2M OTM Call Purchase Flags Upside Speculation",
-      "body": "Traders flagged approximately $2M in far out-of-the-money call options on MongoDB, suggesting positioning for a significant upside move ahead.",
+      "title": "Japan chip-making equipment billings +35.4% YoY in July; South Korea DRAM export prices continue rising",
+      "body": "Japan chip-making equipment billings surged 35.4% YoY in July per SEAJ, signaling robust semiconductor capex. South Korea's preliminary DRAM export unit prices for August 1-20 also continued to rise, supporting the memory pricing narrative.",
       "tickers": [
-        "MDB"
+        "MU",
+        "SNDK"
       ],
       "source_item_ids": [
-        "x:2090454470400303157"
+        "x:2090697891233103969",
+        "x:2090642131371294862"
       ]
     },
     {
-      "title": "Bessent Treasury Intervention: Buyback Gains Erased; JPM/$GS Critical",
-      "body": "US 30-year Treasury yields erased all gains from Bessent's buyback announcement, with the 30Y yield rising 6bp to 5.25% and 10Y breaking above 4.70%. JPMorgan warned the market would view Treasury as 'lacking credibility,' Goldman characterized the move as a 'band-aid on a bullet hole' driven by fiscal fears not technical factors, and Nomura said losing the long-end is 'unacceptable.' Bessent signaled buybacks could exceed the announced $4B.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2090463901653639218",
-        "x:2090424891354775714"
-      ]
-    },
-    {
-      "title": "SPY: Millions in OTM Puts at the Open for Third Consecutive Day; $3.1B Put Wall at 765",
-      "body": "For the third consecutive day, traders accumulated millions in out-of-the-money SPY puts at the market open. A $3.1B put wall sits at the 765 strike, suggesting significant downside hedging activity building in the market.",
+      "title": "CHTR: Charter-Cox merger closes, creating world's largest cable operator with 70M+ locations",
+      "body": "Charter Communications completed its merger with Cox, combining to pass over 70 million locations under the Spectrum brand and becoming the world's largest cable operator.",
       "tickers": [
-        "SPY"
+        "CHTR"
       ],
       "source_item_ids": [
-        "x:2090441328626651261",
-        "x:2090439218921160942"
+        "x:2090581913228435788"
       ]
     },
     {
-      "title": "US Debt Hits $40T; Bessent Signals Deficit Has Peaked; JPM Forecasts $3.5T Funding Gap",
-      "body": "US national debt crossed $40 trillion for the first time, with the last $1T added in 152 days and daily deficit spending at $6.58B. Bessent stated there is a 'very good chance' the fiscal deficit has peaked and argued the US can 'grow our way' out of debt. JPMorgan countered by forecasting a $3.5T+ funding gap in coming fiscal years requiring more duration supply, not less.",
-      "tickers": [],
+      "title": "SPOT: Spotify adds $1.5B to share buyback program",
+      "body": "Spotify announced an additional $1.5 billion added to its share repurchase program, signaling management confidence in the stock's valuation.",
+      "tickers": [
+        "SPOT"
+      ],
       "source_item_ids": [
-        "x:2090498509464306047",
-        "x:2090461643603898436"
+        "x:2090534044391874804"
       ]
     },
     {
-      "title": "Philly Fed Smashes Estimates at 47.4; Jobless Claims Beat at 206K; Leading Index +0.2%",
-      "body": "August Philadelphia Fed Manufacturing Index came in at 47.4 vs. a 24.8 estimate and 41.4 prior \u2014 the largest monthly jump in the survey's 56-year history. Initial jobless claims declined to 206K vs. 210K expected, and the Conference Board Leading Economic Index rose 0.2% vs. 0.1% estimate. Prices paid eased to 40.9 from 53.9.",
+      "title": "PLTR: Michael Burry re-enters bearish bet with March 2027 OTM puts at $100 strike",
+      "body": "Burry reportedly re-entered out-of-the-money put positions on Palantir with March 2027 expiration and strike prices in the low-to-mid $100 range, entering the trade as implied volatility declined.",
+      "tickers": [
+        "PLTR"
+      ],
+      "source_item_ids": [
+        "x:2090597500713681256"
+      ]
+    },
+    {
+      "title": "AMD: Low-volume pullback setting up higher low; technical trader expects move higher",
+      "body": "One active technical trader flagged AMD's 'low volume, choppy looking pullback that's starting to set up a Higher Low,' expecting a move higher as early as Friday into next week.",
+      "tickers": [
+        "AMD"
+      ],
+      "source_item_ids": [
+        "x:2090604085116629094"
+      ]
+    },
+    {
+      "title": "Macro: 30-year Treasury yield hits 5.25%; DXY below 200-day MA; Treasury buyback skepticism dominates",
+      "body": "The 30-year Treasury yield climbed 6bp to 5.25% even after Treasury Secretary Bessent announced expanded debt buybacks, with market observers noting yields rose back above pre-announcement levels. The U.S. Dollar Index fell below its 200-day moving average for the first time in 3+ months, and Charlie McElligott publicly mocked the 'cringingly executed' buyback announcement.",
       "tickers": [],
       "source_item_ids": [
-        "x:2090419215605944517",
-        "x:2090419025335525428"
+        "x:2090615912881627580",
+        "x:2090623620993146967"
+      ]
+    },
+    {
+      "title": "Macro: Gold overtakes US Treasuries as top central bank reserve asset; foreign Treasury custody holdings 14-year low",
+      "body": "Gold now represents 26.3% of central bank reserves vs. Treasuries at 20.2%, the first time since 1996 gold has overtaken Treasuries. Foreign official Treasury holdings at the Fed fell to $2.6T, a 14-year low, while Japan has dumped $123B in Treasuries since February.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2090609899097170039",
+        "x:2090609613825822858"
+      ]
+    },
+    {
+      "title": "Macro: Diesel crack spread surpasses $100 for first time in history; oil +5% weekly on Iran isolation campaign",
+      "body": "Diesel crack spread exceeded $100/bbl for the first time historically. Oil gained more than 5% on the week with Brent above $93 and WTI near $86-$88, driven by Trump administration's threatened 'greatest coordinated economic isolation campaign against Iran' and Iran's Central Bank Governor confirming oil exports have stopped.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2090610513273053409",
+        "x:2090593185110388795"
+      ]
+    },
+    {
+      "title": "Data center political headwinds: Texas halts 1,800 projects; Republican Senate candidate eyes moratorium",
+      "body": "Texas Governor Abbott's directive halted up to 1,800 data center projects pending new community guidelines. Separately, Republican US Senate candidate Mike Rogers endorsed a one-year moratorium on new data center construction. One observer compared the speed of the anti-datacenter sentiment shift to major macro events.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2090608008191430942",
+        "x:2090524448889745758"
+      ]
+    },
+    {
+      "title": "AI sector: Goldman Delta One notes frontier lab debate shifting; model economics improving rapidly",
+      "body": "Goldman Sachs Delta One desk noted the frontier AI lab debate has 'shifted towards whether growth can sustain elevated expectations' with 'model economics improving at a rapid pace.' Qwen 3.8 cited as demonstrating 'increasingly useful intelligence.' Separately, Goldman research estimated AI job substitution eliminated ~25K jobs/month over the past year while augmentation added back ~9K.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2090634235824504907",
+        "x:2090612600182853766"
       ]
     }
   ]
