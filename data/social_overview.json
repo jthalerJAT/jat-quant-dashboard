@@ -1,221 +1,237 @@
 {
-  "digest_type": "eod",
-  "digest_dt": "2026-08-24T18:00:00-04:00",
-  "saved_at": "2026-08-24T22:33:07.809242+00:00",
+  "digest_type": "premarket",
+  "digest_dt": "2026-08-25T08:30:00-04:00",
+  "saved_at": "2026-08-25T13:12:48.744309+00:00",
   "bullets": [
     {
-      "title": "NVDA pre-earnings: 7 down days, Vera Rubin 30x efficiency leap, SpaceX partnership",
-      "body": "NVDA is set for a 7th consecutive down day ahead of Wednesday earnings, with Goldman's One-Delta desk flagging it as 'top of mind.' On the positive side, NVIDIA's Vera Rubin delivers on-silicon benchmarks of 30x throughput/MW and 35x lower token cost vs. GB300 for agentic AI, and Elon Musk announced SpaceX AI will deploy Vera Rubin NVL72 and scale Grok on the platform, with significant scale expected in 2028. Groq 3 LPX enters full production at 3,400 tokens/sec (4x nearest competitor), with Nebius first to adopt. Separately, tens of millions in NVDA call options were sold today, and markets are not pricing in significant risk into this week's print.",
+      "title": "NVDA 7-Day Losing Streak Ahead of Earnings; HBM Content Downgrade Flagged",
+      "body": "NVDA fell for a 7th consecutive day\u2014longest losing streak since 2022\u2014ahead of Wednesday earnings that traders view as the key AI demand catalyst. Separately, SemiAnalysis issued a 'massive content downgrade alert': Rubin Ultra will ship with only 192GB HBM4 8-hi, well below the original 1TB preview and even below the standard Rubin's 288GB, raising questions about HBM demand trajectory. CDS on both NVDA and AVGO widened to new all-time highs daily.",
       "tickers": [
         "NVDA",
-        "NBIS"
+        "AVGO"
       ],
       "source_item_ids": [
-        "x:2091911490185859081",
-        "x:2091904062077694153"
+        "x:2091994110911557679",
+        "x:2091980532292665672"
       ]
     },
     {
-      "title": "NVDA price hikes incoming as memory costs soar; hyperscalers to bear cost",
-      "body": "Nvidia is informing hyperscalers of incoming price hikes as memory costs surge significantly. One analyst noted the most obvious implication is that early Blackwell/Rubin buyers (before Jan 31, 2027) benefit from locking in prices before GPU inflation, though it's unclear whether GPU inflation outpaces rack infrastructure price growth. Amazon separately flagged 60% price increases on memory products.",
-      "tickers": [
-        "NVDA",
-        "AMZN"
-      ],
-      "source_item_ids": [
-        "x:2091938616142385553",
-        "x:2091908818766614557"
-      ]
-    },
-    {
-      "title": "NVDA commits $6B to open-source AI; Lancium strategic investment at 15+ GW",
-      "body": "Nvidia is reportedly committing $6B to open-source initiatives as Jensen Huang pursues a full-stack strategy. Separately, NVIDIA made a strategic investment in Lancium and will deploy its full-stack AI factory platform targeting a 15+ GW portfolio. Hugging Face acquisition speculation (AWS or SpaceXAI) also circulating.",
+      "title": "NVDA Vera CPU Benchmarks at Hot Chips Criticized as 'Chart Murders'",
+      "body": "Multiple conference attendees called NVDA's Hot Chips Vera CPU presentation misleading, describing the SPECrate benchmark comparisons as 'chart murders' using selectively presented metrics. SpaceXAI confirmed it will deploy Vera CPUs for agentic AI workloads, Grok inference, and Starmind AI satellite systems; separately, NVDA's Groq 3 LPX rack entered full production delivering 3,400 tokens/sec (4x Cerebras) and will deploy at Nebius later this year.",
       "tickers": [
         "NVDA"
       ],
       "source_item_ids": [
-        "x:2091919889606869480",
-        "x:2091923459857355078"
+        "x:2091948809916186679",
+        "x:2092088555145466305"
       ]
     },
     {
-      "title": "MU and SNDK: bulls hold but bear sentiment picks up ahead of cycle peak debate",
-      "body": "A self-described AI memory/storage bull says MU and SNDK remain their largest delta-dollar positions and that both companies should be buying back stock at current levels; Hot Chips memory presentations viewed positively. However, bearish accounts are highlighting downward momentum with emoji flags, and one trader challenges whether MU and SNDK are at a cycle peak.",
+      "title": "SK Hynix Delays Hybrid Bonding to HBM5 (2029-30); Intel's EMIB Wins HBM Packaging Business",
+      "body": "SK Hynix confirmed hybrid bonding will not arrive for HBM4E, pushed to HBM5 at earliest in 2029-2030, capping HBM stack heights at 775 microns. Simultaneously, SK Hynix adopted Intel's EMIB advanced packaging for next-gen HBM\u2014a win for INTC driven by continued TSMC CoWoS capacity constraints. MU warned at Hot Chips that AI compute triples every two years while HBM bandwidth grows less than 2x, widening the memory wall; HBM failures also cited in ~17% of Meta Llama 3 training interruptions.",
       "tickers": [
+        "INTC",
+        "TSM",
         "MU",
-        "SNDK"
+        "NVDA"
       ],
       "source_item_ids": [
-        "x:2091882648398434463",
-        "x:2091897966080434663"
+        "x:2092088128106271016",
+        "x:2092055699379646727"
       ]
     },
     {
-      "title": "WDC in bear market: -21% last week, -43% from June peak",
-      "body": "Western Digital is down 21% over the last week and making new lows in a bear market that began mid-June, with a 43% drawdown from peak. Despite the sharp decline, WDC remains up 53% over the last six months.",
+      "title": "AMD Crosses 30% x86 PC CPU Market Share for First Time; Server CPU at 46.4%",
+      "body": "AMD broke above 30% of the x86 PC CPU market for the first time, with server CPU share reaching 46.4% vs Intel's 53.6%\u2014Intel's lowest share since 1995. At Hot Chips, AMD's Helios double-wide rack architecture and shared memory fabric drew attention for future optical interconnect roadmap potential.",
       "tickers": [
-        "WDC"
-      ],
-      "source_item_ids": [
-        "x:2091889658380607537"
-      ]
-    },
-    {
-      "title": "Pelosi buys up to $12M in BE (Bloom Energy) and $1.5M in INTC",
-      "body": "Nancy Pelosi disclosed up to $13.5M in new stock trades: up to $12M in Bloom Energy (BE) shares and call options (expiring 06/17/2027), and up to $1.5M in Intel (INTC) with LEAP calls. Traders tie the BE position to AI data center behind-the-meter power demand, noting bipartisan political support for energy-efficient data center infrastructure.",
-      "tickers": [
-        "BE",
+        "AMD",
         "INTC"
       ],
       "source_item_ids": [
-        "x:2091888439214141545",
-        "x:2091889263210029475"
+        "x:2092021778671665469",
+        "x:2091965872269390003"
       ]
     },
     {
-      "title": "ARM AGI CPU targets $2B demand in 2027-28; dual chiplets, 136 Neoverse V3 cores",
-      "body": "ARM dissected its AGI CPU architecture at Hot Chips, featuring dual chiplets with over 100 billion transistors and 136 Neoverse V3 cores. The chip is expected to drive $2B in demand by 2027-2028, positioning ARM in the agentic AI silicon race alongside NVIDIA Vera.",
+      "title": "META Plans 'Hatch' AI Agent Platform Launch in Coming Weeks; October 'Watermelon' Model Next",
+      "body": "META is preparing to launch 'Hatch,' a consumer AI agent platform (the consumer version of its internal OpenClaw agent) in the coming weeks, with its next AI model 'Watermelon' targeted for October. The move signals META's push into the rapidly expanding AI agent market.",
       "tickers": [
-        "ARM"
+        "META"
       ],
       "source_item_ids": [
-        "x:2091908389274063135"
+        "x:2092023494582165773",
+        "x:2092019728843972986"
       ]
     },
     {
-      "title": "Semis -3.7% on the day; sector rotation into equal-weight, defensive names",
-      "body": "The semiconductor sector fell 3.7% on the session while the S&P 500 Equal Weight gained 0.2%, software fell 1%, and QQQs dropped 1.5%. One account notes repeated early-morning QQQ sell-offs that are 'like clockwork,' and highlights capital rotating from AI-heavy names into beaten-down names like TGT (up 35% since early July). NVDA is the 7th down day.",
+      "title": "BABA's HK$80B Share Sale Pressures Asian Equities; AI/Semiconductor Selloff Spreads Regionally",
+      "body": "Alibaba's HK$80B share sale weighed on Hong Kong and mainland Chinese equities, while a broader AI and semiconductor selloff spread across Asia\u2014South Korea equities particularly weak given chip exposure. Taiwan and Korea benchmark indices reversed intraday losses to close fractionally positive (+0.5% and +0.3% respectively), while the Nikkei fell 0.8% dragged by electronics.",
       "tickers": [
-        "NVDA"
+        "BABA"
       ],
       "source_item_ids": [
-        "x:2091890023805190503",
-        "x:2091892865102238100"
+        "x:2092048695755944037",
+        "x:2092011983423918493"
       ]
     },
     {
-      "title": "Trump announces 50% tariffs on Canadian autos, steel, parts effective Jan 1, 2027",
-      "body": "Trump posted on Truth Social announcing 50% tariffs on all Canadian cars, trucks, automotive parts, and steel effective January 1, 2027, with zero tariffs for goods built in the U.S. Canada PM Carney called the threat 'not a surprise' and said a mutually beneficial deal is still possible. Ontario Premier Doug Ford called for retaliatory cuts to U.S. electricity and critical minerals exports. VP Vance confirmed ongoing negotiations but said Ottawa made unreasonable last-minute demands.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2091883294254350800",
-        "x:2091889869417025675"
-      ]
-    },
-    {
-      "title": "US eyes 7.5% tariff on Chinese goods ahead of Sept 24 Trump-Xi meeting",
-      "body": "The U.S. is considering a new 7.5% tariff on Chinese goods, which would raise total Trump second-term China tariffs to ~20%. The move is driven by excess manufacturing capacity concerns and is timed ahead of the September 24 Trump-Xi summit. White House characterized non-White House tariff news as speculation.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2091913539099275608",
-        "x:2091937077516796364"
-      ]
-    },
-    {
-      "title": "Bessent unveils 'Operation Economic Outcast': sweeping Iran sanctions, major bank to be sanctioned this week",
-      "body": "Treasury Secretary Bessent announced a 'zero-leakage' approach to Iran sanctions, targeting five sectors for secondary sanctions: digital assets, technology, gold, aviation, and shipping. Nearly 60 Iran-linked entities were sanctioned. Bessent warned every country faces defined timelines to sever Iran banking ties, and signaled a major financial institution will be sanctioned by week's end. Countries aiding Iran face exclusion from the dollar system.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2091940881792123145",
-        "x:2091937834282176684"
-      ]
-    },
-    {
-      "title": "Treasury may tap $935B TGA for bond buybacks; gold rallies to 3-month high",
-      "body": "Reports suggest Treasury could deploy its ~$935B cash reserve (TGA) to fund bond buybacks rather than issue new debt, with the next buyback operation scheduled for September 9. Gold jumped to a 3-month high and the yield curve flattened on the news. Citadel Securities warned the plan risks dollar weakness and inflation. Japan's 10-year yield hit a 28-year high above 2.95%.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2091879110775652722",
-        "x:2091859094797685089"
-      ]
-    },
-    {
-      "title": "AAOI avoided LTAs to preserve capacity flexibility, required larger ATM offerings",
-      "body": "Commentary notes AAOI deliberately avoided long-term customer agreements (LTAs) to maintain capacity flexibility for other customers. Without LTA prepayment financing, the company needed to execute larger at-the-market equity offerings instead.",
+      "title": "Taiwan Indicts 9 People Including NVDA and SMCI Employees for Alleged Illegal Chip Exports",
+      "body": "Taiwan prosecutors indicted nine people, including employees of Nvidia and Super Micro, on charges related to illegal technology exports. No further financial details disclosed in available items.",
       "tickers": [
-        "AAOI"
+        "NVDA",
+        "SMCI"
       ],
       "source_item_ids": [
-        "x:2091935022005776661"
+        "x:2092067821366968613"
       ]
     },
     {
-      "title": "IREN: trader issues short IREN / long MSTR pair trade for rest of 2026",
-      "body": "One fintwit trader put out a paired trade idea: short IREN, long MSTR for the remainder of 2026, citing IREN is unlikely to catch bids near current levels despite reasonable valuation. CIFR also flagged as trading ~20% below its 200-day moving average with poor chart structure.",
+      "title": "TSLA Raises Cybertruck Prices 6-7% to Improve Margins at ~15K Unit Volumes",
+      "body": "Tesla raised Cybertruck Standard and Premium AWD prices 6-7% (Dual Motor to $74,990; Premium AWD to $84,990) as low volumes (~15K units) make per-vehicle profitability 'nearly impossible.' Price increases are interpreted as margin-rescue moves given insufficient fixed-cost absorption at current sales pace. Tesla Semi factory inauguration in Nevada is planned for next month.",
+      "tickers": [
+        "TSLA"
+      ],
+      "source_item_ids": [
+        "x:2092150813372063913",
+        "x:2092112751200219351"
+      ]
+    },
+    {
+      "title": "IREN Short Interest Surges to 32% at $40; Trade Idea: Short IREN, Long MSTR",
+      "body": "IREN short interest jumped to 32% with the stock trading around $40. At least one fintwit trader is actively recommending a paired trade: short IREN, long MSTR for the rest of 2026.",
       "tickers": [
         "IREN"
       ],
       "source_item_ids": [
-        "x:2091921077802774674",
-        "x:2091926257298440398"
+        "x:2091993955965551040",
+        "x:2091960809945489442"
       ]
     },
     {
-      "title": "AI capex projected at $765B in 2026, surpassing oil & gas for first time",
-      "body": "AI capex is forecast to reach $765B in 2026, passing oil and gas spending for the first time. Hyperscalers have lined up $2.6T in future capex commitments. Cumulative AI capex is projected near $3T by year-end, driving record debt issuance. A compute futures contract has also been launched.",
+      "title": "Amazon Pinning Hardware Price Hikes Up to 60% on Memory Cost Surge; 'Project Tetromino' Robotics Warehouse",
+      "body": "Amazon is implementing hardware price hikes of up to 60% attributed to memory cost surge, though industry consensus at Hot Chips expects the memory pricing cycle to change soon. Separately, Amazon is developing 'Project Tetromino,' a next-generation fully automated delivery warehouse using AI and robotics for complex last-stop package processing previously resistant to automation.",
       "tickers": [
-        "AAPL",
-        "MSFT",
-        "GOOGL",
         "AMZN",
-        "META"
+        "MU"
       ],
       "source_item_ids": [
-        "x:2091930810098364595",
-        "x:2091867369446477933"
+        "x:2091963445549715540",
+        "x:2091971104453886186"
       ]
     },
     {
-      "title": "US crude inventory at 50-year low; distillates at lowest since 1996",
-      "body": "US crude oil inventory fell to 41 days of supply, the lowest in 50 years, with the SPR at 289.7M barrels (lowest since 1982) after a 3.7M barrel weekly draw. US distillate inventories hit their lowest level since 1996. Oil shipping through the Strait of Hormuz costs ~$20M per supertanker or ~$10/barrel, per TotalEnergies CEO.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2091931226936598697",
-        "x:2091931851992551718"
-      ]
-    },
-    {
-      "title": "META sees $2M+ in far OTM call buying; short-term tech call sellers also active",
-      "body": "Someone purchased $2M+ of far out-of-the-money META calls, signaling bullish speculative positioning. Separately, millions in short-term tech calls were sold across the sector, and no bullish SPX orders above $500K notional were observed in one recent hour.",
+      "title": "AAOI: TIA Supply Constraints Limiting 800G/1.6T Shipments; SMTC Reports Strong TIA Demand",
+      "body": "AAOI flagged that TIAs and DSPs are limiting 800G/1.6T optical shipments, while SMTC reported TIA demand is 'exceptionally strong.' Author excited about SMTC prospects into 2027 ahead of SMTC's earnings. Ayar Labs removed both LITE and MTSI from its supply chain website, now listing only Sivers for laser suppliers\u2014a potential negative read-through for those names.",
       "tickers": [
-        "META",
+        "AAOI",
+        "MTSI",
+        "LITE"
+      ],
+      "source_item_ids": [
+        "x:2092064803791770082",
+        "x:2091967826764632087"
+      ]
+    },
+    {
+      "title": "NBIS Closes $5.75B Convertible Senior Notes Offering",
+      "body": "Nebius Group closed a private offering of convertible senior notes with aggregate gross proceeds of approximately $5.75 billion, a significant capital raise for the AI infrastructure company.",
+      "tickers": [
+        "NBIS"
+      ],
+      "source_item_ids": [
+        "x:2091980709489484158"
+      ]
+    },
+    {
+      "title": "APP, ABNB, OMC Hit 52-Week Milestones; SPY Closes Below 20-Day MA for First Time Since July",
+      "body": "AppLovin (APP) hit a new 52-week low during Monday's session; ABNB and OMC hit new 52-week highs. SPY closed below its 20-day moving average for the first time since July, signaling potential downside momentum; NASDAQ ended down 0.71% and S&P 500 down 0.25%.",
+      "tickers": [
+        "APP",
+        "ABNB",
+        "OMC",
         "SPY"
       ],
       "source_item_ids": [
-        "x:2091913330298438023",
-        "x:2091882582052900996"
+        "x:2091971760639836258",
+        "x:2091986278854111554"
       ]
     },
     {
-      "title": "Google TPU shipments forecast to surpass NVIDIA by 2028",
-      "body": "Analyst Jeff Pu expects Google TPU shipments to exceed NVIDIA's by 2028, implying a potential market share shift in AI accelerator silicon over the next two years.",
+      "title": "INTC Unveils Crescent Island GPUs for Agentic AI; Fund Discloses Long at $18 on Security/Nationalization Thesis",
+      "body": "Intel unveiled Crescent Island GPUs with up to 32 Xe3P cores optimized for agentic AI, featuring low-cost LPDDR5X memory and up to 480GB capacity. Separately, a fund disclosed it went long INTC at $18 on a semiconductor security/nationalization thesis, characterized as not unreasonable versus neocloud-timed bets.",
       "tickers": [
-        "NVDA"
+        "INTC"
       ],
       "source_item_ids": [
-        "x:2091896616353677773"
+        "x:2091987431696605582",
+        "x:2092041023576825995"
       ]
     },
     {
-      "title": "Netflix, Peacock, Fox One distribution talks surfaced; media streaming consolidation signal",
-      "body": "Executives discussed making Peacock (CMCSA) and Fox One (FOXA) available through the Netflix app, per NYT reporting. No deal announced but the conversations signal continued streaming distribution consolidation pressure.",
+      "title": "AMZN's Project Tetromino; INTU Reports After Close Tuesday",
+      "body": "Intuit (INTU) reports earnings after the close Tuesday, per fintwit calendar tracking. Amazon separately advancing 'Project Tetromino' robotic warehouse design for tasks previously resistant to automation.",
       "tickers": [
-        "NFLX",
-        "FOXA",
-        "CMCSA"
+        "INTU",
+        "AMZN"
       ],
       "source_item_ids": [
-        "x:2091885810899697702"
+        "x:2092001628035379486"
       ]
     },
     {
-      "title": "SMR: Nano Nuclear Energy signs commercial data center nuclear power framework",
-      "body": "Nano Nuclear Energy (SMR) signed a commercial framework agreement with Tillman to enable nuclear power supply for data centers, representing a commercialization step for small modular reactor technology targeting the AI infrastructure power demand wave.",
+      "title": "NVDA CDS at All-Time Highs Daily; AI Physical Bottleneck Thesis Gaining Traction",
+      "body": "NVDA and AVGO credit default swaps have been reaching new all-time wide levels daily. One widely-followed account argues the AI bottleneck 'remains physical'\u2014chip manufacturing capacity, advanced packaging, and fab investment are the limiting factor, not algorithms, which structurally supports semiconductor pricing power and capex intensity.",
       "tickers": [
-        "SMR"
+        "NVDA",
+        "AVGO",
+        "TSEM",
+        "AMD"
       ],
       "source_item_ids": [
-        "x:2091880982492200986"
+        "x:2092053833660662255",
+        "x:2091968819606482961"
+      ]
+    },
+    {
+      "title": "Germany Q2 GDP Beats at +1% YoY; IFO Confidence 88.8 vs 87.2 Est\u2014Euro Macro Better-Than-Expected",
+      "body": "Germany's Q2 GDP (SA QoQ) came in at +0.3% vs +0.2% estimate, and +1.0% YoY vs 0.9% expected. August IFO business confidence beat at 88.8 vs 87.2 consensus. Germany's 10-year yield hit its highest level in 15+ years, a notable macro headwind for global equity risk appetite.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2092130327640916063",
+        "x:2092160309515694290"
+      ]
+    },
+    {
+      "title": "Fed Rate Hike Odds Surge to 75% by Year-End; Druckenmiller Criticizes Bessent Bond Buyback Strategy",
+      "body": "Market-implied odds of a rate hike by year-end rose to 75%. Stanley Druckenmiller\u2014Bessent's former mentor\u2014publicly criticized Treasury's bond buyback program as a 'mistake,' arguing markets are functioning normally and don't require intervention. Treasury's TGA reserves can buy time but not fiscal credibility, per separate commentary.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2092029515497181690",
+        "x:2092023686148817227"
+      ]
+    },
+    {
+      "title": "ARM AGI CPU Details Emerging; Multiple Competitive Arm Server Chips at Hot Chips 26",
+      "body": "Detailed specifications of ARM's AGI CPU were disclosed at Hot Chips 26, where observers noted at least three (possibly four) distinct competitive Arm-based enterprise server chip offerings emerging\u2014a signal of intensifying competition in the Arm server market.",
+      "tickers": [
+        "ARM"
+      ],
+      "source_item_ids": [
+        "x:2091968083472912847",
+        "x:2092155440088199382"
+      ]
+    },
+    {
+      "title": "BE Up 12% on Pelosi Disclosure; INTU Earnings Catalyst Tomorrow; DIS Executive Retirement Packages",
+      "body": "Bloom Energy (BE) surged 12% after Nancy Pelosi disclosed a purchase of up to $12M in shares. Disney (DIS) is offering voluntary early retirement packages to executives as a cost-management measure. MTSI flagged by one research service as an emerging 'high-flyer' in data centers and space.",
+      "tickers": [
+        "BE",
+        "DIS",
+        "MTSI"
+      ],
+      "source_item_ids": [
+        "x:2091951608116474048",
+        "x:2091991439643472112"
       ]
     }
   ]
