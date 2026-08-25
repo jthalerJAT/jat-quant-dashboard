@@ -1,222 +1,230 @@
 {
-  "digest_type": "midday",
-  "digest_dt": "2026-08-25T12:00:00-04:00",
-  "saved_at": "2026-08-25T16:23:13.773849+00:00",
+  "digest_type": "eod",
+  "digest_dt": "2026-08-25T18:00:00-04:00",
+  "saved_at": "2026-08-25T22:30:30.363109+00:00",
   "bullets": [
     {
-      "title": "NVDA: Raymond James raises PT to $352; Groq ramps; OpenAI Jalapeno chip threat; credit risk flagged",
-      "body": "Raymond James raised NVDA to $352 from $330 (Strong Buy), citing CPU acceleration to potentially 5% of revenue by 2028. NVIDIA's Groq 3 (acquired $20B Dec-2025) is in full production with Samsung Foundry ramping ~10k wafers/month. MS TMT raises concern on ~$200B all-in credit exposure by CY28 via lease backstops and revenue-sharing models, rating NVDA credit Neutral. Separately, SemiAnalysis reports OpenAI's Jalapeno inference chip outperforms NVDA on top open-source models, pressuring the stock off highs. Hedgeye notes NVDA broke Trade level at $218/Trend at $208 with risk range $192-$230 and takes no position ahead of earnings.",
+      "title": "NVDA: Beat-and-raise expected Wednesday; bullish options flow dominant; OpenAI Jalape\u00f1o chip a new threat",
+      "body": "JPM and UBS both raising NVDA estimates into FQ2:27 earnings (Q beats at $94-95B, guide $107-108B vs buyside); NVDA at decade-low multiples, 75% GMs expected to hold, positioning score max-long. Headwind: OpenAI's Jalape\u00f1o ASIC reportedly beats Blackwell on perf/watt and TCO per Reuters/Reuters analysts, though Nvidia's supply chain LTAs and balance sheet cited as durable moat. NVDA options flow most bullish/active this week; SPY only pricing a 1/4pt move for the print vs 1/2pt for Jackson Hole.",
       "tickers": [
         "NVDA"
       ],
       "source_item_ids": [
-        "gmail:1a038fd0140b7283",
-        "gmail:1a03950347bba53b"
+        "gmail:1a03ab8077c122ea",
+        "x:2092252135639376020"
       ]
     },
     {
-      "title": "AMD: Raymond James upgrades to Strong Buy, raises PT to $641 on server CPU growth",
-      "body": "Raymond James upgraded AMD from Outperform to Strong Buy and raised its price target to $641 from $565. The firm expects the server CPU market to reach $201B by 2030 at a 44% five-year CAGR. Morgan Stanley separately notes AMD's agentic AI CPU ramp in 2027 will foreshadow NVIDIA's CoWoS packaging demand surge.",
-      "tickers": [
-        "AMD"
-      ],
-      "source_item_ids": [
-        "x:2092000000736067921",
-        "x:2092181731478536363"
-      ]
-    },
-    {
-      "title": "MRVL: Street expects Q2 beat; consensus $2.72B rev, $0.93 EPS; DC growth FY forecast raised to 50%",
-      "body": "Marvell reports F2Q27 on 8/27; consensus expects $2.72B revenue, 58.8% gross margin, and $0.93 EPS, all in-line with guidance. The Google partnership is viewed as positive but raises concentration questions; DC growth FY forecast was raised to 50% with interconnect accelerating 70%+ Y/Y on 800G/1.6T products. Options imply ~10.5% move. Rosenblatt upgraded MRVL to Buy in pre-market.",
-      "tickers": [
-        "MRVL"
-      ],
-      "source_item_ids": [
-        "gmail:1a0393120d08c8e3",
-        "gmail:1a039691086aeab"
-      ]
-    },
-    {
-      "title": "META: Hatch AI agent platform launching imminently at up to $199.99/month; Watermelon model in October",
-      "body": "META is rolling out 'Hatch,' an agentic AI platform, in late August/early September at up to $199.99/month with higher usage limits and task automation. A 'Watermelon' model is targeted for October. Citi and Morgan Stanley both flag this as a meaningful monetization catalyst; WhatsApp AI-agent platform also in development.",
-      "tickers": [
-        "META"
-      ],
-      "source_item_ids": [
-        "gmail:1a039168470138b1",
-        "gmail:1a038f519f6aae43"
-      ]
-    },
-    {
-      "title": "GOOGL: MS raises TPU pricing to ~$27B/GW, targets $84B/$108B cloud revenue in 2027/2028",
-      "body": "Morgan Stanley raised GOOGL TPU 1P sale estimates to ~$27B per GW (from $20B) at 30% gross margin (from 20%), modeling $84B and $108B in TPU-related Cloud revenue for 2027 and 2028, up ~35% vs prior. Cloud is expected to reach ~50% of total EBIT by 2028, with Brian Nowak targeting $18-$20 EPS in 2028. GOOGL is currently trading at 17x 2026 EPS, valuations down 36% vs TTM average.",
-      "tickers": [
-        "GOOGL"
-      ],
-      "source_item_ids": [
-        "gmail:1a0395ab198dbb07",
-        "gmail:1a0391f5632e493a"
-      ]
-    },
-    {
-      "title": "AVGO: Bearish trend flagged; one of 3 stocks driving 25% of SPY's recent down day",
-      "body": "Hedgeye's Keith McCullough notes AVGO is showing bearish Trade/Trend signals and was one of only three stocks accounting for 25% of yesterday's SPY decline alongside NVDA and MU. JPM's Harlan Sur maintains AVGO as a top pick on custom ASIC momentum but flags elevated credit risk from mega AI debt financing backstops (5-year CDS up 28bps).",
-      "tickers": [
-        "AVGO"
-      ],
-      "source_item_ids": [
-        "x:2092179413831917818",
-        "gmail:1a038fd0140b7283"
-      ]
-    },
-    {
-      "title": "SNOW: Citi raises PT to $395 from $320 on strong partner checks and AI Build momentum",
-      "body": "Citi raised Snowflake's PT to $395 from $320, expecting a Q2 revenue beat of 4%+ with a 2-3pt FY27 raise and acceleration to high-30%s guidance by Q3. CoCo momentum and the AI Build model are cited as ~7pts of FY27 growth contribution.",
-      "tickers": [
-        "SNOW"
-      ],
-      "source_item_ids": [
-        "gmail:1a039168470138b1"
-      ]
-    },
-    {
-      "title": "CIEN: MS FQ3 preview \u2014 backlog reaccelerating >$600M; NVDA fiber build an incremental driver",
-      "body": "Morgan Stanley maintains CIEN Equal-Weight at $490 PT. FQ3 backlog is expected to reaccelerate above $600M driven by multi-year AI optical cycle demand; LITE pump-laser shipments up >80% Y/Y support durable demand. NVIDIA's 8,000+ mile long-haul fiber build is a real incremental opportunity but sized at potentially <$1B total contribution. Supply constraints remain the near-term governor.",
-      "tickers": [
-        "CIEN",
-        "NVDA",
-        "LITE"
-      ],
-      "source_item_ids": [
-        "gmail:1a038e68bdb1da98"
-      ]
-    },
-    {
-      "title": "AAPL: Tim Cook exits as CEO within one week; M6 (2nm) and M5 Ultra chips launched",
-      "body": "Apple has launched the M6, its first 2-nanometer chip with 12-core CPU/GPU and up to 170GB/s unified memory bandwidth, and the M5 Ultra with a quad-die UltraFusion architecture offering up to 80-core GPU and 1.2TB/s bandwidth (50% more than M3 Ultra). Separately, Tim Cook has less than one week remaining as CEO.",
-      "tickers": [
-        "AAPL"
-      ],
-      "source_item_ids": [
-        "gmail:1a03904cb91e7877",
-        "x:2092202596467454063"
-      ]
-    },
-    {
-      "title": "TSLA: Cybertruck prices hiked $5K amid demand concerns",
-      "body": "Tesla raised U.S. Cybertruck prices by $5,000, with the dual-motor AWD model moving to $74,990 and the full AWD to $84,990. The price increase coincides with ongoing demand concerns and recent recalls.",
-      "tickers": [
-        "TSLA"
-      ],
-      "source_item_ids": [
-        "x:2092208714241474871"
-      ]
-    },
-    {
-      "title": "CRWD: DA Davidson bullish ahead of Fal.Con; trades at 79x FCF vs 39x for growth peers",
-      "body": "DA Davidson reports strong channel checks showing CRWD continuing to dominate alongside PANW as platform consolidation remains intact. Shares have outperformed IGV by 76% and CIBR by 41% YTD. However, valuation at ~79x FCF vs 20-30%+ growth peers at ~39x creates a challenging near-term setup. Analyst attending Fal.Con user event 9/1-9/2 and expects more typical ARR upside in Q2.",
-      "tickers": [
-        "NET"
-      ],
-      "source_item_ids": [
-        "gmail:1a0395ac7a06754a"
-      ]
-    },
-    {
-      "title": "MRVL, NVDA, AVGO, MU: WFE forecasts raised to $223B in 2027, $254B in 2028 by MS",
-      "body": "Morgan Stanley raised wafer fabrication equipment (WFE) forecasts to $223B for 2027 (+37% YoY) and $254B for 2028 (+14%), driven by DRAM bit supply growth of 38% in 2027 vs 24% in 2025 and HBM capacity expansion. This is a positive read-through for semiconductor capital equipment and memory players.",
-      "tickers": [
-        "NVDA",
-        "MRVL",
-        "AVGO",
-        "MU"
-      ],
-      "source_item_ids": [
-        "gmail:1a0395ab198dbb07"
-      ]
-    },
-    {
-      "title": "ACN: UBS maintains Buy; McCoy acquisition expands Edge into midmarket SAP; 2027 M&A upside",
-      "body": "Accenture is acquiring McCoy, a Dutch SAP consultancy with ~380 professionals, as its 9th Q4 2026 deal (33 YTD vs 13 in Q4 2025). UBS notes Accenture raised FY26 M&A spending to ~$9B from an initial $3B guide, with 150bps inorganic revenue contribution held flat\u2014implying 2027 upside. UBS maintains Buy with $275 PT.",
-      "tickers": [
-        "ACN"
-      ],
-      "source_item_ids": [
-        "gmail:1a038f24bd8e6568"
-      ]
-    },
-    {
-      "title": "AMZN: $530M Project Tetromino spend on AI warehouse automation targeting 2.5x efficiency",
-      "body": "Amazon plans to spend $530M through 2029 on Project Tetromino, deploying AI-driven warehouse automation expected to deliver 2.5x efficiency gains. JPM flags AWS remains compute-constrained through 2026 despite a $220B capex budget, with contracted backlog at $496B on 5-year terms.",
-      "tickers": [
-        "AMZN"
-      ],
-      "source_item_ids": [
-        "gmail:1a0390ce351c198c",
-        "gmail:1a038fd0140b7283"
-      ]
-    },
-    {
-      "title": "WMT: Hedgeye shifts to Short after 20%+ stock decline since May peak despite Q2 upside",
-      "body": "Hedgeye, which had WMT as a Best Idea Long entering 2026, shifted to Short a quarter ago. Despite Q2 upside and raised guidance on sales/EBIT/EPS, shares fell the most in 4+ years and are now down 20%+ from the May peak. Concerns center on whether AI investment delays promised margin gains, tariff rebate impacts on 2026-2027 projections, and valuation vs. the Supercenter rollout era.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a03983bf4c640d9"
-      ]
-    },
-    {
-      "title": "NFLX: Ad exec Jon Whitticom departing; ad-supported tier still >60% of new subscribers",
-      "body": "Citi flags Netflix advertising executive Jon Whitticom is departing. Despite the leadership change, advertising remains a high-margin incremental revenue stream, contributing more than 60% of new subscribers in ad-supported markets.",
-      "tickers": [
-        "NFLX"
-      ],
-      "source_item_ids": [
-        "gmail:1a039168470138b1"
-      ]
-    },
-    {
-      "title": "RH: Web traffic decelerates sharply to +low-20s in August MTD from +low-40s in July",
-      "body": "Citi's retail web traffic tracker shows RH decelerating materially to the low-20% range in August MTD from the low-40% range in July, the most notable deceleration in the tracked cohort. Overall US retail web traffic averaged +26.6% in August Week 3, slightly below Week 2's +29.8%.",
-      "tickers": [
-        "RH"
-      ],
-      "source_item_ids": [
-        "gmail:1a0391f5632e493a"
-      ]
-    },
-    {
-      "title": "INTU: Citi cautions F4Q expectations look elevated; investor poll at 10.9% FY27 growth",
-      "body": "Citi warns that Intuit's FY27 revenue growth expectations\u2014at 10.9% y/y per investor poll, in-line with consensus\u2014may still be elevated heading into the print. The analyst is cautious that guidance could reset lower.",
+      "title": "INTU: -8.6% after-hours on FY27 guide reset well below consensus",
+      "body": "INTU beat Q4 EPS ($4.03 vs $3.58) and revenue ($4.35B vs $4.27B) but FY27 revenue guided $23.3-23.5B vs consensus $23.7B; TurboTax guided $5.38-5.45B vs $5.49B consensus; Q1 operating income guide slashed to $902-915M from $1.47B prior. Key new wrinkle: SBC no longer excluded from non-GAAP starting Aug 1, adding $5.81/share headwind. Citi (Buy) and UBS both flag negative reaction warranted on the guide reset.",
       "tickers": [
         "INTU"
       ],
       "source_item_ids": [
-        "gmail:1a039168470138b1"
+        "gmail:1a03aaf0532419ce",
+        "gmail:1a03a8872bc0c4a0"
       ]
     },
     {
-      "title": "DKNG: JPM organizing G2E investor meetings Sept 28-29 with CFO Alan Ellingson presenting",
-      "body": "JPMorgan is hosting management meetings at the G2E Las Vegas conference on September 28-29, with DraftKings CFO Alan Ellingson and finance team presenting on September 29 at 2:00 PM PT. DraftKings has a market cap of $13.3B.",
+      "title": "MRVL: Assumed Buy at Rosenblatt (PT $300 from $240); custom AI ASIC story seen doubling to $4B by F28",
+      "body": "Rosenblatt raises PT to $300 from $240 on buy initiation; JPM sees MRVL custom AI ASIC business more than doubling to $4B by F28 with GOOGL partnership implying ~$20B p.a. run-rate. MRVL options imply 8.8% move with positioning score 1 (light), creating asymmetric setup vs AVGO/NVDA in teens on F28 EPS. Raymond James lists MRVL as top semi pick alongside NVDA, COHR.",
+      "tickers": [
+        "MRVL",
+        "AVGO"
+      ],
+      "source_item_ids": [
+        "gmail:1a03ab8077c122ea",
+        "gmail:1a03a965a635f844"
+      ]
+    },
+    {
+      "title": "AMD: Upgraded to Strong Buy at Raymond James (PT $641 from $565); agentic AI CPU thesis",
+      "body": "Raymond James raises AMD to strong buy from outperform, lifting PT to $641 from $565, citing agentic AI as a new CPU growth engine. Separately, INTC x86 share fell below 70% in Q2 2026, with AMD reaching record market share gains driven by AI infrastructure. $3M+ in unusual bullish options prints also detected in AMD today.",
+      "tickers": [
+        "AMD",
+        "INTC"
+      ],
+      "source_item_ids": [
+        "gmail:1a03a965a635f844",
+        "x:2092272900342476890"
+      ]
+    },
+    {
+      "title": "SMCI: +3.5% AH on Q2 earnings beat; record revenue and strong data center ramp",
+      "body": "SMCI reported record Q2 revenue with gross margin 54.5% vs 53.9% estimate; Q3 guidance $405-415M revenue at 58.3% GM, up meaningfully from Q2. Module business divestiture expected to provide GM tailwind into FY28. UBS flagged as the standout beat in the Tue earnings batch.",
+      "tickers": [
+        "SMCI"
+      ],
+      "source_item_ids": [
+        "gmail:1a03ab1505fd5ef4",
+        "gmail:1a03aeeeca851877"
+      ]
+    },
+    {
+      "title": "PSKY/WBD: M&A speculation lifts PSKY +3.1%; structural remedies in AG suit being discussed",
+      "body": "PSKY rose 3.1% after Bloomberg reported parties considering buying Comedy Central from Paramount; bankers approaching buyers for New Line Cinema and WBD cable networks separately. Paramount execs signaling first-ever openness to structural remedies in the AG lawsuit to keep the WBD transaction on track. Ellison (Paramount+) reportedly needs HBO content to be competitive.",
+      "tickers": [
+        "PSKY",
+        "WBD"
+      ],
+      "source_item_ids": [
+        "gmail:1a03a9af08e5349c",
+        "x:2092267419163144225"
+      ]
+    },
+    {
+      "title": "AAPL: Surprise Mac Mini (M6, 2nm) and Mac Studio (M5 Ultra) launch; Evercore raises PT to $365",
+      "body": "Apple unveiled M6 chip on 2nm process in Mac Mini ($899+) and M5 Ultra Mac Studio ($2,499+) \u2014 first 2nm Apple silicon. Evercore ISI reiterates Outperform, raises PT to $365. AAPL traded -0.1% on the day despite launches; stock reaction muted.",
+      "tickers": [
+        "AAPL"
+      ],
+      "source_item_ids": [
+        "x:2092236880234557623",
+        "x:2092263244723302447"
+      ]
+    },
+    {
+      "title": "OKLO/NNE/SMR/BE: Nuclear and energy tech surge; hyperscaler leased power demand +346% YoY",
+      "body": "OKLO +11.5%, BE +6.6%, NNE +5.3%, SMR +8.4% on AI-driven power demand tailwind. SMR announced nuclear-specific AI tools deployment. Jefferies data: non-commenced hyperscaler power leases hit 25.5GW in Q2 (+32% q/q, +346% y/y); ~47% of future hyperscaler capacity planned as leased. China data centers expected to quadruple electricity use by decade end.",
+      "tickers": [
+        "OKLO",
+        "NNE",
+        "SMR",
+        "BE"
+      ],
+      "source_item_ids": [
+        "gmail:1a03aa313155162f",
+        "gmail:1a03aacaca1b3563"
+      ]
+    },
+    {
+      "title": "DLR: +2% on Singapore 50MW expansion; data center CRE volume +78% YoY to $74.4B",
+      "body": "DLR secured 50MW at Jurong Island via Singapore EDB/IMDA deal; July CRE transaction volume jumped 78% YoY to $74.4B with data centers comprising $33.8B (45% of total). Data Center REITs +1.84% on the day, YTD +33.75%.",
+      "tickers": [
+        "DLR",
+        "EQIX"
+      ],
+      "source_item_ids": [
+        "gmail:1a03aacaca1b3563"
+      ]
+    },
+    {
+      "title": "HOOD: +8.2% as online brokers outperform; AFRM/fintech sector +13% QTD",
+      "body": "HOOD surged 8.2%, leading investment bank/broker group as online brokers outperformed on the day. Goldman Sachs Q2 fintech/payments takeaway: group up 13% QTD median; investors hunting names with stronger top-line trends amid decelerating consumer spending.",
+      "tickers": [
+        "HOOD",
+        "AFRM"
+      ],
+      "source_item_ids": [
+        "gmail:1a03a94c3210ddcd",
+        "gmail:1a039c34ea149511"
+      ]
+    },
+    {
+      "title": "GOOGL: Waymo testing in Munich; Gemini Enterprise launched for Legal/Financial Services",
+      "body": "Waymo (GOOGL subsidiary) to begin autonomous vehicle testing in Munich in coming weeks, expanding international footprint. Google Cloud unveiled Gemini Enterprise AI tools for legal and financial services with partnerships including Weil, Moody's, MSCI, and Relativity. GOOGL down 0.3% on the day.",
+      "tickers": [
+        "GOOGL"
+      ],
+      "source_item_ids": [
+        "x:2092293764559593724",
+        "x:2092222175675613686"
+      ]
+    },
+    {
+      "title": "META: +2.0%; consumer OpenClaw AI agent 'Hatch' weeks away; Watermelon model by October",
+      "body": "META gained 2.0% on AI product pipeline news: consumer version of OpenClaw AI agent internally dubbed 'Hatch' expected in coming weeks; Watermelon AI model targeting October launch. Meta's compute optionality highlighted by SemiAnalysis as undervalued at ~$1.5T market cap.",
+      "tickers": [
+        "META"
+      ],
+      "source_item_ids": [
+        "gmail:1a03a8c764582c5d",
+        "gmail:1a039f22722e9c34"
+      ]
+    },
+    {
+      "title": "CRM: Q2 earnings Wednesday; consensus $11.33B revenue, $3.27 EPS; options imply 7.7% move",
+      "body": "CRM reports Q2 after close Wednesday with consensus expecting $11.33B revenue and $3.27 EPS vs guidance of $11.27-11.35B and $3.25-3.27. Stock +16.6% since May; beat consensus 16 of last 20 revenue quarters and 19 of 20 EPS quarters. Last 4 quarter moves: -1%, +4%, +4%, -5%.",
+      "tickers": [
+        "CRM"
+      ],
+      "source_item_ids": [
+        "gmail:1a039b1304825f92"
+      ]
+    },
+    {
+      "title": "AVGO: Hot Chips die shot consistent with training ASIC architecture; V0 design highly optimized",
+      "body": "Broadcom's Hot Chips 2026 presentation showed V0 die shot consistent with a training architecture, described as 'highly optimized to Broadcom's models' by analyst who discussed with the team on-site. Key data point ahead of AVGO preview noted by UBS as financing focus.",
+      "tickers": [
+        "AVGO"
+      ],
+      "source_item_ids": [
+        "x:2092285772548452664",
+        "gmail:1a03ae354fda6803"
+      ]
+    },
+    {
+      "title": "MU/SNDK: Memory to represent 68% of CSP capex next year per TrendForce",
+      "body": "TrendForce forecasts memory will account for 68% of cloud service provider capex next year. SemiAnalysis notes Nvidia, SK Hynix, and Micron positioned to raise prices as capacity remains constrained. SNDK -0.8% on the day underperformed semis.",
+      "tickers": [
+        "MU",
+        "SNDK"
+      ],
+      "source_item_ids": [
+        "x:2092252723811086430",
+        "gmail:1a039f22722e9c34"
+      ]
+    },
+    {
+      "title": "NFLX/ROKU: Stratechery explores Netflix potentially selling streaming services as aggregator",
+      "body": "Stratechery raised the question of Netflix evolving to sell third-party streaming services, exploring a streamers-as-aggregators model. No directional analyst call attached; flagged as structural theme worth monitoring.",
+      "tickers": [
+        "NFLX",
+        "ROKU"
+      ],
+      "source_item_ids": [
+        "x:2092225658386579753"
+      ]
+    },
+    {
+      "title": "T/VZ: Starlink tracking 1.7M net adds in 3Q vs 2.3M consensus; limited cable threat",
+      "body": "KeyBanc Starlink tracker: app downloads +30% YoY but ARPU declining ~16% to $121 and churn abnormally high (56% at T+12). 3Q US net adds tracking ~500K; limited competitive threat to broadband providers. AT&T (OW, $36 PT) and T-Mobile (OW, $250 PT) remain KeyBanc favorites.",
+      "tickers": [
+        "T",
+        "VZ"
+      ],
+      "source_item_ids": [
+        "gmail:1a03a87fcbc5894c"
+      ]
+    },
+    {
+      "title": "AMZN: Raising AI device prices due to chip supply constraints; shifting customers to rental models",
+      "body": "Amazon is increasing AI device prices due to chip supply constraints, with the shortage driving a shift toward rental models instead of outright purchases. Major cloud/AI players also reportedly raising equity capital for infrastructure as AI capex requirements exceed self-funding capacity.",
+      "tickers": [
+        "AMZN"
+      ],
+      "source_item_ids": [
+        "x:2092222521903022120"
+      ]
+    },
+    {
+      "title": "UBER: New parental livestream safety feature for teen rides",
+      "body": "Uber rolled out a feature enabling parents/guardians to view a live feed from the driver's selfie camera during teenager trips. Product feature news; no financial targets updated.",
+      "tickers": [
+        "UBER"
+      ],
+      "source_item_ids": [
+        "x:2092247575483072995"
+      ]
+    },
+    {
+      "title": "DKNG: 25% of Gen Z treat sports betting as deliberate part of long-term financial plan",
+      "body": "Bloomberg reports 25% of Gen Z incorporate sports betting into long-term financial planning per new data \u2014 a secular demand tailwind for DraftKings. No analyst action attached.",
       "tickers": [
         "DKNG"
       ],
       "source_item_ids": [
-        "gmail:1a03984a99e1c67b"
-      ]
-    },
-    {
-      "title": "Hyperscaler AI capex exceeds cash flow; $1.2T expected in 2027 vs ~$1T operating cash flow",
-      "body": "Morgan Stanley and JPM both flag that hyperscaler AI capex is projected to exceed $1.2T in 2027 vs approximately $1T in operating cash flow, with >$3.1T in disclosed off-balance-sheet commitments across hyperscalers, NVDA, and AVGO enabling third-party AI infrastructure financing. CSPs (AWS, GCP, MSFT) are described as compute-constrained through 2026 despite record capex budgets.",
-      "tickers": [
-        "NVDA",
-        "AVGO",
-        "AMZN",
-        "GOOGL",
-        "MSFT"
-      ],
-      "source_item_ids": [
-        "gmail:1a0395ab198dbb07",
-        "gmail:1a038fd0140b7283"
+        "x:2092239822266282364"
       ]
     }
   ]
