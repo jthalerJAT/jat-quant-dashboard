@@ -1,233 +1,199 @@
 {
-  "digest_type": "premarket",
-  "digest_dt": "2026-08-25T08:30:00-04:00",
-  "saved_at": "2026-08-25T13:12:48.740266+00:00",
+  "digest_type": "midday",
+  "digest_dt": "2026-08-25T12:00:00-04:00",
+  "saved_at": "2026-08-25T16:23:13.772336+00:00",
   "bullets": [
     {
-      "title": "Semis selloff continues into NVDA earnings; 7-day losing streak, tech lagging broader market",
-      "body": "NVDA extended its losing streak to 7 consecutive days (longest since 2022), alongside AVGO and MU accounting for ~25% of SPY's negative impact. The S&P closed down 0.25% and Nasdaq down 0.71% Monday, but 8 of 11 sectors rose and 61% of stocks were up on average +1.2%, with Financials +1.3% and Healthcare +7.5% MTD\u2014market is broadening even as mega-cap tech drags. NVDA implied move heading into Wednesday's earnings is at 8-quarter lows; options pricing ~5.3% move.",
+      "title": "Market rebounds: S&P +0.2%, NDX futures +0.7\u20131% as semis stabilize ahead of NVDA earnings",
+      "body": "U.S. equity futures extended gains to 0.7\u20131% on the Nasdaq 100 after tech suffered its largest de-grossing in two years. VIX sits at 15.69 with S&P at 7,670. The tape is broadening \u2014 8 of 11 sectors rose on Monday despite SPX closing lower, with healthcare (+7.5% in August) and financials leading. High-beta momentum strategies are down another 3.5% and posting lower highs on NDX.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a03950347bba53b",
+        "gmail:1a038f53ddb26f7d"
+      ]
+    },
+    {
+      "title": "Jackson Hole / Warsh speech and PCE on deck as key catalysts for rates direction",
+      "body": "Markets are watching Fed Chair Kevin Warsh's Jackson Hole address later this week and July PCE data Wednesday. July Fed communication provided little clarity; investors expect potential market-moving commentary on whether easing cycle is over. 2-year Treasury yield returned to bullish above 4.20%, suggesting CPI re-acceleration risks and potentially tighter-for-longer expectations.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2092182558108696848",
+        "gmail:1a038e636774b061"
+      ]
+    },
+    {
+      "title": "Bessent Treasury buyback plan: short-squeeze setup vs. Druckenmiller skepticism",
+      "body": "Treasury Secretary Bessent is expanding bond buybacks targeting the long end, with CTAs near multi-year short extremes in Treasurys \u2014 BofA expects buybacks to push the 30-year below 5% while JPM warns this is price management, not liquidity management. Druckenmiller publicly criticized the intervention, arguing rising borrowing costs reflect structural fiscal problems that buybacks cannot fix. 10-year yield is near 4.65\u20134.68%, 30-year hit 5.34%.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2092216849714868252",
+        "x:2092200465685459386"
+      ]
+    },
+    {
+      "title": "Oil down ~3%, yields dip 3\u20134 bps as Iran geopolitical risk moderates",
+      "body": "Brent and WTI fell over 3% to one-week lows after Pakistan-Iran diplomatic talks and signals that the U.S. is returning diplomats to Middle East embassies, easing conflict risk. The oil decline is putting downward pressure on long-end yields; Hedgeye flipped WTI to bearish on Trade/Trend. Lower oil is supportive of a disinflationary tape near term.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2092198034989883596",
+        "x:2092181549558993036"
+      ]
+    },
+    {
+      "title": "US sanctions 60+ Iran-linked entities ('Operation Economic Outcast') but spares major Chinese banks",
+      "body": "Bessent announced sanctions targeting over 60 entities tied to Iran's oil, nuclear, and missile programs. Major Chinese and international banks were excluded despite China buying >80% of Iranian oil, preserving optionality ahead of a potential Trump-Xi summit. Beijing warned of potential retaliation but tone is measured.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2092199418690744500",
+        "x:2092216698594083031"
+      ]
+    },
+    {
+      "title": "Hyperscaler AI capex accelerating past cash flow; >$3.1T in off-balance-sheet commitments flagged",
+      "body": "Morgan Stanley estimates hyperscaler AI capex will exceed $1.2T in 2027 vs ~$1T operating cash flow, funded via leases, debt, and equity. Combined NVDA + hyperscaler + AVGO off-balance-sheet commitments and guarantees exceed $3.1T through 2028. JPM separately flags risk premia across equities, credit, and rates are compressed, with equity multiples entirely dependent on the AI capex cycle continuing.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a0395ab198dbb07",
+        "gmail:1a038fd0140b7283"
+      ]
+    },
+    {
+      "title": "WFE estimates raised sharply: $223B in 2027 (+37%), $254B in 2028; DRAM bit supply +38% in 2027",
+      "body": "Morgan Stanley raised wafer fab equipment forecasts to $223B in 2027 and $254B in 2028, driven by HBM4, DRAM, and leading-edge foundry capex. Goldman Sachs raised 2026\u201328 WFE forecasts 6\u201313% to $150B/$218B/$281B. China semiconductor capex plans are up 79% with $82B projected spending by 2030 for self-sufficiency. DRAM bit supply growth expected at 38% in 2027 vs 24% in 2025.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a0395ab198dbb07",
+        "gmail:1a038f2d595ba965"
+      ]
+    },
+    {
+      "title": "OpenAI Jalapeno chip outperforms NVDA/AMD/GOOGL on inference benchmarks \u2014 market share risk for AI chip leaders",
+      "body": "SemiAnalysis reports OpenAI's proprietary Jalapeno inference chip outperforms NVIDIA, AMD, and Google chips on top open-source model benchmarks, with its general-purpose design delivering high performance across all inference scenarios. NVDA shares pulled back from highs on the report; implications for long-term custom ASIC competitive dynamics are significant.",
       "tickers": [
         "NVDA",
-        "MU",
-        "AVGO",
+        "GOOGL",
+        "AMD",
+        "AVGO"
+      ],
+      "source_item_ids": [
+        "gmail:1a0394bbc3770366"
+      ]
+    },
+    {
+      "title": "NVDA credit risk flagged: ~$200B all-in exposure by CY28 via lease backstops and revenue-sharing models",
+      "body": "Morgan Stanley initiated NVDA credit coverage at Neutral, estimating ~$200B all-in credit exposure by CY28 including $170B in adjustments and contingent obligations \u2014 the stock trades like BBB, not AA. JPM separately highlighted NVIDIA using $230B in lease backstops and residual guarantees to sustain demand, drawing comparisons to Lucent's vendor-financing collapse. NVDA Groq 3 LPX is in full production with Samsung ramping ~10K wafers/month.",
+      "tickers": [
+        "NVDA"
+      ],
+      "source_item_ids": [
+        "gmail:1a0395ab198dbb07",
+        "gmail:1a038fd0140b7283"
+      ]
+    },
+    {
+      "title": "META launches 'Hatch' AI agent platform at $199.99/month; 'Watermelon' model due October",
+      "body": "Multiple sources confirm META is rolling out Hatch, a consumer AI-agent platform, within weeks at up to $199.99/month with higher usage limits and task automation. META is also developing the Watermelon model targeting an October release, and a WhatsApp AI-agent platform. This is a significant monetization step for META's AI infrastructure investment.",
+      "tickers": [
+        "META"
+      ],
+      "source_item_ids": [
+        "gmail:1a0395ab198dbb07",
+        "gmail:1a039168470138b1"
+      ]
+    },
+    {
+      "title": "GOOGL TPU estimates raised sharply: $84B/$108B Cloud revenue in 2027/2028; Cloud to be ~50% of EBIT by 2028",
+      "body": "Morgan Stanley raised GOOGL TPU pricing to ~$27B per GW (from $20B) at 30% gross margin (from 20%), implying $84B/$108B in TPU-related Cloud revenue for 2027/2028 \u2014 35% above prior estimates. Brian Nowak targets $18\u201320 EPS in 2028 with Cloud reaching ~50% of total EBIT. Energy/utilities analyst team also raised TPU estimates with GOOGL expected to sell 0.3 GW TPU in 2H26, scaling to 4.2 GW by 2028.",
+      "tickers": [
+        "GOOGL"
+      ],
+      "source_item_ids": [
+        "gmail:1a0395ab198dbb07",
+        "gmail:1a0391f6e8c92140"
+      ]
+    },
+    {
+      "title": "August ISM tracking 56% on solid capex/manufacturing; Conference Board confidence dips to 89.4",
+      "body": "PSC Macro: August ISM tracking a healthy 56% headline with regional capex plans at cycle highs, though Richmond Fed ISM-equivalent came in at 53.7 vs 53.3 prior and manufacturing headcount fell into contraction. Conference Board headline confidence edged down to 89.4 in August; jobs differential improved sharply with 'plentiful jobs' rising to 27.0% from 24.4%. Consumer inflation expectations ticked back up to 5.8%.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a039921b0775401",
+        "gmail:1a0395949663ea45"
+      ]
+    },
+    {
+      "title": "New home sales fell 10.5% m/m in July to 607K; prices at cycle lows, down 15% from Oct 2022 peak",
+      "body": "Morgan Stanley data shows new home sales dropped 10.5% m/m in July to 607K vs MS estimate of 625K, with Midwest sales -43% m/m accounting for ~5ppt of the decline. New home prices fell 2.3% in July to a cycle low, down 15% from the October 2022 peak. Case-Shiller National Home Price Index rose 1.5% y/y in June and MS expects +2% y/y by year-end. 3Q real residential investment now tracked at -2.0% q/q saar but 3Q GDP tracking unchanged at 2.2%.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a0397772c6acf68",
+        "gmail:1a039921b0775401"
+      ]
+    },
+    {
+      "title": "ETF flows: Government Bond ETFs see largest inflows; U.S. Large Cap ETFs post largest outflows",
+      "body": "For the week ended 8/21/26, government bond ETFs recorded the largest inflows while U.S. large-cap equity ETFs posted the largest outflows after turning negative. Separately, Hedgeye added OIH and SLV to its model portfolio while selling SMDV and trimming QTUM and EPHE \u2014 consistent with a rotation away from tech/semis and into commodity-linked and dividend-focused assets.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2092198409788694588",
+        "gmail:1a039776dd41d3fe"
+      ]
+    },
+    {
+      "title": "Copper ETF (COPX) up 55% since October vs NVDA unchanged \u2014 materials outpacing AI narrative",
+      "body": "COPX is up 33% YTD vs NVDA +12% YTD, and up 55% since October vs NVDA flat. China's data center electricity usage is set to quadruple by 2030 (exceeding South Korea's current consumption), reinforcing materials and energy infrastructure as the overlooked beneficiary of the AI build-out cycle.",
+      "tickers": [
+        "NVDA"
+      ],
+      "source_item_ids": [
+        "x:2092214218124571130",
+        "x:2092187516397085131"
+      ]
+    },
+    {
+      "title": "S&P earnings breadth strong: 467 SPX companies report +50% aggregate y/y EPS growth",
+      "body": "With 467 S&P 500 companies having reported, aggregate y/y EPS growth stands at +50%. Market breadth is expanding with 61% of stocks higher despite recent index-level weakness driven by semiconductor concentration. SPX immediate-term risk range is 7,601\u20137,825 with all-time highs still in play per Hedgeye's TRR target of 7,825.",
+      "tickers": [
         "SPY"
       ],
       "source_item_ids": [
-        "gmail:1a038cb7e88599c4",
-        "gmail:1a03856906e25672"
+        "x:2092176232397873344",
+        "gmail:1a03950347bba53b"
       ]
     },
     {
-      "title": "NVDA earnings Wednesday: broad buy-side consensus for beat and raise; key debates on Rubin/HBM specs and credit risk",
-      "body": "Multiple banks expect NVDA to beat July quarter ($94-95B consensus, buyside whispers $3B+ above) and raise October guide ($107-108B), driven by GB300/Rubin momentum and extending lead times of ~1 year. Key risks flagged: NVDA financing $500B AI lending plan via RVS/PORTS-Pike (~$200B credit exposure by CY28), SemiAnalysis flagging a major HBM content downgrade (Rubin Ultra ships 192GB HBM4 8-hi vs 1TB original spec), and Broadcom/NVDA CDS hitting all-time highs daily. Oppenheimer PT $265 (outperform), Jefferies prefers MRVL over NVDA.",
-      "tickers": [
-        "NVDA",
-        "AVGO",
-        "MU",
-        "MRVL"
-      ],
-      "source_item_ids": [
-        "gmail:1a038d2679238192",
-        "gmail:1a0385cc6cd9488e"
-      ]
-    },
-    {
-      "title": "Fed hike odds rise to 75% by year-end; Warsh speech Friday, PCE revisions to lower core by ~30bps",
-      "body": "Market odds for a Fed rate hike by year-end have jumped to 75%. PCE benchmark revisions due in September are expected to lower Core PCE by ~30bps to ~2.7% vs. Fed's 3.3% projection, raising the hurdle for further tightening even if delayed. Fed Chair Warsh speaks Friday; JPM notes disappointment on NVDA or Warsh could trigger a 3-4% SPX pullback. Richmond Fed's Barkin also speaks Tuesday at 4pm ET.",
+      "title": "Japan debt costs hit record $230B next fiscal year; German business confidence improves but real activity -10% below pre-Covid trend",
+      "body": "Japan's Finance Ministry expects debt-servicing costs to surge 17% to \u00a536.6T ($230B) next fiscal year on rising yields, adding a global sovereign pressure vector. In Europe, German Ifo business climate rose +2.1ppt to 88.8 in August but real GDP remains 10% below pre-Covid trend despite nominal GDP hitting record highs; PSC models point to softer activity in 2027:H1 as fiscal stimulus lags.",
       "tickers": [],
       "source_item_ids": [
-        "x:2092029515497181690",
-        "gmail:1a03881503fb798c"
+        "x:2092199963346264479",
+        "gmail:1a0391cd0c9e0ca1"
       ]
     },
     {
-      "title": "Rates rotation pressuring semis/software; leadership shifting to Financials, Healthcare, Energy, Staples",
-      "body": "UBS and Piper both flag rates-assisted rotation from high-beta momentum names into value/quality sectors. The All-SaaS index has returned -2.2% YTD vs. S&P +12.9%; software stocks saw -1.5% to -2.5% premarket declines (CRM -2.1%, NOW -2.0%, HUBS -2.5%, TEAM -2.3%). Semiconductor/chip equipment sector broadly +2.5% to +5.7% premarket on Tuesday as sentiment improved heading into NVDA earnings.",
-      "tickers": [
-        "NVDA",
-        "INTU",
-        "AMZN",
-        "META",
-        "AAPL",
-        "MSFT",
-        "AVGO",
-        "MU"
-      ],
-      "source_item_ids": [
-        "gmail:1a038e16815db33c",
-        "gmail:1a037f48f49f7030"
-      ]
-    },
-    {
-      "title": "Iran-US de-escalation partially offsets geopolitical tail risks; oil falls ~2.3-3.5%, Hormuz remains risk",
-      "body": "Markets rallied overnight on reports of US-Iran de-escalation (Pakistan mediating; US offered to halt siege/lift sanctions in exchange for Hormuz access); S&P futures +0.4-0.5% and WTI fell to $82-85. However, Roth and ROTH warn unpriced tail risks remain (secondary sanctions, Iranian retaliation, China pushback). A tanker was struck off Oman's coast. US launched 'Operation Economic Outcast' targeting Iran's digital assets, tech, gold, aviation, and shipping. Gold near $4,695/oz (+1%) as debasement trade accelerates.",
+      "title": "US-China agree to promote AI and trade cooperation; US-China 'Track 1.5' dialogue held in Beijing",
+      "body": "Xinhua reports US and China agreed to promote cooperation in AI and trade, with a 'Track 1.5' diplomatic dialogue held in Beijing. Morgan Stanley separately characterizes the US-China relationship as 'stabilizing, not normalizing.' The near-term implication is that large Chinese bank exposure to Iran sanctions is being managed carefully to preserve the bilateral relationship ahead of a potential Trump-Xi summit.",
       "tickers": [],
       "source_item_ids": [
-        "gmail:1a0388cffa2bd07b",
-        "x:2092048775569342495"
+        "x:2092191897829945800",
+        "gmail:1a039164a9389ac3"
       ]
     },
     {
-      "title": "US-Canada trade war deepens: 50% tariffs on vehicles/parts from Jan 2027; Canada to retaliate Tuesday",
-      "body": "Trump threatened 50% tariffs on Canadian autos, trucks, and parts effective January 1, 2027, already imposing 50% on ~$20B of Canadian goods. Canada announced retaliatory tariffs to be unveiled Tuesday at 1pm GMT. UBS estimates the Canada tariff change (25%\u219250%) represents ~$300M EBIT headwind for GM (~2% of 2027 consensus). Diesel prices near 5-year highs at $5.61/gallon (+60% YTD from Hormuz closure effects.",
+      "title": "Wolfe forecasts 65K August payrolls vs 55K consensus; ADP weekly data shows hiring acceleration",
+      "body": "Wolfe Research expects 65K August payroll gains (above 55K consensus) with private payrolls +75K and government payrolls -10K; unemployment seen rising modestly to 4.16%. ADP weekly data for 4 weeks ending 8/8 shows average +11.75K private sector jobs, up from +9.5K prior \u2014 the second consecutive week of sequential acceleration. Job-seeking intention rose to 24.9% in July from 22.5% in March per NY Fed.",
       "tickers": [],
       "source_item_ids": [
-        "x:2092019386387427817",
-        "x:2092047052372857081"
+        "x:2092180970510119311",
+        "gmail:1a038e9993c3dcab"
       ]
     },
     {
-      "title": "Treasury buyback controversy: Druckenmiller criticizes Bessent; TGA use limited to ~10% of balance",
-      "body": "Druckenmiller publicly criticized Treasury Secretary Bessent's bond buyback program as counterproductive in normally functioning markets. El-Erian noted TGA can fund buybacks using at most ~10% of its balance. Morgan Stanley is hosting a cross-asset webcast on Treasury buyback implications for yields and financials. Without fiscal adjustment, term premium expected to move higher; US debt now exceeds 100% of GDP and debt service costs hit 3.2% of GDP (highest since 1991).",
+      "title": "22V warns AI capex financing at $7T debt scale could trigger meaningful inflation and yield pressure",
+      "body": "22V Research flags that AI debt financing \u2014 estimated at $7T in debt and $12T total through 2030 \u2014 could trigger significant inflation if implemented in an environment of equilibrium unemployment and elevated legacy inflation, risking meaningfully higher 10-year yields. DRAM market remains undersupplied through potentially 2028 but the memory basket's 2-year forward PE has already dropped below the 25th percentile as investors price in post-2028 supply risk.",
       "tickers": [],
       "source_item_ids": [
-        "x:2092023686148817227",
-        "x:2092038747311468559"
-      ]
-    },
-    {
-      "title": "Germany Q2 GDP beats at +1.0% YoY; IFO jumps to 88.8, ending 3+ years of stagnation",
-      "body": "Germany Q2 GDP rose 0.3% QoQ and 1.0% YoY, beating 0.9% estimates on both measures, with fiscal deficit widening to ~4% of GDP supporting public investment. August IFO jumped 2.1 points to 88.8 vs. 87.2 estimate, driven by improved current conditions and expectations. However, Germany's 10-year yield hit a 15+ year high, and Q2 government spending grew only 0.1% QoQ vs. 0.9% estimate.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a0382ef6d4e3083",
-        "x:2092130327640916063"
-      ]
-    },
-    {
-      "title": "Hot Chips 2026: AI infrastructure shifting from GPU-centric to power-efficient multi-component architecture",
-      "body": "Industry consensus from Hot Chips: AI buildout is broadening to emphasize CPUs (now ~60% of host CPU share for AI platforms led by ARM), packaging, memory, and networking alongside GPUs. Power efficiency per watt is replacing raw compute as the primary design constraint. AMD's MI455X features 432GB HBM4 at 23.3 TB/s; NVDA Rubin emphasizes scalable coherency via NVLink 6; Intel unveiled Diamond Rapids (256 cores) and Crescent Island GPU for inference. SK Hynix confirmed hybrid bonding delayed to HBM5 (2029-2030), capping HBM4E at 16-Hi.",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "INTC",
-        "ARM",
-        "TSM",
-        "MU"
-      ],
-      "source_item_ids": [
-        "gmail:1a037bde17688b16",
-        "gmail:1a0385dfb6e52bc3"
-      ]
-    },
-    {
-      "title": "WFE forecasts upgraded sharply; DRAM/NAND capex pull-ins accelerating into 2026-2027",
-      "body": "Morgan Stanley raised 2026 WFE estimates from $155B to $163B (+39% YoY) and 2027 from $201B to $223B, driven by unprecedented DRAM capacity pull-ins (+$17B, +47% YoY) and Intel's $20B+ spending plans. Advanced packaging supply meets less than half of AI demand with a 15-20% supply gap at TSMC. Amazon is raising hardware prices up to 60% citing memory shortages. Ajinomoto's ABF film lines running at full capacity as of 2Q26.",
-      "tickers": [
-        "TSM",
-        "MU",
-        "INTC"
-      ],
-      "source_item_ids": [
-        "gmail:1a0379be8341669f",
-        "gmail:1a03644c106dcad3"
-      ]
-    },
-    {
-      "title": "Broadening market theme: long US equities into Quad 1 September; emphasis on non-mega-cap exposure",
-      "body": "Hedgeye flags broadening continues with emphasis on asset class and geographic diversification rather than mega-cap tech concentration. SPX risk range 7601-7825 with bullish trend signal; COMPQ downgraded from Bullish to Neutral. Hedgeye risk signals: AAPL upgraded to Bullish (buy 299, sell 318), NVDA downgraded to Neutral (buy 192, sell 230), META and GOOGL both moved to Bearish. JPM's derivatives strategy recommends layering hedges via put spreads, hybrid equity-rate products, and lookback structures given elevated September/October seasonality risks.",
-      "tickers": [
-        "NVDA",
-        "AAPL",
-        "META",
-        "GOOGL",
-        "MSFT",
-        "AMZN",
-        "SPY"
-      ],
-      "source_item_ids": [
-        "gmail:1a038af756e75f44",
-        "gmail:1a03852b3e880715"
-      ]
-    },
-    {
-      "title": "Bitcoin breaks $80K for first time in months on spot ETF inflows; institutional accumulation accelerating",
-      "body": "Bitcoin surpassed $80,000 and is tracking its 2nd-best August on record. Spot Bitcoin ETFs pulled ~$1.9B in weekly inflows (strongest since October 2025). Mizuho and others characterize the rally as driven by spot/ETF demand rather than leverage, with coin-denominated open interest at one-month lows. Dalio recommends 10-15% gold + small Bitcoin allocation; Druckenmiller's Duquesne and Tudor Jones building positions.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a037f0156d6f10b",
-        "x:2092052076893261937"
-      ]
-    },
-    {
-      "title": "September PCE benchmark revisions expected to lower core inflation ~30bps; reduces hiking urgency",
-      "body": "PCE methodology changes affecting software, portfolio management, and legal services categories will reduce year-over-year Core PCE by ~30bps, bringing it to ~2.7% vs. the Fed's recent 3.3% projection. Core CPI expected to exit 2026 at 2.3%. The revisions publish two weeks after the next Fed meeting, raising the practical hurdle for rate hikes despite elevated market odds.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a03881503fb798c",
-        "gmail:1a038d7f3d648603"
-      ]
-    },
-    {
-      "title": "August payrolls preview: 65K expected vs 55K consensus; unemployment to tick to 4.2%; FOMC path data-dependent",
-      "body": "Wolfe Research expects August NFP of 65K (private +75K, government -10K) vs 55K consensus, with unemployment rising to 4.16% (rounded 4.2%) and AHE of 0.35% MoM (vs. 0.2% consensus). September FOMC decision will hinge primarily on PPI (Sept 10) and CPI (Sept 11) prints, not payrolls. BLS benchmark revisions expected to show ~180K upward revision for April 2025-March 2026 period.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a03836bc3f101cc"
-      ]
-    },
-    {
-      "title": "European gas prices elevated; Goldman warns \u20ac100/MWh shock needed for winter storage refill",
-      "body": "Goldman Sachs projects European natural gas prices may need to spike to \u20ac100/MWh in December to rebuild winter storage. TTF held above \u20ac68/MWh on Monday on winter supply concerns. Spanish PPI surged to +9.2% YoY (+3% MoM) in July. Germany's 10-year yield at highest in 15+ years, consistent with rising European inflation expectations.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2092164173916496019",
-        "x:2092117527430062234"
-      ]
-    },
-    {
-      "title": "Housing market deteriorating: supply surges, demand falls, affordability at worst levels",
-      "body": "New listings rose +5.8% YoY (largest weekly move), but purchase applications fell to -1.2% and pending sales to -2.4% (down 5.2pp over four weeks). Price cuts at 20.9% of listings (97th percentile), cancellations 14.6% (91st percentile). 30-year mortgage at 6.65%, with affordability at 36.8% of median income (96th percentile). Zillow's regulatory overhang improving as FTC order preserves rental syndication with Redfin through 2030.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a038a887eb35a90"
-      ]
-    },
-    {
-      "title": "GOOGL morphing into major neocloud supplier with $84-108B TPU revenue opportunity in 2027-2028",
-      "body": "Morgan Stanley raises TPU 1P sale estimates to ~$27B/GW (vs. $20B prior) at 30% gross margins, with Alphabet selling 0.3GW in 2H26, 3.2GW in 2027, 4.2GW in 2028. Google Cloud 2027 revenue growth raised to 118% (vs. 106% prior) and EBIT growth to 137% (vs. 105%). Cloud expected to reach ~50% of company-wide EBIT by 2028. Three re-rating catalysts: Gemini 4, Gemini Flash, and broader corpus monetization.",
-      "tickers": [
-        "GOOGL",
-        "NVDA",
-        "MRVL"
-      ],
-      "source_item_ids": [
-        "gmail:1a035e8027fec2b2",
-        "gmail:1a0379be8341669f"
-      ]
-    },
-    {
-      "title": "SEC subpoenas banks over Situational Awareness fund trading practices",
-      "body": "The SEC launched an investigation into the Situational Awareness fund (Leopold Aschenbrenner) and sent subpoenas to multiple Wall Street banks that provided capital to the fund, focusing on timing of trades. This is breaking news from NYT/multiple sources.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2091989699091206276",
-        "x:2091982242025287897"
-      ]
-    },
-    {
-      "title": "Meta to launch Hatch AI agent platform in coming weeks; consumer monetization push beyond advertising",
-      "body": "Meta plans to imminently launch 'Hatch,' the consumer version of its internal OpenClaw AI agent, enabling multi-step autonomous task execution. Next AI model 'Watermelon' targeted for October. Sequoia invested $2.5B in Anthropic as AI opportunity accelerated faster than expected; autonomous workflow software seen as capable of creating trillion-dollar businesses.",
-      "tickers": [
-        "META",
-        "MSFT"
-      ],
-      "source_item_ids": [
-        "x:2092025155858104749",
-        "gmail:1a036d748dd46592"
-      ]
-    },
-    {
-      "title": "AMD gains 30%+ x86 PC CPU market share for first time; 46% of server market",
-      "body": "AMD has crossed 30% of the x86 PC CPU market for the first time and holds 46.4% of the server CPU market vs Intel's 53.6%. Raymond James upgraded AMD to Strong Buy with $641 PT (+40% upside). Intel's x86 share has fallen to 1995 levels. SK Hynix confirmed EMIB advanced packaging from Intel for next-gen HBM, a win for Intel amid TSMC CoWoS capacity constraints.",
-      "tickers": [
-        "AMD",
-        "INTC",
-        "TSM"
-      ],
-      "source_item_ids": [
-        "x:2092021778671665469",
-        "x:2091965872269390003"
+        "gmail:1a0392ce11d2d395"
       ]
     }
   ]
