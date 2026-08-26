@@ -1,219 +1,231 @@
 {
-  "digest_type": "eod",
-  "digest_dt": "2026-08-25T18:00:00-04:00",
-  "saved_at": "2026-08-25T22:30:30.366288+00:00",
+  "digest_type": "premarket",
+  "digest_dt": "2026-08-26T08:30:00-04:00",
+  "saved_at": "2026-08-26T13:19:07.492024+00:00",
   "bullets": [
     {
-      "title": "OpenAI Jalape\u00f1o chip beats Nvidia Blackwell on perf/watt\u2014competitive threat crystallizing",
-      "body": "OpenAI's custom Jalape\u00f1o ASIC outperforms Nvidia's GB300/Blackwell on performance-per-watt and runs level with Rubin, per Hot Chips 2026 coverage. Developed with Broadcom in 16 months vs. traditional 3-4 year tapeout cycles, analysts note 'I don't think anyone can beat this chip at perf/Watt or perf/$.' One analyst estimates OpenAI may only need 25-35% Nvidia compute by 2028, though Nvidia still must sell 10M chips to diverse customers. A separate voice notes Nvidia's durable moat remains its balance sheet and long-term supply agreements with hyperscalers.",
+      "title": "OpenAI Jalape\u00f1o chip outperforms NVIDIA Rubin by up to 2x efficiency, Broadcom/Celestica are partners",
+      "body": "OpenAI's Jalape\u00f1o ASIC, co-developed with Broadcom, achieves 1.5x\u20131.9x better throughput/watt and 1.7x\u20133.6x lower latency vs. NVIDIA GB200/GB300, operates at 700W vs. NVIDIA's 1,200\u20131,400W, and pairs with 216GB HBM4 at 15.4 TB/s. Broadcom (AVGO) and Celestica (CLS) confirmed as partners, with production ramp through 2027 potentially 'materially weakening Nvidia's CUDA moat.' OpenAI claims 2x better perf/watt vs. July Rubin architecture without spec decoding optimization.",
       "tickers": [
         "NVDA",
-        "AVGO"
+        "AVGO",
+        "CLS"
       ],
       "source_item_ids": [
-        "x:2092258594628706778",
-        "x:2092252135639372119"
+        "x:2092330918644236787",
+        "x:2092420526241108467"
       ]
     },
     {
-      "title": "NVDA options flow heavily bullish heading into Wednesday earnings",
-      "body": "NVDA has the most active options flow week-to-date and showed the most bullish flow on the day. SPY is pricing only a 1/4-pt move for the NVDA earnings release vs. a 1/2-pt move for Jackson Hole, suggesting the market sees the macro event as the larger catalyst. Analysts note earnings upside reactions are being throttled until after Friday's Fed event.",
+      "title": "NVDA earnings Wednesday: $92B revenue expected, options pricing 5.5% move vs. 7.4% historical avg",
+      "body": "Analysts expect NVIDIA to report ~$92B revenue (2x YoY) with results after Wednesday close. Options are pricing a ~5.5% earnings move vs. a 12-month realized average of 7.4%, leaving implied vol underpriced relative to historical norms. NVDA has been a YTD laggard among US chip stocks and logged a 7-session losing streak\u2014its longest in 4 years\u2014ahead of the print. A strong guidance outcome is viewed as the key catalyst to revive AI and semiconductor sector momentum.",
       "tickers": [
-        "NVDA",
-        "SPY"
-      ],
-      "source_item_ids": [
-        "x:2092300477903855942",
-        "x:2092305201789075511"
-      ]
-    },
-    {
-      "title": "Apple launches M6 (2nm) Mac mini and M5 Ultra Mac Studio; Evercore raises PT to $365",
-      "body": "Apple surprised the market with new Mac mini (M6, M5 Pro) and Mac Studio (M5 Max, M5 Ultra) updates; M6 is Apple's first 2nm chip and features FP8 matrix ops and dual neural engines for ML. Mac mini starts at $899. Separately, Evercore ISI reiterated Outperform on AAPL and raised its price target to $365, citing the AI Mac expansion.",
-      "tickers": [
-        "AAPL"
-      ],
-      "source_item_ids": [
-        "x:2092236880234557623",
-        "x:2092263244723302447"
-      ]
-    },
-    {
-      "title": "Goldman credit desk flags NVDA/AVGO CDS widening\u2014credit questioning AI financing backstops",
-      "body": "Goldman's Delta-1 head noted NVDA and Broadcom CDS widening as credit markets raise questions about AI financing structures and the sustainability of AI capex, a concern equity markets have not yet fully incorporated. Goldman headline: 'The AI Story Is Not Dead But Goldman Warns Credit Is Asking Questions That Equity Markets Aren't.'",
-      "tickers": [
-        "NVDA",
-        "AVGO"
-      ],
-      "source_item_ids": [
-        "x:2092250412443156557",
-        "x:2092266274663329839"
-      ]
-    },
-    {
-      "title": "Memory poised to capture 68% of CSP capex next year; memory suppliers 'eating all the CAPEX'",
-      "body": "TrendForce forecasts memory will account for 68% of cloud service provider capex next year as the 'Bank of Memory controls everything.' One analyst argues Nvidia has lost its performance-per-dollar and performance-per-watt crowns post-2025, with memory suppliers now capturing the bulk of AI infrastructure spend. Samsung LPDDR integration with compute for inference adds to the memory-centric trend.",
-      "tickers": [
-        "NVDA",
-        "MU"
-      ],
-      "source_item_ids": [
-        "x:2092268947265728777",
-        "x:2092252723811086430"
-      ]
-    },
-    {
-      "title": "$3M+ unusual bullish options prints detected in MU and AMD",
-      "body": "Unusual bullish options flow of $3M+ each detected in both Micron and AMD on the session, consistent with the broader semiconductor options activity spike heading into NVDA earnings.",
-      "tickers": [
-        "MU",
-        "AMD"
-      ],
-      "source_item_ids": [
-        "x:2092272900342476890"
-      ]
-    },
-    {
-      "title": "INTC x86 share falls below 70% in Q2 2026 as AMD hits record high",
-      "body": "Intel's x86 market share dropped below 70% in Q2 2026 for the first time, a 'significant erosion,' while AMD reached a record high share driven by competitive processors and AI infrastructure demand. Custom ASIC design services also seen as a growing opportunity for AMD and INTC to compete for hyperscaler chip dollars.",
-      "tickers": [
-        "INTC",
-        "AMD"
-      ],
-      "source_item_ids": [
-        "x:2092222034688536949",
-        "x:2092267701637149154"
-      ]
-    },
-    {
-      "title": "Waymo begins autonomous vehicle testing in Munich, expanding international footprint",
-      "body": "Google subsidiary Waymo announced it will begin autonomous vehicle testing in Munich, Germany in the coming weeks, marking its first European testing expansion.",
-      "tickers": [
-        "GOOGL"
-      ],
-      "source_item_ids": [
-        "x:2092293764559593724"
-      ]
-    },
-    {
-      "title": "Google Cloud launches Gemini Enterprise for legal and financial services with new partnerships",
-      "body": "Google Cloud unveiled Gemini Enterprise AI targeting legal and financial services, announcing partnerships with Weil Partners, Moody's, MSCI, Relativity, and others. Product launch broadens Google's enterprise AI footprint against Microsoft/OpenAI.",
-      "tickers": [
-        "GOOGL"
-      ],
-      "source_item_ids": [
-        "x:2092222175675613686",
-        "x:2092221247077638468"
-      ]
-    },
-    {
-      "title": "Anthropic claims $30T+ TAM to investors; IPO reportedly in coming months",
-      "body": "WSJ reports Anthropic is expected to tell investors its potential revenue opportunity exceeds $30 trillion\u2014surpassing SpaceX's prior $28.5T TAM claim\u2014ahead of a reported IPO. Polymarket assigns 74% odds of Anthropic releasing its next Mythos-class model by September 9. One skeptic notes token prices are cratering and the $2T valuation needs a Mythos 2 launch to justify it.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2092280527156052443",
-        "x:2092290890798612548"
-      ]
-    },
-    {
-      "title": "Canada retaliates with 15-50% tariffs on $20B of US goods, effective Sept. 8",
-      "body": "Canada announced retaliatory tariffs ranging from 15% to 50% on approximately $20 billion of U.S. products including steel (doubled to 50%), aluminum, dairy, appliances, motorcycles, and farm equipment, effective September 8. UBS cut its 2026 Canada GDP growth forecast to 0.9% and Canada signals little chance of resuming trade talks before U.S. midterms.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2092266283962122486",
-        "x:2092256250838839331"
-      ]
-    },
-    {
-      "title": "US macro data soft: Consumer Confidence 89.4 (7-month low), New Home Sales -10.5% m/m",
-      "body": "August CB Consumer Confidence fell to 89.4 vs 90.2 estimate and prior 90.2, with the expectations component dropping sharply to 68.2 from 74.0. June new home sales collapsed 10.5% m/m vs. -1.4% estimate; median new home prices hit a 5-year low. Richmond Fed Manufacturing missed at +4 vs. +7 est. The present-situation component of confidence was the sole bright spot at 121.2.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2092264282452836641",
-        "x:2092264399830413637"
-      ]
-    },
-    {
-      "title": "Treasury 2Y auction strong: 4th consecutive stop-through, highest foreign buying since March 2025",
-      "body": "The $69B 2-year Treasury auction stopped through by 0.4bps (WI 4.208%, yield 4.204%), marking the fourth consecutive stop-through. Foreign buying hit its highest level since March 2025. 10-year yields fell 6bp to 4.64% on the session.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2092297443366821973",
-        "x:2092278733629468989"
-      ]
-    },
-    {
-      "title": "Fed's Collins hawkish: rate hike 'appropriate soon' absent sustained disinflation",
-      "body": "Boston Fed President Susan Collins called June and July inflation data 'mildly encouraging' but said it would be 'appropriate to raise interest rates soon' absent evidence of sustained disinflation. Collins noted rising long-term rates should work against re-acceleration in demand and that inflation remains 'too high.'",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2092253972350271994",
-        "x:2092270269566251452"
-      ]
-    },
-    {
-      "title": "Strait of Hormuz: mines cleared per Trump; Oman-Iran propose temporary shipping corridor",
-      "body": "Trump announced the US Navy removed/detonated all mines from the Strait of Hormuz and warned Iran any new mine placement would result in destruction of the vessel. Separately, Oman and Iran discussed a phased plan including a temporary joint shipping corridor and mine clearance. Polymarket implies sub-10% probability of normalized Hormuz traffic by year-end.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2092258960623685863",
-        "x:2092274210143895718"
-      ]
-    },
-    {
-      "title": "Jackson Hole looms: markets pricing twice as much move for Fed than for NVDA earnings",
-      "body": "A fintwit options analyst notes the market is pricing a 1/4-pt SPY move for NVDA earnings Wednesday vs. a 1/2-pt move for Jackson Hole Friday, suggesting macro uncertainty is dominating. Bespoke Morning Note flags the VIX hovering near historic August lows even as QQQ trades 1% below its 50-DMA and is down 3.2% over the past week.",
-      "tickers": [
-        "SPY",
         "NVDA"
       ],
       "source_item_ids": [
-        "x:2092305201789075511",
-        "x:2092233005930619219"
+        "x:2092362160059883992",
+        "x:2092349575298527352"
       ]
     },
     {
-      "title": "Market breadth rotation: RSP +7% vs SPX +1.8% since May; semis holding while broader market fades",
-      "body": "Equal-weight S&P (RSP) has outperformed cap-weight SPX by ~5.2pp since May, signaling broad market strength vs. mega-cap concentration risk. One session observation: semis ($SOXX) held up while the broader market sold off at the open, with equal-weight variants furthest above their 50-DMAs.",
+      "title": "NVIDIA Vera Rubin NVL72 enters production; Groq 3 LPX in mass production at Samsung Foundry",
+      "body": "NVIDIA shipped the first operational Vera Rubin NVL72 production rack to Microsoft, claiming 30x data throughput vs. GB300 NVL72, dramatically lowering cost-per-token for AI inference. Simultaneously, Groq 3 LPX-based server racks entered mass production at Foxconn using Samsung 4nm chips with 500MB on-chip SRAM. Taiwan AI server manufacturers have visibility through 2028 on demand. Groq 3 LPX servers require high-end CCL materials (HVLP4 copper foil, M9 CCL pairing) due to high-frequency token generation.",
       "tickers": [
-        "SPY"
+        "NVDA",
+        "MSFT"
       ],
       "source_item_ids": [
-        "x:2092249954152783877",
-        "x:2092249176390176898"
+        "x:2092431540559188216",
+        "x:2092431216834449666"
       ]
     },
     {
-      "title": "AMZN raising AI device prices amid chip supply constraints; cloud/AI players forced to raise equity",
-      "body": "Amazon is increasing prices on AI devices due to chip supply constraints, shifting customers toward rental models. More broadly, major cloud/AI players are now raising equity capital for AI infrastructure despite strong cash generation, suggesting capex needs have exceeded self-funding capacity.",
+      "title": "AVGO and NVDA CDS hit record highs; AI off-balance-sheet liabilities surge to $3.1T",
+      "body": "AVGO CDS widened +5bps to new record highs, NVDA +1bps to record, with bondholders exiting positions viewed as overvalued amid GPU/memory pricing concerns. Separately, off-balance-sheet AI sector liabilities across hyperscalers reached $3.1 trillion, up $1.3T in three months. Meta and Google are cited as using SPVs/VIEs to keep data center construction debt off-balance sheet, partnering with private credit providers.",
       "tickers": [
-        "AMZN"
+        "AVGO",
+        "NVDA",
+        "META",
+        "GOOGL"
       ],
       "source_item_ids": [
-        "x:2092222521903022120",
-        "x:2092222299969912897"
+        "x:2092372650286780485",
+        "x:2092438155890733168"
       ]
     },
     {
-      "title": "NBIS: ClickHouse ARR surpasses $350M; Nebius owns 28% stake",
-      "body": "ClickHouse's annual recurring revenue exceeded $350 million, a notable milestone for the Nebius-owned (28% stake as of May 2025) database platform. The figure was highlighted on X as a positive catalyst for NBIS shares.",
+      "title": "TSMC 1.6nm (A16) entering mass production end-2026; rumor NVDA reserved all capacity",
+      "body": "TSMC's A16 process, featuring backside power delivery, is designed for AI accelerators and HPC and targets mass production by end-2026. A rumor circulating at Hot Chips suggests NVIDIA has reserved all available 1.6nm capacity. Apple is predicted to be first to market with TSMC's 2nm node in M6 Mac mini (Sept. 22 expected), with the iPhone A20 launch potentially preceding that.",
       "tickers": [
-        "NBIS"
+        "TSM",
+        "NVDA",
+        "AAPL"
       ],
       "source_item_ids": [
-        "x:2092257798469959875"
+        "x:2092470102180717034",
+        "x:2092427563507523850"
       ]
     },
     {
-      "title": "Paramount execs signal openness to structural remedies in AG lawsuit; WBD partnership still needed",
-      "body": "Paramount executives publicly acknowledged willingness to accept structural remedies for the first time in the AG lawsuit context, with the company stating it remains hopeful and ready for good-faith discussions to keep the transaction on track. Separately, analyst commentary notes Ellison's Google-recruited talent rebuilding Paramount+ still needs Warner Bros/HBO content to be competitive.",
+      "title": "AVGO presents Thor Ultra 800GbE NIC and NVDA unveils Spectrum-X scaling to 512k GPUs at Hot Chips 2026",
+      "body": "Broadcom debuted Thor Ultra 800GbE NIC at Hot Chips 2026, featuring PCIe Gen6 x16, 8-port 100G MAC, RoCEv2 offload, and 2.4B transistors on 5nm. NVIDIA presented Spectrum-X Ethernet Multiplane Network Architecture, scaling AI factory networking to 512k GPUs while maintaining 1.6T per-GPU bandwidth using 100T switches with 512 ports.",
       "tickers": [
-        "PSKY",
-        "WBD"
+        "AVGO",
+        "NVDA"
       ],
       "source_item_ids": [
-        "x:2092267419163144225",
-        "x:2092304395866141126"
+        "x:2092330560597467537",
+        "x:2092360644989448215"
+      ]
+    },
+    {
+      "title": "WFE model raised for 2026\u20132028; DRAM WFE accelerating with Lam DRAM revenue doubling YoY",
+      "body": "WFE bull-case now $155\u2013165B in 2026, $200\u2013215B in 2027, and $225\u2013250B in 2028 with buy-side tracking at or above bull case. DRAM WFE is responding quickly to capex acceleration\u2014Lam's DRAM systems revenue doubled YoY, TEL's DRAM sales rebounded 66% YoY in the June quarter. Western toolmakers' China sales expected resilient in 2026 on stockpiling, then decline 2027\u201328 from domestic substitution.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2092395686507721142",
+        "x:2092371716886470909"
+      ]
+    },
+    {
+      "title": "Samsung and SK Hynix to gain HBM4 share as NVIDIA diversifies away from single supplier",
+      "body": "Samsung and SK Hynix are expected to increase their share of 8-high HBM4 shipments, signaling a shift in NVIDIA's supply chain away from a concentrated HBM supplier base. YMTC and CXMT are also expanding NAND exports outside China through third-party module makers, with YMTC projected to hit 300k WPM total capacity by early 2027, surpassing Hynix's 260k WPM target.",
+      "tickers": [
+        "NVDA"
+      ],
+      "source_item_ids": [
+        "x:2092484503080206760",
+        "x:2092503684810998119"
+      ]
+    },
+    {
+      "title": "INTU beats Q4 but FY27 guidance misses; TurboTax growth decelerates; stock -9% after-hours",
+      "body": "Intuit reported Q4 revenue of $4.35B vs. $4.27B estimate and adj. EPS of $4.03 vs. $3.58 expected, but FY27 revenue guidance of $23.28\u201323.51B missed the $23.72B consensus. TurboTax revenue growth decelerates to +2\u20133% vs. +7% in FY26. Q1 guidance also came in below expectations, and Mailchimp will become a separate reportable segment. Shares fell ~9% after-hours.",
+      "tickers": [
+        "INTU"
+      ],
+      "source_item_ids": [
+        "x:2092342041862656130",
+        "x:2092342437129941098"
+      ]
+    },
+    {
+      "title": "Alibaba $10B share sale fails to allay AI financing concerns; insider buying signals confidence",
+      "body": "Alibaba's HK$80B ($10B) AI placement\u2014while driving Hong Kong-listed shares up 3%\u2014did not fully alleviate investor concerns about AI financing strategy. However, co-founders Joseph Tsai ($20.7M) and Eddie Wu ($4.98M) both bought stock this week, and Jack Ma purchased $76.5M of BABA in recent days, signaling strong insider confidence.",
+      "tickers": [
+        "BABA"
+      ],
+      "source_item_ids": [
+        "x:2092526932101570976",
+        "x:2092343676135465238"
+      ]
+    },
+    {
+      "title": "META settlement discussions with states on teen social media harm; one-time charge view",
+      "body": "Meta and state attorneys general have discussed settling the teen social media harm litigation. Analysts frame any multi-billion settlement as a non-recurring one-time event, positive vs. ongoing litigation overhang. Instagram chief Adam Mosseri separately testified in US trial, with states pressing on low teen adoption of safety features.",
+      "tickers": [
+        "META"
+      ],
+      "source_item_ids": [
+        "x:2092426353673183602",
+        "x:2092391839722823959"
+      ]
+    },
+    {
+      "title": "MSFT extends data center useful lives from 15 to 25 years; Teams outage in Asia-Pacific resolved",
+      "body": "Microsoft disclosed last quarter it is extending data center useful lives from 15 to 25 years, which will shift finance leases to operating lease classification\u2014a meaningful accounting tailwind. Separately, a routine maintenance activity inadvertently caused a Microsoft 365/Teams service disruption across Asia-Pacific, which has since been fully resolved.",
+      "tickers": [
+        "MSFT"
+      ],
+      "source_item_ids": [
+        "x:2092428485419532732",
+        "x:2092429431323468244"
+      ]
+    },
+    {
+      "title": "NVIDIA DLSS 4.5 releases with 2nd-gen Transformer model; Spectrum-X Ethernet Photonics enters full production",
+      "body": "NVIDIA released DLSS 4.5 with a 2nd-generation Transformer model for Ray Reconstruction, enhancing ray and path tracing on GeForce RTX GPUs. Spectrum-X Ethernet Photonics infrastructure (scale-out networking) also entered full production, addressing AI factory scale-out demands.",
+      "tickers": [
+        "NVDA"
+      ],
+      "source_item_ids": [
+        "x:2092333691313795337",
+        "x:2092488955640094767"
+      ]
+    },
+    {
+      "title": "US-Canada trade war escalates: 50% tariffs on $20B Canadian goods; Canada retaliates in kind",
+      "body": "The Trump administration imposed 50% tariffs on $20B of Canadian products across steel, aluminum, and electronics. Canadian PM Mark Carney announced matching dollar-for-dollar retaliatory tariffs starting September 8, after trade talks collapsed. Macro risk for any US companies with Canadian supply chain exposure.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2092522120089669773",
+        "x:2092416234621137359"
+      ]
+    },
+    {
+      "title": "Tesla Europe stabilizing: material sales growth over 5 months, EV market share range 10.2\u201310.8% in Q2",
+      "body": "Tesla's European EV business is stabilizing after significant market share losses, with material sales growth over the past 5 months amid a buoyant European EV market. Q2 market share held broadly sideways at 10.2\u201310.8% following a meaningful recovery in Q1. FSD is also attracting positive user comparisons to Waymo performance.",
+      "tickers": [
+        "TSLA"
+      ],
+      "source_item_ids": [
+        "x:2092515213870338432",
+        "x:2092515218718884338"
+      ]
+    },
+    {
+      "title": "NVDA largest SOX component but has least correlation to semiconductor sector",
+      "body": "As noted by multiple accounts, NVIDIA is the largest SOX member but shows the lowest correlation to the actual semiconductor sector it represents\u2014lower than even Altria. This disconnect is drawing attention ahead of earnings as a structural market structure observation.",
+      "tickers": [
+        "NVDA"
+      ],
+      "source_item_ids": [
+        "x:2092352075896127885",
+        "x:2092352151515226229"
+      ]
+    },
+    {
+      "title": "Frontier labs co-design hardware faster than NVDA/AMD via model access; chip design barriers falling",
+      "body": "Analysis from Hot Chips: frontier AI labs can co-design hardware-software at a faster pace than Nvidia/AMD due to proprietary model access. OpenAI's Jalape\u00f1o developed in just nine months using AI-assisted design (Codex handles chip block design, kernel auto-writing). 'What Jalape\u00f1o made me realize is how much lower the barrier to chip design has fallen\u2014manufacturing will remain the primary moat until robotic automation.'",
+      "tickers": [
+        "NVDA",
+        "AMD"
+      ],
+      "source_item_ids": [
+        "x:2092377713256587514",
+        "x:2092379180268978486"
+      ]
+    },
+    {
+      "title": "ANET identified as primary beneficiary of high-speed Ethernet demand surge",
+      "body": "Arista Networks flagged as primary beneficiary of high-speed Ethernet tailwinds, with both near-term trading catalyst and longer-duration fundamental positive thesis rated 'HIGH' magnitude of impact. Industry transceiver unit demand forecast has also been raised to 80\u201390M units vs. a prior consensus of 50M units.",
+      "tickers": [
+        "ANET"
+      ],
+      "source_item_ids": [
+        "x:2092407338116255830",
+        "x:2092409726516748313"
+      ]
+    },
+    {
+      "title": "SMCI guides 45% sequential Q3 data center revenue growth with accelerating momentum into Q4 and FY2028",
+      "body": "Super Micro Computer flagged record backlog carrying into Q3, with management projecting 45% sequential revenue growth in data center. Accelerating year-over-year growth is expected through Q4 and into fiscal 2028, making it a notable read-through for AI infrastructure spending.",
+      "tickers": [
+        "SMCI"
+      ],
+      "source_item_ids": [
+        "x:2092352766169530793"
+      ]
+    },
+    {
+      "title": "Nvidia employee charged with chip smuggling to China; regulatory risk flagged pre-earnings",
+      "body": "An NVIDIA employee has been charged with smuggling advanced chips into China, adding a regulatory risk overhang to the NVDA earnings event. Additionally, separate commentary noted 'not the best news ahead of NVDA earnings' without specifying the development, consistent with the smuggling charge.",
+      "tickers": [
+        "NVDA"
+      ],
+      "source_item_ids": [
+        "x:2092311545028174243",
+        "x:2092420923219431682"
       ]
     }
   ]
