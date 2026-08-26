@@ -1,231 +1,205 @@
 {
-  "digest_type": "premarket",
-  "digest_dt": "2026-08-26T08:30:00-04:00",
-  "saved_at": "2026-08-26T13:19:07.492024+00:00",
+  "digest_type": "midday",
+  "digest_dt": "2026-08-26T12:00:00-04:00",
+  "saved_at": "2026-08-26T16:24:48.333234+00:00",
   "bullets": [
     {
-      "title": "OpenAI Jalape\u00f1o chip outperforms NVIDIA Rubin by up to 2x efficiency, Broadcom/Celestica are partners",
-      "body": "OpenAI's Jalape\u00f1o ASIC, co-developed with Broadcom, achieves 1.5x\u20131.9x better throughput/watt and 1.7x\u20133.6x lower latency vs. NVIDIA GB200/GB300, operates at 700W vs. NVIDIA's 1,200\u20131,400W, and pairs with 216GB HBM4 at 15.4 TB/s. Broadcom (AVGO) and Celestica (CLS) confirmed as partners, with production ramp through 2027 potentially 'materially weakening Nvidia's CUDA moat.' OpenAI claims 2x better perf/watt vs. July Rubin architecture without spec decoding optimization.",
+      "title": "NVDA Earnings Drive Broad Market Volatility Pricing",
+      "body": "SpotGamma's Brent Kochuba notes NVDA earnings are \"driving S&P options volatility\" with traders positioning for lower rates. SPX is pricing in an additional 0.25% move for NVDA earnings Thursday, while Friday's Jackson Hole event is pricing 0.5% additional SPX movement. The 0DTE straddle at $25/32bps on 7,670 implies PCE data is expected to be a non-event.",
       "tickers": [
         "NVDA",
-        "AVGO",
-        "CLS"
+        "SPY"
       ],
       "source_item_ids": [
-        "x:2092330918644236787",
-        "x:2092420526241108467"
+        "x:2092573747987235245",
+        "x:2092566721257189427"
       ]
     },
     {
-      "title": "NVDA earnings Wednesday: $92B revenue expected, options pricing 5.5% move vs. 7.4% historical avg",
-      "body": "Analysts expect NVIDIA to report ~$92B revenue (2x YoY) with results after Wednesday close. Options are pricing a ~5.5% earnings move vs. a 12-month realized average of 7.4%, leaving implied vol underpriced relative to historical norms. NVDA has been a YTD laggard among US chip stocks and logged a 7-session losing streak\u2014its longest in 4 years\u2014ahead of the print. A strong guidance outcome is viewed as the key catalyst to revive AI and semiconductor sector momentum.",
+      "title": "NVDA Expected to Report $92.2B Revenue (+97% YoY) at 4:20 PM ET",
+      "body": "Consensus expects Nvidia to report approximately $92.2 billion in revenue for the latest quarter, representing 97.2% year-over-year growth. Wall Street attention is reportedly moving beyond near-term earnings to a potential $200 billion off-balance-sheet AI credit exposure risk by 2028.",
       "tickers": [
         "NVDA"
       ],
       "source_item_ids": [
-        "x:2092362160059883992",
-        "x:2092349575298527352"
+        "x:2092576333188431974",
+        "x:2092565037328076879"
       ]
     },
     {
-      "title": "NVIDIA Vera Rubin NVL72 enters production; Groq 3 LPX in mass production at Samsung Foundry",
-      "body": "NVIDIA shipped the first operational Vera Rubin NVL72 production rack to Microsoft, claiming 30x data throughput vs. GB300 NVL72, dramatically lowering cost-per-token for AI inference. Simultaneously, Groq 3 LPX-based server racks entered mass production at Foxconn using Samsung 4nm chips with 500MB on-chip SRAM. Taiwan AI server manufacturers have visibility through 2028 on demand. Groq 3 LPX servers require high-end CCL materials (HVLP4 copper foil, M9 CCL pairing) due to high-frequency token generation.",
+      "title": "GS Prime: Semis vs. Software Positioning Divergence (Leopold Trade)",
+      "body": "Goldman Sachs Prime is tracking a notable divergence in client positioning between semiconductors/semi equipment (green line) and software/IT services (red line) as a percentage of the full prime brokerage book. Data suggests active rotation between these two tech sub-sectors among institutional clients.",
       "tickers": [
         "NVDA",
-        "MSFT"
-      ],
-      "source_item_ids": [
-        "x:2092431540559188216",
-        "x:2092431216834449666"
-      ]
-    },
-    {
-      "title": "AVGO and NVDA CDS hit record highs; AI off-balance-sheet liabilities surge to $3.1T",
-      "body": "AVGO CDS widened +5bps to new record highs, NVDA +1bps to record, with bondholders exiting positions viewed as overvalued amid GPU/memory pricing concerns. Separately, off-balance-sheet AI sector liabilities across hyperscalers reached $3.1 trillion, up $1.3T in three months. Meta and Google are cited as using SPVs/VIEs to keep data center construction debt off-balance sheet, partnering with private credit providers.",
-      "tickers": [
-        "AVGO",
-        "NVDA",
-        "META",
-        "GOOGL"
-      ],
-      "source_item_ids": [
-        "x:2092372650286780485",
-        "x:2092438155890733168"
-      ]
-    },
-    {
-      "title": "TSMC 1.6nm (A16) entering mass production end-2026; rumor NVDA reserved all capacity",
-      "body": "TSMC's A16 process, featuring backside power delivery, is designed for AI accelerators and HPC and targets mass production by end-2026. A rumor circulating at Hot Chips suggests NVIDIA has reserved all available 1.6nm capacity. Apple is predicted to be first to market with TSMC's 2nm node in M6 Mac mini (Sept. 22 expected), with the iPhone A20 launch potentially preceding that.",
-      "tickers": [
+        "INTC",
         "TSM",
-        "NVDA",
-        "AAPL"
+        "MU",
+        "AMD",
+        "ORCL",
+        "MSFT",
+        "ADBE",
+        "CSCO"
       ],
       "source_item_ids": [
-        "x:2092470102180717034",
-        "x:2092427563507523850"
+        "x:2092582423011684629"
       ]
     },
     {
-      "title": "AVGO presents Thor Ultra 800GbE NIC and NVDA unveils Spectrum-X scaling to 512k GPUs at Hot Chips 2026",
-      "body": "Broadcom debuted Thor Ultra 800GbE NIC at Hot Chips 2026, featuring PCIe Gen6 x16, 8-port 100G MAC, RoCEv2 offload, and 2.4B transistors on 5nm. NVIDIA presented Spectrum-X Ethernet Multiplane Network Architecture, scaling AI factory networking to 512k GPUs while maintaining 1.6T per-GPU bandwidth using 100T switches with 512 ports.",
-      "tickers": [
-        "AVGO",
-        "NVDA"
-      ],
-      "source_item_ids": [
-        "x:2092330560597467537",
-        "x:2092360644989448215"
-      ]
-    },
-    {
-      "title": "WFE model raised for 2026\u20132028; DRAM WFE accelerating with Lam DRAM revenue doubling YoY",
-      "body": "WFE bull-case now $155\u2013165B in 2026, $200\u2013215B in 2027, and $225\u2013250B in 2028 with buy-side tracking at or above bull case. DRAM WFE is responding quickly to capex acceleration\u2014Lam's DRAM systems revenue doubled YoY, TEL's DRAM sales rebounded 66% YoY in the June quarter. Western toolmakers' China sales expected resilient in 2026 on stockpiling, then decline 2027\u201328 from domestic substitution.",
+      "title": "JPM: CTAs Accelerating Buying Near 4.60% 10Y Yield Threshold",
+      "body": "JPMorgan's morning Market Intel notes chatter of commodity trading advisors (CTAs) accelerating buying activity as the 10-year Treasury yield approaches 4.60%, identifying that level as a key trigger point for systematic buying flows.",
       "tickers": [],
       "source_item_ids": [
-        "x:2092395686507721142",
-        "x:2092371716886470909"
+        "x:2092581471772877065"
       ]
     },
     {
-      "title": "Samsung and SK Hynix to gain HBM4 share as NVIDIA diversifies away from single supplier",
-      "body": "Samsung and SK Hynix are expected to increase their share of 8-high HBM4 shipments, signaling a shift in NVIDIA's supply chain away from a concentrated HBM supplier base. YMTC and CXMT are also expanding NAND exports outside China through third-party module makers, with YMTC projected to hit 300k WPM total capacity by early 2027, surpassing Hynix's 260k WPM target.",
+      "title": "Oil Drops 3%+ on Iran-Oman Hormuz Reopening Talks; Hedgeye Turns Bearish",
+      "body": "Brent and WTI crude futures fell over 3% after Iran and Oman signaled progress on Strait of Hormuz negotiations, with satellite imagery also showing Gulf producers ramping output. Hedgeye flags oil breaking its TRADE and TREND technical levels with capital flowing out of oil positions.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2092532891557253443",
+        "x:2092545159154053535"
+      ]
+    },
+    {
+      "title": "Reuters Poll Raises S&P 500 Year-End 2026 Target to 7,900",
+      "body": "A Reuters poll of Wall Street strategists lifts the S&P 500 2026 year-end target to 7,900 from 7,620 in the May survey, citing strong corporate earnings, booming AI investment, and easing geopolitical tensions. The DJIA forecast was also raised to 54,500 from 52,500.",
       "tickers": [
-        "NVDA"
+        "SPY"
       ],
       "source_item_ids": [
-        "x:2092484503080206760",
-        "x:2092503684810998119"
+        "x:2092576070570476030",
+        "x:2092576316084154803"
       ]
     },
     {
-      "title": "INTU beats Q4 but FY27 guidance misses; TurboTax growth decelerates; stock -9% after-hours",
-      "body": "Intuit reported Q4 revenue of $4.35B vs. $4.27B estimate and adj. EPS of $4.03 vs. $3.58 expected, but FY27 revenue guidance of $23.28\u201323.51B missed the $23.72B consensus. TurboTax revenue growth decelerates to +2\u20133% vs. +7% in FY26. Q1 guidance also came in below expectations, and Mailchimp will become a separate reportable segment. Shares fell ~9% after-hours.",
+      "title": "Record Negative High-Beta vs. Low-Volatility Correlation\u2014Market Divergence Signal",
+      "body": "The 45-day correlation between high-beta and low-volatility stocks has hit the most negative level on record, signaling an unusually sharp bifurcation in market risk appetite that could indicate style-factor stress or a pending mean reversion.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2092543321621012708"
+      ]
+    },
+    {
+      "title": "AI Capex: $32M per MW Based on $8M Rack Pricing Analysis",
+      "body": "A fintwit analyst breaks down AI infrastructure costs: a single rack runs $8M and consumes 230-250kW, implying $32M per MW or $32 billion per gigawatt of compute capacity\u2014a figure relevant to assessing hyperscaler capex cycles.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2092574783473078560"
+      ]
+    },
+    {
+      "title": "China AI Infrastructure Spend Surges 9x YTD; DeepSeek Eyes $74B Valuation",
+      "body": "China AI infrastructure spending jumped from RMB 1.2 billion in 2025 to RMB 11 billion through July 2026. Separately, DeepSeek is reportedly seeking $7.4 billion in new funding at a $74 billion valuation, underscoring intensifying Chinese AI investment momentum.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2092555932723286232",
+        "x:2092558257248166058"
+      ]
+    },
+    {
+      "title": "AMD Confirms Zen 6 'Ryzen' CPU Roadmap: Olympic Ridge & Medusa Families",
+      "body": "AMD officially confirms its Zen 6 desktop CPU family (\"Olympic Ridge\") on the AM5 socket and Zen 6 mobile families (\"Medusa1\" and \"Medusa2\") on the FP10 socket, providing visibility on the next-gen consumer silicon roadmap.",
       "tickers": [
-        "INTU"
+        "AMD"
       ],
       "source_item_ids": [
-        "x:2092342041862656130",
-        "x:2092342437129941098"
+        "x:2092568755973091838"
       ]
     },
     {
-      "title": "Alibaba $10B share sale fails to allay AI financing concerns; insider buying signals confidence",
-      "body": "Alibaba's HK$80B ($10B) AI placement\u2014while driving Hong Kong-listed shares up 3%\u2014did not fully alleviate investor concerns about AI financing strategy. However, co-founders Joseph Tsai ($20.7M) and Eddie Wu ($4.98M) both bought stock this week, and Jack Ma purchased $76.5M of BABA in recent days, signaling strong insider confidence.",
-      "tickers": [
-        "BABA"
-      ],
-      "source_item_ids": [
-        "x:2092526932101570976",
-        "x:2092343676135465238"
-      ]
-    },
-    {
-      "title": "META settlement discussions with states on teen social media harm; one-time charge view",
-      "body": "Meta and state attorneys general have discussed settling the teen social media harm litigation. Analysts frame any multi-billion settlement as a non-recurring one-time event, positive vs. ongoing litigation overhang. Instagram chief Adam Mosseri separately testified in US trial, with states pressing on low teen adoption of safety features.",
+      "title": "META Gains Pre-Market on State AG Settlement Talks",
+      "body": "Meta Platforms was cited as gaining in pre-market trading (up 1.5%) with the catalyst attributed to developments in state attorney general settlement negotiations.",
       "tickers": [
         "META"
       ],
       "source_item_ids": [
-        "x:2092426353673183602",
-        "x:2092391839722823959"
+        "x:2092543927471538397",
+        "x:2092560121536602616"
       ]
     },
     {
-      "title": "MSFT extends data center useful lives from 15 to 25 years; Teams outage in Asia-Pacific resolved",
-      "body": "Microsoft disclosed last quarter it is extending data center useful lives from 15 to 25 years, which will shift finance leases to operating lease classification\u2014a meaningful accounting tailwind. Separately, a routine maintenance activity inadvertently caused a Microsoft 365/Teams service disruption across Asia-Pacific, which has since been fully resolved.",
+      "title": "MSFT Criticized for Capex and Cloud Disclosure Opacity (WSJ)",
+      "body": "WSJ's 'Heard on the Street' column highlights Microsoft's lack of transparency on capital expenditure levels and cloud business segmentation, raising concerns about investors' ability to assess financial guidance and capex allocation.",
       "tickers": [
         "MSFT"
       ],
       "source_item_ids": [
-        "x:2092428485419532732",
-        "x:2092429431323468244"
+        "x:2092545530396115405"
       ]
     },
     {
-      "title": "NVIDIA DLSS 4.5 releases with 2nd-gen Transformer model; Spectrum-X Ethernet Photonics enters full production",
-      "body": "NVIDIA released DLSS 4.5 with a 2nd-generation Transformer model for Ray Reconstruction, enhancing ray and path tracing on GeForce RTX GPUs. Spectrum-X Ethernet Photonics infrastructure (scale-out networking) also entered full production, addressing AI factory scale-out demands.",
+      "title": "OpenAI Sales Exec Returning to Salesforce\u2014Enterprise AI Talent Signal",
+      "body": "OpenAI sales executive Peter Doolan is reportedly returning to Salesforce, a potential signal of enterprise AI commercialization momentum shifting back toward established software platforms.",
       "tickers": [
-        "NVDA"
+        "CRM"
       ],
       "source_item_ids": [
-        "x:2092333691313795337",
-        "x:2092488955640094767"
+        "x:2092545554056364076"
       ]
     },
     {
-      "title": "US-Canada trade war escalates: 50% tariffs on $20B Canadian goods; Canada retaliates in kind",
-      "body": "The Trump administration imposed 50% tariffs on $20B of Canadian products across steel, aluminum, and electronics. Canadian PM Mark Carney announced matching dollar-for-dollar retaliatory tariffs starting September 8, after trade talks collapsed. Macro risk for any US companies with Canadian supply chain exposure.",
+      "title": "AMZN Sees Canadian Package Volume Growing Faster Than US",
+      "body": "Amazon projects its Canadian package volume will grow faster than US volumes over the next several years, signaling international logistics expansion as a near-term priority.",
+      "tickers": [
+        "AMZN"
+      ],
+      "source_item_ids": [
+        "x:2092540832821997772"
+      ]
+    },
+    {
+      "title": "PCE Inflation Due: Headline 3.6%, Core 3.3% Expected",
+      "body": "The Fed's preferred inflation gauge (PCE) was expected at 8:30 AM ET; consensus called for headline PCE at 3.6% and core PCE at 3.3%. Options market pricing treated the release as a near-non-event relative to NVDA earnings.",
       "tickers": [],
       "source_item_ids": [
-        "x:2092522120089669773",
-        "x:2092416234621137359"
+        "x:2092553345676284046",
+        "x:2092566721257189427"
       ]
     },
     {
-      "title": "Tesla Europe stabilizing: material sales growth over 5 months, EV market share range 10.2\u201310.8% in Q2",
-      "body": "Tesla's European EV business is stabilizing after significant market share losses, with material sales growth over the past 5 months amid a buoyant European EV market. Q2 market share held broadly sideways at 10.2\u201310.8% following a meaningful recovery in Q1. FSD is also attracting positive user comparisons to Waymo performance.",
-      "tickers": [
-        "TSLA"
-      ],
+      "title": "Consumer Confidence Signals Demand Weakness; Student Loan Delinquencies at Post-2020 High",
+      "body": "The Conference Board's August spread between expectations and present conditions widened to persistently negative territory. Separately, 10.6% of student loan balances are now 90+ days delinquent, the highest rate since 2020, adding to consumer credit stress signals.",
+      "tickers": [],
       "source_item_ids": [
-        "x:2092515213870338432",
-        "x:2092515218718884338"
+        "x:2092579299651916124",
+        "x:2092572011407020407"
       ]
     },
     {
-      "title": "NVDA largest SOX component but has least correlation to semiconductor sector",
-      "body": "As noted by multiple accounts, NVIDIA is the largest SOX member but shows the lowest correlation to the actual semiconductor sector it represents\u2014lower than even Altria. This disconnect is drawing attention ahead of earnings as a structural market structure observation.",
-      "tickers": [
-        "NVDA"
-      ],
+      "title": "Housing: Existing Inventory Hits Decade High, New Home Supply Remains Constrained",
+      "body": "Existing single-family home inventories reached their highest level in a decade while months' supply for new homes rose in July but stayed below pre-pandemic norms. FHFA House Price Index printed flat at 0.0% m/m in June vs. +0.2% consensus, suggesting price momentum has stalled.",
+      "tickers": [],
       "source_item_ids": [
-        "x:2092352075896127885",
-        "x:2092352151515226229"
+        "x:2092579114708263328",
+        "x:2092579649242992833"
       ]
     },
     {
-      "title": "Frontier labs co-design hardware faster than NVDA/AMD via model access; chip design barriers falling",
-      "body": "Analysis from Hot Chips: frontier AI labs can co-design hardware-software at a faster pace than Nvidia/AMD due to proprietary model access. OpenAI's Jalape\u00f1o developed in just nine months using AI-assisted design (Codex handles chip block design, kernel auto-writing). 'What Jalape\u00f1o made me realize is how much lower the barrier to chip design has fallen\u2014manufacturing will remain the primary moat until robotic automation.'",
-      "tickers": [
-        "NVDA",
-        "AMD"
-      ],
+      "title": "High-Yield Credit ($HYG) Prints All-Time High; Hedgeye Stays Long Healthcare (+7.8% Aug)",
+      "body": "Hedgeye flags $HYG posting a new all-time high, calling out economic bears who've been wrong on credit in 2026. The firm also remains long healthcare (XLV), which has gained 7.8% in August alone and 13% over the past month.",
+      "tickers": [],
       "source_item_ids": [
-        "x:2092377713256587514",
-        "x:2092379180268978486"
+        "x:2092539864042357076",
+        "x:2092538700798296467"
       ]
     },
     {
-      "title": "ANET identified as primary beneficiary of high-speed Ethernet demand surge",
-      "body": "Arista Networks flagged as primary beneficiary of high-speed Ethernet tailwinds, with both near-term trading catalyst and longer-duration fundamental positive thesis rated 'HIGH' magnitude of impact. Industry transceiver unit demand forecast has also been raised to 80\u201390M units vs. a prior consensus of 50M units.",
-      "tickers": [
-        "ANET"
-      ],
+      "title": "Debasement Trade Reportedly Replacing AI Mania as Market Narrative",
+      "body": "Bloomberg's Eric Balchunas notes the 'debasement trade' is starting to replace AI mania as a dominant market narrative, with BlackRock cited as a participant in this macro rotation.",
+      "tickers": [],
       "source_item_ids": [
-        "x:2092407338116255830",
-        "x:2092409726516748313"
+        "x:2092571431393476875"
       ]
     },
     {
-      "title": "SMCI guides 45% sequential Q3 data center revenue growth with accelerating momentum into Q4 and FY2028",
-      "body": "Super Micro Computer flagged record backlog carrying into Q3, with management projecting 45% sequential revenue growth in data center. Accelerating year-over-year growth is expected through Q4 and into fiscal 2028, making it a notable read-through for AI infrastructure spending.",
+      "title": "BofA: SpaceX Wireless Plans Could Benefit T-Mobile and Tower Companies",
+      "body": "Bank of America says SpaceX's wireless ambitions could boost T-Mobile through spectrum and network opportunities and lift tower company valuations, though building a competitive nationwide network would require massive capital and additional spectrum acquisition.",
       "tickers": [
-        "SMCI"
+        "T"
       ],
       "source_item_ids": [
-        "x:2092352766169530793"
-      ]
-    },
-    {
-      "title": "Nvidia employee charged with chip smuggling to China; regulatory risk flagged pre-earnings",
-      "body": "An NVIDIA employee has been charged with smuggling advanced chips into China, adding a regulatory risk overhang to the NVDA earnings event. Additionally, separate commentary noted 'not the best news ahead of NVDA earnings' without specifying the development, consistent with the smuggling charge.",
-      "tickers": [
-        "NVDA"
-      ],
-      "source_item_ids": [
-        "x:2092311545028174243",
-        "x:2092420923219431682"
+        "x:2092559290301132839"
       ]
     }
   ]

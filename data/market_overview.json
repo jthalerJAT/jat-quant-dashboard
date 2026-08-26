@@ -1,221 +1,206 @@
 {
-  "digest_type": "premarket",
-  "digest_dt": "2026-08-26T08:30:00-04:00",
-  "saved_at": "2026-08-26T13:19:07.485722+00:00",
+  "digest_type": "midday",
+  "digest_dt": "2026-08-26T12:00:00-04:00",
+  "saved_at": "2026-08-26T16:24:48.326898+00:00",
   "bullets": [
     {
-      "title": "NVDA earnings tonight: buyside expects $94-95B rev beat, $107-110B guide; options price ~5.4% move",
-      "body": "Multiple sell-side desks (JPM, UBS, GS) coalesce around buyside consensus of ~$94-95B Q2 revenue (a ~$2B sequential beat vs. Street at $92B) with October-quarter guidance of $107-108B; some buyside models discuss $110B+. Options market implies only ~5.4% move\u2014lowest in 8 quarters\u2014reflecting massive market-cap SPX weighting. Key investor focus: capex sustainability, AI infrastructure financing, competitive ASIC pressure (OpenAI Jalape\u00f1o), HBM de-spec scenarios, and China business outlook. NVDA has sold off after each of its last four earnings reports despite beats.",
+      "title": "July PCE barely rounds to 0.2%; September rate hike off table, 10Y breaks support",
+      "body": "Core PCE came in at 0.2455% MoM (just rounding to 0.2%), headline at 0.156% \u2014 both ~5bps above consensus but not alarming. Real personal spending was flat; income +0.43% MoM (beat). The soft-enough print removed September hike fears, and the 10Y broke its 4.67% TRADE signal per Hedgeye, with JPM noting CTAs accelerating buying as yields approach 4.60%.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a03e425f4a46cf5",
+        "gmail:1a03e446278dd02f"
+      ]
+    },
+    {
+      "title": "S&P flat at 7,675; NVDA earnings dominate narrative, pricing in 0.25% extra SPX move",
+      "body": "S&P 500 futures flat around 7,675\u20137,679 with VIX at 15.53. The market's primary focus is NVDA earnings (expected 4:20 PM ET) \u2014 SPX options are pricing in an extra 0.25% of movement for Thursday due to NVDA's ~7.3% index weight. Friday's Jackson Hole adds another 0.5% of priced-in SPX volatility. 0DTE straddle at $25/32bps suggests PCE itself was a non-event.",
+      "tickers": [
+        "NVDA",
+        "SPY"
+      ],
+      "source_item_ids": [
+        "x:2092573747987235245",
+        "x:2092566721257189427"
+      ]
+    },
+    {
+      "title": "Oil drops 3%+ on Iran-Oman Hormuz talks; Hedgeye targets $79",
+      "body": "Brent and WTI fell over 3% (WTI ~$80.66) as Iran and Oman discussed reopening the Strait of Hormuz and satellite data showed Gulf producers ramping output. Iran's IRGC complicates the picture by tying full reopening to end of war and US blockade lift, but the diplomatic progress is enough to break oil's key technical levels \u2014 Hedgeye flagged WTI broke both $84 trade and $83 trend supports, setting a new downside target of $79.09.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2092566505007247710",
+        "gmail:1a03e1b95a89d91e"
+      ]
+    },
+    {
+      "title": "2Q US corporate profits surged 22.8% YoY; GDP unrevised at +1.5%",
+      "body": "2Q GDP was unrevised at +1.5% q/q annualized, but real final sales to private domestic purchasers were revised higher to +4.2%. Before-tax corporate profit margins rose 1.0ppt to 17.4% \u2014 near historic highs \u2014 driven by lower labor costs. July durable goods orders improved 1.1% m/m with broad-based industrial capex gains, though tech capital goods orders slipped 1.1% m/m.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a03e79ba2af54a2",
+        "gmail:1a03e67f99c233c3"
+      ]
+    },
+    {
+      "title": "Consumer confidence divergence widening; student loan delinquencies hit 10.6%",
+      "body": "The spread between Conference Board consumer expectations and present situation widened further in August, with the gap persistently negative. UMich sentiment (more rate/inflation-sensitive) diverging from Conference Board (labor-focused). Separately, 10.6% of student loan balances are now 90+ days delinquent \u2014 the highest since 2020 \u2014 signaling underlying consumer credit stress.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2092579299651916124",
+        "x:2092572011407020407"
+      ]
+    },
+    {
+      "title": "Investors rotating to cash-return certainty; AI/momentum factor underperforming despite strong 2Q beats",
+      "body": "Cash Return is the top-performing S&P 500 factor YTD at +14.1%, displacing Price Momentum (now 4th). Semis, tech hardware, and industrials posted 96%, 93%, and 87% 2Q beat rates respectively but saw flat-to-negative post-earnings returns. H100 GPU rental rates are rolling over, and global memory names are being discounted for post-2028 supply concerns. EPS Momentum vs Price Momentum long is up +23.8% since June 21.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a03e0f6ffc9b7f0",
+        "gmail:1a03e2084719812f"
+      ]
+    },
+    {
+      "title": "High yield at all-time highs; healthcare sector up 7.8% in August on short squeeze",
+      "body": "HYG hit a record high \u2014 inconsistent with recession narratives per multiple strategists. The GS 'Most Short Healthcare' basket gained +5.2% in a single day and +13% over one month. Hedgeye rates XLV its highest-conviction US equity sector long and remains long Europe and Japan; Nasdaq showing lower highs and is not preferred.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2092538700798296467",
+        "gmail:1a03e8c3f5ab1c07"
+      ]
+    },
+    {
+      "title": "Reuters poll raises S&P 500 year-end target to 7,900; Wall Street cites earnings, AI, geopolitical easing",
+      "body": "Wall Street consensus (Reuters poll) lifted S&P 500 2026 year-end target to 7,900 from 7,620 in the May poll, with Dow forecast raised to 54,500 from 52,500. Drivers cited: strong corporate earnings, booming AI investment, and easing US-Iran tensions.",
+      "tickers": [
+        "SPY"
+      ],
+      "source_item_ids": [
+        "x:2092576070570476030",
+        "x:2092576316084154803"
+      ]
+    },
+    {
+      "title": "NVDA earnings: $92.2B revenue expected (+97% YoY); UBS sees $3-4B upside with $107-108B October guide",
+      "body": "NVDA is expected to report ~$92.2B in revenue tonight at 4:20 PM ET. UBS anticipates another beat-and-raise with ~$3-4B July-quarter revenue upside and October-quarter guidance of ~$107-108B on stable Blackwell demand. Citi raises estimates ~$1B/$1.5B above Street for July/October quarters ($300 PT, 24x FY27). Oppenheimer calls NVDA 'AI's best house' with $1T+ cumulative GB200/VR200 revenue 2025-27.",
       "tickers": [
         "NVDA"
       ],
       "source_item_ids": [
-        "gmail:1a03e098a2bc0123",
-        "gmail:1a03d7ecb30eba5f"
+        "gmail:1a03e8a3c103e004",
+        "gmail:1a03e16d159c1cfc"
       ]
     },
     {
-      "title": "OpenAI Jalape\u00f1o chip reportedly outperforms NVDA Blackwell on perf/watt; AVGO is partner",
-      "body": "Hot Chips 2026 reveal: OpenAI's Jalape\u00f1o ASIC (co-developed with AVGO, co-manufactured by Broadcom) reportedly delivers 1.5-2x better throughput/watt vs. NVDA GB200/GB300 and 1.7-3.6x lower latency, operating at 700W vs. NVDA's 1,200-1,400W. Jalape\u00f1o pairs with 216GB HBM4 at 15.4 TB/s. If production scales through 2027, analysts see material risk to NVDA's CUDA moat and hyperscaler GPU reliance. UBS notes OpenAI chip claims as positive for AVGO specifically.",
+      "title": "NVDA's $200B off-balance-sheet AI credit exposure by 2028 flagged as emerging risk",
+      "body": "Morgan Stanley and multiple strategists are focusing on NVDA's use of its balance sheet as a strategic AI financing tool \u2014 shifting capital access from shells to components like chips/servers. MS estimates NVDA could carry ~$200B in AI-related credit exposure by YE28. ~$92B of AI-related new corporate credit issuance globally since July reflects demand; over $20B in data center debt hit the market in July alone, pushing IG spreads wider.",
+      "tickers": [
+        "NVDA"
+      ],
+      "source_item_ids": [
+        "gmail:1a03ec3a064fe271",
+        "x:2092565037328076879"
+      ]
+    },
+    {
+      "title": "OpenAI Jalape\u00f1o ASIC delivers 1.5-1.9x efficiency vs NVDA; SemiAnalysis sees AVGO, CLS as beneficiaries",
+      "body": "OpenAI's custom Jalape\u00f1o ASIC reportedly delivers 1.5x-1.9x more AI work per watt and 1.7x-3.6x lower inference latency than NVDA chips. SemiAnalysis sees risk to NVDA, AMD, and CBRS from inference chip competition, with AVGO, CLS, and Samsung as the primary beneficiaries of the shift to custom silicon.",
       "tickers": [
         "NVDA",
         "AVGO"
       ],
       "source_item_ids": [
-        "x:2092330918644236787",
-        "gmail:1a03df49073a3cc7"
+        "gmail:1a03e6cbe0ff5c39"
       ]
     },
     {
-      "title": "AI networking is the new compute bottleneck; NVDA, AVGO, ANET, MRVL, COHR, LITE benefit",
-      "body": "Citi's Hot Chips Day 2 note argues data movement\u2014not raw compute\u2014is now the critical bottleneck in AI factories. NVDA's Spectrum-X Ethernet Multiplane architecture scales to 512k GPUs; AVGO's Thor Ultra, Arista, and co-packaged optics vendors (Lumentum, Coherent) are well-positioned. Memory innovations (LPDDR5X-PIM, CXL) are effectively specialized networking solutions. Google TPU v8 superpod will have 9,600 chips with 2PB shared memory, underscoring network-centric design trends.",
+      "title": "AI networking becomes bottleneck post-compute; constructive for AVGO, MRVL, ANET, optical vendors",
+      "body": "Multiple sell-side notes (Citi, JPM, MS) converge on networking as the next AI infrastructure bottleneck as compute constraints ease. Citi explicitly favors NVDA networking, AVGO, Marvell, Arista, and optical vendors as primary beneficiaries. CSP capex estimated at $950B in FY26, +94% YoY, with JPM seeing no fundamental weakness signals for semis in the next 6-12 months.",
       "tickers": [
-        "NVDA",
         "AVGO",
-        "ANET",
         "MRVL",
-        "COHR",
-        "LITE",
-        "ALAB"
+        "ANET"
       ],
       "source_item_ids": [
-        "gmail:1a03c946f8595d42",
-        "gmail:1a03c9446671c819"
+        "gmail:1a03e5cc2a9612db",
+        "gmail:1a03e5903ae3b750"
       ]
     },
     {
-      "title": "AI infrastructure demand exceptionally strong; HBM tight into 2027, memory prices surging",
-      "body": "JPM Asia Tech Tour finds GPU/ASIC demand exceptionally strong with intensifying bottlenecks in advanced packaging and substrates; TSMC's dominance reinforced. HBM remains in serious shortage expected into 2027; DDR5 16Gb spot prices rose +6% MoM (+880% YoY); NAND rebounded +14% MoM. Samsung and SK Hynix increasing 8-high HBM4 shipments, reshaping NVDA's supply chain. WFE buy-side forecasts tracking at or above bull-case assumptions of $155-165B for 2026.",
-      "tickers": [
-        "NVDA",
-        "MU",
-        "TSM"
-      ],
-      "source_item_ids": [
-        "gmail:1a03e098a2bc0123",
-        "gmail:1a03d7ecb30eba5f"
-      ]
-    },
-    {
-      "title": "INTU down ~9% premarket on FY27 reset: revenue guide +9-10% vs consensus +11%, TurboTax to +2-3%",
-      "body": "Intuit's FQ4 beat (revenue +14% YoY, EPS $4.03 vs $3.58 est) was overshadowed by a deep FY27 reset: revenue guided to $23.28-23.51B (consensus $23.72B), TurboTax growth guided to +2-3% (vs +7% in FY26) as AI disruption hits low-end DIY filers. Three-year GBSG CAGR lowered to 10-15% from 15-20%. JPM downgrades to Neutral, cuts PT to $331 from $605; Piper downgrades to Underweight ($290 PT); NTM P/E compresses to ~13.6x vs. 5-year avg 31x. FY27 non-GAAP EPS guide $28.69-28.93 above consensus on workforce cuts and efficiency.",
-      "tickers": [
-        "INTU"
-      ],
-      "source_item_ids": [
-        "gmail:1a03d99394f30f5a",
-        "gmail:1a03da0e79f27dc6"
-      ]
-    },
-    {
-      "title": "Broad SaaS weakness premarket; IGV -2.2% YTD vs S&P +12.9%; AI disruption scrutiny widening",
-      "body": "INTU and ZM both declined post-earnings, with SaaS/cloud names broadly weak in premarket (NOW, SNOW, TEAM, HUBS, NET, DDOG all down 1.3-2.8%). Wolfe All-SaaS index at 5.7x FY+2 EV/Sales with multiples down 2.58% week-over-week. ZM's enterprise revenue accelerated to 7.8% YoY but online decelerated to 0.6% YoY; full-year FCF raised to $1.78-1.82B (35.4% margin).",
-      "tickers": [
-        "INTU",
-        "TEAM",
-        "SNOW",
-        "HUBS",
-        "NET"
-      ],
-      "source_item_ids": [
-        "gmail:1a03dff9e70821b1",
-        "gmail:1a03d4e1b5bc35e9"
-      ]
-    },
-    {
-      "title": "Semtech (SMTC) blowout: Q3 data center guided +45% QoQ, +160% YoY; record backlog",
-      "body": "Semtech reported Q2 EPS $0.71 vs $0.61 est; Q3 guidance $410-415M vs $360M consensus, with data center revenue guided +45% QoQ and +160% YoY in Q3 driven by FiberEdge 1.6T and CopperEdge. Record backlog provides >70% FY28 visibility. Gross margin improving to 58.3% in Q3 post cellular module divestiture. Data center expected to reach $200M+/quarter run rate by FQ1 2028.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a03dd887175e135",
-        "gmail:1a03b1452349799f"
-      ]
-    },
-    {
-      "title": "Oil drops ~3-4% on Iran-Oman Strait of Hormuz framework talks; yields fall 7bp",
-      "body": "Iran and Oman reached a preliminary framework to temporarily reopen the Strait of Hormuz via a toll-managed corridor and mine-clearing project; Rubio confirmed U.S. unlikely to launch new Iran strikes near-term. Brent settled at $88.58 (-3.9%), WTI at $82.36 (-3.1%). The de-escalation pushed 10-year Treasury yields down ~7bp to 4.63% and helped lift equities: S&P +0.34%, Nasdaq 100 +0.6%. Tanker traffic through Hormuz had dropped to only 5 vessels Tuesday vs. 15-vessel 10-day average.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a03db659ae120ef",
-        "x:2092406859999437225"
-      ]
-    },
-    {
-      "title": "Fed internally divided: 4 of 12 banks sought July rate hike; Barkin calls decision 'close call'",
-      "body": "Fed minutes revealed four regional Fed bank directors voted to raise the discount rate at the July meeting, with the full FOMC voting 9-3 to hold. Richmond Fed's Barkin characterized the July hold as a 'close call' and flagged U.S. public debt surpassing $40T as a sustainability risk. Jackson Hole speech by Fed Chair Kevin Warsh on Friday is the next major policy catalyst; markets positioned for growth/size factor outperformance in the 1-3 weeks post-Jackson Hole.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2092311459057299695",
-        "x:2092380639869944026"
-      ]
-    },
-    {
-      "title": "ECB ready to hike 25bp in September; eurozone inflation near 3% driven by Iran energy shock",
-      "body": "Multiple ECB policymakers signal readiness to raise rates in September to address Iran-war energy-driven inflation near 3%, but show little appetite for additional tightening signals beyond September. ECB's Schnabel described the economy as gaining momentum but cautioned on natural gas. ANZ Bank separately forecasts RBA hiking 25bp in November as Australian CPI came in at 3.5% YoY (est 3.3%) with trimmed mean at 3.6%.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2092331163222155458",
-        "x:2092483345632710817"
-      ]
-    },
-    {
-      "title": "US-Canada trade war escalates: 50% tariffs on $20B Canadian goods; Canada retaliates dollar-for-dollar",
-      "body": "The Trump administration imposed 50% tariffs on ~$20B of Canadian goods (steel, aluminum, electronics); Canadian PM Carney announced matching dollar-for-dollar retaliation starting September 8. GS recommends buying USDCAD 1.40 calls (2-month, 4.8 vol/24.5bp) as CAD depreciation risk remains underpriced in options despite repeated escalation headlines.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2092522120089669773",
-        "gmail:1a03b6f680fb078d"
-      ]
-    },
-    {
-      "title": "Gold hits $4,657 (+8% in a week) on fiscal concerns, debasement trade, weaker dollar",
-      "body": "Gold closed at $4,657/oz after four consecutive sessions of gains, driven by falling Treasury yields from Treasury buyback operations, a weaker USD, and growing U.S. fiscal stability concerns (national debt surpassed $40T at 123% of GDP). Citi targets $5,000 for gold over the next year; Jackson Hole speech seen as near-term catalyst\u2014dovish = bullish for gold, hawkish = halt.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2092386107438891147",
-        "gmail:1a03d98efc627617"
-      ]
-    },
-    {
-      "title": "Alibaba: $10B HK placement signals CCP AI support; Jack Ma and co-founders buying $100M+",
-      "body": "Alibaba's HK$80B follow-on placement (completed at 8.4% discount) was interpreted by Jefferies as signaling Communist Party backing for AI buildout. JP Morgan maintains OW, arguing compute IRR of 22% vs. ~10% cost of capital makes capex economics sound. Jack Ma purchased $76.5M of BABA; co-founders Joseph Tsai ($20.7M) and Eddie Wu ($4.98M) also bought in recent days. China AI capex forecast raised 23% over 5-year cumulative estimate.",
-      "tickers": [
-        "BABA"
-      ],
-      "source_item_ids": [
-        "gmail:1a03df15e52862fd",
-        "gmail:1a03bcff678fb11f"
-      ]
-    },
-    {
-      "title": "META up ~1.3% premarket on settlement talks with state AGs over teen addiction trial",
-      "body": "Meta is in settlement discussions with 29 state attorneys general during the second week of an 8-10 week trial alleging Facebook and Instagram were designed to addict teenagers. Meta models worst-case judgment near $1.4T (near its market cap); any settlement would likely be far less and is being characterized by investors as a potential non-recurring one-time event. CEO Zuckerberg expected to testify.",
+      "title": "META settles child harm case for $18B (bullish vs feared $1.4T); stock +4.9% pre-market",
+      "body": "Meta agreed to pay ~$18B to 29 state AGs over 10 years ($12.7B to states, ~$5.3B contingent on YouTube and TikTok compliance). META will accrue ~$10B legal expense in Q3 but Q3 guidance is otherwise unchanged. The settlement is widely viewed as favorable vs. the potential $1.4T trial loss scenario. Stock opened +4.9% to ~$597.90. New teen safety controls include 2-hour daily limits and Night Mode.",
       "tickers": [
         "META"
       ],
       "source_item_ids": [
-        "gmail:1a03da468f3eff84",
-        "gmail:1a03cfddb107b568"
+        "gmail:1a03e5fd4be7c394",
+        "gmail:1a03e59604c37673"
       ]
     },
     {
-      "title": "Healthcare sector surges: XLV hit all-time high, +7.8% in August; GS Most Short HC basket +5.2% Tuesday",
-      "body": "Hedgeye's Quad 1 'Dollylocks' framework (declining inflation rate-of-change + accelerating real growth) is bullish on healthcare: XLV and FXH are their #1 US equity sector allocation. 468 of S&P 500 companies posted +50% YoY EPS acceleration. HYG high yield hit all-time high. Oil's break below key levels opened further selling, lowering UST 10Y TRADE Signal to 4.67%.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a03df56bc066da7",
-        "gmail:1a03d7e240e659a7"
-      ]
-    },
-    {
-      "title": "DKS down ~31% post-earnings: Foot Locker comps -3.6% drag; 3 downgrades, NKE also cut",
-      "body": "Dick's Sporting Goods missed Q2 by 0.9% revenue and 6.1% EPS, with core DKS comps +4.9% but Foot Locker comps -3.6% dragging results. FL guided to a segment loss of ($80M-$40M) vs. prior profit of $110-150M. Three downgrades (Telsey to $145, Truist to $135, KGI to neutral) and NTM P/E of 8.5x vs. 5-year average of 12.0x. GS argues the weakness is FL-specific (inventory excess, footwear softness) not competitive; DKS core business maintained 4.9% comp growth. Truist also downgraded NKE to Hold ($42 PT).",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a03df254254f3bb",
-        "gmail:1a03e0698b0d7687"
-      ]
-    },
-    {
-      "title": "Treasury long-end buyback underperforms: accepted only $1.19B of $8.4B offered; curve implications",
-      "body": "Treasury's buyback of 2031-2033 coupons accepted just $1.19B (14.2% hit rate) vs. the $4B forecast, covering only 10 of 25 eligible issues. JPM notes increased buyback frequency has smoothed price impacts but GS argues long-end buybacks are unlikely to address the macro drivers of higher long-term yields. The 5s/30s curve at 78-81bp support is a key technical level; inability to hold would derail medium-term steepening momentum.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2092346399463448790",
-        "gmail:1a03b1452349799f"
-      ]
-    },
-    {
-      "title": "Moonshot AI (China) in early talks with MSFT, AMZN, GOOGL to host Kimi K3 at up to 30% revenue share",
-      "body": "Reuters reports Moonshot AI is negotiating a potential first-of-its-kind revenue-sharing deal with Microsoft Azure, Amazon Web Services, and Google Cloud to host its Kimi K3 model; Moonshot would seek up to 30% of related cloud service revenue. Talks are early-stage. Separately, China's DeepSeek revenue hit $70.7M in Jan-Jul 2026 (~10x full-year 2025) and is seeking a second funding round at RMB 500B valuation.",
+      "title": "Memory pricing recovering: DDR5 spot up to $3,600; MS forecasts 18% DRAM undersupply in 2026",
+      "body": "Citi Korea tech tour found 64GB DDR5 channel spot prices improved to $3,600 from $3,000, better than market expectations. Morgan Stanley forecasts ~18% global DRAM undersupply in 2026 and ~14% in 2027, expecting DRAM prices +20-30%+ in 3Q26. NAND pricing also solid for eSSD as suppliers shift production mix. Memory pricing expected to trend up from August onward.",
       "tickers": [
-        "MSFT",
-        "GOOGL",
-        "AMZN"
+        "MU"
       ],
       "source_item_ids": [
-        "gmail:1a03dae20c65ee63",
-        "gmail:1a03db659ae120ef"
+        "gmail:1a03e899934b2124",
+        "gmail:1a03e6cbe0ff5c39"
       ]
     },
     {
-      "title": "ORCL added to Citi upside catalyst watch; CDS at record wides create opportunity per Citi",
-      "body": "Citi opened a positive 90-day catalyst watch on ORCL after a 30%+ drawdown (50%+ peak-to-trough, 4-5 standard deviation move) and noted ORCL added $85B+ QoQ backlog in May 2026. CDS spreads reportedly exceeded 2008 crisis peaks (per Twitter), which Citi interprets as investor capitulation creating entry opportunity. FY30 EPS estimated at $22, 18x PT = $330. Q1 earnings (~Sep 10) and October AI World investor day are key catalysts.",
-      "tickers": [
-        "ORCL"
-      ],
-      "source_item_ids": [
-        "gmail:1a03dcec4c8eef6f",
-        "gmail:1a03dd02c2deb871"
-      ]
-    },
-    {
-      "title": "Copper hits all-time high; data center gas demand upgraded to 10-11 bcf/d by 2030; pipeline stocks favored",
-      "body": "Copper reached a record closing price during the session. GS raised its data center-driven natural gas demand forecast to 10-11 bcf/d by 2030 (from 7-8 bcf/d), rating WMB and KMI Buy as preferred pipeline beneficiaries. Large-scale pipeline and power project announcements expected in 2H26 as catalysts for energy equities.",
+      "title": "MATCH Act could ban nearly all ASML China sales; potential 15% revenue headwind",
+      "body": "The MATCH Act, moving through House and Senate, seeks to ban all immersion lithography equipment sales to China. Jefferies believes the Act will likely pass in broadly current form before reaching the President, despite market skepticism that Trump will reject it. If passed as written, a ~15% ASML revenue impact is likely and newsflow is expected to pressure ASML multiples near-term.",
       "tickers": [],
       "source_item_ids": [
-        "gmail:1a03e0698b0d7687",
-        "x:2092513536496816270"
+        "gmail:1a03e6ba0f857797"
+      ]
+    },
+    {
+      "title": "JPM: CSP capex hitting $950B in FY26 (+94% YoY); EM equities at decade-high inflows, below-average PE",
+      "body": "JPM's global thematic update sees hyperscaler capex growth revised higher for the next 3 years, with Big 3 backlog growth outpacing capex. EM equities are outperforming US YTD by 800bps, with annual inflows at ~$70B (highest since 2022), and EM 12m forward PE at 10.2x (1 std dev below average). Dollar (DXY) below 100, USD/JPY below 160. Fed pricing ~27bps of hikes in FY26.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a03e356acabfab3",
+        "gmail:1a03e5903ae3b750"
+      ]
+    },
+    {
+      "title": "High-beta vs low-vol correlation hits record negative; factor divergence at extremes",
+      "body": "The 45-day correlation between high-beta and low-volatility stocks reached its most negative level on record, signaling extreme market divergence and potential mean-reversion risk. This aligns with the broader factor rotation away from momentum toward cash return and earnings quality.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2092543321621012708"
+      ]
+    },
+    {
+      "title": "INTU guides FY27 growth to 9-10% vs 11% consensus; TurboTax at 2-3% signals business model reset",
+      "body": "Intuit's FY27 guidance disappointed across the board \u2014 revenue +9-10% vs ~11% consensus, TurboTax +2-3% vs ~5%, GBSG ~12% vs 15-20% prior medium-term target. The company is pivoting from ARPC expansion to top-of-funnel customer acquisition with new low-cost tiers (QuickBooks Free, TurboTax free), resetting medium-term growth. Stock down ~10-11% pre-market; multiple analysts cut PTs while maintaining buy/overweight ratings.",
+      "tickers": [
+        "INTU"
+      ],
+      "source_item_ids": [
+        "gmail:1a03e71d1d1f2d38",
+        "gmail:1a03e259c3275d37"
+      ]
+    },
+    {
+      "title": "Oil weakness + PCE dovish print drives 10Y below 4.67% support; ECB hike September expected",
+      "body": "Hedgeye flagged the 10Y broke immediate-term trade support at 4.67% on oil weakness, creating a dovish bias. UST 2yr also broke support at 4.24%/4.21%. Separately, one strategist notes the ECB is set to hike in September, with positioning remaining long euro vs. short dollar. German exporter sentiment hit a 4.5-year high and Merz projects 1%+ GDP growth in 2027.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a03e1b95a89d91e",
+        "x:2092537704881774930"
+      ]
+    },
+    {
+      "title": "PANW explored DDOG and OKTA acquisitions before pivoting to CyberArk/Chronosphere; DDOG +5%",
+      "body": "The Information reported Palo Alto Networks explored acquiring Datadog and Okta as recently as last year before those discussions ended. DDOG shares moved +5% in early trading on the report. PANW reports FQ4 imminently with Piper Sandler and DA Davidson expecting modest beats, though analysts debate whether Mythos/AI monetization can support durable reacceleration.",
+      "tickers": [
+        "MDB"
+      ],
+      "source_item_ids": [
+        "gmail:1a03e5f9bec8ad3e"
       ]
     }
   ]
