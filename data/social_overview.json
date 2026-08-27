@@ -1,214 +1,232 @@
 {
-  "digest_type": "midday",
-  "digest_dt": "2026-08-27T12:00:00-04:00",
-  "saved_at": "2026-08-27T16:25:27.693132+00:00",
+  "digest_type": "eod",
+  "digest_dt": "2026-08-27T18:00:00-04:00",
+  "saved_at": "2026-08-27T22:36:11.575575+00:00",
   "bullets": [
     {
-      "title": "NVDA guides ~70% FY28 revenue growth vs. 45% consensus, triggers broad PT upgrades",
-      "body": "Nvidia's Q2 print showed FY2028 revenue guidance of ~70% YoY growth vs. the 45% consensus, with BofA noting 'demand still exceeds supply.' Wall Street responded with a flurry of PT raises: Bernstein to $400, BofA Buy/$350, Melius to $420, JPMorgan to $320, Goldman to $300 (but flagged 'elevated expectations could keep shares range-bound near-term'). CFO Colette Kress confirmed the company is working to close the supply-demand gap.",
+      "title": "NVDA surges 7-8.5% post-earnings; $359B-$500B market cap added intraday",
+      "body": "Nvidia jumped 7.1-8.5% at the open following earnings, adding $359B-$500B in market cap intraday \u2014 on track for its best day since April 9, 2025. Q2 revenue came in at $96B (+106% YoY), net income ~$60B, gross margins 75%, and FY28 guidance of +70% vs. Street at +45%. One analyst noted demand is running 115-120% above supply capacity, with NVDA stating revenue would be materially higher if not supply-constrained.",
       "tickers": [
         "NVDA"
       ],
       "source_item_ids": [
-        "x:2092914585091092745",
-        "x:2092908166950609265"
+        "x:2092999983255498814",
+        "x:2092968358429818950"
       ]
     },
     {
-      "title": "AWS + NVIDIA commit 2M additional GPUs for 2027-28; Google/NVDA adding ~45GW compute",
-      "body": "AWS and NVIDIA announced 2 million additional GPU commitments for 2027 and 2028, spanning Blackwell Ultra, Rubin, Rubin Ultra, and Vera CPU architectures. Separately, Google and Nvidia together are expected to add approximately 45GW of compute capacity next year, underscoring the depth of the AI infrastructure buildout.",
+      "title": "NVDA price target upgrades: Raymond James to $515, Evercore $465, Bernstein $400",
+      "body": "Following the earnings beat, Raymond James raised its NVDA price target to $515 (from $352, Strong Buy), implying ~$13T market cap; Evercore raised to $465 (from $413, Outperform); Bernstein raised to $400; Bernstein analyst Srasgon also raised to $400. Multiple institutions see extended runway on AI infrastructure spending visibility through 2028.",
+      "tickers": [
+        "NVDA"
+      ],
+      "source_item_ids": [
+        "x:2092956511437771074",
+        "x:2092948033319346572"
+      ]
+    },
+    {
+      "title": "NVDA reportedly agrees to acquire Hugging Face for ~$12.9B",
+      "body": "CNBC and multiple fintwit accounts report Nvidia has agreed to acquire open-source AI platform Hugging Face for approximately $12.9B. Neither company has publicly confirmed the transaction. Hugging Face is described as the center of the open-source AI ecosystem for models, datasets, and developer tools; Jensen Huang has been signaling 'open source-maxing.'",
+      "tickers": [
+        "NVDA"
+      ],
+      "source_item_ids": [
+        "x:2092991642672181271",
+        "x:2092994088643760174"
+      ]
+    },
+    {
+      "title": "AWS to add 2M Nvidia GPUs for 2027-2028; Anthropic signs $45B Nscale deal",
+      "body": "AWS is purchasing multiple million additional Nvidia GPUs for 2027-2028 deployment, even while ramping its own Trainium2/3/4 roadmap (1M+ Trainium2 chips already deployed). Separately, Anthropic signed a $45B deal with Nscale for 460MW of compute capacity at its West Virginia campus over six years \u2014 a bullish signal for sustained AI infrastructure spend.",
       "tickers": [
         "NVDA",
-        "AMZN",
+        "AMZN"
+      ],
+      "source_item_ids": [
+        "x:2093033924226339183",
+        "x:2093032581113540742"
+      ]
+    },
+    {
+      "title": "NVDA supply-constrained; 2027 AI data center demand projected at 2x deliverable supply",
+      "body": "NVDA management stated revenue would be significantly higher without supply constraints, with demand running 115-120% above capacity. Separately, a deep-dive analysis projects North American AI data center IT demand in 2027 at ~35GW versus deliverable supply of 16.5-23.4GW, with power as the binding constraint \u2014 reinforcing the structural scarcity thesis.",
+      "tickers": [
+        "NVDA"
+      ],
+      "source_item_ids": [
+        "x:2093009676564832359",
+        "x:2092963212115268096"
+      ]
+    },
+    {
+      "title": "Nvidia partners with Hark for gigawatt-scale agentic AI; Vera servers delivered to AWS",
+      "body": "NVIDIA and Hark formed a long-term partnership to develop personalized agentic AI at gigawatt scale. NVIDIA's Ian Buck personally delivered AWS's first Vera CPU Server and Vera Rubin GPU, positioning the Vera platform for enterprise agentic workloads with 'more tokens per dollar' efficiency.",
+      "tickers": [
+        "NVDA",
+        "AMZN"
+      ],
+      "source_item_ids": [
+        "x:2093110955708675",
+        "x:2092960847408583120"
+      ]
+    },
+    {
+      "title": "NVDA market divergence: gains not lifting supply chain (MU, memory stocks lag)",
+      "body": "Fintwit broadly noting that NVDA's 7%+ rally is not lifting memory and supply-chain peers \u2014 Micron (MU) notably lagging. One analyst challenged the consensus cycle-peak thesis on MU and SNDK, arguing HBM, DRAM, and NAND should be evaluated as distinct business segments. Contrarian voice took a bullish position on NVDA/MU/SNDK/LITE against sell-the-news sentiment around Anthropic IPO.",
+      "tickers": [
+        "NVDA",
+        "MU",
+        "SNDK"
+      ],
+      "source_item_ids": [
+        "x:2092993997375406293",
+        "x:2093004711964070335"
+      ]
+    },
+    {
+      "title": "S&P 500 up 80bps but 10 of 11 sectors red; tech concentration risk flagged",
+      "body": "Despite the S&P 500 gaining ~80bps, 10 of 11 sectors were in the red with tech up 3% carrying the entire index. Only 161 S&P 500 stocks were advancing; the equal-weight index ($RSP) was down 30bps. Market participants flagged that single-stock (NVDA) leadership is insufficient to sustain a healthy broader tape.",
+      "tickers": [
+        "SPY",
+        "NVDA"
+      ],
+      "source_item_ids": [
+        "x:2093025434405392510",
+        "x:2092979126449635511"
+      ]
+    },
+    {
+      "title": "Salesforce surges 19%, best gain since Aug 2020; SaaS bottom thesis gaining credibility",
+      "body": "CRM jumped 19%, its largest single-day gain since August 2020, with one prominent voice calling the SaaS sector up 41% since a May call on the bottom. Enterprise AI is creating market bifurcation \u2014 not a uniform collapse \u2014 favoring well-positioned vendors. Cyber (CRWD +18%, biggest move in 2 years) also reinforces the enterprise software recovery narrative.",
+      "tickers": [
+        "CRM"
+      ],
+      "source_item_ids": [
+        "x:2092972190031577367",
+        "x:2093020711874908171"
+      ]
+    },
+    {
+      "title": "CRM Claudeforce adoption thesis: positive for GPU/HBM/DRAM/NAND suppliers",
+      "body": "One analyst argued that if Salesforce's Claudeforce product gains enterprise traction, it would require substantial GPU, CPU, HBM, DRAM, NAND, and HDD capacity \u2014 a bullish read-through for NVDA, MU, SNDK, and LITE. Early commentary suggests Salesforce customers are likely to embrace the development.",
+      "tickers": [
+        "CRM",
+        "NVDA",
+        "MU",
+        "SNDK",
+        "LITE"
+      ],
+      "source_item_ids": [
+        "x:2093021585724547434",
+        "x:2093016590107242979"
+      ]
+    },
+    {
+      "title": "META could spend up to $10B/year on Anthropic AI; AI consumer distribution advantage highlighted",
+      "body": "NYT reports Meta is projected to spend up to $10B annually on Anthropic AI. Separately, fintwit analysts highlight that the AI consumer race favors distribution and cost-efficient serving over model quality \u2014 giving META and GOOGL structural advantages. Meta is also attempting enterprise AI expansion with a fallback consumer-only strategy.",
+      "tickers": [
+        "META",
         "GOOGL"
       ],
       "source_item_ids": [
-        "x:2092940075852026119",
-        "x:2092940730159522219"
+        "x:2092990586332533032",
+        "x:2093001897279947217"
       ]
     },
     {
-      "title": "SPX pricing 35bps volatility for Warsh Jackson Hole speech; Nasdaq vol back to investable",
-      "body": "One trader notes NVDA earnings 'put a bid into tech' but the market's real focus is Fed Chair Warsh's 10AM ET speech Friday, with SPX implying an additional 35bps of movement. A dovish/neutral Warsh would shift attention to 8,000 SPX support into September OPEX. Separately, Nasdaq volatility is moving 'back into the investable bucket' post-NVDA.",
+      "title": "Meta agrees to $17B settlement over child addiction claims; AG deal framed as competitive advantage",
+      "body": "Meta reportedly agreed to pay $17B to settle claims it addicted children to Instagram and Facebook. Separately, a state AG settlement is characterized as allowing Meta to 'flaunt the high road' while potentially disadvantaging competitors \u2014 an unusual framing of litigation risk as strategic benefit.",
       "tickers": [
-        "NVDA"
+        "META"
       ],
       "source_item_ids": [
-        "x:2092933721326309566",
-        "x:2092901509914636728"
+        "x:2092986898482417786",
+        "x:2092982288963502182"
       ]
     },
     {
-      "title": "NVDA expected to break all-time highs; shorts to cover quickly, underweight longs lag",
-      "body": "One fintwit account with a track record on NVDA calls argues the stock will break all-time highs, with funding shorts forced to cover quickly while underweight long-only managers will take longer to reposition. NVDA's average post-earnings move is 7.4% across the last 12 reports vs. 2.75% over the past 8 quarters.",
-      "tickers": [
-        "NVDA"
-      ],
+      "title": "SIVE pipeline surges to $1.2B from $400M in under a year; 55-60% gross margin thesis",
+      "body": "SIVE's revenue opportunity pipeline grew from $400M to $1.2B in less than a year. The company's InP laser business carries structurally higher gross margins (55-60%) versus transceiver peers (~30%), making direct comparisons misleading. Semiconductor qualification-stage dynamics cited as a reason the stock hasn't yet moved despite pipeline growth.",
+      "tickers": [],
       "source_item_ids": [
-        "x:2092895391284887854",
-        "x:2092929985380004135"
+        "x:2093034809069379783",
+        "x:2093031636678090891"
       ]
     },
     {
-      "title": "NVDA earnings lift NDX +1.0%, SPX +0.4%; other Mag 7 names softer in premarket",
-      "body": "Tech rallied sharply on NVDA's guidance beat (SPX +0.4%, NDX +1.0%), easing AI spending slowdown fears. However, other Mag 7 names were broadly lower in premarket: AAPL -1.1%, GOOGL -0.4%, AMZN -0.3%, suggesting the NVDA lift is stock-specific rather than a broad AI re-rating.",
+      "title": "APP fell 38% post-earnings; analysts assessing whether digital ad thesis is broken",
+      "body": "APP crashed 38% following its earnings release. Multiple fintwit analysts are mapping the digital advertising supply chain \u2014 comparing APP against GOOGL, TTD, and OMC \u2014 to determine if the sell-off represents a broken thesis or a buying opportunity. At least one analyst owns APP and is conducting a risk/reward assessment.",
       "tickers": [
-        "NVDA",
-        "AAPL",
-        "AMZN",
+        "APP",
         "GOOGL",
-        "META"
+        "TTD"
       ],
       "source_item_ids": [
-        "x:2092909655101972578",
-        "x:2092939540088390004"
+        "x:2093010691581968611",
+        "x:2092968762194485336"
       ]
     },
     {
-      "title": "Analyst skepticism on NVDA visibility: 'circular deal announcements' and AI headline fatigue",
-      "body": "At least one analyst flags 'Jensen's constant visibility this quarter, the myriad of circular deal announcements' as a concern, suggesting investors should apply more scrutiny to whether announced AI deals represent genuine incremental demand or headline recycling.",
-      "tickers": [
-        "NVDA"
-      ],
-      "source_item_ids": [
-        "x:2092943432322793935"
-      ]
-    },
-    {
-      "title": "Broadcom enabling OpenAI's 'Jalape\u00f1o' custom inference chip",
-      "body": "Broadcom is reportedly enabling OpenAI's first custom inference chip, codenamed 'Jalape\u00f1o,' which could disrupt the competitive hardware landscape for AI accelerators.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2092944677963981136",
-        "x:2092943345479712842"
-      ]
-    },
-    {
-      "title": "META holds compute surplus, can monetize excess inference capacity to third parties",
-      "body": "One account argues META 'is in a perfect negotiating position' given it holds excess compute capacity relative to current inference demand while the broader industry faces a compute shortage. META could sell excess fleet capacity to external customers, creating a new revenue stream.",
-      "tickers": [
-        "META"
-      ],
-      "source_item_ids": [
-        "x:2092940056608588213"
-      ]
-    },
-    {
-      "title": "META planning first KRW-denominated bond issuance in South Korea (\u22651T won)",
-      "body": "Korea Economic Daily reports Meta is seeking to issue Korean won-denominated bonds worth at least KRW 1 trillion \u2014 marking the first time a U.S. mega-cap tech company has tapped the KRW corporate bond market.",
-      "tickers": [
-        "META"
-      ],
-      "source_item_ids": [
-        "x:2092904967329951772"
-      ]
-    },
-    {
-      "title": "EU Commission orders META to improve screen time management and parental controls",
-      "body": "EU Commission spokesperson issued a directive requiring Meta to enhance screen time management features and strengthen parental oversight capabilities, adding to the regulatory compliance burden on the platform.",
-      "tickers": [
-        "META"
-      ],
-      "source_item_ids": [
-        "x:2092921389519179777"
-      ]
-    },
-    {
-      "title": "Trump admin weighing new semiconductor tariffs; potential expansion to laptops and servers",
-      "body": "Politico reports the White House is weighing a new round of tariffs on chips and is also considering expanding duties to laptops and servers. Policy could change and a phase-in period is reportedly under discussion \u2014 but the risk overhang is real for hardware supply chains.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2092900838914306354",
-        "x:2092901011480629276"
-      ]
-    },
-    {
-      "title": "AI basket repositioned from #1 to #2 weighting; NBIS/IREN relief rally expected but seen as short-lived",
-      "body": "One account notes its AI basket was 'highest weighted' and has been reduced to second position. On the single-name side, NBIS and IREN are flagged for a relief rally today on NVDA's print, though the same author is 'skeptical the rally will be long-lived' given the macro backdrop.",
-      "tickers": [
-        "NBIS",
-        "IREN"
-      ],
-      "source_item_ids": [
-        "x:2092905113035665457",
-        "x:2092918105873756426"
-      ]
-    },
-    {
-      "title": "S&P 500 EPS growth hits 52% YoY with 477 companies reported post-NVDA/CRWD",
-      "body": "Post NVDA and CRWD prints, 477 of S&P 500 companies have now reported, showing YoY EPS acceleration of +52% \u2014 the strongest read since the 4Q21 post-pandemic rebound when corporate profits grew 27.9%.",
-      "tickers": [
-        "NVDA",
-        "SPY"
-      ],
-      "source_item_ids": [
-        "x:2092900632336138670",
-        "x:2092934243911442468"
-      ]
-    },
-    {
-      "title": "Fed's Schmid: inflation 'stubborn and sticky,' rates not restraining economy",
-      "body": "Fed's Schmid described inflation as 'stubborn and sticky' and said current interest rates are 'not restraining the US economy,' signaling a cautious near-term rate path. He separately said midterms won't affect the Fed's October meeting decision.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2092938237719298071",
-        "x:2092937996396003477"
-      ]
-    },
-    {
-      "title": "Dollar traders increasingly bullish ahead of Warsh Jackson Hole speech; USD options 57% bullish",
-      "body": "Currency traders are building bullish dollar hedges ahead of Fed Chair Warsh's Jackson Hole speech Friday, with 57% of dollar options flows this week favoring further USD gains vs. 43% last week. Markets are focused on whether Warsh will assert Fed independence.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2092929495615357059",
-        "x:2092934774935507111"
-      ]
-    },
-    {
-      "title": "ECB minutes signal pause; some members may have supported a rate hike",
-      "body": "ECB records show labor market conditions have weakened (reducing second-round inflation risk), price pressures are easing, and recent data 'strongly supports a pause.' However, some ECB members might have supported a rate increase, and ECB's Radev said 'vigilance should prevail over patience' after September.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2092939445897240972",
-        "x:2092906362292625427"
-      ]
-    },
-    {
-      "title": "JPMorgan warns global food inflation to surge to 5% by early 2027 on Hormuz fertilizer crunch",
-      "body": "JPMorgan forecasts global food inflation rising from 2.8% currently to 5% by early 2027, driven by Strait of Hormuz closure since February cutting off one-third of global nitrogen fertilizer supply. 41% of Americans now report concern about grocery affordability, up from 24% in April.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2092942733316911357",
-        "x:2092934399163617556"
-      ]
-    },
-    {
-      "title": "Qatar-Iran discuss phased Hormuz shipping corridor; Kuwait/Qatar ramping crude exports",
-      "body": "Qatar and Iran are discussing a phased framework including a temporary shipping corridor and joint mine-clearing project in the Strait of Hormuz. Kuwait and Qatar are also ramping crude flows through Hormuz as Oman-Iran talks ease supply fears, with Iraq separately offering oil outside Hormuz for the first time since the conflict began.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2092938473502040225",
-        "x:2092903092635471922"
-      ]
-    },
-    {
-      "title": "July macro data: PCE cools, corporate profits +22.8% YoY, savings rate rebounds to 3.0%",
-      "body": "July showed supercore CPI and PCE both cooling toward the Fed's 2% target. Corporate profits surged 22.8% YoY in 2Q26 (highest since 4Q21). The personal savings rate bounced to 3.0% (4-month high), while core capital goods shipments rose +1.4% m/m (one of the strongest YTD reads). Services spending led with $86.2B gain vs. $49.9B decline in goods.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2092934647139209232",
-        "x:2092934243911442468"
-      ]
-    },
-    {
-      "title": "AMD and TSM charts flagged as 'looking strong'; buy dips thesis",
-      "body": "One trader flagged both AMD and TSM as showing similar chart strength, recommending holding existing positions and adding on dips \u2014 a constructive semiconductor view complementary to the NVDA move.",
+      "title": "AMD wasting 20+ engineers on internal 'ATOM' project instead of customer inference engines",
+      "body": "A breaking take alleges AMD middle managers are diverting 20+ engineers to an internal 'ATOM Inference Engine' project driven by promotion incentives rather than customer needs \u2014 with Meta and xAI needing inference engines that AMD is not delivering. The claim implies resource misallocation that could widen AMD's gap with NVDA in serving top AI customers.",
       "tickers": [
         "AMD",
-        "TSM"
+        "META"
       ],
       "source_item_ids": [
-        "x:2092910545611698470"
+        "x:2092960615048360180"
+      ]
+    },
+    {
+      "title": "Intel Core Ultra 7 270K drops below $200, pressuring AMD X3D lineup",
+      "body": "Intel's 24-core Core Ultra 7 270K Plus has dipped below $200 for the first time since launch, creating pricing pressure on AMD's competing X3D processors. Intel's EMIB substrate technology (built on 500x500mm square panels) also highlighted as a manufacturing efficiency differentiator.",
+      "tickers": [
+        "INTC",
+        "AMD"
+      ],
+      "source_item_ids": [
+        "x:2093007111802290344",
+        "x:2093006993392816347"
+      ]
+    },
+    {
+      "title": "Fed's Hammack signals hawkish lean: neutral rate higher, inflationary mindset forming",
+      "body": "Cleveland Fed President Hammack said 'now is the time to act' given inflation persistence, sees policy as not providing economic restriction, believes the neutral rate is on the higher end vs. peers, and warned that an inflationary mindset 'may be starting to form.' She sees inflation easing to 2.5% 'at best' next year, ending 2026 around 3%.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2092982051746296159",
+        "x:2093031175954784462"
+      ]
+    },
+    {
+      "title": "Macro data: jobless claims beat (203K vs 208K), goods trade deficit surges to $118.8B",
+      "body": "Initial jobless claims fell to 203K (vs. 208K est., 207K prior), signaling continued labor market strength. Offsetting: the July goods trade deficit widened sharply to $118.8B (vs. $100.5B estimate), the largest since March 2025, driven by surging capital goods imports including computers \u2014 a potential GDP tracker drag (Goldman lowered Q3 to 2.7%).",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2092955461532201018",
+        "x:2092957511275925662"
+      ]
+    },
+    {
+      "title": "ORCL default risk hits record, surpassing 2008 levels",
+      "body": "Oracle's credit default swap spreads have reached all-time highs per Bloomberg, surpassing peak levels seen during the 2008 financial crisis. No additional context provided on drivers but notable given ORCL's heavy debt load from cloud infrastructure buildout.",
+      "tickers": [
+        "ORCL"
+      ],
+      "source_item_ids": [
+        "x:2092979697777041827"
+      ]
+    },
+    {
+      "title": "Russian AI drone (Nvidia Jetson Orin) kills 3 civilians; first documented autonomous strike",
+      "body": "NYT reports a Russian drone guided entirely by AI \u2014 using an Nvidia Jetson Orin minicomputer \u2014 killed three Ukrainian civilians at a Zaporizhzhia gas station on July 6, marking the first documented civilian deaths from a fully autonomous Russian drone. Ukrainian investigators found unencrypted terrain images and targeting code on the recovered hardware.",
+      "tickers": [
+        "NVDA"
+      ],
+      "source_item_ids": [
+        "x:2093035097650057285",
+        "x:2093035113428947314"
       ]
     }
   ]
