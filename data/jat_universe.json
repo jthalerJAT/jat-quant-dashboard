@@ -1,238 +1,235 @@
 {
-  "digest_type": "premarket",
-  "digest_dt": "2026-08-27T08:30:00-04:00",
-  "saved_at": "2026-08-27T13:25:32.277890+00:00",
+  "digest_type": "midday",
+  "digest_dt": "2026-08-27T12:00:00-04:00",
+  "saved_at": "2026-08-27T16:25:27.690308+00:00",
   "bullets": [
     {
-      "title": "NVDA: Blowout Q2 + 70% FY28 Revenue Guide; Street Nearly Unanimous Buy",
-      "body": "NVDA reported Q2 revenue $96.2B (+106% YoY, beat by ~$4B) and EPS $2.22 vs $2.09 consensus; Data Center hit record $89B (+117% YoY). FY28 revenue guided at ~70% YoY growth (vs ~45% consensus), explicitly supply-constrained \u2014 management says unconstrained demand would support ~100%. Gross margins reset lower to 72-73% in FY28 (from 75%) on HBM cost inflation, bottoming at 71-72% in Jan-Q; price hikes on Vera Rubin/systems offset partially. Vera Rubin ramping fastest in company history (~20% of Oct-Q DC revenue). AWS partnership expanded to 2M additional GPUs through Q2 FY29. NVDA also acquiring Hugging Face for $12.9B. Supply commitments surged to $279B from $119B QoQ. Street consensus: 96% Buy, avg PT ~$325; JPM raised to $320, Citi to $315, UBS to $300, MS to $300, Jefferies Buy at $300, Wolfe OP at $275, KeyBanc OW at $330.",
+      "title": "NVDA: Blowout FY28 Guide +70% YoY; Wave of PT Raises from $285\u2013$420",
+      "body": "NVDA guided FY28 revenue growth ~70% YoY (vs. ~45% consensus) on agentic AI/factory demand, with Blackwell Ultra and Vera Rubin ramping; DC revenue +18% Q/Q in the July quarter. Wall Street responded with broad PT hikes: JPM $320 (from $280), Goldman $300 (from $285, though flagging range-bound near-term on elevated expectations), BofA $350 (Buy), Citi $315 (Buy, ~50% upside), Bernstein $400, Melius $420, Mizuho $315. Wolfe maintains Outperform at $275, noting $350B in purchase commitments (majority in first 3 years) and four novel financing structures de-risking revenue sustainability. Gross margins guided lower near-term (~71\u201373% in Jan Q) on higher memory costs before settling, but that overhang is now cleared; stock +7.2% premarket.",
       "tickers": [
         "NVDA"
       ],
       "source_item_ids": [
-        "gmail:1a042f2205af9f9e",
-        "gmail:1a043162ca41b259"
+        "gmail:1a0437ef79f3a8a1",
+        "gmail:1a043af689e0ca2b"
       ]
     },
     {
-      "title": "NVDA: NVHBM Custom Memory + Hugging Face Acquisition Add Strategic Depth",
-      "body": "NVDA unveiled NVHBM, a custom HBM integrating the memory controller into the 3D stack rather than the XPU, delivering 30% more bandwidth, 15% lower power, and 25% more compute die area vs. standard HBM4E. Separately, NVDA agreed to acquire Hugging Face for $12.9B, securing the open-source AI model ecosystem; Microsoft had also held talks but those ended. NVDA also launched a revenue-sharing financing platform with $500B+ in third-party capital commitments.",
+      "title": "NVDA: AWS Orders 2M More GPUs; Hugging Face Acquisition for ~$13B; $500B Private Capital Platform",
+      "body": "AWS committed to deploy 2M additional Blackwell Ultra, Rubin, and Rubin Ultra GPUs for 2027\u20132028. NVDA is reportedly acquiring Hugging Face for ~$12.9\u201313B (>85x trailing sales) to control the dominant open-source model repository and developer distribution \u2014 mirroring Microsoft's GitHub model. Separately, NVDA anchored a $500B private capital financing platform (Apollo, BlackRock, Blackstone, Brookfield, Goldman, KKR) to backstop AI data center capex, de-risking the $36B cloud capacity agreements starting FY29. Supply commitments doubled from $119B to $279B, primarily memory procurement through end of decade.",
+      "tickers": [
+        "NVDA",
+        "AMZN"
+      ],
+      "source_item_ids": [
+        "gmail:1a043b67c3061bde",
+        "gmail:1a0436b85a7c6c83"
+      ]
+    },
+    {
+      "title": "NVDA: Tariff Risk Emerging \u2014 White House Weighing Chips, Laptops, Servers",
+      "body": "Politico reports the Trump administration is considering a new round of sweeping semiconductor tariffs, potentially expanding to laptops and servers and moving away from data center exemptions. This is an incremental risk to NVDA's supply chain and customer demand, though MS notes the broader tariff trajectory is still TBD. Policy could change and a phased implementation is also being considered.",
       "tickers": [
         "NVDA"
       ],
       "source_item_ids": [
-        "gmail:1a041e69ca974f3c",
-        "gmail:1a042149f4502aec"
+        "x:2092923803391172908",
+        "x:2092901011480629276"
       ]
     },
     {
-      "title": "MRVL: AI Custom ASIC Business Doubling to $4B in FY28; Earnings Due Tonight",
-      "body": "MRVL reports after close tonight. JPM and OpCo model MRVL's custom ASIC business doubling to $4B+ in FY28, with the GOOGL partnership now estimated at $20B p.a. vs. prior buyside expectations of ~$12B. Networking opportunity seen as ~two-thirds of AI exposure. JPM raises PT to $145. Street estimates viewed as floor; path to $11-12 EPS power by CY28. MRVL trades 35x F28 EPS vs. AVGO/NVDA in the teens \u2014 key debate is confidence in longer-term datacenter upside.",
+      "title": "CRWD: Record NNARR +51% YoY; FY27 ARR Growth Guide Raised 630bps; Citi/Goldman Raise PTs",
+      "body": "CrowdStrike Q2 net new ARR $332.8M crushed the ~$300\u2013305M estimate (+51% YoY vs +32% prior quarter); total ARR $5.84B (+25% YoY). FY27 NNARR growth guidance raised 630bps to +34% at midpoint; record Q3 pipeline at $345M. AI-driven security budget inflection accelerating faster than expected \u2014 AIDR ARR surging, Falcon Flex ARR doubled to $2.29B. Citi raises PT to $260 (from $250); Goldman raises to $230 (from $208); Evercore to $210. DA Davidson highlights CEO signaling larger M&A, SASE area of interest. Stock +9\u201310% on the day; 74% Buy, 24% Hold.",
       "tickers": [
-        "MRVL",
-        "AVGO"
+        "NVDA"
       ],
       "source_item_ids": [
-        "gmail:1a04313ca332986a",
-        "gmail:1a0429e103055d14"
+        "gmail:1a043d382610b2e6",
+        "gmail:1a0434815a8f3651"
       ]
     },
     {
-      "title": "CRM: Beat/Raise on cRPO and Agentforce; Claudeforce Deepens Anthropic Partnership",
-      "body": "CRM reported Q2 revenue $11.35B (+11% YoY, beat); cRPO +14% CC vs. 13% guidance; FY27 revenue raised to $46.1-46.4B. Agentforce ARR reached $1.5B (+240% YoY); NNAOV strongest in four years; attrition near record lows. Salesforce and Anthropic launched Claudeforce (open beta September). FY27 raise includes ~$200M from Contentful/Fin acquisitions. Mizuho, JPM, Wolfe, DA Davidson all raised PTs ($260-$271). Bears note most FY27 organic raise was modest; MuleSoft/Tableau weak.",
+      "title": "CRM: Agentforce ARR $1.5B (+240% YoY); DA Davidson Raises PT to $200; Opco to $275",
+      "body": "Salesforce Q2 cRPO +14% YoY in constant currency; Agentforce + Data 360 ARR $3.9B (+210% YoY); net new annual order value strongest in 4 years. FY27 EPS raised +17.9%. However, organic revenue growth decelerated to ~6% YoY (vs. 8.7% prior quarter) and beat magnitudes narrowed for the 3rd consecutive quarter. Oppenheimer raises PT to $275 (Outperform); DA Davidson raises to $200 (Neutral); Citi raises to $233. 70% Buy consensus, average PT $254.",
       "tickers": [
         "CRM"
       ],
       "source_item_ids": [
-        "gmail:1a042b47784a2add",
-        "gmail:1a042ab8ea7be733"
+        "gmail:1a0438a17f99d0aa",
+        "gmail:1a043504d8a461b4"
       ]
     },
     {
-      "title": "CRWD: 'Mythos Moment' Drives Record NNARR +51% YoY; ARR Guide Raised Sharply",
-      "body": "CRWD Q2 net new ARR $333M (+51% YoY), far above $285M consensus \u2014 described as possible highest NNARR beat ever. Total ARR $5.84B (+25% YoY), fourth consecutive acceleration. AIDR ARR ~$30M, up from ~$3M two quarters ago (3x QoQ). FY27 ARR guide raised to $6.608B (implying $1.355B NNARR, +34% YoY). Management calls Mythos-driven demand 'durable.' Citi raises PT to $260, Mizuho to $250, Roth Buy at $230, DA Davidson Buy at $245, KeyBanc raises to $245, Wolfe raises to $230.",
-      "tickers": [
-        "CRWD"
-      ],
-      "source_item_ids": [
-        "gmail:1a042c4bede24c7a",
-        "gmail:1a04234f14306d73"
-      ]
-    },
-    {
-      "title": "OKTA: cRPO Accelerates to +14% YoY; AI Agent Deals Emerging; Upgraded by BofA",
-      "body": "OKTA Q2 revenue $805M (+11% YoY, beat); cRPO $2.585B (+14% YoY, 3pts above guidance); large enterprise wins ($1M+ ACV) +22% YoY; new products ~30% of bookings. OKta for AI Agents generating 'dozens' of >$1M deals. FY27 revenue guide raised to $3.216-3.226B; FCF margin guidance 28-29%. BofA upgraded to Neutral from Underperform, PT $170. Citi raises PT to $165 (Neutral), Mizuho raises PT, Roth Buy at $155, Wolfe raises PT to $190 (Outperform), KeyBanc raises PT to $190. Stock +20% post-earnings.",
-      "tickers": [
-        "OKTA"
-      ],
-      "source_item_ids": [
-        "gmail:1a042ce725a23862",
-        "gmail:1a0413c799bb1d82"
-      ]
-    },
-    {
-      "title": "META: $18B Teen Settlement Removes Overhang; AI Product Roadmap Ahead of Connect",
-      "body": "META settled multi-state teen safety lawsuit for up to $18B over 10 years; $10B legal charge accrued in Q3. Teens (<1% of revenue) subject to 2-hour daily limits on FB/IG. Settlement removes significant regulatory overhang. Watermelon AI agent platform launch targeted October 2026. Meta Connect Sept 23 as next catalyst. GS upgraded with bullish AI monetization view; Citi reiterates Buy at $800 PT. Hedgeye signals shifted META to bearish trend.",
+      "title": "META: $18B Settlement Removes Legal Overhang; $10B/yr Anthropic Spend; EU Screen-Time Probe",
+      "body": "Meta settled with 52 state AGs over social media addiction claims for up to $18B over 10 years, removing a major legal overhang. Separately, NYT reports Meta's internal projections show up to $10B/yr spend on Anthropic models to power internal tools and upcoming personal assistant 'Hatch.' The EU Commission also directed Meta to improve screen time management and parental controls. Citi remains bullish, noting Meta Connect on 9/23 as next catalyst. On financing, Meta is reportedly seeking to issue KRW-denominated bonds worth at least KRW 1 trillion in South Korea.",
       "tickers": [
         "META"
       ],
       "source_item_ids": [
-        "gmail:1a040f05abe28edc",
-        "gmail:1a040ea01dbe736a"
+        "gmail:1a0434c8e2805320",
+        "gmail:1a0439b810479ab2"
       ]
     },
     {
-      "title": "AVGO: Custom AI ASIC Revenue Set to Double Again; Trades at 18x CY27 vs. Peers at 31x",
-      "body": "OpCo highlights AVGO as the #1 custom AI ASIC design house (Google, Meta, Anthropic, OpenAI as customers). AI semiconductor revenue modeled +51% QoQ in F3Q, +215% YoY, and +250% YoY in F4Q. AVGO supply secured through 2028 with TSMC relationship on par with NVDA and Apple. Trades at 18x CY27E vs. AI peers at 31x. ARK Invest purchased 57,705 AVGO shares. Earnings due Sept 3 AH ($3.22 EPS est., $29.24B revenue).",
+      "title": "AVGO: Opco Initiates Outperform, $535 PT; F3Q Earnings Sep 2; ~10GW CY27 Locked",
+      "body": "Oppenheimer initiates AVGO at Outperform with $535 PT, calling it the #2 AI chip player and #1 custom AI ASIC house (customers: Google, Meta, Anthropic, OpenAI). AI semi revenue modeled +215% YoY in F3Q and +250% in F4Q; management guided >$100B FY27 AI revenue. NVDA's ~70% CY27 DC guide expands the overall AI silicon TAM. AVGO trades at 18x CY27 EPS vs. AI peers at 31x; F3Q earnings due Sep 2 with the key watch being CY28 guidance. MS notes Vera Rubin ramp at $80B run rate nearly equals AVGO's entire AI semi business.",
       "tickers": [
-        "AVGO"
+        "AVGO",
+        "NVDA",
+        "MRVL"
       ],
       "source_item_ids": [
-        "gmail:1a04302172d09bf4",
-        "gmail:1a042e33a0d6711c"
+        "gmail:1a04340cafe0973c",
+        "gmail:1a043de61eefbf2a"
       ]
     },
     {
-      "title": "INTC: 18A Yields Ahead of Targets; EMIB Packaging Confirmed as TSMC Rival",
-      "body": "At the Deutsche Bank conference, Intel management was upbeat on foundry progress with 18A yields tracking ahead of targets. Separately, Intel's EMIB advanced packaging is confirmed as a rival to TSMC CoWoS, with strong yields and satisfied Google and MediaTek customers cited. Intel CFO expressed conviction on external customer relationships. INTC +2.37% on NVDA earnings halo.",
+      "title": "MDB: Hedgeye Adds as Top Long, $579 PT (~37% Upside); Atlas Growth 29%+ for 4 Qtrs",
+      "body": "Hedgeye added MongoDB as a top long with a $579 12-18 month price target (stock at ~$423). Thesis: Atlas growth sustained at 29%+ for four consecutive quarters, platform attach among $100K+ customers rose from 37% to 45% (driven by Vector and text search), net ARR expansion +3pts off trough to 121%, and 34 consecutive quarters beating revenue guidance. Consensus models zero beat for FY27 despite company's historical beat rate. Risk: 2H FY27 Enterprise Advanced air pocket, MongoDB is the only major DB with negative usage growth on 2025 Stack Overflow survey.",
       "tickers": [
-        "INTC"
+        "MDB"
       ],
       "source_item_ids": [
-        "x:2092892114946593042",
-        "x:2092785122672300106"
+        "gmail:1a043733d453031b",
+        "gmail:1a043aa68286840d"
       ]
     },
     {
-      "title": "PI (Pure Storage): FY27 Guide Raised 38% on Second Hyperscaler Win; JPM Raises PT to $145",
-      "body": "PI reported Q2 revenue $1.186B (beat), EPS $0.70 vs. $0.58 consensus, operating profit +77% YoY. FY27 revenue guide raised to $5.03-5.07B (vs. $4.49B consensus), implying 37-38% growth. Company secured a second hyperscaler win expected to drive 'multiples of revenues' in FY28. JPM raises PT to $145 (33x FY28E EPS); Citi raises PT to $130, BofA upgrades to Buy at $150 PT. Core enterprise market characterized as entering 'breakout territory.'",
+      "title": "OKTA: +21% on Biggest cRPO Beat in Five Quarters; AI Agents Optionality Unrealized",
+      "body": "Okta's Q2 CRPO grew +14% YoY (vs Street ~11%), the biggest beat in five quarters, on improved sales productivity and IGA strength. FQ3 guidance implies ~14\u201315% growth. Okta for AI Agents signed a few dozen large deals but is not yet material. DA Davidson maintains Buy with $190 PT (32x EV/FY28 FCF); Citi raises PT to $165. OKTA hit a 52-week high, +22.6% on the day, +80% on a 52-week basis.",
       "tickers": [
         "NVDA"
       ],
       "source_item_ids": [
-        "gmail:1a04313ca332986a",
-        "gmail:1a0422b467594022"
+        "gmail:1a0438cb2bebe143",
+        "gmail:1a0434c8e2805320"
       ]
     },
     {
-      "title": "SNPS: F3Q Beat-and-Raise; EDA Reaccelerating; Sept 30 Investor Day Key Catalyst",
-      "body": "SNPS Q3 revenue $2.477B (+42% YoY), EPS $3.91 vs. $3.67 consensus; FY26 revenue raised ~$50M, EPS raised to $15.07, FCF raised $600M. Core EDA growth reaccelerating to double-digit in F4Q. IP growth 25-30% YoY. 30+ active Agentic AI customer engagements. Ansys synergies layering faster than expected. Baird upgraded to Outperform; Citi Buy at $610 PT; Wolfe OP at $575 PT; Mizuho OP at $550 PT. Sept 30 Investor Day seen as major catalyst for higher long-term targets and AI monetization clarity.",
-      "tickers": [
-        "SNDK"
-      ],
-      "source_item_ids": [
-        "gmail:1a042c8e67e23640",
-        "gmail:1a041e9465538095"
-      ]
-    },
-    {
-      "title": "FSLR: BMO Upgrades to Outperform; Post-S232 Tariff Selloff Seen as Overdone",
-      "body": "BMO Capital Markets upgraded FSLR from Market Perform to Outperform, raising PT to $263 from $237 (28% upside). Analyst Ameet Thakkar argues the post-Section 232 tariff selloff is overdone and sees a favorable window for 2029+ bookings. Competitive risks from Tesla viewed as more than priced in. FSLR +4.3% pre-market.",
-      "tickers": [
-        "FSLR"
-      ],
-      "source_item_ids": [
-        "gmail:1a042f274ba02f3e"
-      ]
-    },
-    {
-      "title": "WSM: Strong 2Q Beat on AI Shopping and B2B; UBS Raises PT to $247",
-      "body": "Williams-Sonoma Q2 comps +6.2% (vs. +4.8% in Q1), all banners positive; B2B +14.5% including 20% contract growth; AI shopping assistant (Olive) associated revenue +620% YTD. FY26 comp guidance raised to +4-6.5% (from +2-6%). UBS raises PT to $247 (~21x CY28 EPS), maintains Neutral citing demanding valuation requiring several more quarters of execution. GS AM also flags WSM in morning note.",
+      "title": "WSM: Beats Q2, Raises FY Guide; Morgan Stanley, RBC, KeyBanc, Telsey All Raise PTs",
+      "body": "Williams-Sonoma Q2 revenue $1.96B (beat), comps +6.2% (vs. +4.5% est); all three brands beat consensus. FY revenue growth guide raised to +4.7\u20137.2%; operating margin guide raised to 17.8\u201318.2%. Tariff headwinds expected to ease in H2 (Q2 described as peak drag). Morgan Stanley raises PT to $240 (Eq-weight); RBC to $260 (OP); KeyBanc to $270 (OW); Telsey to $260 (OP). Sell-side 44% Buy / 44% Hold; avg PT +6% to $253.",
       "tickers": [
         "WSM"
       ],
       "source_item_ids": [
-        "gmail:1a0410b088f596c2",
-        "gmail:1a0431c7eccb1a94"
+        "gmail:1a0438d5c11cc587"
       ]
     },
     {
-      "title": "MU: Bullish on Memory; DRAM Prices Surging to 5-Year Highs on AI Demand",
-      "body": "Multiple sources highlight structural AI-driven memory demand, with DRAM prices at 5-year highs \u2014 1kg of South Korean DRAM now equivalent to 620 grams of gold (up from 120g in 2023 trough). NVDA's FY28 guidance locks in major HBM demand; memory supply seen under-supplied until Q2'28 (UBS). MU bullish thesis for 2026-2027 cited by multiple sources on structural demand and operating leverage. Memory chip buyers reportedly panic-hoarding inventory anticipating 2027 shortages.",
+      "title": "DKNG: NFL Renews Multi-Year Partnership; Prediction Market Legal Overhang Could Clear",
+      "body": "NFL announced multi-year official partnerships with DraftKings and FanDuel (partners since 2021), as well as a separate deal with Fanatics Betting & Gaming. More importantly, Mizuho notes DKNG is down 28% YTD largely due to prediction market (Kalshi/Polymarket) overhang, but recent court opinions are more favorable \u2014 if the overhang is removed, shares could move substantially higher. DKNG spending ~$300M in promotional spend this year.",
       "tickers": [
-        "MU",
-        "SNDK"
+        "DKNG"
       ],
       "source_item_ids": [
-        "x:2092851118233764178",
-        "x:2092783789328208164"
+        "gmail:1a043da8019851ae",
+        "gmail:1a043955766eeef0"
       ]
     },
     {
-      "title": "COHR/LITE/AAOI: Optical Demand 'Extraordinary'; Supply Shortage Seen 12-18+ Months",
-      "body": "At Jefferies Global Semis Conference, COHR described optical demand as 'extraordinary' with supply shortages expected for 12-18+ months; capacity expansion may need to exceed 4x current plan. CPO adoption pushed to 2H C28+, creating near-term NPO architecture opening. 1.6T transceiver shipments tracking toward 100M units in C27. NVDA's Spectrum-X Ethernet ecosystem partners include COHR (ELS) and LITE (high-power laser, optical alignment). Optics cycle bust risk questioned but current fundamentals cited as much stronger than late-1990s.",
+      "title": "FSLR: BMO Upgrades to Outperform, PT $263; Post-S232 Sell-off Seen as Overdone",
+      "body": "BMO Capital Markets upgraded First Solar to Outperform from Market Perform, raising its PT to $263 (from $237), arguing the post-Section 232 tariff sell-off is overdone and the 2029+ booking window is favorable. BMO also views Tesla competitive risk as more than priced in. FSLR +3.7\u20134.5% in premarket.",
+      "tickers": [
+        "FSLR"
+      ],
+      "source_item_ids": [
+        "gmail:1a04334195a15432",
+        "gmail:1a043641f4c33ee9"
+      ]
+    },
+    {
+      "title": "COHR/ALAB/LITE/MTSI: AI Networking Supply Shortage Expected for 12-18+ Months",
+      "body": "Jefferies semis conference takeaways: 1.6T transceiver optics demand tracking 100M units in 2027; COHR expects supply shortage for 12\u201318+ months and may need capacity expansion beyond its existing 4x plan. CPO adoption delayed to 2H 2028, creating near-term opening for NPO architectures. MTSI benefits from 1.6T demand and growing power delivery content. Management teams uniformly positive; supply \u2014 not demand \u2014 is the binding constraint for compute/networking.",
       "tickers": [
         "COHR",
+        "MTSI",
         "LITE",
-        "AAOI"
+        "ALAB"
       ],
       "source_item_ids": [
-        "gmail:1a0428ee53e4c4ff",
-        "x:2092762819389538342"
+        "gmail:1a0437a0a18f1882"
       ]
     },
     {
-      "title": "MRVL Pre-Earnings: Photonic Fabric + OMIB Technology Highlighted; Google Partnership Implies $20B pa",
-      "body": "Ahead of tonight's MRVL earnings, multiple analysts flag the company's Photonic Fabric acquisition and forthcoming Optical Multi-Chip Interconnect Bridge (OMIB) as key technology catalysts. JPM models MRVL's Google partnership at $20B p.a. (vs. buyside expectations of ~$12B in FY27); custom ASIC business seen doubling to $4B+ in F28. Options imply 8.8% move. EPS consensus $0.93, revenue $2.72B.",
+      "title": "PLTR: UBS Expert Call on SAP-Palantir Data Relationship (Sep 1)",
+      "body": "UBS hosting a September 1 expert call with a 30-year SAP veteran (former Global VP Malcolm Woodfield) who has first-hand experience using Palantir in SAP upgrade cycles and cloud migration projects. Discussion will cover the interplay between SAP and data partners including Palantir and Databricks, and how the relationship may evolve \u2014 neutral framing but relevant for thesis around Palantir's enterprise data integration moat.",
       "tickers": [
-        "MRVL"
+        "PLTR"
       ],
       "source_item_ids": [
-        "x:2092826822186823712",
-        "gmail:1a04313ca332986a"
+        "gmail:1a043d216ec9981d"
       ]
     },
     {
-      "title": "OKTA/CRWD: Piper Sandler Bullish on Agentic Security Inflection; SEI Under Political Pressure",
-      "body": "Piper Sandler's morning call: CRWD justified at ~30x CY27 revenue given NNARR +51% (strongest since 2021) and agentic threat monetization. OKTA Neutral at 8x CY27 revenue; AI revenue immaterial in F27 but meaningful in F28+. SEI (not in main universe) down 21% since 8/17 amid AI datacenter moratoriums in TX, PA, MI ahead of midterms \u2014 political pressure on power services group is a read-through risk for data center power names.",
+      "title": "LRCX/AMAT: UBS Hosting CFO/IR Access at Semicon West Oct 12",
+      "body": "UBS Research analyst Timothy Arcuri is hosting investor booth tours at Semicon West on October 12 in San Francisco, featuring LRCX CFO Doug Bettinger and AMAT IR/Corp VP Mike Sullivan. Notable access event for the semiconductor equipment group ahead of what Jefferies expects to be continued AI supply-driven capex.",
       "tickers": [
-        "OKTA",
-        "CRWD"
+        "ALAB",
+        "COHR"
       ],
       "source_item_ids": [
-        "gmail:1a042b0b5be71ae4"
+        "gmail:1a043d4d2898148d"
       ]
     },
     {
-      "title": "DELL/MDB/AVGO/HPE/CIEN: Key Upcoming Earnings Calendar",
-      "body": "DELL reports Tue 9/2 AH ($4.91 EPS est., $44.93B revenue); MDB reports Tue 9/2 AH ($1.62 EPS est., $735M revenue, Atlas needs to accelerate to +30% YoY); AVGO reports Wed 9/3 AH ($3.22 EPS est., $29.24B); HPE reports Wed 9/3 AH ($0.93 EPS est., $11.95B); CIEN reports Thu 9/4 BM ($1.72 EPS est., $1.63B). MDB: JPM warns Atlas guide needs +1 point acceleration to +27% YoY to satisfy bulls.",
+      "title": "AMD: Still Looks Constructive; Venice on N2 Could Deliver Acceleration",
+      "body": "Jefferies semis conference notes AMD locked in substrate capacity during the pandemic, with potential YoY acceleration via Venice on N2. Separately, a trader on X flagged AMD chart looks strong, similar to TSM, with a recommendation to hold or buy dips. AMD also cited in unusual options volume context alongside Kodiak AI activity.",
       "tickers": [
-        "DELL",
-        "MDB",
+        "AMD",
+        "TSM"
+      ],
+      "source_item_ids": [
+        "gmail:1a0437a0a18f1882",
+        "x:2092910545611698470"
+      ]
+    },
+    {
+      "title": "IREN/NBIS: AI Infrastructure Names Expected to Rally on Relief Bid Post-NVDA",
+      "body": "Multiple sources flagging IREN and NBIS as AI infrastructure plays likely to benefit from the NVDA-driven relief rally, though authors expect the move to be short-lived given the macro backdrop. In premarket, HUT +4.6%, IREN +3.4%, CRWV +3.9% per pre-market summary.",
+      "tickers": [
+        "NBIS",
+        "IREN",
+        "HUT"
+      ],
+      "source_item_ids": [
+        "x:2092930366298325463",
+        "gmail:1a043641f4c33ee9"
+      ]
+    },
+    {
+      "title": "TLN: Positively Levered to PJM Power Spreads; ERCOT Faces Policy Uncertainty",
+      "body": "Morgan Stanley energy note highlights Talen Energy (TLN) as positively levered to PJM spark spreads, while ERCOT faces policy uncertainty and transmission timeline risk \u2014 a relative preference for the PJM-exposed power/data center nexus plays.",
+      "tickers": [
+        "TLN",
+        "FSLR"
+      ],
+      "source_item_ids": [
+        "gmail:1a0436b05e7237ed"
+      ]
+    },
+    {
+      "title": "AVGO F3Q Earnings Sep 2 + AMBA Sep 3: Key Upcoming Catalysts to Watch",
+      "body": "Per JPM macro week-ahead: AVGO reports F3Q earnings on September 2 (Oppenheimer initiated at $535 Outperform today). AMBA is scheduled to report earnings after market on September 3 with 215% unusual options volume per the options flow digest \u2014 worth monitoring for AI edge inference momentum. NFP prints Sep 4 at 8:30am ET; US-China AI talks planned for September; potential Xi visit Sep 24; META Connect Sep 23\u201324.",
+      "tickers": [
         "AVGO",
-        "HPE",
-        "CIEN"
+        "AMBA"
       ],
       "source_item_ids": [
-        "gmail:1a042e33a0d6711c",
-        "gmail:1a042fcf39421c5d"
+        "gmail:1a043de61eefbf2a",
+        "gmail:1a043efe2ed6fed6"
       ]
     },
     {
-      "title": "Semiconductor Tariff Risk: White House Weighing Sweeping Chip Tariffs",
-      "body": "Politico reports the Trump administration is considering new sweeping tariffs on semiconductors and goods made with semiconductors, with potential phase-in and relief for companies investing in US chip manufacturing. Multiple sources note this as a near-term risk but offset by relief mechanisms. Separately, Politico reports a tariff on South Korea is being considered over Coupang treatment. Potential read-through: negative for fabless names importing ASICs and positive for US fabs (INTC foundry).",
+      "title": "Semiconductor Tariff Risk: White House Weighing Broad Expansion Including Data Centers",
+      "body": "Multiple sources (Politico via X, MS TMT note) flag the Trump administration is considering materially broader semiconductor tariffs, moving away from data center exemptions and potentially covering laptops and servers. MS TMT notes this as a key risk post-NVDA results. A phased implementation is also being considered. This is a sector-wide risk for NVDA, AMD, INTC, and downstream hardware names.",
       "tickers": [
         "NVDA",
-        "MRVL",
-        "AVGO",
-        "INTC",
         "AMD",
-        "MU"
+        "INTC"
       ],
       "source_item_ids": [
-        "gmail:1a042854ae88581e",
-        "gmail:1a042f33600af849"
-      ]
-    },
-    {
-      "title": "T/VZ: FWA Availability Declining in July; Mixed Read for 3Q Net Add Acceleration",
-      "body": "Wolfe FWA update: T-Mobile availability fell -5.0% MoM in July, AT&T -0.6%, Verizon -0.5%. AT&T's New York availability declined notably despite re-entry into the market in June. Broad availability decline contrasts with expectations for modest sequential net add acceleration at Verizon and AT&T in 3Q26. Relationship between availability decline and subscriber growth not yet visible.",
-      "tickers": [
-        "T",
-        "VZ"
-      ],
-      "source_item_ids": [
-        "gmail:1a040a29e47d5211"
+        "x:2092923803391172908",
+        "gmail:1a0437ef79f3a8a1"
       ]
     }
   ]
