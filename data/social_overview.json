@@ -1,221 +1,59 @@
 {
-  "digest_type": "eod",
-  "digest_dt": "2026-08-31T18:00:00-04:00",
-  "saved_at": "2026-08-31T22:19:11.713296+00:00",
+  "digest_type": "premarket",
+  "digest_dt": "2026-09-01T08:30:00-04:00",
+  "saved_at": "2026-09-01T12:49:07.903069+00:00",
   "bullets": [
     {
-      "title": "NVDA Invests $3.5B in MediaTek; NVLink Fusion Ecosystem Expansion",
-      "body": "Nvidia announced a $3.5B convertible-bond investment in MediaTek paired with MediaTek's adoption of NVLink Fusion and NVHBM, expanding the AI factory ecosystem into custom silicon, PCs, and automotive. Multiple commentators view this as NVDA playing 'kingmaker' across the ASIC ecosystem\u2014pulling partners like MRVL into its standards orbit\u2014while posing a longer-term headwind to AVGO's custom XPU business. NVDA CEO Huang also highlighted the Vera Rubin platform generating +$40B of revenue per GW.",
-      "tickers": [
-        "NVDA",
-        "AVGO",
-        "MRVL"
-      ],
-      "source_item_ids": [
-        "x:2094468231981682892",
-        "x:2094416430032896428"
-      ]
-    },
-    {
-      "title": "AVGO: JPMorgan Bullish Ahead of Earnings; NVDA Deal Seen as Long-Term Threat",
-      "body": "JPMorgan maintains a bullish stance on AVGO into earnings, citing underestimated AI momentum and calling concerns about GOOGL TPU competition overblown. However, fintwit analysis is more nuanced\u2014the NVDA-MediaTek deal is seen as safe near-term for AVGO but a meaningful longer-term headwind to its custom XPU franchise, with competitors poised to gain volume share.",
-      "tickers": [
-        "AVGO",
-        "GOOGL"
-      ],
-      "source_item_ids": [
-        "x:2094415739633738117",
-        "x:2094468231981682892"
-      ]
-    },
-    {
-      "title": "AAPL CEO Transition: Tim Cook Out, John Ternus In on Sept 1",
-      "body": "Tim Cook sent his final letter to Apple employees on his last day as CEO; John Ternus (hardware chief) takes over September 1 with Cook transitioning to executive chairman. Under Cook's 15-year tenure, Apple's market cap grew from under $350B to ~$4.7T (94% of current market cap created under Cook). Phil Schiller also resigned from App Store and events management roles on the same day.",
-      "tickers": [
-        "AAPL"
-      ],
-      "source_item_ids": [
-        "x:2094422773401616519",
-        "x:2094464146465316898"
-      ]
-    },
-    {
-      "title": "AAPL: Second AI-Driven Squeeze Thesis Gaining Attention",
-      "body": "'The first Apple squeeze was anti-AI. The second could be AI,' per The Market Ear retweet making rounds on fintwit. The tweet frames the setup as offering 'interesting upside convexity' as Apple navigates its leadership transition into the AI era.",
-      "tickers": [
-        "AAPL"
-      ],
-      "source_item_ids": [
-        "x:2094454005795565651"
-      ]
-    },
-    {
-      "title": "Treasury Yields Surge: 10Y at 4.75%, 5Y at 4.5%\u2014Highest Since Jan 2025",
-      "body": "The 10-year Treasury yield topped 4.75% (highest since January 2025) driven by TIPS weakness, oil surge on Iran tensions, and rising Fed rate-hike expectations. The 5-year yield hit 4.5%. Separately, Goldman's derivatives desk flagged that hawkish Jackson Hole messaging failed to lower long-end yields\u2014opposite of what markets expected\u2014calling it 'ungood.'",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2094424810424025201",
-        "x:2094425183616389222"
-      ]
-    },
-    {
-      "title": "Fed Rate Hike Odds Jump to ~54-56% for September",
-      "body": "Markets are now pricing a 54-56% probability of a 25bp Fed hike in September (per Polymarket and CME-derived estimates) following hawkish remarks from Fed Chair Kevin Warsh. Warsh also declared the end of 'secular stagnation,' framing the current period as a 'global investment surge.' BofA notes the Friday jobs report remains the key swing factor.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2094405339416269089",
-        "x:2094423200184607048"
-      ]
-    },
-    {
-      "title": "Anthropic Valuation Surge to $965B Drove $150B+ in S&P 500 'Other Income'",
-      "body": "A detailed thread explains how Anthropic's Q2 valuation jump from $380B to $965B created ~$150B in S&P 500 earnings via 'other income'\u2014with GOOGL booking ~$98B and AMZN ~$53B. This drove S&P 500 earnings up 51% Y/Y (including other income), pushed Mag 7 forward P/Es to near decade lows, and compressed the index forward P/E from 25 to 21 this year\u2014now at post-COVID average levels.",
-      "tickers": [
-        "GOOGL",
-        "AMZN"
-      ],
-      "source_item_ids": [
-        "x:2094464161522778600",
-        "x:2094464165826138231"
-      ]
-    },
-    {
-      "title": "TSMC: Silicon Photonics to Exceed 50% Market Share by 2027; CPO Mass Production Starting",
-      "body": "TSMC's advanced packaging VP stated at SEMICON Taiwan 2026 that optical transceiver architecture is undergoing structural transformation, with silicon photonics forecast to exceed 50% market share by 2027. CPO (co-packaged optics) is the final form factor, with major manufacturers beginning mass production in H2 2024. Separately, TSMC's COUPE roadmap shows AI compute growing ~3x every 2 years vs. I/O bandwidth at only 1.4x, creating an 'I/O wall' requiring optical interconnects.",
-      "tickers": [
-        "TSM"
-      ],
-      "source_item_ids": [
-        "x:2094437553185357858",
-        "x:2094438706686144928"
-      ]
-    },
-    {
-      "title": "INTC Advanced Packaging (EMIB-T) to Ramp H2 2027; SK Hynix HBM4E Base Die Sourcing Clarified",
-      "body": "Intel expects EMIB-T advanced packaging revenue to ramp in H2 2027 (eliminating interposer requirements), reach steady contribution in 2028, and hit stride by 2029\u2014already deployed internally in Clearwater Forest Xeon 6+. SK Hynix clarified it is NOT currently considering Intel Foundry for HBM4E base die production despite earlier reports; TSM remains the incumbent.",
-      "tickers": [
-        "INTC",
-        "TSM"
-      ],
-      "source_item_ids": [
-        "x:2094425972066156918",
-        "x:2094419810222518512"
-      ]
-    },
-    {
-      "title": "MRVL: Enterprise SoR Rerating, Analyst Day 10/6 Key Catalyst",
-      "body": "MRVL is trading at its 100-day moving average ahead of analyst day on October 6, where CEO Murphy has signaled key announcements will be reserved (not released at earnings). Separately, a weekly note calls out AIDC demand running at 2x deliverable supply with MRVL optics driving the raise; software-to-semis divergence is widening.",
-      "tickers": [
-        "MRVL"
-      ],
-      "source_item_ids": [
-        "x:2094423746446573787",
-        "x:2094458026480795886"
-      ]
-    },
-    {
-      "title": "AI Capex Build: $11T Through 2029, $5T Debt Issuance Required in 3 Years",
-      "body": "Citing a Dwarkesh podcast, one account highlights $11T of AI capex projected through 2029, requiring ~$5T in debt issuance in the next 3 years to fund the buildout. META is cited as a recent issuer at 5-6% rates, illustrating the cost of capital for AI-driven growth at scale.",
-      "tickers": [
-        "META"
-      ],
-      "source_item_ids": [
-        "x:2094457846045745282"
-      ]
-    },
-    {
-      "title": "AMD Instinct MI355X Now Live in Saudi Arabia with Cisco Networking",
-      "body": "AMD Instinct MI355X GPU-based AI infrastructure is live in Saudi Arabia via PIF's HUMAIN, with Cisco Silicon One providing 800G networking. AMD and Cisco also separately plan to install up to 250MW of AI infrastructure by 2027 through the Humain partnership.",
-      "tickers": [
-        "AMD",
-        "CSCO"
-      ],
-      "source_item_ids": [
-        "x:2094415592757551595",
-        "x:2094447389763674163"
-      ]
-    },
-    {
-      "title": "NVLink Ecosystem Adoption Deepens NVDA Compute Hardware Lock-In",
-      "body": "Broader NVLink adoption expands reliance on NVIDIA compute hardware such that even custom XPU development doesn't reduce existing NVIDIA infrastructure investment\u2014creating switching costs and recurring revenue potential across the ecosystem.",
-      "tickers": [
-        "NVDA"
-      ],
-      "source_item_ids": [
-        "x:2094482278013665502",
-        "x:2094424291320512676"
-      ]
-    },
-    {
-      "title": "AMZN: Piper Sandler 'Best Positioned' for AI Spending, Reiterates Overweight/$320 PT",
-      "body": "Piper Sandler reiterated Overweight on Amazon with a $320 price target, calling it 'best positioned' among major tech peers for the AI spending surge and citing expected 2026 ROIC of ~14%. AWS Saudi Arabia region also set to launch December 2026.",
+      "title": "FTC + 20 states file major antitrust suit against Amazon over ad price manipulation",
+      "body": "The FTC, joined by 20+ state AGs, is filing a complaint in Seattle federal court alleging Amazon deceived advertisers and manipulated ad prices on its retail platform, reaping 'tens of billions of dollars' in excess profits over seven years. This is characterized as Amazon's third major antitrust case; the company previously settled a Prime signup lawsuit for $2.5B.",
       "tickers": [
         "AMZN"
       ],
       "source_item_ids": [
-        "x:2094408918801760658"
+        "x:2094486958622003472",
+        "x:2094485913997041694"
       ]
     },
     {
-      "title": "CRM: Chamath's May 15 SaaS Call Validated\u2014Salesforce Up 50%",
-      "body": "Fintwit is highlighting that Chamath's bullish SaaS call on May 15 has been validated, with Salesforce up ~50% since. Chamath was specifically positive on the high-end SaaS market segment.",
-      "tickers": [
-        "CRM"
-      ],
-      "source_item_ids": [
-        "x:2094454189342540173"
-      ]
-    },
-    {
-      "title": "SPY: $2.1B Put Wall at 765, Call Skew at Highs; Bullish Flow Also Noted",
-      "body": "SPY has a $2.1B put wall at the 765 strike which bulls need to hold as support or bears gain control. Separately, Goldman data shows call skews at highs while put skews are at lows, and millions of further-dated SPY call buys/put sells signal ongoing bullish institutional positioning. The S&P 500 cycle composite is entering its historically most challenging seasonal stretch.",
-      "tickers": [
-        "SPY"
-      ],
-      "source_item_ids": [
-        "x:2094427525896134682",
-        "x:2094457228245795089"
-      ]
-    },
-    {
-      "title": "NFLX: Sell-the-News Pressure After Trailer; MSCI Says Pre-Sales Trajectory Unchanged",
-      "body": "Market is showing sell-the-news behavior following the NFLX release, with MSCI commentary indicating the trailer did not materially alter pre-sales trajectory.",
-      "tickers": [
-        "NFLX"
-      ],
-      "source_item_ids": [
-        "x:2094452378586247298"
-      ]
-    },
-    {
-      "title": "TSLA: Most Bullish Options Flow on the Day; Up 4.5% to One-Week High",
-      "body": "TSLA showed the most bullish options flow of any name intraday on August 31, with shares hitting a one-week high up 4.5%. A self-described long-time Tesla investor separately noted current valuation as stretched and disclosed they do not currently own shares.",
-      "tickers": [
-        "TSLA"
-      ],
-      "source_item_ids": [
-        "x:2094440761949343971",
-        "x:2094458152133575007"
-      ]
-    },
-    {
-      "title": "Dallas Fed Manufacturing Index Surges: 11.6 vs. 1.6 Expected",
-      "body": "August Dallas Fed Manufacturing Index surged to +11.6 versus +1.6 estimate, with new orders jumping to +22.0 (vs. +6.4 prior), production rising to +16.1 (vs. +10.1 prior), and shipments increasing to +14.1 (vs. +8.8 prior). The dominant word in the Dallas Fed report was 'uncertainty.'",
+      "title": "Trump weighing limited strikes on Iran over Hormuz \u2014 geopolitical risk spike",
+      "body": "Multiple wires flagged that President Trump is weighing limited military strikes against Iran with the U.S. seeking to prevent Iran from rebuilding capabilities. Escalation around the Strait of Hormuz carries implications for energy prices and defense sector positioning.",
       "tickers": [],
       "source_item_ids": [
-        "x:2094437527545426385",
-        "x:2094438595767496917"
+        "x:2094487256895725917",
+        "x:2094486986832609351"
       ]
     },
     {
-      "title": "CXMT HBM3E Production Breakthrough: China's AI Memory Bottleneck Easing",
-      "body": "China's CXMT has begun small-scale HBM3E production, which analysts frame not as a catch-up story vs. SK Hynix or MU, but as removing a key bottleneck for China's domestic AI accelerator ecosystem. CXMT shifting wafer capacity toward HBM3E could also tighten commodity DRAM supply.",
-      "tickers": [
-        "MU"
-      ],
+      "title": "Tom Lee: Markets could rally 'very strongly' if Fed holds in September",
+      "body": "Fundstrat's Tom Lee, via CNBC's Squawk, argued that a Fed hold at the September meeting could catalyze a strong equity market rally. The comment comes as macro uncertainty keeps investors cautious into month-end.",
+      "tickers": [],
       "source_item_ids": [
-        "x:2094417173863354733",
-        "x:2094415322220540213"
+        "x:2094487276080284051"
+      ]
+    },
+    {
+      "title": "OpenAI 'Jalape\u00f1o' custom chip removes L2 cache to slash inference latency",
+      "body": "Commentary flags that OpenAI's custom AI chip, codenamed Jalape\u00f1o, removes the L2 cache as an architectural choice to cut inference latency, overcoming prior token throughput losses. The move signals OpenAI is deepening its vertical integration into silicon to optimize its inference stack.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2094485940936790186"
+      ]
+    },
+    {
+      "title": "JPMorgan trading desk turns tactically cautious after bullish 2026 call paid off",
+      "body": "JPMorgan's trading desk, credited with 'perfectly timing the market in 2026,' has shifted its stance from bullish to tactically cautious. The desk's repositioning could be a meaningful near-term signal given the desk's recent track record.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2094485398189719834"
+      ]
+    },
+    {
+      "title": "Trump administration to sharply reduce vehicle fuel economy standards",
+      "body": "Transportation Secretary Duffy is set to announce a rollback of vehicle fuel economy (CAFE) standards, a policy shift with implications for automakers and EV adoption trajectories.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2094488819340869647",
+        "x:2094488797421383797"
       ]
     }
   ]
