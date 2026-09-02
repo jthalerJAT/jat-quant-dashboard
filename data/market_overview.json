@@ -1,164 +1,120 @@
 {
-  "digest_type": "eod",
-  "digest_dt": "2026-09-01T18:00:00-04:00",
-  "saved_at": "2026-09-01T22:12:29.031839+00:00",
+  "digest_type": "premarket",
+  "digest_dt": "2026-09-02T08:30:00-04:00",
+  "saved_at": "2026-09-02T12:47:46.241073+00:00",
   "bullets": [
     {
-      "title": "S&P -0.7%, Nasdaq -1.0% as rates, oil, and weak jobs data weigh on growth trade",
-      "body": "US equities finished notably lower on Sept 1, with S&P 500 down 0.71% and Nasdaq down 1.03% amid a confluence of headwinds: 10-year Treasury yields rose 5bps to 4.79% (19-month high), WTI crude surged 5.2% to $90.78 on US strikes against Iranian targets near the Strait of Hormuz, and July JOLTS job openings missed at 7.27M (with June revised to the lowest since February). Market breadth was decisively negative at 2.33:1 NYSE and 2.91:1 Nasdaq.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a05e9a102432cb8",
-        "gmail:1a05db4f99b49e2b"
-      ]
-    },
-    {
-      "title": "Fed's Barr signals readiness to hike; hawkish regime intact heading into August jobs report",
-      "body": "Fed Governor Barr explicitly signaled readiness to hike if inflation doesn't moderate, reinforcing the hawkish tilt from Chair Warsh's Jackson Hole remarks. August payrolls (Friday) are expected soft at +65k headline / +40k private per Morgan Stanley, with unemployment rising to 4.2%; MS cites ~15k drag from Haitian TPS revocations with downside risk. Hedgeye's inflation nowcast tracks August CPI at +3.50% YoY (+14bps sequential acceleration) with Middle East energy disruption as the primary driver.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a05e9d8ed66dd18",
-        "gmail:1a05e3e22ff6ec15"
-      ]
-    },
-    {
-      "title": "Oil +5% on Iran strike; diesel at 4-month high with refining margins at record $106/bbl",
-      "body": "US airstrikes against Iranian targets near the Strait of Hormuz drove WTI up 5.2% to $90.78, with diesel hitting a four-month high and refining margins reaching a record $106/barrel. Piper's technical setup sees WTI breaking above $88 with targets of $93.5\u2013$97. Rising input costs from Iran supply chain disruption compound AI buildout and tariff-driven cost pressures already showing up in ISM/PMI data.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a05e9a102432cb8",
-        "gmail:1a05db4f99b49e2b"
-      ]
-    },
-    {
-      "title": "Quant regime: risk-off internals persist despite 'Normal Expansion' macro backdrop",
-      "body": "GS quant notes that 78% of weeks since late June have shown risk-off market internals \u2014 historically anomalous for a Normal Expansion regime. Value and Low Volatility factors are now leading, reversing the Growth/Momentum dominance of 1H26. The catalyst for a rotation back to risk-on would be easing uncertainty about AI investment profitability or a softer financial conditions path; Warsh's commentary is seen extending the near-term risk-off trend.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a05de91c1eedb5d",
-        "gmail:1a05ec02da4fc9f6"
-      ]
-    },
-    {
-      "title": "Software outperformed NDX by >11% in August; sustainability debated into September",
-      "body": "GS trading desk reports software beat NDX by more than 11% for back-to-back months, driven by positioning, technicals, and an easing AI bear case. The key September debate is whether application software can sustain gains given two-way earnings (INTU/HUBS bear vs. MSFT/CRM bull camps). CRM, TEAM, NOW, PSKY, and DASH are flagged as overbought on 14-day RSI, while APP and GEV are oversold. Key September catalysts include CRWD, CRM, HUBS, and INTU analyst days plus GS Communacopia + Tech Conf (9/8\u201311) with NVDA CEO, AVGO CEO, OpenAI CFO, and MSFT CFO keynotes.",
+      "title": "DELL blows out estimates; AI server cycle accelerating well beyond Street",
+      "body": "DELL reported Q2 revenue of $47B (+58% YoY), crushing guidance of $44-45B, with AI server revenue of $16.4B (+100% YoY) and a $95B backlog across 6,500+ customers. FY27 guidance raised to $192B revenue (+70%) and $25.50 EPS (+150%), with AI server revenue now guided to $74B (3x YoY). Demand exceeds supply \u2014 constraints in DRAM, NAND, CPUs, optics remain the binding limiter, not demand; DELL OpEx at 8% of revenue is lowest in its 42-year history.",
       "tickers": [
-        "CRM",
-        "TEAM",
-        "NOW",
-        "PSKY",
-        "DASH",
-        "APP",
-        "GEV",
-        "NVDA",
+        "DELL"
+      ],
+      "source_item_ids": [
+        "gmail:1a05f7b54a369f7f",
+        "gmail:1a05f49d6f1c92f3"
+      ]
+    },
+    {
+      "title": "AVGO: ~$5B trimmed from F2027 AI revenue est on TPU timing; GCP ramp still strong",
+      "body": "UBS trimmed ~$5B from Broadcom's F2027 AI revenue estimate (now ~$130B) citing aggressive TPU unit shipment assumptions, though Anthropic TPU shipments are still estimated at $2.5B in FQ3 ramping to $3.3B in FQ4. GCP-related AI revenues expected to step up ~$2B Q/Q in FQ3 and another ~$1.5B in FQ4; OpenAI contributes ~$1.25B/$12B in C2026/C2027. PT cut $485\u2192$470, Buy maintained.",
+      "tickers": [
+        "AVGO"
+      ],
+      "source_item_ids": [
+        "gmail:1a061e67953ff1ba"
+      ]
+    },
+    {
+      "title": "NVDA in advanced talks to acquire Hugging Face for ~$12.9B + $1B retention",
+      "body": "Nvidia is in advanced talks to acquire Hugging Face at a ~$12.9B valuation plus a $1B retention package for staff, with a deal potentially closing this week. Microsoft had also held talks but those have ended. Hugging Face had previously rejected an NVDA $500M investment offer at a $7B valuation in January 2025.",
+      "tickers": [
+        "NVDA"
+      ],
+      "source_item_ids": [
+        "gmail:1a05f90857f8881c"
+      ]
+    },
+    {
+      "title": "AI data center capex on parabolic path; TSMC tool needs almost doubled YoY",
+      "body": "TSMC's quarterly chipmaking tool requirements nearly doubled year-over-year, reflecting the scale of AI infrastructure buildout. PwC projects AI data center spending will reach ~$32 trillion by 2050. HPE server ASPs are up 50-100% with no meaningful demand destruction, and memory spot prices remain firm despite some DDR5/DDR4 softness.",
+      "tickers": [
         "AVGO",
-        "MSFT",
-        "INTU",
-        "HUBS"
+        "MRVL"
       ],
       "source_item_ids": [
-        "gmail:1a05eedca5d9a8f6"
+        "gmail:1a061e67953ff1ba"
       ]
     },
     {
-      "title": "AI/Power trade under pressure: TX/PA/OH data center policy + Musk solar supply shock",
-      "body": "GS flags the AI/Power trade under pressure following data center policy developments in Texas, Pennsylvania, and Ohio, with midterm election rhetoric adding to setup uncertainty. Separately, Elon Musk announced Tesla and SpaceX are each building 100 GW/yr solar capacity (incremental to prior 100 GW plans), which Wells Fargo says creates significant supply pressure and negative long-term pricing impact for FSLR. The AI capex boom itself is cited by multiple sources as a driver of inflation risk and tighter financial conditions.",
+      "title": "Enterprise AI security: $33B agentic identity market emerging as next spending wave",
+      "body": "Morgan Stanley identifies a $33B market opportunity in agentic identity security as AI agents gain access to sensitive enterprise systems. CRWD's Falcon'26 event is anchoring its 'Autonomously Securing AI' strategy around SafeMind, a purpose-built security model for agentic defense, with management telegraphing potential FY31E ARR targets of $10B (implying 11-13% CAGR from FY27 vs. current 26% guidance).",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a05f07a65e98558",
+        "gmail:1a05f07c5f17da87"
+      ]
+    },
+    {
+      "title": "PANW: Strong F4Q26 beat across all metrics; platformization gaining clear traction",
+      "body": "PANW posted F4Q26 revenue +34% YoY (1.7% above consensus), NGS ARR +63% YoY with $970M NNARR ($170M above guidance), and record 220 net new platformizations (+44% YoY) driven by Mythos. FY27 NGS ARR guidance of $11.125B (+22%) beat consensus by ~$185M; stock is up 97% YTD vs IGV +1% and trades at 52x EV/CY27E FCF.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a06067e8f6e30ec"
+      ]
+    },
+    {
+      "title": "Trucking rates up 30% YTD, structural pressure on consumer margins through 2027",
+      "body": "Truck rates are up ~30% YoY driven by supply tightening (not demand), with spot rates elevated since Nov 2025 and contract rates (~75% of freight) only now beginning to catch up. Trump administration policies and a Supreme Court ruling on freight broker liability further constrain driver supply; Citi sees rates continuing to rise into 2027+ absent a housing recovery, adding a structural 10-15% to an already 10-15% equilibrium adjustment.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a060ed4539fb42c"
+      ]
+    },
+    {
+      "title": "JPM derivatives: NDX upside, memory-to-semis rotation, healthcare at inflection",
+      "body": "JPMorgan's August equity derivatives monthly highlights NDX upside and mean-reversion trade ideas, a memory-to-semis rotation visible in Delta-One flows, and healthcare as a potential inflection point following Q2 earnings volatility. Dispersion trading opportunities are also cited on equity volatility.",
       "tickers": [
-        "FSLR",
-        "VST"
+        "MU"
       ],
       "source_item_ids": [
-        "gmail:1a05eedca5d9a8f6",
-        "gmail:1a05e9f463926e65"
+        "gmail:1a05fb91fadd46e4"
       ]
     },
     {
-      "title": "22V: AI capex scale raises inflation/rate risk; favors cash-return and high-AI-usage software over broadening trade",
-      "body": "22V argues that strong underlying demand, tight labor, and persistent supply shocks are elevating the risk that the base case of 'slower growth, less-bad inflation' breaks toward higher inflation and tighter financial conditions. AI-related capex at scale is itself seen as an inflationary force. The desk is moving away from the broadening/small-cap trade and toward cash return and high-AI-usage services/software.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a05ec02da4fc9f6"
-      ]
-    },
-    {
-      "title": "GS hedge fund August: Fundamental L/S flat, Systematic L/S +3%; gross leverage rises for first time in 3 months",
-      "body": "Global Fundamental L/S managers finished flat in August, underperforming the market, while Systematic L/S posted +3.0%, its best month YTD. Overall book gross leverage rose for the first time in three months. Net buying was concentrated in North America and EM Asia; Communication Services, Financials, and Materials were the most net-bought US sectors.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a05ec819d4f50b5"
-      ]
-    },
-    {
-      "title": "Manufacturing PMI seeing local peak; input cost pressures elevated, firms passing through",
-      "body": "Manufacturing PMIs show a local peak following robust reacceleration since last fall, but forward indicators suggest demand remains positive. Backlogs of work rose for a sixth consecutive month and firms are increasingly able to pass cost-push shocks to customers. ISM new orders slowed to 53.7 from 56.8 and the employment sub-index came in at 51.2; 22% of manufacturing GDP contracted in August vs. 20% in July, with rising input costs from AI buildout, Iran disruption, and tariff policy all cited.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a05e2447f8196b9",
-        "gmail:1a05db4f99b49e2b"
-      ]
-    },
-    {
-      "title": "Anthropic inks $35B compute deal with Lambda/NVDA; SBE Energy IPO filed at $50B+ valuation",
-      "body": "Anthropic agreed to a $35B computing deal with Lambda cloud provider backed by NVDA, with HUT developing a related Texas data center. NVDA- and SoftBank-backed SBE Energy separately filed for an IPO targeting a $5\u20137B raise at a $50B+ valuation for data center buildout. OpenAI CFO noted +35% revenue run rate QTD and is targeting a public offering in 2027 or sooner; Anthropic's pre-IPO tokenized equity implies a $1.925T market cap.",
+      "title": "Roth Capital tracking enterprise AI budget allocation and hyperscaler platform preference",
+      "body": "Roth Capital is fielding a survey targeting senior IT decision-makers at large and mid-sized U.S. enterprises to map AI spend intent and platform preference across AWS, GCP, and Azure. Key metrics include AI ROI, business areas benefiting most (customer service, data analytics, supply chain), and adoption barriers across ML, NLP, RPA, computer vision, and predictive analytics.",
       "tickers": [
-        "NVDA",
-        "HUT"
+        "META",
+        "AMZN",
+        "GOOGL"
       ],
       "source_item_ids": [
-        "gmail:1a05e9a102432cb8",
-        "gmail:1a05de28e62b7308"
+        "gmail:1a061fe92baa76b3"
       ]
     },
     {
-      "title": "August monthly recap: S&P +2.62%, Nasdaq +3.93%; software (IGV) +16.3%, PLTR +51.5%, NVDA +9.8%",
-      "body": "August delivered broad gains led by tech: IGV software ETF +16.3%, S&P Tech sector +6.19%, SOX +2.0%. PLTR surged 51.5% on AI commercial demand reacceleration; TSLA +18.2%, MSFT +9.2%, NVDA +9.8% among Mag 7 leaders. Fed expectations tilted hawkish into September; Chair Warsh's remarks leaned hawkish on inflation. Taiwan (+7.0%) and Korea (+6.9%) led Asia on AI supply chain strength.",
-      "tickers": [
-        "NVDA",
-        "PLTR",
-        "MSFT",
-        "TSLA",
-        "AMD"
-      ],
-      "source_item_ids": [
-        "gmail:1a05e6a12151ac65",
-        "gmail:1a05e34871321cdc"
-      ]
-    },
-    {
-      "title": "10-year JGB hits 3% (30-year high); global yields surging on Iran, oil, and AI capex concerns",
-      "body": "The 10-year JGB yield reached 3%, a 30-year high, as part of a broad global yield surge. US 10-year rose to 4.79% (+5bps on the day), and the 30-year to 5.27% (+3bps). The REIT sector cited global bond yields surging on Iran tensions, oil price pressures, and the AI capex boom as the key driver of the rate backup. Data Center REITs were the worst YTD REIT performer, down 1.60%.",
-      "tickers": [
-        "EQIX",
-        "DLR"
-      ],
-      "source_item_ids": [
-        "gmail:1a05e9d8ed66dd18",
-        "gmail:1a05e34871321cdc"
-      ]
-    },
-    {
-      "title": "Consumer Discretionary (XLY) technically deteriorating; only 36% of constituents above 50-day MA",
-      "body": "Technical analysis shows XLY momentum rolling lower from an early-2025 peak, with only 36% of constituents above the 50-day MA and 40% above the 200-day MA. 59% of sector stocks have weak/poor technical scores. Separately, GS notes retail showing consumer spending slowdown signs, with TJX/BURL off-price weakness leading a sell-off; the GS Retail Conference (9/14\u201315) will feature WMT and TJX with hints that 3Q improved vs. 2Q.",
+      "title": "Hong Kong/Asia equities: Hang Seng +1.2%, Tech +2.0%; gold-linked names weaker",
+      "body": "The Hang Seng rose 1.20% to 25,025 and the Hang Seng Tech Index gained 1.98% to 4,461 in mid-morning trading on Sep 2. Non-ferrous metal names declined on gold weakness, while broader tech outperformed. Asian 52-week low breadth remains heavy \u2014 76 names at lows vs. 24 at highs, with Technology Services sector showing 1 high vs. 10 lows.",
       "tickers": [],
       "source_item_ids": [
-        "gmail:1a05e40fe27a529e",
-        "gmail:1a05eedca5d9a8f6"
+        "gmail:1a06014314c2e325",
+        "gmail:1a0602dcf22239fd"
       ]
     },
     {
-      "title": "Hedgeye CPI nowcast: August tracking +3.50% YoY (+14bps acceleration); September flat at +3.49%",
-      "body": "Hedgeye's monthly inflation nowcast \u2014 which claims 90% directional accuracy \u2014 calls for August headline CPI at +3.50% YoY, a +14bps sequential acceleration driven by Middle East energy market disruption. September is projected to be nearly flat at +3.49% YoY. August CPI releases September 11th; September CPI on October 14th.",
+      "title": "LatAm macro deteriorating: Chile GDP slashed to 0.4%, Peru inflation at 4.44%, Colombia borrowing surges",
+      "body": "Chile's Imacec fell 1.5% YoY in July (worst since March 2023) on mining contraction of -9.3%, driving full-year GDP growth forecasts as low as 0.4%. Peru's Lima CPI accelerated to 4.44% YoY in August \u2014 third consecutive rise and highest since September 2023, well above the BCR's 1-3% target. Colombia is seeking $11.1B in additional 2027 borrowing capacity tied to a 1.3pp-of-GDP deterioration in its primary balance.",
       "tickers": [],
       "source_item_ids": [
-        "gmail:1a05e18981b8698f"
+        "gmail:1a062023efdacd43"
       ]
     },
     {
-      "title": "Taiwan August: TWSE +7%, FII net bought $7.6B; DC infrastructure delivery seen as bottleneck",
-      "body": "Taiwan equities rebounded 7.0% in August with MSCI Taiwan gaining 6.3% in USD on $7.6B of FII net buying. GPU and ASIC demand described as very strong; smartphones the only weak spot. DC infrastructure delivery is flagged as a potential bottleneck, with HVDC power rack ramping in 4Q26/1Q27. MediaTek's TPU opportunity is projected at an $80\u2013100B annual run-rate by 2030, likely taking majority unit share in TPUv8 and becoming primary vendor for TPUv9.",
+      "title": "SPGI Capital IQ Pro spinout: JPM skeptical, math doesn't work at reported $7-9B valuation",
+      "body": "S&P Global is exploring a spinout of Capital IQ Pro (estimated ~$930M revenue, low-single-digit growth), but JPMorgan argues the $7-9B Bloomberg valuation implies multiples far above comps like FactSet (5x LTM EV/revenue). Separating Capital IQ from SNL and Visible Alpha would be dis-synergistic; JPM argues the cleaner re-rating path is organic MI execution, not a spinout. SPGI stock gained ~1% on the news while S&P 500 fell 0.7%.",
       "tickers": [],
       "source_item_ids": [
-        "gmail:1a05e3e75edf2b54"
+        "gmail:1a05f5f85e287438"
       ]
     }
   ]
