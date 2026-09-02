@@ -1,120 +1,209 @@
 {
-  "digest_type": "premarket",
-  "digest_dt": "2026-09-02T08:30:00-04:00",
-  "saved_at": "2026-09-02T12:47:46.241073+00:00",
+  "digest_type": "midday",
+  "digest_dt": "2026-09-02T12:00:00-04:00",
+  "saved_at": "2026-09-02T16:25:27.633012+00:00",
   "bullets": [
     {
-      "title": "DELL blows out estimates; AI server cycle accelerating well beyond Street",
-      "body": "DELL reported Q2 revenue of $47B (+58% YoY), crushing guidance of $44-45B, with AI server revenue of $16.4B (+100% YoY) and a $95B backlog across 6,500+ customers. FY27 guidance raised to $192B revenue (+70%) and $25.50 EPS (+150%), with AI server revenue now guided to $74B (3x YoY). Demand exceeds supply \u2014 constraints in DRAM, NAND, CPUs, optics remain the binding limiter, not demand; DELL OpEx at 8% of revenue is lowest in its 42-year history.",
-      "tickers": [
-        "DELL"
-      ],
+      "title": "Oil spike, ISM miss, ADP miss: macro headwinds mounting into September",
+      "body": "Oil surged +5.3% to ~$95/bbl on Middle East escalation and US strikes near the Strait of Hormuz. ISM Manufacturing came in at 54.6 vs 55.2 consensus (New Orders 53.7 vs 56.8), and ADP August jobs printed 38k vs 47k expected \u2014 slowest since January, with small/medium businesses essentially flat. Combined, these data points raise stagflation-adjacent concerns: 22V notes 6%+ nominal GDP growth means dovish data is unlikely to bring yields lower, and every $1 move in oil adds ~3bps to the inflation nowcast.",
+      "tickers": [],
       "source_item_ids": [
-        "gmail:1a05f7b54a369f7f",
-        "gmail:1a05f49d6f1c92f3"
+        "gmail:1a0627b982ff3c1a",
+        "gmail:1a0624060771699d"
       ]
     },
     {
-      "title": "AVGO: ~$5B trimmed from F2027 AI revenue est on TPU timing; GCP ramp still strong",
-      "body": "UBS trimmed ~$5B from Broadcom's F2027 AI revenue estimate (now ~$130B) citing aggressive TPU unit shipment assumptions, though Anthropic TPU shipments are still estimated at $2.5B in FQ3 ramping to $3.3B in FQ4. GCP-related AI revenues expected to step up ~$2B Q/Q in FQ3 and another ~$1.5B in FQ4; OpenAI contributes ~$1.25B/$12B in C2026/C2027. PT cut $485\u2192$470, Buy maintained.",
-      "tickers": [
-        "AVGO"
-      ],
+      "title": "10-year yields at YTD highs; yield curve steepening pressures growth multiples",
+      "body": "2-year UST yields rose +6bps to YTD highs; global yields also higher (Bunds +3bps, JGBs +7bps). 30-year Treasury has closed above 5% more times this year than since 2006. UBS expects Fed on hold with next cut not until 2027; Chair Warsh's Jackson Hole speech flagged rising capex, healthy consumer, and concerning PCE. Bear steepening historically favors Energy, Financials, Industrials over long-duration growth \u2014 multiple strategists now calling for sector rotation away from mega-cap tech.",
+      "tickers": [],
       "source_item_ids": [
-        "gmail:1a061e67953ff1ba"
+        "gmail:1a0627b982ff3c1a",
+        "gmail:1a06226dc55b7c8e"
       ]
     },
     {
-      "title": "NVDA in advanced talks to acquire Hugging Face for ~$12.9B + $1B retention",
-      "body": "Nvidia is in advanced talks to acquire Hugging Face at a ~$12.9B valuation plus a $1B retention package for staff, with a deal potentially closing this week. Microsoft had also held talks but those have ended. Hugging Face had previously rejected an NVDA $500M investment offer at a $7B valuation in January 2025.",
+      "title": "S&P 500 showing four straight days of lower highs; consolidation/correction risk flagged",
+      "body": "S&P 500 futures near 7,641 with Hedgeye noting four consecutive days of lower highs and a break of medium-term trade around 7,671 \u2014 its signal to stop buying and start selling. Market breadth has deteriorated with only 44% of NYSE stocks above their 50-day MA (lowest since early April); Goldman's Most Short basket is outperforming SPY by ~25pp YTD, indicating elevated speculative activity. 22V recommends hedging with upside VIX protection; September historically weakest month with second half particularly poor.",
+      "tickers": [
+        "SPY"
+      ],
+      "source_item_ids": [
+        "gmail:1a0628dddf255d8d",
+        "gmail:1a06231dec1276d4"
+      ]
+    },
+    {
+      "title": "Asian equity crash deepening: KOSPI -28% from peak, Nikkei breaking trend on yields/yen",
+      "body": "South Korea's KOSPI is down 28% from its MOAB peak and fell another 4% overnight, remaining in what Hedgeye characterizes as Quad 4 crash mode. Japan's Nikkei dropped 2.9% after breaking both trade and trend signals, pressured by higher JGB yields and currency moves. Hedgeye is broadly bearish on Korean semis/DRAM, Japan, and China while rotating into healthcare, software, and energy on dips.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a0628dddf255d8d",
+        "gmail:1a0622e397f640dc"
+      ]
+    },
+    {
+      "title": "Phase 2 semiconductor tariffs: >50% probability flagged; data center exemption at risk",
+      "body": "The Trump administration is reportedly developing 'targeted, thoughtful' semi tariff policy beyond the existing 25% on advanced chips \u2014 potentially extending to servers, PCs, and broader electronics derivatives. Commerce Secretary Lutnick confirmed the direction at G20; a Trump-Xi meeting Sept 24 is seen as pivotal with possible enactment in January 2027. Critically, the blanket data center exemption from Phase 1 tariffs may be removed, which would force operators to reassess power conversion, capacitors, MOSFETs, and related infrastructure spend.",
       "tickers": [
         "NVDA"
       ],
       "source_item_ids": [
-        "gmail:1a05f90857f8881c"
+        "gmail:1a06282aca2692bc",
+        "gmail:1a0627b982ff3c1a"
       ]
     },
     {
-      "title": "AI data center capex on parabolic path; TSMC tool needs almost doubled YoY",
-      "body": "TSMC's quarterly chipmaking tool requirements nearly doubled year-over-year, reflecting the scale of AI infrastructure buildout. PwC projects AI data center spending will reach ~$32 trillion by 2050. HPE server ASPs are up 50-100% with no meaningful demand destruction, and memory spot prices remain firm despite some DDR5/DDR4 softness.",
+      "title": "DELL blowout: FY27 AI server guidance raised to $74B, backlog $95B; ISG margins 15%",
+      "body": "Dell raised FY27 AI server sales guidance to $74B (from $60B) with an AI backlog of $95B on $60.9B incremental orders \u2014 with AI business potentially exceeding $100B by FY28. ISG margins hit 15% vs GS estimate of 11.7%, driven by storage IP shift and AI workloads. GS raised DELL non-GAAP FY28 EPS estimates ~38% overnight to ~$30.53, the second consecutive ~40% raise; stock +9.3% pre-market. Key risk flagged by Wolfe: margin compression if memory prices normalize (stock now trades at 12.8x CY28E vs 10x historical avg).",
       "tickers": [
-        "AVGO",
-        "MRVL"
+        "DELL",
+        "HPE",
+        "NVDA"
       ],
       "source_item_ids": [
-        "gmail:1a061e67953ff1ba"
+        "gmail:1a062a4d763b76c0",
+        "gmail:1a0622d3f1051302"
       ]
     },
     {
-      "title": "Enterprise AI security: $33B agentic identity market emerging as next spending wave",
-      "body": "Morgan Stanley identifies a $33B market opportunity in agentic identity security as AI agents gain access to sensitive enterprise systems. CRWD's Falcon'26 event is anchoring its 'Autonomously Securing AI' strategy around SafeMind, a purpose-built security model for agentic defense, with management telegraphing potential FY31E ARR targets of $10B (implying 11-13% CAGR from FY27 vs. current 26% guidance).",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a05f07a65e98558",
-        "gmail:1a05f07c5f17da87"
-      ]
-    },
-    {
-      "title": "PANW: Strong F4Q26 beat across all metrics; platformization gaining clear traction",
-      "body": "PANW posted F4Q26 revenue +34% YoY (1.7% above consensus), NGS ARR +63% YoY with $970M NNARR ($170M above guidance), and record 220 net new platformizations (+44% YoY) driven by Mythos. FY27 NGS ARR guidance of $11.125B (+22%) beat consensus by ~$185M; stock is up 97% YTD vs IGV +1% and trades at 52x EV/CY27E FCF.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a06067e8f6e30ec"
-      ]
-    },
-    {
-      "title": "Trucking rates up 30% YTD, structural pressure on consumer margins through 2027",
-      "body": "Truck rates are up ~30% YoY driven by supply tightening (not demand), with spot rates elevated since Nov 2025 and contract rates (~75% of freight) only now beginning to catch up. Trump administration policies and a Supreme Court ruling on freight broker liability further constrain driver supply; Citi sees rates continuing to rise into 2027+ absent a housing recovery, adding a structural 10-15% to an already 10-15% equilibrium adjustment.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a060ed4539fb42c"
-      ]
-    },
-    {
-      "title": "JPM derivatives: NDX upside, memory-to-semis rotation, healthcare at inflection",
-      "body": "JPMorgan's August equity derivatives monthly highlights NDX upside and mean-reversion trade ideas, a memory-to-semis rotation visible in Delta-One flows, and healthcare as a potential inflection point following Q2 earnings volatility. Dispersion trading opportunities are also cited on equity volatility.",
+      "title": "GOOGL wins ad-tech antitrust case: DOJ divestiture demand rejected, only behavioral remedies imposed",
+      "body": "A federal judge denied the DOJ's request to force divestiture of Google's advertising technology business \u2014 rejecting forced sale of the publisher ad server and ad exchange. Only behavioral remedies were imposed, avoiding a structural breakup. Stock gained ~$4 at announcement. Separately, Berkshire Hathaway's CEO called Google a 'significant player' in AI, with Berkshire having added $17B of GOOGL shares in Q2, making it the third-largest holding.",
       "tickers": [
-        "MU"
-      ],
-      "source_item_ids": [
-        "gmail:1a05fb91fadd46e4"
-      ]
-    },
-    {
-      "title": "Roth Capital tracking enterprise AI budget allocation and hyperscaler platform preference",
-      "body": "Roth Capital is fielding a survey targeting senior IT decision-makers at large and mid-sized U.S. enterprises to map AI spend intent and platform preference across AWS, GCP, and Azure. Key metrics include AI ROI, business areas benefiting most (customer service, data analytics, supply chain), and adoption barriers across ML, NLP, RPA, computer vision, and predictive analytics.",
-      "tickers": [
-        "META",
-        "AMZN",
         "GOOGL"
       ],
       "source_item_ids": [
-        "gmail:1a061fe92baa76b3"
+        "gmail:1a0628eb96737790",
+        "gmail:1a0622d9d0a02ba1"
       ]
     },
     {
-      "title": "Hong Kong/Asia equities: Hang Seng +1.2%, Tech +2.0%; gold-linked names weaker",
-      "body": "The Hang Seng rose 1.20% to 25,025 and the Hang Seng Tech Index gained 1.98% to 4,461 in mid-morning trading on Sep 2. Non-ferrous metal names declined on gold weakness, while broader tech outperformed. Asian 52-week low breadth remains heavy \u2014 76 names at lows vs. 24 at highs, with Technology Services sector showing 1 high vs. 10 lows.",
-      "tickers": [],
+      "title": "GOOGL Gemini 4 pre-training complete; frontier AI leadership remains DeepMind's top priority",
+      "body": "Google DeepMind's chief AI architect confirmed Gemini 4 is the company's most ambitious pre-training run to date, with post-training underway; Gemini 3.8 Flash expected imminently. DeepMind explicitly called returning to the AI frontier the 'only strategic priority,' noting current models are slightly below frontier but that Flash models are rapidly closing the gap. Google's full stack (models, chips, infra, multi-billion-user distribution) cited as structural competitive advantage.",
+      "tickers": [
+        "GOOGL"
+      ],
       "source_item_ids": [
-        "gmail:1a06014314c2e325",
-        "gmail:1a0602dcf22239fd"
+        "gmail:1a06222fcf42e94b",
+        "gmail:1a0627b982ff3c1a"
       ]
     },
     {
-      "title": "LatAm macro deteriorating: Chile GDP slashed to 0.4%, Peru inflation at 4.44%, Colombia borrowing surges",
-      "body": "Chile's Imacec fell 1.5% YoY in July (worst since March 2023) on mining contraction of -9.3%, driving full-year GDP growth forecasts as low as 0.4%. Peru's Lima CPI accelerated to 4.44% YoY in August \u2014 third consecutive rise and highest since September 2023, well above the BCR's 1-3% target. Colombia is seeking $11.1B in additional 2027 borrowing capacity tied to a 1.3pp-of-GDP deterioration in its primary balance.",
+      "title": "AI token costs halved from peak; LLM revenue-per-token in structural decline",
+      "body": "AI token costs have fallen to $0.97 vs a high of $2.07 on May 28. Hedgeye flags LLM revenue-per-token plummeting across OpenAI, Anthropic, Minimax, and Zhipu due to agentic token inflation, prompt caching, API price cuts, and adoption of cheaper model tiers. MS notes AI-related credit issuance is ~$445bn YTD with hyperscaler debt spreads ~30bp wider, as $40T in US federal debt raises the question of when higher bond yields begin to meaningfully compete with equities.",
       "tickers": [],
       "source_item_ids": [
-        "gmail:1a062023efdacd43"
+        "gmail:1a0627b982ff3c1a",
+        "gmail:1a06252530dbd8a0"
       ]
     },
     {
-      "title": "SPGI Capital IQ Pro spinout: JPM skeptical, math doesn't work at reported $7-9B valuation",
-      "body": "S&P Global is exploring a spinout of Capital IQ Pro (estimated ~$930M revenue, low-single-digit growth), but JPMorgan argues the $7-9B Bloomberg valuation implies multiples far above comps like FactSet (5x LTM EV/revenue). Separating Capital IQ from SNL and Visible Alpha would be dis-synergistic; JPM argues the cleaner re-rating path is organic MI execution, not a spinout. SPGI stock gained ~1% on the news while S&P 500 fell 0.7%.",
+      "title": "Uber 10% RIF (~3,300 roles): AI-driven efficiency freeing $825M+/yr for AV reinvestment",
+      "body": "Uber is cutting ~10% of its workforce (~3,300 employees out of ~36,600), with a 20% reduction in employees 7+ layers from CEO and ~50% cut in single/two-person teams. Gross annualized savings estimated at $825M+. The company explicitly attributed the RIF to AI productivity gains (70%+ of pull requests now AI-generated; WAUs on agentic offerings up 7x since February) rather than demand weakness, with savings earmarked for AV programs and growth \u2014 not margin expansion. Stock +1.8% pre-market.",
+      "tickers": [
+        "UBER"
+      ],
+      "source_item_ids": [
+        "gmail:1a062726acb6a566",
+        "gmail:1a06247763716e3d"
+      ]
+    },
+    {
+      "title": "SaaS valuation context: IGV +3.6% YTD vs S&P 500 +13.4%; multiples recovering but still lagging",
+      "body": "Wolfe's All-SaaS index trades at 5.9x FY+2 EV/Sales vs All-Security at 8.6x; IGV has returned +3.6% YTD, underperforming the S&P 500's +13.4%. Week-over-week, SaaS multiples rose ~4-5%, suggesting some recovery. MS notes TMT Momentum indices are down 55% from peak \u2014 the sharpest drawdown in history \u2014 reflecting the yield-driven multiple compression cycle for long-duration growth assets.",
+      "tickers": [
+        "SNOW",
+        "MDB"
+      ],
+      "source_item_ids": [
+        "gmail:1a06296da378446c",
+        "gmail:1a0627b982ff3c1a"
+      ]
+    },
+    {
+      "title": "ECB >95% probability of September hike; eurozone lending accelerating to 3.6% Y/Y",
+      "body": "Market pricing implies >95% probability of an ECB rate hike at the September meeting, with a final hike priced for December. Eurozone lending growth accelerated to 3.6% Y/Y in July vs 3.4% in June. UBS notes the ECB's balanced approach has achieved efficient monetary policy without significant term premium in Bunds, but strategists are waiting for better entry levels to go long EGB duration.",
       "tickers": [],
       "source_item_ids": [
-        "gmail:1a05f5f85e287438"
+        "gmail:1a062a9c5a899855",
+        "gmail:1a06226dc55b7c8e"
+      ]
+    },
+    {
+      "title": "Sector rotation underway: strategists exiting mega-cap tech for Energy, Financials, Healthcare",
+      "body": "Multiple strategists are calling or executing a rotation from growth/mega-cap tech to cyclicals and defensives. Craig Johnson's technicals model added EOG, FCX, MET, V while deleting APP (violated uptrend support) and taking profits in ROKU and WDAY. Hedgeye is bullish on Healthcare (XLV), Software (IGV), Energy (XLE/OIH), and Bitcoin while bearish on semiconductors, Japan/Nikkei, and Russell 2000. The bear-steepening yield curve environment is flagged as the structural driver.",
+      "tickers": [
+        "SPY"
+      ],
+      "source_item_ids": [
+        "gmail:1a06276d0fd35da6",
+        "gmail:1a0628dddf255d8d"
+      ]
+    },
+    {
+      "title": "VRT acquires UtilityInnovation for $1.45B to accelerate data center power deployment",
+      "body": "Vertiv is acquiring UtilityInnovation Group for $1.45B cash plus up to $1.15B earnout (13x FY27E EBITDA), extending upstream into campus power architecture with contracts across all five hyperscalers and 227MW of data center projects in 2026/27. The deal creates coordinated grid-connected, bridge-to-grid, and islanded generation solutions. Year-1 EPS accretion expected; earnout structure lowers effective multiple if growth targets are achieved.",
+      "tickers": [
+        "VRT"
+      ],
+      "source_item_ids": [
+        "gmail:1a06241a17369bc5",
+        "gmail:1a06250073c5b84f"
+      ]
+    },
+    {
+      "title": "AI-related FDI surging into EM infrastructure hubs despite portfolio outflows from Korea/India",
+      "body": "JPMorgan's EM capital flows monitor notes FDI and lending inflows to EM infrastructure hubs (Malaysia, Thailand, Korea, India, Indonesia, Brazil, UAE, Saudi Arabia) have reached their highest levels since 2022, driven by data-center FDI. This masks portfolio outflows from Korea and Indian equities. Borrowing costs remain ~200bp above the pre-2022 decade average, but investors are acclimating to the new rate environment. CEE and Asia rank highest on AI preparedness indices.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a062af58348630b"
+      ]
+    },
+    {
+      "title": "SB Energy IPO filed: gigawatt-scale data center and power infrastructure targeting AI hyperscalers",
+      "body": "SB Energy (SBE) filed for a NASDAQ IPO with Goldman Sachs, JPMorgan, Morgan Stanley, and Citigroup as active bookrunners. The company develops and operates gigawatt-scale data center facilities and power generation assets with a vertically integrated, power-first model targeting AI-era hyperscaler demand. Filing terms and timing to be determined.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a0625a031436f76"
+      ]
+    },
+    {
+      "title": "2Q26 SPX EPS growth +52% (+30% ex-hyperscalers); record S&P 500 trailing margins at 14.8%",
+      "body": "2Q26 SPX EPS growth came in at +52% (+30% ex-hyperscalers), with CY26 EPS growth tracking at +31.5%. S&P 1500 NTM EPS growth is at 25.9% (87th percentile since 2002) and trailing S&P 500 margins hit a record 14.8%. However, 22V warns the near-term market skew is worsening: supply shocks, tight financial conditions, and elevated buyside expectations create asymmetric downside even as fundamentals remain strong.",
+      "tickers": [
+        "SPY"
+      ],
+      "source_item_ids": [
+        "gmail:1a0624db045e5772",
+        "gmail:1a06243aa6e3794a"
+      ]
+    },
+    {
+      "title": "AAPL iPhone 18 cycle includes first foldable; TSMC A20 Pro wafer orders rising",
+      "body": "AAPL's iPhone 18 launch is expected to include the company's first foldable device with estimated 7-8M foldable builds in C2H26. TSMC A20 Pro (Borneo 2nm) wafer orders increased by 2-3M units equivalent for C4Q26/C1Q27 per MS checks.",
+      "tickers": [
+        "AAPL",
+        "TSM"
+      ],
+      "source_item_ids": [
+        "gmail:1a0627b982ff3c1a"
+      ]
+    },
+    {
+      "title": "US hotel RevPAR +1.7% YoY for week ending 8/29; business travel leading, leisure/resort lagging",
+      "body": "US RevPAR grew +1.7% YoY to $101 for the week ending 8/29/26, decelerating from +4.4% the prior week (Labor Day calendar shift cited). Business-heavy markets were up +8% YoY while leisure-heavy markets were down -3%; resort segment fell -6.4%. 3Q26 tracking shows US RevPAR +6.2% with luxury leading at +13.1%. C-Corp operators (HLT +5.7%, MAR +6.5%, Hyatt +7.5%) are outperforming consensus.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a062a17a693a786",
+        "gmail:1a0629c0086384bd"
+      ]
+    },
+    {
+      "title": "Goldman FX recommends bullish AUDNZD call spread on Australia-NZ policy divergence",
+      "body": "Goldman's FX desk recommends buying AUDNZD 2Nov26 1.2375/1.2500 call spreads at 22.5bps AUD, with AUDNZD near one-year highs on stronger Australian data and a cautious RBNZ. AUDNZD implied volatility remains well below NZDUSD vol, making the call spread structure inexpensive. Policy divergence between the RBA and RBNZ is expected to continue, supporting further AUD outperformance.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a0629c0086384bd",
+        "gmail:1a062a0990370619"
       ]
     }
   ]
