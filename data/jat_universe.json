@@ -1,221 +1,244 @@
 {
-  "digest_type": "midday",
-  "digest_dt": "2026-09-04T12:00:00-04:00",
-  "saved_at": "2026-09-04T16:16:18.055748+00:00",
+  "digest_type": "weekend",
+  "digest_dt": "2026-09-04T18:00:00-04:00",
+  "saved_at": "2026-09-04T22:16:53.582374+00:00",
   "bullets": [
     {
-      "title": "NVDA: ATH test, Hugging Face acquisition, OpenAI Astra GPU demand, $2.5B Thinking Machines consideration",
-      "body": "NVDA tests all-time highs alongside AAPL, driving MAG7 +2.4%; the company is reportedly considering acquiring Hugging Face (~$150M run-rate revenue) to anchor the open-source AI stack and drive broader compute demand. OpenAI's Astra trained on 100K NVDA GPUs and OpenAI CTO confirms ongoing reliance on Nvidia for cutting-edge capabilities; US model release cadence hit 12.5/quarter in Q3 (vs 7.4 in Q2), one of 11 factors in a 97% R\u00b2 model for NVDA datacenter revenue. NVDA also guided +70% Y/Y FY28 revenue growth per JPM, with supply constraints remaining; separately considering a $2.5B investment in Thinking Machines Lab (ex-OpenAI CTO Mira Murati).",
+      "title": "AVGO: FY28 AI revenue guidance doubles to ~$230B; Anthropic/OpenAI become largest XPU customers",
+      "body": "Broadcom F3Q26 beat (revenue $29.59B, EPS $3.32 vs. $3.22 consensus) but Q4 guidance of $34.8B slightly disappointed some. The major catalyst: management guided FY27 AI revenue to $115B (from $100B) and FY28 to ~$230B, implying 100%+ growth in each year. Anthropic becomes largest XPU customer in FY27 (~5GW then 10GW in FY28); OpenAI Jalape\u00f1o ramp adds 1.3GW in FY27. Citi raised PT to $515 (19x FY28 EPS of $30), UBS maintains Buy at $470, Wolfe reiterates Outperform at $500. Key risk: GOOGL shifting some TPU work to MediaTek/MRVL, though AVGO retains multi-year take-or-pay LTA covering tens of billions annually.",
       "tickers": [
-        "NVDA"
+        "AVGO",
+        "GOOGL",
+        "META"
       ],
       "source_item_ids": [
-        "gmail:1a06c794769e704c",
-        "gmail:1a06c6c3be3e1c2b"
+        "gmail:1a066b2fde6c6bab",
+        "gmail:1a0673a7802583e6"
       ]
     },
     {
-      "title": "ADBE: CEO transition to Anil Chakravarthy signals enterprise CX pivot; stock -3.9% pre-market",
-      "body": "Adobe named Anil Chakravarthy as next CEO succeeding Shantanu Narayen (effective Dec 1), with David Wadhwani departing. The market read is a strategic shift toward CX and enterprise workflows while Creative remains under pressure from AI competition (Figma/Canva). Stock was -3.9% in pre-market; Citi flagged OpenAI's GPT-6 Astra as a watch item for ADBE given its capabilities in design automation.",
+      "title": "SNOW: Third straight quarter of product revenue acceleration; AI products drive path to 40%+ growth",
+      "body": "Snowflake F2Q27 product revenue of $1.49B (+37% YoY) beat consensus by ~$72M (5%+). FY27 product revenue guidance raised to $6.07B (+36%) from prior +31%. Q3 guide implies +37-38% YoY, with management implying 40%+ exit rate into FY28. Cortex Code (CoCo) accounts reached 9,100+ with AI contributing roughly half of acceleration alongside core migrations. Non-GAAP EPS of $0.62 beat by $0.17. Key concern: product gross margin guided down to 74% (from 75%) as AI workloads carry lower margins; FCF conversion lagging. Citi upgraded to Buy with $490 PT; UBS raised PT to $500; Wolfe raised to $500.",
+      "tickers": [
+        "SNOW"
+      ],
+      "source_item_ids": [
+        "gmail:1a0656b13321e36f",
+        "gmail:1a069071b34c271e"
+      ]
+    },
+    {
+      "title": "DELL: Blowout quarter; AI server revenue guidance raised to $74B for FY27 with $95B backlog",
+      "body": "Dell F2Q27 revenues of $47.0B (+58% YoY) crushed guidance of $44-45B; EPS of $7.04 beat $4.91 consensus. AI server revenue hit $16.4B (+100% YoY) with record $60.9B orders and $95B backlog. FY27 revenue guidance raised to $192B from $167B; EPS raised to $25.50 vs. prior $17.90. Traditional server revenue grew 122% YoY. Citi raised PT to $600 (Buy), JPM raised PT to $635 (OW). Bears note margin durability risk when memory prices normalize and enterprise spending plateaus.",
+      "tickers": [
+        "DELL",
+        "HPE"
+      ],
+      "source_item_ids": [
+        "gmail:1a065ea8a07c7793",
+        "gmail:1a06193c4b1fdae8"
+      ]
+    },
+    {
+      "title": "CIEN: Strong F3Q26 beat; FY27 guidance implies 30%+ growth floor with $10B+ backlog",
+      "body": "Ciena reported Q3 revenue of $1.67B and EPS of $2.11, beating consensus of $1.64B/$1.73 by comfortable margins. Gross margin of 46.4% vs. 45.0% expected. Management guided FY27 revenue growth of 'at least' 30% with gross margins 45-46% and operating margins 25-27%\u2014well above prior consensus. Backlog reached $8.5B with $10B+ targeted by year-end; supply constraints remain the gating factor through 2027-2028. Hyper-Rail ramping to several hundred million in FY27. Wolfe raised PT to $660 with 107% upside; JPM trimmed to $605 but reiterated OW; MS cut to $425 (EW) on supply/margin concerns.",
+      "tickers": [
+        "CIEN"
+      ],
+      "source_item_ids": [
+        "gmail:1a0691e870441a12",
+        "gmail:1a06a6a361181e15"
+      ]
+    },
+    {
+      "title": "ADBE: CEO succession\u2014Anil Chakravarthy named next CEO; bears and bulls diverge on strategic direction",
+      "body": "Adobe named Anil Chakravarthy (President of Customer Experience Orchestration) as CEO effective December 1, 2026, with Shantanu Narayen becoming Executive Chair. The appointment of an internal candidate disappointed some investors expecting external transformation. ADBE faces ongoing Creative Cloud headwinds from AI competition (Canva, Figma) while Digital Experience accelerates. KeyBanc maintains Underweight at $195 PT on decelerating revenues and AI threats; Citi Neutral at $301; Wolfe Peer Perform. ADBE reports earnings September 10 with consensus EPS $6.08, revenue $6.69B.",
       "tickers": [
         "ADBE"
       ],
       "source_item_ids": [
-        "gmail:1a06cad851407818",
-        "gmail:1a06ca891eafd80c"
+        "gmail:1a068ed3da8eca44",
+        "gmail:1a0691e1819d9873"
       ]
     },
     {
-      "title": "TTD: 15% RIF (~576 roles) saves $86-115M annually; Citi maintains Sell at $11 PT (-27% downside)",
-      "body": "Trade Desk announced ~15% workforce reduction in 3Q26, generating estimated $86-115M in annualized savings with $39-51M in restructuring charges. Citi maintains Sell/High Risk with $11 PT (5x '27E EV/EBITDA on $765M EBITDA), arguing new products (Measurement, Audience Unlimited, Zuma) and go-to-market revamp need several quarters to drive durable growth; 3Q26 EBITDA margin guided at 24.6%, down 1,830bps Y/Y vs. a 40%+ long-term target. TTD traded +2.2% in pre-market despite the news.",
+      "title": "ORCL: Tactically attractive into F1Q27 earnings; OCI capacity at 63% YoY growth toward guidance",
+      "body": "Oracle reports F1Q27 earnings September 10 (consensus $1.73 EPS, $19.13B revenue). The stock is down 25%+ since Q4 as capex/OCI ramp concerns weigh. MS raised PT to $210 on GPUaaS trajectory; KeyBanc OW at $300 PT citing 119% OCI revenue growth path; Citi TMT flags it as top conference idea. ORCL's $115B+ AI backlog (with OpenAI as major tenant) frames multi-year upside, but execution on cloud apps stability and margin expansion are key debates.",
+      "tickers": [
+        "ORCL"
+      ],
+      "source_item_ids": [
+        "gmail:1a06c1884574ebb2",
+        "gmail:1a06c30d9f1e4226"
+      ]
+    },
+    {
+      "title": "NVDA: Acquires Hugging Face for ~$12.9B; Vera Rubin CPX revived with HBM4; MediaTek $3.5B investment",
+      "body": "Nvidia confirmed a definitive agreement to acquire Hugging Face for ~$11.9B plus $1B employee retention (total ~$12.9B), expected to close H1 2027. The deal secures NVDA control over the leading open-source AI platform and 18M+ developers. Separately, NVDA invested $3.5B in MediaTek convertible bonds and deepened NVLink Fusion partnership\u2014a competitive move seen as pressuring AVGO's custom ASIC dominance. Rubin CPX (with HBM4) confirmed in Q1 2027 production. US model release cadence accelerated to 12.5/quarter, a key driver of NVDA's datacenter revenue model.",
+      "tickers": [
+        "NVDA",
+        "MRVL"
+      ],
+      "source_item_ids": [
+        "gmail:1a0672b52c0ebb2f",
+        "gmail:1a057d0f035d957e"
+      ]
+    },
+    {
+      "title": "MDB: Atlas holds 29% growth for fifth consecutive quarter; EA/Other emerges as second growth engine",
+      "body": "MongoDB F2Q27 revenue of $771.8M (+30.5% YoY) beat $735M consensus; EPS of $1.90 beat $1.62. Atlas grew 29% YoY (record $127M net new quarterly revenue). Enterprise Advanced surged 36% YoY with AI workloads (Vector Search, Search) driving platform attach from 37% to 45%. FY27 guidance raised to $2.99-3.03B. Stock sold off -12-14% post-earnings as buyside expected 30%+ Atlas and softer H2 deceleration guidance raised concerns. Citi raised PT to $565 (Buy); Wolfe raised to $500 (Outperform) framing EA as 'AND not OR' alongside Atlas. Hedgeye maintains long with $579 PT.",
+      "tickers": [
+        "MDB"
+      ],
+      "source_item_ids": [
+        "gmail:1a0607a83df646fc",
+        "gmail:1a0600486ca67fe0"
+      ]
+    },
+    {
+      "title": "HPE: Record beat/raise on AI inferencing; Oracle partnership and AMD Helios upside not in guidance",
+      "body": "HPE F3Q26 revenues of $12.21B beat $11.97B consensus; EPS of $1.11 beat $0.93 guidance. FY26 EPS raised to $3.75-$3.85 and FY27 revenue raised to 13-17% growth (from 8-12%). Cloud & AI revenue hit $9.04B with 17% operating margins (vs. 7% year-ago). Post-quarter, HPE signed a $3.5B traditional server inferencing deal with a hyperscaler and a gigawatt-scale Oracle networking agreement (warrants issued). AMD Helios white-label switch opportunity estimated at 'tens of billions' not yet in guidance. Citi raised to Buy with $76 PT; JPM maintained OW at $70.",
+      "tickers": [
+        "HPE",
+        "DELL"
+      ],
+      "source_item_ids": [
+        "gmail:1a065e32956a4b42",
+        "gmail:1a065be75a88649a"
+      ]
+    },
+    {
+      "title": "TTD: 15% RIF; Citi maintains Sell at $11 PT on multi-quarter lag before new products drive growth",
+      "body": "Trade Desk announced an ~15% workforce reduction (~576 positions) in Q3 2026, with estimated $86-115M in annualized savings. Q3 EBITDA margin guided at 24.6% (-1,830bps YoY), with management targeting 40%+ long-term margins. Citi maintains Sell at $11 PT (5x '27E EV/EBITDA), citing execution headwinds from Red Canary transition, sales leadership turnover, and weak NNARR growth. New products (Measurement, Audience Unlimited, Zuma) need several quarters to drive durable growth.",
       "tickers": [
         "TTD"
       ],
       "source_item_ids": [
         "gmail:1a06d08a6de6ba2e",
-        "gmail:1a06d08947ccecb3"
+        "gmail:1a06be484145a1f6"
       ]
     },
     {
-      "title": "CDNS/SNPS: Down 5-7% on OpenAI GPT-6 Astra PCB layout demo automating EDA workflow",
-      "body": "SNPS -7% and CDNS -5% despite SOXX +3% after OpenAI released a video of GPT-6 Astra performing PCB layout design in KiCad \u2014 a manual task described as a common source of latency in electronics design. Market concern is that AI automation threatens the EDA software bottleneck these vendors monetize.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a06d119510cd249"
-      ]
-    },
-    {
-      "title": "AVGO: Anthropic scaling to 30GW compute by 2030; AVGO XPUs ramp to 70%+ of fleet by decade-end",
-      "body": "Broadcom's conference call confirmed 5GW/10GW demand from Anthropic in 2027/2028, with AVGO XPUs ramping to 70%+ of Anthropic's fleet by end of decade (vs. NVDA peaking at ~30% in 2027). Anthropic currently targeting $45B revenue at 2GW capacity and $200B+ at 7GW scale; AVGO guided AI Revenue to double in FY27 and double again in FY28 per JPM.",
-      "tickers": [
-        "AVGO",
-        "NVDA"
-      ],
-      "source_item_ids": [
-        "gmail:1a06cfac0a4ab994",
-        "gmail:1a06c6c3be3e1c2b"
-      ]
-    },
-    {
-      "title": "TSLA: Cybercab Austin launch underwhelming; -3.4% pre-market, MS sees robotaxi tracker as key catalyst",
-      "body": "Tesla officially began public Cybercab rides in Austin but only 45 units have been registered in Texas, with limited availability. Stock was -3.4% pre-market; Morgan Stanley's analyst believes yesterday's outperformance appropriately priced progress and sees publicly available fleet expansion trackers (unsupervised Cybercab + Model Y) as the key next catalyst to watch.",
-      "tickers": [
-        "TSLA"
-      ],
-      "source_item_ids": [
-        "gmail:1a06c7d052de77d2",
-        "gmail:1a06c951be33b122"
-      ]
-    },
-    {
-      "title": "NFLX: Price hikes in Germany/Austria (~18% of EMEA subs); JPM flags EU pricing power",
-      "body": "Netflix raised prices in Germany (Standard +\u20ac2, Premium +\u20ac2, AVOD +\u20ac1) and Austria, affecting ~18% of EMEA subscribers (~6% of total); Citi estimates ~4% uplift in EMEA ARPU. UK prices also raised (AVOD +\u00a32, Standard +\u00a31, Premium +\u00a32) per JPM, reinforcing NFLX's global pricing power thesis.",
+      "title": "NFLX: Price hikes in UK, Germany, Austria\u2014estimated 2.5% firm-wide ARPU uplift",
+      "body": "Netflix announced price increases across the UK (Standard with Ads +33%, Premium +11%) and Germany/Austria affecting ~36% of EMEA subs and ~12% of total subs. Citi estimates ~7.5% EMEA ARPU uplift and ~2.5% firm-wide ARPU benefit. German/Austrian consumer protection laws require affirmative consent, likely delaying benefits to FY27 for some tiers. Ad-tier price hikes are substantial (33-40%) intended to mitigate adverse mix shift. Citi maintains Buy at $100 PT (21% upside from $82.67).",
       "tickers": [
         "NFLX"
       ],
       "source_item_ids": [
-        "gmail:1a06ca891eafd80c",
-        "gmail:1a06c6c3be3e1c2b"
+        "gmail:1a06d8535477d4cc",
+        "gmail:1a06d5f05508bc03"
       ]
     },
     {
-      "title": "CRWD: Fal.con drives $20B ARR target pulled in one year to CY34; SafeMind agentic AI in limited preview",
-      "body": "CrowdStrike reiterated FY28 NNARR growth target of 20%+ Y/Y and pulled forward its $20B ARR target to CY34 (one year earlier than prior guidance). SafeMind agentic AI security system \u2014 which autonomously discovers vulnerabilities and remediates \u2014 enters limited preview with 2H rollout, sold on token basis through Falcon Flex. Partner checks show no negative feedback; one partner flagged disappointment with SentinelOne's technical performance.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a06ca38ba70ac52",
-        "gmail:1a06c6c3be3e1c2b"
-      ]
-    },
-    {
-      "title": "ORCL: Tactically positive into earnings; Cloud AI capacity near 63% YoY growth, GPUaaS GM raised to 19%",
-      "body": "MS TMT flags ORCL as tactically positive ahead of earnings: Cloud AI capacity tracking toward 58-64% guide, GPUaaS gross margin raised to 19% (from prior 12%), and channel checks show stabilizing Cloud Apps. Stock was +2.7% in pre-market.",
+      "title": "CRM: Wolfe upgrades to Outperform; Agentforce at $1.5B ARR with consumption-based monetization accelerating",
+      "body": "Wolfe upgrades Salesforce to Outperform citing Agentforce ARR of $1.5B (+200% YoY), 50% of Q2 bookings from customers buying more credits after initial allotment, and AWUs up 97% QoQ. Service use cases consume ~5x more AWUs than other applications. Salesforce is enabling outcome-based pricing (per-lead, per-resolution) as next monetization leg. CRM is Citi's top pick in software 2H26 playbook alongside MDB, ORCL, SNOW, TEAM, and FIG.",
       "tickers": [
-        "ORCL"
+        "CRM",
+        "TEAM",
+        "NOW",
+        "SNOW"
       ],
       "source_item_ids": [
-        "gmail:1a06cad851407818",
-        "gmail:1a06c951be33b122"
+        "gmail:1a05e745b2fe8362",
+        "gmail:1a06e52d7f5cc771"
       ]
     },
     {
-      "title": "MU: HBM pricing strong but moderating; HBM4 ASP premium >50%, HBM4E to command 25-40% additional premium",
-      "body": "Korean customs data shows HBM proxy export value per unit +228% YoY and +10% MoM in July (44% above April levels), indicating strong pricing but moderated peak growth. HBM4 ASP premiums remain >50% on a capacity basis; HBM4E expected to command 25-40% same-capacity premium over HBM4. Rubin (NVDA) and custom ASIC ramp in H2 2026 are cited as major HBM4 demand drivers.",
+      "title": "CRWD: Fal.Con '26 raises FY28 NNARR guide to 20%+ (vs. 11% consensus); SafeMind and Falcon Guardian launched",
+      "body": "CrowdStrike accelerated its $10B ARR target to FY30 (from FY31) and $20B to FY35 (from FY36). FY28 NNARR growth guided at 20%+ vs. consensus of ~11-14%. New product launches at Fal.Con include Falcon Guardian (full lifecycle AI agent security) and SafeMind (closed-loop agentic security models) priced via token-based Falcon Flex. Citi maintains Buy at $260 PT; ROTH raised to $220; Mizuho raised to $250. Agentic security TAM modeled at $215B by FY35.",
       "tickers": [
-        "MU",
-        "NVDA"
+        "SNOW",
+        "GOOGL"
       ],
       "source_item_ids": [
-        "gmail:1a06ca38b0367d3f"
-      ]
-    },
-    {
-      "title": "CIEN: Big F3Q26 beat; guides FY27 revenue +30%+ with 45-46% GM; PT trimmed 5% to $605",
-      "body": "Ciena reported F3Q26 revenue of $1.67B (+1.8% vs consensus), gross margin 46.4%, and operating margin 22.5%, crushing consensus by ~250bps. FY27 guidance of 'at least' +30% revenue growth with 45-46% GM and 25-27% OPM (vs Street at 22.7%) impressed; direct cloud revenue +80% YoY with market share up 4pts to ~30% in optical. JPM reiterates OW but trims Dec-27 PT to $605 (down 5%).",
-      "tickers": [
-        "CIEN"
-      ],
-      "source_item_ids": [
+        "gmail:1a068ea0814313d6",
         "gmail:1a06c6b9673e66de"
       ]
     },
     {
-      "title": "EQIX/DLR: Citi reiterates Buy on both; models 25% IT Load CAGR to 370 GW by 2031",
-      "body": "Citi refreshes its global data center model forecasting IT Load CAGR of 25% from 121 GW in 2026 to 370 GW in 2031, driven by AI/HPC workloads and agentic AI adoption. Citi reiterates Buy on both EQIX and DLR, noting each 100bps upside to 5-year CAGR can be net accretive by ~5%. Equinix also announced Fabric One and Inference Exchange (AI inference) products launching 1Q27.",
+      "title": "UBER: 10% RIF (~3.3K positions) to fund AV programs; AI-driven efficiency frees capital",
+      "body": "Uber announced a 10% global workforce reduction (~3.3K employees) to streamline management layers, reduce single/two-person teams, and reallocate savings toward autonomous vehicle programs and growth initiatives. The company noted 70%+ of pull requests are AI-attributed and cost-per-session has fallen 52% from peak. Citi and MS Broadening Webcast noted UBER as a non-AI best idea. CVNA also highlighted as MS Overweight at $90 PT.",
       "tickers": [
-        "EQIX",
-        "DLR"
+        "UBER",
+        "DASH",
+        "CVNA",
+        "BKNG"
       ],
       "source_item_ids": [
-        "gmail:1a06caadd9996f72",
-        "gmail:1a06ced915dedcc4"
-      ]
-    },
-    {
-      "title": "HOOD: +16.5% yesterday on false Blockworks crypto volume data ($36B amended to ~$2B); JPM expects shares to be offered",
-      "body": "Robinhood surged 16.5% on reportedly incorrect Blockworks on-chain spot trading volume data showing $36B notional, subsequently amended to ~$2B. JPM analyst is 'deeply skeptical' of HOOD's risk/reward and expects shares to be offered (sold) this morning as corrected data surfaces. Stock was -4.1% in pre-market.",
-      "tickers": [
-        "HOOD"
-      ],
-      "source_item_ids": [
-        "gmail:1a06c94f54c76bc1"
-      ]
-    },
-    {
-      "title": "BKNG/CVNA: Morgan Stanley highlights as non-AI high-conviction OW ideas with idiosyncratic catalysts",
-      "body": "Morgan Stanley is hosting a 9/8 webcast on non-AI best ideas featuring BKNG (strong execution through volatile macro with AI optionality), CVNA (OW, $90 PT \u2014 near-term reset for long-term flywheel), and WAB (OW, FY26 guidance ahead of consensus, accelerating backlog-driven growth). All three positioned as idiosyncratic earners not dependent on the AI capex cycle.",
-      "tickers": [
-        "BKNG",
-        "CVNA"
-      ],
-      "source_item_ids": [
+        "gmail:1a062726acb6a566",
         "gmail:1a06d1a18c61dc32"
       ]
     },
     {
-      "title": "AFRM/FSLR: JPM specialist sales desk backs both as undervalued with improving fundamentals",
-      "body": "JPM Global Specialist Sales is bullish on AFRM (beat-and-raise quarter, mid-30s GMV growth, low-30s revenue growth, Card product flywheel; FY27 guide implies high-20s growth de-risking cycle concerns) and FSLR (de-rated below 9x 2027E earnings post-catalyst; $0.44/watt pricing upside could drive ~$17/share valuation benefit, with recent bookings in mid-$0.30s vs. $0.32 assumed for FY28).",
+      "title": "TSLA: Cybercab launch in Austin with ~45 units registered; NHTSA investigation opened",
+      "body": "Tesla officially launched Cybercab for public rides in Austin with approximately 45 registered units. The NHTSA opened an investigation into Cybercab self-certification. Morgan Stanley viewed the event as an important robotaxi milestone while Citi noted only 200+ unsupervised vehicles in the US fleet vs. Waymo's ~4,000 driverless units. Tesla stock declined ~5.9% following the Cybercab launch event, which investors viewed as underwhelming relative to expectations. Texas DMV data will be a key tracker of fleet expansion.",
       "tickers": [
-        "AFRM",
-        "FSLR"
+        "TSLA",
+        "UBER"
       ],
       "source_item_ids": [
-        "gmail:1a06cbcbba3f9b2d"
+        "gmail:1a06c7d052de77d2",
+        "gmail:1a06c6c3be3e1c2b"
       ]
     },
     {
-      "title": "PATH: Hedgeye maintains Top Short; software growth decelerated to 11.2%, FCF conversion near zero",
-      "body": "Hedgeye argues PATH's Q2 beat of $12.8M was entirely driven by negative-margin professional services (-86% GM) and upfront licenses, while subscription services (64.9% of revenue) missed by $3.6M. Software revenue growth decelerated 515bps from Q1's +16.4% to Q2's +11.2%; H1 adjusted FCF fell $0.7M despite $49.6M incremental operating income (0% conversion). Contract assets rose 48.4% while deferred revenue fell 13%, widening cash collection gap.",
-      "tickers": [],
+      "title": "META: Upgraded to OW at Morgan Stanley; $17B settlement clears overhang; Hatch/MetaClaw AI catalyst imminent",
+      "body": "Morgan Stanley upgraded META to Overweight with a $775 PT (bull case $1,000) citing the $17B bipartisan AG settlement as a legal clearing event and the imminent launch of Hatch (a social AI agent) and MetaClaw. MS estimates $10+ incremental EPS from AI agents, Watermelon model, subscriptions, and SMB tools. META trades at 16x forward EPS, ~25% below its long-term average. Hedgeye Risk Range shifted META to Bullish trend on Sept 4. Meta also launched Muse Spark 1.3, which outperformed GPT-5.6 Sol on coding benchmarks.",
+      "tickers": [
+        "META",
+        "GOOGL"
+      ],
       "source_item_ids": [
-        "gmail:1a06c93f0e093181"
+        "gmail:1a05cada6c09ca16",
+        "gmail:1a068f3132d79b38"
       ]
     },
     {
-      "title": "AAPL: iPhone 18 Pro starting price $1,249-$1,299 on 400% memory cost surge; foldable build raised to 7-8M units",
-      "body": "iPhone 18 Pro is expected to start at $1,249-$1,299 (Pro Max $1,349-$1,399) due to a 400% Y/Y increase in 256GB memory costs. Separately, supply chain checks suggest Apple's foldable build has been raised to 7-8M units for C2H'26 (20M first-gen cycle), with a starting price of $2,399 implying 1.5pts ASP lift per 1% mix shift. iPhone Ultra production was throttled to a few hundred units/day in August due to quality inspection rejections.",
+      "title": "AAPL: iPhone 18 Pro pricing up $150-200; foldable at $2,399; production limited by quality yields",
+      "body": "iPhone 18 Pro/Pro Max expected to start at $1,249-$1,299/$1,349-$1,399 driven by 400% YoY increase in 256GB memory costs. The foldable iPhone Ultra is priced at ~$2,399 with ~7-8M C2H26 builds (20M first-gen cycle). Production of foldables is limited to a few hundred units per day due to quality inspection reject rates. Tim Cook's last day as CEO was August 31; John Ternus succeeded as CEO. September 9 event is next catalyst. KeyBanc rates Underweight at $250 PT; JPM OW with $100 price hike base case.",
       "tickers": [
-        "AAPL"
+        "AAPL",
+        "TSM"
       ],
       "source_item_ids": [
-        "gmail:1a06ced915dedcc4",
-        "gmail:1a06cad851407818"
-      ]
-    },
-    {
-      "title": "PLTR/SNOW/NET: GS Communacopia preview \u2014 AI capex-to-revenue translation is the central investor debate",
-      "body": "With 260+ companies and 2,000+ investors at GS Communacopia in SF, the central debate is whether $375B+ cumulative AI capex (YE25-YE28) translates to sustainable revenue outside frontier names. Palantir showed 149% US commercial revenue growth; Cloudflare noted rising agentic activity; Snowflake flagged faster AI-enabled migrations in Q2. Key risk: Nvidia profits supported by investor capital through model labs rather than self-sustaining customer economics.",
-      "tickers": [
-        "PLTR",
-        "SNOW",
-        "NET",
-        "NVDA"
-      ],
-      "source_item_ids": [
-        "gmail:1a06c7a59620f285"
-      ]
-    },
-    {
-      "title": "CHTR: CFO Jessica Fischer departing for Google-Blackstone TPU Neocloud, flagging weak turnaround conviction",
-      "body": "Charter Communications CFO Jessica Fischer is departing for a Google-Blackstone TPU Neocloud venture, which is being read by analysts as a signal of weak internal conviction in Charter's turnaround narrative.",
-      "tickers": [
-        "CHTR"
-      ],
-      "source_item_ids": [
+        "gmail:1a068e0c1bafe591",
         "gmail:1a06ced915dedcc4"
       ]
     },
     {
-      "title": "SHOP/APP/RBLX/ETSY: JPM SMid Internet AMA on Sept 14 to cover best ideas and 2H/2027 catalysts",
-      "body": "JPM analyst Bryan Smilek is hosting an Internet SMid 'Ask Me Anything' on September 14, covering RBLX, ETSY, APP, and SHOP as focus stocks. Discussion will include post-coverage-expansion views, management/industry expert takeaways, and best ideas heading into 2H and 2027.",
+      "title": "DKNG: NY OSB GGR -41% YoY for week ending 8/30 (calendar); 3QTD tracking +13%; Wolfe initiates OP",
+      "body": "NY OSB GGR fell 41% YoY for the week ending 8/30 on the Week Zero vs. Week 1 football timing mismatch. Excluding Fanatics, down 34%. 3QTD NY OSB GGR is tracking +13% YoY with DraftKings at +13% handle share of ~35%. Wolfe Research initiated DraftKings as its top pick in the Gaming & Lodging initiation (Outperform, $40 PT) noting scale leadership and underappreciated prediction market costs/benefits.",
       "tickers": [
-        "SHOP",
-        "APP",
-        "ETSY",
-        "RBLX"
+        "DKNG",
+        "FWONK"
       ],
       "source_item_ids": [
-        "gmail:1a06cf14e2d51d24"
+        "gmail:1a06d3bfb7b54f5c",
+        "gmail:1a05a61b141ca0c7"
+      ]
+    },
+    {
+      "title": "EQIX/DLR: Citi bullish as AI/HPC demand drives 25% IT load CAGR; data center NIMBY risks contained",
+      "body": "Citi forecasts global IT load CAGR of 25% from 121 GW in 2026 to 370 GW in 2031, driven by AI/HPC and agentic workloads. EQIX is Citi's top pick heading into the Global TMT Conference. Mizuho also remains bullish on both EQIX (OW, $1,275 PT) and DLR (OW, $223 PT) despite data center NIMBY legislation spreading across US states\u2014existing permitted projects are insulated. Trump publicly endorsed data centers as economic drivers, potentially reducing political headwinds.",
+      "tickers": [
+        "EQIX",
+        "DLR",
+        "CRWV"
+      ],
+      "source_item_ids": [
+        "gmail:1a06413dbfe4740",
+        "gmail:1a05c871f5a6aa3f"
+      ]
+    },
+    {
+      "title": "Lp(a)/pelacarsen failure pressures AMGN; CRSP pivots to higher-potency CTX321",
+      "body": "Novartis's pelacarsen phase 3 HORIZON trial failed to reduce MACE-4 despite lowering Lp(a) in 8,323 CVD patients. AMGN's OCEAN(a)-Outcomes now faces elevated mechanistic risk for olpasiran, though differentiated by higher baseline Lp(a), siRNA vs. ASO mechanism, and deeper suppression (>90%). CRSP's gene editing program likely shifts priority from CTX320 to CTX321 (2x more potent), with a 2026 program update expected. Citi maintains CRSP Buy at $88 PT with 57.7% upside.",
+      "tickers": [
+        "AMGN"
+      ],
+      "source_item_ids": [
+        "gmail:1a06e637f59d0b3e",
+        "gmail:1a06e6bceb9da09d"
       ]
     }
   ]
