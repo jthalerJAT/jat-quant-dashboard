@@ -1,48 +1,128 @@
 {
-  "digest_type": "midday",
-  "digest_dt": "2026-09-07T12:00:00-04:00",
-  "saved_at": "2026-09-07T16:16:55.924538+00:00",
+  "digest_type": "eod",
+  "digest_dt": "2026-09-07T18:00:00-04:00",
+  "saved_at": "2026-09-07T22:09:13.871464+00:00",
   "bullets": [
     {
-      "title": "Fed Sept 17 hike risk rising on hawkish August jobs data",
-      "body": "August's E/Pop rebound reversed the dovish July signal that had been concentrated in older workers, reinforcing FOMC's view of a strong labor market. Rate hike probability climbs materially if Core PCE tracks at 15 bps or above; Wednesday import prices and Friday CPI are the key pre-meeting data points.",
+      "title": "Citi bullish on US equities into year-end but flags near-term headwinds",
+      "body": "Citi sees AI capex scaling from $1.0tn in 2026 to $3.8tn by 2030 with ~30% CROCI at hyperscalers justifying continued investment, and S&P 500 12m forward EPS up 28% YTD to $397. However, the Fed is hawkish with 62% odds of a September hike, September seasonality is unfavorable, and SPX 1-week implied vol sits below the 10th percentile at 8.8% \u2014 making short-dated calls attractive. Favorite sectors are Materials, Banks, and AI Power Generation, with QQQ as the best hedge.",
       "tickers": [],
       "source_item_ids": [
-        "gmail:1a07c72e6ccf8ded"
+        "gmail:1a07d700c683139e"
       ]
     },
     {
-      "title": "US midterm policy implications likely underpriced by markets",
-      "body": "Jefferies warns a split Congress outcome \u2014 the consensus base case \u2014 shifts policy action toward Executive Orders, Congressional Oversight, and fiscal brinkmanship rather than major legislation, with meaningful implications for investor positioning into 2027-28.",
+      "title": "Sticky inflation risk building: JPM forecasts US CPI 3.5%, core PCE 3.4% for Sep",
+      "body": "JPMorgan's monthly inflation model puts US headline CPI at 3.5% YoY for September 2026 (up from 3.4% in August) and core PCE at 3.4% (up from 3.3%). Eurozone and UK are similarly drifting higher, while Japan CPI accelerates to 2.3% from 2.0%.",
       "tickers": [],
       "source_item_ids": [
-        "gmail:1a07c26e0cdcde23"
+        "gmail:1a07d150d34581bc"
       ]
     },
     {
-      "title": "Euro area consumption resilient in H1 but H2 payback risk flagged",
-      "body": "JPMorgan reports Euro area private consumption grew 0.9% annualized in H1 2026, with 2Q accelerating to 1.6% ar; real income declines were far milder than feared (-0.3% ar vs. -2.2% forecast in 2Q). Durables surged 5.6% ar partly on German EV incentives, creating payback risk into H2, and JPMorgan models only 1.25% ar pace in 3Q as real incomes continue modest declines.",
+      "title": "Manufacturing broadening boosts growth outlook but inflation and credit stress linger",
+      "body": "ISM manufacturing shows 83.3% of industries expanding \u2014 the highest breadth in years \u2014 and the employment diffusion index hit 61%, a 4-year high, with payroll growth expected to average 235k/month. But CCC-B credit spreads have broken above post-COVID peaks, goods-producing unit labor costs run 3.4% YoY, and a regression model suggests 10-year yields grind toward 5% by November 2027.",
       "tickers": [],
       "source_item_ids": [
-        "gmail:1a07c38c4d4ca0bc"
+        "gmail:1a07c9c6b2a74c2d"
       ]
     },
     {
-      "title": "OpenAI/Microsoft face new copyright suit over AI training data",
-      "body": "The Seattle Times and Newsday filed a copyright infringement lawsuit against OpenAI and Microsoft, alleging their journalism was used to train AI models without permission \u2014 adding to the growing litigation overhang on large-scale AI training practices.",
+      "title": "Macro factor positioning: long USD consensus, small cap and low-debt factors underperforming",
+      "body": "Long USD remains the consensus macro net-long position despite yen squeeze pressures, while net-long commodity positioning in corn and sugar signals accelerating inflation expectations. Small cap and low-debt factor exposures were the worst performers last week.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a07cb4acfca6f76"
+      ]
+    },
+    {
+      "title": "Global long-end yields at multi-decade highs create latent equity tail risk",
+      "body": "JGB 30-year yields are near 4.1%, part of a broader global pattern of 30-year yields at multi-decade highs that Citi flags as a latent tail risk for equities, particularly for dividend-sensitive and high-multiple names. Megacap Tech CDS spreads have tripled to 67bps from 22bps over the past year amid capex concerns, though they are stabilizing post-earnings.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a07d700c683139e"
+      ]
+    },
+    {
+      "title": "AI capex momentum intact: hyperscalers driving 2/3 of S&P 500 EBITDA revisions since June 2025",
+      "body": "AI bottleneck stocks are up 95% YTD and hyperscaler-led EPS revisions account for two-thirds of total S&P 500 EBITDA revisions since June 2025. The Hot Chips 2026 conference highlighted a shift in agentic AI inference toward memory-bandwidth-bound/decode architectures, reshaping silicon priorities across the ecosystem.",
       "tickers": [
+        "NVDA",
+        "AVGO",
+        "AMZN",
+        "GOOGL",
         "MSFT"
       ],
       "source_item_ids": [
-        "gmail:1a07be114a118e62"
+        "gmail:1a07d700c683139e",
+        "gmail:1a07d9c377a08a79"
       ]
     },
     {
-      "title": "US hotel RevPAR softening; international demand holding",
-      "body": "Hedgeye data shows RevPAR breadth weakening across Top 25 US markets, while international RevPAR (Europe, Asia) remains strong. Macau GGR came in -1% YoY, well below initial growth expectations, with 2H forecast cut to ~low-single-digit growth vs. prior estimates.",
+      "title": "Momentum factor suffers worst drawdown since 2009 quant unwind; sentiment collapsed from 99th to 10th percentile",
+      "body": "US equity sentiment fell from the 99th to the 10th percentile in a single week, coinciding with the momentum factor's largest drawdown since the 2009 quant unwind. Tech HW/Semis outperformed after five weeks of underperformance, with SOX beating IGV.",
       "tickers": [],
       "source_item_ids": [
-        "gmail:1a07c41898e29e0a"
+        "gmail:1a07d9c377a08a79"
+      ]
+    },
+    {
+      "title": "AVGO maps a path to $230B AI revenue and $30 EPS by FY28; custom silicon complementary to merchant GPUs",
+      "body": "Broadcom formally framed FY27/FY28 AI revenue at $115B and $230B respectively with $30 EPS guided for FY28, and management characterized the Jalape\u00f1o ASIC as complementary \u2014 not substitutive \u2014 to merchant GPUs, with XPU share expected to approach parity with merchant silicon over time. AVGO appears across Google TPU, Meta MTIA, and SambaNova as a cross-cutting beneficiary in both compute and networking.",
+      "tickers": [
+        "AVGO"
+      ],
+      "source_item_ids": [
+        "gmail:1a07d9c377a08a79"
+      ]
+    },
+    {
+      "title": "Hyperscaler optics/networking spend: CIEN, LITE, FN flagged as primary beneficiaries",
+      "body": "Wolfe notes Meta, Google, and Microsoft procurement officers are prioritizing accelerators, networking, and optics for AI data centers, and rates CIEN (105.6% upside, $660 PT), FN (90.2% upside, $775 PT), and LITE (41.6% upside, $1,200 PT) as top beneficiaries. CLS, ANET, COHR, and GLW also benefit from this capex wave.",
+      "tickers": [
+        "CIEN",
+        "LITE",
+        "FN",
+        "ANET",
+        "COHR",
+        "GLW"
+      ],
+      "source_item_ids": [
+        "gmail:1a07c9c0cc2acc00"
+      ]
+    },
+    {
+      "title": "DELL crushes F2Q27 with $47B revenue and $95B backlog; raises AI server guide to $74B",
+      "body": "Dell reported $47B revenue (+58% YoY) vs. $44-45B guide and $7.04 EPS vs. $4.80 guide, exiting the quarter with a $95B backlog. The company raised full-year AI server revenue guidance to $74B, approximately 3x YoY growth vs. the prior $60B guide.",
+      "tickers": [
+        "DELL"
+      ],
+      "source_item_ids": [
+        "gmail:1a07d9c377a08a79"
+      ]
+    },
+    {
+      "title": "Restaurant sector traffic persistently negative; fast casual offers selective opportunity",
+      "body": "49% of restaurant operators reported negative traffic in July, the 17th of the past 18 months with negative trends. UBS sees selective opportunity in fast casual (CMG, CAVA, WING, BROS, SHAK) with CMG tracking high-3s to 4% comp in 4Q and DPZ at an attractive 16.4x 2027E EPS with the new Detroit-style 'Domino' pizza driving incremental transactions.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a07d3a57c558dd1"
+      ]
+    },
+    {
+      "title": "Consumer Staples pressure building: COST traffic slowing, TSN and CPB guidance cuts",
+      "body": "Hedgeye moves COST, CPB, and TSN to its Short list: COST August SSS ex-gas decelerated 50bps for the third straight month with traffic down 100bps, while CPB provided weaker F2027 guidance with no visibility to a return to sales growth, and TSN lowered F2026 guidance on broad protein weakness. At 25x EBITDA, COST is highly sensitive to negative revisions.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a07dbf3beda1574"
+      ]
+    },
+    {
+      "title": "China consumer macro softening; Adidas gaining share while Nike deteriorates sharply",
+      "body": "China athletic wear demand has softened with consumers trading down amid macro pressures. Adidas is posting high-teen growth in August-September driven by a local-for-local strategy with manageable inventory, while Nike trends deteriorated to double-digit declines through summer and continue to decelerate in September MTD on weak product innovation and elevated inventory.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a07d64c14e7c46c"
       ]
     }
   ]
