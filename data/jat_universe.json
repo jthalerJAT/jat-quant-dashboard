@@ -1,245 +1,225 @@
 {
-  "digest_type": "premarket",
-  "digest_dt": "2026-09-15T08:30:00-04:00",
-  "saved_at": "2026-09-15T12:52:42.666863+00:00",
+  "digest_type": "midday",
+  "digest_dt": "2026-09-15T12:00:00-04:00",
+  "saved_at": "2026-09-15T16:16:31.335409+00:00",
   "bullets": [
     {
-      "title": "NVDA/AVGO: Management firmly dismisses AI slowdown; Citi sets NVDA PT $315, AVGO PT $515",
-      "body": "Both Jensen Huang (NVDA) and Hock Tan (AVGO) aggressively pushed back on AI spending slowdown fears at the Communacopia/TMT conference circuit, with Broadcom reaffirming its $115B FY2027 AI semiconductor revenue target. Citi maintains Buy on both with PTs of $315 (~21x C27E EPS) and $515 (~19x F28 EPS) respectively, arguing U.S.-China tech competition makes a meaningful AI investment pullback unlikely. NVDA's Rubin platform shows 7x better token throughput per megawatt vs. Blackwell per GS analysis, potentially generating 2x+ more profit per gigawatt.",
+      "title": "NVDA/AI infrastructure: Jensen + Trump reject AI slowdown; semis testing trend but demand intact",
+      "body": "NVDA CEO Jensen Huang publicly rejected Anthropic's call to slow AI development at the All-In Summit, joined by Trump in a live call; both argued slowing down would cede ground to China. Mizuho and MS note AVGO revenue targets unchanged, active managers holding AI longs awaiting valuation reset, and order visibility extends through 2027. Hedgeye remains the key bear, calling the semi complex an 'imploding bubble' with NVDA testing trend breakdown and maintaining 0% semi exposure.",
       "tickers": [
         "NVDA",
         "AVGO"
       ],
       "source_item_ids": [
-        "gmail:1a0a390da473e427",
-        "gmail:1a0a3e09c80f3cff"
+        "gmail:1a0a531f5113ddb8",
+        "gmail:1a0a518041a935d7"
       ]
     },
     {
-      "title": "AI safety/semis rotation: SOX -5.9% Monday; software vs. semis pair hit 2.4-sigma; semis stabilizing Tuesday",
-      "body": "Dario Amodei's AI pacing essay triggered the largest-ever Software>Semis 1-day move (+12.5%, 2.4 sigma) on Monday; SOX fell ~5.9% while IGV gained. JPM and others note the rotation into inference/hyperscaler plays (GOOGL, META, MSFT) and out of training-leveraged names (CIEN). Semis are rebounding Tuesday (INTC +1.8%, NVDA/AVGO +75bps) as management pushback takes hold and investors view the safety debate as unlikely to alter capex trajectories.",
+      "title": "Cybersecurity surge: CRWD +14%, PANW +13% on AI-safety rotation; software vs semis largest spread ever",
+      "body": "Software outperformed semis by +11.3% on 9/14 \u2014 the first time the spread closed above +10% since 2006 \u2014 as AI-safety concerns drove rotation into cybersecurity. CRWD is up 101% YTD with 1M realized vol at 1-year highs (87.7); PANW up 13% in a single session. JPM and Citi both flag cybersecurity as 'non-discretionary' in the AI era, with machine-speed threats requiring autonomous defense across CRWD, PANW, ZS, OKTA.",
       "tickers": [
-        "NVDA",
-        "AVGO",
+        "MSFT",
         "GOOGL",
         "META",
-        "MSFT",
-        "CIEN",
+        "AMZN"
+      ],
+      "source_item_ids": [
+        "gmail:1a0a5161703305b2",
+        "gmail:1a0a518041a935d7"
+      ]
+    },
+    {
+      "title": "META: Launches Meta One subscription tiers ($2.99\u2013$499/mo); Arke chip deploy H1 2027; Hedgeye flips bullish",
+      "body": "Meta launched Meta One globally with individual plans (WhatsApp Plus $2.99, Instagram Plus $3.99, bundles to $19.99) and creator/business tiers up to $499/mo, covering AI features, verified badges, and Meta Business Agent. Separately, Bloomberg reports Meta will deploy its in-house Arke chip in H1 2027, with next-gen Astrid by end-2027. Hedgeye flipped META from bearish to bullish, calling it 'the biggest bullish breakout among mega-caps.'",
+      "tickers": [
+        "META"
+      ],
+      "source_item_ids": [
+        "gmail:1a0a5a1d1933a319",
+        "gmail:1a0a56b027a22d8c"
+      ]
+    },
+    {
+      "title": "MU: World's first 512GB DDR5 module demoed; DRAM supply tightening into 2027, price hikes expected",
+      "body": "Micron demonstrated the world's first 512GB DDR5 RDIMM on multiple server platforms, with volume production targeted for H2 2027. MS TMT notes DRAM module makers expect supply to tighten further in 3Q26 (especially DDR5), with 2027 supply allocation potentially halved vs. 2026 and sequential price increases expected \u2014 debate is whether single-digit or double-digit. Hedgeye has MU as an official short.",
+      "tickers": [
+        "MU"
+      ],
+      "source_item_ids": [
+        "gmail:1a0a530d6402b96e",
+        "gmail:1a0a541f3c64331b"
+      ]
+    },
+    {
+      "title": "AMD: Pre-quiet period call bullish; targeting 50%+ CPU server share on Venice/2nm ramp",
+      "body": "Wolfe Research and Piper both flag AMD's pre-quiet period call as 'reassuring' \u2014 CPU and GPU ramps on track with demand running ahead of supply. AMD is targeting over 50% CPU server share; 50%+ of a $200B+ TAM would imply a $100B+ server CPU business. Venice launch on 2nm benefits from more TSMC availability. Piper's Craig Johnson flags AMD as 'sweet spot to play Agentic AI.'",
+      "tickers": [
+        "AMD"
+      ],
+      "source_item_ids": [
+        "gmail:1a0a524ebfeb2026",
+        "gmail:1a0a530ab233177c"
+      ]
+    },
+    {
+      "title": "AAPL: Short at Hedgeye on weak iPhone 18 Pro lead times; Siri AI still lags frontier models",
+      "body": "Hedgeye reiterates AAPL short: iPhone 18 Pro lead times are 0\u201311 days vs. ~25 days YoY, and the 2TB Pro Max model shows zero lead time despite a $200 premium. MS TMT notes the new Siri AI is 'substantially improved but still lags frontier models' with occasional hallucinations. TSMC shortages for 3nm/2nm and CoWoS remain driven partly by AAPL demand.",
+      "tickers": [
+        "AAPL"
+      ],
+      "source_item_ids": [
+        "gmail:1a0a5835a237a128",
+        "gmail:1a0a541f3c64331b"
+      ]
+    },
+    {
+      "title": "ORCL: Mizuho raises PT 45% to $351; investing in 1.7GW carbon-free Texas wind for AI data centers",
+      "body": "Mizuho raises ORCL PT to $351 (a 45% increase) citing improved visibility and pricing power; Q1 FY27 strong with CapEx peak in FY27/FY28. Separately, Oracle announced investments in wind energy projects delivering 1.7+ GW of carbon-free electricity in Texas to support its Abilene AI facility, advancing toward 100% renewable matching for AI data centers.",
+      "tickers": [
+        "ORCL"
+      ],
+      "source_item_ids": [
+        "gmail:1a0a531f5113ddb8",
+        "gmail:1a0a5344b3efe8e6"
+      ]
+    },
+    {
+      "title": "INTC: Altera confidentially files S-1 for $2B+ IPO; potential optionality catalyst for Intel's 49% stake",
+      "body": "Altera, which became fully standalone in Sep-2025 when Intel sold 51% to Silver Lake at an ~$8.75B valuation, has confidentially submitted a draft S-1 for an IPO that could raise over $2B and price as early as 2026. Intel retains a 49% stake. Barclays, Citi, JPM, and MS are underwriting. This represents meaningful optionality for INTC given the original $16.7B acquisition price in 2015.",
+      "tickers": [
         "INTC"
       ],
       "source_item_ids": [
-        "gmail:1a0a4797d654f14f",
-        "gmail:1a0a4dc39b749fb9"
+        "gmail:1a0a5321c5a815b9"
       ]
     },
     {
-      "title": "JPM upgrades META to Overweight; names AMZN, GOOGL, SPOT as top Internet picks",
-      "body": "JPM's Fall 2026 Internet sector update upgrades META to Overweight with focus on AI models and agents, citing AI monetization traction and hyperscaler capex durability. Top large-cap picks are AMZN, GOOGL, and SPOT; SHOP and TTWO are top SMID-cap picks. US Cloud sales up 50% y/y with backlogs >100% of sales; only 8% of enterprises have deployed AI agents at scale, suggesting significant runway.",
+      "title": "CART: Down on DASH/COST partnership fears; Citi says relationship not exclusive",
+      "body": "CART fell on reports of a potential DoorDash/Costco delivery partnership. Citi notes CART currently powers COST's white-label delivery but the arrangement is non-exclusive \u2014 Uber Eats is also a delivery channel for COST. Key watch is whether the CART logo is removed from COST's delivery page. Citi maintains its buy thesis on CART separately.",
       "tickers": [
-        "META",
-        "AMZN",
-        "GOOGL",
-        "SPOT",
-        "SHOP",
-        "NFLX",
-        "RBLX"
+        "CART",
+        "DASH"
       ],
       "source_item_ids": [
-        "gmail:1a0a3e09c80f3cff",
-        "gmail:1a0a4e7bce816925"
+        "gmail:1a0a5353cf5cb53a"
       ]
     },
     {
-      "title": "AMD: Pre-quiet period check bullish \u2014 datacenter to >2x CY27, Helios ramp on track; Wolfe OP $650 PT",
-      "body": "Wolfe Research maintains Outperform on AMD at $650 PT following pre-quiet period call. Helios GPU ramp begins volume production in September with full quarter in 4Q; tight supply reflects allocation, not delay. Datacenter business expected to more than double in CY27 with CPU growing >70% y/y; gross margin dips ~100bps q/q in 4Q on Helios ramp but stabilizes ~55% in CY27. Bull case EPS $25+ implies 20x multiple.",
-      "tickers": [
-        "AMD",
-        "INTC"
-      ],
-      "source_item_ids": [
-        "gmail:1a0a4759fbbdb724",
-        "gmail:1a0a475a3cb46032"
-      ]
-    },
-    {
-      "title": "PLTR: UBS reiterates Buy at 51x 2027 FCF; ACN set to benefit from Capgemini US govt divestiture",
-      "body": "UBS remains a buyer of PLTR at 51x 2027 FCF multiple, arguing it is attractive relative to SNOW and CRWD given 90%+ growth. Separately, ACN is flagged as a beneficiary of Capgemini divesting its US Government business; UBS has a Street-high $275 PT on ACN. ACN was down 2.1% pre-market in broad software weakness.",
-      "tickers": [
-        "PLTR",
-        "ACN"
-      ],
-      "source_item_ids": [
-        "gmail:1a0a4e7bce816925"
-      ]
-    },
-    {
-      "title": "ORCL: Third consecutive beat; raised FY27 guidance; layoffs beginning",
-      "body": "Oracle delivered a third consecutive quarter of revenue and EPS upside in F1Q27 with accelerating top-line growth, per Mizuho. FY27 revenue and EPS guidance were raised; net cash capex expected at most $70B with FY27/28 as peak capex years. UBS separately notes ORCL is beginning a new round of layoffs. ORCL is flagged as a top pick by UBS alongside MSFT.",
-      "tickers": [
-        "ORCL",
-        "MSFT"
-      ],
-      "source_item_ids": [
-        "gmail:1a0a4a06aed5ce77"
-      ]
-    },
-    {
-      "title": "TEAM: ~7-10% cloud list price hike effective Dec 3; Mizuho bullish on 2-3 year DC-to-cloud migration runway",
-      "body": "Atlassian implemented a high single-digit (~7-10%) cloud list price uplift and broad usage-based pricing expansion effective December 3, per Mizuho. Data center-to-cloud migrations provide a 2-3 year significant growth opportunity. TEAM was down 2.4% pre-market in broad SaaS weakness.",
-      "tickers": [
-        "TEAM"
-      ],
-      "source_item_ids": [
-        "gmail:1a0a4a06aed5ce77"
-      ]
-    },
-    {
-      "title": "CRM: Unveils AIforce at Dreamforce \u2014 enterprise data layer for Claude, Slack, and third-party AI agents",
-      "body": "Salesforce launched AIforce at Dreamforce, enabling access to Salesforce data, workflows, business logic, and permissions outside the native app via Claude, Slack (Slackforce), and other platforms. Initial releases include Claudeforce, Slackforce, and Agentforce Coworker. CRM was down ~2% pre-market in broad software selling.",
-      "tickers": [
-        "CRM"
-      ],
-      "source_item_ids": [
-        "gmail:1a0a4f95a5121d08"
-      ]
-    },
-    {
-      "title": "ETSY: Multi-broker upgrade to Outperform \u2014 Oppenheimer $90 PT, Opco confirms GMS inflection",
-      "body": "Oppenheimer upgraded ETSY to Outperform (from Perform) with a $90 PT (21% upside from $74.46), citing AI search improvements and non-app buyer traffic inflecting from -3% in Q2 to flat y/y in Q3. Opco corroborates: survey work shows reduced Google Search dependence; FY27/28 GMS growth raised to +5%. ETSY trades at 12x '27E EBITDA, a 10% discount to EBAY. Stock up ~3% pre-market.",
-      "tickers": [
-        "ETSY"
-      ],
-      "source_item_ids": [
-        "gmail:1a0a491433aec7fd",
-        "gmail:1a0a4f9be8fc2fac"
-      ]
-    },
-    {
-      "title": "NYT: Guggenheim upgrades to Buy, raises PT to $82 (17% upside)",
-      "body": "Guggenheim's Curry Baker upgraded New York Times to Buy from Neutral and raised the price target to $82 from $70, implying ~17% upside from $70.34. The FactSet consensus PT is $77.62. NYT was up 1.4% pre-market ahead of the upgrade.",
-      "tickers": [
-        "NYT"
-      ],
-      "source_item_ids": [
-        "gmail:1a0a4ab16eaebfa7"
-      ]
-    },
-    {
-      "title": "AKAM: Pre-quiet check \u2014 street mismodeling CIS growth (+41% vs realistic +37%); AI inference pipeline strong",
-      "body": "TMT color from a sell-side pre-quiet period check flags street mismodeling AKAM Q3 CIS at +41% y/y vs a more realistic +37%; GPU shipment timing is the primary risk to 50%+ y/y CIS growth. The AI inference/CIS pipeline remains 'exceptionally strong' with 8-9 figure ARR deals in the mix. Low-teens CY27 growth based on already-signed deals only; new large deals would be upside.",
-      "tickers": [
-        "NVDA"
-      ],
-      "source_item_ids": [
-        "gmail:1a0a503a91da83e9"
-      ]
-    },
-    {
-      "title": "SNAP: SPECS AR headset launches Wednesday at $2,195; KeyBanc Sector Weight, ecosystem key watchpoint",
-      "body": "KeyBanc maintains Sector Weight on SNAP ahead of SPECS launching Wednesday (Sept 16) as a full spatial AR headset with 3D display priced at $2,195. Meaningful volume not expected in year one; developer ecosystem and launch app availability are the critical variables. Snap's Subscription business on track for $1.3B revenue in 2026 (+75% y/y, >$900M EBITDA); SPECS estimated to lose $200M-$400M annually.",
-      "tickers": [
-        "SNAP"
-      ],
-      "source_item_ids": [
-        "gmail:1a0a32ee5acaf48a"
-      ]
-    },
-    {
-      "title": "RBLX: Roth raises PT to $60 from $55 on structural improvements and pre-roll ad monetization",
-      "body": "Roth increased its Roblox price target to $60 (from $55), citing confidence in the platform's structural transformation. Discovery and engagement feature improvements are driving growth, and pre-roll ad monetization is in testing. Developer Conference feedback reinforced support for the platform's directional shift. RBLX was down 2.6% pre-market.",
-      "tickers": [
-        "RBLX"
-      ],
-      "source_item_ids": [
-        "gmail:1a0a4d854103e401"
-      ]
-    },
-    {
-      "title": "Hedgeye Risk Ranges: Bullish MSFT, AAPL, META, SNOW; Bearish AMZN, GOOGL, TSLA; NVDA Neutral",
-      "body": "Hedgeye's 9/15 Risk Range signals show MSFT (buy 485/sell 513), AAPL (buy 318/sell 340), META (buy 602/sell 682), and SNOW (buy 311/sell 357) in bullish trend; AMZN, GOOGL, and TSLA in bearish trend. NVDA is neutral. VIX flipped from Neutral to Bullish. Hedgeye separately flags long software (IGV, NOW) and bearish AVGO amid South Korean KOSPI semiconductor de-rating signals.",
-      "tickers": [
-        "MSFT",
-        "AAPL",
-        "META",
-        "SNOW",
-        "AMZN",
-        "GOOGL",
-        "TSLA",
-        "NVDA",
-        "NFLX",
-        "NOW",
-        "AVGO"
-      ],
-      "source_item_ids": [
-        "gmail:1a0a4dedcaf863cb",
-        "gmail:1a0a4f3664338cf0"
-      ]
-    },
-    {
-      "title": "NVDA commits $1.5B to SoftBank SB Energy IPO; $50B valuation, $439B backlog",
-      "body": "NVIDIA has contractually committed to purchase $1.5B of non-voting equity in SB Energy (proposed Nasdaq IPO: 'SBE') via private placement at IPO price. SoftBank targets a $50B valuation; SB Energy operates 8.8 GW-IT of signed data center capacity with ~$439B backlog. The company is 6M26 revenue of $138.7M (+67% y/y) but posting significant operating losses. OpenAI is also a strategic investor.",
-      "tickers": [
-        "NVDA",
-        "ORCL",
-        "MSFT",
-        "GOOGL",
-        "AMZN",
-        "META",
-        "EQIX",
-        "DLR"
-      ],
-      "source_item_ids": [
-        "gmail:1a0a354ef5206a46"
-      ]
-    },
-    {
-      "title": "GLW: Mizuho cuts PT to $180 from $210 on lower SOX multiple; Springboard FCF growth lags sales",
-      "body": "Mizuho reduced its Corning price target to $180 from $210, citing a lower SOX index multiple. Corning entered a $2B equity distribution agreement; the Springboard plan includes FCF growth that trails sales and earnings growth due to asset-heavy furnace capex commitments.",
-      "tickers": [
-        "GLW"
-      ],
-      "source_item_ids": [
-        "gmail:1a0a4a06aed5ce77"
-      ]
-    },
-    {
-      "title": "RDNT: Hedgeye moves to Active Long with $96 PT (30% upside); 2027 EBITDA 19% above Street",
-      "body": "Hedgeye initiated RDNT as an Active Long at a $96 price target (17x 2027E EV/EBITDA, 30% upside). Their 2027 Adj. EBITDA forecast of $500M is 19% above Street consensus of $421M. PET/CT volumes have doubled to 29,000/quarter, revenue per scan ~$2,050 vs. blended average $184, and SmartMammo AI generates $40 cash-pay per mammogram with 40-45% East Coast adoption improving cancer detection by 21%.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a0a4febcbc5b024"
-      ]
-    },
-    {
-      "title": "DKNG: Gaming de-rated 18% YTD; JPM flags FY26 EBITDA guidance $700-900M as questioned, estimates $713M",
-      "body": "JPM's gaming & lodging sector note flags digital gaming stocks (DKNG -38%, RSI -16%) as the most pressured segment in a sector that has de-rated 18% YTD (-2.6x EV/EBITDA). Regulatory clarity is not expected until mid-2027. JPM estimates FY26 EBITDA of $713M vs. the company's guided range of $700-900M, which analysts are questioning.",
+      "title": "DKNG: NFL Week 1 favorites dominated, pressuring sportsbook holds; SCOTUS prediction-market case 70\u201380% odds states prevail",
+      "body": "Hedgeye estimates gaming industry Week 1 NFL hold at 8\u201310% below average: favorites won 73% straight-up and the public ATS win rate jumped to 40% vs. 19% YoY. Separately, Citi notes legal expert Wallach puts 70\u201380% probability states prevail in the SCOTUS prediction-market case (oral arguments spring 2027), which would create a fragmented landscape but OSB operators like DKNG and FLUT could benefit via TAM expansion in white-space states.",
       "tickers": [
         "DKNG"
       ],
       "source_item_ids": [
-        "gmail:1a0a36656653d8bc"
+        "gmail:1a0a5835a237a128",
+        "gmail:1a0a5353cf5cb53a"
       ]
     },
     {
-      "title": "AFRM: GS highlights BNPL on strong secular growth and favorable credit at Communacopia; Truist warns PCE decelerating 150-200bps",
-      "body": "Goldman Sachs highlighted AFRM and BNPL names at the Communacopia conference citing strong secular growth and favorable credit conditions. Truist separately warns that PCE growth will decelerate 150-200bps over the next 12-18 months as the savings rate falls near 3% and spending has outpaced income \u2014 though they note deceleration is 'largely priced in' to payment stocks.",
+      "title": "RBLX/APP: MS OW targets $55 and $450; web distribution and mobile ad market key drivers",
+      "body": "Morgan Stanley reiterates OW on RBLX ($55 PT): web browser distribution and AI-driven creation reduce friction and improve discovery. APP ($450 PT) benefits from an $80B mobile ad market with ~1% conversion rates; improved targeting enables above-market growth for both APP and Vector.",
       "tickers": [
-        "AFRM"
+        "RBLX",
+        "APP"
       ],
       "source_item_ids": [
-        "gmail:1a0a4ef5fe90cb6e",
-        "gmail:1a0a4e97e36e50aa"
+        "gmail:1a0a525356919e3e"
       ]
     },
     {
-      "title": "TSLA: Musk flags Tesla-SpaceX R&D fab in Austin; open to combination; chip supply cited as AI scaling bottleneck",
-      "body": "Elon Musk on the All-In podcast flagged Tesla and SpaceX are building a joint R&D semiconductor fab in Austin to secure chip supply, citing Taiwan dependence as an AI scaling risk. Musk left open the possibility of a Tesla-SpaceX combination given extensive collaboration. Hedgeye has TSLA in bearish trend (buy 346/sell 378).",
+      "title": "CRM/ON Semi: Investor/Analyst Days on Sept 16; CRM last guided 26-Aug",
+      "body": "Salesforce hosts its Investor Day at 16:00 ET on September 16; CRM last guided Q3 and FY earnings on August 26. ON Semiconductor holds its Analyst Day at 14:00 ET on September 16 \u2014 ON has historically provided financial targets at analyst meetings.",
       "tickers": [
-        "TSLA"
+        "CRM"
       ],
       "source_item_ids": [
-        "gmail:1a0a502d334b092c",
-        "gmail:1a0a4dedcaf863cb"
+        "gmail:1a0a5c766debfd65"
+      ]
+    },
+    {
+      "title": "NYT: Guggenheim upgrades to Buy, raises PT to $82 on digital ad growth and margin expansion",
+      "body": "Guggenheim upgrades NYT from Neutral to Buy and raises its price target to $82 from $70, moving its valuation framework to 2027. The firm expects low-double-digit digital advertising growth in coming quarters and 10%+ digital subscription net adds growth in 2027, with margins benefiting from normalization of operating expenses after 4Q25 investment spend.",
+      "tickers": [
+        "NYT"
+      ],
+      "source_item_ids": [
+        "gmail:1a0a53472a62ec0e"
+      ]
+    },
+    {
+      "title": "SHOP/CLS/HUT: Canadian market weakness; SHOP -2.3%, CLS +2.0%, HUT -2.2% mid-morning",
+      "body": "The S&P/TSX Composite fell 0.47% to 35,535 mid-morning. Shopify (SHOP) dropped 2.3% amid broad market weakness; Hut 8 (HUT) fell 2.2% in the crypto/digital assets sector. Celestica (CLS) bucked the trend, rising 2.0% on positive momentum.",
+      "tickers": [
+        "SHOP",
+        "CLS",
+        "HUT"
+      ],
+      "source_item_ids": [
+        "gmail:1a0a57b4c4b42551"
+      ]
+    },
+    {
+      "title": "DELL: Up 5.4% intraday, +350% over 52-week period; hitting new highs",
+      "body": "DELL Technologies hit a new 52-week high, up 5.4% intraday and +350.4% over the trailing 52 weeks, leading 50 names making new highs in StreetAccount's daily screen.",
+      "tickers": [
+        "DELL"
+      ],
+      "source_item_ids": [
+        "gmail:1a0a5663efcfcc42"
+      ]
+    },
+    {
+      "title": "VRT: Featured at Goldman's SuperCompute 2026 booth tour; CEO Albertazzi presenting Nov 17",
+      "body": "Goldman Sachs is hosting SuperCompute 2026 booth tours in Chicago on November 17. Vertiv (VRT, rated Buy, $97.5B market cap) has an 8:30\u20139:45am CT session with CEO Giordano Albertazzi and product SMEs. NVT and ETN also featured.",
+      "tickers": [
+        "VRT"
+      ],
+      "source_item_ids": [
+        "gmail:1a0a563502d188e9"
+      ]
+    },
+    {
+      "title": "UBER/TSLA/GOOGL/AMZN: Roth Capital launching robotaxi consumer adoption survey across 1,000 rideshare users",
+      "body": "Roth Capital is fielding a proprietary 1,000-person survey of rideshare users in San Francisco, Phoenix, LA, Austin, Miami, and Las Vegas to assess robotaxi awareness, brand preference (Tesla, Waymo/Google, Amazon, Uber), price elasticity, and likelihood to use self-driving options if offered by Uber/Lyft.",
+      "tickers": [
+        "UBER",
+        "TSLA",
+        "GOOGL",
+        "AMZN"
+      ],
+      "source_item_ids": [
+        "gmail:1a0a55f9d2967719"
+      ]
+    },
+    {
+      "title": "ACN: Morgan Stanley hosting bull vs. bear debate Friday 9/18; AI displacement and bookings trends key",
+      "body": "Morgan Stanley is hosting a virtual ACN bull vs. bear debate on Friday, September 18 at 1:00pm ET. Key topics include demand environment and bookings trends, AI displacement fears and IT budget crowding out, inorganic contribution and rising M&A valuations, and pricing environment read-throughs from global IT services peers.",
+      "tickers": [
+        "ACN"
+      ],
+      "source_item_ids": [
+        "gmail:1a0a57c56f63ca21"
+      ]
+    },
+    {
+      "title": "ETSY: Oppenheimer upgrades to Outperform; +3.3% pre-market",
+      "body": "Oppenheimer upgraded ETSY to Outperform in pre-market trading, sending the stock up 3.3%. No price target was specified in the available color.",
+      "tickers": [
+        "ETSY"
+      ],
+      "source_item_ids": [
+        "gmail:1a0a53780dce3f9a"
+      ]
+    },
+    {
+      "title": "GOOGL: Adopts Anthropic Claude for all engineers; Gemini Pro launch expected October",
+      "body": "Citi TMT reports Google made Anthropic's Claude available to all engineers as a supplementary coding/research tool, signaling competitive concern about Claude's capabilities. Separately, GOOGL Polymarket odds reflect a Gemini Pro launch expected in October.",
+      "tickers": [
+        "GOOGL"
+      ],
+      "source_item_ids": [
+        "gmail:1a0a5353cf5cb53a"
       ]
     }
   ]
