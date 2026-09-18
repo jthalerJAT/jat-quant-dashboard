@@ -1,185 +1,229 @@
 {
-  "digest_type": "midday",
-  "digest_dt": "2026-09-18T12:00:00-04:00",
-  "saved_at": "2026-09-18T16:19:17.815986+00:00",
+  "digest_type": "weekend",
+  "digest_dt": "2026-09-18T18:00:00-04:00",
+  "saved_at": "2026-09-18T22:22:08.657019+00:00",
   "bullets": [
     {
-      "title": "Tech calls cheap despite elevated skew \u2014 NVDA highlighted as upside play",
-      "body": "Call skew percentiles are at +90th percentile while IV ranks are at <=7, meaning tech calls are historically cheap on an absolute basis. NVDA is specifically flagged as an attractive vehicle to express upside given this options market structure.",
+      "title": "BOJ raises rates to 31-year high; yen weakens despite hike",
+      "body": "Bank of Japan raised its overnight call rate 25bp to 1.25%, the highest level since 1995. Despite the hike, the yen weakened as forward guidance disappointed markets; BOJ Governor Ueda declined to rule out any policy options but warned large/repeated hikes risk overshooting. BOJ is monitoring Middle East developments, AI demand, and FX volatility as inflation risks.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2100783153464197509",
+        "x:2100788086368080083"
+      ]
+    },
+    {
+      "title": "US 10-year yield at 5%; 2-year surges to 4.74%; forward 2s top 5%",
+      "body": "US 10-year Treasury yield hit 5% with 30-year above 5.30%, while the 2-year surged to 4.74% \u2014 its highest since July 2024. One-year forward 2s are topping 5%, and market is pricing an 84% probability of a 2026 Fed rate hike with Goldman Sachs now expecting an October hike one week before the midterms.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2100969548258197649",
+        "x:2100974699010216285"
+      ]
+    },
+    {
+      "title": "Fed's Schmid: Economy strong; supports hike as inflation trends above 3%",
+      "body": "Fed's Schmid backed the recent rate hike and said inflation data suggests a trend above 3%. He agrees with Warsh that AI investment is driving capital demand and geopolitical challenges are lifting bond yields. He characterizes the labor market as in balance.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2100973157511516638",
+        "x:2100980369222979833"
+      ]
+    },
+    {
+      "title": "Goldman: Hyperscaler gross debt issuance to surge to $420B in 2027",
+      "body": "Goldman Sachs forecasts $420B in global investment-grade debt issuance directly from hyperscalers in 2027 \u2014 up 60%+ from ~$250B in 2026 \u2014 driven by higher CapEx revisions. Hyperscaler debt will equal roughly half of all new Treasury long-duration borrowing in 2027.",
+      "tickers": [
+        "MSFT",
+        "AMZN",
+        "GOOGL"
+      ],
+      "source_item_ids": [
+        "x:2100763647672734138",
+        "x:2100917916161970417"
+      ]
+    },
+    {
+      "title": "NVDA CEO expects to double chip sales YoY; DLSS 5 momentum",
+      "body": "Jensen Huang stated he expects NVIDIA to sell twice as many chips next year versus the current year. Separately, DLSS 5 and path tracing integration in Dark Souls 3 showcases next-gen visual capability. Tech calls seen as cheap with low IV ranks (\u22647) at 90th-percentile skew, making NVDA a highlighted upside play.",
       "tickers": [
         "NVDA"
       ],
       "source_item_ids": [
+        "x:2100924092270411912",
         "x:2100913205102956980"
       ]
     },
     {
-      "title": "Meta's AI app Muse hits #1 on US Apple App Store",
-      "body": "Meta's new AI app Muse reached the top-ranked free app position on the US Apple App Store, signaling strong early consumer traction for the product.",
+      "title": "META's Muse AI hits #1 on Apple App Store globally, surpassing ChatGPT",
+      "body": "META's new AI agent Muse reached #1 on the US Apple App Store free apps ranking, ahead of ChatGPT. Multiple fintwit accounts flagged this as evidence of strong consumer traction and argued that if META dominates the personal AI agent market it becomes the ultimate gatekeeper for top-of-funnel discovery and high-intent commerce.",
       "tickers": [
         "META"
       ],
       "source_item_ids": [
-        "x:2100913643541954759"
+        "x:2100945505475776559",
+        "x:2100960784498987194"
       ]
     },
     {
-      "title": "Micron India ramp: tens of millions of units in 2026, hundreds of millions in 2027",
-      "body": "Micron CEO Sanjay Mehrotra confirmed at SEMICON India 2026 that the Gujarat Surat packaging/test facility \u2014 India's first semiconductor facility under the country's chip program \u2014 began commercial production in 2026 and will scale to tens of millions of units this year and hundreds of millions in 2027.",
+      "title": "Memory prices surged 5-7x; shortage expected to worsen through 2027",
+      "body": "Intel's CEO warned at the AI Infra Summit that memory prices have jumped 5-7x, now comprising ~75% of costs for lower-end phones and laptops. SK Hynix flagged 2027 as potentially the worst supply year; MU reportedly holds $100B in take-or-pay contracts. RBC channel checks project 80-100% HBM ASP hikes for 2027.",
       "tickers": [
+        "MU",
+        "INTC",
+        "SNDK"
+      ],
+      "source_item_ids": [
+        "x:2100981271405236278",
+        "x:2100938001077674262"
+      ]
+    },
+    {
+      "title": "INTC +9.8%, MRVL +5.4% as Treasury yields ease post-Fed hike",
+      "body": "Following the Fed's 25bp hike, Treasury yields fell to 4.949%, lifting semiconductor stocks. INTC surged 9.8% on a report of a potential US memory chip manufacturing deal with SK Hynix; MRVL gained 5.4%. Barclays also initiated TSEM with a 41% upside target, citing its well-placed silicon photonics position.",
+      "tickers": [
+        "INTC",
+        "MRVL",
+        "TSEM"
+      ],
+      "source_item_ids": [
+        "x:2100789946823106809",
+        "x:2100953570187383262"
+      ]
+    },
+    {
+      "title": "AMD: QA gap vs. CUDA flagged; chip price hike ~10% in Q4 on TSMC costs",
+      "body": "vLLM's Kevin Lu blog highlighted AMD's lack of stable QA clusters creates 'order-of-magnitude worse' software quality vs. CUDA \u2014 a structural software reliability concern. Separately, ChannelGate reports AMD will raise chip prices ~10% in Q4 due to TSMC cost increases.",
+      "tickers": [
+        "AMD"
+      ],
+      "source_item_ids": [
+        "x:2100948236139712988",
+        "x:2100737515905065338"
+      ]
+    },
+    {
+      "title": "TSMC: Sub-1.4nm fab approval; plans three Longtan fabs by 2030 for >$31B",
+      "body": "TSMC secured regulatory approval for sub-1.4nm manufacturing plants and plans to build three new fabs in Longtan, north Taiwan, with the first targeted for mass production by 2030 at a cost exceeding NT$1 trillion (~$31.4B). TSMC is also delaying high-NA EUV adoption to 2030 pending 12-inch mask supply chain maturity at ~80% readiness.",
+      "tickers": [
+        "TSM"
+      ],
+      "source_item_ids": [
+        "x:2100736196695708138",
+        "x:2100936745265025444"
+      ]
+    },
+    {
+      "title": "Apple iPhone 18 Pro officially released; Apple suing OpenAI; US-China summit angle",
+      "body": "Apple's iPhone 18 Pro and Pro Max launched officially. Tim Cook is attending the Trump-Xi state dinner alongside Jensen Huang and Sam Altman. Separately, Apple is reportedly suing OpenAI and competing with Google to own the personal assistant market. A US-China summit Sept 24 is expected to yield AI/semiconductor deals; Apple is reportedly testing CXMT products.",
+      "tickers": [
+        "AAPL"
+      ],
+      "source_item_ids": [
+        "x:2100931015258591281",
+        "x:2100934463307854086"
+      ]
+    },
+    {
+      "title": "Intel 14A process under evaluation by Amazon, Apple, AMD, Google, Tesla, Microsoft, NVIDIA, Qualcomm",
+      "body": "Intel's 14A process node is reportedly being evaluated by most major hyperscalers and chipmakers. No adoption decision yet, but the breadth of evaluators signals strategic interest in foundry diversification.",
+      "tickers": [
+        "INTC",
+        "AMZN",
+        "AAPL",
+        "AMD",
+        "GOOGL",
+        "TSLA",
+        "MSFT",
+        "NVDA"
+      ],
+      "source_item_ids": [
+        "x:2100991081794207745"
+      ]
+    },
+    {
+      "title": "CXMT enters NAND flash; competitive threat to SNDK flagged",
+      "body": "Chinese DRAM giant CXMT plans to build a 3D NAND R&D production line at its second Beijing fab (2-3 years out). SNDK saw a significant AM selloff on the news, with one trader noting a large sell order expected in tonight's SMH rebalance. SK Hynix's Solidigm is also reportedly planning a US NAND fab.",
+      "tickers": [
+        "SNDK",
         "MU"
       ],
       "source_item_ids": [
-        "x:2100866639306920334"
+        "x:2100933241200861214",
+        "x:2100981396563259498"
       ]
     },
     {
-      "title": "CRWV and NBIS: framework for evaluating capital-intensive neo-cloud names",
-      "body": "Commentary flags that CRWV and NBIS look very different from traditional software and require evaluation through CapEx, cash flow, balance sheets, growth trajectory, and associated risks \u2014 not conventional SaaS metrics.",
+      "title": "Aramco suspends European crude allocations; Red Sea traffic down 67% from 2024 avg",
+      "body": "Saudi Aramco told at least two European refiners they will receive no crude next month due to attacks on the Red Sea pipeline. Weekly traffic through Bab El-Mandeb since early August is running below one-third of the 2024 seven-day average. Strait of Hormuz commodity vessel traffic fell to just 4 on Thursday vs. a 10-day average of 16.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2100968132093305158",
+        "x:2100922735127888332"
+      ]
+    },
+    {
+      "title": "Semis testing 50-DMA for 3rd time; Goldman warns CTAs are sellers in all scenarios next week",
+      "body": "The semiconductor sector is testing its 50-day moving average resistance for the third time with unclear breakout odds. Goldman's flow desk warns CTAs are positioned as sellers in all scenarios next week amid a rising Panic Index and slumping sentiment.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2101006595526205442",
+        "x:2100946724382531948"
+      ]
+    },
+    {
+      "title": "$7T quad-witching (2nd largest ever) hits amid SPY near $3.7B put wall at 760",
+      "body": "Today's quad-witching event involves $7 trillion in notional value, the 2nd largest on record. SPY has returned to a $3.7B put wall at the 760 strike just ahead of the expiry, creating a technically sensitive setup.",
       "tickers": [
-        "CRWV",
-        "NBIS"
+        "SPY"
       ],
       "source_item_ids": [
-        "x:2100916938574823764"
+        "x:2100923414462517437",
+        "x:2100962231038927079"
       ]
     },
     {
-      "title": "Anthropic and OpenAI pivoting to smaller data center deals for faster capacity deployment",
-      "body": "Both Anthropic and OpenAI are exploring smaller 20-30 MW data center deals in the US, UK, and Nordics, per CNBC sources. Smaller deals offer faster time to usable compute capacity compared to the hyperscale commitments they have pursued previously.",
+      "title": "AI pause calls triggered hardware selloff, but no actual lab slowdown confirmed",
+      "body": "After Dario Amodei called for slowing frontier AI development (backed by Altman and Musk), AI hardware stocks sold off. However, interviews with frontier lab representatives suggest no actual development pause is occurring. Only 3% of US consumers currently pay for AI, highlighting the monetization runway ahead.",
       "tickers": [],
       "source_item_ids": [
-        "x:2100911918290505847",
-        "x:2100882650236162474"
+        "x:2100960373289693549",
+        "x:2100992496067109009"
       ]
     },
     {
-      "title": "Tesla FSD shows 40% fewer collisions in Australia/New Zealand",
-      "body": "Teslas operating on FSD (Supervised) in Australia and New Zealand experienced 40% fewer collisions on average versus non-FSD vehicles, adding data points to the autonomous safety narrative.",
-      "tickers": [
-        "TSLA"
-      ],
-      "source_item_ids": [
-        "x:2100906282274202070"
-      ]
-    },
-    {
-      "title": "AI productivity boom thesis remains unproven \u2014 no disinflation, no white-collar job losses yet",
-      "body": "Skeptical macro commentary notes that AI bulls expected a disinflationary productivity boom with negative employment impact on white-collar workers, but neither outcome has materialized. The Economist separately reports AI has created ~1 million new US jobs, complicating the displacement narrative.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2100912432235356496",
-        "x:2100916998427537835"
-      ]
-    },
-    {
-      "title": "AI bulls' opposition to rate hikes linked to personal exposure and thesis integrity",
-      "body": "Commentary argues AI bulls oppose rate hikes partly because they personally benefit from the AI boom and because rate hikes risk revealing that AI's actual economic impact is weaker than the bullish consensus claims \u2014 creating an intellectual conflict of interest.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2100904702145618316"
-      ]
-    },
-    {
-      "title": "AI sector facing multiple headwinds: data center pushback, political scrutiny, rate hikes",
-      "body": "A cluster of macro headwinds is pressuring AI infrastructure momentum: local community opposition to new data centers, growing voter and political concern about AI risks, and rate hikes creating cost-of-capital pressure on capital-intensive build-outs.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2100905446378762249"
-      ]
-    },
-    {
-      "title": "Semiconductor trajectory now central to S&P 500 earnings growth",
-      "body": "Commentary flags that S&P 500 earnings growth is increasingly sensitive to semiconductor sector performance, noting 'we are all semis analysts now' \u2014 suggesting semis will be a critical swing factor for broader market earnings in coming years.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2100894231589945421"
-      ]
-    },
-    {
-      "title": "DXY hits highest since July, on pace for 8th straight day without a red close",
-      "body": "The US Dollar Index reached its highest level since July and is tracking toward an 8th consecutive session without a closing decline \u2014 a notable streak suggesting sustained dollar strength against macro backdrop.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2100905814936469687"
-      ]
-    },
-    {
-      "title": "French-German 10Y spread widens to 100bps \u2014 highest since 2012",
-      "body": "The French 10-year yield premium over German bunds hit 100 basis points, the widest spread since 2012, flagging elevated Eurozone fiscal and political stress. EU Economic Commissioner warns rising bond yields will affect all of Europe and calls for stronger fiscal discipline.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2100899659958927652",
-        "x:2100902759079760033"
-      ]
-    },
-    {
-      "title": "Bank of Japan hike disappoints on forward guidance; yen weakens sharply",
-      "body": "The Bank of Japan raised rates 25bps to the highest level since 1995, but forward signaling on future hikes disappointed markets and the yen weakened following the announcement.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2100899019417403426",
-        "x:2100875012781584719"
-      ]
-    },
-    {
-      "title": "Diesel crisis deepens: US diesel at $6.45/gal record; Exxon Joliet refinery disruption",
-      "body": "US diesel hit a fresh record of $6.45/gallon (AAA) while crude oil fell for a third consecutive day, widening the crack spread divergence. Separately, Exxon's Joliet refinery suffered a disruption threatening Midwest diesel supply, and US gas prices hit $4.43/gallon \u2014 the highest ever for this point in September.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2100917378032763245",
-        "x:2100916032256790746"
-      ]
-    },
-    {
-      "title": "Saudi Arabia cuts crude allocations to European refiners next month",
-      "body": "Saudi Aramco has informed European oil refiners they will receive no crude in the coming month, a significant supply cut that compounds existing energy price pressures in Europe.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2100904645770334568",
-        "x:2100908049535770851"
-      ]
-    },
-    {
-      "title": "Warsh Fed likely to mirror hawkish market expectations, per analyst analogy",
-      "body": "Commentary draws an analogy to the 2010s Fed being reluctant to disappoint dovish market expectations, suggesting the Warsh-led Fed may similarly be reluctant to disappoint the current hawkish consensus \u2014 implying higher-for-longer policy alignment.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2100911802133389790"
-      ]
-    },
-    {
-      "title": "Philadelphia Fed manufacturing solid but housing data disappoints sharply",
-      "body": "Philadelphia Fed Manufacturing Index (ISM-adjusted) dipped to 58.3 in September but remains in expansion, with 68% of manufacturers expecting higher Q3 production. In contrast, August housing starts fell 2.6% MoM vs a +6.7% estimate, driven by a 22% MoM collapse in multifamily; pending home sales also moved further negative YoY.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2100904772186296580",
-        "x:2100905083877658685"
-      ]
-    },
-    {
-      "title": "AAII sentiment bull-bear spread at lowest since May 2025 for 9th straight week below average",
-      "body": "The AAII bull-bear spread plunged to its lowest reading since May 2025 and has now remained below its historical average for nine consecutive weeks, suggesting broadly cautious retail sentiment.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2100905273808282097"
-      ]
-    },
-    {
-      "title": "Warren Buffett steps down as Berkshire Hathaway chairman, appointed Chairman Emeritus",
-      "body": "Warren Buffett stepped down as chairman of Berkshire Hathaway effective immediately and was appointed Chairman Emeritus. No succession details on investment management disclosed in the announcement.",
+      "title": "Warren Buffett steps down as Berkshire chairman; Howard Buffett takes over",
+      "body": "Warren Buffett stepped down as Berkshire Hathaway chairman effective immediately, moving to chairman emeritus. Son Howard G. Buffett takes over the chair role. Greg Abel's succession as CEO is reaffirmed.",
       "tickers": [],
       "source_item_ids": [
         "x:2100891370529358202",
-        "x:2100888017062019549"
+        "x:2100924678701248621"
       ]
     },
     {
-      "title": "US markets to extend to 23-hour trading Mon-Fri starting December 6",
-      "body": "US equity markets are set to begin trading 23 hours per day Monday through Friday starting December 6, with just a one-hour daily break for maintenance \u2014 a structural change that could affect liquidity dynamics and after-hours price discovery.",
-      "tickers": [],
+      "title": "MRVL expands GlobalFoundries deal for AI optical networking; VIAV flagged as CPO testing bottleneck play",
+      "body": "Marvell and GlobalFoundries expanded their multi-year chip-capacity agreement for U.S. AI data-center optical networking. Silicon photonics CPO testing remains a bottleneck 6 months on, with VIAV and LITE cited as optical test equipment beneficiaries. Tower Semiconductor began high-volume shipments of 800G/1.6T optical engines with NewPhotonics.",
+      "tickers": [
+        "MRVL",
+        "VIAV",
+        "LITE",
+        "TSEM"
+      ],
       "source_item_ids": [
-        "x:2100894123976778149"
+        "x:2100812998747238805",
+        "x:2100812798569976296"
+      ]
+    },
+    {
+      "title": "Waymo (GOOGL) announces Singapore robotaxi launch for 2028; PLTR building Chipotle food safety platform",
+      "body": "Waymo plans to begin commercial robotaxi operations in Singapore by 2028 with mapping starting in early 2027. Palantir is building a Foundry-hosted food safety risk platform for Chipotle, aggregating health inspection, pest, and illness data to flag restaurant-level risk.",
+      "tickers": [
+        "GOOGL",
+        "PLTR"
+      ],
+      "source_item_ids": [
+        "x:2100774559817273439",
+        "x:2100768721421934804"
       ]
     }
   ]
