@@ -1,198 +1,206 @@
 {
-  "digest_type": "midday",
-  "digest_dt": "2026-09-21T12:00:00-04:00",
-  "saved_at": "2026-09-21T16:25:52.523977+00:00",
+  "digest_type": "eod",
+  "digest_dt": "2026-09-21T18:00:00-04:00",
+  "saved_at": "2026-09-21T22:25:31.073230+00:00",
   "bullets": [
     {
-      "title": "S&P +1% to 7,730; Nasdaq +1.1%; market rallies on oil decline and Xi visit anticipation",
-      "body": "S&P 500 futures rose ~0.7% to 7,761 and Nasdaq 100 +1.1% premarket as Brent crude fell ~2% to $101.77/bbl and markets anticipated a positive Trump-Xi summit (Sept 23-25). VIX at 14.75; 10-year yield eased ~5bps to 4.95%. S&P gamma backdrop positive post-monthly OPEX; dealer flows suppressing volatility with 10Y below 5% and WTI below $100.",
+      "title": "Nasdaq 100 rips 2.5%+ to June highs; ARKK at YTD high; upside vol > downside vol",
+      "body": "The QQQ gained over 2.5% intraday, returning the NASDAQ to June 1st price levels for the first time. ARKK hit YTD highs trading above its 200-day MA by the widest margin since December. A notably different tape character: upside volatility in Nasdaq is now running hotter than downside, with NDX November skew repricing sharply from Friday. SPX 7475 had a large 20k 0DTE call position to watch for gamma pinning.",
       "tickers": [],
       "source_item_ids": [
-        "gmail:1a0c41e3571b30d3",
-        "gmail:1a0c4001eb0647a0"
+        "x:2102082374431318163",
+        "x:2102082059036430796"
       ]
     },
     {
-      "title": "Fed Goolsbee: 2% inflation target still achievable but 'won't be painless'; no ambiguity on hiking if demand overheats",
-      "body": "Chicago Fed's Goolsbee said supply shocks are having persistent inflation impact, the credible path back to 2% is 'hard to see,' and rate cuts require convincing evidence inflation is fading. He stressed 'no ambiguity' about tightening if demand overheats and affirmed Fed independence as essential against political pressure for cheaper borrowing costs. Strong demand, energy prices, and tariffs all cited as concurrent inflation drivers.",
-      "tickers": [],
+      "title": "AMD crosses $1T market cap milestone; CPU/chip complex surges on agentic AI demand",
+      "body": "AMD hit $1 trillion market cap for the first time and reached new all-time highs, with shares up ~9%+. The broader CPU complex ripped: INTC +14%, ARM +14%, MU +2%, AAOI +3.4%. The thesis is agentic AI shifting the GPU-to-CPU ratio from ~7:1 (training) toward 3:1 or lower (inference), with consumer agent adoption (Meta Muse, Grok) likely underestimated in current forecasts. INTC was specifically cited as a Muse CPU demand beneficiary, with NVIDIA selecting Intel Xeon 6 as host CPU for DGX Rubin NVL8.",
+      "tickers": [
+        "AMD",
+        "INTC",
+        "ARM",
+        "MU"
+      ],
       "source_item_ids": [
-        "x:2101982719538544783",
-        "x:2101982665666912496"
+        "x:2102062423499047004",
+        "x:2102079403371163828"
       ]
     },
     {
-      "title": "Morgan Stanley expects two more Fed hikes; mid-cycle rotation toward quality/asset-light equities",
-      "body": "MS's macro forum flagged slower disinflation into 2027 due to oil pressures, with S&P forward P/E de-rating to 19x while earnings remain mid-teens growth. Leadership is rotating toward quality, services, and asset-light companies; MS YE S&P target 8,000 with 7,000-7,100 tactical downside if energy/midterm risks materialize. Treasury market pricing <25% recession risk but >75% aggregate demand shock risk.",
+      "title": "META surges 10%+ on Muse AI agent launch; Shopify partners with Muse for agentic checkout",
+      "body": "META extended gains to ~10.4%, breaking above its 200-day MA by the widest margin in 12 months, after CEO Tobi L\u00fctke of Shopify confirmed a Muse partnership enabling AI-powered agentic checkout via Shop Pay across all Shopify stores. Muse clocked 1.8M downloads and 642k DAU in its first 12 days vs ChatGPT's 1.3M downloads and 231k DAU. META's revenue per employee has doubled to $2.9M from $1.4M in early 2023 on flat headcount. Analysis flagged Meta's new subsea 'Petal' cable (petabit capacity, first transoceanic at that scale) and Muse's ability to capture purchase-intent signals to compete for ad revenue historically dominated by Google.",
+      "tickers": [
+        "META",
+        "SHOP"
+      ],
+      "source_item_ids": [
+        "x:2102085056059642267",
+        "x:2102068032293994869"
+      ]
+    },
+    {
+      "title": "Amazon blocks Meta's Muse agent from its retail site; agentic commerce battle lines drawn",
+      "body": "Amazon blocked Meta's Muse AI agent from accessing its online shopping platform per Bloomberg, signaling a competitive standoff over who controls the AI-agent commerce layer. Analysts note Amazon faces difficulty distinguishing AI buyers from human buyers via existing IP/cookie methods, and that Amazon is unlikely to develop a dominant personal AI assistant\u2014leaving Meta well-positioned as the shopping agent entry point. The conflict frames AMZN vs META as the central agentic commerce rivalry.",
+      "tickers": [
+        "AMZN",
+        "META"
+      ],
+      "source_item_ids": [
+        "x:2102057832262643771",
+        "x:2102060668987859048"
+      ]
+    },
+    {
+      "title": "US-China trade truce extension proposed; Trump-Xi meeting imminent; Bessent touts 'deliverables'",
+      "body": "The US proposed extending the China trade truce by six months while China pushed for a longer extension. Treasury Secretary Bessent said US-China talks yielded 'deliverables' covering tariffs, economics, and AI, and signaled Trump and Xi could meet two more times after this week. A formal AI 'incident line' is planned with a US-China AI meeting in Shenzhen within two months. Fox Business reported Trump will decide on a US-China AI deal this week.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2102042481298690109",
+        "x:2102005736226037963"
+      ]
+    },
+    {
+      "title": "Bessent: rates should fall post-Iran conflict; bonds unusually correlated with energy",
+      "body": "Treasury Secretary Bessent said interest rates should decline once the Iran conflict resolves and repeatedly noted an unusual correlation between bonds and energy prices. He also flagged that the 30-year yield has not risen much despite buyback expansion, that he raised the Treasury buyback size during an illiquid period, and that AI labs need to take responsibility for themselves rather than rely on government oversight.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2102010253248168307",
+        "x:2102010211431002412"
+      ]
+    },
+    {
+      "title": "Diesel hits record $6.51/gal; Russia extends export ban; fuel crisis pressures inflation",
+      "body": "US diesel prices surged to an all-time high above $6.51/gallon, up ~76% year-over-year and ~18% from the August average, while Russia is set to extend its diesel export ban beyond September amid continued Ukrainian drone strikes on refineries (Moscow's Gazprom Neft refinery halted Sunday). Chevron's CEO warned supply buffers have worn thin. Surging fuel costs could push US inflation expectations higher; Michigan sentiment data due Friday may not yet fully capture the spike. Republican lawmakers are exploring a diesel export ban and gas-tax holiday.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2102035445240533302",
+        "x:2102048746150203698"
+      ]
+    },
+    {
+      "title": "Oil drops 2-4% as Saudi flows defy Hormuz disruption; diplomacy hopes ease shortage fears",
+      "body": "Brent fell ~2.6% to $101 and WTI dropped below $98 as Saudi Aramco loaded 14 million barrels on seven VLCCs, with shipments through Hormuz averaging 2.9 million bpd vs 700,000 in August. Diplomatic optimism around US-China and Iran talks further eased shortage fears despite a tanker struck by projectile debris in Hormuz and Libya's Sharara pipeline shutdown. US SPR crude stocks fell to 284.6M barrels, the lowest since 1982. Brent briefly fell below $100 for the first time since September 9.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2102040111583993879",
+        "x:2102043057763860707"
+      ]
+    },
+    {
+      "title": "Trump signals pro-AI, light-touch regulatory stance; no liability shield for AI labs",
+      "body": "Trump posted 'Whoever wins AI, WINS,' called AI potentially bigger than the Industrial Revolution and internet, and pledged not to stifle AI growth\u2014while Bessent noted AI labs must self-regulate and the Trump admin will not grant a liability shield to AI companies. Trump said the DOJ may regulate AI 'if we have to' but prefers current law enforcement as sufficient. Bessent also floated an 'AI czar' role to establish guardrails around incidents.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2102064039819878759",
+        "x:2102025579625054578"
+      ]
+    },
+    {
+      "title": "Chicago Fed's Goolsbee: rate-hike cycle near limit; further tightening 'necessarily painful'",
+      "body": "Chicago Fed President Austan Goolsbee indicated the central bank has reached the limit of its rate-hiking cycle, describing further tightening as 'necessarily painful,' and clarified he does not view potential rate hikes as rolling back 2025 cuts. He also warned Fed rate projections may be insufficient if inflation remains demand-driven rather than supply-constrained.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2102065188165824771",
+        "x:2102035418975969492"
+      ]
+    },
+    {
+      "title": "Bank of Canada: new era of uncertainty persists; Q4 growth could halve if US tariffs hold",
+      "body": "BoC Governor Macklem warned of a prolonged era of uncertainty and said Q4 Canadian growth could be roughly halved if new US tariffs remain in place. He noted energy price pressures risk adding persistence to headline inflation, and warned that moving too slowly on rate hikes creates the risk of needing to raise rates sharply later.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2102052796677914634",
+        "x:2102076385804292252"
+      ]
+    },
+    {
+      "title": "Market breadth weakening: <30% of S&P stocks above 50-day MA; A/D line at 200-day",
+      "body": "Goldman noted less than 30% of S&P 500 stocks trade above their 50-day moving average, signaling broad market weakness beneath the index resilience. The S&P 500 advance-decline line is trending down and sitting on its 200-day MA. SPX/NDX volatility spread returned to long-term mean after July's divergence where Nasdaq fell 8% while S&P fell 3%, partly due to oil and rates exposure in the S&P's sector mix. Goldman also called gold 'particularly interesting' with Bernstein cutting its 2030 target to $5,600/oz from $6,100.",
       "tickers": [
         "SPY"
       ],
       "source_item_ids": [
-        "gmail:1a0c43ba153c9cfe",
-        "gmail:1a0c3f58a1a1f906"
+        "x:2102041979798327601",
+        "x:2102051080481710560"
       ]
     },
     {
-      "title": "Xi Jinping visits US Sept 23-25; China plans to drop 15% LNG tariff this week \u2014 trade thaw catalyst",
-      "body": "China confirmed Xi's first US state visit in nearly three years, scheduled Sept 23-25 at the US president's invitation. Separately, China plans to remove its 15% tariff on US LNG this week, potentially reopening bilateral trade flows and enabling new deals. Markets flagged the visit as a positive catalyst for the tape.",
+      "title": "SoftBank selling $11B junk bonds at record yields to fund OpenAI investment",
+      "body": "SoftBank plans to raise $11 billion via junk bond issuance at soaring yields to fund its OpenAI investments, with the bonds hitting record high yields. Apollo separately warned the entire hyperscaler credit story rests on the consensus assumption that operating cash flow grows 3x from $600B to $2T; a miss would trigger wider credit spreads and potential capex cuts.",
       "tickers": [],
       "source_item_ids": [
-        "x:2101997589688467659",
-        "x:2101990372549493148"
+        "x:2102075414302654798",
+        "x:2102020910836277638"
       ]
     },
     {
-      "title": "Oil falls for 4th day on Iran diplomacy hopes and Saudi supply recovery; diesel at record $6.51/gal",
-      "body": "WTI crude dropped ~2.8% to $93.37 on hopes for Iran diplomatic progress ahead of UN meetings and expectations Saudi shipments will partially recover. However, refined product prices diverged sharply: US diesel hit a record $6.51/gallon and regular gasoline approached $4.50, driven by Middle East disruption and Russian refinery constraints. JPMorgan's oil team reportedly abandoned Iran war scenario forecasting given policy unpredictability.",
+      "title": "FAA grounds all major NY-area airports on equipment/communications outage",
+      "body": "The FAA issued ground stops at Newark, Philadelphia, JFK, LaGuardia, and Boston due to a loss-of-communications issue at the Philadelphia facility\u2014the same facility responsible for prior Newark disruptions. A new circuit was readied for installation with expected resolution by ~1:30 PM local time, though New York ground stop timelines remained unclear.",
       "tickers": [],
       "source_item_ids": [
-        "x:2101991213083607203",
-        "x:2101999128930582725"
+        "x:2102091584699535522",
+        "x:2102087744071594247"
       ]
     },
     {
-      "title": "Hormuz Strait near-collapse: supertanker rates hit $1M+/day, only 17 vessels crossed over weekend",
-      "body": "Supertanker rates on the Persian Gulf-to-China route surged to $1.035M/day, roughly 5x pre-war levels, as traffic through the Strait of Hormuz collapsed to just 17 commodity vessels over the weekend. Qatar said it could resume LNG operations within weeks of Hormuz reopening, and Houthi officials warned Egypt, Turkey, and Pakistan could be future targets.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2102002826327007378",
-        "x:2101999230478938295"
-      ]
-    },
-    {
-      "title": "Sec. 301 tariff legal challenge Sept 30: invalidation could trigger ~$100B refunds, bond market concern",
-      "body": "The Court of International Trade will hear arguments Sept 30 on whether Trump's new Section 301 tariffs (10-12.5% on 60 economies, covering 99% of US imports, effective July 24) exceed legal authority. A similar IEEPA tariff invalidation generated ~$170B in refunds; the Sec. 301 equivalent is estimated at ~$100B. Projected $1 trillion in 10-year tariff revenue loss could pressure the bond market.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a0c44f3c2441c7c",
-        "gmail:1a0c42352ded5302"
-      ]
-    },
-    {
-      "title": "Semiconductor sector rips: AMD +9.2% to new 52-week high, ARM +14.2% on 156% unusual volume",
-      "body": "AMD reached a new 52-week high at $611.13 (+9.2%, +287% YTD) and ARM surged 14.2% to $314.79 on 156% of average volume, with moves attributed to sector momentum and Muse AI read-throughs. SOX is trading at a 20% discount to the S&P at 13.6x forward P/E vs. a 5-year median of 20.5x; Morgan Stanley remains constructive on quality/AI adopter semis.",
+      "title": "Paramount-Warner Bros. Discovery merger clears antitrust hurdle with state AG settlement",
+      "body": "A coalition of state AGs settled their antitrust lawsuit against the Paramount-Warner Bros. Discovery merger. Key terms include WBD committing at least $1.5B to domestic film production over five years, minimum theatrical release commitments, $300M+ incremental US production spend, a $47.5M five-year commitment, editorial independence boards for CNN and CBS, and a compliance monitor overseen by a committee of five states.",
       "tickers": [
-        "AMD",
-        "ARM"
+        "WBD"
       ],
       "source_item_ids": [
-        "gmail:1a0c48bd94eb1e20",
-        "gmail:1a0c400af9fdb5f7"
+        "x:2102091271011799382",
+        "x:2102089050849185863"
       ]
     },
     {
-      "title": "US data center power shortfall rises to 57GW gross by 2028 as Vera Rubin rack power jumps to 234kW",
-      "body": "Morgan Stanley's updated power analysis shows a 57 GW gross (33 GW net) US data center power shortfall through 2028, up from 38 GW prior, with 2029 adding another 68 GW of incremental demand. NVDA's Vera Rubin rack power is now estimated at 234 kW vs. 149 kW prior, and Rubin Ultra at 600 kW vs. 415 kW. Cost/TFLOP falls 94% from Hopper to Rubin Ultra, triggering Jevons paradox and higher aggregate electricity consumption.",
+      "title": "China's CXMT enters mass production with next-gen DRAM; memory supply dynamics shifting",
+      "body": "China's CXMT launched its G5 DRAM platform into mass production with 50% higher die-per-wafer density using SAQP to achieve 11.95nm half-pitch, approaching world-leading specifications. A separate SK Hynix packaging executive signaled there 'isn't much time left to survive on memory,' implying acute pressure on traditional memory business models from the HBM transition.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2102030633866571908",
+        "x:2102092140633620863"
+      ]
+    },
+    {
+      "title": "Grok 4.7 launches: competitive AI model at $2/$6 per M tokens with coding/agentic gains",
+      "body": "xAI released Grok 4.7, described as a notable improvement over 4.6 at the same price and speed, priced at $2/M input and $6/M output tokens. Third-party benchmarks rank it third for agentic coding behind Anthropic and OpenAI. NVIDIA's accelerated computing infrastructure supports Grok 4.7. OpenAI is reportedly developing features specifically to counter Grok bot, signaling the AI model arms race is intensifying.",
       "tickers": [
         "NVDA"
       ],
       "source_item_ids": [
-        "gmail:1a0c400af9fdb5f7",
-        "gmail:1a0c40e2c02f9057"
+        "x:2102062223753679067",
+        "x:2102081129234751722"
       ]
     },
     {
-      "title": "Memory market tightening: DDR5 +5.3% M/M, DRAM modules +23.1% M/M; Nvidia sees chip demand doubling next year",
-      "body": "Memory spot prices are rising sharply with DDR5 +5.3% M/M and DRAM modules +23.1% M/M as supply tightens. Nvidia's Jensen Huang projects the company will sell twice as many chips next year following 70% FY28 revenue guidance growth. Micron faces a Taiwan union strike threat over profit-sharing at its key DRAM/HBM plant; SK Hynix is exploring a potential US fab partnership with Intel.",
+      "title": "Google clarifies Gemini 4 uses TPUs not NVIDIA GPUs; training stack remains JAX/XLA",
+      "body": "A clarification circulated that Gemini 4 was not trained on NVIDIA GB GPUs and continues to use Google's TPU stack with JAX/XLA/Pathways. Separately, NVIDIA's Vera CPUs posted 48% faster database query performance than Intel Xeon 6 with fewer cores, while an Intel executive confirmed the CPU shortage is real, with competition among INTC, AMD, and AMZN's Graviton in data center applications.",
       "tickers": [
         "NVDA",
-        "MU",
         "INTC"
       ],
       "source_item_ids": [
-        "gmail:1a0c47d2427a1cc1",
-        "gmail:1a0c3f5d0b5d20d4"
+        "x:2102069682203504995",
+        "x:2102067831621984664"
       ]
     },
     {
-      "title": "AI capex unaffected by safety scrutiny; hyperscalers accumulated ~$300B off-balance-sheet AI guarantees TTM",
-      "body": "Multiple sources confirm AI capex projections of $1T for 2026 and $1.6T for 2027 are unaffected by compute reallocation to safety and alignment. Hyperscalers have accumulated ~$300B in off-balance-sheet guarantees for AI projects over the trailing twelve months. AI safety scrutiny is seen as increasing compute/capex requirements, not derailing the infrastructure cycle. CIOs expect server/storage spending growth to reach all-time survey highs by 2027, with 70-75% pulling forward 2026 spend.",
+      "title": "French sovereign risk rising: CDS at 45bps (highest since March 2020); debt to near 120% GDP",
+      "body": "French 5-year CDS spreads hit 45 basis points, the highest since March 2020, as the French finance ministry forecast record government debt approaching 120% of GDP in 2026. This represents a widening European sovereign risk signal worth monitoring for cross-asset spillover into US credit and rates.",
       "tickers": [],
       "source_item_ids": [
-        "gmail:1a0c40e2c02f9057",
-        "gmail:1a0c46eb1849ce83"
+        "x:2102049665751384066",
+        "x:2102054493798212041"
       ]
     },
     {
-      "title": "USD breakout is key macro shift; yen down 2.5% last week and declining further; gold/EM headwind",
-      "body": "Hedgeye flagged the USD Index breaking out to Bullish TRADE and TREND as the key macro regime shift of the week. USD/JPY moved to Bullish TRADE; yen is down 2.5% vs. USD last week and falling again Monday morning. Dollar strength is a headwind for gold (approaching bearish TREND), silver (moved to bearish TREND), emerging markets, and bonds.",
+      "title": "Trump-Greenland signing ceremony Tuesday; Boeing 200 China aircraft orders progressing",
+      "body": "The US, Denmark, and Greenland will hold a signing ceremony Tuesday per Fox, as Denmark confirmed the deal would boost Arctic security. Separately, USTR Ambassador Greer confirmed Boeing is making progress on finalizing 200 Chinese airplane orders announced earlier this year, a rare positive signal on US-China trade deliverables.",
       "tickers": [],
       "source_item_ids": [
-        "gmail:1a0c466737305437",
-        "x:2101968705580110237"
-      ]
-    },
-    {
-      "title": "Bitcoin surges to $85K+, 8-month high; Ethereum also long on Bullish TRADE/TREND signals",
-      "body": "Bitcoin climbed above $85,117, its highest level since January 29, up ~4% on the session and reaching an 8-month high. Hedgeye and other macro commentators remain long Bitcoin and Ethereum on bullish TRADE and TREND signals, though both are overbought in the immediate term and trimming is advised into strength rather than outright exit.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2101985404060832024",
-        "gmail:1a0c417969bb669f"
-      ]
-    },
-    {
-      "title": "Profitable companies outperforming in Russell 2000 by ~500bps in 2026, reversing 2023 dynamic",
-      "body": "Profitable Russell 2000 stocks are outperforming unprofitable ones by ~500 bps in 2026, a sharp reversal from 2023 when non-profitable names outperformed by 10 percentage points. The Russell 2000 contains 1,122 profitable (57%) and 782 unprofitable stocks. Russell 2000 is down 6.8% from its cycle peak and Hedgeye remains short.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2101998549059649779",
-        "gmail:1a0c466737305437"
-      ]
-    },
-    {
-      "title": "Healthcare sector +12.7% over 3 months vs. Russell 2000 -4.0%; long/short spread generating significant alpha",
-      "body": "Healthcare (XLV) is up 12.7% over the past three months, including +1.8% last week, while the Russell 2000 (IWM) is down 4.0% over the same period. At least one systematic framework is long healthcare and short small-cap as a 'Quad 2' regime trade generating substantial alpha.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2101993105557762058"
-      ]
-    },
-    {
-      "title": "OpenAI guides $36B 2026 revenues (+184% YoY); Anthropic completing 26% of company R&D end-to-end",
-      "body": "OpenAI raised its 2026 revenue guidance to $36B from $30B, implying 184% YoY growth and accelerating Q3 sequential momentum to 51% QoQ from 18% in Q2. Separately, Anthropic disclosed Claude is completing 26% of company R&D end-to-end as of August 2026, and OpenAI is seen catching up meaningfully to Anthropic's capability lead. OpenAI projects negative FCF of ~$278B from 2026-2030.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a0c435ae4ebe95e",
-        "gmail:1a0c411fbcf17a32"
-      ]
-    },
-    {
-      "title": "NY RAISE Act requires large AI developers to publish safety frameworks and report critical incidents by Jan 2027",
-      "body": "New York enacted the RAISE Act mandating large AI developers with $500M+ in revenue to publish safety frameworks and report critical safety incidents to the Department of Financial Services within 72 hours, effective January 1, 2027. The regulation adds compliance cost and disclosure obligations for major AI platform companies.",
-      "tickers": [
-        "GOOGL",
-        "MSFT"
-      ],
-      "source_item_ids": [
-        "gmail:1a0c443fe441bf44"
-      ]
-    },
-    {
-      "title": "India 7.8% GDP growth with RBI expected to hike 25bps in October; equities rally running out of steam",
-      "body": "India's Q2 2026 GDP grew 7.8% YoY (Q1 revised up to 8.6%), but core inflation is accelerating at its fastest quarterly pace since June 2023, prompting JPM to forecast a 25bp RBI hike at the October meeting. Near-term equity upside is capped by converging headwinds: crude oil spikes, RBI hiking, rising Fed rates, and a heavy IPO pipeline. JPM prefers mid/small-caps over large caps, with Nifty-50 base target 27,000.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a0c475d05003d3a"
-      ]
-    },
-    {
-      "title": "Semiconductor customer inventory days rose to 58-day forward supply in 2Q26; yellow flag, not yet red",
-      "body": "Semiconductor customer inventory forward days rose to 58 days (+4 days QoQ) in 2Q26, the third consecutive quarterly increase, though levels remain below the prior cycle peak. Strong data center demand is currently more important than rising inventory; analysts characterize this as a yellow flag but not yet a concern requiring defensive positioning.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a0c4352f56f0558"
-      ]
-    },
-    {
-      "title": "'Streamflation' accelerating cancellations: 39% of Americans dropped a streaming sub in 6 months vs. 29% in March",
-      "body": "A new survey found 39% of Americans canceled at least one streaming subscription over the past six months, up sharply from 29% in March, driven by repeated price hikes and broader cost-of-living pressures including record diesel at $6.51/gal. The trend represents a structural headwind for the streaming sector.",
-      "tickers": [
-        "DIS",
-        "NFLX"
-      ],
-      "source_item_ids": [
-        "x:2102002443529707754"
+        "x:2102090090206077379",
+        "x:2102049345139016023"
       ]
     }
   ]

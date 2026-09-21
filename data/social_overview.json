@@ -1,188 +1,222 @@
 {
-  "digest_type": "midday",
-  "digest_dt": "2026-09-21T12:00:00-04:00",
-  "saved_at": "2026-09-21T16:25:52.530117+00:00",
+  "digest_type": "eod",
+  "digest_dt": "2026-09-21T18:00:00-04:00",
+  "saved_at": "2026-09-21T22:25:31.073230+00:00",
   "bullets": [
     {
-      "title": "Marvell: MS raises PT to $268, announces industry-first 2nm optical interconnect",
-      "body": "Morgan Stanley raised its MRVL price target to $268 from $246. Separately, Marvell announced what it calls the \"industry-first 2nm optical interconnect\" demonstration, positioned as a next-generation AI data center connectivity advance.",
+      "title": "META's Muse AI Agent Drives Stock to $700+, Up 10%+; Amazon Blocks Access",
+      "body": "META surged over 10% and crossed $700/share after CEO Tobi Lutke announced a Muse/Shop Pay agentic checkout partnership with Shopify, and Muse logged 1.8M downloads and 642k DAU in its first 12 days\u2014outpacing ChatGPT's 1.3M/231k launch pace. Amazon blocked Meta's Muse agent from its retail site, with one trader noting this reflects direct competition in agentic commerce. META also announced the 'Petal' subsea cable\u2014first transoceanic cable at petabit capacity\u2014and revenue per employee doubled to $2.9M from $1.4M in early 2023 on flat headcount.",
       "tickers": [
-        "MRVL"
+        "META",
+        "AMZN",
+        "SHOP"
       ],
       "source_item_ids": [
-        "x:2102002852524913105",
-        "x:2101994494400823525"
+        "x:2102068032293994869",
+        "x:2102084944294203779"
       ]
     },
     {
-      "title": "Wells Fargo raises META PT to $796 from $640, maintains Overweight",
-      "body": "Wells Fargo significantly raised its Meta Platforms price target to $796 from $640, maintaining an Overweight rating. The $156 PT increase represents a substantial 24% lift to the prior target.",
+      "title": "AMD Hits $1T Market Cap ATH; CPU Stocks Rip on Agentic AI Demand Thesis",
+      "body": "AMD crossed $1 trillion market cap and hit all-time highs (stock above $600 post-split), rallying ~9% alongside INTC (+14%), ARM (+14%), and MU (+2%). The thesis: agentic AI shifts GPU-to-CPU ratios from 7-8:1 at training to 3-4:1 at inference, with consumer agents like Muse potentially driving ratios further toward CPUs. One analyst flagged NVIDIA's DGX Rubin NVL8 selected Intel Xeon 6 as host CPU as a notable signal; another noted Goldman calculates CPU now outpaces GPU in short-dated capex.",
       "tickers": [
-        "META"
-      ],
-      "source_item_ids": [
-        "x:2101986077397459349"
-      ]
-    },
-    {
-      "title": "TSMC: Four 1.4nm plants targeted for Q2 2028 at only marginal premium to N2 pricing",
-      "body": "TSMC reportedly plans to bring four 1.4nm node fabs online by Q2 2028, with wafer pricing only marginally above N2 levels. The modest price step-up could be a positive demand signal if yields ramp as planned.",
-      "tickers": [
-        "TSM"
-      ],
-      "source_item_ids": [
-        "x:2101960399948296627"
-      ]
-    },
-    {
-      "title": "DeepSeek bets on Huawei chips; expects Q4 delivery \u2014 negative read for US semis",
-      "body": "DeepSeek is prioritizing domestic chips and expects Huawei chip deliveries as early as Q4, per reports. The shift underscores a sustained workaround to US export controls on advanced AI semiconductors to China.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2101981338228457650",
-        "x:2101981356943376451"
-      ]
-    },
-    {
-      "title": "Intel substrate capacity concern flagged; Qualcomm CPU (codenamed Rolex) requires EMIB-T packaging",
-      "body": "A chip industry observer raised concern that Intel may not have secured sufficient substrate capacity to support all customer demand. Separately, Qualcomm's large CPU \u2014 codenamed Rolex \u2014 reportedly requires EMIB-T advanced chiplet interconnect, raising questions about fab dependency.",
-      "tickers": [
-        "INTC"
-      ],
-      "source_item_ids": [
-        "x:2101996196252495974",
-        "x:2102000396713836661"
-      ]
-    },
-    {
-      "title": "NVIDIA RTX 60 'Rubin' GPUs reportedly slated for 2028 launch",
-      "body": "NVIDIA is reportedly planning to launch its RTX 60 consumer GPU lineup, codenamed Rubin, in 2028. The timeline is far out but is described as strategically sensible.",
-      "tickers": [
+        "AMD",
+        "INTC",
+        "ARM",
+        "MU",
         "NVDA"
       ],
       "source_item_ids": [
-        "x:2101991162592825626"
+        "x:2102079403371163828",
+        "x:2102073980559692168"
       ]
     },
     {
-      "title": "ams OSRAM 25\u03bcm microLED VCSEL platform targets AI scale-up networks; press release reportedly edited",
-      "body": "ams OSRAM unveiled a thin-film microVCSEL platform with 25\u03bcm dense pitch for AI interconnect applications, matching Avicena's next-gen specs. One observer flagged that ams OSRAM's press release was quietly edited after publication, removing a specific detail about a 1,024-emitter array that would imply ~4 Tbps aggregate throughput (32 Gbps \u00d7 1,024 \u00f7 8).",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2101955717586645477",
-        "x:2101984439941362133"
-      ]
-    },
-    {
-      "title": "Xi Jinping to visit US Sept 23-25 \u2014 China also plans to drop 15% LNG tariff this week",
-      "body": "China confirmed Xi Jinping's first US visit in nearly three years, scheduled September 23-25. Separately, China plans to drop a 15% tariff on US LNG this week, potentially reopening energy trade and setting the stage for new deals. Markets are anticipating a constructive outcome from Trump-Xi meetings.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2102001790954643607",
-        "x:2101997589688467659"
-      ]
-    },
-    {
-      "title": "Google fined \u20ac403M by Irish DPA over location data handling",
-      "body": "Ireland's Data Protection Authority fined Google \u20ac403 million for violations related to location data handling practices.",
+      "title": "Intel: Evercore Upgrades CIEN to Outperform; INTC CPU Thesis Gains Traction",
+      "body": "Evercore upgraded CIEN to Outperform citing AI-driven optical networking demand, projecting 30%+ annual sales growth and $25+ EPS by FY2029 in a market expanding at 24% CAGR to $52B. Separately, INTC surged 14% as analysts highlighted the CPU demand cycle; one researcher noted Meta Muse drives high-frequency CPU task volume and that foundry execution is on track with CPU price hikes expanding upside. NVDA's Vera CPUs also showed 48% better database benchmark performance vs Intel Xeon 6.",
       "tickers": [
+        "CIEN",
+        "INTC",
+        "NVDA"
+      ],
+      "source_item_ids": [
+        "x:2102075605361758455",
+        "x:2102037255619834309"
+      ]
+    },
+    {
+      "title": "META Muse Monetization Analysis: Closing Gap With Google in High-Intent Ads",
+      "body": "Detailed research on 654 Muse use cases (12 days post-launch) shows savings, refunds, and personal finance as top use cases; ~20% of users cite cost-reduction as primary purpose. Analysts argue Muse enables Meta to capture purchase-intent signals in travel and financial services where Meta trails Google by 7.5 and 6 percentage points in ad revenue mix, respectively. A2A transactions via Muse Business Agents bring buyer needs, budget, and timing data that Meta historically lacked\u2014potentially a structural ad revenue shift.",
+      "tickers": [
+        "META",
         "GOOGL"
       ],
       "source_item_ids": [
-        "x:2101963117878243736"
+        "x:2102016447895511509",
+        "x:2102022127272743168"
       ]
     },
     {
-      "title": "Amazon blocks AI assistant from shopping on its platform",
-      "body": "Amazon has reportedly blocked an AI assistant from making purchases on its e-commerce platform, raising questions about how the company will manage agentic AI commerce competition.",
+      "title": "NBIS vs CRWV: Nebius Pricing Power Validates Neocloud Thesis",
+      "body": "A trader argued NBIS has a more sustainable financing model than CRWV and other neocloud peers, pointing to Nebius raising GPU rental rates by 17-21% despite widespread claims of falling GPU pricing. Oracle also raised pricing for 4+ year equipment commitments, reinforcing the supply/demand dynamic in premium AI compute.",
       "tickers": [
-        "AMZN"
+        "NBIS",
+        "CRWV"
       ],
       "source_item_ids": [
-        "x:2101966157779734769"
+        "x:2102070202779492802"
       ]
     },
     {
-      "title": "'Streamflation' driving mass subscription cancellations: 39% of Americans cancelled in past 6 months",
-      "body": "39% of Americans cancelled at least one streaming subscription in the past six months, up sharply from 29% in March, with repeated price hikes and broader cost-of-living pressure cited as key drivers.",
+      "title": "NVIDIA: Open-Source AI Strategy, Vera CPU Edge, and Grok 4.7 Infrastructure",
+      "body": "Commentary suggests NVDA's compute advantage, Poolside acquisition, and Hugging Face investment position it as a potential open-source AI leader vs. OpenAI/Anthropic if government backs the play. NVDA Vera CPUs beat Intel Xeon 6 by 48% in database benchmarks with fewer cores. NVDA accelerated computing also underpins SpaceX AI's Grok 4.7 launch; one trader flagged NVDA IV remains negative for the year despite GAI infrastructure IVs bottoming.",
       "tickers": [
-        "NFLX",
-        "DIS"
+        "NVDA",
+        "INTC"
       ],
       "source_item_ids": [
-        "x:2102002443529707754"
+        "x:2102091859271077959",
+        "x:2102067831621984664"
       ]
     },
     {
-      "title": "Fed's Goolsbee: inflation path 'won't be painless'; rate cuts need convincing evidence",
-      "body": "Chicago Fed's Goolsbee flagged persistent supply shocks \u2014 energy, tariffs \u2014 as complicating inflation's return to 2%, stating the credible path back is \"hard to see.\" He affirmed \"no ambiguity\" that the Fed would tighten if demand overheats, and stressed Fed independence amid external pressure for cheaper borrowing costs.",
-      "tickers": [],
+      "title": "CRDO Sells Off Despite 115% YoY Growth; Price Action Analyzed",
+      "body": "CRDO posted 115% year-over-year revenue growth but experienced a selloff; analysis points to margin profile and valuation disconnect. Separately, one trader noted CRDO rallied from 167 to 181.2 intraday and mentioned the company alongside semiconductor inspection/testing work. The selloff-despite-growth dynamic is flagged as worth monitoring for entry.",
+      "tickers": [
+        "CRDO"
+      ],
       "source_item_ids": [
-        "x:2101982719538544783",
-        "x:2101992867023712527"
+        "x:2102080420342817189",
+        "x:2102030400952688911"
       ]
     },
     {
-      "title": "Oil falls 4th day; JPMorgan oil team abandons Iran war scenario forecasting",
-      "body": "Brent crude fell ~2% to ~$101.77/bbl as Iran diplomacy hopes and partial Saudi supply recovery weighed on prices. JPMorgan's oil team reportedly gave up forecasting Iran war endgame scenarios, citing Trump policy unpredictability moving past prior economic redlines.",
-      "tickers": [],
+      "title": "AXTI: S&P SmallCap 600 Inclusion + InP Substrate Geopolitical Angle Drive 12% Gain",
+      "body": "AXTI added to S&P SmallCap 600 effective Sept 21, driving passive fund inflows; the stock rose 12.4%. Beyond index mechanics, one analyst argued AXTI may be used as a geopolitical positioning tool in Trump-Xi discussions given US control over InP substrate pricing for AI optical infrastructure. The consensus view: inclusion is a trigger, not the core investment case.",
+      "tickers": [
+        "AXTI"
+      ],
       "source_item_ids": [
-        "x:2101999128930582725",
-        "x:2101953102773420208"
+        "x:2102068786493026492",
+        "x:2102035361501425766"
       ]
     },
     {
-      "title": "Diesel hits record $6.51/gal; refined products diverging from crude decline",
-      "body": "US diesel prices surged to a record $6.51/gallon and regular gasoline approached $4.50/gallon, driven by Middle East energy flow disruptions and Russian refinery constraints. Notably, refined product prices are moving in the opposite direction from falling international crude prices.",
-      "tickers": [],
+      "title": "AAOI: 2027 Capacity Target $471M; SIVE Coming Online With 100M+ CW Laser Capacity",
+      "body": "AAOI is positioned for a 2027 capacity ramp to $471M per one analyst; SIVE is coming online with 100M CW DFB laser capacity internally plus ~300M total via two external foundries. The analyst noted these supply chains are tied to larger hyperscaler suppliers, framing the setup as a medium-term capacity inflection play.",
+      "tickers": [
+        "AAOI"
+      ],
       "source_item_ids": [
-        "x:2101991213083607203",
-        "x:2102002658093465864"
+        "x:2102067535915123156"
       ]
     },
     {
-      "title": "Hormuz crisis: supertanker rates hit $1M+/day, ~5x pre-war levels; traffic collapses",
-      "body": "Supertanker rates on the Persian Gulf-to-China route hit $1.035M/day, approximately 5x pre-war levels, as traffic through the Strait of Hormuz collapsed to just 17 commodity vessel crossings over the weekend.",
-      "tickers": [],
+      "title": "LITE + GLW to Demo Optical Die-to-Die Interconnect at ECOC 2026",
+      "body": "LITE and GLW are collaborating on a high-density optical die-to-die interconnect demonstration at ECOC 2026 in M\u00e1laga, using a 1060nm VCSEL platform and multimode fiber targeting CPO/NPO architectures with low latency and power. Separately, TER is explicitly positioning microLED alongside SiPh and CPO for production testing, signaling a shift from device story to manufacturing inflection.",
+      "tickers": [
+        "LITE",
+        "GLW"
+      ],
       "source_item_ids": [
-        "x:2102002826327007378"
+        "x:2102031186797457695",
+        "x:2102067098759594259"
       ]
     },
     {
-      "title": "Bitcoin rallies to $85K+, highest since January; macro risk-on read",
-      "body": "Bitcoin climbed above $85,117 \u2014 its highest level since January 29 \u2014 gaining ~4% on the session. The move coincides with global stock rally, lower oil, and pre-Xi summit optimism.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2101985404060832024",
-        "x:2101953102773420208"
-      ]
-    },
-    {
-      "title": "Macro regime: profitable Russell 2000 stocks outperforming by ~500bps; healthcare long vs. IWM short generating alpha",
-      "body": "In 2024, profitable Russell 2000 stocks are outperforming unprofitable ones by ~500bps, reversing last year's 1,000bps advantage for loss-makers. Separately, one macro framework reports long healthcare (XLV +12.7% over 3 months) vs. short IWM (-4.0%) as a high-conviction 'Quad 2' expression.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2101998549059649779",
-        "x:2101993105557762058"
-      ]
-    },
-    {
-      "title": "Yen weakening sharply; copper surges 1.7% to bullish trend; yield curve flattening",
-      "body": "USD/JPY continues to strengthen after the yen fell 2.5% last week and is declining again Monday. Copper popped another 1.7% after returning to a bullish trend signal. The yield curve is flattening, with peak US growth cycle now in the rearview mirror per one macro framework.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2101968705580110237",
-        "x:2101966286343303665"
-      ]
-    },
-    {
-      "title": "Palantir executive Chad Wahl interviewed live on X",
-      "body": "A fintwit account hosted a live interview with Palantir's Chad Wahl at 10AM ET on X, a potential venue for company commentary outside standard IR channels.",
+      "title": "PLTR: Trump Disclosed June 24 Purchase; Stock Up 56% Since; Pentagon $244M Memo",
+      "body": "Trump disclosed a Palantir stock purchase on June 24; on August 4, a Pentagon memo directed up to $244M for Palantir. PLTR has risen 56% since the trade date. Palantir's Chad Wahlquist also appeared in a live interview discussing data ownership in AI.",
       "tickers": [
         "PLTR"
       ],
       "source_item_ids": [
-        "x:2102003383913632098"
+        "x:2102040596625928651"
+      ]
+    },
+    {
+      "title": "TSLA: Oppenheimer Reiterates Perform; AI Pivot Progressing, Optimus Delays Likely",
+      "body": "Oppenheimer reiterated a Perform rating on Tesla, noting AI transformation progress and vertical integration strategy including a semiconductor push, but flagging likely delays for the Optimus humanoid robot program.",
+      "tickers": [
+        "TSLA"
+      ],
+      "source_item_ids": [
+        "x:2102004954428813823"
+      ]
+    },
+    {
+      "title": "AAPL: Tim Cook Legacy Discussion; John Ternus Named Incoming CEO; $12,300 Computer",
+      "body": "Bloomberg's Mark Gurman discussed Siri capabilities, Tim Cook's legacy, and named John Ternus as Apple's incoming CEO. Apple also launched a $12,300 computer. The iPhone 18 Pro Max reportedly removes a 20Wh firmware lock upon user activation.",
+      "tickers": [
+        "AAPL"
+      ],
+      "source_item_ids": [
+        "x:2102041044561137847",
+        "x:2102025628107321711"
+      ]
+    },
+    {
+      "title": "Market Technicals: NDX Volatility Spike, ARKK at YTD High, SPX 0DTE Level to Watch",
+      "body": "NDX volatility jumped sharply during the rally with November skew repricing significantly\u2014upside vol now running hotter than downside vol in Nasdaq. ARKK hit a YTD high, trading above its 200-day MA by the widest margin since December. Traders are watching SPX 7475 as a large 20k 0DTE call position that could cause gamma effects; NASDAQ 100 reached +2.5% on the day.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2102075134836167034",
+        "x:2102062541736129011"
+      ]
+    },
+    {
+      "title": "US-China Trade Truce Extension Proposed; Trump-Xi Meeting Imminent",
+      "body": "The US proposed extending the China trade truce by six months while China pushed for a longer extension. Treasury Secretary Bessent confirmed US-China talks included 'deliverables' on economics and AI, and flagged a potential US-China AI meeting in Shenzhen in two months. Trump-Xi are expected to meet this week with Bessent noting Trump and Xi could meet two more times after.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2102042481298690109",
+        "x:2102005736226037963"
+      ]
+    },
+    {
+      "title": "Macro: Fed's Goolsbee Says Rate-Hike Cycle Complete But Painful; Bessent Eyes Post-Iran Rate Drop",
+      "body": "Chicago Fed President Goolsbee signaled the Fed has reached the limits of its rate-hiking cycle, noting further tightening would be 'necessarily painful.' Treasury Secretary Bessent expects rates to come down after the Iran conflict resolves, and repeated that bonds are showing unusual correlation with energy prices.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2102065188165824771",
+        "x:2102010253248168307"
+      ]
+    },
+    {
+      "title": "Diesel Hits Record $6.51/Gal; Russia Extends Export Ban; Oil Slides on Saudi Flows",
+      "body": "US diesel prices hit an all-time record above $6.51/gallon (up 76% YoY and ~18% from August average); Russia is extending its diesel export ban beyond September after Ukrainian drone strikes halted the Moscow Gazprom Neft refinery. Brent crude simultaneously fell below $100/bbl (down 2.6%) as Saudi Arabia ramped shipments through Hormuz to 2.9M bpd vs 700k in August. GS Factor Dashboard shows GAI infrastructure factors outperforming while Energy Refiners underperform with negative correlation to AI names.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2102035445240533302",
+        "x:2102040111583993879"
+      ]
+    },
+    {
+      "title": "SK Hynix Exec Warns 'Not Much Time Left to Survive on Memory'; CXMT G5 DRAM in Mass Production",
+      "body": "An SK Hynix packaging executive at a US HBM roundtable signaled existential pressure on traditional memory business models: 'there isn't much time left to survive on memory.' Separately, China's CXMT G5 DRAM platform entered mass production with 50% higher die-per-wafer density using SAQP to achieve 11.95nm half-pitch, approaching world-leading specifications.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2102092140633620863",
+        "x:2102030633866571908"
+      ]
+    },
+    {
+      "title": "Paramount-Warner Bros. Discovery Deal Clears After AG Settlement; $1.5B Film Commitment",
+      "body": "A coalition of state AGs settled antitrust concerns with Paramount over the WBD merger; the consent decree requires Warner Bros. Discovery to commit at least $1.5B to domestic film production over five years, a $300M+ incremental US production spend, and minimum annual theatrical releases. Paramount has full regulatory clearance to proceed; the deal had been held up by a ticking fee deadline.",
+      "tickers": [
+        "WBD"
+      ],
+      "source_item_ids": [
+        "x:2102091271011799382",
+        "x:2102041473868853365"
+      ]
+    },
+    {
+      "title": "Trump on AI: 'Whoever Wins AI, Wins'; No Liability Shield for Labs; DOJ Oversight Possible",
+      "body": "Trump declared 'whoever wins AI, wins' and pledged not to stifle AI growth, characterizing it as potentially bigger than the Industrial Revolution. However, Treasury Secretary Bessent stated the Trump administration will not provide AI companies a liability shield, and Trump separately indicated DOJ may regulate AI 'if we have to.' The administration plans an AI 'czar' to set contours around AI incidents.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2102064039819878759",
+        "x:2102025579625054578"
       ]
     }
   ]
