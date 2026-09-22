@@ -1,227 +1,247 @@
 {
-  "digest_type": "eod",
-  "digest_dt": "2026-09-21T18:00:00-04:00",
-  "saved_at": "2026-09-21T22:25:31.073230+00:00",
+  "digest_type": "premarket",
+  "digest_dt": "2026-09-22T08:30:00-04:00",
+  "saved_at": "2026-09-22T13:06:51.312009+00:00",
   "bullets": [
     {
-      "title": "META: Muse AI agent drives +10% rally; major product catalyst day",
-      "body": "META surged ~10.4% as CEO Tobi Lutke announced an agentic checkout integration (Shop Pay via Muse) across Shopify stores, META launched a 'Petal' petabit-capacity transoceanic subsea cable connecting US-France, and Muse posted 1.8M downloads and 642k DAU in its first 12 days vs ChatGPT's 1.3M/231k at the same stage. Research notes frame Muse as a potential inflection point that could close META's monetization gap with Google in high-intent ad categories (travel, financial services, automotive), with revenue per employee already doubling to $2.9M on flat headcount since early 2023. META also broke above its 200-day MA at the widest margin in 12 months.",
+      "title": "META: Muse AI agent drives record +11% gain; JPM reiterates OW at $820 PT; Mizuho OW $750",
+      "body": "Meta surged 11-12% on Monday\u2014its largest non-earnings move in ~17 months\u2014after Muse topped 2.5M downloads, hit #1 on Apple App Store, and opened developer connectors within 13 days of launch. JPMorgan reiterates Overweight with $820 PT, modeling agent-to-agent monetization at scale; Mizuho maintains Outperform at $750 PT (22x '27E P/E vs GOOGL at 30x during peak Gemini); Hedgeye raised to bullish TREND. META call volume hit 1.8M contracts\u2014highest since Oct 2022. Meta Connect (Sept 23-24) is next catalyst; Watermelon model release likely delayed post-Connect. Amazon has blocked Muse access; Shopify integrated Muse checkout via Shop Pay, signaling commerce monetization path.",
       "tickers": [
+        "META",
+        "SHOP"
+      ],
+      "source_item_ids": [
+        "gmail:1a0c824cd4dcd09b",
+        "gmail:1a0c8a3a680d304d"
+      ]
+    },
+    {
+      "title": "AMD hits $1T market cap; INTC +12%, ARM +17% on agentic CPU demand narrative",
+      "body": "AMD crossed $1 trillion market cap for the first time (Lisa Su first female CEO of a $1T company) on Monday's +10% session, while INTC surged 12%+ and ARM +17% on the thesis that agentic AI inference workloads require 3-4 CPUs per GPU vs. 7-8 in training. UBS estimates suggest Muse at 100M users would need 1.58M AMD Ryzen CPUs. UBS cut CY27 PC units to -4% YoY and smartphone sell-in to -3% YoY on memory inflation. Pre-market Tuesday: ALAB -1.9%, CRDO -2.0%, COHR -1.9%, AMD -1.5% as semis give back some gains.",
+      "tickers": [
+        "AMD",
+        "INTC",
+        "ARM",
+        "ALAB",
+        "CRDO",
+        "COHR",
+        "MRVL"
+      ],
+      "source_item_ids": [
+        "gmail:1a0c8d0639a4d0a9",
+        "gmail:1a0c8003ef0be1409"
+      ]
+    },
+    {
+      "title": "MSFT: Opco raises PT to $570 on Azure +46% growth; self-developed AI chips in 2027 mass production",
+      "body": "Oppenheimer raises MSFT to $570 on 1Q Azure growth of 46% CC (~100bps above guidance) with 2Q potentially approaching 50%; demand outstrips available AI capacity. Separately, Microsoft Taiwan is on track for 2027 mass production of self-developed AI chips and doubled Taiwan AI data center plan to four facilities. Hedgeye and Hedgeye flags MSFT as bullish TREND breakout.",
+      "tickers": [
+        "MSFT"
+      ],
+      "source_item_ids": [
+        "gmail:1a0c8e589928b6b4",
+        "gmail:1a0c8fd90edccc40"
+      ]
+    },
+    {
+      "title": "NVDA: RACK forecast raised to 80K in 2026 but still can't break out amid AI skepticism",
+      "body": "UBS raises 2026 NVDA rack forecast by 2,500 to 80K and holds 95K for 2027. CoWoS industry capacity raised to 270kwpm by end-2027E from 160kwpm end-2026E. Despite AI momentum, NVDA trades at 17x and is described as struggling to break out amid lingering AI capex skepticism. NVDA CEOs Huang, Cook (AAPL), and Nadella (MSFT) attending Sept 24 White House state dinner for Xi Jinping.",
+      "tickers": [
+        "NVDA",
+        "TSM",
+        "MSFT",
+        "AAPL"
+      ],
+      "source_item_ids": [
+        "gmail:1a0c903ddd996f64",
+        "x:2102178150340079862"
+      ]
+    },
+    {
+      "title": "PSKY: Morgan Stanley raises PT to $11.50 (OW); deal closes in ~2 weeks, $6B synergy intact",
+      "body": "Morgan Stanley reiterates Overweight on PSKY and raises PT to $11.50, noting settlement includes no forced divestitures, preserving the $6B synergy opportunity (~11% of opex). Deal avoids a $7M/day ticking fee that would start Oct. 1. Combined HBO+Paramount+ pathway to 240M+ subs; pro-forma entity at ~7-8x synergized EV/EBITDA with $70B+ revs and $8B+ FCF target by 2030. Wolfe is more cautious, valuing combined entity at $9-11/share citing 6.5x pro-forma net leverage and execution risk.",
+      "tickers": [
+        "PSKY",
+        "WBD"
+      ],
+      "source_item_ids": [
+        "gmail:1a0c8ff7b60c0fa6",
+        "gmail:1a0c858e90f064fc"
+      ]
+    },
+    {
+      "title": "SHOP: +5.2% pre-market on Muse integration and META partnership for agentic checkout",
+      "body": "Shopify is up 5.2% in pre-market on follow-through buying after Zuckerberg announced a partnership enabling Muse agentic checkout via Shop Pay on all Shopify stores. CEO Zuckerberg posted the integration personally. Multiple analysts and flow monitors flagging this as a meaningful commerce catalyst for SHOP.",
+      "tickers": [
+        "SHOP",
         "META"
       ],
       "source_item_ids": [
-        "x:2102092061922984019",
-        "x:2102016447895511509"
+        "gmail:1a0c8fdd9e53b173",
+        "x:2102156224569524293"
       ]
     },
     {
-      "title": "AMD: hits $1T market cap for first time; stock +9% on AI CPU demand surge",
-      "body": "AMD crossed $1 trillion market cap for the first time, with the stock up ~9% and hitting all-time highs, driven by surging CPU demand from agentic AI workloads (META's Muse launch cited as key catalyst). AMD warrants tied to OpenAI/Meta partnership moved in-the-money. MindWalk deployed OpenFold3 on AMD MI325X GPUs achieving 5x faster inference, adding validation to AMD's AI workload credentials.",
+      "title": "COHR: Citi turns positive on PhotonLink after NVDA anchor LTA confirmed at ECOC 2026",
+      "body": "Citi reports COHR secured an anchor customer long-term agreement (LTA) for co-packaged optics (CPO) identified as NVIDIA, plus a separate unnamed NPO anchor. COHR's PhotonLink platform covers CPO, NPO, and chip-to-chip optical connections; management targets $15K content per switch/processor at 100T I/O with 200G lanes. Vertical integration cited as key competitive moat. Pre-market COHR -1.9% after recent run; AXTI is rising on confirmed COHR prepayment.",
       "tickers": [
-        "AMD"
+        "COHR",
+        "NVDA",
+        "CIEN",
+        "AXTI"
       ],
       "source_item_ids": [
-        "x:2102039595147727275",
-        "x:2102062423499047004"
+        "gmail:1a0c8effd0ceb62b",
+        "x:2102183574279712910"
       ]
     },
     {
-      "title": "INTC: +13-14% on agentic AI CPU thesis; NVIDIA selected Xeon 6 for DGX Rubin",
-      "body": "Intel surged ~13-14% as the market priced in the CPU demand boom from agentic AI\u2014inference workloads run at 3-4 GPUs per CPU vs 7-8 for training, and agentic AI could compress that ratio further toward CPUs. NVIDIA selected Intel Xeon 6 as the host CPU for DGX Rubin NVL8, a significant design win. Research from one account titled 'Muse Drives CPU Demand and Price Hikes Expand Upside; Foundry on Track' also turned positive. A high-ranking Intel employee confirmed the CPU shortage is real.",
-      "tickers": [
-        "INTC"
-      ],
-      "source_item_ids": [
-        "x:2102079403371163828",
-        "x:2102037255619834309"
-      ]
-    },
-    {
-      "title": "ARM: +14% as agentic AI CPU demand thesis captures semiconductor sector",
-      "body": "ARM rallied ~14% alongside INTC and AMD as the market re-rated CPU exposure on agentic AI demand\u2014commentary flagged that agentic AI could push CPU-to-GPU ratios to 6:1 or higher vs prior projections, implying a potentially order-of-magnitude higher CPU demand than modeled. ARM was named by multiple sources as a top AI agent infrastructure beneficiary.",
-      "tickers": [
-        "ARM"
-      ],
-      "source_item_ids": [
-        "x:2102073980559692168",
-        "x:2102062423499047004"
-      ]
-    },
-    {
-      "title": "AMZN blocks META's Muse AI agent from retail site; competitive AI agent battle intensifies",
-      "body": "Amazon blocked Meta's Muse AI agent from accessing its online shop, per Bloomberg/Reuters, framing a competitive battle in agentic commerce. Analysts note Amazon faces structural risk if shopping agents become the primary commerce entry point\u2014Amazon is unlikely to build a dominant personal AI assistant\u2014while META's Muse is positioned as the commerce funnel. AMZN was also cited as a beneficiary of the CPU demand build via its Graviton data center chips.",
-      "tickers": [
-        "AMZN",
-        "META"
-      ],
-      "source_item_ids": [
-        "x:2102057832262643771",
-        "x:2102060668987859048"
-      ]
-    },
-    {
-      "title": "CIEN: Evercore upgrades to Outperform; AI optical networking thesis with $25+ EPS target by FY29",
-      "body": "Evercore upgraded Credo Technology to Outperform, projecting 30%+ annual sales growth and EPS above $25 by FY2029, citing AI-driven optical networking demand. The optical networking market is expected to expand at 24% CAGR to $52B by FY2029. One contributor noted the dip was a 'good chance to add.'",
+      "title": "CIEN: $10B+ backlog if supply unconstrained; 5x capex plan underway",
+      "body": "At ECOC, CIEN management indicated revenue would exceed $8B if supply were unconstrained and targets $10B+ backlog at its October fiscal year-end. Supply strategy includes 5x capex expansion, new supplier agreements, and deeper vertical integration. Pump laser availability remains the critical bottleneck, requiring 4x supplier capacity increase for line systems vs. data center applications.",
       "tickers": [
         "CIEN"
       ],
       "source_item_ids": [
-        "x:2102075605361758455",
-        "x:2102075475686461862"
+        "gmail:1a0c8effd0ceb62b"
       ]
     },
     {
-      "title": "CRDO: posts 115% YoY growth but sells off; analysts examine margin/valuation disconnect",
-      "body": "Credo Technology posted 115% year-over-year revenue growth yet sold off, with at least one analyst breakdown attributing the move to margin and valuation concerns rather than top-line weakness. The stock was also seen recovering intraday (167\u2192181.2) during the broader semiconductor rally.",
+      "title": "MRVL: Morgan Stanley raises PT to $268 ahead of Oct 6 Investor Day; $40B+ FY30 guidance expected",
+      "body": "MS raises MRVL PT to $268 (49x CY27E EPS of $5.47) on greater confidence in longer-term AI growth; expects management to raise FY2030 revenue guidance to $40B+ at Oct 6 Investor Day with Google custom silicon and scale-up as primary drivers. HPE networking revenue also accelerating into year-end and FY27 with AMD Helios upside potential.",
       "tickers": [
-        "CRDO"
+        "MRVL",
+        "HPE"
       ],
       "source_item_ids": [
-        "x:2102080420342817189",
-        "x:2102030400952688911"
+        "gmail:1a0c7ada111e89db"
       ]
     },
     {
-      "title": "NVDA: open-source AI leadership thesis emerges; Grok 4.7 built on NVDA compute",
-      "body": "NVIDIA's compute advantage for open-source AI models is being cited as a strategic opportunity\u2014NVDA acquired Poolside and invested in Hugging Face, positioning it as an open alternative to OpenAI/Anthropic if the US government backs open-source AI. SpaceX's Grok 4.7 launch was confirmed to run on NVIDIA accelerated computing. However, NVDA's implied vol remains negative for the year and one source maintained caution while the broader GAI infrastructure IV started bottoming.",
+      "title": "SNDK: Rosenblatt initiates Buy with $2,400 PT on mid-to-high-teens growth and 80% GM target",
+      "body": "Rosenblatt initiates SanDisk (SNDK) at Buy with a $2,400 price target, citing management's FY28-30 framework targeting mid-to-high-teens revenue growth, ~80% non-GAAP gross margin, and ~75% non-GAAP operating margin. SNDK referenced multiple times alongside MU and NVDA in memory infrastructure discussions.",
       "tickers": [
-        "NVDA"
+        "SNDK",
+        "MU"
       ],
       "source_item_ids": [
-        "x:2102091859271077959",
-        "x:2102081129234751722"
+        "x:2102146832151224457",
+        "gmail:1a0c8dc0bfae46ff"
       ]
     },
     {
-      "title": "SHOP: rallies on Shopify-Meta Muse agentic checkout partnership via Shop Pay",
-      "body": "Shopify stock moved higher after CEO Tobi Lutke announced a partnership with Meta's Muse for agentic checkout integration via Shop Pay across all Shopify stores. One contributor noted that retailers embracing shopping agents will gain a competitive edge, with SHOP expected to see volume lift as AI agents become the primary commerce entry point.",
+      "title": "MU: JPM buyside survey live ahead of Sept 30 earnings; AAPL iPhone 18 Pro lead times outpacing prior cycle",
+      "body": "JPM conducting buyside survey on MU F4Q26/F1Q27 guidance and bit-shipment coverage ahead of Sept 30 earnings. Separately, AAPL iPhone 18 Pro lead times are up 16 days vs. week 1, well ahead of 9-day expansion in the iPhone 17 cycle, suggesting strong demand momentum. iPhone 18 Pro Max uses same Qualcomm X80 modem as iPhone 17 Pro\u2014no new modem design win.",
       "tickers": [
-        "SHOP"
+        "MU",
+        "AAPL"
       ],
       "source_item_ids": [
-        "x:2102092061922984019",
-        "x:2102046772881215800"
+        "gmail:1a0c8a6dcdfd4b0a",
+        "x:2102120125499387945"
       ]
     },
     {
-      "title": "AXTI: +12.4% on S&P SmallCap 600 inclusion + InP substrate geopolitical angle",
-      "body": "AXTI surged 12.4% on its S&P SmallCap 600 inclusion (effective Sept 21 open), driving passive fund demand. Beyond index flows, at least one source suggested AXTI is being used as a geopolitical positioning tool given InP substrates are a key bottleneck for US AI optical infrastructure\u2014control of InP pricing may be relevant in Xi-Trump discussions.",
+      "title": "MDB: Citi maintains Buy ($565 PT); Investor Day expected to raise long-term AI growth targets",
+      "body": "Citi expects MongoDB's investor day to showcase AI tailwinds\u2014CEO cited native MCP integration with frontier labs driving a spike in Atlas traffic. Atlas growth approaching 30%; company is near its 3-5 year 20% operating margin target with potential for upside revisions. Key risks: Atlas consumption slowdown and hyperscaler competition.",
       "tickers": [
-        "AXTI"
+        "MDB"
       ],
       "source_item_ids": [
-        "x:2102068786493026492",
-        "x:2102035361501425766"
+        "gmail:1a0c77bc53b45ac8"
       ]
     },
     {
-      "title": "PLTR: Trump filed June 24 PLTR purchase; stock +56% since; $244M Pentagon memo followed",
-      "body": "A disclosure surfaced that President Trump filed a Palantir stock purchase on June 24. On August 4, a Pentagon memo directed up to $244M for Palantir. PLTR has risen 56% since the trade date. Palantir exec Chad Wahlquist appeared in a live interview discussing data ownership in AI.",
+      "title": "IONQ: Multi-year collaboration with Korea's SDT Inc. for Superion 256 quantum computer",
+      "body": "IonQ announced a multi-year strategic collaboration with Korean firm SDT Inc. to supply its Superion 256 quantum computer and a silicon-vacancy quantum memory module. Potential positioning as emerging quantum hardware commercialization story.",
+      "tickers": [
+        "IONQ"
+      ],
+      "source_item_ids": [
+        "x:2102271615623106941"
+      ]
+    },
+    {
+      "title": "FSLR: Judge orders EPA to reinstate $7B Biden solar subsidies; FSLR in Piper access calendar",
+      "body": "A federal judge ruled the EPA must reinstate $7 billion in Biden-era solar promotion subsidies, a potential positive for US solar manufacturers including FSLR. Piper Sandler is hosting FSLR and OKLO at RE+ 2026 meetings in Las Vegas (Nov 16-17).",
+      "tickers": [
+        "FSLR",
+        "OKLO"
+      ],
+      "source_item_ids": [
+        "x:2102121965473431742",
+        "gmail:1a0c8be7d2767993"
+      ]
+    },
+    {
+      "title": "TKO/FWONK: MS constructive on sports assets; Zuffa boxing could be worth $11B long-term but stock fairly valued",
+      "body": "Morgan Stanley is constructive on publicly traded sports league assets FWONK and TKO given secular sports revenue tailwinds (~8% annual global growth). Wolfe rates TKO Peer Perform; Zuffa boxing could add ~$11B to TKO value in a bull case but will take decades\u2014TKO bull case 12-month target $200-250 vs. current ~$191. Fanatics expected to generate $13B+ in 2026E revenue (separate Fanatics primer also from MS).",
+      "tickers": [
+        "TKO",
+        "FWONK",
+        "DKNG"
+      ],
+      "source_item_ids": [
+        "gmail:1a0c85d956d40fb8",
+        "gmail:1a0c902da20b1fd4"
+      ]
+    },
+    {
+      "title": "GOOGL: Hedgeye upgrades to Bullish TREND; launches $899 Gemini AI laptops; funds Georgia nuclear power",
+      "body": "Hedgeye changed GOOGL from Neutral to Bullish TREND. Google began pre-orders for $899 Gemini AI laptops and announced funding for power-capacity increases at two Georgia nuclear plants to support data center operations. UK government has requested META and GOOGL to present to its Business Committee.",
+      "tickers": [
+        "GOOGL",
+        "META"
+      ],
+      "source_item_ids": [
+        "gmail:1a0c8e256c1864a8",
+        "x:2102187563913982115"
+      ]
+    },
+    {
+      "title": "PLTR: Hedgeye maintains long; 4,500 employees (90% engineers), minimal sales staff",
+      "body": "Hedgeye reiterates long positioning in PLTR via Signal Strength Stocks framework. PLTR has approximately 4,500 employees with 90% engineers and minimal salespeople\u2014an operational structure that underscores software-driven scalability. No new price target update cited.",
       "tickers": [
         "PLTR"
       ],
       "source_item_ids": [
-        "x:2102040596625928651",
-        "x:2102035751550726437"
+        "x:2102127851029889244",
+        "x:2102103882461499830"
       ]
     },
     {
-      "title": "TSLA: Oppenheimer reiterates Perform; AI pivot progressing but Optimus delays likely",
-      "body": "Oppenheimer maintained a Perform rating on Tesla, noting progress on the company's AI transformation and Physical AI platform development, but flagging likely delays for Optimus. The firm cited Tesla's vertical integration strategy and semiconductor push as longer-term positives. Tesla was +1.5% in premarket alongside the broader Mag 7 rally.",
+      "title": "NFLX/AMZN: Both flagged Bearish by Hedgeye; AMZN blocks Muse as 'agentic wars' begin",
+      "body": "Hedgeye flags NFLX and AMZN as Bearish in its Risk Range Signals. Amazon explicitly blocked Muse from browsing and purchasing on Amazon.com, signaling a growing battle over agentic AI customer relationships. One speculation circulating is that Amazon's block relates to an undisclosed OpenAI partnership on ads.",
       "tickers": [
-        "TSLA"
+        "NFLX",
+        "AMZN"
       ],
       "source_item_ids": [
-        "x:2102004954428813823",
-        "x:2102006707803111776"
+        "gmail:1a0c8e256c1864a8",
+        "x:2102235468855144757"
       ]
     },
     {
-      "title": "WBD: Paramount-Warner Bros. Discovery merger clears state AG antitrust settlement",
-      "body": "Paramount settled antitrust lawsuits with a coalition of state attorneys general, clearing the path for the Warner Bros. Discovery acquisition. Key settlement terms: WBD commits at least $1.5B to domestic film production over 5 years, editorial-independence board for CNN/CBS, $5M/year for 5 years for independent film fund, and an internal compliance monitor overseen by a 5-state committee. Paramount and WBD shares jumped on the news.",
+      "title": "BABA: Unveils Zhenwu V900 AI chip (3x performance vs. predecessor); targets 20GW data center by 2032",
+      "body": "Alibaba launched the Zhenwu V900 AI accelerator via its T-Head unit claiming China's most powerful AI chip with 3x performance improvement over predecessor. Commercial launch set for Q1 2027; clusters of 500K units enabled for frontier model training. Alibaba plans 20GW+ global data center capacity by 2032 and is training next Qwen model at 5-10 trillion parameters (~4x larger than current). BABA ADR up ~3% on news.",
       "tickers": [
-        "WBD"
+        "BABA",
+        "NVDA"
       ],
       "source_item_ids": [
-        "x:2102091271011799382",
-        "x:2102091536913817850"
+        "gmail:1a0c757dd7e8e7e5",
+        "gmail:1a0c8dc0bfae46ff"
       ]
     },
     {
-      "title": "LITE/GLW: collaborating on optical die-to-die interconnect demo for AI at ECOC 2026",
-      "body": "Lumentum and Corning will jointly demonstrate high-density optical die-to-die interconnect technology using a 1060nm VCSEL platform, D2D interface IP, and multimode fiber targeting CPO/NPO architectures at ECOC 2026 in M\u00e1laga. The demonstration positions both companies in the next wave of AI optical connectivity beyond traditional fiber.",
+      "title": "VRT: NVDA DSX Ready qualification program seen as negative for VRT's power/cooling moat",
+      "body": "NVIDIA launched the DSX Ready program to qualify third-party power and cooling products for AI factory reference design requirements, covering battery energy storage systems and cooling distribution units (CDUs). At least one market participant flagged this as a negative for VRT, as it introduces additional qualified competition. LG Electronics' 2.5MW coolant distribution unit has already achieved NVIDIA DSX qualification.",
       "tickers": [
-        "LITE",
-        "GLW"
+        "VRT",
+        "NVDA"
       ],
       "source_item_ids": [
-        "x:2102031186797457695"
-      ]
-    },
-    {
-      "title": "MU/semiconductor memory: CXMT G5 DRAM enters mass production; SK Hynix flags survival pressure",
-      "body": "China's CXMT launched its G5 DRAM platform into mass production with 50% higher die-per-wafer density using SAQP at 11.95nm half-pitch, approaching world-leading specifications and increasing competitive pressure on MU and SK Hynix. A SK Hynix packaging executive separately stated 'there isn't much time left to survive on memory,' flagging urgency around the HBM transition.",
-      "tickers": [
-        "MU"
-      ],
-      "source_item_ids": [
-        "x:2102030633866571908",
-        "x:2102092140633620863"
-      ]
-    },
-    {
-      "title": "AAPL: Tim Cook legacy/Siri critique; $12,300 Mac launched; iPhone 18 Pro Max detail",
-      "body": "Bloomberg's Mark Gurman discussed Siri's limitations and Tim Cook's legacy, noting John Ternus as incoming CEO. Apple launched a $12,300 computer with mixed reviewer reception. The iPhone 18 Pro Max reportedly removes a 20Wh firmware lock upon user activation. One source argued Apple has a trust/privacy advantage in consumer agents but market skeptics question whether privacy drives actual behavior.",
-      "tickers": [
-        "AAPL"
-      ],
-      "source_item_ids": [
-        "x:2102041044561137847",
-        "x:2102054878914785479"
-      ]
-    },
-    {
-      "title": "NET/TWLO: named as top AI agent infrastructure plays alongside META",
-      "body": "Cloudflare (NET) and Twilio (TWLO) were cited alongside META as the top 3 'AI Agent' names ripping on the day, per one research account tracking agentic commerce positioning. No specific fundamental catalysts were detailed for NET or TWLO beyond their infrastructure roles in agent communication and task-routing.",
-      "tickers": [
-        "NET",
-        "TWLO"
-      ],
-      "source_item_ids": [
-        "x:2102064311992545740"
-      ]
-    },
-    {
-      "title": "NBIS/CRWV: GPU pricing resilience \u2014 Nebius raised rates 17-21% despite claims of falling prices",
-      "body": "One source argued Nebius's financing model is more sustainable than CoreWeave's, pointing to Nebius raising GPU cloud rates 17-21% despite persistent market narrative about falling GPU pricing. Oracle also raised pricing for 4+ year equipment contracts, validating durable pricing power in the neocloud segment.",
-      "tickers": [
-        "NBIS",
-        "CRWV"
-      ],
-      "source_item_ids": [
-        "x:2102070202779492802"
-      ]
-    },
-    {
-      "title": "GOOGL: purchase-intent signal gap vs META narrowing via Muse; Gemini 4 still on TPU",
-      "body": "Multiple research threads flagged that META's Muse could close a 7.5-point travel and 6-point financial-services ad revenue gap vs Google by capturing purchase-intent signals even from incomplete checkout flows. Separately, a clarification emerged that Gemini 4 was NOT trained on NVIDIA GPUs\u2014Google's stack remains on JAX/XLA/Pathways compiled to TPU topology, dispelling a rumor that represented a potential NVDA demand pull-forward.",
-      "tickers": [
-        "GOOGL"
-      ],
-      "source_item_ids": [
-        "x:2102023234451546601",
-        "x:2102069682203504995"
-      ]
-    },
-    {
-      "title": "TSM: mentioned in CPU demand bull thesis alongside INTC, AMD, ARM as key beneficiary",
-      "body": "Taiwan Semiconductor was grouped with INTC, AMD, and ARM in the agentic AI CPU demand thesis, with sources noting all four showed strength at the open. No TSM-specific fundamental catalyst was cited beyond the sector tailwind from the META Muse-driven CPU demand thesis.",
-      "tickers": [
-        "TSM"
-      ],
-      "source_item_ids": [
-        "x:2102030924179181929",
-        "x:2102050017662144579"
+        "x:2102096522858864699",
+        "x:2102099205980577879"
       ]
     }
   ]

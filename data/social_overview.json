@@ -1,222 +1,236 @@
 {
-  "digest_type": "eod",
-  "digest_dt": "2026-09-21T18:00:00-04:00",
-  "saved_at": "2026-09-21T22:25:31.073230+00:00",
+  "digest_type": "premarket",
+  "digest_dt": "2026-09-22T08:30:00-04:00",
+  "saved_at": "2026-09-22T13:06:51.316051+00:00",
   "bullets": [
     {
-      "title": "META's Muse AI Agent Drives Stock to $700+, Up 10%+; Amazon Blocks Access",
-      "body": "META surged over 10% and crossed $700/share after CEO Tobi Lutke announced a Muse/Shop Pay agentic checkout partnership with Shopify, and Muse logged 1.8M downloads and 642k DAU in its first 12 days\u2014outpacing ChatGPT's 1.3M/231k launch pace. Amazon blocked Meta's Muse agent from its retail site, with one trader noting this reflects direct competition in agentic commerce. META also announced the 'Petal' subsea cable\u2014first transoceanic cable at petabit capacity\u2014and revenue per employee doubled to $2.9M from $1.4M in early 2023 on flat headcount.",
+      "title": "META surges 11-12% on Muse AI agent launch; call volume hits all-time record",
+      "body": "META gained 11-12% on the day \u2014 its best trading day in over a year \u2014 with call volume reaching 1.8 million contracts, the highest since October 2022. Muse AI personal agent is driving the move; market cap closed within $100B of $2T, up $200B since the Muse announcement. Hedgeye raised PT to $1,200+.",
       "tickers": [
-        "META",
-        "AMZN",
-        "SHOP"
+        "META"
       ],
       "source_item_ids": [
-        "x:2102068032293994869",
-        "x:2102084944294203779"
+        "x:2102197900696801659",
+        "x:2102216341188989307"
       ]
     },
     {
-      "title": "AMD Hits $1T Market Cap ATH; CPU Stocks Rip on Agentic AI Demand Thesis",
-      "body": "AMD crossed $1 trillion market cap and hit all-time highs (stock above $600 post-split), rallying ~9% alongside INTC (+14%), ARM (+14%), and MU (+2%). The thesis: agentic AI shifts GPU-to-CPU ratios from 7-8:1 at training to 3-4:1 at inference, with consumer agents like Muse potentially driving ratios further toward CPUs. One analyst flagged NVIDIA's DGX Rubin NVL8 selected Intel Xeon 6 as host CPU as a notable signal; another noted Goldman calculates CPU now outpaces GPU in short-dated capex.",
+      "title": "AMD crosses $1T market cap milestone; CPU-over-GPU narrative drives semiconductor rally",
+      "body": "AMD closed above $1 trillion market cap for the first time, with shares up ~10% on the day. Intel surged +12.14%, approaching all-time highs, as a narrative emerged that inference workloads require 3-4 GPUs per CPU vs. 7-8 for training \u2014 boosting CPU-side AI infrastructure thesis. US semiconductor stocks broadly rallied 4%+.",
       "tickers": [
         "AMD",
-        "INTC",
-        "ARM",
-        "MU",
-        "NVDA"
+        "INTC"
       ],
       "source_item_ids": [
-        "x:2102079403371163828",
-        "x:2102073980559692168"
+        "x:2102129256105148808",
+        "x:2102228700758688153"
       ]
     },
     {
-      "title": "Intel: Evercore Upgrades CIEN to Outperform; INTC CPU Thesis Gains Traction",
-      "body": "Evercore upgraded CIEN to Outperform citing AI-driven optical networking demand, projecting 30%+ annual sales growth and $25+ EPS by FY2029 in a market expanding at 24% CAGR to $52B. Separately, INTC surged 14% as analysts highlighted the CPU demand cycle; one researcher noted Meta Muse drives high-frequency CPU task volume and that foundry execution is on track with CPU price hikes expanding upside. NVDA's Vera CPUs also showed 48% better database benchmark performance vs Intel Xeon 6.",
+      "title": "META Muse + Shopify integration: commerce and compute implications flagged",
+      "body": "Zuckerberg announced a Shopify partnership integrating shopping/checkout into Muse, with more commerce partners expected. One analyst estimated 100M Muse users would require 1.58M AMD Ryzen CPUs, 800 petabytes RAM, and 10,000 petabytes SSD \u2014 framing it as a significant hardware demand driver for AMD, INTC, ARM, and memory.",
       "tickers": [
-        "CIEN",
-        "INTC",
-        "NVDA"
+        "META",
+        "SHOP",
+        "AMD",
+        "ARM",
+        "INTC"
       ],
       "source_item_ids": [
-        "x:2102075605361758455",
-        "x:2102037255619834309"
+        "x:2102156224569524293",
+        "x:2102212551102882020"
       ]
     },
     {
-      "title": "META Muse Monetization Analysis: Closing Gap With Google in High-Intent Ads",
-      "body": "Detailed research on 654 Muse use cases (12 days post-launch) shows savings, refunds, and personal finance as top use cases; ~20% of users cite cost-reduction as primary purpose. Analysts argue Muse enables Meta to capture purchase-intent signals in travel and financial services where Meta trails Google by 7.5 and 6 percentage points in ad revenue mix, respectively. A2A transactions via Muse Business Agents bring buyer needs, budget, and timing data that Meta historically lacked\u2014potentially a structural ad revenue shift.",
+      "title": "Amazon blocking Meta's Muse agents; speculation of competing OpenAI partnership",
+      "body": "Multiple accounts flagged that Amazon is blocking Meta's AI agents, with speculation that an undisclosed Amazon-OpenAI partnership in ads/AI services is the cause. Described as the opening shot in 'Agentic Wars.'",
+      "tickers": [
+        "META",
+        "AMZN"
+      ],
+      "source_item_ids": [
+        "x:2102235468855144757",
+        "x:2102267227777155346"
+      ]
+    },
+    {
+      "title": "META's Muse zero-day vulnerability reported; security overhang to watch",
+      "body": "A zero-day was reportedly released for Meta's Muse AI agent shortly after launch, with Meta's AI security manager involved. No material stock impact yet but represents a new risk vector for the flagship AI product.",
+      "tickers": [
+        "META"
+      ],
+      "source_item_ids": [
+        "x:2102211077018898693"
+      ]
+    },
+    {
+      "title": "META AI ad business seen as structurally advantaged vs GOOGL on AI cannibalization risk",
+      "body": "Multiple fintwit voices argued META's AI products (Muse) won't cannibalize its ad business since users visit META for entertainment, not information \u2014 contrasting with GOOGL's search-ad model, which faces direct AI substitution risk. One analyst: 'AI is a new product line with pure upside for META.'",
       "tickers": [
         "META",
         "GOOGL"
       ],
       "source_item_ids": [
-        "x:2102016447895511509",
-        "x:2102022127272743168"
+        "x:2102162571394740433",
+        "x:2102283879633613137"
       ]
     },
     {
-      "title": "NBIS vs CRWV: Nebius Pricing Power Validates Neocloud Thesis",
-      "body": "A trader argued NBIS has a more sustainable financing model than CRWV and other neocloud peers, pointing to Nebius raising GPU rental rates by 17-21% despite widespread claims of falling GPU pricing. Oracle also raised pricing for 4+ year equipment commitments, reinforcing the supply/demand dynamic in premium AI compute.",
+      "title": "NVDA launches DSX Ready power/cooling qualification program; seen as negative for VRT",
+      "body": "NVIDIA introduced DSX Ready, a qualification program for power and cooling products (initial categories: BESS and CDUs) targeting AI factory reference design requirements. LG's 2.5MW coolant unit achieved the first DSX-ready qualification. At least one analyst flagged this as a negative read-through for Vertiv (VRT), implying NVDA is broadening its ecosystem control.",
       "tickers": [
-        "NBIS",
-        "CRWV"
+        "NVDA",
+        "VRT"
       ],
       "source_item_ids": [
-        "x:2102070202779492802"
+        "x:2102099205980577879",
+        "x:2102096522858864699"
       ]
     },
     {
-      "title": "NVIDIA: Open-Source AI Strategy, Vera CPU Edge, and Grok 4.7 Infrastructure",
-      "body": "Commentary suggests NVDA's compute advantage, Poolside acquisition, and Hugging Face investment position it as a potential open-source AI leader vs. OpenAI/Anthropic if government backs the play. NVDA Vera CPUs beat Intel Xeon 6 by 48% in database benchmarks with fewer cores. NVDA accelerated computing also underpins SpaceX AI's Grok 4.7 launch; one trader flagged NVDA IV remains negative for the year despite GAI infrastructure IVs bottoming.",
+      "title": "Microsoft doubles Taiwan AI data center plan to 4 sites; custom AI chips delayed to 2027",
+      "body": "Microsoft expanded its Taiwan AI data center buildout from 2 to 4 facilities (Gueishan and Luzhu), citing strong demand from semiconductor and high-tech clients. Separately, MSFT's self-developed AI chips are now targeting mass production in 2027, pushed back from an earlier 2H26 target.",
       "tickers": [
+        "MSFT",
+        "TSM"
+      ],
+      "source_item_ids": [
+        "x:2102198290699948107",
+        "x:2102198554853040180"
+      ]
+    },
+    {
+      "title": "Alibaba unveils Zhenwu V900 AI chip (3x performance) and 20GW data center target by 2032",
+      "body": "Alibaba launched the Zhenwu V900 AI chip, claiming 3x performance improvement over its predecessor, with volume launch in Q1 2027. CEO also announced plans to expand global data center capacity to 20+ GW by 2032 and revealed a new Qwen model training with 5-10 trillion parameters. BABA stock jumped 3% on the news.",
+      "tickers": [
+        "BABA"
+      ],
+      "source_item_ids": [
+        "x:2102270640841720088",
+        "x:2102226106736918674"
+      ]
+    },
+    {
+      "title": "TSMC 1.4nm (A14) trial production to begin Q1 2027; Fab 20 receiving equipment",
+      "body": "Reports from DigiTimes indicate TSMC will begin A14 (1.4nm) trial production in Q1 2027 at Hsinchu Fab 20 (P3), with Fab 25 in Taichung serving as the second A14 facility. Fab 25 phase 1 construction expected to complete in April.",
+      "tickers": [
+        "TSM"
+      ],
+      "source_item_ids": [
+        "x:2102184471193858390"
+      ]
+    },
+    {
+      "title": "HBM smuggling route via Malaysia flagged; Korea exports to Malaysia +467% YoY",
+      "body": "ChipBook data showed Korean HBM exports to Malaysia surged 467% YoY in August (~$3B over two months), attributed primarily to Intel's advanced packaging operations in Penang. Separately, commentators noted China is reportedly routing South Korean HBM through Malaysia to circumvent US export restrictions.",
+      "tickers": [
+        "INTC"
+      ],
+      "source_item_ids": [
+        "x:2102166043108004235",
+        "x:2102166543983685961"
+      ]
+    },
+    {
+      "title": "Coherent launches PhotonLink integrated optics platform at ECOC 2026",
+      "body": "Coherent officially unveiled PhotonLink at ECOC 2026, an integrated optics platform spanning the full optical signal chain for AI datacenters, including support for co-packaged optics (CPO). Lumentum also showcased VCSEL and DWDM laser modules at the same event. AXTI noted it received prepayment from COHR.",
+      "tickers": [
+        "COHR",
+        "LITE",
+        "AXTI"
+      ],
+      "source_item_ids": [
+        "x:2102135016994349227",
+        "x:2102183574279712910"
+      ]
+    },
+    {
+      "title": "Nasdaq hits record close; S&P 500 posts strongest day since early August",
+      "body": "NASDAQ closed at 27,132 (+2.30%), S&P 500 at 7,766 (+1.52%), Dow +0.79%. The rally was described as size-led \u2014 S&P equal-weight index rose only 18bps, with the largest mega-cap vs. small-cap spread in 5+ years. Nasdaq 100 gained 2.83% on the day, outpacing the S&P by 130bps.",
+      "tickers": [
+        "SPY"
+      ],
+      "source_item_ids": [
+        "x:2102126098419175492",
+        "x:2102221338039423202"
+      ]
+    },
+    {
+      "title": "AI infra trade 'not priced in' per fintwit consensus; consumer demand vector reshapes forecasts",
+      "body": "Several fintwit voices argued the AI infrastructure trade remains underpriced as a new consumer demand vector (via personal agents like Muse) emerged, making prior buildout assumptions \u2014 based solely on enterprise adoption \u2014 obsolete. One framing: 'Previous compute and hardware forecasts are obsolete.'",
+      "tickers": [
+        "META",
+        "AMD",
         "NVDA",
         "INTC"
       ],
       "source_item_ids": [
-        "x:2102091859271077959",
-        "x:2102067831621984664"
+        "x:2102217148051669172",
+        "x:2102114073836228810"
       ]
     },
     {
-      "title": "CRDO Sells Off Despite 115% YoY Growth; Price Action Analyzed",
-      "body": "CRDO posted 115% year-over-year revenue growth but experienced a selloff; analysis points to margin profile and valuation disconnect. Separately, one trader noted CRDO rallied from 167 to 181.2 intraday and mentioned the company alongside semiconductor inspection/testing work. The selloff-despite-growth dynamic is flagged as worth monitoring for entry.",
-      "tickers": [
-        "CRDO"
-      ],
-      "source_item_ids": [
-        "x:2102080420342817189",
-        "x:2102030400952688911"
-      ]
-    },
-    {
-      "title": "AXTI: S&P SmallCap 600 Inclusion + InP Substrate Geopolitical Angle Drive 12% Gain",
-      "body": "AXTI added to S&P SmallCap 600 effective Sept 21, driving passive fund inflows; the stock rose 12.4%. Beyond index mechanics, one analyst argued AXTI may be used as a geopolitical positioning tool in Trump-Xi discussions given US control over InP substrate pricing for AI optical infrastructure. The consensus view: inclusion is a trigger, not the core investment case.",
-      "tickers": [
-        "AXTI"
-      ],
-      "source_item_ids": [
-        "x:2102068786493026492",
-        "x:2102035361501425766"
-      ]
-    },
-    {
-      "title": "AAOI: 2027 Capacity Target $471M; SIVE Coming Online With 100M+ CW Laser Capacity",
-      "body": "AAOI is positioned for a 2027 capacity ramp to $471M per one analyst; SIVE is coming online with 100M CW DFB laser capacity internally plus ~300M total via two external foundries. The analyst noted these supply chains are tied to larger hyperscaler suppliers, framing the setup as a medium-term capacity inflection play.",
-      "tickers": [
-        "AAOI"
-      ],
-      "source_item_ids": [
-        "x:2102067535915123156"
-      ]
-    },
-    {
-      "title": "LITE + GLW to Demo Optical Die-to-Die Interconnect at ECOC 2026",
-      "body": "LITE and GLW are collaborating on a high-density optical die-to-die interconnect demonstration at ECOC 2026 in M\u00e1laga, using a 1060nm VCSEL platform and multimode fiber targeting CPO/NPO architectures with low latency and power. Separately, TER is explicitly positioning microLED alongside SiPh and CPO for production testing, signaling a shift from device story to manufacturing inflection.",
-      "tickers": [
-        "LITE",
-        "GLW"
-      ],
-      "source_item_ids": [
-        "x:2102031186797457695",
-        "x:2102067098759594259"
-      ]
-    },
-    {
-      "title": "PLTR: Trump Disclosed June 24 Purchase; Stock Up 56% Since; Pentagon $244M Memo",
-      "body": "Trump disclosed a Palantir stock purchase on June 24; on August 4, a Pentagon memo directed up to $244M for Palantir. PLTR has risen 56% since the trade date. Palantir's Chad Wahlquist also appeared in a live interview discussing data ownership in AI.",
-      "tickers": [
-        "PLTR"
-      ],
-      "source_item_ids": [
-        "x:2102040596625928651"
-      ]
-    },
-    {
-      "title": "TSLA: Oppenheimer Reiterates Perform; AI Pivot Progressing, Optimus Delays Likely",
-      "body": "Oppenheimer reiterated a Perform rating on Tesla, noting AI transformation progress and vertical integration strategy including a semiconductor push, but flagging likely delays for the Optimus humanoid robot program.",
-      "tickers": [
-        "TSLA"
-      ],
-      "source_item_ids": [
-        "x:2102004954428813823"
-      ]
-    },
-    {
-      "title": "AAPL: Tim Cook Legacy Discussion; John Ternus Named Incoming CEO; $12,300 Computer",
-      "body": "Bloomberg's Mark Gurman discussed Siri capabilities, Tim Cook's legacy, and named John Ternus as Apple's incoming CEO. Apple also launched a $12,300 computer. The iPhone 18 Pro Max reportedly removes a 20Wh firmware lock upon user activation.",
-      "tickers": [
-        "AAPL"
-      ],
-      "source_item_ids": [
-        "x:2102041044561137847",
-        "x:2102025628107321711"
-      ]
-    },
-    {
-      "title": "Market Technicals: NDX Volatility Spike, ARKK at YTD High, SPX 0DTE Level to Watch",
-      "body": "NDX volatility jumped sharply during the rally with November skew repricing significantly\u2014upside vol now running hotter than downside vol in Nasdaq. ARKK hit a YTD high, trading above its 200-day MA by the widest margin since December. Traders are watching SPX 7475 as a large 20k 0DTE call position that could cause gamma effects; NASDAQ 100 reached +2.5% on the day.",
+      "title": "Trump-Xi summit Thursday to cover AI, trade, rare earths; US-China trade truce may extend 3-6 months",
+      "body": "US and Chinese officials held a second day of trade talks in NYC focused on AI, investment, and summit preparation. USTR Greer signaled a 3-6 month truce extension is possible. Chinese rare-earth magnet shipments to the US fell 21% in August; China holds ~94% of global rare-earth magnet manufacturing capacity.",
       "tickers": [],
       "source_item_ids": [
-        "x:2102075134836167034",
-        "x:2102062541736129011"
+        "x:2102189522985599380",
+        "x:2102181033915605207"
       ]
     },
     {
-      "title": "US-China Trade Truce Extension Proposed; Trump-Xi Meeting Imminent",
-      "body": "The US proposed extending the China trade truce by six months while China pushed for a longer extension. Treasury Secretary Bessent confirmed US-China talks included 'deliverables' on economics and AI, and flagged a potential US-China AI meeting in Shenzhen in two months. Trump-Xi are expected to meet this week with Bessent noting Trump and Xi could meet two more times after.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2102042481298690109",
-        "x:2102005736226037963"
-      ]
-    },
-    {
-      "title": "Macro: Fed's Goolsbee Says Rate-Hike Cycle Complete But Painful; Bessent Eyes Post-Iran Rate Drop",
-      "body": "Chicago Fed President Goolsbee signaled the Fed has reached the limits of its rate-hiking cycle, noting further tightening would be 'necessarily painful.' Treasury Secretary Bessent expects rates to come down after the Iran conflict resolves, and repeated that bonds are showing unusual correlation with energy prices.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2102065188165824771",
-        "x:2102010253248168307"
-      ]
-    },
-    {
-      "title": "Diesel Hits Record $6.51/Gal; Russia Extends Export Ban; Oil Slides on Saudi Flows",
-      "body": "US diesel prices hit an all-time record above $6.51/gallon (up 76% YoY and ~18% from August average); Russia is extending its diesel export ban beyond September after Ukrainian drone strikes halted the Moscow Gazprom Neft refinery. Brent crude simultaneously fell below $100/bbl (down 2.6%) as Saudi Arabia ramped shipments through Hormuz to 2.9M bpd vs 700k in August. GS Factor Dashboard shows GAI infrastructure factors outperforming while Energy Refiners underperform with negative correlation to AI names.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2102035445240533302",
-        "x:2102040111583993879"
-      ]
-    },
-    {
-      "title": "SK Hynix Exec Warns 'Not Much Time Left to Survive on Memory'; CXMT G5 DRAM in Mass Production",
-      "body": "An SK Hynix packaging executive at a US HBM roundtable signaled existential pressure on traditional memory business models: 'there isn't much time left to survive on memory.' Separately, China's CXMT G5 DRAM platform entered mass production with 50% higher die-per-wafer density using SAQP to achieve 11.95nm half-pitch, approaching world-leading specifications.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2102092140633620863",
-        "x:2102030633866571908"
-      ]
-    },
-    {
-      "title": "Paramount-Warner Bros. Discovery Deal Clears After AG Settlement; $1.5B Film Commitment",
-      "body": "A coalition of state AGs settled antitrust concerns with Paramount over the WBD merger; the consent decree requires Warner Bros. Discovery to commit at least $1.5B to domestic film production over five years, a $300M+ incremental US production spend, and minimum annual theatrical releases. Paramount has full regulatory clearance to proceed; the deal had been held up by a ticking fee deadline.",
+      "title": "Key tech CEOs to attend White House state dinner for Xi on Sept 24",
+      "body": "Satya Nadella (MSFT), Tim Cook (AAPL), Jensen Huang (NVDA), Sam Altman (OpenAI), and Cristiano Amon (Qualcomm) are all confirmed for the White House state dinner for Chinese President Xi on September 24, signaling high-stakes AI and trade diplomacy.",
       "tickers": [
-        "WBD"
+        "MSFT",
+        "AAPL",
+        "NVDA"
       ],
       "source_item_ids": [
-        "x:2102091271011799382",
-        "x:2102041473868853365"
+        "x:2102178150340079862"
       ]
     },
     {
-      "title": "Trump on AI: 'Whoever Wins AI, Wins'; No Liability Shield for Labs; DOJ Oversight Possible",
-      "body": "Trump declared 'whoever wins AI, wins' and pledged not to stifle AI growth, characterizing it as potentially bigger than the Industrial Revolution. However, Treasury Secretary Bessent stated the Trump administration will not provide AI companies a liability shield, and Trump separately indicated DOJ may regulate AI 'if we have to.' The administration plans an AI 'czar' to set contours around AI incidents.",
+      "title": "Google funds Georgia nuclear plant capacity for data centers; starts $899 Gemini AI laptop pre-orders",
+      "body": "Google is funding power-capacity increases at two Georgia nuclear plants to power its data centers. Separately, Google began pre-orders for $899 laptops featuring integrated Gemini AI.",
+      "tickers": [
+        "GOOGL"
+      ],
+      "source_item_ids": [
+        "x:2102187563913982115",
+        "x:2102199042667356562"
+      ]
+    },
+    {
+      "title": "Texas Gov. Abbott halts new data center permits pending ERCOT audit",
+      "body": "Governor Abbott directed TCEQ to halt new data center permits until ERCOT completes its grid audit \u2014 a potential near-term headwind for data center expansion plans in Texas. California separately enacted legislation requiring AI data centers to fund local grid upgrades.",
       "tickers": [],
       "source_item_ids": [
-        "x:2102064039819878759",
-        "x:2102025579625054578"
+        "x:2102144573753458710",
+        "x:2102133900801896567"
+      ]
+    },
+    {
+      "title": "Acer CEO says memory supply shortage 'has disappeared'; prices to decline in 2027",
+      "body": "Acer's CEO stated the supply shortage problem has disappeared and expects memory prices to decline in 2027, citing CXMT starting mass production of a new chip platform. Separately, Micron faces a strike at one Taiwan location after mediation talks.",
+      "tickers": [
+        "MU"
+      ],
+      "source_item_ids": [
+        "x:2102224894163292549"
+      ]
+    },
+    {
+      "title": "Nancy Pelosi buys $3.75M+ in Bloom Energy and Intel; GRAB CEO buys $30M of own stock",
+      "body": "Pelosi disclosed purchases of 15,000 BE shares plus 200 call contracts ($100 strike, June 2027 expiry) alongside INTC, totaling $3M-$12M combined. Separately, GRAB's CEO purchased $30M of company stock at $2.89/share \u2014 flagged as a potential bottom signal.",
+      "tickers": [
+        "BE",
+        "INTC",
+        "GRAB"
+      ],
+      "source_item_ids": [
+        "x:2102144501380776351",
+        "x:2102291145715757265"
       ]
     }
   ]
