@@ -1,210 +1,198 @@
 {
-  "digest_type": "premarket",
-  "digest_dt": "2026-09-22T08:30:00-04:00",
-  "saved_at": "2026-09-22T13:06:51.307814+00:00",
+  "digest_type": "midday",
+  "digest_dt": "2026-09-22T12:00:00-04:00",
+  "saved_at": "2026-09-22T16:27:09.052452+00:00",
   "bullets": [
     {
-      "title": "Agentic AI ignites historic rally: META +11%, AMD hits $1T, NDX +2.3%",
-      "body": "Meta's Muse AI agent \u2014 hitting #1 on the App Store with 2.5M downloads in 13 days, outsourcing ChatGPT's early mobile launch pace \u2014 drove META to its best day in 17 months and sparked a broad AI infrastructure re-rating. AMD crossed $1 trillion market cap for the first time ever, ARM +17%, INTC +12%, and the Nasdaq-100 closed +2.3% at a record. The narrative is shifting from frontier model training to agentic/inference proliferation, with analysts (JPM $820 PT, Mizuho $750 PT, Hedgeye $1,200+) citing potential TAM in commerce take-rates, subscriptions, and agent-to-agent transactions.",
+      "title": "Oil drops on Iran Hormuz reopening signals, then rebounds on denial",
+      "body": "Brent fell below $100/bbl and WTI dropped ~$2 to ~$90 on reports Iran offered to reopen the Strait of Hormuz within 7 days if the US lifts its port blockade; Iran's Fars news agency subsequently denied the Kyodo/Reuters reports. Saudi Arabia separately restarted its East-West pipeline and prepared to resume Yanbu crude exports, adding further supply relief. BofA raised its H2 2026 Brent forecast to $95 from $83 on persistent Hormuz disruptions running 4-8mb/d below pre-war levels.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2102354998180876704",
+        "x:2102341749603536932"
+      ]
+    },
+    {
+      "title": "US diesel hits record $6.53/gal; oil shock threatens to disable Fed policy response",
+      "body": "US diesel prices reached a record $6.527/gallon, up from $3.69 a year ago, driven by restricted Russian exports and Hormuz disruptions. Hedgeye warns the WTI shock (~+$20 since late August, futures in severe backwardation) is hitting headline CPI immediately \u2014 September CPI Nowcast already +27bps vs August \u2014 a setup historically seen before the 1990 Kuwait invasion, 2008 GFC, and 2022 Ukraine invasion. Prior oil shocks arrived into downturns already underway and disabled policy response.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a0c9c5a9ee06c9a",
+        "x:2102350857782153699"
+      ]
+    },
+    {
+      "title": "Fed hiking into slowdown; 10s/2s curve compresses to ~19bps, CPI nowcast 3.67%",
+      "body": "The Fed hiked 25bps last week with three more hikes expected by April 2027; Hedgeye's inflation nowcast rose to 3.67% y/y vs 3.40% reported CPI, supporting higher-for-longer yields. The 10s/2s curve compressed to ~19bps, which Hedgeye calls the biggest macro problem since early 2022. Morgan Stanley expects two additional hikes to 4.25%-4.50%, held through end of 2027; Chicago Fed's Goolsbee described the employment-vs-inflation tradeoff as 'painful' amid the stagflationary shock.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a0c92bc1ae6d420",
+        "gmail:1a0c9390108fb0cd"
+      ]
+    },
+    {
+      "title": "S&P breadth deteriorating despite index strength; market concentrated in ~20 names",
+      "body": "Market breadth continues to deteriorate across Consumer Discretionary, Tech, and Financials even as the S&P held near highs, with signal rotation turning defensive per Hedgeye. The S&P has gone 36 sessions without a -1% decline \u2014 longest in nearly a year \u2014 but three-quarters of the index's 93% gain since ChatGPT's release came from just 20 companies, with NVDA accounting for ~16%. High Beta Momentum longs show the largest divergence between YTD and QTD performance.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a0c994c4df61f76",
+        "gmail:1a0c9374ffa17d4a"
+      ]
+    },
+    {
+      "title": "Post-FOMC factor rotation: momentum/growth surge, defensives/value fade",
+      "body": "A quant strategy note flags the MIRC shifted from Risk Averse to Broad Selloff post-FOMC, with Momentum, Growth, and Risk-on factors rebounding sharply while Risk-off and Value weakened. Investors rotated into Early Cyclicals, particularly Technology, over Deep Cyclicals. AI-driven correlation changes put Momentum/Growth at the 90th percentile correlation with Risk-on/Earnings Turbulence \u2014 a structural shift from historical patterns. The outlook favors Growth Continuation regime as implied volatility declines.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a0c93d426a9ba0c"
+      ]
+    },
+    {
+      "title": "S&P bull case requires AI story intact, 10-yr below 5%, WTI below $100 \u2014 all currently check",
+      "body": "OpCo Industrials identifies three conditions for the S&P to move higher: AI narrative intact, 10-year Treasury yield below 5%, and WTI below $100. All three currently hold, with SPX breaking above 7656 triggering a bullish trade signal per Hedgeye. Gamma flipped positive as SPX reclaimed its key trade level. MS CIO Wilson maintains bull market thesis on quality stocks, strong earnings, and price momentum.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a0c9374ffa17d4a",
+        "gmail:1a0c92bc1ae6d420"
+      ]
+    },
+    {
+      "title": "AI capex driving ~50% of S&P EPS growth in 2026, but depreciation drag looms in 2027",
+      "body": "Goldman forecasts AI accounts for nearly 50% of S&P 500 earnings growth this year, but contribution is expected to moderate as hyperscaler capex slows from a current ~$800B run rate. A depreciation drag of ~5 percentage points on 2027 earnings could offset nearly half of the capex benefit. Taiwan export orders hit a record $104B in August (+71.4% y/y), with US orders reaching $42B (+88.9%), confirming AI boom \u2014 but slowing actual export growth raises double-ordering risk.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a0c9a3097efd7a1",
+        "gmail:1a0c91b86481ee5c"
+      ]
+    },
+    {
+      "title": "Data center buildout faces multi-state regulatory pushback; nuclear power filling gap",
+      "body": "Texas Gov. Abbott halted all state-issued data center environmental permits pending a grid/water audit; LA County halted new data center developments; OpenAI's Georgia project faces litigation. On the supply side, Google agreed to fund ~96MW of nuclear capacity increases at two Georgia plants, and NVDA doubled its cumulative investment in SoftBank-backed SB Energy to $3B ahead of IPO. SoftBank's ~$11B junk bond offering for OpenAI investments drew ~$20B early demand.",
       "tickers": [
-        "META",
-        "AMD",
-        "INTC",
-        "ARM"
+        "GOOGL",
+        "NVDA"
       ],
       "source_item_ids": [
-        "gmail:1a0c8f1a32f7c778",
-        "gmail:1a0c824cd4dcd09b"
+        "gmail:1a0c93ae01f59041",
+        "gmail:1a0c96e0a7cd1efb"
       ]
     },
     {
-      "title": "Rally is narrow, not broad: S&P equal-weight +18bps vs SPX +1.5%",
-      "body": "Monday's S&P 500 gain of 1.5% masked severe breadth deterioration \u2014 the equal-weight index rose only ~18bps, the largest mega-cap/small-cap spread in 5+ years, and new 52-week lows outpaced highs for the first time since 1999. Russell 2000 remains in a -6.3% Q3 drawdown, CCC credit spreads hit 919bp (99th percentile) even as IG/BB/B spreads sit at 0-4th percentile. Multiple sources flag this size-led, breadth-deficient rally as a caution signal.",
+      "title": "Section 301 tariff legal challenge Sept 30 could trigger ~$100B in refunds",
+      "body": "New Section 301 tariffs (10-12.5%) covering 99% of US imports face a Court of International Trade challenge on Sept 30; challengers argue global application exceeds statutory authority. If invalidated \u2014 analogous to IEEPA precedent where ~$170B in refunds were generated ~10 months post-imposition \u2014 roughly $100B in refunds could flow to importers. Atlanta Fed survey found ~25% of executives are already seeking or have received tariff refunds.",
       "tickers": [],
       "source_item_ids": [
-        "x:2102221338039423202",
-        "x:2102240662662111378"
+        "gmail:1a0c9438c3cf72ea",
+        "x:2102361985639928205"
       ]
     },
     {
-      "title": "Fed speakers signal further rate hikes likely; 10-year yield at 4.93%",
-      "body": "St. Louis Fed's Musalem said further rate hikes are likely needed, warning that without additional restraint inflation will remain \"substantially above 2%\" in 18 months, and that business pricing plans are running near 3%. Chicago Fed's Goolsbee warned higher oil prices from Iran and tariffs may force rate hikes if inflation proves demand-driven. Boston Fed's Collins cited persistent inflation and Middle East energy risks in voting for a 25bp hike. GS expects one more October hike then stable rates, with cuts beginning late 2027. 10-year yields at 4.93%.",
+      "title": "Richmond Fed manufacturing softens in September; ISM tracking 54.5% vs 55.0% consensus",
+      "body": "The Richmond Fed manufacturing index fell 6 points to -2.0% in September (ISM-equivalent to 51.6%), with new orders slipping below zero and capex plans declining. Morgan Stanley's tracking puts the September ISM at 53.9 vs 54.6 in August. Three regional surveys combined point to a 54.5% ISM print vs the 55.0% consensus. One positive offset: headcount jumped to a 20-month high, though prices paid rose while prices received were flat, compressing margins.",
       "tickers": [],
       "source_item_ids": [
-        "x:2102106651067359451",
-        "gmail:1a0c8f69f1a0499a"
+        "gmail:1a0c9aced00d22c0",
+        "gmail:1a0c98cdfd4ac3c5"
       ]
     },
     {
-      "title": "Oil -4.5%/day on Iran diplomacy; diesel hits record $6.51/gallon \u2014 a split inflation story",
-      "body": "WTI fell ~4.5% to ~$95.78 on Iran Strait of Hormuz reopening diplomacy (Iran offering to reopen in 7 days if U.S. lifts blockade), Saudi Arabia resuming Yanbu exports, and Qatar mediating U.S.-Iran talks. However, diesel hit a record $6.51/gallon as refining margins widened and product inventories tightened \u2014 analysts warn refined fuel shortages, not crude, pose the bigger inflation risk. U.S. SPR at its lowest since 1982.",
+      "title": "Chicago Fed CFNAI cooled to -0.04 in August; Goolsbee flags 'painful' stagflation tradeoff",
+      "body": "The Chicago Fed National Activity Index slipped to -0.04 in August from +0.08 prior (revised up from -0.08), with only 39 of 85 indicators positive. The 3-month moving average edged back into positive territory at +0.01. Goolsbee explicitly described the current environment as a 'painful trade-off' between employment and inflation, with restrictive rates expected to weaken labor markets.",
       "tickers": [],
       "source_item_ids": [
-        "gmail:1a0c8c28962896cd",
-        "x:2102166103246111153"
+        "x:2102361571033059539",
+        "x:2102361381789892830"
       ]
     },
     {
-      "title": "Fed October hike, sticky core inflation; 10s-2s curve at +19bps",
-      "body": "The 10s/2s yield curve steepened to +19bps; Hedgeye's inflation nowcast ticked up to +3.67% YoY. Goldman sees core PCE at 2.2% by 4Q27 only with hikes; ECB's Lane warned a second energy surge will delay return to 2% target. Multiple sell-side desks flag that AI-driven excess demand (RBA citing same in Australia) and commodity shocks compound the stickiness. Treasury selling $69B in 2-year notes today.",
+      "title": "Banks sold on positioning unwind, not AI disruption; L/S ratio at 82nd percentile",
+      "body": "JPM sales desk attributes aggressive bank selling to positioning unwind, not fundamental repricing. Large cap banks (C, MS, GS, USB) are dominating volume while regionals and boutiques outperform \u2014 a 'classic positioning unwind signature.' The L/S ratio remained elevated at the 82nd percentile at week-start despite 20 days of net selling, implying substantial further unwind risk. JPM argues AI capex requirements represent opportunity for banks, not risk.",
       "tickers": [],
       "source_item_ids": [
-        "gmail:1a0c88997968dc16",
-        "x:2102127907330216072"
+        "gmail:1a0c9cc9de22c826"
       ]
     },
     {
-      "title": "Trump-Xi summit Thursday: AI, trade truce extension, rare earths, Taiwan in focus",
-      "body": "U.S. and Chinese officials held a second day of preparatory trade talks in New York. USTR Greer said a 3\u20136 month trade truce extension is possible. Chinese rare-earth magnet shipments to the U.S. fell 21% in August; China controls ~94% of global rare-earth magnet manufacturing. Tech CEOs including Nadella (MSFT), Cook (AAPL), Huang (NVDA), and Altman are attending the White House state dinner for Xi on Sept 24. AI distillation, semiconductor restrictions, and rare earth export controls are core agenda items.",
+      "title": "Agentic commerce disruption basket down 12%; Amazon blocks Meta Muse as threat validates",
+      "body": "META is +20% since Muse's 9/8 launch while an agentic commerce disruption basket of threatened aggregators is down 12%. Amazon cut off Meta's Muse agent from its marketplace citing privacy/security risks \u2014 interpreted as validation of the agentic threat to its retail media model ($68B ads revenue vs. $34B e-commerce profit). The note draws an analogy to GLP-1 disruption shorts that fell 50-70% over a 3-year holding period, and argues agentic commerce is in the 'first inning.'",
       "tickers": [
-        "NVDA",
+        "META",
+        "AMZN",
+        "SHOP",
+        "UBER",
+        "DASH",
+        "EXPE",
+        "BKNG"
+      ],
+      "source_item_ids": [
+        "gmail:1a0c98ebdab3cc6f",
+        "gmail:1a0c949cc6128f98"
+      ]
+    },
+    {
+      "title": "Insurance/fintech sector hit by agentic AI disintermediation fears; EVER -13%",
+      "body": "Multiple insurance and fintech names (EVER -13.2%, GSHD, QNST, ALL, LPLA) declined on unusual volume amid growing concern that agentic AI agents \u2014 specifically Meta's Muse \u2014 could disintermediate trust-based financial service models. StreetAccount flagged 196% of average 30-day volume in EVER with no company-specific news. JPM's bank note counters that AI can't disintermediate trust-based banking.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a0c9bde16e098a0",
+        "gmail:1a0c9cc9de22c826"
+      ]
+    },
+    {
+      "title": "Kalshi odds shift: 61% Dems retake Senate, 91% Dems take House in November",
+      "body": "Prediction market Kalshi now assigns 61% probability to Democrats regaining Senate control (Republicans currently hold 53-47) and 91% probability to Democrats taking the House (Republicans hold 218-214). The shift has potential implications for regulatory and fiscal policy into 2027.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2102331754744844420"
+      ]
+    },
+    {
+      "title": "Trump-Xi summit: Yardeni sees trade truce extension only; Xi to press on Taiwan arms sales",
+      "body": "Yardeni Research expects no 'grand bargain' from the Trump-Xi meeting, only a trade truce extension. Separately, Xi is expected to press Trump to halt US arms sales to Taiwan, including already-ordered weapons. Shanghai stocks closed up only +0.06% overnight despite bullish media framing of the summit talks.",
+      "tickers": [],
+      "source_item_ids": [
+        "x:2102351567114437082",
+        "x:2102344160904724972"
+      ]
+    },
+    {
+      "title": "Euro area consumer confidence -1pt in Sept; JPM forecasts 1.25% annualized consumption growth in 3Q",
+      "body": "The European Commission flash consumer confidence indicator fell 1 point in September as higher energy prices pressure household budgets. JPM's forecast stands at 1.25% annualized consumption growth in 3Q26, a modest acceleration from 0.9% in 1H26, sitting between its bridge model (0.7%) and DFM nowcast (2.0%). Downside risks include weak retail sales and potential payback from strong 2Q durables spending.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a0c9d6bb746ca27"
+      ]
+    },
+    {
+      "title": "Office CMBS delinquency hits 12%, above post-GFC record; apartment CLOs stressed",
+      "body": "US office CMBS delinquency reached 12% in August/September 2026, surpassing post-GFC 2008 levels. Apartment CLO distress jumped in August, with 2021 vintages \u2014 originated before rate hikes \u2014 facing significantly higher stress. Fed hiking into a supply-side energy shock rather than demand excess risks deepening housing contraction, per Citi real estate commentary.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a0c9390108fb0cd",
+        "gmail:1a0c93ae01f59041"
+      ]
+    },
+    {
+      "title": "Small caps face near-term headwinds but offer +30% upside if AI closes margin gap",
+      "body": "Large caps are expected to grow earnings ~2x small caps over the next 12 months, driven by faster AI adoption \u2014 small cap AI users currently show worse TTM and NTM margins than non-AI users. However, small cap 2-year EPS CAGR (+22.4%) exceeds large caps (+20.9%), and for every 1pp of margin growth, small cap fair value increases ~10%. If small caps close the 1.7pp margin gap and ERP re-rates to the historical midpoint, upside to fair value is +30%. Relief is contingent on oil moving significantly lower.",
+      "tickers": [
+        "SPY"
+      ],
+      "source_item_ids": [
+        "gmail:1a0c926fd36c406f"
+      ]
+    },
+    {
+      "title": "Hedgeye repositions: long energy, mega-cap tech (AAPL/MSFT/META), PFIX; short utilities, industrials, small caps",
+      "body": "Keith McCullough added energy (XLE) and bond volatility (PFIX) to asset allocation after buying WTI at $87 with a $90.17-108.16 risk range. He is long AAPL, MSFT, META as signal-strength stocks and Software (IGV) over the Nasdaq composite. He is short Utilities (XLU), Industrials (XLI), Russell 2000, Switzerland, and Germany. Gold was reduced below minimum position, silver sold, and gold miners exited.",
+      "tickers": [
+        "META",
         "MSFT",
         "AAPL"
       ],
       "source_item_ids": [
-        "x:2102189522985599380",
-        "x:2102178150340079862"
-      ]
-    },
-    {
-      "title": "Data center regulatory headwinds mount: Texas permit freeze, California grid costs",
-      "body": "Texas Governor Abbott directed TCEQ to freeze all new state-issued data center permits pending an ERCOT grid and water audit \u2014 a second Texas restriction after August block on DC grid connections. California enacted legislation requiring AI data centers to fund local energy grid upgrades. These actions create near-term capex and permitting risk for hyperscale expansions, particularly in two of the largest U.S. data center markets.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2102144501380776351",
-        "x:2102133900801896567"
-      ]
-    },
-    {
-      "title": "Alibaba Zhenwu V900 chip launch: 3x performance, 20GW data center target by 2032",
-      "body": "Alibaba unveiled the Zhenwu V900 AI accelerator (developed by T-Head) claiming 3x performance over its predecessor, with commercial launch in Q1 2027 and the ability to cluster 500K units for frontier model training. Alibaba also targets 20GW+ of global cloud data center capacity by 2032 and is training Qwen 4.5/5.0 at 5-10 trillion parameters. The announcement drove BABA +3% and lifted Hang Seng Tech +1.83%; analysts see this as a credible escalation in China's challenge to NVDA dominance.",
-      "tickers": [
-        "BABA",
-        "NVDA"
-      ],
-      "source_item_ids": [
-        "gmail:1a0c757dd7e8e7e5",
-        "x:2102270640841720088"
-      ]
-    },
-    {
-      "title": "Microsoft: Azure growth 46%+ CC, AI chip mass production 2027, Taiwan data centers doubled",
-      "body": "Azure grew ~46% in constant currency in F1Q, ~100bps above guidance, with F2Q potentially approaching 50%. MSFT is doubling its Taiwan AI data center footprint from 2 to 4 facilities in response to AI demand. Self-developed AI chips are targeting 2027 mass production. Multiple analysts raised PT: Oppenheimer and OpCo to $570 on Azure/Copilot momentum. LG partnered with MSFT on AI data center cooling and power.",
-      "tickers": [
-        "MSFT"
-      ],
-      "source_item_ids": [
-        "gmail:1a0c8e589928b6b4",
-        "x:2102198290699948107"
-      ]
-    },
-    {
-      "title": "CPU/inference thesis drives INTC +12%, AMD +10% \u2014 agentic AI reshapes compute demand",
-      "body": "Agentic AI workloads run multi-step, continuous browser execution requiring far more CPU than training (3-4 GPUs per CPU vs 7-8 for training), re-rating Intel and AMD sharply. JPM notes the CPU ecosystem outperformed memory by ~7% on Monday. UBS cut CY27 PC units to -4% YoY (from +2%) and smartphone sell-in to -3% (from +2%) on memory cost inflation, but AI inference demand is seen as a structural offset. TSMC's A14 (1.4nm) pilot run was pulled forward to 1Q27.",
-      "tickers": [
-        "INTC",
-        "AMD",
-        "TSM"
-      ],
-      "source_item_ids": [
-        "gmail:1a0c8d0639a4d0a9",
-        "gmail:1a0c903ddd996f64"
-      ]
-    },
-    {
-      "title": "Meta Connect tomorrow: Muse commerce integration, Watermelon still in queue",
-      "body": "Meta Connect is Sept 23-24 with CEO Zuckerberg keynote expected to showcase Muse-on-glasses, the Connector Platform (opened Sept 18 for third-party developers), and AI agent progress. Shopify officially integrated Muse checkout via Shop Pay; Amazon blocked Muse access, signaling an intensifying battle over e-commerce relationships. JPM estimates Muse TAM potentially in the tens of trillions of dollars with monetization via take-rate/commission and subscriptions beginning 2027. META call volume hit 1.8M contracts \u2014 highest since October 2022.",
-      "tickers": [
-        "META",
-        "SHOP",
-        "AMZN"
-      ],
-      "source_item_ids": [
-        "gmail:1a0c8a3a680d304d",
-        "x:2102216341188989307"
-      ]
-    },
-    {
-      "title": "Section 301 tariff legal challenge Sept 30: potential $100B refund risk to fiscal outlook",
-      "body": "The Court of International Trade will hear arguments September 30 on whether the Trump administration exceeded legal authority in imposing Section 301 tariffs globally on 60 economies covering 99% of U.S. imports. The Supreme Court's prior IEEPA tariff invalidation generated $170B in refunds; a similar outcome here could generate ~$100B in refunds. Retailers (Walmart, Target) and importers are monitoring; rejection could rattle the bond market via loss of projected tariff revenue. AZO's Q4 results included a $96M ($4.60/share) tariff refund tailwind.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a0c8f3623032628",
-        "gmail:1a0c910417cc1698"
-      ]
-    },
-    {
-      "title": "UK public sector borrowing surges to \u00a318.3B in August vs \u00a31.8B prior \u2014 fiscal stress signal",
-      "body": "UK public sector net borrowing came in at \u00a318.3B in August, well above the \u00a315.5B consensus and up sharply from \u00a31.8B in July. The UK central government net cash requirement also widened to \u00a310B from \u00a32.8B. Combined with UBS's short 10y France vs EU targeting 65bps, European fiscal fragility is a growing cross-asset risk.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2102277020394954782",
-        "x:2102276969941680436"
-      ]
-    },
-    {
-      "title": "SoftBank $11B OpenAI bond drew $20B+ interest; AI debt spreads widening",
-      "body": "SoftBank is launching an $11B bond sale for its OpenAI investment that drew $20B+ in early interest, but AI debt financing is spreading into HY and leveraged loans with investors demanding higher compensation for risk. Goldman Sachs led a $1.1B junk bond for CoreWeave. Multiple desks flag that tech credit curves are steepening and AI debt financing terms are toughening \u2014 favor higher-quality AI beneficiaries, avoid leveraged data center operators.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a0c903ddd996f64",
-        "gmail:1a0c8f55cba9f914"
-      ]
-    },
-    {
-      "title": "Housing market weakens further: mortgage rates at 6.95% (52-week high), affordability at 47% gap",
-      "body": "30-year mortgage rates hit 6.95%, a 52-week high, with housing market activity down 2% WoW. The median U.S. home now requires $126,000 income to afford vs. $86,000 median household income \u2014 a 47% gap near record highs. New home listings rose 2.6% MoM to a 4-year high in August (supply rising into a demand vacuum). GS prefers IBP, MTH, DHI in housing.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a0c8f69f1a0499a",
-        "x:2102150937368297883"
-      ]
-    },
-    {
-      "title": "Diesel at $6.51/gallon record raises stagflation risk; Staples/transports face margin pressure",
-      "body": "U.S. diesel hit a record $6.51/gallon even as crude declined to ~$95-96/bbl, reflecting widening refining margins and tightening product inventories. Farm fuel/oil costs are projected up 28.8% for 2026 per USDA. GS flagged staples margins under pressure through H2 2026 and H1 2027 from higher oil/diesel/freight; SAM and PRMB face greatest EPS risk. Airlines (AAL, UAL, LUV) are up pre-market 1.7-2.4% on crude declining, but fuel remains a key headwind.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2102239610038354087",
-        "gmail:1a0c8f69f1a0499a"
-      ]
-    },
-    {
-      "title": "2026 YTD: Energy ETFs +40-52% vs QQQ +21%; sector rotation into Large Cap Energy",
-      "body": "XOP returned +52.3%, XLE +45.8%, OIH +40% in 2026 vs QQQ's +21%. Hedgeye is buying Large Cap Energy (XLE) and Brent Oil (BNO) while shorting Industrials and Utilities. Goldman's Pasquariello expects higher commodity prices by year-end. Morgan Stanley's Mike Wilson warned higher yields and energy prices could spark a 10% market drawdown if sustained.",
-      "tickers": [],
-      "source_item_ids": [
-        "x:2102266983324791127",
-        "x:2102181110885040180"
-      ]
-    },
-    {
-      "title": "Jefferies: 2026-27 Super El Ni\u00f1o may be strongest on record, $3.1T cumulative damage",
-      "body": "Jefferies collaborated with ~50 analysts warning the 2026-27 Super El Ni\u00f1o could be the strongest in modern history, generating 0.6% of global GDP in contemporaneous losses and $3.1T cumulatively over five years. Food inflation likely to accelerate in 2027 (rice, wheat, sugar, palm oil, cocoa, coffee); water stress threatens hydropower, mining, and river transportation. Impacts trackable months in advance, enabling pre-positioning.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a0c8d7f64f9e09b"
-      ]
-    },
-    {
-      "title": "AI safety enters mainstream politics: California kill-switch, UK regulatory talks, AI liability",
-      "body": "The UK Business Committee invited Anthropic and OpenAI for AI safety discussions; the UK government also requested META and GOOGL to present to its business committee. California's AI kill-switch proposals are under feasibility review. Jefferies hosted a call on AI liability frameworks. The political environment for AI regulation is intensifying, with Eric Schmidt arguing a development pause is unverifiable and impractical.",
-      "tickers": [
-        "META",
-        "GOOGL"
-      ],
-      "source_item_ids": [
-        "gmail:1a0c906a881c40bd",
-        "x:2102309750646215035"
-      ]
-    },
-    {
-      "title": "AI business formation surge lifting payroll growth; US labor market at 60-month sub-5% unemployment",
-      "body": "AI-powered business formations are surging in professional services, with Census data suggesting formations may accelerate further. Corporate applications turned up on trend \u2014 historically the best predictor of payroll growth. US unemployment has remained below 5% for 60 consecutive months, the second-longest streak on record. August consumer prices rose 3.4% YoY vs. wage growth of 3.1%, meaning inflation continues to erode real purchasing power.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a0c8ac6d2f85082",
-        "x:2102248473718350096"
+        "gmail:1a0c994c4df61f76",
+        "gmail:1a0c92bc1ae6d420"
       ]
     }
   ]
