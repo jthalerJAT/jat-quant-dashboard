@@ -1,234 +1,235 @@
 {
-  "digest_type": "midday",
-  "digest_dt": "2026-09-23T12:00:00-04:00",
-  "saved_at": "2026-09-23T16:13:51.256835+00:00",
+  "digest_type": "eod",
+  "digest_dt": "2026-09-23T18:00:00-04:00",
+  "saved_at": "2026-09-23T22:12:46.886451+00:00",
   "bullets": [
     {
-      "title": "RCL: Multi-broker consensus Buy on $3B Sandals acquisition; stock at 52-week low creates entry",
-      "body": "RCL acquiring 50% stake in Sandals/Beaches Resorts for $3B (~10x forward EBITDA on $600M run-rate), expected to close early 2027 and be EPS-accretive. UBS maintains Buy ($367 PT), JPM upgrades to Outperform, Mizuho upgrades to Outperform \u2014 all noting only ~0.2-0.3x incremental leverage, 30% guest overlap, and TAM expansion into $35B global all-inclusive market. Key risk per MS: cannibalization of cruise demand rather than pure synergy. Stock hit a 52-week low (-32.3% YTD, -5.1% on the day) despite broadly constructive deal math.",
-      "tickers": [
-        "RCL"
-      ],
-      "source_item_ids": [
-        "gmail:1a0cea796c242a31",
-        "gmail:1a0ce4386fe0ea1f"
-      ]
-    },
-    {
-      "title": "NVDA: CEO defends AI safety as compute tailwind; Vera Rubin NVL72 racks now shipping via SMCI",
-      "body": "Jensen Huang argued AI safety requires more compute investment (80% of effort vs. historical 20%), not slower development, and that agents expand TAM ~1000x. Separately, Supermicro began shipping NVIDIA Vera Rubin NVL72 racks with full liquid-cooling supporting up to gigawatt-scale deployments (1,152 GPUs, 331 TB HBM4 per unit).",
-      "tickers": [
-        "NVDA",
-        "SMCI"
-      ],
-      "source_item_ids": [
-        "gmail:1a0ce9a8459689eb",
-        "gmail:1a0ce61d5017e5f8"
-      ]
-    },
-    {
-      "title": "META Muse: 250K DAUs in week one; ecosystem winners and risks assessed across multiple desks",
-      "body": "META Muse reached 250K DAUs / 500K total users in its first week with partners including SHOP, EXPE, CART, BKNG, LYV; META Connect keynote tonight (7pm ET) expected to announce further partnerships. MS and Pivotal both bullish on META as agentic commerce winner; Amazon blocked Muse from its site two weeks after launch. Broader debate: Pivotal views widespread agent use as negative for digital advertising broadly; MS estimates $30T of consumer spend addressable through agentic offerings.",
+      "title": "META Muse disintermediation: SHOP, EXPE, CART hit; Mizuho sees SHOP as buy",
+      "body": "EXPE fell 7.7% and CART -3.3% after announcing Meta Muse partnerships, with markets pricing disintermediation risk. Mizuho pushes back on SHOP (down ~7%): wallets like Meta Pay are front-end methods, not processors \u2014 Shopify remains the underlying settlement layer at standard take rates, and management confirmed no economic change; agentic commerce is a distribution tailwind. JPM notes META Muse disintermediation basket broadly under pressure.",
       "tickers": [
         "META",
         "SHOP",
         "EXPE",
-        "CART",
-        "BKNG",
-        "AMZN",
-        "GOOGL"
+        "CART"
       ],
       "source_item_ids": [
-        "gmail:1a0ce9a8459689eb",
-        "gmail:1a0cea33ce992156"
+        "gmail:1a0cf7cfa851b0c7",
+        "gmail:1a0d0420b73748b3"
       ]
     },
     {
-      "title": "MU: Wolfe and UBS both raise estimates; supply-demand gap widening into C2027",
-      "body": "Wolfe sees upward bias to memory pricing with DRAM/HBM mix stronger; MU estimates unchanged but notes potential 25-50% buyback of market cap in CY26-27 as Chips Act buyback restrictions expire in December. UBS's Tim Arcuri raises MU C2027/28/29E EPS to $212/$277/$219, well above Street; supply-demand gap widening into C2027 with equipment shortages in DRAM, MLCC, PCB boards. MU stock has fallen below its own EPS estimate trend; November quarter revenue guide is key catalyst.",
+      "title": "Pure Storage (P): FY28 guidance blows away consensus \u2014 39-45% revenue growth targeted",
+      "body": "Everpure (ticker P) reaffirmed FY27 revenue at $5.03-5.07B (in-line) but issued preliminary FY28 guidance of $7.0-7.3B vs. FactSet consensus $6.19B (+13-18% beat) and operating income of $1.7-1.9B vs. consensus $1.32B (+29-44% beat). Two hyperscale customers have firm commitments through FY28; new revenue streams (hyperscale, modern data software, Scale.i) targeting ~20% of total revenue by 2030. FY28 operating margin guided 24-26%.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a0d033353d9f08d",
+        "gmail:1a0d045a5e1a73cc"
+      ]
+    },
+    {
+      "title": "IONQ +4.4%: Quantum error decoder milestone, QPU debuting at NVDA facility",
+      "body": "IonQ announced a quantum error decoder breakthrough and will bring its Superion 256 QPU to Nvidia's Accelerated Quantum Research Center, driving a 4.4% gain. Jefferies corporate access calendar shows an IonQ CFO/COO investor meeting scheduled for Nov 9 in NYC.",
       "tickers": [
-        "MU"
+        "IONQ",
+        "NVDA"
       ],
       "source_item_ids": [
-        "gmail:1a0ce6df647bb957",
-        "gmail:1a0ce4dee21acea8"
+        "gmail:1a0cfe5aa6dfdacb",
+        "gmail:1a0cfe3f910cf6b1"
       ]
     },
     {
-      "title": "CRWV: UBS initiates Buy at $120 PT; stock trades at 3x 2027E revenue",
-      "body": "UBS analyst Karl Keirstead initiates CoreWeave with a Buy rating and $120 price target, noting the stock already reflects key risks at 3x 2027E revenue. Channel checks highlight CoreWeave's strong reputation for reliability and performance vs. competitors as a key differentiator.",
-      "tickers": [
-        "CRWV"
-      ],
-      "source_item_ids": [
-        "gmail:1a0ce4dee21acea8"
-      ]
-    },
-    {
-      "title": "HUT/WULF/CORZ: UBS initiates all three AI colocation names at Buy on power constraint thesis",
-      "body": "UBS analyst Ryan Gravett initiates HUT ($143 PT), WULF ($24 PT), and CORZ ($24 PT) all at Buy, arguing power constraints are the critical bottleneck as AI datacenter demand has exploded. The thesis is that owned power capacity creates structural advantage vs. hyperscalers.",
-      "tickers": [
-        "HUT",
-        "WULF",
-        "CORZ"
-      ],
-      "source_item_ids": [
-        "gmail:1a0ce4dee21acea8",
-        "gmail:1a0ce5f7829b4725"
-      ]
-    },
-    {
-      "title": "DELL: COO meeting validates structural AI TAM through 2030; memory scarcity may extend 5+ years",
-      "body": "MS sales desk reports DELL COO meeting reinforced bullish view: inference token growth expected 87x by 2030, driving persistent on-prem + hybrid cloud demand vs. historical hardware cycles. Memory supply scarcity may last 5+ years (vs. historical 2-4 quarters), with agentic workloads requiring KV cache and persistent agent data \u2014 making storage an underappreciated beneficiary.",
-      "tickers": [
-        "DELL",
-        "MU"
-      ],
-      "source_item_ids": [
-        "gmail:1a0ce9a8459689eb"
-      ]
-    },
-    {
-      "title": "MSFT: Copilot Super App launching October with 30-50% seat discounts + usage-based pricing",
-      "body": "MS TMT desk reports Microsoft is launching a Copilot Super App in October featuring 30-50% seat discounts combined with usage-based pricing, a notable commercial shift. Separately, MSFT will consider shareholder ESG proposals at annual meetings through 2027 despite proposed SEC rule changes.",
+      "title": "MSFT +0.5%: Stifel upgrade; Copilot 30-50% discounts to boost enterprise adoption; $10B+ Middle East AI investment",
+      "body": "Microsoft gained 0.5% following a Stifel upgrade and reports it is offering 30-50% discounts on Copilot subscriptions to accelerate enterprise penetration. Separately, MSFT announced $10B+ in UAE/Saudi/Qatar/Kuwait cloud and AI infrastructure investment through 2030, plus ~$400M in subsea/terrestrial connectivity.",
       "tickers": [
         "MSFT"
       ],
       "source_item_ids": [
-        "gmail:1a0ce9a8459689eb"
+        "gmail:1a0cf2568dcb6926",
+        "gmail:1a0cfe5aa6dfdacb"
       ]
     },
     {
-      "title": "SHOP: Agentic commerce catalyst; Muse partner + Piper expert call scheduled 10/2",
-      "body": "Shopify is a named META Muse partner driving agentic commerce. MS identifies SHOP as a TAM winner via agentic storefronts, catalog integration, and payments gateway. Piper Sandler scheduling a 10/2 expert call with a top Shopify Partner to discuss direct catalog, UCP protocol, and merchant KPI implications.",
+      "title": "NVDA: Jensen Huang bullish on 2+ years of compute supply deficit; China increasingly buying H200s",
+      "body": "Nvidia CEO Huang said AI compute demand will outstrip supply for at least two years and dismissed dot-com-style overbuild concerns. A Jefferies expert call noted China is increasingly comfortable purchasing H200 chips as domestic localization confidence grows, and a trade truce extension of 6+ months is likely. GS analyst Jim Schneider maintains Buy on NVDA.",
       "tickers": [
-        "SHOP"
+        "NVDA"
       ],
       "source_item_ids": [
-        "gmail:1a0ce99c6cdbf407",
-        "gmail:1a0ce9a8459689eb"
+        "gmail:1a0cf3414de63492",
+        "gmail:1a0cf27172469114"
       ]
     },
     {
-      "title": "COHR/LITE/CIEN: MS post-ECOC sees NPO trials in 2028; prefers KEYS, LITE, COHR; supply tight 12-18mo",
-      "body": "Morgan Stanley's ECOC first-take sees NPO (coherent optical with pluggables) trials beginning 2028, driven by Open CPX MSA creating an ecosystem beyond NVDA's closed solution. InP substrate remains primary bottleneck for 12-18 months. LITE supplies bulk of Google OCS value; COHR positioned across CPO/NPO portfolio; KEYS benefits regardless of implementation path. Wolfe ECOC debrief call scheduled 9/24.",
+      "title": "CDNS +2.0%: Expanded TSMC partnership for AI/HPC across N3, N2, A16, A14 processes",
+      "body": "Cadence expanded its TSMC collaboration with tool certification for the A14 process, UALink solutions in N3P, and new silicon-proven IP for N3P/N2P. The partnership enables agentic AI chip and 3D-IC design flows; CDNS stock rose $10.75. Berenberg separately called CDNS and SNPS the best investment opportunity in software/IT services, with AI monetization expected from 2027.",
       "tickers": [
-        "COHR",
-        "LITE",
-        "CIEN",
-        "CSCO"
+        "NVDA"
       ],
       "source_item_ids": [
-        "gmail:1a0ce92884bb032e",
-        "gmail:1a0cecb0dbdcafa7"
+        "gmail:1a0cfa6ddba86d22",
+        "gmail:1a0cf157fa56f09e"
       ]
     },
     {
-      "title": "MRVL: Jefferies maintains Buy, $325 PT; non-deal roadshow Oct 7 NYC",
-      "body": "Jefferies analyst Blayne Curtis reiterates Buy on Marvell with a $325 price target. CEO Matt Murphy, CFO Dan Durn, and IR will hold investor meetings in New York on October 7.",
+      "title": "PAYX down 8.8%: Management Solutions miss overshadows EPS beat; Wells lowers estimates, keeps Underweight",
+      "body": "Paychex fell 8.8% despite Q1 EPS of $1.34 vs. consensus $1.32 as the Management Solutions segment missed. Wells Fargo maintains Underweight: F2Q margins guided down 170bps y/y and MS revenue growth lowered to 4.5% from 5.5% for FY27. ASO-to-PEO conversions ran 2x expectations in F1Q but guidance assumes moderation; Wells cuts FY27/FY28 EPS to $5.93/$6.38 from $5.94/$6.40.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a0d03b8e80af045",
+        "gmail:1a0cfef517c7fbac"
+      ]
+    },
+    {
+      "title": "RCL down ~10% post-Sandals: GS sees strategic logic, leverage impact only +0.3x",
+      "body": "Royal Caribbean confirmed acquisition of a 50% stake in Sandals Resorts for ~$3B (implying >$6B enterprise value, $500-700M EBITDA pre-synergies). GS argues the sell-off is overdone: net leverage rises only 0.3x within target range, overlapping Caribbean destinations enable vacation wallet capture and cross-sell, and investor feedback was relatively positive on valuation and 2027 setup.",
       "tickers": [
-        "MRVL"
+        "RCL"
       ],
       "source_item_ids": [
-        "gmail:1a0ce8789db65343"
+        "gmail:1a0cf650757e1b81",
+        "gmail:1a0cfefbded95ad9"
       ]
     },
     {
-      "title": "DIS: Disney+ raises monthly price 13% to $21.49 effective today",
-      "body": "Disney raised its Disney+ monthly subscription price by 13% to $21.49/month, with user notifications going out Wednesday. Stock was trading at $104.42, up $0.60 on the announcement.",
+      "title": "DIS raises Disney+ 13% to $21.49; YouTube launches creator tools to counter Netflix",
+      "body": "Disney raised its Disney+ monthly price by 13% to $21.49 effective today. Separately, YouTube is rolling out new creator tools to defend its talent base against Netflix competition.",
       "tickers": [
-        "DIS"
+        "DIS",
+        "NFLX"
       ],
       "source_item_ids": [
-        "gmail:1a0ceb760ec4b177"
+        "gmail:1a0cfe3f910cf6b1",
+        "gmail:1a0cff00e0650392"
       ]
     },
     {
-      "title": "FSLR: DOC anti-stockpiling rule reinforces pricing power; analyst OW, $323 PT",
-      "body": "MS Energy desk notes the DOC anti-stockpiling rule reinforces First Solar's ability to push price increases and improves the profitability outlook for 2029+. Analyst maintains Overweight at $323 PT; first indications of new bookings and pricing trends expected at 3Q earnings.",
+      "title": "UBS initiates HUT, WULF, CORZ, CIFR at Buy on data center AI demand thesis",
+      "body": "UBS initiated coverage: HUT Buy/$143 (pipeline conversion, high-credit counterparties), WULF Buy/$24 (brownfield conversion for inference workloads), CORZ Buy/$24 (tenant expansion optionality, geographic diversification), CIFR Buy/$23 (discounted near-term leasing). Data center REITs fell 2.13% on the day despite +28% YTD, pressured by Prince William County restrictions and Texas delays.",
       "tickers": [
-        "FSLR"
+        "HUT",
+        "CORZ",
+        "WULF"
       ],
       "source_item_ids": [
-        "gmail:1a0ce5fbd2c2849d"
+        "gmail:1a0cfec9649acc63"
       ]
     },
     {
-      "title": "AMD: 52-week high with +286% YTD; semi group still ~15% below ATHs despite 5-day 13.5% rally",
-      "body": "GS TMT notes the semiconductor group (SOX) rallied ~13.5% over 5 sessions led by ALAB +44%, ARM +39%, CRDO +28%, AMD/INTC +25%, but the group remains ~15% below ATHs. AMD hit a 52-week high. The rally is being characterized as narrow and 'size'-driven; only ~30% of S&P 500 constituents are above their 50-dma despite the index near ATHs.",
+      "title": "Wells Fargo bullish on IPPs TLN, CEG, VST; FSLR benefits from DOC anti-stockpiling rule",
+      "body": "Wells Fargo sees an IPP valuation inflection weeks away with strong customer demand; price targets TLN $501, CEG $362, VST $212 on FCF yields now in teens. ROTH Capital (Buy, $300 PT) views the DOC anti-stockpiling rule on polysilicon favorably for FSLR, potentially resetting US module ASPs by $0.10-$0.20/watt. Utilities index fell 1.9% on yield surge.",
       "tickers": [
-        "AMD",
-        "INTC",
-        "ARM"
+        "FSLR",
+        "VST",
+        "TLN",
+        "CEG"
       ],
       "source_item_ids": [
-        "gmail:1a0ce754937799cd"
+        "gmail:1a0cff9c78aa76c8"
       ]
     },
     {
-      "title": "HOOD: Hedgeye initiating deep dive with slight long bias; cycle-trading framework emphasized",
-      "body": "Hedgeye hosting a HOOD-focused call noting the stock's diversification into crypto, options, retirement, prediction markets, and tokenization \u2014 event contracts drove nearly half of this year's revenue growth. ~50% of revenue remains high-margin 'degenerate trading.' Starting with slight long bias but framing as a cyclical trade, not a secular platform call, given current multiple assumes good times continue.",
-      "tickers": [
-        "HOOD"
-      ],
-      "source_item_ids": [
-        "gmail:1a0ced790169885a"
-      ]
-    },
-    {
-      "title": "PSKY/WBD: Musk equity syndicate consideration; antitrust settlement requires 30+ films/yr with strict penalties",
-      "body": "Paramount Skydance is weighing asking Elon Musk and other wealthy individuals to join an equity investment syndicate. Separately, the state AG antitrust settlement for the PSKY-WBD merger mandates 30 films/year (rising to 32 in years 3-5), $1.5B incremental U.S. production spend, a $5M/year independent film fund, $47.5M workforce fund, and an independent monitor \u2014 with Miramax divestiture and $30M per-film penalties for misses.",
-      "tickers": [
-        "PSKY",
-        "WBD"
-      ],
-      "source_item_ids": [
-        "gmail:1a0cef18ae9ece50"
-      ]
-    },
-    {
-      "title": "DKNG: Fanatics capturing ~8% OSB share; JPM hosting prediction market regulatory update",
-      "body": "Morgan Stanley's Fanatics primer (private, $31B valuation) highlights DKNG as a public comp trading at double-digit EV/Sales vs Fanatics' 2.2-2.5x. Fanatics has taken 500+bps OSB GGR share since late 2023 and launched prediction markets in 24 states including CA/TX/FL. JPM separately hosting a prediction market regulatory update call with gaming law attorney Daniel Wallach.",
-      "tickers": [
-        "DKNG",
-        "FWONK",
-        "TKO"
-      ],
-      "source_item_ids": [
-        "gmail:1a0ce5d737567fe0",
-        "gmail:1a0ce9384418a0ef"
-      ]
-    },
-    {
-      "title": "AFRM: B Riley sees open-loop card adoption as next monetization catalyst",
-      "body": "B Riley notes Affirm and peers (SEZL, KLARQ) are showing strong open-loop Visa/Mastercard BNPL card adoption, with monetization model shifting from merchant fees toward interchange, interest payments, and subscription/per-transaction fees. Physical open-loop cards also in development.",
+      "title": "AFRM -5.1%: Higher rates hit BNPL; B. Riley sees open-loop card launch as catalyst",
+      "body": "Affirm fell 5.1% as fintech non-bank lenders broadly underperformed in a rising rate environment (10Y hit 5.11%). B. Riley sees a catalyst in BNPL open-loop card launch, which shifts revenue mix from merchant fees toward interchange and subscription fees.",
       "tickers": [
         "AFRM"
       ],
       "source_item_ids": [
-        "gmail:1a0ce7bf488619a8"
+        "gmail:1a0cfef517c7fbac"
       ]
     },
     {
-      "title": "CRM/HUBS: JPM hosting pre-quiet period software sector call with Dreamforce/UNBOUND channel checks",
-      "body": "JPM holding a software sector update call today covering large- and mid-cap software, with specific channel feedback from Salesforce Dreamforce and HubSpot UNBOUND conferences. Sector valuation and opportunity analysis included.",
+      "title": "HOOD: Hedgeye initiates slight long bias \u2014 cyclical trading engine masked by diversification story",
+      "body": "Hedgeye adds HOOD to Long Bench with slight long bias: ~50% of revenue still driven by degenerate trading at 90-100% incremental margins, and event contracts drove nearly half of revenue growth this year. Diversification into crypto, retirement, banking, and tokenization is real but current multiple assumes continued good times rather than a proven secular platform.",
       "tickers": [
-        "CRM",
+        "HOOD"
+      ],
+      "source_item_ids": [
+        "gmail:1a0cf89602bd3e9d",
+        "gmail:1a0cf26dfa8a5fc1"
+      ]
+    },
+    {
+      "title": "CVNA, KMX insulated from Meta Muse auto disintermediation; B2C marketplaces most at risk",
+      "body": "JPM argues CVNA's vertical integration (owned inventory, captive finance, 30-second loan origination, reconditioning, logistics) makes it resistant to AI agent displacement; KMX shares similar structural insulation. B2C marketplaces (CARS, CAR) carry the lightest asset footprints and face the most pronounced network-effect erosion as agent adoption expands among dealers and consumers.",
+      "tickers": [
+        "CVNA",
+        "CAR"
+      ],
+      "source_item_ids": [
+        "gmail:1a0cf3e3f72d0290"
+      ]
+    },
+    {
+      "title": "SHOP: Meta Muse pressure creates buy opportunity per Mizuho; stock down 7%",
+      "body": "Mizuho reiterates Outperform on SHOP, arguing today's 7% decline driven by Meta Pay/Muse headlines is a buying opportunity. Shopify management confirmed to Mizuho that wallets competing for Muse checkout confirm Shopify remains the underlying processing and settlement layer \u2014 agentic commerce is a new distribution channel, not disintermediation.",
+      "tickers": [
+        "SHOP"
+      ],
+      "source_item_ids": [
+        "gmail:1a0cf7cfa851b0c7"
+      ]
+    },
+    {
+      "title": "GS Semis: Buy NVDA, AMD, AVGO, CRDO, SNDK, STX; Sell ARM, TXN; Neutral INTC, MRVL, MU",
+      "body": "Goldman Sachs analyst Jim Schneider (covering 35+ names) is marketing in NYC on Oct 9; his conviction buys include NVDA, AMD, AVGO, CRDO, SNDK, and STX. Sells are ARM and TXN; Neutrals include INTC, MRVL, MU, and WDC.",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "CRDO",
+        "SNDK",
+        "STX",
+        "ARM",
+        "TXN",
+        "INTC",
+        "MRVL",
+        "MU",
+        "WDC"
+      ],
+      "source_item_ids": [
+        "gmail:1a0cf38eb3780ef0"
+      ]
+    },
+    {
+      "title": "Macro: PMI shock sends 10Y to 5.11%, 5Y auction tails 3.2bp \u2014 risk-off across tech/semis",
+      "body": "September flash composite PMI hit 58.4 (vs 55.3 consensus), highest since 2021, with manufacturing at 57.0. The 5Y Treasury auction tailed 3.2bp \u2014 the largest since June 2022 \u2014 with end-users awarded only 84.2% (lowest since May 2024). 2Y yields hit +15bps to 4.89%, 10Y at 5.11% (post-GFC high), Nasdaq -1.13%, S&P -0.75%. Fed's Barr signaled further hikes needed.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a0d0420b73748b3",
+        "gmail:1a0d02693d373735"
+      ]
+    },
+    {
+      "title": "BABA -4.8%: China probes DeepSeek and Moonshot AI over data security",
+      "body": "Alibaba fell 4.8% after China announced probes into DeepSeek and Moonshot AI startups over data security concerns, pressuring Chinese internet names broadly.",
+      "tickers": [
+        "BABA"
+      ],
+      "source_item_ids": [
+        "gmail:1a0cfe5aa6dfdacb"
+      ]
+    },
+    {
+      "title": "TEAM +3.4%: Accelerated IL5 authorization and air-gapped cloud deployment plans",
+      "body": "Atlassian gained 3.4% on news of accelerated IL5 government authorization and plans for air-gapped cloud deployment, expanding its federal market addressability.",
+      "tickers": [
+        "TEAM"
+      ],
+      "source_item_ids": [
+        "gmail:1a0cfe5aa6dfdacb"
+      ]
+    },
+    {
+      "title": "MSFT: Stifel upgrade drives +0.5%; software outperforms semis on risk-off rotation",
+      "body": "Software was the brightest tech subsector (+1.1%) as investors rotated from semis (-1.2%) on AI compute revenue scaling concerns. MSFT +0.5% on Stifel upgrade and Copilot discount strategy; HUBS +3.6% on FBN Securities initiation at Sector Perform with $230 target.",
+      "tickers": [
+        "MSFT",
         "HUBS"
       ],
       "source_item_ids": [
-        "gmail:1a0ce5b38e535ef4"
-      ]
-    },
-    {
-      "title": "NET: 52-week high (+57.6% YTD); Citi prefers over FSLY for security exposure",
-      "body": "Cloudflare hit a 52-week high on 9/23 with +57.6% YTD gains, with GS noting it is in a strong 'inference economy' trend channel. Citi's Fatima Boolani stays Neutral on Fastly despite 40%+ Security growth, explicitly preferring NET as growing 2-2.5x faster for similar exposure.",
-      "tickers": [
-        "NET"
-      ],
-      "source_item_ids": [
-        "gmail:1a0ce6b9e27aa5b1",
-        "gmail:1a0ce94e12bbb389"
+        "gmail:1a0cfe5aa6dfdacb",
+        "gmail:1a0cff00e0650392"
       ]
     }
   ]
