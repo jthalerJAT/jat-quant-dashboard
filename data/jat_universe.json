@@ -1,247 +1,236 @@
 {
-  "digest_type": "premarket",
-  "digest_dt": "2026-10-09T08:30:00-04:00",
-  "saved_at": "2026-10-09T12:45:17.610626+00:00",
+  "digest_type": "midday",
+  "digest_dt": "2026-10-09T12:00:00-04:00",
+  "saved_at": "2026-10-09T16:14:56.098987+00:00",
   "bullets": [
     {
-      "title": "AAPL: iPhone 18 Pro orders cut 15-20% on weak demand \u2014 multiple broker confirmation",
-      "body": "Nikkei Asia reports Apple instructed suppliers to cut iPhone 18 Pro/Pro Max component orders by 15-20% for October, unusually early in the cycle. Higher retail prices ($100 increase) and surging memory chip costs are cited as demand headwinds. SWKS (~60% Apple exposure), Qorvo (~50%), and SITM (~1% quarterly revenue headwind) are flagged as most at-risk; QCOM insulated given only ~10% Pro/ProMax modem share.",
+      "title": "LITE: Optical components sold out through early 2029; AI demand far exceeds supply",
+      "body": "Lumentum CEO confirmed the company is completely sold out of optical components for AI servers through early 2029, extending the prior sell-out timeline by ~6 months. The company cannot meet ~70% of 2027 demand for some products. LITE up ~6-7% pre-market; sympathetic moves in AAOI, COHR, CIEN, FN, GLW.",
+      "tickers": [
+        "LITE",
+        "COHR",
+        "CIEN",
+        "AAOI"
+      ],
+      "source_item_ids": [
+        "gmail:1a120cf0bc237222",
+        "gmail:1a120a578ce09995"
+      ]
+    },
+    {
+      "title": "AAPL: iPhone 18 Pro/Max builds cut 15-20% on weak demand and price-hike pushback",
+      "body": "Nikkei reported Apple told suppliers to cut iPhone 18 Pro/Pro Max component orders by at least 15% in October; Mizuho buyside checks confirm 15-20% cuts. The iPhone Duo launching Oct 23 at $1,999 is also expected to see weak demand. AAPL down ~2.3% pre-market; SWKS (~60% AAPL revenue) and QRVO (~50%) flagged at risk.",
       "tickers": [
         "AAPL"
       ],
       "source_item_ids": [
-        "gmail:1a12094e5136c43f",
-        "gmail:1a1208c849a79f71"
+        "gmail:1a120e0035b078fc",
+        "gmail:1a120bc83d8cb872"
       ]
     },
     {
-      "title": "LITE: Optical components sold out through early 2029; AI server demand overwhelms supply",
-      "body": "Lumentum CEO confirmed optical components for AI servers are completely sold out through early 2029, with the company unable to meet approximately 70% of demand through next year. This is a direct bullish read-through for AAOI and COHR. Hedgeye and multiple desks note this as a long catalyst for AAOI and SITM into the OCP conference.",
-      "tickers": [
-        "LITE",
-        "AAOI",
-        "COHR"
-      ],
-      "source_item_ids": [
-        "gmail:1a1208c849a79f71",
-        "gmail:1a1209c884fd762d"
-      ]
-    },
-    {
-      "title": "ANET: Citi initiates Buy at $248 PT; Etherlink SU-144 opens $10B scale-up networking TAM",
-      "body": "Arista launched Etherlink SU-144, a pure open-Ethernet scale-up networking solution competing against NVDA's NVLink and UALink. Citi values ANET at $248 (36x 2028 EPS, 17.6% upside) and cites MSFT collaboration on Maia accelerators and META on scale-out as key customer anchors. Dell'Oro estimates the ESUN TAM at $10B by 2027.",
-      "tickers": [
-        "ANET"
-      ],
-      "source_item_ids": [
-        "gmail:1a120701709548d6",
-        "gmail:1a1209a557f4763f"
-      ]
-    },
-    {
-      "title": "NET: Oppenheimer raises PT to $430 from $380; 3Q expected well above guidance",
-      "body": "Oppenheimer lifts Cloudflare's PT to $430 on 15-20% YoY contract value growth, with Workers appearing in 50-75% of 3Q contracts. Management is expected to raise CY26 revenue guidance to 34-35% at the 3Q print. KeyBanc VAR survey confirms open-weight model shift continues to benefit NET as a cost-effective alternative.",
-      "tickers": [
-        "NET"
-      ],
-      "source_item_ids": [
-        "gmail:1a12095454671ab0",
-        "gmail:1a1207455dc68f16"
-      ]
-    },
-    {
-      "title": "T, VZ: SpaceX $8B 800 MHz spectrum acquisition triggers 5-7% pre-market selloff",
-      "body": "SpaceX agreed to acquire Grain Management's nationwide 800 MHz low-band spectrum portfolio for ~$8B, addressing Starlink Mobile's indoor penetration gap and signaling intent to become a fourth US mobile carrier. AT&T -6-7%, Verizon -5-7%, TMUS -7.4% in pre-market. Morgan Stanley models <1% US mobile penetration by 2030 scaling to ~7% by 2035 (primarily rural), while tower stocks (AMT, CCI, SBAC) rallied 6-8% on colocations upside.",
+      "title": "T/VZ/TMUS: SpaceX $8B 800MHz spectrum buy sparks massive selloff; towers rally",
+      "body": "SpaceX acquired ~13.5-14 MHz of 800MHz low-band spectrum from Grain Management for ~$8B (~$1.70/MHz-PoP), moving toward wireless carrier status and threatening T/VZ/TMUS. T down 6-10%, VZ down 5-10%, TMUS down 7.5-12% with heavy put-heavy options volume (T: 112k contracts 210% above avg; VZ: 99k contracts 239% above avg). Citi's Rollins sees 21% upside for CCI, 20% for SBAC, 10% for AMT; maintains Buy on all three tower names.",
       "tickers": [
         "T",
-        "VZ",
-        "CHTR",
-        "CMCSA"
+        "VZ"
       ],
       "source_item_ids": [
-        "gmail:1a1208eb55a30d4c",
-        "gmail:1a1205e0795a5d68"
+        "gmail:1a1215c5fbe1ae0a",
+        "gmail:1a120ebc5964849f"
       ]
     },
     {
-      "title": "NVDA: Supply chain checks strong; Taiwan exports +26% m/m to $29.9B in September",
-      "body": "UBS and Wolfe checks confirm robust NVDA supply chain with September Taiwan export data surging 26% m/m to $29.9B. Vera Rubin systems are on track; lower HBM density for Rubin Ultra reflects supply constraints rather than performance trade-offs. NVDA is rationing HBM amid strong accelerator unit supply. Hedgeye maintains bullish signal with range $225-$243.",
+      "title": "NFLX: ~5% workforce RIF expected before earnings; stock implications mixed",
+      "body": "Puck News and multiple broker notes flag Netflix is preparing to lay off approximately 5% of its workforce as part of a restructuring, with announcement expected before Q3 earnings. No guidance revision flagged yet. Wolfe's 3Q preview separately notes Netflix top-10 viewing fell -11% y/y (vs -9% prior quarter) though showing sequential stabilization vs. Q2's -13%.",
+      "tickers": [
+        "NFLX"
+      ],
+      "source_item_ids": [
+        "gmail:1a120e0035b078fc",
+        "gmail:1a1210e31090978d"
+      ]
+    },
+    {
+      "title": "BKNG/EXPE/ABNB: Agentic AI (Meta Muse, Google) threatening OTA commission pools; stocks -15-25%",
+      "body": "Meta's Muse and Instinct AI agents now complete full travel bookings without OTA integration using browser automation and one-time cards; Google launched hotel booking in AI Mode in late August. OTA stocks down 15-25% YTD on this threat. Wolfe survey: only 27% of consumers tried Muse and 64% won't trust agents with credit cards, suggesting near-term risk is better-than-feared. Expedia leads AI-readiness scorecard; Airbnb sits at bottom. Muse could generate $30-50B M/LT revenue opportunity for META itself.",
+      "tickers": [
+        "BKNG",
+        "EXPE",
+        "ABNB",
+        "META"
+      ],
+      "source_item_ids": [
+        "gmail:1a120e11cab71e4c",
+        "gmail:1a120adb68084888"
+      ]
+    },
+    {
+      "title": "NVDA: AWS capex bullish, Trainium sold out; supply chain tight on memory rationing",
+      "body": "AWS CEO Garman signaled no capex slowdown; AWS Trainium is sold out through late 2027 with GPU fulfillment running only ~60%. NVDA is rationing memory by reducing memory specs on GPUs to maximize unit output given bit availability constraints. Jensen signaling confidence on AI share wins vs. ASICs per Mizuho buyside checks. Separately, SpaceX seeking ~$30B IG debt to finance NVIDIA chip purchases; NVDA announced $500B third-party AI compute financing pool.",
       "tickers": [
         "NVDA"
       ],
       "source_item_ids": [
-        "gmail:1a12091333ec9af7",
-        "gmail:1a1200ef09a2bc2c"
+        "gmail:1a120e0035b078fc",
+        "gmail:1a120e9c41bc9ab3"
       ]
     },
     {
-      "title": "DELL: Clear OEM leader in server execution; 3Q datacenter revenue +50% YoY with $500M unbilled backlog",
-      "body": "JPM channel check with a large US VAR shows Dell is the best-positioned OEM in server supply chain execution, with 3Q26 datacenter revenue up ~50% YoY and ~$500M in unbilled backlog expected to ship in 2027. 4Q26 softness is characterized as mechanical pull-forward, not structural, with solid 1Q-3Q27 visibility. SMCI flagged with GPU-export scrutiny risks.",
+      "title": "AVGO: Arranging $50B+ financing for custom OpenAI chips; buyside sentiment weakest in northeast",
+      "body": "Broadcom is arranging $50B+ in financing (Apollo and Blackstone as potential lenders) for custom chips destined for OpenAI. Despite the capex tailwind, Mizuho notes buyside AVGO sentiment was worst in the northeast; positioning could support upside if Mediatek V9 TPU delays are confirmed. Citi TMT consensus has AVGO shorts on competition as a crowded tactical trade.",
       "tickers": [
-        "DELL",
-        "SMCI"
+        "AVGO"
       ],
       "source_item_ids": [
-        "gmail:1a12001f7e07044e",
-        "gmail:1a1208c849a79f71"
+        "gmail:1a120e9c41bc9ab3",
+        "gmail:1a120cf0bc237222"
       ]
     },
     {
-      "title": "NOW: Elite partner channel check shows 10-25% AI SKU spend uplift on all renewals",
-      "body": "A JPM discussion with an elite ServiceNow partner confirms all renewing customers are migrating to new AI SKUs with 10-25% average spend uplift (mostly to Advanced tier). Q3 landed on plan, Q4 tracking 35-40% of annual bookings, and the partner expects 2027 growth to exceed 2026 driven by new SKUs plus consumption revenue ramp.",
+      "title": "ORCL: GPU financing discussions with Apollo/Goldman; key catalyst is FY28 cash flow inflection",
+      "body": "Oracle is in discussions with Apollo and Goldman Sachs for a large GPU purchase financing arrangement. Mizuho buyside checks see ORCL as a potential 2H27 rebounder with the key catalyst being cash flow inflection in FY28 as current cash burn reverses.",
       "tickers": [
-        "NOW"
+        "ORCL"
       ],
       "source_item_ids": [
-        "gmail:1a1201e1b559cf97"
+        "gmail:1a120e9c41bc9ab3",
+        "gmail:1a120cf0bc237222"
       ]
     },
     {
-      "title": "NFLX: Planning ~5% workforce reduction (~850 employees), announcement as early as next week",
-      "body": "Netflix is preparing a restructuring to be announced as early as next week, impacting approximately 5% of its workforce (~850 workers). Hedgeye's risk range on NFLX is bearish at $66-72. The layoffs appear cost-driven rather than demand-related.",
-      "tickers": [
-        "NFLX"
-      ],
-      "source_item_ids": [
-        "gmail:1a12079c165f402f",
-        "gmail:1a1209a9505ce638"
-      ]
-    },
-    {
-      "title": "GOOGL: JPM sees $50-100B EBIT upside in 2028 from Anthropic TPU sales \u2014 mid-$20s EPS bull case",
-      "body": "JPM argues TPU sales to Anthropic could reach 10GW by 2028, generating $50-100B EBIT vs. Street's $270B total 2028 EBIT estimate. Bulls model mid-$20s 2028 EPS vs. consensus ~$18. GOOGL also launched Gemini Agent for Work (orchestrating across Gemini and Claude) and is positioned as a funding short for HFs long META/AMZN, adding tactical appeal.",
-      "tickers": [
-        "GOOGL"
-      ],
-      "source_item_ids": [
-        "gmail:1a12041007123efd",
-        "gmail:1a12092175278516"
-      ]
-    },
-    {
-      "title": "MSFT: Bullish signal maintained; Surface Laptop Ultra launches at $2,599 with 128GB unified memory",
-      "body": "Hedgeye maintains MSFT in bullish signal range $506-535. Surface Laptop Ultra launched at up to 128GB unified memory at $2,599. Trump admin's H-1B visa suspension for major tech firms (including ACN, CTSH) is flagged as a support for domestic tech headcount, though Microsoft itself is named in the suspension list.",
-      "tickers": [
-        "MSFT"
-      ],
-      "source_item_ids": [
-        "gmail:1a1209d00f3b7afb",
-        "gmail:1a12091333ec9af7"
-      ]
-    },
-    {
-      "title": "META: Bullish signal $709-755; bans ByteDance ads in 7 countries; strong 3Q print expected",
-      "body": "Hedgeye maintains META bullish with risk range $709-755. Jefferies notes META is well positioned for a strong Q3 print with CY26 capex expectations >$250B. META also banned ByteDance advertisements across its apps in 7 countries, escalating TikTok rivalry, and is collaborating with ANET on scale-out networking solutions.",
+      "title": "META: Muse #1 US App Store 22 days running; launched ahead of schedule due to Instinct competitive threat",
+      "body": "Meta's Muse has been the #1 US App Store app for 22 consecutive days; Citi notes META delayed Muse release over privacy concerns but pulled forward the launch due to Instinct competitive pressure. META also banned ByteDance ads. Muse is driving the OTA/marketplace selloff and the broader 'agent layer' debate across consumer internet.",
       "tickers": [
         "META"
       ],
       "source_item_ids": [
-        "gmail:1a120819ac6131f3",
-        "gmail:1a1209227d3ec75e"
+        "gmail:1a120e0035b078fc",
+        "gmail:1a120cc98310ec1c"
       ]
     },
     {
-      "title": "AMZN: Hedgeye shifts to bearish; Leo satellite program weeks from launch with 3x downlink advantage",
-      "body": "Hedgeye changed AMZN's trend signal from Neutral to Bearish (range $240-259). On the fundamental side, JPM notes AMZN's Leo satellite program is weeks away from launch with 396 satellites in orbit and 3-8x performance advantages vs. Starlink on downlink/uplink \u2014 a potential competitive response in broadband.",
+      "title": "DELL/MU/AMD/INTC: PC shipments -20% y/y in 3Q26; semiconductor exposure flagged as headwind",
+      "body": "IDC reports 3Q26 PC shipments fell 20.1% y/y to 62.7M units (vs -3.8% in 2Q), driven by 1H pull-in exhaustion and elevated inventory. Dell down 25%, HP down 30.9%, Apple down 11.3% in units. KeyBanc September notebook ODM data confirms -18% y/y at 13.8M units, below their 15.3M estimate. PC-exposed semis (AMD, INTC, MU, NVDA) flagged as negatively impacted.",
       "tickers": [
-        "AMZN"
-      ],
-      "source_item_ids": [
-        "gmail:1a12076b17ade6e6",
-        "gmail:1a12092175278516"
-      ]
-    },
-    {
-      "title": "DIS: Wolfe raises PT to $132; cost cuts fund DTC growth, 23% upside flagged",
-      "body": "Wolfe raises Disney PT to $132 (prior $131) on FY28 EPS of $8.49, citing ~$300M annualized savings from ~1.5K YTD layoffs being reinvested into DTC. Disney's TV/streaming business has ~50K employees vs. Netflix's ~16K, pointing to further efficiency runway. DIS trades at 14x FY27 EPS, ~10% discount to the S&P.",
-      "tickers": [
-        "DIS"
-      ],
-      "source_item_ids": [
-        "gmail:1a11fe591f04387f"
-      ]
-    },
-    {
-      "title": "LYV: Top live entertainment pick; Venue Nation fan growth exceeding 10M, AOI above consensus",
-      "body": "Wolfe maintains LYV as top pick in live entertainment, with concerts AOI estimates ~$20M above Street for the quarter and Venue Nation fan growth expected to exceed 10M (vs. 5M annually in prior four years). Live entertainment YTD +21.3% vs. S&P +13.4%; sector trades at 21% discount to its 3-year average EV/EBITDA of 15.2x.",
-      "tickers": [
-        "LYV",
-        "FWONK",
-        "TKO",
-        "SPHR"
-      ],
-      "source_item_ids": [
-        "gmail:1a11fe660f599b44"
-      ]
-    },
-    {
-      "title": "HPE: PC market collapse (-20% YoY in 3Q26) creates significant headwind; Morgan Stanley flags 41% revenue decline risk",
-      "body": "Global PC shipments fell 20.1% YoY to 62.7M units in 3Q26 \u2014 the second consecutive annual decline and worst quarter since COVID \u2014 driven by 1H26 inventory pull-forward and memory cost-driven price hikes. Morgan Stanley forecasts HPE revenue down 41% in 2027. Apple was the only OEM to gain share (+90bps to 9.5%).",
-      "tickers": [
-        "HPE",
         "DELL",
+        "MU",
+        "AMD",
+        "INTC",
         "AAPL"
       ],
       "source_item_ids": [
-        "gmail:1a1201ed6123af0e",
-        "gmail:1a12068c60595903"
+        "gmail:1a12102a341741d0",
+        "gmail:1a12101b745cdd25"
       ]
     },
     {
-      "title": "AI ARR debate: OpenAI $50B Sept run-rate, targeting $70B by year-end \u2014 capex cliff risk if industry misses $400-600B by end-2027",
-      "body": "FT's report of $50B OpenAI ARR (vs. prior $70B expectation) caused a mid-day AI selloff before Bloomberg clarified it as a run-rate-vs-target methodology difference. OpenAI still guides to $70B annualized by year-end and is raising $30B+ at a $1.4T valuation. The broader concern: the AI buildout requires $400-600B in industry ARR exiting 2027 to justify 2029/2030 capex plans (~$1.4T), and missing that marker creates a 'capex cliff' risk weighing on multiples.",
+      "title": "DLR/EQIX: Data center supply/demand imbalance bullish; 65 GW under construction vs. accelerating demand",
+      "body": "Jefferies data center pipeline model forecasts 12.9 GW new NA capacity in 2026, 18 GW in 2027, and 26 GW in 2028 \u2014 with 33%+ growth rates through 2028. ~65 GW is under construction (~140% of installed base) but labor/permitting remain gating factors (electrician employment up only 15% in 5 years vs. 6x capacity delivery expected). DLR/EQIX own ~3 GW in markets with the most acute imbalances; hyperscalers increasingly leasing vs. self-building.",
       "tickers": [
-        "NVDA",
-        "MSFT",
-        "GOOGL",
-        "AMZN",
-        "META",
-        "ORCL"
+        "DLR",
+        "EQIX"
       ],
       "source_item_ids": [
-        "gmail:1a1209eb1f567637",
-        "gmail:1a12095454671ab0"
+        "gmail:1a120f1a5152b500",
+        "gmail:1a120ac8525c10e7"
       ]
     },
     {
-      "title": "TSLA, NVDA, AAPL: Hedgeye maintains bullish risk ranges into 4Q; GOOGL, AMZN bearish",
-      "body": "Hedgeye's Oct 9 Risk Range signals: NVDA bullish $225-243, MSFT bullish $506-535, TSLA bullish $345-390, META bullish $709-755, AAPL bullish $332-344; GOOGL bearish $337-352, AMZN bearish $240-259, NFLX bearish $66-72. Net long exposure among consensus US L/S HFs hit the lowest level of 2026.",
-      "tickers": [
-        "TSLA",
-        "NVDA",
-        "AAPL",
-        "MSFT",
-        "META",
-        "GOOGL",
-        "AMZN",
-        "NFLX"
-      ],
-      "source_item_ids": [
-        "gmail:1a12076b17ade6e6",
-        "gmail:1a1209227d3ec75e"
-      ]
-    },
-    {
-      "title": "WULF, HUT: Morgan Stanley NDR for TeraWulf (WULF) Oct 14 in NYC; no rating change",
-      "body": "Morgan Stanley scheduled a TeraWulf NDR with CEO for October 14 in New York. No new rating action, but the event provides a near-term catalyst window for positioning.",
+      "title": "WULF/HUT: MS raises powered-shell capex yield to 19%; raises PTs for both names",
+      "body": "Morgan Stanley's Stephen Byrd updated his power-shell framework, raising capex yield assumptions from 15% to 19% to offset higher cost of capital; terminal cap rate moves to 6.7% (from 5%) and debt coupons to 7% for hyperscaler, 10% for neocloud deals. Byrd raises price targets for HUT and WULF (also APLD); lowers MARA, RIOT.",
       "tickers": [
         "WULF",
         "HUT"
       ],
       "source_item_ids": [
-        "gmail:1a1202aea389e299"
+        "gmail:1a120d450b092d99",
+        "gmail:1a120e0035b078fc"
       ]
     },
     {
-      "title": "CRWV: JPM hosted joint equity/credit CoreWeave call; Piper bullish on job posting demand trends",
-      "body": "JPMorgan held a joint equity and credit discussion on CoreWeave addressing capital structure questions. Piper's morning call separately flagged CRWV job postings as reflecting positive demand trends in infrastructure software, alongside CSCO.",
+      "title": "TSLA: Cybercab registrations doubled two weeks in a row",
+      "body": "Morgan Stanley TMT note flags that Tesla Cybercab registrations have doubled for two consecutive weeks, the most recent positive datapoint ahead of launch. No price target action cited in this note.",
       "tickers": [
-        "CRWV",
-        "CSCO"
+        "TSLA"
       ],
       "source_item_ids": [
-        "gmail:1a1208f0be59a37b",
-        "gmail:1a1209f1c012b7de"
+        "gmail:1a120e0035b078fc"
+      ]
+    },
+    {
+      "title": "SPOT: Citi reiterates Buy with $620 PT; Q3 in-line, Q4 gross margin slightly below Street",
+      "body": "Citi maintains Buy on Spotify with $620 PT (27x 2027E FCF). Q3 operating income estimate is \u20ac653M vs. Street at \u20ac675M. Q4 gross margin expected at 33.3% vs. Street's 33.9% due to international expansion costs. Wolfe separately notes gross margin forecasts need to come down further (33.6% vs. 33.9% consensus) and sees audiobooks as a 2027 upside catalyst.",
+      "tickers": [
+        "SPOT"
+      ],
+      "source_item_ids": [
+        "gmail:1a120cc98310ec1c",
+        "gmail:1a1210e31090978d"
+      ]
+    },
+    {
+      "title": "NYT: Morgan Stanley cuts PT to $75 from $90; video investment headwinds pressure near-term",
+      "body": "Morgan Stanley maintained Equal-Weight on NYT but cut PT from $90 to $75, implying ~15x forward EBITDA (vs. prior 19x). Shares have underperformed S&P by ~20pts YTD. Video investment is accelerating opex growth to +8.5% YoY in 2026 from the historical ~4-5%, compressing EBITDA/EPS by 2-4%. Q3 digital net adds expected to moderate to ~200k; engagement softness may reflect AI search traffic headwinds.",
+      "tickers": [
+        "NYT"
+      ],
+      "source_item_ids": [
+        "gmail:1a120dc7b6e46b3f"
+      ]
+    },
+    {
+      "title": "CRWD: Vendor consolidation driving share gains; pricing pressure on QLYS/TENB/RPD",
+      "body": "Two VAR checks (GuidePoint via DA Davidson; separate security survey) confirm CRWD gaining share as customers consolidate cybersecurity budgets that remain flat YoY. CRWD actively putting pricing pressure on vulnerability management incumbents QLYS, TENB, and RPD. PANW struck the most confident tone at Citi's software bus tour; NET flagged as positive read from Vercel commentary.",
+      "tickers": [
+        "NET"
+      ],
+      "source_item_ids": [
+        "gmail:1a1212d5b2959ee3",
+        "gmail:1a120cc98310ec1c"
+      ]
+    },
+    {
+      "title": "GOOGL: 120+ lawmakers raise privacy concerns over planned Spirit Airlines data acquisition",
+      "body": "Alphabet's plan to acquire Spirit Airlines passenger/employee data to train AI models has prompted objections from more than 120 US lawmakers focused on employee data protection. No financial impact quantified yet, but adds to GOOGL's regulatory overhang.",
+      "tickers": [
+        "GOOGL"
+      ],
+      "source_item_ids": [
+        "gmail:1a12129696267d54"
+      ]
+    },
+    {
+      "title": "TSM: Taiwan exports +61% y/y in September; TSMC revenues near NT$500B, fresh USD records",
+      "body": "Taiwan September exports jumped 61% y/y and 8% m/m, with ICT products surging 23% m/m to an all-time high of $41B. TSMC revenues rose 0.7% m/m (sa) to nearly NT$500B, setting fresh USD records. Taiwan Manufacturing PMI jumped 2pts to 56.7 in September \u2014 a series with ~70% correlation to US ISM (1-month lead).",
+      "tickers": [
+        "TSM"
+      ],
+      "source_item_ids": [
+        "gmail:1a120d8697dfa6d8"
+      ]
+    },
+    {
+      "title": "CHTR: Down 33% as creditor CoBank sues to block Mega Broadband acquisition, cites insolvency",
+      "body": "CoBank filed a lawsuit and is seeking a restraining order to block Charter's acquisition of the remaining 55% of Mega Broadband (Vyve) for $475-495M, alleging the deal overvalues Mega Broadband and that CHTR is insolvent. CHTR was reportedly in advanced talks on a new $1.25B financing package as of yesterday; Mega generates ~$310M annual revenue with ~210k customers.",
+      "tickers": [
+        "CHTR"
+      ],
+      "source_item_ids": [
+        "gmail:1a12156031592fae"
+      ]
+    },
+    {
+      "title": "TEAM/ACN/MRVL: Upcoming investor days; MRVL analyst day coverage flagged by Wolfe",
+      "body": "Applied Materials (AMAT) and Atlassian (TEAM) hosting investor days Tuesday; Accenture (ACN) hosting Wednesday per JPM credit note. Wolfe Research flagging MRVL analyst day as a key near-term event in its semiconductor webcast today.",
+      "tickers": [
+        "TEAM",
+        "ACN",
+        "MRVL"
+      ],
+      "source_item_ids": [
+        "gmail:1a120e9c41bc9ab3",
+        "gmail:1a120c58b8d22540"
       ]
     }
   ]
