@@ -1,227 +1,235 @@
 {
-  "digest_type": "premarket",
-  "digest_dt": "2026-10-13T08:30:00-04:00",
-  "saved_at": "2026-10-13T12:44:07.522549+00:00",
+  "digest_type": "midday",
+  "digest_dt": "2026-10-13T12:00:00-04:00",
+  "saved_at": "2026-10-13T16:13:57.253072+00:00",
   "bullets": [
     {
-      "title": "Semis log 5-6 consecutive down days; SOX -1.8% pre-mkt on CXMT/AI financing fears",
-      "body": "The semiconductor selloff is entering its 5th-6th straight session, matching the longest streak since the Spring 2025 Liberation Day event. China's CXMT claims a DDR5 4F\u00b2 DRAM cell breakthrough ~2 years ahead of Samsung's roadmap (commercial skepticism remains but major equipment suppliers Daifuku/TEL/Kokusai are seeing aggressive order ramps). Separately, AVGO CEO Hock Tan warned AI capital deployment 'resembles casino gambling' with borrowing costs now a bigger constraint than chips, while JPMorgan and Goldman rejected $3.7B of a Volta AI loan tranche on risk concerns.",
+      "title": "Semiconductor sector under broad pressure: CXMT DRAM, AI financing fears, AVGO CEO comments",
+      "body": "The SOX fell ~8% on the week and semis declined for a second consecutive day (SOXX -2.30% pre-market) driven by three catalysts: China's CXMT announcing 4F\u00b2 DRAM cell progress raising memory competition fears (SK Hynix -10%, Samsung -7% in Korea), AVGO CEO Hock Tan's comments interpreted as warning on AI capital deployment clarity, and broader concerns about debt-fueled AI infrastructure financing sustainability. Memory names hit hardest: STX -7.9%, WDC -7.6%, MU -5.1%; infrastructure names also weak: CRWV -4.5%, DELL -3.1%, CLS -2.8%. Klein and JPM analysts argue the selloff is fundamentals-agnostic \u2014 CXMT mass production unproven, institutional book-to-bills improved \u2014 but crowded long positioning remains the primary risk.",
       "tickers": [
         "MU",
+        "SNDK",
+        "STX",
+        "WDC",
         "AVGO",
         "NVDA",
-        "SNDK",
-        "WDC",
-        "STX"
+        "CLS",
+        "DELL",
+        "SMCI",
+        "ARM",
+        "MRVL"
       ],
       "source_item_ids": [
-        "gmail:1a134e5191bda2b0",
-        "gmail:1a134b93c8e321d8"
+        "gmail:1a1354f0817694ae",
+        "gmail:1a135548ef126810"
       ]
     },
     {
-      "title": "Korea KOSPI -5.5% overnight, -33.8% from June peak; Asia semis routed",
-      "body": "South Korea's KOSPI fell 5.5% Monday night and is down 33.8% from June highs amid AI bubble deflation fears. Samsung and SK Hynix fell 8-10%; Japan's Nikkei dropped 1.8% with Kioxia down 13%. Hedgeye is positioned short semis/DRAM and long software, looking to short bounces.",
-      "tickers": [
-        "MU",
-        "SNDK"
-      ],
+      "title": "KOSPI -33.8% from June peak signals AI bubble risk; Korea seen as macro canary",
+      "body": "South Korean KOSPI has fallen 33.8% from June peaks, with the index down sharply overnight on memory competition fears. Multiple strategists \u2014 Hedgeye, 22V \u2014 cite the KOSPI decline as a bellwether for potential AI capex bubble, noting margin calls among retail/day traders. 22V notes the KOSPI move is triggering reduced conviction on AI momentum longs ahead of hyperscaler earnings, with Price Momentum factor up 9% from Sept 1 now at risk.",
+      "tickers": [],
       "source_item_ids": [
-        "gmail:1a13529cfdff3b05",
-        "gmail:1a1350fd98f54df0"
+        "gmail:1a1354d920ee683b",
+        "gmail:1a13555d938ae0cb"
       ]
     },
     {
-      "title": "10-yr yield at 5.19%; SPX futures +0.10% despite tech drag; lightest SPY volume since Nov 2005",
-      "body": "The 10-year Treasury sits at 5.19% with SPY trading at 18.6M shares yesterday \u2014 the lightest volume since November 2005, with broader index volumes down 25%. S&P futures are slightly positive at 7849.75 even as NDX futures are down ~70bps, reflecting rotation out of tech/semis. Major US banks are entering correction territory as Treasury yields surge.",
+      "title": "CPI print tomorrow; market complacent with VIX in single digits, 3.6% expected",
+      "body": "Hedgeye flags VIX at 8.33 (single digits for two consecutive days) as a sign of broad market complacency ahead of Wednesday's CPI release, expected at 3.6% (accelerating from 3.4%). Current market rally attributed to two Fed dovish comments rather than data; Hedgeye reduced longs to one position on Monday ahead of the print. Morgan Stanley separately warns that non-core inflation shocks (energy, food) move downstream into producer costs within 2-3 quarters, with US tariff disinflation only partially offsetting.",
       "tickers": [
         "SPY"
       ],
       "source_item_ids": [
-        "gmail:1a13520ca91736fc",
-        "gmail:1a134baa3c0e486a"
+        "gmail:1a13558361e7027f",
+        "gmail:1a13567e7c2955b1"
       ]
     },
     {
-      "title": "September CPI today: GS expects core +0.24% m/m / +2.46% y/y; headline +0.59% on energy",
-      "body": "Goldman Sachs previews September CPI with core at +0.24% m/m and +2.46% y/y, while headline prints hotter at +0.59% m/m / +3.70% y/y driven by energy. The quality factor is increasingly punitive in the current credit environment, with reversal risk flagged around today's CPI release and the upcoming Fed meeting.",
+      "title": "10-year yield at 5.21%; rates crowding out non-AI capex, credit repricing underway",
+      "body": "The 10-year Treasury yield sits at 5.21% (+3bps pre-market), with Goldman noting credit markets are repricing higher borrowing costs rather than inflation, with growing divergence between secular AI growth beneficiaries and non-AI funding costs. A macro strategist argues the Fed's shift from 'lower rates slowly' to 'raise rates slowly' caused an abrupt bond market repricing now crowding out non-AI capital spending. Goldman prefers high-quality credit and AI beneficiaries across the capital structure; LQD and HYG both signal bearish per Hedgeye risk ranges.",
       "tickers": [],
       "source_item_ids": [
-        "gmail:1a13525f8cc6cc1f",
-        "gmail:1a134baa3c0e486a"
+        "gmail:1a135f41e8c50fc0",
+        "gmail:1a135cb4cf49c78e"
       ]
     },
     {
-      "title": "AI capex supersycle intact: JPM raises cloud DC capex to +85% in 2026 ($270B+), +70% in 2027 ($400B+)",
-      "body": "JPM's latest data center capex model projects the largest annual step-up in a decade: top-4 U.S. CSPs (Google +120%, Meta +100%, Amazon +70%, Microsoft +55%) collectively spending $270B+ in 2026 and $400B+ in 2027, consuming 80% and 111% of operating cash flow respectively. Installed North American capacity expands from 54 GW (2025) to 125 GW (2027), with planned capacity already at 200 GW+. JPM is bullish on networking suppliers as the gating factor for high-end compute.",
-      "tickers": [
-        "ANET",
-        "CIEN",
-        "COHR",
-        "LITE",
-        "FN",
-        "CRDO",
-        "CLS",
-        "GLW"
-      ],
+      "title": "Big bank Q3 earnings: GS/C beat solidly; JPM/WFC miss; credit quality benign across the board",
+      "body": "Goldman Sachs delivered standout results: Q3 EPS $17.01 vs $12.86 estimate, with equities trading +26% YoY, total trading ~$1B ahead of consensus, 16.1% ROE and 59.4% efficiency ratio. Citi beat at $2.85 vs $2.65 and raised NII guidance to mid-to-high 6% ex-markets. JPM missed on CIB (FICC -4% YoY) and WFC missed on revenues ($21.87B vs $22.31B est.), though NIM held flat at 2.43%. Credit quality benign across all four \u2014 JPM 30-day mortgage delinquency fell to 0.79%; WFC CRE nonaccruals down 20% sequentially. BAC, MS, STT report tomorrow.",
+      "tickers": [],
       "source_item_ids": [
-        "gmail:1a134b7e1b545bff",
-        "gmail:1a134b92c030222b"
+        "gmail:1a13542ca736cb60",
+        "gmail:1a13556fb929c281"
       ]
     },
     {
-      "title": "MSFT Maia 300 targets 1M+ chip deployment by 2027, reducing NVDA dependence structurally",
-      "body": "Microsoft unveiled its Maia 300 AI inference chip with 40% better power efficiency vs. GPUs, with analysts projecting 500K-1M+ units shipped in 2027. Citi flagged that the Maia XPU ramp magnitude is not yet fully reflected in Marvell's revenue framework, suggesting upside. MSFT is also reshaping Azure leadership amid cloud/AI reorganization.",
+      "title": "On-prem AI repatriation emerging as secular tailwind for hardware; MSFT leads enterprise AI share",
+      "body": "Morgan Stanley's 3Q CIO survey shows 45% of enterprises using open-weight AI models (rising to 90% in 3 years), 45% reporting AI workload repatriation to on-prem, and 59% expecting higher on-prem compute needs. HPE cites 60% lower token costs vs. public cloud; NTNX expects 1-year payback on $20M internal AI spend. MSFT cited by 30% of CIOs as the vendor most likely to capture incremental GenAI spend (up from 27% in 2Q); Azure usage leads at 79% vs AWS 66% and GCP 43%. 64% of CIOs prefer buying AI capabilities vs. building, benefiting MSFT, CRM, NOW, ORCL, SNOW.",
       "tickers": [
         "MSFT",
+        "DELL",
+        "HPE",
+        "CSCO",
         "NVDA",
-        "MRVL"
+        "CRM",
+        "NOW",
+        "ORCL",
+        "SNOW"
       ],
       "source_item_ids": [
-        "gmail:1a1352e55f62c1cf",
-        "gmail:1a134688e3560b29"
+        "gmail:1a135917e28b6859",
+        "gmail:1a1358e25faa017d"
       ]
     },
     {
-      "title": "META Muse Wonder launch drives stock +40% off lows; needs 2027 capex/opex KPIs to break to $800+",
-      "body": "Meta released Muse Wonder and Muse Wonder Full, described as frontier-level models competitive with Claude Opus 5.5, GPT-6 Astra, and Gemini 4 Argon, priced at $4-$20/M tokens. Stock is up ~40% off lows with investor sentiment described as 'white hot.' JPM's Q3 preview sees revenue at ~$64B (+26% y/y) at the high end of guidance, but notes the stock needs concrete Muse KPIs (DAUs, downloads) and a 2027 opex/capex surprise ($210-225B opex vs Street $203B; $225-250B capex vs Street $200B) to break to $800+.",
+      "title": "JPM raises cloud DC capex to +85%/+70% for 2026/2027; networking shift bullish for ANET/CLS/CRDO",
+      "body": "JPMorgan raises CSP cloud data center capex estimates to +85% in 2026 (from +80%) and +70% in 2027 (from +50%), implying $270B+ and $400B+ dollar increases. GOOGL and META lead 2026 growth at 120%+ and ~100% YoY respectively. The sector is structurally shifting from pure accelerator capacity toward networking, a positive for ANET, CLS, and CRDO. NVDA's Rubin is in full production with cable-free tray; MSFT launched Maia 300 on TSMC N2P with HBM4, with HBM supply secured five years out.",
       "tickers": [
-        "META"
+        "NVDA",
+        "MSFT",
+        "GOOGL",
+        "META",
+        "AMD",
+        "CLS",
+        "AVGO",
+        "ANET",
+        "CRDO"
       ],
       "source_item_ids": [
-        "gmail:1a13500b08413cec",
-        "gmail:1a1351abe462fcdb"
+        "gmail:1a135548ef126810",
+        "gmail:1a1354c2a09683f8"
       ]
     },
     {
-      "title": "AI/Semi crowding at 7/10 vs. 10/10 at June peak; BofA FMS shows 37% of managers OW tech, highest since Aug 2020",
-      "body": "AI/semis positioning has pulled back to ~7 out of 10 crowding versus 10 out of 10 at the June 22 peak, per Jefferies. BofA's October Fund Manager Survey separately flags 37% of managers overweight tech \u2014 the highest proportion since August 2020 \u2014 and global investors most exposed to tech stocks since 2020, raising reversal risk. Retail single-stock options volume has risen to 2021 meme-stock levels.",
+      "title": "AI capex ROI debate intensifying; $400-600B ARR needed by 2027 to justify current plans",
+      "body": "22V Research estimates investors require $400-600B minimum AI ARR by end-2027 to justify current capex plans, with 15% ROIC implying a path to ~$1T annual AI revenue in 2028-29. Only 13% of CIOs report AI returns above spend vs. 28% below; 42% cannot assess AI token ROI at all. 22V is dialing back momentum conviction ahead of hyperscaler earnings, recommending long Cash Return factor as a hedge, while avoiding pressing cyclical shorts into earnings season.",
       "tickers": [],
       "source_item_ids": [
-        "gmail:1a13520ca91736fc",
-        "gmail:1a134c0b75680f99"
+        "gmail:1a13555d938ae0cb",
+        "gmail:1a135917e28b6859"
       ]
     },
     {
-      "title": "GOOGL Q3: GCP likely +105-115% Y/Y on TPU sales; Cloud on path to match Search revenue by late 2028",
-      "body": "JPM's GOOGL preview sees Search revenue +14% Y/Y with consensus concerns overblown, while Google Cloud is the bigger story at +105-115% Y/Y driven by TPU sales. Cloud EBIT margins are the critical focus \u2014 if they beat Street's ~33% estimate, it validates strong TPU economics. JPM models GOOGL 2027 Capex at $330-350B vs. Street's ~$305B.",
+      "title": "Sector rotation signals: out of AI/semis/mega-cap tech into small caps, financials, utilities",
+      "body": "Multiple sources flag concentrated positioning in Mag7 (22% of HF US exposure) alongside record short interest in R2K futures and IWM, setting up a squeeze if rates relieve or AI/semis unwind accelerates. IWM is down 8.9% YTD with small-cap weakness spreading into growth subsectors. Expected rotation beneficiaries: XLF, XLU, XLI, IWM. Hedgeye's risk range confirms Russell 2000 as bearish while SPX/NDX remain bullish at current levels.",
       "tickers": [
-        "GOOGL"
+        "SPY"
       ],
       "source_item_ids": [
-        "gmail:1a13500b08413cec"
+        "gmail:1a13549bb406152b",
+        "gmail:1a1354d920ee683b"
       ]
     },
     {
-      "title": "ASML (Wed) and TSMC (Thu) earnings are the critical semi read this week",
-      "body": "ASML reports Wednesday pre-open and is expected to guide flat with Q3 revenue of \u20ac11.7B and gross margins of 56.4%; Jefferies maintains Hold. TSMC reports Thursday and UBS is raising 2027-28 capex forecasts; Jefferies estimates N2/N3 utilization above 100% in 2027 driving 10%+ wafer price increases. Both prints are viewed as pivotal for validating or refuting the AI capex thesis.",
+      "title": "SpaceX wireless ambitions crater telecom: T and VZ each fell 10-11% on Oct 9",
+      "body": "T-Mobile's 1-month implied vol surged to 38.3 (96th percentile) after TMUS dropped 13% on Oct 9 following SpaceX's announcement of plans to acquire additional wireless spectrum. T and VZ fell 11% and 10% respectively. Bernstein separately downgraded AT&T to Market Perform (PT $24 from $25) citing prolonged investor debate over Starlink's pricing power as broadband capacity grows. Citi sees a 12-month recovery opportunity in large-cap telecom but expects near-term continued pressure.",
       "tickers": [
-        "TSM"
+        "T",
+        "VZ"
       ],
       "source_item_ids": [
-        "gmail:1a13453c40eeadfc",
-        "gmail:1a134f5275b1213a"
+        "gmail:1a1354bf2137a7ee",
+        "gmail:1a135862d71ba8a7"
       ]
     },
     {
-      "title": "Power scarcity is the binding AI infrastructure constraint; 19 GW shortages projected next year",
-      "body": "19 GW of power shortages are projected for next year with only ~12.9 GW of new data center capacity expected in 2026 and 18 GW in 2027, far below the 65 GW under construction and 361 GW announced. The powered-shell sector (HUT, APLD, CIFR, GLXY flagged as top beneficiaries) has contracted 5.9 GW of HPC with 38 GW+ in pipeline, yet shares are down 27% on average over the past 3 months. Lease rates are trending up 15%+ at new renewals per APLD.",
+      "title": "IMF nudges 2026 global growth to 3.1%; risks from Middle East energy, French debt, fiscal constraints",
+      "body": "The IMF raised its 2026 global growth estimate by 0.1pp to 3.1% (below the 2000-2019 average of 3.7%), keeping 2027 at 3.4%. Key downside risks: prolonged Middle East conflict keeping energy elevated, French bond contagion for the eurozone, and high public debt limiting fiscal space. Global CPI expected at 4.7% in 2026, easing to 4.1% in 2027 vs. 2.8% in January 2026. The US is seen as an outperformer driven by AI investment and productivity gains.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a1357d828e08679"
+      ]
+    },
+    {
+      "title": "September existing home sales beat at 3.99M; rising inventories may slow price appreciation",
+      "body": "Existing home sales rose 1.5% MoM to a 3.99M annualized rate in September, beating estimates of 3.93-3.95M. Single-family sales drove the gain (+2.0% MoM) while multi-family fell 2.8%; multi-unit sales have been flat-to-down every month of 2026. Single-family inventories are up 6.0% YoY and now at cycle highs, which Morgan Stanley notes may be starting to slow price appreciation (median prices +1.2% YoY, the slowest since June). 3Q residential investment tracked at -1.4% QoQ annualized.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a135ca9237567a1",
+        "gmail:1a135e5fe37c8ceb"
+      ]
+    },
+    {
+      "title": "OPEC cuts 2026 demand growth forecast by half to +200 kb/d; Brent supported by Houthi activity",
+      "body": "OPEC reduced its 2026 oil demand growth forecast to +200 kb/d from +400 kb/d while raising its 2027 forecast to +2.6 mmbbl/d. Brent crude maintains bullish TRADE and TREND signals per Hedgeye, supported by Strait tanker strikes and Houthi activity near Saudi Arabia. Nearly 70% of market respondents are skeptical a Russia diesel deal will reduce prices near-term.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a135751305cab2c"
+      ]
+    },
+    {
+      "title": "Blackout period ending in November; buyback tailwind approaching with only ~20% of S&P active now",
+      "body": "Only approximately 20% of the S&P 500 by weight is currently active in discretionary buybacks, with restrictions easing as companies exit earnings blackout periods in November. Jefferies flags this as an emerging technical tailwind for equities. Mega-cap concentration remains extreme: cap-weighted S&P 500 has outperformed equal-weight by 50 percentage points since the ChatGPT launch.",
+      "tickers": [
+        "SPY"
+      ],
+      "source_item_ids": [
+        "gmail:1a1353e976c99433"
+      ]
+    },
+    {
+      "title": "Powered shell / AI data center stocks down 27% in 3 months; 30GW+ of capacity unsited",
+      "body": "AI-focused powered shell stocks have fallen 27% over three months, with pricing near-zero pipeline conversion despite strong underlying demand. 22V estimates 30GW+ of 107GW planned AI capacity lacks a firm site, with only 5.9GW contracted vs. 38GW in pipeline. South Korea's KOSPI decline is cited as a negative signal for AI capex demand. HUT 8 highlighted for investment-grade rating and lowest funding cost; Applied Digital has the most significant contracted HPC.",
       "tickers": [
         "HUT",
-        "WULF",
-        "NBIS",
-        "CRWV",
         "BTDR",
+        "WULF",
         "CORZ"
       ],
       "source_item_ids": [
-        "gmail:1a134fdb9afb1248",
-        "gmail:1a1349256ce08658"
+        "gmail:1a13575ccbb90aad"
       ]
     },
     {
-      "title": "Middle East: IMF models $130/bbl adverse scenario; Jefferies flags AI/hyperscalers as second strategic chokepoint",
-      "body": "Jefferies geopolitical analysis warns Yemen has returned to full-scale war with U.S.-Iran diplomacy active but sequencing obstacles unresolved. The IMF adverse scenario assumes Hormuz stays closed into Q1 2027, pushing oil to $130/bbl, cutting 2027 global growth by 0.5pp and raising inflation by 1.1pp to 5.2%. Saudi Arabia's GDP is now forecast to contract 3.3% vs. a prior +1.7% estimate. Hyperscalers now account for ~10% of global IG bond issuance vs. <1% in 2024, directly linking AI investment to financial stability risk.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a1349f669bd78de"
-      ]
-    },
-    {
-      "title": "Fed expected to hike 1-3 more times through end-2026/27; quality factor punitive, reversal risk near CPI",
-      "body": "JPM and JPM's China strategy both flag expectations for 1-3 additional Fed hikes through end-2026/early 2027, adding downward pressure on risk multiples globally. The quality factor is at an elevated and punitive level in current credit conditions, with JPM flagging reversal risk around the CPI print and upcoming Fed meeting. Short-term business loan rates have already jumped to 8.2% from 7.5% per the NFIB survey.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a134baa3c0e486a",
-        "gmail:1a13537aba10dc91"
-      ]
-    },
-    {
-      "title": "Small biz optimism cools; inflation re-accelerating with price-raising plans at highest since June",
-      "body": "NFIB small business optimism slipped again in September \u2014 expected business conditions fell 4 points to net 6% (lowest since May), capex plans hit lowest since June, and profit trends declined to net -20% with 34% citing weaker sales. Price-raising plans rose to net 31%, the highest since June, while 24% cited rising material costs (up 8 points from August). AI data-center demand is being cited as a driver of aluminum cost pressure for manufacturers.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a1353b45469e0a6"
-      ]
-    },
-    {
-      "title": "JPM/WFC earnings worse than expected; bank earnings season kicks off with breadth concerns",
-      "body": "JPMorgan and Wells Fargo posted earnings and guidance worse than expected, contributing to overnight weakness. JPM's morning briefing is nonetheless tactically bullish on earnings season broadening, with 26Q3 EPS growth expected at +29.6% and all 11 S&P sectors showing positive growth. IT budget growth expectations rose to +4.0% in 2026 from +3.8% in the prior CIO survey, with AI/ML remaining the #1 priority and most defensible spending category.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a134edda064519c",
-        "gmail:1a134e19e63fe5c1"
-      ]
-    },
-    {
-      "title": "France fiscal crisis: yields spiking, corporate debt highest in Europe, ECB response uncertain",
-      "body": "PSC Macro flags France as 'the newest peripheral' with taxes and spending exceeding 50% of GDP, French non-financial corporate debt more than double the U.S. ratio and the highest among European peers. Rising yields are a headwind to sub-1% growth forecasts, and ECB policy response (pause, ease, or QE) depends on how far contagion spreads. French asset underperformance expected to continue.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a134d4472e926aa"
-      ]
-    },
-    {
-      "title": "OCP Day 1: Inference now #1 AI workload; agentic token usage up 14x YTD, $1.4T accelerator TAM by 2030",
-      "body": "JPM's OCP Day 1 takeaways show inference has overtaken training as the #1 AI workload due to agentic adoption, with agentic token usage up more than 14x YTD. Data center AI accelerator TAM is projected to grow at >45% CAGR from $200B (2025) to $1.4T (2030). NVIDIA Spectrum-X Photonics CPO achieves 5x higher power efficiency; AMD's Helion agentic AI rack is ramping at OpenAI, Meta, Anthropic, Microsoft, and Oracle.",
+      "title": "AI-enterprise spend: 'buy vs. build' favors platform vendors; federal demand weak, ROI focus rising",
+      "body": "Field checks and CIO surveys across multiple banks show elongated sales cycles with greater ROI scrutiny for AI deployments. Customers are requiring clearer ROI before expanding spend, raising the hurdle for incremental contracts. Federal demand remained weak. Chinese open-weight models are gaining US enterprise acceptance, putting pressure on domestic frontier providers, though geopolitical risks support META, GOOGL, NVDA as domestic alternatives.",
       "tickers": [
-        "NVDA",
-        "AMD",
-        "AVGO",
-        "CSCO",
-        "CIEN",
-        "ANET"
+        "MSFT",
+        "CRM",
+        "NOW",
+        "ORCL",
+        "SNOW",
+        "META",
+        "GOOGL",
+        "NVDA"
       ],
       "source_item_ids": [
-        "gmail:1a134b92c030222b",
-        "gmail:1a134688e3560b29"
+        "gmail:1a13599557357c5b",
+        "gmail:1a135917e28b6859"
       ]
     },
     {
-      "title": "WFE spending could double to $500B by 2030; AMAT Investor Day to reveal 25-30% CAGR guide",
-      "body": "UBS previews Applied Materials' Investor Day as likely to show a 25-30%+ WFE spending CAGR through 2030, with gross margins targeting the mid-50% range. WFE spending could rise from the current $280-300B toward $500B by 2030. AMAT CEO also plans to double revenue without commensurate headcount growth via AI tools for R&D, quality control, and yield optimization.",
+      "title": "Chinese polysilicon producers agree on capacity cuts and price floors in photovoltaics",
+      "body": "Major Chinese polysilicon producers including Tongwei and GCL Technology met October 11 to agree on minimum prices: CNY43,000/tonne for polysilicon, CNY0.86/W for BC modules, and CNY0.79/W for TOPCon modules. This follows prior regulatory efforts in 2025 and January 2026 to curb PV sector overcapacity and monopoly risks.",
       "tickers": [],
       "source_item_ids": [
-        "gmail:1a13539c3a62069a",
-        "gmail:1a1350fd98f54df0"
+        "gmail:1a135e71d7747fce"
       ]
     },
     {
-      "title": "China A-shares AI sub-sectors down 14-17% in 5 days; JPM maintains barbell, CSI-300 target 5,200",
-      "body": "JPM's China A-share strategy notes AI sub-sectors are down 14-17% over the past 5 trading days as geopolitical concerns (FCC rules, MATCH Act, import limits) weigh on valuations, though supply constraints through 2028 provide cushion. CSI-300 IT companies are delivering +53% FTM EPS y/y. JPM maintains a barbell of high-yield defensives plus AI infrastructure/CXO/innovative drugs, with a CSI-300 year-end 2026 target of 5,200.",
+      "title": "Bank mortgage volumes weaker than expected in Q3; MSR values rise as servicing offsets origination",
+      "body": "JPM Home Lending volumes declined 7% QoQ and WFC declined 13.3%, both worse than forecast. JPM production revenue fell 69% QoQ, compressing GOS margins to 29bps from 85bps; WFC mortgage banking income fell 36% despite only a 13% volume decline. On the positive side, JPM MSR carrying value increased 7% QoQ to $9.7B and net servicing revenue rose 19% QoQ, supporting MSR-heavy names. Housing credit remains benign with JPM 30+ day delinquency falling to 0.79%.",
       "tickers": [],
       "source_item_ids": [
-        "gmail:1a13537aba10dc91"
+        "gmail:1a135afa147a26d3"
       ]
     },
     {
-      "title": "Character.ai files Chapter 11; Disney is stalking horse bidder at $20M for IP license",
-      "body": "Character.ai initiated voluntary Chapter 11 bankruptcy in Delaware. Disney will serve as stalking horse bidder for a non-exclusive perpetual license of Character.ai IP and claims for $20M, with sale process completion expected late November or early December 2026. This reflects the pressure on standalone consumer AI companies as frontier model costs escalate.",
-      "tickers": [
-        "DIS"
-      ],
+      "title": "Macro strategists flag complacency in rates setup; MOVE Index near low-end of risk range",
+      "body": "Hedgeye notes the MOVE Index (bond market volatility) is near the low end of its risk range, with UST 10yr also at the low end ahead of a CPI print expected to show acceleration. The firm is long PFIX and short TLT on a higher-for-longer thesis. BlackRock is separately moving to neutral on US equities and upgrading Treasuries on what it views as an overdone yield move; Goldman Global Asset Allocation is overweight equities on a 3-month view but moving overweight bonds on a 12-month view.",
+      "tickers": [],
       "source_item_ids": [
-        "gmail:1a134d75626e7671"
+        "gmail:1a1354d920ee683b",
+        "gmail:1a1353e976c99433"
+      ]
+    },
+    {
+      "title": "Rotation out of crypto: Hedgeye exits ETH, reduces BTC/JPXN; selling ETHA, cutting IBIT",
+      "body": "Keith McCullough at Hedgeye sold all ETHA (Ethereum ETF) and reduced Bitcoin to minimum on strength, having already fully sold Solana. He added UUP (USD long) at minimum position size and sold 50bps each of JPXN and IBIT. The USD bullish signal aligns with EUR/USD and GBP/USD both in bearish ranges per Hedgeye's risk range signals.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a135c2218639752",
+        "gmail:1a13547699b0f791"
       ]
     }
   ]
