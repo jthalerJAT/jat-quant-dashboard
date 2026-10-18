@@ -1,158 +1,193 @@
 {
   "digest_type": "weekend",
-  "digest_dt": "2026-10-17T18:00:00-04:00",
-  "saved_at": "2026-10-17T22:09:21.924318+00:00",
+  "digest_dt": "2026-10-18T18:00:00-04:00",
+  "saved_at": "2026-10-18T22:11:38.709456+00:00",
   "bullets": [
     {
-      "title": "AI infrastructure selloff: worst week for AI basket since inception, semis down 8 sessions",
-      "body": "The MSXXAIB AI Tech Beneficiaries basket fell -16.5% for the week\u2014worst since launch\u2014driven by CoreWeave (CRWV) debt concerns (CDS hit record 1,194 bps implying >60% default odds), Anthropic ARR disappointment, and Gartner's warning that $3.5T of AI infrastructure is at impairment risk by 2030. SOX fell 8 consecutive sessions (longest since May 2006, -11.4%), with the largest net TMT selling in years. The neocloud basket was down 23% on the week, though still up 55% YTD.",
+      "title": "Semis/AI trade: worst week since 2023 amid neocloud financing fears & CXMT competition",
+      "body": "SOX fell 8 consecutive sessions (longest since 2006, down ~11.5% on week); NDX lost ~550bps, worst week since Liberation Day. Key drivers: CRWV CDS spiked to 1,194bp (~60% default odds), Gartner warning $3.5T AI infra at impairment risk by 2030, China's CXMT claiming 4F\u00b2 DRAM breakthrough ~2 years ahead of Samsung, and AVGO CEO Hock Tan warning capital constraints\u2014not chips\u2014are now the biggest bottleneck. Semis de-rated from ~29x fwd P/E to ~17x; NDX fwd P/E at 20.5x, lowest since AI cycle began. Positioning shakeout vs. fundamental deterioration is the central debate heading into hyperscaler earnings.",
       "tickers": [
+        "AVGO",
+        "MU",
+        "SNDK",
+        "WDC",
+        "STX",
         "CRWV",
         "NBIS",
-        "IREN"
+        "IREN",
+        "NVDA",
+        "AMD",
+        "INTC",
+        "MRVL",
+        "TSM"
       ],
       "source_item_ids": [
-        "gmail:1a14a99060a1cddc",
-        "gmail:1a146d60e287cf03"
+        "gmail:1a1507229ffd94d2",
+        "gmail:1a1504200b2d7b1a"
       ]
     },
     {
-      "title": "CRWV: JPM upgrades to OW; debt concerns 'overdone' on strong contract economics",
-      "body": "JPMorgan upgraded CRWV to Overweight, arguing sell-off overdone: capacity is 100% pre-sold under take-or-pay contracts, unlevered IRR is mid-teens vs. 9-11% WACC, and GPU useful lives are extending beyond 6-year depreciation terms. NVDA CEO Jensen Huang publicly defended CoreWeave, stating cost of capital is 'decreasing.' However, CDS spreads hit record 1,194 bps and founders cashed $3.3B in shares, keeping sentiment fragile.",
+      "title": "NVDA: Hedgeye removes long on Rubin delay; bulls cite fundamentals, sentiment shakeout",
+      "body": "Hedgeye removed its NVDA long citing Rubin mass production delayed to Q2 2027 (vs. late Q4/Q1 buyside expectations) and neocloud financing stress threatening GPU demand. Counter-thesis (The AI Bubble Didn't Pop. Hedge Fund Leverage Did.): NVDA stock flat for a year despite earnings beats, fwd P/E compressed to ~15x, H100 GPU rentals higher than a year ago, guided 70% growth. Jensen Huang publicly defended CoreWeave's financial health and called capital costs 'actually decreasing.'",
+      "tickers": [
+        "NVDA",
+        "CRWV"
+      ],
+      "source_item_ids": [
+        "gmail:1a14fbce395974c2",
+        "gmail:1a14efe9e3ccb80b"
+      ]
+    },
+    {
+      "title": "CRWV: Debt stress crystallizes; JPM upgrades to OW, contract economics solid",
+      "body": "CoreWeave unsecured bonds fell to ~78\u00a2 (yielding ~15%), CDS spiking to 1,194bp. DA Davidson upgraded to Buy ($110 PT). JPM upgraded to Overweight arguing debt concerns reflect timing of cash flows, not fundamentals: 5-year contract economics generate ~16% residual cash flow, unlevered IRR mid-teens vs. blended cost of capital 9-11%, capacity pre-sold under take-or-pay contracts. Financing costs would need to exceed 20% to neutralize improved unit economics. GPU ASPs up 25% in 3Q with another 10% across the board.",
       "tickers": [
         "CRWV",
         "NVDA"
       ],
       "source_item_ids": [
-        "gmail:1a143ef09a461019",
-        "gmail:1a1449a6fba51274"
+        "gmail:1a143f3f9333c6d4",
+        "gmail:1a14f5c2fdcae741"
       ]
     },
     {
-      "title": "MSFT: Buy consensus strengthens; Azure 46-47% CC growth expected above 44-45% guide",
-      "body": "Multiple houses raised MSFT price targets (Citi to $636, Mizuho to $600) ahead of Oct 28 earnings. CIO surveys show MSFT leading AI vendor preference at 30% of respondents. UBS remains constructive at 23x CY27. New Maia 300 chip announcement (40% more tokens/megawatt vs GPUs) and a 20-year NiSource power deal add to the bull case.",
+      "title": "Hyperscaler earnings week: META, AMZN, MSFT, GOOGL are the key clearing events",
+      "body": "13.8% of SPX by market cap reporting next week. JPM top internet picks: META, AMZN, SPOT, GOOGL. GOOGL Cloud growth raised to +100% 3Q on TPU ramp; AMZN AWS modeled +40% 2027 with 2M GPU deployment. META recording $10B legal accrual but seen as overweight on Muse Wonder launch momentum. MSFT Azure expected 46-47% cc growth vs. 44-45% guidance; Azure expected to exit FY27 at 48%+. Jefferies and Morgan Stanley both constructive on MSFT and GOOGL into earnings.",
       "tickers": [
+        "META",
+        "GOOGL",
+        "AMZN",
         "MSFT"
       ],
       "source_item_ids": [
-        "gmail:1a14496622b1f1fd",
-        "gmail:1a13af10c8f0eb65"
+        "gmail:1a13f1c7e4d022b9",
+        "gmail:1a13f9e73c123f33"
       ]
     },
     {
-      "title": "META: PT raised across the street on Muse Wonder launch; 3Q earnings Oct 21 key",
-      "body": "BofA/Citi raised META to Buy/PT $800-$895 after Muse Wonder AI model launch matched frontier benchmarks. JPMorgan reiterated OW with $920 PT. Key debates: $10B legal accrual hits 3Q GAAP EPS; 2027 total expenses guided $210B+ (well above street $194B); Muse is now #1 on iOS App Store. Piper Sandler rates OW as primary focus for Oct 21 callback.",
+      "title": "META: Muse Wonder launch drives +40% off lows; 2027 capex/expense debate is key risk",
+      "body": "META launched Muse Wonder and Wonder Full, claiming frontier-class performance vs. Claude Opus 5.5 and GPT-6 Astra; Muse held #1 US App Store position. Citi raised PT to $895; UBS to $884; multiple analysts model ~$210B 2027 expenses. GS sees AI-driven ad improvements in creative, targeting, and measurement. Key risks: 2027 capex expected $225-250B vs. Street ~$200B; 3Q includes $10B legal accrual for state AG settlement. Bears flag FCF gap vs. capex through 2028.",
       "tickers": [
         "META"
       ],
       "source_item_ids": [
-        "gmail:1a13a9f99abc9577",
-        "gmail:1a13f1c658dfcbb7"
+        "gmail:1a135861e7f97f0d",
+        "gmail:1a13f9e73c123f33"
       ]
     },
     {
-      "title": "GOOGL: Cloud growth raised to +100% in 3Q on TPU monetization; earnings Oct 27",
-      "body": "JPMorgan raised GOOGL Cloud growth estimates to +100% in 3Q26 and +107% in 2027 driven by TPU-as-a-service. Jefferies maintains Buy with $445 PT. Hedgeye signals bearish TREND on GOOGL Cloud's click-through rate decline as AI Overviews scale. Q4 needs +92% cloud consensus\u2014a high bar. Gemini 4 Argon ranked #1 on Vals Index for finance/coding/legal, boosting near-term sentiment.",
-      "tickers": [
-        "GOOGL"
-      ],
-      "source_item_ids": [
-        "gmail:1a13e9a886678716",
-        "gmail:1a13f1c658dfcbb7"
-      ]
-    },
-    {
-      "title": "AMZN: Top internet pick heading into Oct 29 earnings; AWS bogey +42% YoY",
-      "body": "JPMorgan names AMZN a top pick with Overweight/$365 PT. AWS growth modeled at +40% in 2027. Street is at +37% for 3Q, leaving room for a beat-and-raise. 3Q operating income expected ~$28B vs $26.5B guidance high. GPU reserve pricing up 15% on Oct 7. AMZN also reportedly in talks to acquire Decart AI for ~$7B.",
-      "tickers": [
-        "AMZN"
-      ],
-      "source_item_ids": [
-        "gmail:1a13f580048608a17",
-        "gmail:1a13f68b1e593028"
-      ]
-    },
-    {
-      "title": "NFLX: CCO replaced by ex-Disney Peter Rice; 3Q earnings Oct 20, ~8.9% implied move",
-      "body": "Netflix replaced Chief Content Officer Bela Bajaria with Peter Rice (ex-FOXA/DIS) effective Oct 26, seen as acknowledgment of engagement concerns\u2014stock fell 3.3% pre-market. Jefferies cut PT to $85 (Buy). Huber Research downgraded to Underweight with $70 PT. Consensus expects $0.82 EPS/$12.87B revenue; options imply ~8.9% move. Wolfe sees NFLX positioned for comeback on cost efficiency and NBCU acquisition synergies.",
+      "title": "NFLX: CCO replacement flags engagement problem; 3Q earnings inline but 2027 debated",
+      "body": "Netflix named ex-Fox/Disney exec Peter Rice as Chief Content Officer (effective Oct 26), replacing Bela Bajaria after a decade. Co-CEO Sarandos admitted engagement 'not growing as fast as I want.' Company also cutting ~1K employees (~6% of workforce), largest reduction since 2022. Q3 consensus: $12.87B revenue/$0.82 EPS, ~8.9% implied move. Jefferies maintains Buy at $85 PT on 14%+ EPS CAGR from pricing, ads, and buybacks. Bears cite slowing engagement, rising content costs.",
       "tickers": [
         "NFLX",
+        "FOXA",
         "DIS"
       ],
       "source_item_ids": [
-        "gmail:1a1444797df06a53",
+        "gmail:1a150f0d8da62b42",
         "gmail:1a1462db53f45d43"
       ]
     },
     {
-      "title": "TSLA: MS turns more constructive post-Roadster; 3Q earnings ahead",
-      "body": "Morgan Stanley's Andrew Percoco turned more constructive on Tesla with a $400 PT, noting peak negativity has passed. The new Roadster with SpaceX thrusters (0-60 in 1 second, flying capability) generated +3.5% pre-market moves. Cybercab fleet now 300+ vehicles in Austin with 1M+ unsupervised miles. Hedgeye shifted TSLA from Bullish to Neutral on Oct 16.",
+      "title": "FOXA/ROKU: Shareholders approve Fox acquisition of Roku; FOXA upgraded to Buy at BofA ($85 PT)",
+      "body": "Roku shareholders approved Fox's $160/share acquisition ($22B EV); DOJ issued Second Request extending review to H1 2027. BofA upgraded FOXA to Buy from Underperform, raising PT to $85 from $54 (33% upside). Wolfe analysts bullish on the combination but monitoring Roku's longer-term OS share risk\u2014Roku CTV OS share fell ~2 points Y/Y in 1H'26 as Samsung, Vizio, and Amazon Fire gained. Management stopped reporting Roku OS share of new CTV sales.",
       "tickers": [
-        "TSLA"
+        "FOXA",
+        "ROKU"
       ],
       "source_item_ids": [
-        "gmail:1a144c58ab597cc1",
-        "gmail:1a1467f2fe123194"
+        "gmail:1a13f1172ed7922e",
+        "gmail:1a1449a6fba51274"
       ]
     },
     {
-      "title": "AAPL: iPhone Duo preorders drive +2% pre-market; supply constraints push delivery to Jan 25",
-      "body": "iPhone Duo preorders launched Oct 16 with delivery timelines slipping to Jan 25 on manufacturing constraints\u2014seen as a strong demand signal. AAPL rose +2% pre-market. New HomeView smart display ($299) announced. JPM raised PT to $360 at 34x CY28 EPS. Separately, new CEO signaled memory shortage is a 'crisis' with 'all options on the table' for China chip sourcing.",
-      "tickers": [
-        "AAPL"
-      ],
-      "source_item_ids": [
-        "gmail:1a144b491d720e91",
-        "gmail:1a144c58ab597cc1"
-      ]
-    },
-    {
-      "title": "TSM: Raised FY26 revenue guidance to +44%; 4Q guide $52.3-54.3B above consensus",
-      "body": "TSMC beat 3Q with 66.4% gross margin and 4Q guide ~14% above consensus, raising FY26 growth to +44% (from +40%). N2 capacity to more than double in 2027. JPMorgan upgraded to Overweight with NT$3,300 PT (Jun-27) on 40%/28% revenue growth in 2027/28. AI accelerator CAGR expected above prior mid-high 50% guidance due to agentic AI driving incremental CPU/networking demand.",
-      "tickers": [
-        "TSM"
-      ],
-      "source_item_ids": [
-        "gmail:1a14438d2ee80a59",
-        "gmail:1a13fbe3e5f3611f"
-      ]
-    },
-    {
-      "title": "MU: IR call confirms supply/demand tightest in 2027-28; $33B buyback authorized",
-      "body": "Micron's IR series call confirmed >75% of FY27 supply committed, with 35%+ of revenues through 2030 locked via long-term SCAs. HBM bit shipments grow faster than DRAM through 2028. New $33B share repurchase authorization (3x prior 2018 auth) effective Dec 9, with FCF expected significantly stronger in FY27. 22V flags a short setup under 890 with target 735.",
-      "tickers": [
-        "MU"
-      ],
-      "source_item_ids": [
-        "gmail:1a14557efb09e56a",
-        "gmail:1a13fd95349d4852"
-      ]
-    },
-    {
-      "title": "TXN: UBS sees data center growing 73-75% YoY in CQ3/CQ4; 4Q guide likely above Street",
-      "body": "UBS notes TXN data center exposure can grow 73-75% YoY in CQ3/CQ4. CQ4 guidance likely above Street at $5.8-5.9B. Wolfe hosted a webcast discussing TXN earnings power ahead of Oct 21 report. Street consensus is $2.42 EPS/$5.92B revenue. TXN is UBS's top pick in analog semis with positive pricing and improving auto cycle.",
-      "tickers": [
-        "TXN"
-      ],
-      "source_item_ids": [
-        "gmail:1a14a99060a1cddc",
-        "gmail:1a145059e8e58fea"
-      ]
-    },
-    {
-      "title": "ACN: UBS upgrades to Buy ($278 PT); investor day confirms FY29 acceleration to mid-high single digits",
-      "body": "UBS upgraded ACN to Buy with $278 PT after the investor day showed FY29 revenue growth accelerating to mid-to-high single digits (vs. mid-single digits in FY27-28), Network businesses expected to double to 12% of revenue, and $9B+ FY27 capital return. Mizuho and JPM both constructive. Emerging Alliances revenue tripled YoY; stock rallied ~25% post-Oct 1 earnings.",
+      "title": "ACN: Investor Day beats; UBS upgrades to Buy ($278 PT), raises FY29 growth to mid-high single digits",
+      "body": "Accenture's first analyst day since 2022 delivered FY27-29 guidance: mid-single digit CC growth FY27-28, accelerating to mid-to-high single digits FY29 (above Street ~+4.8%). Network businesses (~6% of revenue) expected to grow 30%+ CAGR to 12% by FY29. Emerging Alliances revenue doubled YoY with bookings tripling (NVDA, OpenAI, Palantir). Separately, exploring sale of China operations for up to $1.5B per FT. UBS raised PT to $278, JPM raised to OW.",
       "tickers": [
         "ACN"
       ],
       "source_item_ids": [
-        "gmail:1a14509a0e6ae00c",
-        "gmail:1a13f9e65bf2b200"
+        "gmail:1a13f9e65bf2b200",
+        "gmail:1a14509a0e6ae00c"
       ]
     },
     {
-      "title": "BKNG/EXPE/ABNB: Agentic AI threatens OTA commission pools; Hedgeye upgrades ABNB to Best Idea Long",
-      "body": "Hedgeye upgraded ABNB to Best Idea Long ($190-220 target) on hotel push strategy and alt-accommodation moat. EXPE maintained as short bias on B2B sustainability and weak AI readiness. BKNG launched Vayo personal AI travel agent with $100M investment. OTA stocks down 15-25% since Meta Muse/Instinct launches enable browser-automated bookings that bypass OTA intermediaries entirely.",
+      "title": "TXN: Earnings catalyst\u2014JPM and UBS see 4Q guidance above Street; data center growing",
+      "body": "Texas Instruments reports Oct 21. Buyside expects 4Q guidance flat Q/Q vs. -3% Street consensus. TXN data center business can grow 73-75% Y/Y in CQ3/CQ4. Pricing improving, auto less bad, CE exposure is the main risk. UBS top pick in analog semis; Piper's checks show TXN as positive. Potential short-squeeze catalyst if results beat on pricing/utilization.",
+      "tickers": [
+        "TXN"
+      ],
+      "source_item_ids": [
+        "gmail:1a14f9376a60d7bf",
+        "gmail:1a14a99060a1cddc"
+      ]
+    },
+    {
+      "title": "WDC: Buyside bar well above Street; $4.25-4.50 Sept EPS vs. consensus $4.09",
+      "body": "Western Digital reports Oct 22. Buyside expects Sept quarter EPS $4.25-4.50 vs. consensus $4.09, and Dec guidance $5.10-5.25 vs. consensus $4.77. Memory sector had worst week in 8 sessions\u2014MU, SNDK, WDC each down 7%+ driven by CXMT competition fears and AI sentiment. Micron separately signed agreements covering 35%+ of revenue through 2030; MU IR call showed >75% FY27 supply committed, with discussions already shifting to 2028 allocations and a new $33B buyback.",
+      "tickers": [
+        "WDC",
+        "MU",
+        "SNDK"
+      ],
+      "source_item_ids": [
+        "gmail:1a14f9376a60d7bf",
+        "gmail:1a14557efb09e56a"
+      ]
+    },
+    {
+      "title": "TEAM: KeyBanc raises PT to $235; usage-based pricing and Rovo driving outperformance",
+      "body": "KeyBanc raised Atlassian PT to $235 (from $185) on usage-based pricing catalyst expected to impact 60-80% of customers by year-end, potential for Collections upsell, and Cloud revenue growth potentially accelerating from F4Q's 30.8% Y/Y. Wolfe and Mizuho both constructive: Rovo in nearly every enterprise conversation, JSM solid, migrations accelerating. Raised PTs: NOW to $170, MSFT to $600, TEAM to $235 at Mizuho.",
+      "tickers": [
+        "TEAM",
+        "NOW",
+        "MSFT"
+      ],
+      "source_item_ids": [
+        "gmail:1a150d7d6daecaf2",
+        "gmail:1a13f1c658dfcbb7"
+      ]
+    },
+    {
+      "title": "NOW: Strongest enterprise software checks; large deals, PubSec strength, no quarter-end pressure",
+      "body": "ServiceNow consistently showed the strongest checks across multiple sell-side surveys: large-deal activity, public sector/federal momentum, no end-of-quarter theatrics. Citi raised PT to $170, Mizuho to $170, Oppenheimer to $165. Piper raised PT to $175 citing Mythos Moment catalysts, M&A outperformance, SKU transition pricing uplift, and ~$1.5B AI ACV target. NOW Q3 print expected strong; 4Q guidance will be the key stock reaction driver.",
+      "tickers": [
+        "NOW"
+      ],
+      "source_item_ids": [
+        "gmail:1a14f5c2fdcae741",
+        "gmail:1a14a10cbed4b202"
+      ]
+    },
+    {
+      "title": "ANET/networking: AI campus shift bullish; ANET raised FY guidance to $1.1B+, AI Fabrics floor $3.5B",
+      "body": "Arista raised FY guidance; AI Fabrics revenue floor $3.5B+, Campus $1.25B+, with scale-up ramp potential in 2027-28. ANET gross margins stable despite cloud mix. OCP 2026 confirmed Ethernet as favored scale-up connectivity standard. CSCO P200 systems in production at Microsoft and Alibaba, G300 sampling. LITE and MTSI most levered to 1.6T transceiver ramp; CRDO's optical portfolio underappreciated. 80M 1.6T transceiver units expected in CY27.",
+      "tickers": [
+        "ANET",
+        "CSCO",
+        "LITE",
+        "COHR",
+        "CRDO",
+        "CIEN",
+        "FN",
+        "GLW"
+      ],
+      "source_item_ids": [
+        "gmail:1a1448ef3840531c",
+        "gmail:1a14521de9654601"
+      ]
+    },
+    {
+      "title": "GTLB: Drops 7% on Anthropic Scion fears, recovers; management says Anthropic still a customer",
+      "body": "GitLab fell 7% on Oct 13 after Anthropic announced Scion, an internal source control system built because it 'outgrew git.' Sell-side group call with GitLab management clarified: Anthropic remains a GitLab customer, Scion is non-commercial, only applicable to organizations with extremely large code repos, and Anthropic plans to continue partnering with GitLab/GitHub. GTLB recovered within 2 days. Stock trades at 6.1x FY28E EV/Revenue vs. 13x for 20%+ growth software cohort.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a150e2ef91ec933"
+      ]
+    },
+    {
+      "title": "OTAs (ABNB/EXPE/BKNG): Agentic AI threat escalates; Hedgeye upgrades ABNB to Best Idea Long, shorts EXPE",
+      "body": "OTA stocks down 15-25% following META Muse/Instinct launches that complete full travel bookings via browser automation without OTA intermediation. Hedgeye upgraded ABNB to Best Idea Long ($190-220 target) on hotel push strategy and fragmented inventory advantage; maintains EXPE on Short Bias (tough comps, B2B sustainability concerns); BKNG neutral. MS webcast concluded distribution deflation could drive lodging estimate inflation\u2014every 100bps shift to direct adds 10-50bps EBITDA for hotel owners.",
       "tickers": [
         "ABNB",
         "EXPE",
@@ -160,68 +195,59 @@
       ],
       "source_item_ids": [
         "gmail:1a1462ea0ca1813b",
-        "gmail:1a13f97ca7a62600"
+        "gmail:1a14f7ed1ec4bdfb"
       ]
     },
     {
-      "title": "FOXA/ROKU: BofA upgrades FOXA to Buy ($85 PT); Roku shareholders approve acquisition",
-      "body": "BofA upgraded FOXA from underperform to buy, raising PT from $54 to $85 (33% upside) following Roku shareholders approving the acquisition. The deal is structured as $96 cash + 0.9693 FOXA shares per ROKU share at $160/share ($22B EV). DOJ second request extends review; close expected H1 2027. Fox expects ~$400M run-rate cost synergies.",
+      "title": "FICO/EFX/TRU: Mizuho cuts PTs on mortgage headwinds and VS4 competition",
+      "body": "Mizuho cut PTs citing MBA mortgage app index -14% Y/Y in Q3, refinancing down -22%, and VantageScore 4.0 share rising to ~4.8% of GSE mortgages (Rocket ~32%, UWM ~24%). FICO PT cut to $1,063 from $1,344; EFX to $185 from $210; TRU to $74 from $77. EFX government verification accelerating (+$100M new bookings). Bi-merge transition affects <5% of EFX/TRU revenues. Regulatory overhang likely driving valuation pressure.",
       "tickers": [
-        "FOXA",
-        "ROKU"
+        "SHOP"
       ],
       "source_item_ids": [
-        "gmail:1a1449a6fba51274",
-        "gmail:1a13f1172ed7922e"
+        "gmail:1a150f994fad06f9",
+        "gmail:1a146a42be7a1fac"
       ]
     },
     {
-      "title": "NOW: Multiple houses constructive into earnings; 3Q CRPO expected ~200bps upside to guide",
-      "body": "Piper raised NOW PT to $175; Citi raised to $170; Oppenheimer to $165; Mizuho to $170. Field checks indicate improving AI SKU adoption especially in federal cyber, stronger Security and ITOM demand, and no quarter-end pressure. The all-SaaS old guard (NOW/TEAM/CRM/WDAY/ADBE/INTU) outperformed SOX by ~18% this week. NOW denied interest in Decagon acquisition.",
-      "tickers": [
-        "NOW"
-      ],
-      "source_item_ids": [
-        "gmail:1a1471cd037dbcc9",
-        "gmail:1a1392ffc640ce0b"
-      ]
-    },
-    {
-      "title": "T: AT&T sells Mexico ops for $2B to Televisa/Fintech; Bernstein downgrades to Market Perform",
-      "body": "AT&T agreed to sell AT&T Mexico to Grupo Televisa and Fintech Holdings for $2B cash, closing Q1 2027 at ~2.3x EV/EBITDA\u2014viewed as surprisingly cheap. Bernstein downgraded T to Market Perform ($24 PT) citing SpaceX D2D wireless competitive pressure. MS reiterates OW on T, viewing the SpaceX selloff as overdone.",
-      "tickers": [
-        "T"
-      ],
-      "source_item_ids": [
-        "gmail:1a13a2ad7a50b574",
-        "gmail:1a14578d94376f4c"
-      ]
-    },
-    {
-      "title": "DKNG: NY OSB GGR -24% YoY week ending 10/11; Citi cuts EBITDA ests, PT to $28 on PM spend",
-      "body": "New York OSB weekly GGR fell 24% YoY for week ending 10/11, with DKNG down 21% YoY (hold rate -610bps for FanDuel). Citi cut DKNG's 3Q/4Q EBITDA estimates by $50M/$70M on prediction market customer acquisition costs and PT to $28 (from $32 at 14x 2027 EBITDA). NFL Week 5 saw 4 of 5 biggest favorites win, creating additional hold headwind.",
-      "tickers": [
-        "DKNG"
-      ],
-      "source_item_ids": [
-        "gmail:1a14562220100eed6",
-        "gmail:1a1304bda4f13a08"
-      ]
-    },
-    {
-      "title": "SHOP: Pricing increases 13-20% for new annual plans signal pricing power; CFO investor call Nov 5",
-      "body": "Shopify raised Grow/Advanced tier prices ~13-20% in the US for new annual plans (Basic tier also raised ex-US). UBS estimates immaterial 2027 impact. JPM reiterates OW with $200 PT citing ~30% 2027 revenue growth path and agentic commerce upside. JPM hosting CFO Jeff Hoffmeister investor zoom Nov 5.",
+      "title": "SHOP: Price increases 13-20% on new annual plans signal pricing power; agentic commerce bull case intact",
+      "body": "Shopify raised Grow/Advanced tier pricing ~13-20% for new annual plans only; Basic tier also increased ex-US. UBS estimates immaterial 2027 impact but views as confirmation of pricing power, aligned with CFO comments. JPM maintained Overweight at $200 PT with ~30% 2027E revenue growth path and agentic commerce bull case. Expert call with Shopify Platinum partner Zettler Digital on AI-commerce strategy, SMB demand, and Merchant Solutions adoption scheduled Oct 19.",
       "tickers": [
         "SHOP"
       ],
       "source_item_ids": [
         "gmail:1a145203091e2d9b",
-        "gmail:1a145a9bd4df1b7d"
+        "gmail:1a1449d8bf4c7b2c"
       ]
     },
     {
-      "title": "BE: AEP-Google 702MW fuel cell deal confirmed; Bloom Energy primary power source",
-      "body": "American Electric Power announced a ~$4B investment in a 702MW fuel cell generation project near Cheyenne, Wyoming with Google as 20-year PPA counterparty, using Bloom Energy technology. Construction starts 2026, fully operational by end-2028. Roth maintains Neutral on BE but raised PT to $260; Opco notes the Schneider Electric triple-digit data center growth read-through is positive for BE/VRT/GEV.",
+      "title": "T: AT&T sells Mexico wireless for $2B; Bernstein downgrades on Starlink risk",
+      "body": "AT&T agreed to sell AT&T Mexico to Grupo Televisa and Fintech Holdings for $2B in cash (2.3x EV/EBITDA), closing Q1 2027. Bernstein downgraded to Market Perform ($24 PT from $25) citing ongoing pressure from SpaceX Starlink's spectrum acquisition (800MHz from Grain Management) and Q4 seasonality. Morgan Stanley reiterated OW, viewing the telecom selloff as overdone; SpaceX more likely a network-based competitor than direct carrier.",
+      "tickers": [
+        "T",
+        "VZ",
+        "CMCSA",
+        "CHTR"
+      ],
+      "source_item_ids": [
+        "gmail:1a13a52f824df632",
+        "gmail:1a14578d94376f4c"
+      ]
+    },
+    {
+      "title": "TSLA: MS turns more constructive post-Cybercab launch; new Roadster unveiled",
+      "body": "Morgan Stanley turned more constructive on Tesla, citing 300+ Cybercabs in Austin over 30 days and 1M+ unsupervised miles as robotaxi density catalysts. MS PT $400. Tesla also unveiled a new Roadster with air thruster capabilities (SpaceX thrusters), 0-60 in 1 second, targeting 2028 production. Hedgeye Risk Range shifted TSLA from Bullish to Neutral on Oct 15. Flying car speculation intensified Tesla-SpaceX merger discussion.",
+      "tickers": [
+        "TSLA"
+      ],
+      "source_item_ids": [
+        "gmail:1a144c583fafd3b4",
+        "gmail:1a1467f2fe123194"
+      ]
+    },
+    {
+      "title": "BE: $4B AEP/Google 702MW fuel cell deal validates commercial momentum; Morgan Stanley OW Top Pick",
+      "body": "AEP announced ~$4B investment in a 702MW Bloom Energy fuel cell project near Cheyenne, Wyoming, under a 20-year PPA with Google. Construction starts 2026, fully operational by end-2028. Morgan Stanley rates BE Overweight and as a Top Pick; Equinix also OW Top Pick. Roth raised PT to $260 from $225 (Neutral). Schneider Electric reported triple-digit data center demand growth\u2014positive read-through for VRT, FPS, GEV, BE.",
       "tickers": [
         "BE",
         "GEV",
@@ -229,7 +255,7 @@
       ],
       "source_item_ids": [
         "gmail:1a13a4d3d1229b87",
-        "gmail:1a144d8943913d97"
+        "gmail:1a145cd0e4465997"
       ]
     }
   ]

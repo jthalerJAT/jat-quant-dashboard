@@ -1,7 +1,7 @@
 {
   "digest_type": "weekend",
-  "digest_dt": "2026-10-17T18:00:00-04:00",
-  "saved_at": "2026-10-17T22:09:21.934831+00:00",
+  "digest_dt": "2026-10-18T18:00:00-04:00",
+  "saved_at": "2026-10-18T22:11:38.709456+00:00",
   "revisions": {
     "sales": {
       "metric": "sales",
@@ -19,22 +19,22 @@
           "n_obs": 0
         },
         {
-          "ticker": "MRVL",
-          "forward_y_code": "28Y",
-          "metric": "sales",
-          "current_estimate": 19785.022,
-          "prior_estimate": 18056.429,
-          "pct_change": 9.573282734919509,
-          "percentile": null,
-          "n_obs": 0
-        },
-        {
           "ticker": "MU",
           "forward_y_code": "27Y",
           "metric": "sales",
           "current_estimate": 273440.891,
-          "prior_estimate": 250453.94,
-          "pct_change": 9.178115145643151,
+          "prior_estimate": 250933.92,
+          "pct_change": 8.969282032496828,
+          "percentile": null,
+          "n_obs": 0
+        },
+        {
+          "ticker": "MRVL",
+          "forward_y_code": "28Y",
+          "metric": "sales",
+          "current_estimate": 19785.022,
+          "prior_estimate": 18179.786,
+          "pct_change": 8.829784905058835,
           "percentile": null,
           "n_obs": 0
         },
@@ -63,8 +63,8 @@
           "forward_y_code": "27Y",
           "metric": "sales",
           "current_estimate": 6482.333,
-          "prior_estimate": 6194.95,
-          "pct_change": 4.638988208137262,
+          "prior_estimate": 6240.9,
+          "pct_change": 3.8685606242689463,
           "percentile": null,
           "n_obs": 0
         },
@@ -83,8 +83,8 @@
           "forward_y_code": "28Y",
           "metric": "sales",
           "current_estimate": 7567.278,
-          "prior_estimate": 7335.75,
-          "pct_change": 3.1561599018505193,
+          "prior_estimate": 7313.176,
+          "pct_change": 3.4745779398718035,
           "percentile": null,
           "n_obs": 0
         },
@@ -155,8 +155,8 @@
           "forward_y_code": "27Y",
           "metric": "sales",
           "current_estimate": 1793.333,
-          "prior_estimate": 1811.833,
-          "pct_change": -1.0210654072422831,
+          "prior_estimate": 1814.167,
+          "pct_change": -1.1484058523829277,
           "percentile": null,
           "n_obs": 0
         },
@@ -185,8 +185,8 @@
           "forward_y_code": "27Y",
           "metric": "sales",
           "current_estimate": 28377.25,
-          "prior_estimate": 28564.192,
-          "pct_change": -0.6544627623284449,
+          "prior_estimate": 28564.0,
+          "pct_change": -0.6537949866965431,
           "percentile": null,
           "n_obs": 0
         },
@@ -201,12 +201,12 @@
           "n_obs": 0
         },
         {
-          "ticker": "INFY",
-          "forward_y_code": "28Y",
+          "ticker": "CMCSA",
+          "forward_y_code": "27Y",
           "metric": "sales",
-          "current_estimate": 2020091.8,
-          "prior_estimate": 2029253.0,
-          "pct_change": -0.45145676758886477,
+          "current_estimate": 117130.083,
+          "prior_estimate": 117654.714,
+          "pct_change": -0.4459073352556131,
           "percentile": null,
           "n_obs": 0
         }
@@ -254,18 +254,8 @@
           "forward_y_code": "27Y",
           "metric": "ebitda",
           "current_estimate": 235101.382,
-          "prior_estimate": 213784.679,
-          "pct_change": 9.971108827681707,
-          "percentile": null,
-          "n_obs": 0
-        },
-        {
-          "ticker": "MRVL",
-          "forward_y_code": "28Y",
-          "metric": "ebitda",
-          "current_estimate": 7866.833,
-          "prior_estimate": 7352.5,
-          "pct_change": 6.99534852091126,
+          "prior_estimate": 214573.714,
+          "pct_change": 9.566720740080958,
           "percentile": null,
           "n_obs": 0
         },
@@ -280,12 +270,32 @@
           "n_obs": 0
         },
         {
+          "ticker": "MRVL",
+          "forward_y_code": "28Y",
+          "metric": "ebitda",
+          "current_estimate": 7866.833,
+          "prior_estimate": 7387.375,
+          "pct_change": 6.490235029357505,
+          "percentile": null,
+          "n_obs": 0
+        },
+        {
+          "ticker": "IREN",
+          "forward_y_code": "28Y",
+          "metric": "ebitda",
+          "current_estimate": 5376.813,
+          "prior_estimate": 5117.188,
+          "pct_change": 5.073587290519721,
+          "percentile": null,
+          "n_obs": 0
+        },
+        {
           "ticker": "GNRC",
           "forward_y_code": "27Y",
           "metric": "ebitda",
           "current_estimate": 1290.0,
-          "prior_estimate": 1225.737,
-          "pct_change": 5.2428049410273125,
+          "prior_estimate": 1232.684,
+          "pct_change": 4.64969124284893,
           "percentile": null,
           "n_obs": 0
         },
@@ -296,16 +306,6 @@
           "current_estimate": 289.0,
           "prior_estimate": 277.387,
           "pct_change": 4.18656966620643,
-          "percentile": null,
-          "n_obs": 0
-        },
-        {
-          "ticker": "IREN",
-          "forward_y_code": "28Y",
-          "metric": "ebitda",
-          "current_estimate": 5376.813,
-          "prior_estimate": 5163.0,
-          "pct_change": 4.141255084253337,
           "percentile": null,
           "n_obs": 0
         },
@@ -402,22 +402,22 @@
           "n_obs": 0
         },
         {
-          "ticker": "CCL",
-          "forward_y_code": "27Y",
-          "metric": "ebitda",
-          "current_estimate": 7566.08,
-          "prior_estimate": 7698.231,
-          "pct_change": -1.7166411348269461,
-          "percentile": null,
-          "n_obs": 0
-        },
-        {
           "ticker": "OMC",
           "forward_y_code": "27Y",
           "metric": "ebitda",
           "current_estimate": 4756.545,
           "prior_estimate": 4839.444,
           "pct_change": -1.712986037238995,
+          "percentile": null,
+          "n_obs": 0
+        },
+        {
+          "ticker": "CCL",
+          "forward_y_code": "27Y",
+          "metric": "ebitda",
+          "current_estimate": 7566.08,
+          "prior_estimate": 7696.5,
+          "pct_change": -1.6945364776197014,
           "percentile": null,
           "n_obs": 0
         }
