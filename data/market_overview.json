@@ -1,31 +1,100 @@
 {
-  "digest_type": "weekend",
-  "digest_dt": "2026-10-25T18:00:00-04:00",
-  "saved_at": "2026-10-25T22:13:26.948012+00:00",
+  "digest_type": "premarket",
+  "digest_dt": "2026-10-26T08:30:00-04:00",
+  "saved_at": "2026-10-26T12:45:37.820259+00:00",
   "bullets": [
     {
-      "title": "AI capex cycle fracturing: credit stress, neocloud selloff, and HF deleveraging define the week",
-      "body": "The week's dominant theme was a sharp repricing of AI infrastructure risk. CoreWeave bonds hit ~15-16% yields, neocloud stocks cratered (Korean debut Elice -32%, CRWV -30%+ from October peak), and hyperscaler CDS hit record wides (META 5-yr CDS 119bp, ORCL near highs). Goldman Sachs noted ~$20bn of net TMT selling over two weeks, approaching July unwind levels. Hedge funds de-grossed 7 of 8 sessions with Oct 22 the 5th largest single-day event of the year; fundamental L/S down -3.3% MTD, TMT-focused funds -9.6% MTD. AI infrastructure allocations fell to lows last seen post-July moves. SpaceX Q3 revenue +161% to $14.6B and SMCI guidance raise to $18.5-19.5B (vs $14.5-15.5B) were the bull offsets, and hyperscaler earnings (GOOGL, MSFT, AMZN due Oct 28-29) are positioned as the next key clearing event.",
+      "title": "Peak earnings week: MSFT, GOOGL, AMZN, INTC plus FOMC Wednesday",
+      "body": "~46% of S&P market cap reports this week including MSFT (Wed AH, cons $4.71 EPS), GOOGL (Wed AH, $3.03), AMZN (Thu AH, $1.97), and INTC (Thu AH). FOMC widely expected to hold Wednesday; GS/MS see final hike coming in December with 2 more total. Options imply ~10% avg move on megacap tech prints, near 10-year highs, while MSFT implied vol at 4% looks cheap vs 8Q avg of 7%.",
       "tickers": [
-        "CRWV",
-        "META",
-        "NVDA",
-        "NBIS",
-        "IREN"
+        "MSFT",
+        "GOOGL",
+        "AMZN",
+        "INTC",
+        "NOW"
       ],
       "source_item_ids": [
-        "gmail:1a174ceb25bac2cc",
-        "gmail:1a1730b7a2605a54"
+        "gmail:1a1782d8cd6d307d",
+        "gmail:1a17811703d0f809"
       ]
     },
     {
-      "title": "Hyperscaler capex financing diverges: AA-rated mega-caps can sustain 50%+ growth; weaker AI credits face stress",
-      "body": "Morgan Stanley argues the four largest hyperscalers (MSFT, AMZN, GOOGL, META) can sustain 50%+ capex growth in 2027 vs 2026 given ample debt capacity and ~25%+ ROIC targets. META guided FY26 capex to $135-145B midpoint and signaled 2027 will be higher; AMZN is targeting $300B+ in 2027 per JPM; GOOGL and MSFT each expected above $220-375B. By contrast, lower-quality issuers (CoreWeave, Nscale) face constrained access: CoreWeave unsecured bonds widened ~300bp since August, Nscale IPO valuation compressed to $16-19B from $30B target, and Anthropic is raising debt at >10% yield. 22V Research flags AI capex plateau would be only 40-50bp GDP drag but the 2028+ viability question is what's being repriced.",
+      "title": "META $95B equity raise dominates tape; NVDA/AMD/AVGO as $5B cornerstone buyers",
+      "body": "META launched $22.5B Class A common + $12.5B mandatory convertible preferred (pricing Oct 26 post-close) plus plans a separate $60B ATM program in Class C stock starting Q1 2027, totaling ~$95B. NVDA, AMD, and AVGO each indicated up to $5B interest in Class A shares; META trades up ~1-2% pre-market as overhang seen as resolving. META expects $135-145B capex in 2026 funded via operating cash flow, IG debt, and this equity raise.",
       "tickers": [
+        "META",
+        "NVDA",
+        "AMD",
+        "AVGO"
+      ],
+      "source_item_ids": [
+        "gmail:1a177f039a6c1fcd",
+        "gmail:1a177f1ec054e3e8"
+      ]
+    },
+    {
+      "title": "Neocloud financing seized up; Musk warns 200+ face 'guppy-level death'",
+      "body": "Debt markets have \"almost entirely shut off\" access for AI datacenter-only companies per Musk/GS commentary. SpaceX closed a $40B debt deal (IG-rated, diversified revenue) but CoreWeave CDS surged to record 266bp and neoclouds broadly sold off. GS Prime saw ~$20B TMT net selling over two weeks approaching July AI unwind levels; risk appetite indicator at lowest since April 2025. CRWV -2.4%, IREN -1.9%, BTDR -1.9% pre-market Monday.",
+      "tickers": [
+        "CRWV",
+        "IREN",
+        "BTDR",
+        "NBIS"
+      ],
+      "source_item_ids": [
+        "gmail:1a178089ccee0f93",
+        "gmail:1a177f4d0b4fc306"
+      ]
+    },
+    {
+      "title": "Semis down >30% from highs; market pricing ~25-30% cuts to 2028 compute\u2014UBS sees value",
+      "body": "SOX fell ~3.2% last week and is down 18.5% from early October highs; 25% of semi names screen oversold on 14-day RSI, most since April 2025. UBS argues the market is discounting 25-30% cuts to 2028 compute vs. the 70GW supply chain estimate, calling current SMH valuation at 10-year median 21x attractive. Three overhangs: land/power/shell gap (~20-25GW), neocloud financing, and open-model concentration risk. Hedge funds de-grossed AI Mon-Thu then partially re-grossed hyperscalers Friday.",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "MU"
+      ],
+      "source_item_ids": [
+        "gmail:1a1780c4c942a314",
+        "gmail:1a1780bb33d7d56c"
+      ]
+    },
+    {
+      "title": "Core inflation poised to run ~30bp above Fed forecast; year-end risk rising",
+      "body": "22V warns core inflation could surprise 30bp/month above the Fed's path as tariff refund windowns, AI-driven electronics price pressures, war broadening, and annual price resets compound. With unemployment claims at the 0.1 percentile historically and the labor market in 'low hire/low fire' mode, the Fed is unlikely to tolerate an overshoot\u2014tightening financial conditions risk increases. Base case: 2 more hikes (December, March) needed; flatter yield curves expected from questioned 2028+ AI capex plus near-term hot inflation.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a1782ceaecf8980",
+        "gmail:1a1748cc6cc75697"
+      ]
+    },
+    {
+      "title": "10-year yield breaches 5%; 2-year at 4.71%\u2014cross-asset stress spreading",
+      "body": "The 10-year UST broke through 5% to the downside (now ~5.00%) with the 2-year at 4.707% (+2.5bp). JPM fixed income strategy recommends holding 10s/30s steepeners and sees yields moving modestly higher near-term. Data center SASB bonds continue to widen as AI angst enters credit markets; HY spreads (+63bp in 1 month) show stress concentrated in AI/tech issuers while IG spreads remain range-bound. LQD flipped from Neutral to Bearish per Hedgeye risk ranges.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a16b3352979e239",
+        "gmail:1a16b32d3ef5fd74"
+      ]
+    },
+    {
+      "title": "Brazil Lula election win triggers EM selloff; JPM downgrades to underweight",
+      "body": "Lula's victory defied 75% prediction-market odds favoring Bolsonaro; JPM immediately downgraded Brazil equity to underweight, forecasting Ibovespa PE compression from 9.7x to 7x (-28%) and ~20% index decline with circuit breaker risk. USD/BRL target moved to 5.50 (10% BRL depreciation); sovereign credit downgraded from market-weight to underweight. Brazilian ADRs already pricing damage: XP -47.4%, PAGS -31.9%. WTI also fell 2.17% on risk-off.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a177d5a511e3cc4",
+        "gmail:1a1782d8cd6d307d"
+      ]
+    },
+    {
+      "title": "AI capex ROI debate escalating: hyperscalers vs. neoclouds bifurcating sharply",
+      "body": "Morgan Stanley argues top-4 hyperscalers (GOOGL, AMZN, META, MSFT) can sustain 50%+ capex growth in 2027 targeting 25%+ ROIC, given AA ratings and ample debt capacity. In contrast, lower-quality AI players face constrained unsecured access; credit markets are differentiating sharply. 22V pegs revenue per GW at $30-50B vs compute costs of $40-50B/GW, directly threatening neocloud margin viability. Enterprise AI adoption remains below VC spending, with mainstream corporates reluctant to pay for frontier models.",
+      "tickers": [
+        "META",
         "MSFT",
         "AMZN",
-        "GOOGL",
-        "META"
+        "GOOGL"
       ],
       "source_item_ids": [
         "gmail:1a171b33f025e4dc",
@@ -33,204 +102,139 @@
       ]
     },
     {
-      "title": "SOX -18.5% from October highs; semis at 200-day; rotation into software (IGV +6%)",
-      "body": "The Philadelphia Semiconductor Index fell 3.2% on the week and is -18.5% from early October highs, sitting on the 200-day moving average for the first time since June 2025. AI Core Revenue & Semis positioning fell to 94th percentile from the 99th. Software (IGV) surged +5.73% as investors rotated: Oppenheimer downgraded semis to Market Weight after an 18-month advance while upgrading Software and Commercial Services to Overweight. Options for next week's megacap tech earnings imply ~10% average moves, near 10-year highs.",
+      "title": "UBS raises server CPU TAM to $210B by 2030; memory supply is binding constraint, MU best play",
+      "body": "UBS lifted its C2030 server CPU TAM from $175B to $210B on higher head-node and standalone AI CPU units, but notes unconstrained demand could exceed $500B\u2014DRAM shortage is the binding limit. Ideal CPU-to-GPU ratio for AI settling at 3:1-4:1; AI CPUs need ~1.5TB memory vs 0.5TB for traditional CPUs. MU is preferred over AMD/INTC as the purest memory-demand play; demand upside is also positive for ABF substrates, TSMC, PCBs, and semicap.",
       "tickers": [
-        "NVDA",
         "MU",
-        "STX",
-        "WDC",
-        "SNDK",
-        "INTC"
+        "AMD",
+        "INTC",
+        "ARM"
       ],
       "source_item_ids": [
-        "gmail:1a174a464187920a",
-        "gmail:1a16de4b76c69d61"
+        "gmail:1a1780a652ba8a97",
+        "gmail:1a1780a85b76b9cb"
       ]
     },
     {
-      "title": "SpaceX (SPCX) Q3 crushes, raises 2027 compute target to 10-13GW; SMCI guides revenue up 27%",
-      "body": "SpaceX reported Q3 revenue of $14.6B (+161% YoY), with the Super Intelligence AI compute segment turning profitable for the first time at $7.6B. Management raised YE26 nameplate compute to 2.5-3GW (from >2GW) and guided 10GW incremental in 2027 for ~13GW cumulative, with 20GW as an upside scenario. Q4 capex guidance of $35-40B vs. street at ~$20B. Separately, SMCI raised Q1 FY27 revenue guidance to $18.5-19.5B from $14.5-15.5B, with gross margins rising to 12.0-12.5%. JPM raised SPCX PT to $500. These were the week's most unambiguously bullish AI data points.",
-      "tickers": [
-        "NVDA",
-        "SMCI",
-        "DELL",
-        "HPE",
-        "VRT"
-      ],
-      "source_item_ids": [
-        "gmail:1a15e193134583be",
-        "gmail:1a15e91942dc11c5"
-      ]
-    },
-    {
-      "title": "Megacap earnings mixed: META beats on ads/Muse but capex raises weigh; TXN blowout; LRCX disappoints",
-      "body": "META Q3 revenue +26% to $64.6B, beat consensus; Q4 guided $73-76B (+22-27% YoY). Muse hit 10M+ US/Canada sign-ups in 40 days with 25% daily engagement. However, stock fell ~9% on capex language ('hundreds of billions' in future needs), announced Class C non-voting share issuance for capital raises, and negative FCF (-$2.1B). Texas Instruments delivered a rare blowout: Q3 EPS $2.62 vs $2.43 consensus, gross margin 64.2% vs 61.1% street; guided Dec-Q above-seasonal. Lam Research posted modest beats but Dec-Q revenue guidance missed elevated buyside bars on gas delivery supply constraints; stock fell 12%.",
-      "tickers": [
-        "META",
-        "TXN"
-      ],
-      "source_item_ids": [
-        "gmail:1a16369619f256dd4b",
-        "gmail:1a1743d456081fd5"
-      ]
-    },
-    {
-      "title": "Fed on hold; 2 more hikes likely (Dec + Mar); BoC hiking; ECB December hike 'almost certain'",
-      "body": "JPMorgan expects the Fed to hold at the October FOMC meeting (market pricing 90%) with a solid December hike case and a reasonable March move\u201475bp total additional tightening. BoC is beginning a hiking cycle. ECB is expected to pause next week and hike in December when new forecasts are available, with risks toward a 5th hike in June 2027. 10-year Treasury yields hit 5.00-5.10% intraday; JPM tech bond yields rose ~5bps on the week on AI credit concerns. Piper Sandler notes 2 more Fed hikes are needed as core inflation remains above 2% target.",
+      "title": "Midterm macro setup: semiconductors and software historically outperform post-midterms",
+      "body": "Morgan Stanley notes tariffs and executive policy are immune to midterm outcomes, but fiscal policy, data-center state-level permitting (TX, OH, PA, GA governor races), and bank M&A approvals are all in play. Stocks historically rally post-midterms led by semis and software. Republican sweep = upside risk to Treasury supply and USD; narrow Democratic majority increases gridlock risk, pressuring long-end yields. Democrats favored 88%/60% for House/Senate per 22V.",
       "tickers": [],
       "source_item_ids": [
-        "gmail:1a16b3352979e239",
-        "gmail:1a16d9a869c3575a"
+        "gmail:1a1782488c4062e3",
+        "gmail:1a16fd5c2578795a"
       ]
     },
     {
-      "title": "WTI surges above $100/bbl on US-Iran escalation; Brent ~$114-116; ~$20 geopolitical risk premium priced in",
-      "body": "Crude oil posted a third consecutive weekly gain with WTI settling above $100/bbl on reports of US-Israel planning intensive operations against Iran post-election. Brent hit ~$114-116, with JPMorgan estimating a $20 risk premium above ~$94 fair value. Manufacturing PMIs reflected supply-chain disruption (vendor delivery times lengthened); October flash S&P Manufacturing PMI was 56.0, strong. Energy sector gained +2.51% on the week while consumer discretionary fell -1.39%.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a16a3abd6809564",
-        "gmail:1a168fb7e496301d"
-      ]
-    },
-    {
-      "title": "France fiscal crisis escalating; OAT-Bund spread near GFC levels; ECB TPI activation unlikely",
-      "body": "French 10-year yields crossed 5% for the first time since 2002; the OAT-Bund spread widened to near 180bp amid civil unrest and political uncertainty with three prime ministers in two years. JPMorgan lowered Q4 France GDP by 25bp to 1.0% annualized and raised Q1 2027 by 25bp. Moody's reviewing the French rating for downgrade. ECB views French political leadership as responsible for stabilizing markets through fiscal commitment and is very unlikely to activate TPI. French REITs fell 18% from July peak with 100% below 50-day moving averages.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a168ae21c559445",
-        "gmail:1a1696e0d34120f2"
-      ]
-    },
-    {
-      "title": "SpaceX terrestrial wireless play: 80K cell tower talks pressure T/VZ; tower REITs (CCI, SBAC, AMT) surge 10%+",
-      "body": "Reports emerged that SpaceX is in talks with Crown Castle and other tower operators to secure ~80,000 US cell sites using its 800MHz spectrum to build a fourth national wireless carrier. CCI surged 8-10% on the news; T and VZ fell 5-7% in sympathy. Wolfe estimates SpaceX's theoretical upper limit is ~24M US phones served via 800MHz. Starlink mobile US service targeted for early 2028. The development is broadly bullish for tower REITs (CCI best-positioned as pure US play) and structurally negative for incumbent telco multiples.",
-      "tickers": [
-        "T",
-        "VZ",
-        "CMCSA"
-      ],
-      "source_item_ids": [
-        "gmail:1a168977f7a89370",
-        "gmail:1a172ef79475d4be"
-      ]
-    },
-    {
-      "title": "US consumer still resilient; housing hits cycle lows; October spending decelerated",
-      "body": "Initial jobless claims fell to 194K (4-week avg 198K, 4-year low), and corporate profits are up ~20% with improving margins. However, housing deteriorated sharply: NAHB Housing Market Index fell to 29 (lowest since 2012), pending home sales hit record lows (-7.3% MoM), and housing starts fell 5.2% in September. October JPMorgan Chase card data showed consumer spending growth decelerating to ~5.9% YoY MTD vs 6.8% in September. UMich Consumer Sentiment fell to 48, down 10% YoY. 59% of consumers say high prices are eroding personal finances.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a16d91d77ad9258",
-        "gmail:1a154d2cd88ef58e"
-      ]
-    },
-    {
-      "title": "AI capex ROIC debate intensifies: revenue per GW vs compute costs is the swing factor",
-      "body": "22V Research flags AI capex plateau would drag growth only 40-50bp but notes the critical uncertainty is revenue per gigawatt ($30-50B+ range) vs compute costs ($40-50B/GW), which directly threatens AI capex durability and model provider margins. Enterprise adoption is lagging VC spend; mainstream corporate America is unwilling to pay for the latest models. Jefferies argues the bull case is the AWS/Uber precedent\u2014massive infrastructure buildout that took years to monetize but created the foundation for the next era. The consensus around $7T of 2025-2030 AI capex is the number being stress-tested.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a169954f8831cef",
-        "gmail:1a1748cc6cc75697"
-      ]
-    },
-    {
-      "title": "HF positioning at extremes: net leverage at multi-year lows, short leverage at 5-year highs",
-      "body": "Goldman Sachs Prime shows overall gross leverage at 312.3% (79th percentile 1-year) but net leverage at 71.8% (3rd percentile 1-year). Fundamental L/S net leverage hit 1st percentile on a 3-year lookback. Short leverage is approaching 99th percentile. Global equities were net sold for 3 consecutive weeks with long sales outpacing short covers 3.4:1. ~$20B global equity supply is expected next week from systematic sellers. The VIX spike to 19+ ranked 97th percentile of daily moves since 2020. Retail buying was at its slowest pace in a year.",
+      "title": "HF deleveraging approaching exhaustion\u2014but alpha generation worst stretch since GFC",
+      "body": "Goldman's HF VIP basket gave back ~50% of post-ChatGPT gains; L/S 20-day alpha at -2.9%, worst since Feb 2021. US L/S net exposure hit the 0th percentile on a 5-year lookback with $20B TMT net selling. Positioning breadth vs. price gap is second widest since 1990. Multiple strategists (JPM, GS, Citi) characterize this as a pure deleveraging episode where stops matter more than value\u2014and estimate it is in final innings, creating potential for violent positioning spikes.",
       "tickers": [
         "SPY"
       ],
       "source_item_ids": [
-        "gmail:1a16aa5598d90843",
-        "gmail:1a16a73bfffd732c"
+        "gmail:1a1730b7a2605a54",
+        "gmail:1a174435510cdeb0"
       ]
     },
     {
-      "title": "Sector rotation underway: equal-weight/value outperforming; staples +11% in 3 weeks; tech at 1-year low relative",
-      "body": "Small-cap Russell 2000 gained 2.0% on the week while the S&P 500 fell 0.5% and the Nasdaq -0.71%. Equal-weight S&P outperformed the cap-weighted index by ~160bp. Staples (XLP) surged to +3.7 sigma intraday Thursday, its 3rd-best 3-week stretch in 10 years, rising ~11% as AI uncertainty drove defensive rotation. Healthcare (XLV) hit all-time highs. Oppenheimer upgraded Commercial Services and Insurance to Overweight. The S&P ex-AI index (SPXXAI) is now outperforming the S&P 500 YTD. AI vs AI-at-Risk pair is down 13% YTD.",
+      "title": "Sector rotation underway: Software outperforming Semis; Capital Goods deteriorating",
+      "body": "Oppenheimer downgrades semis to Market Weight after 200-day average broke; software participation improved from 65% to 82% since August while semis collapsed from 88% to 26%. Commercial Services and Insurance upgraded to overweight. S&P ex-AI index now outperforming S&P 500 YTD; S&P 500 breadth improved to 60% above 200-day MA (best monthly improvement in 3 years) but headline flat due to concentration. Capital goods names (VRT, GEV) widely flagged as sell-into-strength.",
       "tickers": [
-        "SPY"
+        "GEV",
+        "VRT",
+        "BE"
       ],
       "source_item_ids": [
-        "gmail:1a174435510cdeb0",
-        "gmail:1a16de4b76c69d61"
+        "gmail:1a16de4b76c69d61",
+        "gmail:1a1780e75d4b6951"
       ]
     },
     {
-      "title": "DeepSeek raises $16B, launches open-source inference engine, deepens Huawei partnership",
-      "body": "DeepSeek released DeepInfer, an open-source inference engine enabling third parties to serve its model more cheaply. The company raised ~$16B (CNY 106B) in a second funding round at ~$75B valuation and hired CITIC Securities for a planned H1 2027 IPO on China's STAR market. DeepSeek plans to use Huawei's Ascend 950DT chip for training as early as late 2026. The US DHS ordered federal agencies to remove DeepSeek products citing data theft and malware risks. DeepSeek V4.1 Flash scored higher than GPT-6 Sol on offensive cybersecurity tasks.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a173bc7dad7a527",
-        "gmail:1a1738a9c1d50e0e"
-      ]
-    },
-    {
-      "title": "Starlink mobile 2028 launch faster than expected; spectrum purchase positions SpaceX as 4th carrier",
-      "body": "SpaceX is building toward a full US terrestrial wireless network, having already purchased Grain's 800MHz spectrum and now targeting ~80K cell tower leases. Wolfe Research estimates a theoretical ceiling of ~24M US phones served on 800MHz spectrum with a nationwide buildout costing $50-130B plus ongoing leases. The Trump administration and FCC support Starlink deployment; antitrust challenge is viewed as unlikely. Carrier stocks T and VZ each fell 10% and 8% respectively on the news. The terrestrial service target is early 2028.",
+      "title": "AWS capacity sold out through 2027; Amazon scaling seasonal hires to 300K",
+      "body": "Amazon CEO Jassy confirmed AWS 2026 capacity is sold out, most large capacity blocks for 2027 are booked, and meaningful share of 2028 is already committed\u2014the strongest demand signal ahead of Thursday's print. VZ simultaneously announced a $2B+ AWS deal for distributed AI compute. Separately, AMZN is raising holiday seasonal hires to 300K (from 250K) signaling elevated demand expectations.",
       "tickers": [
-        "T",
+        "AMZN",
         "VZ"
       ],
       "source_item_ids": [
+        "gmail:1a177d6352dd78a1",
+        "gmail:1a177e53c0245fa9"
+      ]
+    },
+    {
+      "title": "US housing at multi-year lows: NAHB HMI hits 14-year trough of 29",
+      "body": "30-year mortgage rates fell 8bp to 7.32% but demand failed to respond: pending sales dropped to -14.4% YoY (worst since June 2023), purchase applications at -15.7% on 4-week MA (worst since April 2024), and NAHB HMI fell to 29\u2014below the April 2020 pandemic trough of 30. Single-family permits fell to 845K, lowest since March 2023. Mortgage rates remain 113bp above year-ago levels despite weekly relief.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a177f1baec27ce4"
+      ]
+    },
+    {
+      "title": "AI power trade technically broken; Hedgeye shorts GEV, CMI on peak-order risk",
+      "body": "Hedgeye moves GE Vernova to active short and Cummins to top short, arguing 'sold out through 2030' signals peak orders and margin risk rather than a bull thesis. 70% of 20 AI power/infrastructure stocks have poor technical scores; 100% are below their 50-day MAs and 75% below 200-day MAs. Competitors entering market (Ansaldo, CAT, CMI doubling engine capacity); fixed-price contracts and policy headwinds (~70% Dem sweep probability) add further pressure. Energy and healthcare names show 95% with good/strong technicals by contrast.",
+      "tickers": [
+        "GEV",
+        "BE",
+        "VRT"
+      ],
+      "source_item_ids": [
+        "gmail:1a173530d9e55420",
+        "gmail:1a173b17a9362b00"
+      ]
+    },
+    {
+      "title": "Token usage exploding but neocloud financing stress threatens hyperscaler capex conviction",
+      "body": "JPM data shows token spend growth accelerated +40% MoM in October driven by premium model mix (Opus 5.5); H100 GPU rental up 6.5% MoM, B200 up 4.7% MoM even as A100 fell 3.5%. But the debate is shifting from demand to financing: SpaceX CDS at record 266bp, CoreWeave bonds yield ~15%, and Ramp data shows 80% of Anthropic/OpenAI spend concentrated in top 1% of enterprises (mostly VC-backed), creating fragility if VC funding falters.",
+      "tickers": [
+        "NVDA",
+        "CRWV"
+      ],
+      "source_item_ids": [
+        "gmail:1a17818cd4232768",
+        "gmail:1a173d5102dc9d6d"
+      ]
+    },
+    {
+      "title": "Starlink 80K tower deal poses structural threat to telecom sector multiples",
+      "body": "SpaceX reportedly securing 80K+ US cell sites (likely Crown Castle) to support low-band spectrum strategy; theoretical Starlink upper limit revised to ~24M US phones served. Wolfe rates T Outperform but sees structural 4th-carrier risk from Starlink depressing sector multiples; telecom bounces should be sold. Separately, Starlink mobile service expected to turn on early 2028, faster than market expected. T fell 10% and TMUS fell 8% on Starlink mobile news.",
+      "tickers": [
+        "T",
+        "VZ",
+        "CHTR",
+        "CMCSA"
+      ],
+      "source_item_ids": [
         "gmail:1a172ef79475d4be",
-        "gmail:1a16a4aa0b2dc7ef"
+        "gmail:1a17491976afc99f"
       ]
     },
     {
-      "title": "WDC beats and raises with strong HDD demand visibility through 2031; gross margin upside",
-      "body": "Western Digital Q1 FY27 revenue was $4.38B (+55% YoY), beating consensus by 5.8%; EPS $4.64 vs $4.11. Gross margin of 58.1% was 240bp above consensus. Q2 guidance midpoint of $5.1B revenue and 60-61% gross margin was 10%+ above street. Management noted demand visibility from top-7 customers extending through CY2031 and described the supply-demand imbalance as unlikely to ease near term. HAMR qualification is on track for Q1 2027 volume ramp. 73% of sell-side rates Buy with an average target of $624 (82% upside). STX also positioned favorably with JPM preferring STX > WDC on HAMR transition lead.",
-      "tickers": [
-        "WDC",
-        "STX"
-      ],
+      "title": "Global growth resilient but skewed to downside; oil near $100 adds inflation pressure",
+      "body": "JPM Global Data Watch: China 3Q26 GDP at 4.6% ar beat expectations; global headline CPI forecast at 4% ar this quarter on oil up ~30% from last quarter's average. US consumer spending expected to cool to 1.5% ar this quarter. Fed, ECB, BoJ all expected to hold next week but single hikes coming. German IFO edged up 0.3pt to 90.2 in October; Japan semis stocks down 26% on AI infrastructure sustainability concerns and oil above $100.",
+      "tickers": [],
       "source_item_ids": [
-        "gmail:1a16a297e22f1c2b",
-        "gmail:1a16a3abd6809564"
+        "gmail:1a16b3352979e239",
+        "gmail:1a177f813d869e52"
       ]
     },
     {
-      "title": "PHP vulnerability discovered by AI is 'one of the most severe ever'; cybersecurity stocks rally 6%+",
-      "body": "AI tools independently discovered a critical PHP vulnerability enabling remote code execution and server takeover, affecting ~70% of global websites. CVE discovery volumes are running at 290/day YTD in 2026, more than 2x the 2025 pace. Cybersecurity stocks rallied ~6% on average (ZS +15%, CKPT +10%, OKTA +8%). Morgan Stanley and Citi both note the event elevates demand for runtime enforcement, automated remediation, edge security (NET, FSLY), and continuous pen-testing. The severity sits between Heartbleed and Log4J.",
+      "title": "Software M&A accelerating: $40B+ in October deals; cybersecurity stocks rally on PHP2Shell",
+      "body": "Five major software M&A deals in October totaling >$40B include Schneider/PTC ($24B), Salesforce/Braze (~$6B), and Proofpoint/Varonis; average deal EV/NTM Sales ~7.2x. AI-identified PHP2Shell vulnerability sparked a cybersecurity rally: Zscaler +15%, Check Point +10%, Okta +8%. MS expects bank M&A to accelerate through 2027-28 under faster regulatory approvals and capital rule relief post-midterms.",
       "tickers": [
-        "NET"
+        "NOW",
+        "MSFT"
       ],
       "source_item_ids": [
-        "gmail:1a16876b3fe265e4",
-        "gmail:1a173cf54c87c5d7"
+        "gmail:1a173cf54c87c5d7",
+        "gmail:1a1782488c4062e3"
       ]
     },
     {
-      "title": "Analog/industrial semi cycle inflecting: TXN data center +95% YoY, industrial +40%; NXPI, INTC setup constructive",
-      "body": "Texas Instruments' Q3 results showed Industrial +>40% YoY, Data Center +95% YoY, Auto +mid-teens%, with Q4 guided above seasonal for the 10th consecutive quarter. Analog capacity is tightening as mature node fabs absorb AI substrate demand. KeyBanc is bullish on NXPI (11x C28E vs analog median 15x) and INTC (server CPU demand outpacing supply on agentic AI with 30-35% unit growth expected in 2027). CPU ASPs are rising 15-20% QoQ as Intel and AMD shift mix to higher core count.",
-      "tickers": [
-        "TXN",
-        "INTC"
-      ],
+      "title": "AI capex bifurcation: factory construction set to accelerate even as tech capex moderates",
+      "body": "PSC Macro argues AI/tech capex slows to 35-50% YoY in 2027 vs 60-80% in 2026, but factory/manufacturing construction accelerates as Fed easing, easier bank lending, and reshoring incentives kick in. ABI C&I index moved above 50% in September; S&P Manufacturing PMI at 56.0 in October. Dodge nonresidential starts +16% YoY in September driven by data center buildings (+69% YoY). AI's net contribution to US demand is ~50-60bp, not the 100bp+ commonly cited per 22V.",
+      "tickers": [],
       "source_item_ids": [
-        "gmail:1a17394e3e7e533e",
-        "gmail:1a16e4819827aeca"
-      ]
-    },
-    {
-      "title": "Spotify beats Q3, guides Q4 better-than-feared; MS raises PT to $700",
-      "body": "Spotify Q3 gross margin 33.0% beat guidance of 32.9%; premium net adds of 6M beat the 5M guide. Q4 operating income guided at \u20ac820M vs \u20ac773M expected; Q4 gross margin guidance of 33.8% beat street by ~10bp. Management noted AI investments are showing returns through better discovery and moderated opex growth from Q4 onward. Morgan Stanley raised PT to $700 (OW) implying 30x FY28 FCF; multiple firms raised targets. Ad revenue is tracking double-digit growth in H2 2026.",
-      "tickers": [
-        "SPOT"
-      ],
-      "source_item_ids": [
-        "gmail:1a1688f9d5054430",
-        "gmail:1a16876b3fe265e4"
-      ]
-    },
-    {
-      "title": "Netflix misses Q4 guide, cuts ad revenue to $2.7B, fires film/content chiefs; stock -7%",
-      "body": "Netflix Q3 beat consensus on EPS and operating margin but guided Q4 revenue $13.44B (-0.6% vs consensus) and operating income 6% below consensus due to ~1K headcount reduction costs. More significantly, FY26 ad revenue guidance was cut to $2.7B from $3B on slower product rollout and partner integration delays. Wolfe Research downgraded to Peer Perform. Netflix also fired CCO Bela Bajaria and film chief Dan Lin. MS maintained OW but cut PT to $77; the stock is at 2-year lows.",
-      "tickers": [
-        "NFLX"
-      ],
-      "source_item_ids": [
-        "gmail:1a15e43e56ee0d07",
-        "gmail:1a16a2cff009c17d"
+        "gmail:1a17413e2c5bd582",
+        "gmail:1a172846ac4a797b"
       ]
     }
   ]
