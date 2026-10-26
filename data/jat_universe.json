@@ -1,11 +1,22 @@
 {
-  "digest_type": "premarket",
-  "digest_dt": "2026-10-26T08:30:00-04:00",
-  "saved_at": "2026-10-26T12:45:37.820259+00:00",
+  "digest_type": "midday",
+  "digest_dt": "2026-10-26T12:00:00-04:00",
+  "saved_at": "2026-10-26T16:14:36.885278+00:00",
   "bullets": [
     {
-      "title": "META: $95B equity raise ($35B now + $60B ATM) with NVDA/AMD/AVGO as $5B cornerstone buyers",
-      "body": "Meta launched a $22.5B Class A common + $12.5B mandatory convertible preferred offering (priced Oct 26), plus a separate $60B ATM program via Class C shares slated for Q1 2027. NVDA, AMD, and AVGO each indicated interest in purchasing up to aggregate $5B of Class A. Meta expects $135-145B capex in 2026, funding via OCF, IG debt, strategic partnerships, and this equity. Shares traded up ~1-2% pre-market on dilution overhang being resolved.",
+      "title": "VZ: 3Q26 beats on postpaid adds and FCF; guidance raised; SpaceX competition overhang persists",
+      "body": "VZ posted postpaid phone net adds of 406K (vs. 199\u2013220K estimates), adj. EBITDA of $13.8B (+8% YoY, beat), and FCF of $7.8B ($1.9B above JPM est); raised FY26 EPS to $5.04\u20135.06, postpaid net add guide to 1.1\u20131.2M, and FCF growth to ~12%. Weakness: service revenue missed ($23.49B vs. $23.58B est), FWA adds of 159K missed 200K est, and postpaid ARPA fell 1.9% YoY to $168. Shares -3% as SpaceX competitive uncertainty weighs; Citi maintains Buy/$55 PT, JPM stays Neutral.",
+      "tickers": [
+        "VZ"
+      ],
+      "source_item_ids": [
+        "gmail:1a17859a59b4715e",
+        "gmail:1a178598b6d44593"
+      ]
+    },
+    {
+      "title": "META: $35B equity raise + $60B ATM clears capex overhang; NVDA/AMD/AVGO each take ~$5B",
+      "body": "META announced a $35B Class A stock offering plus a $60B ATM shelf (not commencing until Q1 2027 when Class C stock trades); NVDA, AMD, and AVGO each subscribed ~$5B in the raise, described as circular financing. META targets $211B capex in CY27 vs. $140B in CY26; Citi notes the raise removes equity overhang heading into 2027 and Hedgeye TMT flagged Q3 revenue beat of $64.6B (+26.1% YoY) with Q4 guidance $73\u201376B.",
       "tickers": [
         "META",
         "NVDA",
@@ -13,224 +24,211 @@
         "AVGO"
       ],
       "source_item_ids": [
-        "gmail:1a177f039a6c1fcd",
-        "gmail:1a17821500c58a06"
+        "gmail:1a1785b4898c71c6",
+        "gmail:1a178440584f8148"
       ]
     },
     {
-      "title": "VZ Q3 beat: 406K postpaid phone adds, FCF $7.8B, guides raise across the board",
-      "body": "VZ reported adj. EPS $1.31 vs. $1.27 est., EBITDA $13.80B vs. $13.71B, and FCF $7.80B vs. ~$6.2B est. Postpaid phone adds of 406K blew past 174-215K consensus on +10% gross add growth. 2026 guidance lifted: postpaid adds to 1.1-1.2M (from 750K-1M), EPS to $5.04-5.06, FCF growth to ~12% (from 9-10%). Offsets: ARPA -1.9% y/y to $168.08 (missed $170.34 est.), FWA adds 159K missed ~200K est. VZ also signed $2B+ AWS deal for distributed AI compute. Citi and KeyBanc (Sector Weight) both neutral; UBS maintains Neutral.",
+      "title": "Anthropic IPO filed (ANT/Nasdaq): $16.3B H1'26 revenue, $657B+ compute commitments from AMZN/GOOGL/MSFT/AVGO",
+      "body": "Anthropic S-1 filed with GS/MS as joint bookrunners; H1'26 revenue $16.3B (up ~1,300% YoY), adjusted operating margin +19% vs. -129% a year prior, operating loss narrowed to $693M from $8.1B. Major compute commitments: Broadcom $161B, Google $114.5B+, Amazon $110B, SpaceX.AI $120.5B, Microsoft $44.9B+; net revenue retention ~900%; IPO expected week of Nov 9.",
       "tickers": [
-        "VZ",
+        "GOOGL",
+        "AVGO",
+        "AMZN",
+        "MSFT"
+      ],
+      "source_item_ids": [
+        "gmail:1a178663e7f9fd64",
+        "gmail:1a178a5132f4fd58"
+      ]
+    },
+    {
+      "title": "AMZN: AWS sold out through 2027-28; 30% upside thesis with Q3 earnings as catalyst",
+      "body": "AMZN CEO confirmed AWS capacity effectively sold out for 2026, largely committed for 2027, meaningful 2028 portion booked; AWS grew +36.7% YoY on a $169B base with AI contributing $25B annualized. Hedgeye models 30% upside over 12\u201315 months driven by AWS acceleration and Q4 Prime Big Deal Days; MS forecasts +38.1% Q3 / +41% Q4 growth vs. Street ~37%.",
+      "tickers": [
         "AMZN"
       ],
       "source_item_ids": [
-        "gmail:1a177e65903af86e",
-        "gmail:1a178214adddfbfe"
+        "gmail:1a178764a76464c5",
+        "gmail:1a1786182bdcf392"
       ]
     },
     {
-      "title": "TSLA: Barclays upgrades to Overweight from Equal Weight",
-      "body": "Barclays upgraded Tesla to Overweight, sending shares +2.4% pre-market Monday. No detailed PT disclosed in forwarded notes but the upgrade follows Tesla's Q3 automotive gross margins of 18.1% ex-credits, above 16.7% consensus. SpaceX-Tesla AI/autonomous merger narrative also cited as a catalyst.",
-      "tickers": [
-        "TSLA"
-      ],
-      "source_item_ids": [
-        "gmail:1a1782d8cd6d307d",
-        "gmail:1a177d6352dd78a1"
-      ]
-    },
-    {
-      "title": "Neocloud selloff: Musk warns 200+ face 'guppy-level death'; CRWV/IREN -2%+ pre-mkt",
-      "body": "Elon Musk posted that debt markets have 'almost entirely shut off' access for companies whose only revenue is AI datacenter rental, predicting widespread neocloud consolidation. CRWV fell -2.4% and IREN -1.9-2.2% Monday pre-market. SpaceX closed its own $40B debt deal (callable bonds) due to investment-grade status and Starlink/launch revenue diversification. GS Prime noted ~$20B of net TMT selling over two weeks, approaching July unwind levels.",
-      "tickers": [
-        "CRWV",
-        "IREN"
-      ],
-      "source_item_ids": [
-        "gmail:1a177f4d0b4fc306",
-        "gmail:1a178089ccee0f93"
-      ]
-    },
-    {
-      "title": "AAPL: Hedgeye remains short; Dec Q guidance at risk on iPhone 18 demand & memory cost headwinds",
-      "body": "Hedgeye maintains a short on AAPL at ~38x FY27 P/E, arguing the stock is propped by AI-hedge/defensive buying rather than fundamentals. iPhone 18 Pro lead times have normalized to 7-21 days (in line with prior year), but Duo supply remains constrained at ~94 days. Key bear points: China non-premium share loss, memory cost headwinds persisting into 2027, and expected Dec-Q guidance disappointment. Jefferies separately notes Dec Q may miss on weak iPhone 18 Pro/Pro Max demand and memory GM pressure of 5-6ppt.",
-      "tickers": [
-        "AAPL"
-      ],
-      "source_item_ids": [
-        "gmail:1a17443d89cdfb9d",
-        "gmail:1a17811703d0f809"
-      ]
-    },
-    {
-      "title": "AMD: UBS sees FQ4 guide as high as $17B (Street $16.2B); server CPU revenue potentially 2x in C2027",
-      "body": "UBS previews AMD earnings flagging FQ3 revenue at $13.1-13.3B (high end of guide) and potential FQ4 guide of $17B vs. Street $16.2B, driven by server CPU revenue growing ~26% Q/Q in FQ4. UBS models AMD server CPU revenue doubling from ~$17B in C2026 to ~$34B in C2027. TSMC allocated strong N3 capacity priority for AMD in 1H27.",
-      "tickers": [
-        "AMD"
-      ],
-      "source_item_ids": [
-        "gmail:1a1780d67fcba2bb",
-        "gmail:1a1780d6b807cbb5"
-      ]
-    },
-    {
-      "title": "MU: UBS names best play on $210B server CPU TAM constrained by DRAM supply",
-      "body": "UBS raised its C2030 server CPU TAM estimate to $210B (from $175B), but argues memory supply is the binding constraint\u2014unconstrained demand could exceed $500B. AI CPUs require ~1.5TB DRAM today vs. 0.5TB for traditional CPUs. MU preferred over AMD/INTC because it monetizes the memory bottleneck directly. Separately, JPM noted MU confirmed HBM4 in high-volume manufacturing with HBM4E samples shipping.",
-      "tickers": [
-        "MU",
-        "INTC",
-        "AMD"
-      ],
-      "source_item_ids": [
-        "gmail:1a1780a652ba8a97",
-        "gmail:1a174a464187920a"
-      ]
-    },
-    {
-      "title": "MSFT: Oppenheimer raises PT to $625 on Azure acceleration; low implied vol (4% vs 8Q avg 7%)",
-      "body": "Oppenheimer raised MSFT PT to $625 from $570, with checks supporting sustained Azure and M365 acceleration\u2014capacity, not demand, is the constraint. Azure modeled at 46% CC vs. ~47% buy-side expectations; FY27 capex debate remains key risk. Jefferies flags MSFT implied move of only 4% vs. 8-quarter avg of 7%, suggesting positioning is very long and vol may be underpriced. Wolfe also sees MSFT as a strong earnings setup.",
+      "title": "MSFT: 60,000-employee voluntary buyout program launched; Azure guide likely >45%",
+      "body": "Microsoft launched a voluntary buyout targeting 60,000 workers across several business divisions as a cost-cutting measure. On the product side, Mizuho estimates Azure Q3 growth at 46\u201347% vs. the 45% guide; MSFT Copilot revamp is reportedly driving customer switches from competing offerings.",
       "tickers": [
         "MSFT"
       ],
       "source_item_ids": [
-        "gmail:1a177fcff4d86961",
-        "gmail:1a17811703d0f809"
+        "gmail:1a178dc4ebff6e7d",
+        "gmail:1a178440584f8148"
       ]
     },
     {
-      "title": "GOOGL: Mixed bias into earnings; Cloud upside vs. Search deceleration; Hedgeye bearish",
-      "body": "Jefferies notes GOOGL has a negative bias but is less shorted than in mid-September, with push-pull between cloud strength and search deceleration. Wolfe likes GOOGL heading into print. Hedgeye rates GOOGL bearish (buy $315, sell $339). Opco notes GOOGL/AMZN both reporting this week with AI monetization as the central focus.",
+      "title": "APP: Down 56% from 52-wk high; Hedgeye short, Citi Buy \u2014 eCommerce store growth accelerating",
+      "body": "Hedgeye is short APP (paired long U) citing APP's first revenue guidance miss in 15 quarters and a 12% decline in Street FY28 EBITDA estimates on slowing AXON model improvement post gaming portfolio sale. Counter-view: Citi (Buy) tracks eCommerce client count at 19,228 (+4.2% w/w) with 4Q26 QTD US store weekly growth accelerating to 2.9% from 1.5% in 3Q.",
       "tickers": [
-        "GOOGL"
+        "APP",
+        "U"
       ],
       "source_item_ids": [
-        "gmail:1a1743125b3f7407",
-        "gmail:1a174f48287feaa7"
+        "gmail:1a1788f2f193c9cf",
+        "gmail:1a178d2d9db03931"
       ]
     },
     {
-      "title": "AMZN: AWS sold out through 2027; Opco sees 3% EPS upside on 43% incremental margins",
-      "body": "CEO Jassy confirmed AWS 2026 capacity is sold out, most large 2027 capacity blocks are booked, and meaningful 2028 capacity is already committed. Oppenheimer models AWS revenue upside to $13.2B+ with 43% incremental margins (Street models 39% for 2027). AMZN also signed a $2B+ deal with VZ for distributed AI compute. Reports Thursday after close vs. consensus EPS $1.97/revenue $202.2B.",
+      "title": "NVDA: Hedgeye adds to short list after trend break; semis priced for ~25-30% compute cuts",
+      "body": "Hedgeye downgraded NVDA to a Signal Strength short after Friday's chart confirmation, flagging the semiconductor cycle as past peak and XLK sold on TREND break. UBS takes the opposite view, noting semi valuations are now pricing in ~25\u201330% cuts to 2028 compute forecasts and have become 'quite attractive.' NVDA supply chain capacity increases per Wolfe signal AI spending not slowing.",
       "tickers": [
-        "AMZN"
+        "NVDA"
       ],
       "source_item_ids": [
-        "gmail:1a177d6352dd78a1",
-        "gmail:1a178214adddfbfe"
+        "gmail:1a17884a592ce04b",
+        "gmail:1a178d02560220cf"
       ]
     },
     {
-      "title": "NOW: Up 73% since last earnings; long bias into print; Wolfe and Opco both bullish",
-      "body": "ServiceNow has rallied 73% since the day after last quarter's print and doubled off its lows. Wolfe sees strong commercial and federal business cRPO. Opco raised PT to not specified but is constructive. Jefferies notes NOW is the highest-conviction upside print setup of the week. Reports Wednesday after close vs. consensus EPS $1.02/revenue $4.09B.",
+      "title": "NFLX and DIS: Combined streaming share hits record-low 25%; UGC surpasses 30% of viewing",
+      "body": "Citi notes streaming reached 50% of all US TV viewing hours in August 2026 for the first time, but Netflix and Disney combined fell to a record-low 25% share. Paid professionally produced content dipped below 50% of streaming hours while UGC exceeded 30%; Netflix viewership erosion was more acute than Disney's. Separately, Hedgeye moved NFLX to 'Bullpen' on slowing growth and below-consensus FY26 ad revenue ($2.7B vs. $3B).",
       "tickers": [
-        "NOW"
+        "NFLX",
+        "DIS"
       ],
       "source_item_ids": [
-        "gmail:1a16b236f6b5d10b",
-        "gmail:1a17811703d0f809"
+        "gmail:1a178eebf8abb740",
+        "gmail:1a1788f2f193c9cf"
       ]
     },
     {
-      "title": "INTC: Jefferies/KeyBanc expect beat & raise; server CPU demand outpacing supply",
-      "body": "Consensus expects INTC to beat and raise with Dec Q guidance of $17.5-18B vs. Street $16.52B. Server CPU demand is outpacing supply from agentic AI and inference workloads. Evercore notes CPU ASPs rising 15-20% Q/Q as INTC and AMD shift mix to higher core count CPUs in tight supply. INTC Diamond Rapids (1Q27) is closing the performance gap vs. AMD Venice. Reports Thursday after close.",
+      "title": "CART: Exploring sale at ~$16\u201317B ($65/share); unusual options volume -6%",
+      "body": "Reports emerged that Instacart is exploring a sale at a potential valuation of $16\u201317B ($65/share, 10x '27E EBITDA); shares down ~6% with 2,000%+ unusual options volume flagged. Citi notes CART maintains 75% large-basket grocery share with 370M orders projected for '26 (+9% YoY) and $42.3B GTV (+14% YoY).",
       "tickers": [
-        "INTC",
-        "AMD"
+        "CART"
       ],
       "source_item_ids": [
-        "gmail:1a17394e3e7e533e",
-        "gmail:1a16e4819827aeca"
+        "gmail:1a1785b4898c71c6",
+        "gmail:1a1789ffccac00f3"
       ]
     },
     {
-      "title": "ALAB: UBS flags 3Q/4Q upside; 4Q revenue expected +20% Q/Q; PT cut to $300 from $425",
-      "body": "UBS expects Astera Labs to post upside to consensus in both 3Q and 4Q, with Trainium 3 units up ~15% Q/Q driving 4Q revenue growth of ~20% Q/Q. ALAB's Orion platform addresses neocloud/smaller-scale customers and could compete with MRVL. PT was cut from $425 to $300 on sector de-rating but fundamental outlook remains constructive.",
+      "title": "TSLA: Barclays upgrade; Tesla-SpaceX merger committee formed",
+      "body": "Barclays upgraded TSLA, sending shares +2.5% in pre-market. Separately, Elon Musk confirmed Tesla and SpaceX formed a special committee to explore a merger before end of the Trump administration; Morgan Stanley hosted a webcast with Adam Jonas on the strategic outlook.",
       "tickers": [
-        "ALAB"
+        "TSLA"
       ],
       "source_item_ids": [
-        "gmail:1a1780d67fcba2bb",
-        "gmail:1a1780d6b807cbb5"
+        "gmail:1a1785b7e748d487",
+        "gmail:1a1789ffccac00f3"
       ]
     },
     {
-      "title": "STX: Max bullish buyside sentiment (+5); JPM sees HAMR transition as structural advantage vs. WDC",
-      "body": "JPM survey shows STX at max bullish buyside sentiment (+5) heading into Tuesday's print (consensus EPS $7.45). JPM favors STX over WDC on HAMR technology lead despite trimming target multiples to mid-teens. UBS also sees STX beating Sept and Dec quarters on HAMR ramp and higher ASPs, though flags HDD downcycle risk in late 2028. CLS buyside sentiment is +3.",
-      "tickers": [
-        "STX",
-        "CLS"
-      ],
-      "source_item_ids": [
-        "gmail:1a174a464187920a",
-        "gmail:1a16e16620e5afd0"
-      ]
-    },
-    {
-      "title": "CART: Exploring sale; talks with DASH and UBER; Wolfe sees $16-17B takeout value",
-      "body": "Instacart is reportedly in preliminary sale discussions with DoorDash and Uber (latter not ongoing per reports). Wolfe estimates takeout value at $16-17B (30-40% premium), calling CART a likely acquisition target. Stock is up +25% YTD and +30% over the past 3+ weeks. Q3 GTV expected +14.75% Y/Y with Q4 guide of +10-13%.",
-      "tickers": [
-        "CART",
-        "DASH",
-        "UBER"
-      ],
-      "source_item_ids": [
-        "gmail:1a174f48287feaa7",
-        "gmail:1a17821500c58a06"
-      ]
-    },
-    {
-      "title": "NFLX: Declining engagement and qualified play days; Wolfe downgrades on English content stall",
-      "body": "Wolfe downgraded Netflix citing stalled English TV content engine\u2014top 10 English TV viewing hours down -19% y/y since Stranger Things finale. Netflix's TV share fell for a third consecutive month to lowest since May 2025. Netflix also lowered FY26 ad revenue outlook to $2.7B from ~$3B. YouTube TV reached record 15.8% viewing share in August. Hedgeye rates NFLX bearish (buy $62, sell $69).",
-      "tickers": [
-        "NFLX"
-      ],
-      "source_item_ids": [
-        "gmail:1a17491976afc99f",
-        "gmail:1a16b87ad48fabcf"
-      ]
-    },
-    {
-      "title": "DKNG: NY sportsbook handle +5% YoY, GGR +79% on hold rate expansion; UBS Buy $48",
-      "body": "For the week ending Oct 18, DKNG's NY OSB handle grew +5% YoY (accelerating from +4% prior week) while GGR surged +79% YoY on hold rate of 10.0% (+410bps YoY). October MTD handle +3% YoY with MTD GGR +24% YoY. Citi notes 3Q industry handle up ~9% with GGR up ~3%; DKNG 3Q handle up ~14% QTD. UBS rates Buy at $48 PT on 17x 2028E EBITDA.",
+      "title": "DKNG: Normal-to-strong hold in NFL Week 7; 10\u201312% industry hold estimated",
+      "body": "NFL Week 7 delivered a 10\u201312% estimated industry hold with 69% of favorites winning outright but major upsets (Patriots, 49ers, Chiefs) and below-average scoring (-10% YoY TDs) favoring books. UBS maintains Buy on DKNG; Stifel expects EBITDA miss from DKNG and FLUT while naming FLUT its top pick on stabilizing share and lower promos.",
       "tickers": [
         "DKNG"
       ],
       "source_item_ids": [
-        "gmail:1a16acfd395dcc8b",
-        "gmail:1a1780b6b807cbb5"
+        "gmail:1a17846e10a96193",
+        "gmail:1a17899598635571"
       ]
     },
     {
-      "title": "FSLR: ROTH bullish at 5x 2027E EBITDA; expects bookings well ahead of typical 1-2GW/quarter range",
-      "body": "ROTH views First Solar as attractively valued at ~5x 2027E EBITDA with an integrated cost structure advantage (mid-20s c/W vs. peers at ~40c/W). Expects FSLR to deliver bookings well above the 1-2GW quarterly norm with pricing ~2c/W higher than Q2. ITC/45X extension carries ~80% probability under a Democratic House. Reports Thursday after close vs. consensus EPS $4.67.",
+      "title": "STX: F1Q27 earnings preview \u2014 HDD/AI demand and HAMR progress in focus (reports 10/27 AMC)",
+      "body": "Street expects STX F1Q27 revenue of $4.149B (above $4.10B guidance midpoint) and EPS of $7.45 (above $7.30 guide). Key watch items: nearline demand post-WDC beat, HAMR customer uptake and cost improvement, cloud/AI demand visibility, and supply discipline vs. Toshiba commentary.",
       "tickers": [
-        "FSLR"
+        "STX"
       ],
       "source_item_ids": [
-        "gmail:1a1781632848ef27"
+        "gmail:1a17897a0bab1361"
       ]
     },
     {
-      "title": "SHOP: AI-driven orders up 15x; META Muse partnership; 112x P/E seen as stretched vs. ~$100 fair value",
-      "body": "Shopify revenue grew 30% to $11.5B in 2025 with AI-driven orders up ~15-fold since early 2025. Merchant retention among larger customers is 92-97%. SHOP partnered with META on Muse for agentic checkout. However, analysts peg fair value near $100 vs. ~$160 current price (112x operating earnings). JPM Sketch notes Q3 GMV expected +33-34% Y/Y with alt data supporting the trend.",
+      "title": "SHOP: Lululemon enterprise win; stock +1.6% in Canada pre-market",
+      "body": "Lululemon went live with Shopify Shop Pay in the US and Canada, demonstrating Shopify's enterprise market expansion beyond SMB. Shopify Payments expected to remain primary growth engine; SHOP trading +1.6% to C$240 on the TSX.",
       "tickers": [
-        "SHOP",
-        "META"
+        "SHOP"
       ],
       "source_item_ids": [
-        "gmail:1a17821500c58a06",
-        "gmail:1a1782a34a9380e8"
+        "gmail:1a17893de5372e8c",
+        "gmail:1a178a17e9760c67"
       ]
     },
     {
-      "title": "SPOT: Phillip Securities downgrades to Accumulate from Buy; PT $650 (11% upside)",
-      "body": "Phillip Securities downgraded Spotify to Accumulate from Buy, maintaining a $650 PT implying ~11% upside from $584. The stock fell -1.2% pre-market Monday. Jefferies separately notes SPOT showed follow-through on a better Q4 gross margin guide last week.",
+      "title": "INTC: New Street Research upgrades to Buy with $125 PT (44% upside); MS still cautious on foundry",
+      "body": "New Street Research (Pierre Ferragu) upgraded INTC to Buy with a $125 PT implying 44% upside from ~$87, vs. FactSet consensus $119.85. Morgan Stanley remains cautious, noting INTC lacks key foundry capabilities and struggles to meet its own internal wafer demand; Wolfe says INTC needs $8\u201310 EPS to be a buy.",
       "tickers": [
-        "SPOT"
+        "INTC"
       ],
       "source_item_ids": [
-        "gmail:1a177efa4716a73e"
+        "gmail:1a17847df307f7c5",
+        "gmail:1a178764a76464c5"
+      ]
+    },
+    {
+      "title": "AAPL: iPhone Duo wait times >3 months; stock -1.2% pre-market; Hedgeye short",
+      "body": "UBS Evidence Lab tracks iPhone Duo pre-launch wait times exceeding three months across 30+ countries as a demand proxy \u2014 a historically bullish signal. Contra: Hedgeye issued a short flash call on AAPL; stock down 1.2% in pre-market. Oct 28 event may introduce touchscreen OLED MacBook Pros with up to $500 price hike, raising BOM risk.",
+      "tickers": [
+        "AAPL"
+      ],
+      "source_item_ids": [
+        "gmail:1a178c468e4ed8fb",
+        "gmail:1a17847fe69b0e34"
+      ]
+    },
+    {
+      "title": "EQIX/DLR: Large-cap data center REITs report Thursday; neocloud stocks under pressure",
+      "body": "EQIX and DLR report 3Q26 earnings Thursday; Citi hosting management meetings at Nareit REITworld Nov 17\u201318. Near-term headwind: Musk comments on debt markets shutting off AI-datacenter-only revenue companies drove neocloud stocks (CRWV, WULF, IREN) lower; CRWV and IREN are 56\u201357% off 52-week highs.",
+      "tickers": [
+        "EQIX",
+        "DLR",
+        "CRWV",
+        "IREN",
+        "WULF"
+      ],
+      "source_item_ids": [
+        "gmail:1a1785bab15b7623",
+        "gmail:1a1785b4898c71c6"
+      ]
+    },
+    {
+      "title": "V: Q4 earnings preview (reports 10/27 AMC) \u2014 consensus expects $12.09B revenue, $3.44 EPS",
+      "body": "Visa consensus: $12.09B revenue (+12.7% YoY) and $3.44 EPS (+16.7% YoY); beat in 19 of past 20 quarters on both metrics. Bulls cite resilient consumer spending and VAS acceleration; bears flag DoJ antitrust suit, rising incentives, and tough World Cup comps. Options imply ~3.6% move.",
+      "tickers": [
+        "V"
+      ],
+      "source_item_ids": [
+        "gmail:1a178a508dc11c69"
+      ]
+    },
+    {
+      "title": "RBLX: Week 43 CCUs up 3% sequentially at 16.1\u201316.3M; Citi maintains Buy",
+      "body": "Roblox Week 43 average peak CCUs at 16.1\u201316.3M, up ~3% sequentially but down ~13% YoY on tough comps; consistent with 4Q26 bookings guidance of $2.09B. Citi maintains Buy rating.",
+      "tickers": [
+        "RBLX"
+      ],
+      "source_item_ids": [
+        "gmail:1a1785378a068cf2"
+      ]
+    },
+    {
+      "title": "CLS: Down 15% last week; trading +2.3% Monday as sector recovers",
+      "body": "Celestica fell 15.1% in the prior week (worst in the TSX Composite), now -10.2% YTD. Monday pre-market the stock is rebounding +2.3% to C$372.82 alongside the broader Canadian market (TSX +0.69%).",
+      "tickers": [
+        "CLS"
+      ],
+      "source_item_ids": [
+        "gmail:1a17855c64c68c14",
+        "gmail:1a178a17e9760c67"
+      ]
+    },
+    {
+      "title": "ORCL: Investor Day 10/28 \u2014 funding structure, FCF inflection, and OCI economics in focus",
+      "body": "Citi's Klein flags ORCL's Oct 28 Investor Day as an opportunity to clarify vendor financing structures, BYOH arrangements, and prepayment dynamics; address FCF inflection timeline and OCI economics amid investor skepticism on the AI infrastructure capex cycle.",
+      "tickers": [
+        "ORCL"
+      ],
+      "source_item_ids": [
+        "gmail:1a178440584f8148"
       ]
     }
   ]

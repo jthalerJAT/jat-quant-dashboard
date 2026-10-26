@@ -1,26 +1,39 @@
 {
-  "digest_type": "premarket",
-  "digest_dt": "2026-10-26T08:30:00-04:00",
-  "saved_at": "2026-10-26T12:45:37.820259+00:00",
+  "digest_type": "midday",
+  "digest_dt": "2026-10-26T12:00:00-04:00",
+  "saved_at": "2026-10-26T16:14:36.885278+00:00",
   "bullets": [
     {
-      "title": "Peak earnings week: MSFT, GOOGL, AMZN, INTC plus FOMC Wednesday",
-      "body": "~46% of S&P market cap reports this week including MSFT (Wed AH, cons $4.71 EPS), GOOGL (Wed AH, $3.03), AMZN (Thu AH, $1.97), and INTC (Thu AH). FOMC widely expected to hold Wednesday; GS/MS see final hike coming in December with 2 more total. Options imply ~10% avg move on megacap tech prints, near 10-year highs, while MSFT implied vol at 4% looks cheap vs 8Q avg of 7%.",
+      "title": "Anthropic IPO Filed: $16.3B H1 Revenue, $657B+ Compute Commitments, Nasdaq Ticker ANT",
+      "body": "Anthropic filed for IPO on Nasdaq (ANT) with Goldman Sachs and Morgan Stanley as joint lead bookrunners; timing TBD but IPO expected week of Nov 9. H1'26 revenue reached $16.3B (~14x YoY), adjusted operating margin swung to +19% in Q2 from -129% a year prior, and the customer base with $100K+ TTM spend grew from 950 to 11,900 YoY. Compute commitments total $657B+ across Microsoft ($44.9B+), Google ($114.5B+), Amazon ($110B), Broadcom ($161.2B), and SpaceX.AI ($120.5B), with 50.1% founder voting control post-IPO.",
       "tickers": [
-        "MSFT",
         "GOOGL",
+        "AVGO",
         "AMZN",
-        "INTC",
-        "NOW"
+        "MSFT",
+        "AMD"
       ],
       "source_item_ids": [
-        "gmail:1a1782d8cd6d307d",
-        "gmail:1a17811703d0f809"
+        "gmail:1a178663e7f9fd64",
+        "gmail:1a178a5132f4fd58"
       ]
     },
     {
-      "title": "META $95B equity raise dominates tape; NVDA/AMD/AVGO as $5B cornerstone buyers",
-      "body": "META launched $22.5B Class A common + $12.5B mandatory convertible preferred (pricing Oct 26 post-close) plus plans a separate $60B ATM program in Class C stock starting Q1 2027, totaling ~$95B. NVDA, AMD, and AVGO each indicated up to $5B interest in Class A shares; META trades up ~1-2% pre-market as overhang seen as resolving. META expects $135-145B capex in 2026 funded via operating cash flow, IG debt, and this equity raise.",
+      "title": "AWS Capacity Sold Out Through 2027-2028; AI Capex Cycle Extends Well Beyond Near Term",
+      "body": "Amazon CEO confirmed compute is sold out for 2026 and largely committed for 2027, with a meaningful portion of 2028 already booked on $220B capex. Morgan Stanley forecasts hyperscalers (GOOGL, AMZN, MSFT) will increase capex >50% in 2027 vs 2026, and raises net US power shortfall estimate to 38GW through 2028 (from 33GW prior). Inference costs still need to fall ~90% for pervasive enterprise adoption per AMZN CEO; AI infrastructure bottlenecks won't alleviate in 2027.",
+      "tickers": [
+        "AMZN",
+        "GOOGL",
+        "MSFT"
+      ],
+      "source_item_ids": [
+        "gmail:1a178764a76464c5",
+        "gmail:1a1785acff083c79"
+      ]
+    },
+    {
+      "title": "META Raises $95B ($35B Offering + $60B ATM) for AI Capex; NVDA, AMD, AVGO Buy $5B Aggregate",
+      "body": "META launched a $35B common stock offering plus a $60B ATM program (not commencing until Q1 2027 when Class C shares begin trading) to fund AI infrastructure. AMD, AVGO, and NVDA each subscribed ~$5B in the Class A raise in what analysts describe as circular financing \u2014 META returns capital used to purchase their chips. META targets $211B in CY27 capex vs ~$140B in CY26; the raise is seen as clearing equity overhang heading into 2027.",
       "tickers": [
         "META",
         "NVDA",
@@ -28,213 +41,191 @@
         "AVGO"
       ],
       "source_item_ids": [
-        "gmail:1a177f039a6c1fcd",
-        "gmail:1a177f1ec054e3e8"
+        "gmail:1a1785b4898c71c6",
+        "gmail:1a178440584f8148"
       ]
     },
     {
-      "title": "Neocloud financing seized up; Musk warns 200+ face 'guppy-level death'",
-      "body": "Debt markets have \"almost entirely shut off\" access for AI datacenter-only companies per Musk/GS commentary. SpaceX closed a $40B debt deal (IG-rated, diversified revenue) but CoreWeave CDS surged to record 266bp and neoclouds broadly sold off. GS Prime saw ~$20B TMT net selling over two weeks approaching July AI unwind levels; risk appetite indicator at lowest since April 2025. CRWV -2.4%, IREN -1.9%, BTDR -1.9% pre-market Monday.",
+      "title": "Neocloud Financing Stress Intensifying; Musk Warns Debt Markets Shutting for AI-Only Revenues",
+      "body": "Elon Musk stated that debt markets are nearly closed to AI data center companies without broader revenue streams, flagging potential consolidation among 200+ neoclouds. SpaceX closed a $40B GPU borrowing backed by its diversified business rather than AI revenue, illustrating the divergence. CRWV, NBIS, and IREN are down 57-79% from 52-week highs; S&P Global separately warns data center projects face growing downgrade risk amid local pushback.",
       "tickers": [
         "CRWV",
         "IREN",
-        "BTDR",
-        "NBIS"
+        "WULF"
       ],
       "source_item_ids": [
-        "gmail:1a178089ccee0f93",
-        "gmail:1a177f4d0b4fc306"
+        "gmail:1a1785b7e748d487",
+        "gmail:1a17847fe69b0e34"
       ]
     },
     {
-      "title": "Semis down >30% from highs; market pricing ~25-30% cuts to 2028 compute\u2014UBS sees value",
-      "body": "SOX fell ~3.2% last week and is down 18.5% from early October highs; 25% of semi names screen oversold on 14-day RSI, most since April 2025. UBS argues the market is discounting 25-30% cuts to 2028 compute vs. the 70GW supply chain estimate, calling current SMH valuation at 10-year median 21x attractive. Three overhangs: land/power/shell gap (~20-25GW), neocloud financing, and open-model concentration risk. Hedge funds de-grossed AI Mon-Thu then partially re-grossed hyperscalers Friday.",
+      "title": "Semiconductor Valuations Now Attractive; UBS Says Stocks Discounting 25-30% Cuts to 2028 Compute Forecasts",
+      "body": "UBS argues semiconductor valuations have become very attractive as stocks are pricing in approximately 25-30% cuts to 2028 compute capacity forecasts. Key debates remain unresolved before investors gain full conviction for a move higher. GPU rental prices are rising (B300 +10.6% MoM, B200 +13.0% MoM, MI300X +5.3% MoM), and Nvidia's Jensen Huang says a memory glut by 2029 is unlikely given LPDDR and AI demand absorption.",
       "tickers": [
         "NVDA",
-        "AMD",
-        "AVGO",
         "MU"
       ],
       "source_item_ids": [
-        "gmail:1a1780c4c942a314",
-        "gmail:1a1780bb33d7d56c"
+        "gmail:1a178d04560220cf",
+        "gmail:1a178ae0295184ac"
       ]
     },
     {
-      "title": "Core inflation poised to run ~30bp above Fed forecast; year-end risk rising",
-      "body": "22V warns core inflation could surprise 30bp/month above the Fed's path as tariff refund windowns, AI-driven electronics price pressures, war broadening, and annual price resets compound. With unemployment claims at the 0.1 percentile historically and the labor market in 'low hire/low fire' mode, the Fed is unlikely to tolerate an overshoot\u2014tightening financial conditions risk increases. Base case: 2 more hikes (December, March) needed; flatter yield curves expected from questioned 2028+ AI capex plus near-term hot inflation.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a1782ceaecf8980",
-        "gmail:1a1748cc6cc75697"
-      ]
-    },
-    {
-      "title": "10-year yield breaches 5%; 2-year at 4.71%\u2014cross-asset stress spreading",
-      "body": "The 10-year UST broke through 5% to the downside (now ~5.00%) with the 2-year at 4.707% (+2.5bp). JPM fixed income strategy recommends holding 10s/30s steepeners and sees yields moving modestly higher near-term. Data center SASB bonds continue to widen as AI angst enters credit markets; HY spreads (+63bp in 1 month) show stress concentrated in AI/tech issuers while IG spreads remain range-bound. LQD flipped from Neutral to Bearish per Hedgeye risk ranges.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a16b3352979e239",
-        "gmail:1a16b32d3ef5fd74"
-      ]
-    },
-    {
-      "title": "Brazil Lula election win triggers EM selloff; JPM downgrades to underweight",
-      "body": "Lula's victory defied 75% prediction-market odds favoring Bolsonaro; JPM immediately downgraded Brazil equity to underweight, forecasting Ibovespa PE compression from 9.7x to 7x (-28%) and ~20% index decline with circuit breaker risk. USD/BRL target moved to 5.50 (10% BRL depreciation); sovereign credit downgraded from market-weight to underweight. Brazilian ADRs already pricing damage: XP -47.4%, PAGS -31.9%. WTI also fell 2.17% on risk-off.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a177d5a511e3cc4",
-        "gmail:1a1782d8cd6d307d"
-      ]
-    },
-    {
-      "title": "AI capex ROI debate escalating: hyperscalers vs. neoclouds bifurcating sharply",
-      "body": "Morgan Stanley argues top-4 hyperscalers (GOOGL, AMZN, META, MSFT) can sustain 50%+ capex growth in 2027 targeting 25%+ ROIC, given AA ratings and ample debt capacity. In contrast, lower-quality AI players face constrained unsecured access; credit markets are differentiating sharply. 22V pegs revenue per GW at $30-50B vs compute costs of $40-50B/GW, directly threatening neocloud margin viability. Enterprise AI adoption remains below VC spending, with mainstream corporates reluctant to pay for frontier models.",
+      "title": "Hedgeye Bearish Nasdaq Trend; Shorts QQQ Bounces, Adds Nvidia to Short List",
+      "body": "Hedgeye's McCullough maintains a bearish TREND on QQQ and added Nvidia to his short list after Friday's confirmation of trend breakdown; he prefers shorting QQQ over XLK as MSFT and AAPL retain bullish signals. High-yield OAS sits at ~337 bps with shorts maintained; 10-year yields holding at ~5.10% resistance after Treasury shorts were covered. S&P 500 first significant lower-high is flagged at ~7,600; consumer staples (XLP) rotated to bullish while healthcare is described as the strongest sector long.",
       "tickers": [
-        "META",
+        "NVDA",
         "MSFT",
-        "AMZN",
-        "GOOGL"
+        "AAPL",
+        "SPY"
       ],
       "source_item_ids": [
-        "gmail:1a171b33f025e4dc",
-        "gmail:1a1748cc6cc75697"
+        "gmail:1a178a7a5686343d",
+        "gmail:1a17840cdf4b63fb"
       ]
     },
     {
-      "title": "UBS raises server CPU TAM to $210B by 2030; memory supply is binding constraint, MU best play",
-      "body": "UBS lifted its C2030 server CPU TAM from $175B to $210B on higher head-node and standalone AI CPU units, but notes unconstrained demand could exceed $500B\u2014DRAM shortage is the binding limit. Ideal CPU-to-GPU ratio for AI settling at 3:1-4:1; AI CPUs need ~1.5TB memory vs 0.5TB for traditional CPUs. MU is preferred over AMD/INTC as the purest memory-demand play; demand upside is also positive for ABF substrates, TSMC, PCBs, and semicap.",
-      "tickers": [
-        "MU",
-        "AMD",
-        "INTC",
-        "ARM"
-      ],
-      "source_item_ids": [
-        "gmail:1a1780a652ba8a97",
-        "gmail:1a1780a85b76b9cb"
-      ]
-    },
-    {
-      "title": "Midterm macro setup: semiconductors and software historically outperform post-midterms",
-      "body": "Morgan Stanley notes tariffs and executive policy are immune to midterm outcomes, but fiscal policy, data-center state-level permitting (TX, OH, PA, GA governor races), and bank M&A approvals are all in play. Stocks historically rally post-midterms led by semis and software. Republican sweep = upside risk to Treasury supply and USD; narrow Democratic majority increases gridlock risk, pressuring long-end yields. Democrats favored 88%/60% for House/Senate per 22V.",
+      "title": "Macro Regime: 10Y at 4.99-5.10%; Core Inflation Running Above Fed's ~30bp/Mo Target",
+      "body": "The 10-year Treasury yield sits at 4.99-5.10%, with Hedgeye citing four upside inflation pressures: war impact, AI electronics pricing, end of tariff refunds, and annual price resets. If unemployment holds at 4.2% or below, the Fed has little room to tolerate overshoot and financial tightening risk increases. The Dallas Fed ISM-equivalent fell to 53.3 from 58.3 in October, and October ISM Manufacturing PMI tracked at 52.4 vs 54.5 in September, reflecting moderating growth with rising input/output prices.",
       "tickers": [],
       "source_item_ids": [
-        "gmail:1a1782488c4062e3",
-        "gmail:1a16fd5c2578795a"
+        "gmail:1a1785acff083c79",
+        "gmail:1a178c57777147d7"
       ]
     },
     {
-      "title": "HF deleveraging approaching exhaustion\u2014but alpha generation worst stretch since GFC",
-      "body": "Goldman's HF VIP basket gave back ~50% of post-ChatGPT gains; L/S 20-day alpha at -2.9%, worst since Feb 2021. US L/S net exposure hit the 0th percentile on a 5-year lookback with $20B TMT net selling. Positioning breadth vs. price gap is second widest since 1990. Multiple strategists (JPM, GS, Citi) characterize this as a pure deleveraging episode where stops matter more than value\u2014and estimate it is in final innings, creating potential for violent positioning spikes.",
+      "title": "Midterms: Democrats Strongly Favored for House; 55% Edge on Senate Per Piper Sandler/22V",
+      "body": "Polling strongly suggests a big Democratic night with Republicans unlikely to retain the House majority; Democrats hold a 55% edge to take the Senate with ten races within three percentage points. Historical polling error in Senate races runs 2-5 points from final averages. Post-midterm seasonality has historically been favorable: S&P 500 up every year after midterm elections since 1950, with average 15-17% gains.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a1788a46128e7ff",
+        "gmail:1a1784cf12029d09"
+      ]
+    },
+    {
+      "title": "Israeli Election Outcome Could Reduce Oil Risk Premia; Diplomatic Solution in 1H 2027 More Likely if Netanyahu Loses",
+      "body": "A Netanyahu defeat would reduce the probability of renewed US-Israeli military strikes on Iran and likely cause elevated oil market risk premia to recede. GCC leaders would be more likely to push for a successful US-Iran diplomatic outcome, with an eventual solution in 1H 2027 becoming more probable. Coalition formation uncertainty remains, and caretaker period dynamics limit dramatic escalatory actions.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a178c1b90d18abe"
+      ]
+    },
+    {
+      "title": "Brazil: Presidential Election News Drives ~20% Selloff in EWZ; CAD Narrows to 2.3% of GDP",
+      "body": "Brazilian equities (ABEV, ITUB, ARCO) fell sharply and EWZ dropped ~20% on Presidential election news. Separately, Brazil's current account deficit narrowed to 2.3% of GDP in September (vs expected US$6.3B; actual US$5.1B) \u2014 the tightest since 2024 \u2014 but portfolio outflows of $2.1B in equities/debt are expected to continue in October given market dynamics. JPM projects the CAD to end 2026 at 2.3% of GDP.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a178ebb5d01ab8e",
+        "gmail:1a178b47eb3ae905"
+      ]
+    },
+    {
+      "title": "AI Cloud Demand: AWS and SpaceX Both Confirm Supply Constraints; Spot Compute Prices Rising Third Consecutive Week",
+      "body": "SpaceX reports cloud demand outstripping supply and monetizing at favorable pricing as the market tightens; AWS capacity for 2026 is sold out, 2027 largely sold out, and a good portion of 2028 already committed. Compute spot prices rose for the third consecutive week (H100 +5.7% to $2.99/hr, B300 +1.6% to $7.64/hr). ByteDance, Alibaba, and Tencent placed over $35B in Nvidia chip orders; Nscale is in talks with Anthropic on a $45B AI cloud deal.",
+      "tickers": [
+        "AMZN",
+        "NVDA",
+        "BABA"
+      ],
+      "source_item_ids": [
+        "gmail:1a17893de5372e8c",
+        "gmail:1a178ae0295184ac"
+      ]
+    },
+    {
+      "title": "Data Center Backlash Creating Measurable Political Shift; Could Flip Key House Races",
+      "body": "Democratic support among voters within 2 km of data centers rose 7 percentage points (54% to 61%) between May-October 2026, versus only +2 points for voters farther away. Among Trump 2024 voters near data centers, 17% now intend to vote Democratic vs. 6% of those farther away, a divergence that emerged over summer 2026. The backlash could influence House races in Nevada's 2nd, Colorado's 4th, and Ohio's 15th districts; half of Americans oppose data center construction within 3 miles of homes per PF Global/Politico.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a178a955d4b81ea",
+        "gmail:1a1785b7e748d487"
+      ]
+    },
+    {
+      "title": "VIX Jumps 8.2% to 17.86; Broad Tape +0.9% to 7,691 as Markets Digest Heavy AI/Capex Newsflow",
+      "body": "VIX jumped 8.2% to 17.86 while the S&P 500 gained 0.9% to 7,691.36, with S&P futures pre-market at +0.3%. Large-cap growth stocks were down 0.5% last week for the second consecutive week; Semis fell -2.1% and Media fell -6.4%. High Yield saw outflows for the third consecutive week, and Goldman's VIP basket is in its worst 75-day stretch vs the S&P this century outside the GFC.",
       "tickers": [
         "SPY"
       ],
       "source_item_ids": [
-        "gmail:1a1730b7a2605a54",
-        "gmail:1a174435510cdeb0"
+        "gmail:1a178ebb5d01ab8e",
+        "gmail:1a1785acff083c79"
       ]
     },
     {
-      "title": "Sector rotation underway: Software outperforming Semis; Capital Goods deteriorating",
-      "body": "Oppenheimer downgrades semis to Market Weight after 200-day average broke; software participation improved from 65% to 82% since August while semis collapsed from 88% to 26%. Commercial Services and Insurance upgraded to overweight. S&P ex-AI index now outperforming S&P 500 YTD; S&P 500 breadth improved to 60% above 200-day MA (best monthly improvement in 3 years) but headline flat due to concentration. Capital goods names (VRT, GEV) widely flagged as sell-into-strength.",
-      "tickers": [
-        "GEV",
-        "VRT",
-        "BE"
-      ],
-      "source_item_ids": [
-        "gmail:1a16de4b76c69d61",
-        "gmail:1a1780e75d4b6951"
-      ]
-    },
-    {
-      "title": "AWS capacity sold out through 2027; Amazon scaling seasonal hires to 300K",
-      "body": "Amazon CEO Jassy confirmed AWS 2026 capacity is sold out, most large capacity blocks for 2027 are booked, and meaningful share of 2028 is already committed\u2014the strongest demand signal ahead of Thursday's print. VZ simultaneously announced a $2B+ AWS deal for distributed AI compute. Separately, AMZN is raising holiday seasonal hires to 300K (from 250K) signaling elevated demand expectations.",
-      "tickers": [
-        "AMZN",
-        "VZ"
-      ],
-      "source_item_ids": [
-        "gmail:1a177d6352dd78a1",
-        "gmail:1a177e53c0245fa9"
-      ]
-    },
-    {
-      "title": "US housing at multi-year lows: NAHB HMI hits 14-year trough of 29",
-      "body": "30-year mortgage rates fell 8bp to 7.32% but demand failed to respond: pending sales dropped to -14.4% YoY (worst since June 2023), purchase applications at -15.7% on 4-week MA (worst since April 2024), and NAHB HMI fell to 29\u2014below the April 2020 pandemic trough of 30. Single-family permits fell to 845K, lowest since March 2023. Mortgage rates remain 113bp above year-ago levels despite weekly relief.",
+      "title": "Hedge Fund De-Risking: Net Leverage at Extreme Lows After Violent AI/Tech Selloff",
+      "body": "Market is experiencing what Jefferies describes as traumatic hedge fund de-risking with net leverage at extreme lows following the AI and tech selloff. Retail equity volumes are down 20% since summer and 45% from recent peaks, weakening dip-buying firepower. QQQ took in money while small cap suffered chunky withdrawals; tech saw big inflows concentrated in semiconductors; High Yield saw outflows for three consecutive weeks.",
       "tickers": [],
       "source_item_ids": [
-        "gmail:1a177f1baec27ce4"
+        "gmail:1a1784cf12029d09",
+        "gmail:1a178c65ca4fbce4"
       ]
     },
     {
-      "title": "AI power trade technically broken; Hedgeye shorts GEV, CMI on peak-order risk",
-      "body": "Hedgeye moves GE Vernova to active short and Cummins to top short, arguing 'sold out through 2030' signals peak orders and margin risk rather than a bull thesis. 70% of 20 AI power/infrastructure stocks have poor technical scores; 100% are below their 50-day MAs and 75% below 200-day MAs. Competitors entering market (Ansaldo, CAT, CMI doubling engine capacity); fixed-price contracts and policy headwinds (~70% Dem sweep probability) add further pressure. Energy and healthcare names show 95% with good/strong technicals by contrast.",
+      "title": "Tesla-SpaceX Merger Exploration Underway; Salesforce Acquires Braze for $5.66B in Active M&A Week",
+      "body": "Elon Musk announced Tesla and SpaceX formed a special committee to explore a merger before the end of Trump's term. Key M&A this week: Salesforce acquiring Braze for $47.50/share (~$5.66B EV); Datadog submitted a ~$4B bid for Upwind Security; Instacart is exploring a sale at a potential $16-17B valuation (~$65/share, 10x 2027E EBITDA). Visa was in advanced talks to acquire Fireblocks for ~$2.5B (Fireblocks denied).",
       "tickers": [
-        "GEV",
-        "BE",
-        "VRT"
+        "TSLA",
+        "CRM",
+        "CART"
       ],
       "source_item_ids": [
-        "gmail:1a173530d9e55420",
-        "gmail:1a173b17a9362b00"
+        "gmail:1a1789ffccac00f3",
+        "gmail:1a1785b4898c71c6"
       ]
     },
     {
-      "title": "Token usage exploding but neocloud financing stress threatens hyperscaler capex conviction",
-      "body": "JPM data shows token spend growth accelerated +40% MoM in October driven by premium model mix (Opus 5.5); H100 GPU rental up 6.5% MoM, B200 up 4.7% MoM even as A100 fell 3.5%. But the debate is shifting from demand to financing: SpaceX CDS at record 266bp, CoreWeave bonds yield ~15%, and Ramp data shows 80% of Anthropic/OpenAI spend concentrated in top 1% of enterprises (mostly VC-backed), creating fragility if VC funding falters.",
+      "title": "MSFT Offers Buyouts to 60,000 Employees as Cost-Cutting Measure",
+      "body": "Microsoft launched a voluntary buyout program targeting 60,000 workers across several business divisions as part of a broader cost-cutting effort. This follows broader tech sector workforce rationalization trends including eBay cutting ~1,000 jobs (9% of workforce) in 2026.",
       "tickers": [
-        "NVDA",
-        "CRWV"
-      ],
-      "source_item_ids": [
-        "gmail:1a17818cd4232768",
-        "gmail:1a173d5102dc9d6d"
-      ]
-    },
-    {
-      "title": "Starlink 80K tower deal poses structural threat to telecom sector multiples",
-      "body": "SpaceX reportedly securing 80K+ US cell sites (likely Crown Castle) to support low-band spectrum strategy; theoretical Starlink upper limit revised to ~24M US phones served. Wolfe rates T Outperform but sees structural 4th-carrier risk from Starlink depressing sector multiples; telecom bounces should be sold. Separately, Starlink mobile service expected to turn on early 2028, faster than market expected. T fell 10% and TMUS fell 8% on Starlink mobile news.",
-      "tickers": [
-        "T",
-        "VZ",
-        "CHTR",
-        "CMCSA"
-      ],
-      "source_item_ids": [
-        "gmail:1a172ef79475d4be",
-        "gmail:1a17491976afc99f"
-      ]
-    },
-    {
-      "title": "Global growth resilient but skewed to downside; oil near $100 adds inflation pressure",
-      "body": "JPM Global Data Watch: China 3Q26 GDP at 4.6% ar beat expectations; global headline CPI forecast at 4% ar this quarter on oil up ~30% from last quarter's average. US consumer spending expected to cool to 1.5% ar this quarter. Fed, ECB, BoJ all expected to hold next week but single hikes coming. German IFO edged up 0.3pt to 90.2 in October; Japan semis stocks down 26% on AI infrastructure sustainability concerns and oil above $100.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a16b3352979e239",
-        "gmail:1a177f813d869e52"
-      ]
-    },
-    {
-      "title": "Software M&A accelerating: $40B+ in October deals; cybersecurity stocks rally on PHP2Shell",
-      "body": "Five major software M&A deals in October totaling >$40B include Schneider/PTC ($24B), Salesforce/Braze (~$6B), and Proofpoint/Varonis; average deal EV/NTM Sales ~7.2x. AI-identified PHP2Shell vulnerability sparked a cybersecurity rally: Zscaler +15%, Check Point +10%, Okta +8%. MS expects bank M&A to accelerate through 2027-28 under faster regulatory approvals and capital rule relief post-midterms.",
-      "tickers": [
-        "NOW",
         "MSFT"
       ],
       "source_item_ids": [
-        "gmail:1a173cf54c87c5d7",
-        "gmail:1a1782488c4062e3"
+        "gmail:1a178dc4ebff6e7d"
       ]
     },
     {
-      "title": "AI capex bifurcation: factory construction set to accelerate even as tech capex moderates",
-      "body": "PSC Macro argues AI/tech capex slows to 35-50% YoY in 2027 vs 60-80% in 2026, but factory/manufacturing construction accelerates as Fed easing, easier bank lending, and reshoring incentives kick in. ABI C&I index moved above 50% in September; S&P Manufacturing PMI at 56.0 in October. Dodge nonresidential starts +16% YoY in September driven by data center buildings (+69% YoY). AI's net contribution to US demand is ~50-60bp, not the 100bp+ commonly cited per 22V.",
+      "title": "Streaming Fragmentation Accelerates: Netflix + Disney Hit Record-Low 25% Combined Share; UGC Exceeds 30%",
+      "body": "Streaming reached 50% of all US TV viewing hours for the first time in August 2026 per Citi/Nielsen data, but Netflix and Disney combined fell to a record-low 25% of streaming hours. Paid professionally produced content dipped below 50% of streaming hours for the first time, with user-generated content now exceeding 30% of streaming viewing and free professionally produced content at 20%.",
+      "tickers": [
+        "NFLX",
+        "DIS",
+        "ROKU"
+      ],
+      "source_item_ids": [
+        "gmail:1a178eebf8abb740"
+      ]
+    },
+    {
+      "title": "Power Shortfall Estimate Raised to 38GW Through 2028; BTM and Infrastructure Plays in Focus",
+      "body": "Morgan Stanley's Stephen Byrd raised the 2026-2028 net power shortfall to 38GW from 33GW, driven by 116GW of chip-driven power demand, increasing urgency for behind-the-meter solutions (BE, SEI) and powered shell providers (WULF, HUT). MS projects US data center demand spillover into APAC. Starlink is separately in talks to access 80,000 US cell sites, raising competitive pressure on telco incumbents globally.",
+      "tickers": [
+        "BE",
+        "FSLR",
+        "ENPH"
+      ],
+      "source_item_ids": [
+        "gmail:1a178554a2c5be03",
+        "gmail:1a17873735a64b9c"
+      ]
+    },
+    {
+      "title": "Post-Midterm Seasonality Historically Favorable; FOMC Meeting Wednesday with 10Y Near 5%",
+      "body": "S&P 500 has risen every year following midterm elections since 1950, with average gains of 15-17%; this week's clearing events (Anthropic S-1, META raise, mega-cap earnings, ORCL Investor Day, FOMC) may resolve near-term uncertainty. FOMC meets Wednesday with the 10-year yield at 4.99% and curve flattening; one strategist notes that 10-year below 5% with oil at $80 is constructive but 10-year below 5% with oil at $100 is not.",
       "tickers": [],
       "source_item_ids": [
-        "gmail:1a17413e2c5bd582",
-        "gmail:1a172846ac4a797b"
+        "gmail:1a1784cf12029d09",
+        "gmail:1a1784ff68ddd420"
+      ]
+    },
+    {
+      "title": "Apple iPhone Duo: 3-Month+ Wait Times at Pre-Launch Signal Strong Demand",
+      "body": "UBS Evidence Lab tracking shows iPhone Duo wait times exceed three months as of one day pre-launch, tracked across 30+ countries as a demand proxy. Historical wait-time data has been tracked since 2017 across the top 25 Apple phones in the US.",
+      "tickers": [
+        "AAPL"
+      ],
+      "source_item_ids": [
+        "gmail:1a178c468e4ed8fb"
       ]
     }
   ]
