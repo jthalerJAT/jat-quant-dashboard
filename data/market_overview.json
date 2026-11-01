@@ -1,82 +1,101 @@
 {
   "digest_type": "weekend",
-  "digest_dt": "2026-10-31T18:00:00-04:00",
-  "saved_at": "2026-10-31T22:11:15.916406+00:00",
+  "digest_dt": "2026-11-01T18:00:00-05:00",
+  "saved_at": "2026-11-01T23:07:41.550278+00:00",
   "bullets": [
     {
-      "title": "October selloff: NDX -7%, SOX -15% on AI capex/financing fears; equal-weight outperforms",
-      "body": "The Nasdaq fell ~7% in October (worst since Mar-25) while the SOX dropped 15.4% \u2014 the index's third-largest single-day underperformance in 15+ years occurred Oct 30 \u2014 as the AI trade shifted from a demand debate to a financing debate mid-month. CoreWeave credit stress, Meta's 'hundreds of billions' capital needs, and Intel's catastrophic PC/guide miss drove eight consecutive session SOX losses. Equal-weight S&P outperformed cap-weight by ~590bp, with 60% of S&P constituents above their 50-day MA vs. 21% in late September. The S&P 500 ended October -0.93%.",
-      "tickers": [],
+      "title": "AI CapEx cycle re-engages as META raises $95B, AVGO backstops $63B Anthropic deal",
+      "body": "The week's defining macro theme was AI infrastructure financing: META announced a $95B+ equity raise (40M shares at $625 + $60B ATM starting Q1'27), with NVDA, AMD, and AVGO each buying ~$5B. Broadcom separately arranged a $63B debt financing SPV for Anthropic's chip purchases, providing residual value guarantees. These moves collectively cleared the 'equity overhang' narrative that had pressured AI trade for weeks, with GS noting hedge fund net AI exposure had fallen to the 17th percentile\u2014historically a setup for sharp reversals.",
+      "tickers": [
+        "META",
+        "AVGO",
+        "NVDA",
+        "AMD"
+      ],
       "source_item_ids": [
-        "gmail:1a18e740f6132fc0",
+        "gmail:1a17845a37363b6d",
+        "gmail:1a17cf345b8cee67"
+      ]
+    },
+    {
+      "title": "Hyperscaler earnings: MSFT Azure +48% beat, GOOGL Search miss reignites AI monetization concerns",
+      "body": "MSFT delivered the cleanest print: Azure +48% y/y with F2Q guide of 49-50%, operating margins ~50%, and FCF positive despite $25B bond issuance (first IG deal since 2017). GOOGL was the bear story\u2014Search only +12% vs. 14-15% expected, with AI Mode queries pressuring monetization; GCP grew +103% but lower-margin TPU sales clouded margins. AMZN AWS grew +39% (missed elevated ~43% buyside expectations) but guided 40%+ in both 2027 and 2028, with backlog up $82B q/q to $578B. Hyperscaler capex guidance: AMZN ~$220B '26 / meaningfully more '27; GOOGL $195-205B; MSFT lowered to ~$170B on third-party delays.",
+      "tickers": [
+        "MSFT",
+        "GOOGL",
+        "AMZN",
+        "ORCL"
+      ],
+      "source_item_ids": [
+        "gmail:1a18f0eb9c23d00f",
+        "gmail:1a18d26521e82abf"
+      ]
+    },
+    {
+      "title": "INTC worst day since 1974 on PC collapse; semis down 8% Friday, SOX hits 200-day MA for first time since mid-2025",
+      "body": "Intel's 4Q guide of $15-16B revenue (vs. $17B consensus) and EPS of $0.25 (vs. $0.45 consensus) triggered a -25% single-session collapse on PC market deterioration, Israel Fab 28 outage (-$300M), and DRAM cost-driven demand destruction. CY26 PC TAM cut to -12% with 2027 expected -10%. Semis closed down ~8% Friday\u2014the 3rd-largest single-day underperformance in 15+ years\u2014with SOXX below its 200-day MA for first time since May 2025 and five consecutive weeks of net Tech selling. Multiple analysts flagged this as a late-cycle signal, with back-end constraints from TXN, PI, and NXPI alongside customer pushouts reinforcing the thesis.",
+      "tickers": [
+        "INTC",
+        "NVDA",
+        "AMD",
+        "MU"
+      ],
+      "source_item_ids": [
+        "gmail:1a18ca5887839ce7",
         "gmail:1a18e352f3295892"
       ]
     },
     {
-      "title": "Big Tech earnings: MSFT beats Azure 48%, GOOGL -12.6% on Search miss, AMZN AWS guides 40%+ for 2027-28",
-      "body": "Microsoft delivered F1Q Azure at +48% (guided 49-50%), ~50% operating margins, and raised commercial RPO to $677B \u2014 described as the week's beacon. Alphabet fell 12.6% on Search growing only +12% vs. +14-15% expected, with AI Mode pressuring monetization. Amazon's AWS grew 39% (missed elevated buy-side +42-43% bogey) but management guided 40%+ growth in both 2027 and 2028, and the $578B backlog grew $82B q/q; 4Q operating income guidance midpoint missed by ~$1.5B. ServiceNow fell 28%+ on 4Q cRPO guide of 18.5% vs ~20% expected despite raising AI ACV target to $1.7B.",
+      "title": "NDX worst month since AI cycle began; equal-weight SPX outperformed cap-weight by ~590bp in October",
+      "body": "Nasdaq fell ~5.3% in October (worst since March 2025), SOX -15.4%, while Russell 2000 gained +0.54% and the Dow +1.70%. Equal-weight S&P outperformed cap-weight by ~590bp with 60% of constituents above 50-day MAs vs. 21% in late September. Nine of 11 S&P sectors logged weekly gains in the final week; Healthcare, Materials, Utilities led while Tech and Communications lagged. NYSE new lows beat new highs for 43 straight days. S&P 500 ended October down ~0.93%, now ~3% below ATH of 7,844 with key support at 7,500 (Sept low).",
       "tickers": [
-        "MSFT",
-        "GOOGL",
-        "AMZN",
-        "NOW"
+        "SPY"
       ],
       "source_item_ids": [
-        "gmail:1a18f9351aeae8bd",
-        "gmail:1a18d0c8bab5b3c2"
+        "gmail:1a18e740f6132fc0",
+        "gmail:1a18f9351aeae8bd"
       ]
     },
     {
-      "title": "Intel crashes 25%+ on worst day since 1974: PC down 25% h/h, negative FCF in 2027",
-      "body": "Intel's 4Q revenue guidance of $15-16B (vs ~$17B expected) reflected a PC unit TAM decline of ~12% in 2026 and ~10% in 2027 as memory cost inflation drove demand destruction. The Israel Fab 28 explosion added a $300M/200bp gross margin headwind in Q4 and Q1. Data Center/AI was up 78% y/y and beat, but PC (CCG) fell ~5% y/y and guided down >20% sequentially in 4Q. 2027 is expected to be a negative FCF investment year. Multiple downgrades followed: BofA to Neutral ($100 from $145), Roth to Neutral ($70 from $120), Seaport to Neutral.",
-      "tickers": [
-        "INTC"
-      ],
+      "title": "Fed holds, December hike priced at 73-85%; Chair Warsh signals neutral rate likely higher",
+      "body": "FOMC held rates at 3.75-4.0% with a 10-2 vote (Cook and Hammack dissented for a hike). Markets are pricing ~73-85% probability of a December 25bp hike, with March as a follow-on. Chair Warsh's press conference was viewed as having a shorter shelf-life than prior chairs as he speaks more for himself. Piper Sandler and JPM both expect a December hike bringing rates to 4.25-4.5%. 22V Research flagged Fed signaling rates need to go 'materially higher.' Q3 GDP printed +3.4% (above 3.2% consensus), driven by 4.9% private final domestic demand growth. Core PCE at 0.32% m/m with 52% of categories rising above 3% y/y.",
+      "tickers": [],
       "source_item_ids": [
-        "gmail:1a18ca5887839ce7",
-        "gmail:1a18c4ddf280e197"
+        "gmail:1a191a5e2a3df216",
+        "gmail:1a18cf142cca4ff8"
       ]
     },
     {
-      "title": "AI financing narrative dominates: META raises $95B, AVGO backstops $63B Anthropic deal, SpaceX GPU $40B",
-      "body": "The week's primary macro AI theme was financing. Meta announced ~$97.5B in equity raises (including $60B ATM starting Q1 2027) with Nvidia, AMD, and Broadcom as cornerstone investors. Broadcom arranged a $63B debt package for Anthropic chip purchases including residual value guarantees. SpaceX closed a $40B GPU deal. These moves collectively eased near-term concerns about AI capex availability. Anthropic filed its S-1 (ticker ANT, Nasdaq) showing H1'26 revenue of $16.3B (+1,400% YoY), 11,900+ enterprise customers spending $100K+, and $657B+ in future compute commitments from major CSPs.",
-      "tickers": [
-        "META",
-        "AVGO"
-      ],
-      "source_item_ids": [
-        "gmail:1a18224cad85f30a",
-        "gmail:1a17847df307f7c5"
-      ]
-    },
-    {
-      "title": "Hyperscaler capex: 2026 broadly flat, but 2027 ramp required \u2014 sellside questions sustainability",
-      "body": "Meta guided $135-145B CY2026 capex; Alphabet held $195-205B; Microsoft lowered slightly to ~$170B on third-party delays; Amazon held ~$220B with 'meaningfully more' in 2027. 22V Research noted the 2027 implied ramp is enormous \u2014 Microsoft has not broken $50-60B quarterly, while shareholder pressure on Amazon and Alphabet around negative FCF and AI ROI is intensifying. Piper Sandler flagged that the 2026 hyperscaler capex revision was the lowest in 3+ years, a late-cycle signal. Multiple desks flagged that only 1% of hyperscaler capex revision was the lowest in 3+ years.",
-      "tickers": [
-        "AMZN",
-        "GOOGL",
-        "MSFT",
-        "META"
-      ],
-      "source_item_ids": [
-        "gmail:1a19280421f39359",
-        "gmail:1a18dcd4806109c1"
-      ]
-    },
-    {
-      "title": "Hedge fund de-risking at historic extremes: TMT funds -12% MTD, systematic worst week since Dec '23",
-      "body": "Global hedge fund net returns fell ~3.5-4% in October. TMT-focused funds dropped 11.9-12.6% MTD, cutting YTD gains to just ~5%. GS Systematic L/S saw its worst weekly drawdown since December 2023. US Tactical Positioning Monitor fell to the 33rd percentile. Cumulative de-grossing exceeded 6% of book \u2014 more extreme than the late July/August episode and near 2018 extremes. Multi-strats were flat on the day but down ~0.9% MTD. Prior -3 sigma events in the L/S spread saw positive forward 20-day spreads in 6 of 7 cases with average rebound of +1%.",
+      "title": "Hedge fund positioning at multi-year lows; largest sustained de-grossing in 15+ years creates snapback risk",
+      "body": "GS Prime reported global hedge fund net returns down ~4% on a rolling 20-day basis, with TMT-focused funds down 11.9% MTD and systematic L/S down 3.5-3.7% MTD (their first negative month of 2026). Overall gross leverage declined more than in late July/August, now near 2018 extremes. Cumulative de-grossing exceeded 6% of book. US Tactical Positioning Monitor fell to the 33rd percentile. However, prior -3 sigma events in 20-day L/S spread saw positive forward 20-day spreads in 6 of 7 cases. Post-midterm seasonality (S&P 500 positive 19/19 times since 1950, average +15%) creates a constructive seasonal backdrop.",
       "tickers": [],
       "source_item_ids": [
         "gmail:1a18f3dc3e57cb4f",
-        "gmail:1a18e83fd6c579f0"
+        "gmail:1a18e8b440587eeb"
       ]
     },
     {
-      "title": "Systematic selling estimated at $165-220B as vol spikes; pension buying ~$46B partial offset",
-      "body": "UBS estimated risk-control funds would sell $165-220B total after the vol spike, with $55-70B on Oct 30 and $110-150B the following Monday. Levered ETFs were set to sell $35B, concentrated in semiconductors ($16.8B) and QQQ ($10.1B). This was the first meaningful one-day risk-control rebalancing since November 2025. CTA medium-term trigger levels for S&P were at ~7,554 (still intact). Month-end pension rebalancing was estimated to bring ~$46B in global equity buying as partial offset.",
+      "title": "AI financing stress: Anthropic IPO filed at ~$1.5T valuation; CoreWeave bonds at 76bp wide vs CDX.IG",
+      "body": "Anthropic filed its S-1 with H1'26 revenue of $16.3B (1,400% y/y), adjusted operating margin of +19% in Q2 vs. -129% a year prior, and 11,900+ customers with $100K+ annual spend. Future compute commitments total $657B+ from AMZN, GOOGL, MSFT, AVGO, AMD, SpaceX, and others. Barclays' AI-related CDS cohort traded at 76bp wide vs CDX.IG, up from 10bp six months ago. 22V noted Anthropic needs ~$200B+ ARR by 2027 exit to cover compute commitments. Anthropic IPO estimated ~Nov 20 and is viewed as 'the last major AI catalyst through year-end.'",
       "tickers": [
-        "SPY"
+        "CRWV",
+        "AMZN",
+        "GOOGL",
+        "AVGO"
+      ],
+      "source_item_ids": [
+        "gmail:1a17dd67c9183e256",
+        "gmail:1a18e6067b627e9f"
+      ]
+    },
+    {
+      "title": "Systematic selling dominated week: $165-220B risk-control unwind, ETFs at 31% of tape",
+      "body": "UBS estimated $165-220B in systematic risk-control selling triggered by the vol spike, with $55-70B on Oct 30 alone and $110-150B following Monday. Levered ETFs were positioned to sell $35B concentrated in semis ($16.8B) and QQQ ($10.1B). ETFs hit 31% of tape\u2014the highest full-session level since June\u2014suggesting systematic/top-down selling rather than fundamental liquidation. Pension month-end rebalancing partially offset with an estimated $46B in global equity buying. CTA triggers crossed multiple thresholds; next major triggers were far away at -3% to -8% from entry.",
+      "tickers": [
+        "SPY",
+        "NVDA",
+        "AMD",
+        "MU"
       ],
       "source_item_ids": [
         "gmail:1a18e61be04583e3",
@@ -84,126 +103,108 @@
       ]
     },
     {
-      "title": "Fed holds at 4%; Chair Warsh signals neutral rate 'likely higher'; December hike ~75-85% priced",
-      "body": "The FOMC held the fed funds rate at 3.75-4.00% with two dissenters who preferred a 25bp hike. Chair Warsh's press conference indicated the neutral policy rate is likely higher from current levels but offered limited new information \u2014 22V Research noted Warsh spoke more for himself than the committee, shortening the shelf life of the press conference's market impact. Q3 GDP printed at 3.4% annualized with private final domestic demand at 4.9% (strongest pace in 25 years ex-COVID). December hike probability was priced at 73-85% across desks.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a19228484985c6c",
-        "gmail:1a18e3a23e911570"
-      ]
-    },
-    {
-      "title": "Sticky inflation: core PCE 0.32% m/m, ECI in line but benefits surge 6.4%; Fed faces hawkish dilemma",
-      "body": "September core PCE came in at 0.32% m/m with core services ex-housing at 0.37%; 52% of PCE categories are rising above 3% y/y. The Q3 ECI showed total compensation at +3.4% y/y, but the acceleration was driven by health insurance costs (+6.4% y/y) not wage gains. Multiple desks flagged that sticky inflation measures are worsening appreciably and that nominal spending growth at ~6% is too strong for inflation to return to target without a productivity surge. 22V Research maintained a neutral stance on all risk factors through year-end citing unimproving inflation and the scenario risk from AI capex collapse.",
+      "title": "US economy running above speed limit: 3Q GDP +3.4%, private demand +4.9%, core PCE sticky",
+      "body": "Q3 real GDP printed +3.4% q/q saar (above 3.2% consensus) with domestic demand at +4.9%\u2014the strongest since 2021Q2 ex-COVID. Tech capex jumped +37.4% and software spending +9.6%. Core PCE at 0.32% m/m; 16% trimmed mean at 0.27% m/m and 2.74% y/y, running 75-100bp above pre-COVID pace. Nominal spending growth at ~6% is too strong for inflation to return to target without a productivity surge. Piper Sandler and JPM expect the Fed to hike in December and March. Trade was a 3.3pp drag largely from AI hardware imports (nearly 100% of US high-tech equipment capex is imported).",
       "tickers": [],
       "source_item_ids": [
         "gmail:1a18811a29a7f63f",
-        "gmail:1a18d1f774e00cc9"
+        "gmail:1a187f589540561d"
       ]
     },
     {
-      "title": "S&P earnings growth 30% with 82% beat rate, but magnitude of surprises below historical norms",
-      "body": "Q3 blended S&P 500 EPS growth stood at 30.2% (above the 29.6% expected at quarter-end), with 82% of reported companies beating \u2014 in line with the 1-year average. However, the aggregate EPS beat was only +1.9% above expectations vs. a 13.8% 1-year average positive surprise, and revenue beats were similarly thin at +1.7% vs. +2.1% 1-year average. Jefferies noted this was the biggest downside T+1 earnings day move for Tech in their 12-year dataset. The message across multiple desks: beats barely rewarded as drama has shifted to outlooks, not crystalized reality.",
+      "title": "Value/equal-weight breakout vs. growth; market broadening into defensives and consumer staples",
+      "body": "Russell 1000 Value/Growth ratio broke above two-year resistance. XLP outperformed S&P by +304bp in the final week, cumulative +11.7% over the prior month. Sector momentum rankings show Tech +11%, Financials +6%, Energy +4% leading; Consumer Discretionary -11%, Utilities -5%, Consumer Staples -5% lagging. Hedge funds flipped to buying biotech and medtech. Jefferies noted the SPX equal-weight index approaching a four-year breakout. Cash Return factor was the single best performing factor YTD on a long-short basis per 22V Research.",
       "tickers": [],
       "source_item_ids": [
-        "gmail:1a18e0569552e8e3",
-        "gmail:1a192b386c91e6e4"
-      ]
-    },
-    {
-      "title": "Value/equal-weight breakout vs. growth; tech seasonally strongest Nov-Jan but software outperforms semis technically",
-      "body": "The Russell 1000 Value/Growth ratio broke above two-year resistance. SPX averaged a 2.4% November gain since 1950, finishing higher 73% of years when entering the month above the 200-day MA. Tech ranked highest for momentum despite AI-related weakness; software shows stronger technicals than semis. Post-midterm seasonal patterns are historically strong: S&P 500 has been higher 12 months after every midterm since 1950 (19/19), averaging ~15%, and Nasdaq positive all 13 post-midterm windows since 1974. Sector momentum: Tech +11%, Financials +6% lead; Consumer Discretionary -11%, Utilities -5% lag.",
-      "tickers": [
-        "SPY"
-      ],
-      "source_item_ids": [
         "gmail:1a191ee8650fb613",
-        "gmail:1a18e20487cf9233"
+        "gmail:1a18e7d36b3ac5e5"
       ]
     },
     {
-      "title": "10Y Treasuries rally to 4.91-4.93% from 5.36% highs as AI/growth fears overtake inflation",
-      "body": "The 10-year Treasury yield fell ~35bp in October as AI/growth concerns overtook inflation worries. JPM technical strategy noted the 10-year rally stalling at 4.93-5.02% resistance with potential extension to 4.75-4.80% if equity selling intensifies. 22V Research's John noted the 30-year broke bearish trend thresholds and was considering covering TLT shorts. The yield decline was occurring simultaneously with WTI rallying 15.2% to above $100 on US-Iran escalation risk \u2014 a concerning combination per multiple macro strategists who noted rates below 5% with oil at $100 is a negative signal.",
+      "title": "WTI crude +15.2% in October to above $100; oil fourth consecutive monthly gain on Iran tensions",
+      "body": "WTI crude rose +15.2% in October to above $100, its fourth straight monthly gain, driven by US-Iran escalation risk. Gulf of Oman crude/product flows fell to 12.5Mb/d from a 17.2Mb/d early-October peak\u2014a 27% decline. Brent hit $116, with Hedgeye targeting $119-122 cycle highs. Oil strength reinforces the inflation-at-short-end-of-yield-curve thesis. 22V Research flagged oil as the top conviction long and gold as 'expensive relative to oil at 38x ratio vs 20x long-term average.' Energy sector was October's top performer at +14%.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a18dea052644895",
+        "gmail:1a18e740f6132fc0"
+      ]
+    },
+    {
+      "title": "Midterm elections: Democrats favored; prediction markets show 91% House odds, 67% Senate",
+      "body": "Prediction markets assign 91% probability to Democrats winning the House and 67% for the Senate, with 66% for a Democratic sweep overall. Voter engagement hit a record 56% (up 7 points from 2022) with Democrats holding a 10-point enthusiasm advantage. Post-midterm seasonal patterns are universally bullish: S&P 500 positive all 19/19 times since 1950 (+15% avg), Nasdaq positive all 13 times since 1974 (+25% avg). Key sector implications include AI regulation risk under a Democratic Congress and data center buildout subject to election outcomes, particularly the Texas race (~35% of announced AI factory buildouts).",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a18e20487cf9233",
+        "gmail:1a17886005f407e27a"
+      ]
+    },
+    {
+      "title": "Global central banks universally hawkish: ECB likely hiking December/March, BoJ December likely",
+      "body": "ECB held rates but Lagarde confirmed the direction is 'clearly toward further hikes,' with December now 'very likely' and March probable. JPM raised the Euro area headline inflation forecast to 4.0% with energy driving divergence (Italy +5.6%, France +3.8%). BoJ held at 1.25% with Ueda describing a December hike as 'quite likely.' BoC hiked 25bp to 2.50% (first since 2023). BoE expected to hike 25bp to 4.0% next week. Sweden's Riksbank expected to hike 25bp to 2.0%. The global rate cycle remains decisively tightening with no major DM central bank in dovish mode.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a18f37dda6f981f",
+        "gmail:1a1883e22e9efc6e"
+      ]
+    },
+    {
+      "title": "Treasury 10-year yield pulled back from 5.36% to ~4.92%; JPM targets 4.75-4.80% on further equity stress",
+      "body": "The 10-year yield retraced from a 5.36% peak to ~4.92% as AI/growth concerns temporarily outweighed inflation worries. JPM technical strategy sees further extension to 4.75-4.80% if equity selling intensifies. The 30-year broke bearish TREND thresholds per Hedgeye. 2s/10s curve steepened, with JPM recommending 2-year forward 5s10s steepeners. JPM Fixed Income continues to look for a December Fed hike and recommends 10s/30s steepeners. HG bond spreads stabilized as tail risks faded, while HY spreads trade 10-18bp inside YTD wides.",
       "tickers": [],
       "source_item_ids": [
         "gmail:1a18e674a2d6930b",
-        "gmail:1a18c7beeda9684c"
+        "gmail:1a18f4e5d86bb692"
       ]
     },
     {
-      "title": "Midterm elections: Democrats favored for House (91%) and Senate (67%); data center backlash a swing factor",
-      "body": "Prediction markets showed Democrats at 66% for a sweep, with 56% of Americans reporting giving considerable thought to the midterms \u2014 the highest on record. Democrats held a 10-point enthusiasm advantage (58% vs 48%). Voter proximity to data centers is shifting preferences toward Democrats (+7pp among those within 2km); among Trump 2024 voters near data centers, 17% intend to vote Democratic vs. 6% of those farther away. The Texas race remained close (Abbott +2-4%), significant because Texas hosts 35%+ of AI factory buildouts. California Prop 40 (billionaire tax) polls at only 25% support.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a191a9b33a02dec",
-        "gmail:1a178a7a5686343d"
-      ]
-    },
-    {
-      "title": "Memory cycle: SK Hynix blowout (7x profit, HBM sold out to 2029); NAND showing moderation with Kioxia guidance miss",
-      "body": "SK Hynix reported a 7x quarterly profit surge, launched a \u00a5100T ($75B) shareholder return program, and confirmed HBM/DRAM demand exceeds supply through 2030. Long-term agreements cover >50% of 2027-2028 production. In contrast, Kioxia's December quarter guidance missed by 14-16% on slower ASP growth (3-4% QoQ vs. ~30% prior) and smartphone softening. SanDisk beat strongly with data center at ~50% of industry bit demand; its NBM pipeline now covers 50% of FY27 bits and 67% of FY28 bits, extending beyond 2030. Memory's divergence \u2014 HBM/DRAM tight, NAND normalizing \u2014 is a key AI infrastructure read-through.",
+      "title": "Hyperscaler capex sustainability debate intensifies; 2027 consensus implies massive ramp from current run rates",
+      "body": "Consensus 2027 capex implies +16% at AMZN, +59% at META from Q3'26 run rates. MSFT capped quarterly spend near $50-60B. 22V Research flagged that hyperscaler Q3 capex came below expectations, requiring an 'incredible ramp' in 2027 to hit consensus. Shareholder pressure on AMZN and GOOGL around negative FCF and AI ROI may intensify. The 2026 hyper-capex forecast was revised up only 1%\u2014the lowest revision in 3+ years\u2014flagged as a late-cycle signal by Evercore. Jefferies data shows this was the 3rd largest notional sell week for Tech in five years, with AI trade lagging massively.",
       "tickers": [
-        "SNDK",
-        "MU"
+        "AMZN",
+        "GOOGL",
+        "META",
+        "MSFT"
       ],
       "source_item_ids": [
-        "gmail:1a18c969a3a9ac19",
-        "gmail:1a18d4e352e29380"
+        "gmail:1a18dcd4806109c1",
+        "gmail:1a18de3f65308cdb"
       ]
     },
     {
-      "title": "Binance $6.3B hack \u2014 largest crypto exchange breach on record \u2014 hits COIN, HOOD sentiment",
-      "body": "A compromised device at Binance resulted in $6.3B in unauthorized withdrawals \u2014 the largest crypto exchange breach on record. ~$3B was frozen on-chain with help from Tether, Circle, and Ripple. Bitcoin fell 4.6% to $76.7K. Morgan Stanley expects downside risk to Coinbase/Gemini 2027 earnings and valuation multiples. Crypto miners (BTBT, RIOT, MARA) fell 9-12%. HOOD fell 13.5% on both the earnings miss and crypto contagion. KeyBanc noted share gain opportunity for Coinbase from international but offering gaps may limit relevance. The incident reflects custody and operational failures, not blockchain flaws.",
+      "title": "Anthropic S-1 reveals DeepSeek/Chinese model competitive risk to US frontier models",
+      "body": "22V Research highlighted that DeepSeek and Chinese open-weight models win decisively on 'cost-per-finished-task' for routine work, with distillation from US frontier labs enabling low-cost Chinese outputs. US frontier models retain advantages on complex tasks. Anthropic's S-1 showed compute revenue per dollar improving 5.2x from Q1'25 to Q2'26, but the company needs ~$200B+ ARR by 2027 exit to cover compute commitments. Open-source models have the most room to take enterprise share; closed-source trusted platforms will dominate consumer. DeepSeek's capital raise and Moonshot expansion are flagged as 2027 signposts.",
+      "tickers": [
+        "GOOGL",
+        "MSFT",
+        "AMZN"
+      ],
+      "source_item_ids": [
+        "gmail:1a18e6067b627e9f",
+        "gmail:1a18e00f88b2a7f2"
+      ]
+    },
+    {
+      "title": "Data center power shortfall of 49GW by 2028E; utilities raising capex plans to capture AI demand",
+      "body": "Morgan Stanley's global data center capacity model projects 316GW by 2030E at 23% CAGR, with a 49GW US utility power shortfall by 2028E. GE Vernova orders surged +96% organically with guidance raised; Vertiv organic orders grew +100%+. AEP expanded its 5-year capex plan to $100B through 2031 and guides 9-11% operating EPS CAGR. Loudoun County's proposed data center approval pause and Virginia power delivery constraints represent emerging local opposition risk that is beginning to shift voter preferences toward Democrats in proximity to facilities.",
+      "tickers": [
+        "GEV",
+        "VRT",
+        "CEG"
+      ],
+      "source_item_ids": [
+        "gmail:1a17d0c1a67a98f0",
+        "gmail:1a1829aee90d5e3d"
+      ]
+    },
+    {
+      "title": "$6.3B Binance hack largest crypto exchange breach on record; Bitcoin fell to $76.7K",
+      "body": "Binance suffered a $6.3B security breach from a compromised device, with ~$3B frozen on-chain via Tether, Circle, and Ripple. Bitcoin fell 4.6% to $76.7K following the breach. Morgan Stanley expects downside risk to COIN/GEMI 2027 earnings and valuation multiples. HOOD fell -13.5% on earnings miss and the crypto overhang. Crypto miners BTBT, RIOT, and MARA fell 9-12%. Morgan Stanley views this as a custody and operational failure, not a blockchain flaw, and sees greater potential for custody-execution separation rather than wholesale migration to DEXs.",
       "tickers": [
         "HOOD"
       ],
       "source_item_ids": [
         "gmail:1a19244ca33e39c3",
-        "gmail:1a18c6eee7d52c4b"
-      ]
-    },
-    {
-      "title": "Oil surges 15% in October to above $100/bbl on Iran escalation; Hormuz flows drop 27% from peak",
-      "body": "WTI rallied 15.2% to above $100, marking the fourth consecutive monthly gain, driven by US-Iran escalation risks. Crude and product flows exiting the Gulf of Oman fell to 12.5Mb/d from an early-October peak of 17.2Mb/d \u2014 a 27% decline tracked by UBS Evidence Lab via AIS data. Multiple desks flagged that oil at $100+ with 10-year yields below 5% is a stagflationary warning signal. Brent crude was cited as a Hedgeye top long with a target of ~$119-122. 22V Research maintained oil bull thesis with a gold expensive relative to oil at 38x vs. the 20x long-term average.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a18dea052644895",
-        "gmail:1a19228484985c6c"
-      ]
-    },
-    {
-      "title": "DoorDash acquires Instacart for ~$17B; MRVL in advanced talks to acquire Lumentum",
-      "body": "DoorDash confirmed acquisition of Instacart at ~$65/share (~$17B equity value), deal expected to close end-2027/1H2028. Citi modeled $500M+ annual synergies, accelerating DoorDash's grocery/retail vertical by years. JPMorgan suspended ratings on both due to acting as financial advisor to DASH. Separately, Marvell was reported to be in advanced talks to acquire Lumentum in what could be one of the largest tech deals ever (LITE market cap ~$83B); deal expected to be all-stock at a modest premium. Wolfe noted the deal's strategic rationale (vertical optics integration) but flagged peak-cycle valuation and MRVL customer neutrality risks.",
-      "tickers": [
-        "DASH",
-        "CART",
-        "MRVL",
-        "LITE"
-      ],
-      "source_item_ids": [
-        "gmail:1a18c5c2f68526f3",
-        "gmail:1a187981947faaaf"
-      ]
-    },
-    {
-      "title": "Reddit -36% weekly on Google Search referral collapse; logged-in transition creates near-term DAU air pocket",
-      "body": "Reddit reported 3Q revenue beating (+54% ad growth, 54% incremental margins) but disclosed a ~1M/week decline in Google Search referrals in October, risking low-double-digit total DAU decline in 4Q. The stock fell 36% on the week. Raymond James maintained Strong Buy at $150, arguing the pivot to app-only/logged-in users (who drive >80% of monetization and are 5x more engaged) is structurally positive. Citi cut PT to $186 from $245 on near-term execution risk but maintained Buy. The Google AI Mode monetization headwind affecting Reddit is part of a broader Search disruption theme.",
-      "tickers": [
-        "RDDT",
-        "GOOGL"
-      ],
-      "source_item_ids": [
-        "gmail:1a18cbb1cdf6778d",
-        "gmail:1a18c630aa5128ad"
-      ]
-    },
-    {
-      "title": "Anthropic IPO filed (ticker ANT, Nasdaq): 1,400% revenue growth, $855B compute commitments, $1.5T valuation target",
-      "body": "Anthropic's S-1 revealed H1'26 revenue of $16.3B (+1,400% YoY), narrowed operating loss to $693M from $2.1B, and disclosed adjusted net income of $2.7B vs. a $1.7B loss year-ago. The customer base grew from 950 to 11,900 with $100K+ TTM spend in one year. Compute commitments total $657B+, including Amazon ($110B through 2036), Google ($114.5B+), Broadcom ($161.2B), and SpaceX.AI ($120.5B). IPO valuation targets ~$1.5T with timing estimated around November 20. 22V Research noted the company needs ~$200B+ ARR exiting 2027 to cover compute commitments \u2014 describing the IPO as the last major AI catalyst through year-end.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a17897d751bbb8e",
-        "gmail:1a178a508dc11c69"
+        "gmail:1a18e3623e911570"
       ]
     }
   ]
