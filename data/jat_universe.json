@@ -1,233 +1,245 @@
 {
-  "digest_type": "premarket",
-  "digest_dt": "2026-11-09T08:30:00-05:00",
-  "saved_at": "2026-11-09T13:47:06.711138+00:00",
+  "digest_type": "midday",
+  "digest_dt": "2026-11-09T12:00:00-05:00",
+  "saved_at": "2026-11-09T17:15:22.548668+00:00",
   "bullets": [
     {
-      "title": "NVDA: Board probes CEO Jensen Huang over alleged Chinese spy affair; stock -5% premarket",
-      "body": "NVDA's board launched an independent investigation after CEO Jensen Huang admitted to an extramarital affair with a woman US intelligence believes is a Chinese Ministry of State Security asset affiliated with Megaspeed (under export control investigation). The board states no evidence of IP, confidential info, or national security compromise; Huang remains CEO and has committed to full cooperation. Street reaction: Citi maintains Buy/$315 PT (21x C27E), GS maintains Buy with PT raised to $300 at ~11x CY27 EPS of $16.70, Morgan Stanley OW at $300 PT, while Aletheia Capital downgraded to Hold. Polymarket prices Jensen ouster at 17% probability; Republican House members requested a closed-door briefing on Nov 18.",
+      "title": "NVDA: CEO Huang investigated over alleged Chinese spy affair; stock down ~5.6%",
+      "body": "Nvidia's board launched an independent investigation into CEO Jensen Huang's alleged romantic relationship with a woman identified as a Chinese intelligence asset who may have helped China evade export controls. The board stated no evidence of IP or national security compromise and expressed confidence in Huang remaining CEO, but the DoJ is now involved after Commerce transferred the Megaspeed probe. Stock fell ~$9.85 (5.6%) to $176.79; Aletheia Capital downgraded to Hold; Polymarket pricing 17% odds Huang exits by Dec 31.",
       "tickers": [
         "NVDA"
       ],
       "source_item_ids": [
-        "gmail:1a1bf4a4f798b360",
-        "gmail:1a1c07be5926ead7"
+        "gmail:1a1c11c73741ad7b",
+        "gmail:1a1c0ff18518406e"
       ]
     },
     {
-      "title": "NVDA valuation: Semis SOX -28% in 22 days; GS/MS/UBS see selloff as overdone at trough multiples",
-      "body": "The SOX index fell 28% over 22 trading days\u2014one of the largest rolling 1-month drawdowns in history\u2014with NVDA trading at 12-13x CY27 EPS, well below its 10-year median trough of 22x. Goldman raised NVDA PT to $300 and AVGO PT to $540, arguing the selloff prices in ~30-35% EPS cuts that GS/MS view as excessive given intact hyperscaler capex ($1.6-1.75T in 2027). UBS sees semis pricing in ~30% C27 and ~35% C28 EPS cuts. NVDA assembly partners (Hon Hai, Quanta, Wistron) reported Oct revenues +46-118% YoY, signaling intact near-term hardware demand; NVDA results due 11/17.",
+      "title": "NVDA: Multiple analysts maintain Buy/'Buy the Drop' despite CEO overhang; RBC $330 PT, MS Top Pick",
+      "body": "RBC expects a 3-4% FQ3 beat and 2-4% FQ4 raise, citing robust GPU rental prices (GB300 +24% M/M, B200 +10% M/M) and hyperscaler capex strength; stock trades at 12x CY27E EPS vs. >50% discount to semi peers with $200B+ buyback support. Morgan Stanley's Joe Moore reiterates NVDA as Top Pick. Klein notes near-term selling pressure from the CEO probe but sees 7-8x CY28 PE as compelling entry for patient buyers; AMD at $450 is an alternative near-term.",
       "tickers": [
         "NVDA",
+        "AMD"
+      ],
+      "source_item_ids": [
+        "gmail:1a1c0d35c288d122",
+        "gmail:1a1c099226c83d56"
+      ]
+    },
+    {
+      "title": "Morgan Stanley 'Buy the Drop' AI thesis: hyperscalers/EQIX/power unchanged; 2028 US DC shifts to 2029",
+      "body": "MS argues markets overreacted to midterm results \u2014 ~20% of US data center projects (5GW) shift from 2028 to 2029, not cancellation. Hyperscaler capex unchanged at $1.6T/$1.8T in 2027/2028; 2029 US DC growth expected +38% YoY. High-conviction OW: AMZN, META, GOOGL, MSFT, NVDA, AVGO, EQIX, powered-shell providers (HUT, WULF), power/IPPs (BE, SEI, VST, TLN, CEG), optical (LITE, COHR, ANET), storage (STX, WDC). Value creation expected to shift from semis/infra toward software/AI adopters.",
+      "tickers": [
+        "AMZN",
+        "META",
+        "GOOGL",
+        "MSFT",
+        "NVDA",
         "AVGO",
+        "EQIX",
+        "HUT",
+        "WULF",
+        "BE",
+        "SEI",
+        "VST",
+        "TLN",
+        "CEG",
+        "LITE",
+        "COHR",
+        "ANET",
+        "STX",
+        "WDC"
+      ],
+      "source_item_ids": [
+        "gmail:1a1c112fda5870cb",
+        "gmail:1a1c09f88ad27f36"
+      ]
+    },
+    {
+      "title": "Citi downgrades US/Global/EU Tech to Neutral tactically; not dip-buying semis yet",
+      "body": "Citi Global Equity Strategy cut US, Global, and EU Tech from Overweight to Neutral, citing positioning risks and desire for cleaner sentiment before re-rating. The desk is not yet a dip-buyer in semis/tech despite acknowledging intact AI demand fundamentals.",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "GOOGL",
+        "META",
+        "MSFT"
+      ],
+      "source_item_ids": [
+        "gmail:1a1c0b4d1de5b3dd"
+      ]
+    },
+    {
+      "title": "HBM/DRAM super-cycle: SK Hynix HBM4 yields 60%+; Samsung adding HBM for AMD/NVDA; Q1'27 price hike expected",
+      "body": "SK Hynix achieved mid-60% HBM4 yields (industry-leading); Samsung will produce HBM base dies for AMD and Nvidia at its Texas fab. DRAM market entered a $200B super-cycle with spot-price premiums of 30-50% and shortages expected through 2027; new fabs not online until 2028. GPU rental prices also rising: B300 +14.46% M/M, B200 +15.35% M/M.",
+      "tickers": [
+        "NVDA",
         "AMD",
         "MU"
       ],
       "source_item_ids": [
-        "gmail:1a1c056f8fab8522",
-        "gmail:1a1c0601acdf271b"
+        "gmail:1a1c132cda8b117b"
       ]
     },
     {
-      "title": "AMD: Oppenheimer upgrades to Outperform, $600 PT; DC revenue seen +135% in 2027",
-      "body": "Oppenheimer's Rick Schafer upgraded AMD to Outperform with a $600 PT (vs. ~15x CY28 EPS, well below the 21x historical average). AMD data center revenue is projected to grow 135% in 2027, representing ~85% of sales, driven by MI455/Helios GPU deployments with visibility into 1H28; GPU revenue expected to overtake EPYC CPUs. OpenAI, Meta, and Anthropic are cited as key demand drivers. AMD is up ~3.5% premarket on the upgrade.",
+      "title": "TTD: up 16.1% on 181% above-average volume ahead of post-close earnings",
+      "body": "The Trade Desk surged 16.1% on unusually heavy volume (181% of average) ahead of its earnings report due after the close today, flagged by StreetAccount as a watchlist unusual-volume alert.",
       "tickers": [
-        "AMD"
+        "TTD"
       ],
       "source_item_ids": [
-        "gmail:1a1c04a52963f54c",
-        "gmail:1a1c076d0ae24899"
+        "gmail:1a1c1392b5f62d4d"
       ]
     },
     {
-      "title": "DKNG: Triple-downgraded (JPM, UBS, Stifel) as prediction market losses crater guidance",
-      "body": "DraftKings reported a 3Q adjusted EBITDA loss of -$317M vs. Street estimate of -$60M; revenue of $1.33B missed estimates by ~$130M. FY26 EBITDA guidance was cut to $175-275M from $700-900M as prediction market (PM) losses were raised to $650-700M (from $200-300M prior). UBS cut its PT to $22 from $48 and downgraded to Neutral; Citi maintained Buy but cut PT to $22 from $28, citing a 2028 path to $1B+ PM gross profit. NY sports betting data showed DKNG GGR down 1.2% YoY in October with market share contracting 300bps to 31.7% vs. FanDuel gaining 200bps to 44.1%.",
+      "title": "DKNG: Multiple downgrades; PT cut to $22 from $28 after Q3 miss and deferred profitability to 2028",
+      "body": "Citi cut DKNG PT to $22 from $28 after Q3 miss; Q4 2026 and FY2027 guidance came in well below Street on a significant increase in Prophet investment, pushing the path to profitability to 2028. Stifel, UBS, and JPMorgan also downgraded the stock. UBS separately flagged a possible low-hold NFL Week 9 (13/14 favorites won, 93% favorite win rate).",
       "tickers": [
         "DKNG"
       ],
       "source_item_ids": [
-        "gmail:1a1c06d06967716a",
-        "gmail:1a1c04e6f4f3a5eb"
+        "gmail:1a1c0b4d1de5b3dd",
+        "gmail:1a1c0e86fbe59ab5"
       ]
     },
     {
-      "title": "GOOGL: New TPU 8tx/8i Max variants launched; JPM removes from focus list, adds META",
-      "body": "Google launched four TPU variations\u2014including TPU 8tx for confidential computing and 8i Max for long-context tasks\u2014accelerating its chip release cadence from one every two years to multiple in 2026. JPM notes these are primarily reconfigured SKUs rather than entirely new silicon; AVGO is reportedly designing a 'Blade Runner' TPU anticipated by JPM. Separately, JPM removed GOOGL from its Analyst Focus List (citing Search deceleration to 12% YoY in 3Q from 17% in 2Q) and added META, whose core advertising accelerated +26% YoY in 3Q.",
+      "title": "AMD: Oppenheimer upgrades to Outperform, $600 PT; benefits from NVDA distraction and Intel CPU weakness",
+      "body": "Oppenheimer upgraded AMD to Outperform from Perform with a $600 price target, citing NVDA's CEO controversy creating an opening and AMD's solid recent quarter with Intel CPU market share gains. Stock was up ~4.1% pre-market.",
       "tickers": [
-        "GOOGL",
-        "AVGO",
+        "AMD"
+      ],
+      "source_item_ids": [
+        "gmail:1a1c0ae6bb491995",
+        "gmail:1a1c08ac8b1cefbb"
+      ]
+    },
+    {
+      "title": "GOOGL: New TPU chip family accelerates; Federal Circuit invalidates Google wireless patent vs. Sonos",
+      "body": "Google is launching four specialized TPU SKUs in 2026, including chips for confidential computing and AI agent security (8tx pairs with AMD CPU; 8i Max doubles compute density), with stock up ~2.5-3% on the news. Separately, the Federal Circuit summarily affirmed PTAB's invalidation of a Google wireless network patent asserted against Sonos.",
+      "tickers": [
+        "GOOGL"
+      ],
+      "source_item_ids": [
+        "gmail:1a1c0b4d1de5b3dd",
+        "gmail:1a1c0ef9049286b7"
+      ]
+    },
+    {
+      "title": "META: CSO Dave Wehner departing for Fireworks AI; launching Muse AI assistant; expanding age verification",
+      "body": "META Chief Strategy Officer Dave Wehner is leaving to become CFO of Fireworks AI. The company is launching its Muse AI assistant in the UK with retail partnerships and expanding Instagram age-verification technology globally as lawsuits mount over youth social media harms. Stock was up ~2.9% pre-market.",
+      "tickers": [
         "META"
       ],
       "source_item_ids": [
-        "gmail:1a1c07be5926ead7",
-        "gmail:1a1bf978e6685a9a"
+        "gmail:1a1c0b4d1de5b3dd",
+        "gmail:1a1c101e54bae2c8"
       ]
     },
     {
-      "title": "ORCL: Mizuho upgrades to Outperform ($320 PT); $20B financing overhang cleared, 7GW contracted through May 2028",
-      "body": "Mizuho upgraded ORCL to Outperform on the AI selloff opportunity, noting the $20B capital raise ($10B debt + $10B equity) removes the major funding overhang. All five mega data center sites are under construction with four permits secured; management has incorporated 1-2 quarter potential delays. ORCL re-contracted older GPUs at ~20% higher pricing even as MSFT wound down its Oracle cloud arrangement. GS also cited ORCL with operational agility and $225B+ FY29-30 revenue targets at 40%+ non-GAAP operating margins.",
+      "title": "MRVL/LITE: Marvell to acquire Lumentum at 4.5x fixed exchange ratio",
+      "body": "Marvell Technology agreed to purchase Lumentum at a fixed exchange ratio of 4.5 MRVL shares per LITE share, as flagged in the StreetAccount weekly M&A summary.",
+      "tickers": [
+        "MRVL",
+        "LITE"
+      ],
+      "source_item_ids": [
+        "gmail:1a1c0e026be68b96"
+      ]
+    },
+    {
+      "title": "CHTR: Q3 misses; targeting $2B opex cuts; sell-side evenly split buy/hold/sell",
+      "body": "Charter Q3 proforma EBITDA fell 4% YoY to $6.59B (missed) and revenue fell 2% to $16.51B; FCF declined to $674M from $1.62B. Management targets $2B annualized opex savings over 18 months plus >$1B Cox synergies. Street is evenly split (33%/33%/33% buy/hold/sell); avg PT $176.25; TD Cowen sees CMCSA M&A as a potential solution.",
+      "tickers": [
+        "CHTR",
+        "CMCSA"
+      ],
+      "source_item_ids": [
+        "gmail:1a1c0ba3891d29ba"
+      ]
+    },
+    {
+      "title": "AFRM: Well-positioned vs. Warren 10% credit card rate cap; October reaccelerated to high-30% volume growth",
+      "body": "JPM notes AFRM is differentiated from traditional card issuers (0% financing, no late fees, ~$250 avg transaction) and therefore less exposed to Senator Warren's proposed 10% APR cap. Management feedback was incrementally positive on agentic commerce and the Affirm Card (targeting 20M users vs. ~6M today); October volume growth reaccelerated to high-30% after a timing-related Q1 slowdown.",
+      "tickers": [
+        "AFRM"
+      ],
+      "source_item_ids": [
+        "gmail:1a1c0ab4d9d1f0c4"
+      ]
+    },
+    {
+      "title": "CRSP: Citi Buy, $90 PT; CTX310 Ph1b shows ~63% triglyceride reduction at Day 30 with clean safety profile",
+      "body": "Citi maintains Buy on CRISPR Therapeutics with a $90 PT (80% upside from ~$50). AHA 2026 data from the CTX310 Phase 1b trial showed ~63% mean triglyceride reduction and ~65% ANGPTL3 reduction at Day 30 (N=10 sHTG patients) with no treatment-related SAEs or Grade 3+ AEs. The ANGPTL3 editing program is now CRSP's lead cardiovascular program after Novartis' HORIZON data weakened the lipoprotein(a) rationale.",
+      "tickers": [
+        "CRSP"
+      ],
+      "source_item_ids": [
+        "gmail:1a1c13bf0429a52f"
+      ]
+    },
+    {
+      "title": "DLR: Unusual bearish options activity (Put/Call 42.95) post-EVGR LOI color; +3.9% stock",
+      "body": "Digital Realty Trust saw options volume 595% above average with an extremely bearish Put/Call ratio of 42.95 following EVGR LOI commentary, even as the stock was up 3.9%. DLR is also confirmed at Citi's Nareit REITworld meetings (Nov 17-18) and the Jefferies pre-NAREIT bus tour (Nov 16) in Atlanta.",
+      "tickers": [
+        "DLR"
+      ],
+      "source_item_ids": [
+        "gmail:1a1c13d36b3b1935",
+        "gmail:1a1c0d9ea0680b19"
+      ]
+    },
+    {
+      "title": "BABA: Chip unit T-Head Semiconductor planning HK IPO to raise $2-3B",
+      "body": "Alibaba's semiconductor unit T-Head Semiconductor is planning a Hong Kong IPO next year targeting $2-3B (HK$15.68-23.52B); Alibaba plans to reorganize T-Head with partial employee ownership before listing.",
+      "tickers": [
+        "BABA"
+      ],
+      "source_item_ids": [
+        "gmail:1a1c0d78184364fd"
+      ]
+    },
+    {
+      "title": "FOXA: Seaport Research upgrades to Buy, $76 PT (9% upside)",
+      "body": "Seaport Research Partners' David Joyce upgraded Fox Corp to Buy from Neutral with a $76 price target, implying 9% upside from $69.88. FactSet consensus target is $81.56.",
+      "tickers": [
+        "FOXA"
+      ],
+      "source_item_ids": [
+        "gmail:1a1c0c8c66da814d"
+      ]
+    },
+    {
+      "title": "ADBE/DIS: Multi-year strategic alliance for AI-powered tools across Disney innovation labs, parks, and cruises",
+      "body": "Adobe and Walt Disney announced a multi-year strategic alliance in which Adobe's AI tools and custom models will support concept exploration in Disney's innovation labs and parks/cruise development pipelines, helping teams develop ideas more quickly while protecting creator IP.",
+      "tickers": [
+        "ADBE",
+        "DIS"
+      ],
+      "source_item_ids": [
+        "gmail:1a1c09e800fc801f"
+      ]
+    },
+    {
+      "title": "SHOP: Partner Program simplification flagged as catalyst; FWONK upgraded to Hold",
+      "body": "Zach Goldberg's AM Attack flagged SHOP's simplification of its Partner Program around attribution as a potential positive catalyst. FWONK (Formula 1) was separately upgraded to Hold.",
+      "tickers": [
+        "SHOP",
+        "FWONK"
+      ],
+      "source_item_ids": [
+        "gmail:1a1c0a1f1854c74c"
+      ]
+    },
+    {
+      "title": "ORCL: DC permit delays create structural advantage; $20B financing removes overhang; FCF turns positive 2HFY28",
+      "body": "Klein notes ORCL is better positioned than peers as data center permit tightening limits AI supply and benefits existing infrastructure holders \u2014 ORCL has 5 mega-sites under construction with permits secured and targets ~10GW capacity by FY28 from ~3GW in FY26. The $20B financing removes a major funding overhang; free cash flow expected to turn positive in 2HFY28. MSFT GPU capacity non-renewals allow ORCL to re-contract older GPUs at higher prices.",
       "tickers": [
         "ORCL",
         "MSFT"
       ],
       "source_item_ids": [
-        "gmail:1a1bd575b5b11450",
-        "gmail:1a1c01b8da47e6a3"
-      ]
-    },
-    {
-      "title": "MNDY: JPM downgrades to Neutral ($87 PT); 4Q guide implies deceleration, NDR softens",
-      "body": "Monday.com reported 3Q revenue of $378M (3% beat) with EBIT beating by $30M, but 4Q guidance implies 14% YoY growth vs. 19% in 3Q. Net Dollar Retention moderated to 108% from 109% in 2Q; FCF came in at $16M vs. $66M estimate. JPM cut its rating to Neutral from OW and reduced its PT to $87 from $90, flagging risk of consensus resets for FY27-28 (currently at 15%/14% growth). Citi maintained Buy at $132 PT, arguing cRPO accelerated 5.3pts to +22.3% YoY.",
-      "tickers": [
-        "TEAM"
-      ],
-      "source_item_ids": [
-        "gmail:1a1c078e6df3b036",
-        "gmail:1a1c064ccffc7f70"
-      ]
-    },
-    {
-      "title": "MRVL/LITE deal: Market skeptical on $115B all-stock combination; both stocks hit hard",
-      "body": "Wolfe Research questioned the industrial logic of the Marvell-Lumentum deal, with both stocks declining sharply after the announcement. LITE fell -35.9% on the week (worst S&P performer). Jefferies was more constructive, arguing the combination strengthens scale-up and scale-in roadmaps as silicon and optics converge closer to XPUs, with LITE's five NPO designs now targeting 2028-2029 deployments vs. prior 2030+. UBS flagged that the deal raises peak-cycle durability concerns.",
-      "tickers": [
-        "MRVL",
-        "LITE",
-        "COHR",
-        "ANET",
-        "CIEN"
-      ],
-      "source_item_ids": [
-        "gmail:1a1bd5f110173bc8",
-        "gmail:1a1b6306fad072e0"
-      ]
-    },
-    {
-      "title": "APP: Beat; +71% on the week\u2014gaming ad +50% YoY, e-commerce +100%+ YoY",
-      "body": "AppLovin was the top S&P performer for the week, surging +71.2%. Morgan Stanley noted APP beat MS estimates by 5% on revenue and 6% on EBITDA, with gaming ad revenue up ~50% YoY and e-commerce surging 100%+ YoY. The stock is now down -41.9% YTD despite the weekly gain.",
-      "tickers": [
-        "APP"
-      ],
-      "source_item_ids": [
-        "gmail:1a1b3bc06360ac6a",
-        "gmail:1a1b71ea165d6a86"
-      ]
-    },
-    {
-      "title": "CHTR: MS maintains EW ($135 PT); Wolfe cuts to $117 on competitive ARPU pressure",
-      "body": "Charter reported total residential broadband net losses of -228K, better than estimates of -271K, with mobile adds of +508K vs. +415K expected. Management targets ~$2B opex savings over 18 months plus $1B+ Cox synergies. Morgan Stanley maintained Equal-weight at $135 PT noting Cox integration cutting internet losses in half. Wolfe maintained Underperform, cutting PT to $117 and modeling only ~$1.1B of cost savings realized in 2027, with ARPU facing -2pt headwind if savings are reinvested into pricing.",
-      "tickers": [
-        "CHTR"
-      ],
-      "source_item_ids": [
-        "gmail:1a1c04a7cd7e6476",
-        "gmail:1a1bd2de28b8dfc8"
-      ]
-    },
-    {
-      "title": "RBLX: Weekly engagement tracker shows accelerating Y/Y decline; peak CCUs -14% YoY",
-      "body": "JPM's engagement tracker showed Roblox platform peak CCUs declined 5% W/W to 23.7M, with Y/Y average peak CCUs now declining 14% through early November, accelerating from -12% in October. Steal An Egg moderated for the 7th consecutive week to 7.7M peak CCUs (down from 14.3M mid-September peak). JPM maintains Neutral at a $53 PT.",
-      "tickers": [
-        "RBLX"
-      ],
-      "source_item_ids": [
-        "gmail:1a1bcbceeedf3dae"
-      ]
-    },
-    {
-      "title": "CRWV: Letter to Texas Governor-elect on data center construction; key name in AI infra debate",
-      "body": "CoreWeave sent a letter to Texas Governor-elect Hinojosa regarding data center construction collaboration, as 22V Research highlighted CRWV can present well by outlining expected revenue per MW of IT capacity and 2027 funding needs. Texas Governor-elect Hinojosa has signaled a suspension of data center approvals pending stronger community protections\u2014a key overhang for the AI infrastructure complex, with MS estimating ~20% of US data center projects (~5GW) will be delayed from 2028 to 2029.",
-      "tickers": [
-        "CRWV"
-      ],
-      "source_item_ids": [
-        "gmail:1a1c02be0bd7bb96",
-        "gmail:1a1c0727bc09da8c"
-      ]
-    },
-    {
-      "title": "DDOG: Broad-based acceleration; largest customer above minimum commit but F4Q guide conservative",
-      "body": "Per JPM Tech Sketch, DDOG's CEO/CFO call showed broad-based core business acceleration with non-AI customer revenue growth; the company adds ~2K gross new logos per quarter. The largest customer consumed materially above its minimum commit in F3Q, but F4Q guidance assumes only the contractual minimum\u2014a potential source of upside that the market may not fully credit.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a1c0727bc09da8c"
-      ]
-    },
-    {
-      "title": "NET: Best software EPS print; Q4 guide implies 40%+ growth; Wolfe upgrades",
-      "body": "Cloudflare posted the best EPS print in Jefferies' software coverage last week, with Q4 guidance implying 40%+ growth. Wolfe Research upgraded NET. The stock also signed a $10M five-year SASE deal with a US Federal cabinet department and a $3M pool win with a multinational. NET appears as a new Trifecta addition at Oppenheimer's technical strategy desk.",
-      "tickers": [
-        "NET"
-      ],
-      "source_item_ids": [
-        "gmail:1a1bc8b9a14fe90d",
-        "gmail:1a1b38d6b1c86625"
-      ]
-    },
-    {
-      "title": "TSLA: Cybertruck production shifting toward Cybercab; refunds on deposit backlog",
-      "body": "Tesla is shifting Cybertruck production capacity toward the Cybercab given order rates exceeding production capacity ahead of a production shutdown; Tesla is processing refunds on considerable Cybertruck deposits. Additionally, Tesla's China domestic retail collapsed -68% YoY/-86% MoM to ~8.8K units in October while exports surged +66% YoY to 59K units (87% of October wholesale).",
-      "tickers": [
-        "TSLA"
-      ],
-      "source_item_ids": [
-        "gmail:1a1c02be0bd7bb96",
-        "gmail:1a1bfa6a74924ec0"
-      ]
-    },
-    {
-      "title": "FSLR/GNRC: Solar tax credit extensions back on the table; Piper OW both names",
-      "body": "Piper Sandler notes the Democratic Congress puts solar tax credit extensions back on the table. Piper reiterates Overweight on FSLR with a $222 PT and GNRC with a $232 PT, flagging NXT as its top pick into the November 16 CMD. The EPC selloff is viewed as overdone with strong 2027 backlog visibility.",
-      "tickers": [
-        "FSLR",
-        "GNRC"
-      ],
-      "source_item_ids": [
-        "gmail:1a1c072341b7cfbe"
-      ]
-    },
-    {
-      "title": "AAPL: iPhone 18 Pro lead times normalize to 1-3 days globally; Duo delayed to late January",
-      "body": "JPM's weekly tracker shows iPhone 18 Pro lead times decreased to ~1 day globally (2 days below prior year), indicating broad availability. iPhone 18 Pro Max averaged 9 days globally with US Pro Max still running 6 days above prior year\u2014supporting JPM's price/mix-led revenue thesis. The iPhone Duo remains unavailable for in-store pickup with delivery extending into late January, suggesting constrained supply of the new form factor.",
-      "tickers": [
-        "AAPL"
-      ],
-      "source_item_ids": [
-        "gmail:1a1bc1f7d033fc27"
-      ]
-    },
-    {
-      "title": "ABNB: +15.6% on the week; 16% room-night growth\u2014largest gap vs. BKNG/EXPE in 5 years",
-      "body": "Airbnb was a top S&P performer, gaining +15.6% for the week. Morgan Stanley noted ABNB delivered 16% room-night growth vs. ~12% expected, the largest gap vs. BKNG/EXPE in five years. Jefferies flagged ABNB as a preferred name in internet on encouraging earnings, while Rothschild upgraded to Neutral from Sell.",
-      "tickers": [
-        "ABNB"
-      ],
-      "source_item_ids": [
-        "gmail:1a1bc8b9a14fe90d",
-        "gmail:1a1b3bc06360ac6a"
-      ]
-    },
-    {
-      "title": "HF positioning: Tech net-sold 6 straight weeks ($20B+); semis back to Liberation Day lows",
-      "body": "Hedge funds sold tech at the fastest pace on record last week, with semis net exposure returning to early-2026/Liberation Day lows (JPM PB data). Levered ETF exposure fell below beginning-of-year levels after $60B+ was sold in a single week. Multi-strat de-grossing was the largest in 20 days since COVID; HF net leverage fell 4% to 12-month lows. QQQ RSI dipped below 30\u2014historically +4% average over the next 5 trading days. JPM strategist Dubravko reiterates YE26 SPX target of 8,000 (8.4% upside from Friday close).",
-      "tickers": [
-        "NVDA",
-        "AMD",
-        "AVGO"
-      ],
-      "source_item_ids": [
-        "gmail:1a1bfefe4e438af4",
-        "gmail:1a1b3c00e3057867"
-      ]
-    },
-    {
-      "title": "SPHR/LYV: Sphere Orlando likely next; Venue Nation hosting 75M+ fans but AOI under pressure",
-      "body": "Per Wolfe/Supino, Sphere management confirmed the next US Sphere project is likely Orlando (possibly at Universal). Live Nation's Venue Nation is expected to host 75M+ fans (+10M vs. 2025), but concerts AOI is declining as fan expectations rise; LYV investor day expected to provide increased disclosure on Venue Nation costs and returns.",
-      "tickers": [
-        "SPHR",
-        "LYV"
-      ],
-      "source_item_ids": [
-        "gmail:1a1bd360c7dd28f6"
+        "gmail:1a1c099226c83d56",
+        "gmail:1a1c09f88ad27f36"
       ]
     }
   ]
