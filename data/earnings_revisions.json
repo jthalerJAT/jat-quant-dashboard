@@ -1,7 +1,7 @@
 {
-  "digest_type": "eod",
-  "digest_dt": "2026-11-09T18:00:00-05:00",
-  "saved_at": "2026-11-09T23:14:05.585771+00:00",
+  "digest_type": "premarket",
+  "digest_dt": "2026-11-10T08:30:00-05:00",
+  "saved_at": "2026-11-10T13:45:58.292751+00:00",
   "revisions": {
     "sales": {
       "metric": "sales",
@@ -15,8 +15,8 @@
           "current_estimate": 40575.391,
           "prior_estimate": 34015.652,
           "pct_change": 19.284472336440885,
-          "percentile": 96.46464646464646,
-          "n_obs": 396
+          "percentile": 96.22166246851386,
+          "n_obs": 397
         },
         {
           "ticker": "OKLO",
@@ -25,8 +25,8 @@
           "current_estimate": 14.127,
           "prior_estimate": 11.95,
           "pct_change": 18.217573221757345,
-          "percentile": 63.25459317585301,
-          "n_obs": 381
+          "percentile": 63.089005235602095,
+          "n_obs": 382
         },
         {
           "ticker": "WDC",
@@ -35,7 +35,7 @@
           "current_estimate": 30474.0,
           "prior_estimate": 26565.923,
           "pct_change": 14.710864742023077,
-          "percentile": 96.41485275288092,
+          "percentile": 96.28681177976952,
           "n_obs": 781
         },
         {
@@ -45,7 +45,7 @@
           "current_estimate": 888.692,
           "prior_estimate": 784.071,
           "pct_change": 13.343306919909036,
-          "percentile": 93.854033290653,
+          "percentile": 93.72599231754162,
           "n_obs": 781
         },
         {
@@ -55,7 +55,7 @@
           "current_estimate": 28922.25,
           "prior_estimate": 25911.917,
           "pct_change": 11.617561911764373,
-          "percentile": 95.77464788732394,
+          "percentile": 95.64660691421255,
           "n_obs": 781
         },
         {
@@ -65,8 +65,8 @@
           "current_estimate": 3468.364,
           "prior_estimate": 3109.917,
           "pct_change": 11.525934614975263,
-          "percentile": 79.18552036199095,
-          "n_obs": 663
+          "percentile": 79.06626506024097,
+          "n_obs": 664
         },
         {
           "ticker": "FN",
@@ -75,7 +75,7 @@
           "current_estimate": 8046.0,
           "prior_estimate": 7236.7,
           "pct_change": 11.183274144292298,
-          "percentile": 99.74391805377721,
+          "percentile": 99.61587708066581,
           "n_obs": 781
         },
         {
@@ -85,7 +85,7 @@
           "current_estimate": 18203.545,
           "prior_estimate": 16409.156,
           "pct_change": 10.93529124837378,
-          "percentile": 97.0550576184379,
+          "percentile": 96.9270166453265,
           "n_obs": 781
         },
         {
@@ -95,7 +95,7 @@
           "current_estimate": 39499.36,
           "prior_estimate": 35658.913,
           "pct_change": 10.769949717760596,
-          "percentile": 91.67733674775928,
+          "percentile": 91.54929577464789,
           "n_obs": 781
         },
         {
@@ -105,7 +105,7 @@
           "current_estimate": 89362.722,
           "prior_estimate": 80783.444,
           "pct_change": 10.62009438468603,
-          "percentile": 85.0192061459667,
+          "percentile": 84.89116517285531,
           "n_obs": 781
         }
       ],
@@ -137,7 +137,7 @@
           "current_estimate": 1044.929,
           "prior_estimate": 1212.5,
           "pct_change": -13.82028865979381,
-          "percentile": 2.4327784891165174,
+          "percentile": 2.3047375160051216,
           "n_obs": 781
         },
         {
@@ -177,8 +177,8 @@
           "current_estimate": 4354.848,
           "prior_estimate": 4484.364,
           "pct_change": -2.8881687570411207,
-          "percentile": 3.9705882352941173,
-          "n_obs": 680
+          "percentile": 3.9647577092511015,
+          "n_obs": 681
         },
         {
           "ticker": "PINS",
@@ -219,7 +219,7 @@
           "current_estimate": 58122.478,
           "prior_estimate": 55291.143,
           "pct_change": 5.120774949434503,
-          "percentile": 99.8719590268886,
+          "percentile": 99.74391805377721,
           "n_obs": 781
         },
         {
@@ -229,7 +229,7 @@
           "current_estimate": 8046.0,
           "prior_estimate": 7236.7,
           "pct_change": 11.183274144292298,
-          "percentile": 99.74391805377721,
+          "percentile": 99.61587708066581,
           "n_obs": 781
         },
         {
@@ -249,7 +249,7 @@
           "current_estimate": 2962.6,
           "prior_estimate": 2693.733,
           "pct_change": 9.98120452175475,
-          "percentile": 98.07938540332907,
+          "percentile": 97.95134443021767,
           "n_obs": 781
         },
         {
@@ -259,7 +259,17 @@
           "current_estimate": 18203.545,
           "prior_estimate": 16409.156,
           "pct_change": 10.93529124837378,
-          "percentile": 97.0550576184379,
+          "percentile": 96.9270166453265,
+          "n_obs": 781
+        },
+        {
+          "ticker": "WDC",
+          "forward_y_code": "28Y",
+          "metric": "sales",
+          "current_estimate": 30474.0,
+          "prior_estimate": 26565.923,
+          "pct_change": 14.710864742023077,
+          "percentile": 96.28681177976952,
           "n_obs": 781
         },
         {
@@ -269,18 +279,8 @@
           "current_estimate": 40575.391,
           "prior_estimate": 34015.652,
           "pct_change": 19.284472336440885,
-          "percentile": 96.46464646464646,
-          "n_obs": 396
-        },
-        {
-          "ticker": "WDC",
-          "forward_y_code": "28Y",
-          "metric": "sales",
-          "current_estimate": 30474.0,
-          "prior_estimate": 26565.923,
-          "pct_change": 14.710864742023077,
-          "percentile": 96.41485275288092,
-          "n_obs": 781
+          "percentile": 96.22166246851386,
+          "n_obs": 397
         },
         {
           "ticker": "NXST",
@@ -289,7 +289,7 @@
           "current_estimate": 7520.75,
           "prior_estimate": 6894.571,
           "pct_change": 9.082203954386724,
-          "percentile": 96.28681177976952,
+          "percentile": 96.15877080665814,
           "n_obs": 781
         },
         {
@@ -299,7 +299,7 @@
           "current_estimate": 6866.857,
           "prior_estimate": 6482.333,
           "pct_change": 5.93187668698909,
-          "percentile": 96.15877080665814,
+          "percentile": 96.03072983354673,
           "n_obs": 781
         },
         {
@@ -309,7 +309,7 @@
           "current_estimate": 28922.25,
           "prior_estimate": 25911.917,
           "pct_change": 11.617561911764373,
-          "percentile": 95.77464788732394,
+          "percentile": 95.64660691421255,
           "n_obs": 781
         }
       ],
@@ -361,7 +361,7 @@
           "current_estimate": 1044.929,
           "prior_estimate": 1212.5,
           "pct_change": -13.82028865979381,
-          "percentile": 2.4327784891165174,
+          "percentile": 2.3047375160051216,
           "n_obs": 781
         },
         {
@@ -381,8 +381,8 @@
           "current_estimate": 4354.848,
           "prior_estimate": 4484.364,
           "pct_change": -2.8881687570411207,
-          "percentile": 3.9705882352941173,
-          "n_obs": 680
+          "percentile": 3.9647577092511015,
+          "n_obs": 681
         },
         {
           "ticker": "BKNG",
@@ -401,7 +401,7 @@
           "current_estimate": 1998181.5,
           "prior_estimate": 2027447.75,
           "pct_change": -1.4435020581911373,
-          "percentile": 5.8898847631242,
+          "percentile": 5.761843790012804,
           "n_obs": 781
         },
         {
@@ -428,8 +428,8 @@
           "current_estimate": 6242.417,
           "prior_estimate": 4625.458,
           "pct_change": 34.95781390729309,
-          "percentile": 97.72727272727273,
-          "n_obs": 396
+          "percentile": 97.48110831234257,
+          "n_obs": 397
         },
         {
           "ticker": "SMCI",
@@ -438,7 +438,7 @@
           "current_estimate": 8225.929,
           "prior_estimate": 6301.857,
           "pct_change": 30.531825777703304,
-          "percentile": 94.75032010243278,
+          "percentile": 94.62227912932138,
           "n_obs": 781
         },
         {
@@ -448,7 +448,7 @@
           "current_estimate": 1223.462,
           "prior_estimate": 941.5,
           "pct_change": 29.9481678173128,
-          "percentile": 99.8719590268886,
+          "percentile": 99.74391805377721,
           "n_obs": 781
         },
         {
@@ -458,7 +458,7 @@
           "current_estimate": 238.25,
           "prior_estimate": 184.333,
           "pct_change": 29.249781645174778,
-          "percentile": 94.1101152368758,
+          "percentile": 93.9820742637644,
           "n_obs": 781
         },
         {
@@ -468,7 +468,7 @@
           "current_estimate": 19045.471,
           "prior_estimate": 15899.294,
           "pct_change": 19.788155373439853,
-          "percentile": 90.65300896286811,
+          "percentile": 90.52496798975672,
           "n_obs": 781
         },
         {
@@ -488,7 +488,7 @@
           "current_estimate": 804.0,
           "prior_estimate": 691.857,
           "pct_change": 16.20898538281754,
-          "percentile": 97.1830985915493,
+          "percentile": 97.0550576184379,
           "n_obs": 781
         },
         {
@@ -498,7 +498,7 @@
           "current_estimate": 3844.444,
           "prior_estimate": 3349.176,
           "pct_change": 14.787756749719927,
-          "percentile": 95.51856594110116,
+          "percentile": 95.39052496798975,
           "n_obs": 781
         },
         {
@@ -508,7 +508,7 @@
           "current_estimate": 779.5,
           "prior_estimate": 680.0,
           "pct_change": 14.632352941176464,
-          "percentile": 88.73239436619718,
+          "percentile": 88.60435339308579,
           "n_obs": 781
         },
         {
@@ -518,7 +518,7 @@
           "current_estimate": 18674.333,
           "prior_estimate": 16343.706,
           "pct_change": 14.26008886846104,
-          "percentile": 91.0371318822023,
+          "percentile": 90.9090909090909,
           "n_obs": 781
         }
       ],
@@ -540,7 +540,7 @@
           "current_estimate": 218.727,
           "prior_estimate": 313.0,
           "pct_change": -30.11916932907348,
-          "percentile": 2.4327784891165174,
+          "percentile": 2.3047375160051216,
           "n_obs": 781
         },
         {
@@ -570,7 +570,7 @@
           "current_estimate": 285.333,
           "prior_estimate": 307.667,
           "pct_change": -7.259147064846072,
-          "percentile": 20.508166969147005,
+          "percentile": 20.326678765880217,
           "n_obs": 551
         },
         {
@@ -632,7 +632,7 @@
           "current_estimate": 1223.462,
           "prior_estimate": 941.5,
           "pct_change": 29.9481678173128,
-          "percentile": 99.8719590268886,
+          "percentile": 99.74391805377721,
           "n_obs": 781
         },
         {
@@ -642,7 +642,7 @@
           "current_estimate": 1012.714,
           "prior_estimate": 914.143,
           "pct_change": 10.782886266153113,
-          "percentile": 99.61587708066581,
+          "percentile": 99.48783610755441,
           "n_obs": 781
         },
         {
@@ -652,7 +652,7 @@
           "current_estimate": 5891.05,
           "prior_estimate": 5714.769,
           "pct_change": 3.08465661516677,
-          "percentile": 99.10371318822023,
+          "percentile": 98.97567221510883,
           "n_obs": 781
         },
         {
@@ -662,7 +662,7 @@
           "current_estimate": 19606.86,
           "prior_estimate": 17346.846,
           "pct_change": 13.028385678872102,
-          "percentile": 99.10371318822023,
+          "percentile": 98.97567221510883,
           "n_obs": 781
         },
         {
@@ -672,7 +672,7 @@
           "current_estimate": 3880.727,
           "prior_estimate": 3706.619,
           "pct_change": 4.697218678261783,
-          "percentile": 98.71959026888605,
+          "percentile": 98.59154929577466,
           "n_obs": 781
         },
         {
@@ -682,7 +682,7 @@
           "current_estimate": 1372.95,
           "prior_estimate": 1288.0,
           "pct_change": 6.595496894409947,
-          "percentile": 98.20742637644047,
+          "percentile": 98.07938540332907,
           "n_obs": 781
         },
         {
@@ -692,8 +692,8 @@
           "current_estimate": 6242.417,
           "prior_estimate": 4625.458,
           "pct_change": 34.95781390729309,
-          "percentile": 97.72727272727273,
-          "n_obs": 396
+          "percentile": 97.48110831234257,
+          "n_obs": 397
         },
         {
           "ticker": "MTSI",
@@ -702,7 +702,7 @@
           "current_estimate": 804.0,
           "prior_estimate": 691.857,
           "pct_change": 16.20898538281754,
-          "percentile": 97.1830985915493,
+          "percentile": 97.0550576184379,
           "n_obs": 781
         },
         {
@@ -712,7 +712,7 @@
           "current_estimate": 9089.038,
           "prior_estimate": 7987.5,
           "pct_change": 13.7907730829421,
-          "percentile": 97.0550576184379,
+          "percentile": 96.9270166453265,
           "n_obs": 781
         },
         {
@@ -722,7 +722,7 @@
           "current_estimate": 15285.333,
           "prior_estimate": 13881.063,
           "pct_change": 10.116444252144085,
-          "percentile": 95.90268886043533,
+          "percentile": 95.77464788732394,
           "n_obs": 781
         }
       ],
@@ -754,7 +754,7 @@
           "current_estimate": 218.727,
           "prior_estimate": 313.0,
           "pct_change": -30.11916932907348,
-          "percentile": 2.4327784891165174,
+          "percentile": 2.3047375160051216,
           "n_obs": 781
         },
         {
@@ -824,8 +824,8 @@
           "current_estimate": 1999.0,
           "prior_estimate": 2068.226,
           "pct_change": -3.347119705486734,
-          "percentile": 6.176470588235294,
-          "n_obs": 680
+          "percentile": 6.167400881057269,
+          "n_obs": 681
         }
       ]
     }
