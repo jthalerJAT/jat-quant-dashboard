@@ -1,6 +1,227 @@
 {
-  "digest_type": "eod",
-  "digest_dt": "2026-11-11T18:00:00-05:00",
-  "saved_at": "2026-11-11T23:02:55.965653+00:00",
-  "bullets": []
+  "digest_type": "premarket",
+  "digest_dt": "2026-11-12T08:30:00-05:00",
+  "saved_at": "2026-11-12T13:45:15.260030+00:00",
+  "bullets": [
+    {
+      "title": "NVDA: Board preparing to oust Jensen Huang \u2014 7+ downgrades, PT cuts to $185-$230 range",
+      "body": "NVDA down ~8% premarket as the board reportedly engaged a search firm to identify CEO candidates and weighs naming CFO Colette Kress interim CEO after reports of Huang's extramarital affair with an executive reporting to him (and alleged Chinese intelligence ties). Downgrades include: KeyBanc (sector weight, PT withdrawn), Melius (hold, $185 from $315), Evercore ISI (in line, $186 from $465), Bernstein (market perform, $200 from $400), Baird (neutral, $200 from $500), Oppenheimer (perform, PT removed), William Blair (market perform). RBC cuts PT to $230 from $330 but keeps Outperform; Citi cuts to $225 (keeps Buy); Stifel to $205 from $315 (keeps Buy); Piper sees $150 floor at 10x trough. Polymarket odds ~68% for removal by Nov 30. FQ3 revenue was ~$113-114B vs guide $108B; FQ4 guide ~$129B; fundamentals widely described as unchanged through CY28.",
+      "tickers": [
+        "NVDA"
+      ],
+      "source_item_ids": [
+        "gmail:1a1cff0b24ea1531",
+        "gmail:1a1cfad2d39b54e1"
+      ]
+    },
+    {
+      "title": "NVDA CEO risk: Wolfe says zero earnings impact through CY28; stock at 8x FY29 already cheap",
+      "body": "Wolfe Research is the most constructive dissent: they argue a CEO transition has zero impact on fundamentals through CY28 given NVDA's sold-out position, that China AI shipments are de minimis and already restricted, and that IP/engineering talent would remain. At under 8x FY29 earnings power, Wolfe believes the multiple discount may already be priced in and the board will make every effort to retain Huang given the lack of obvious internal candidates.",
+      "tickers": [
+        "NVDA"
+      ],
+      "source_item_ids": [
+        "gmail:1a1cf5dcab984bc5"
+      ]
+    },
+    {
+      "title": "NVDA: Additional risks \u2014 export controls, Singapore revenue (~20%), CUDA moat concerns",
+      "body": "UBS flags that Singapore represents ~20% of NVDA revenue and potential export restrictions could put ~10% of total revenue at risk. JPM notes recurring allegations of illegal chip smuggling to China via Megaspeed (~$5B+ NVDA sales), with a DoJ investigation ongoing and the Trump administration expected to enforce AI chip export crackdowns imminently. JPM also flags CUDA moat concerns: frontier models are onboarding to ROCm in 3 days vs. the prior 6-12 months. Commerce Dept finalizing rule to block Chinese AI firms' remote access to advanced chips.",
+      "tickers": [
+        "NVDA"
+      ],
+      "source_item_ids": [
+        "gmail:1a1cfd9253ad03e5",
+        "gmail:1a1cfad2d39b54e1"
+      ]
+    },
+    {
+      "title": "AMD: William Blair upgrades to outperform; RBC sees double-digit q/q DCAI growth through 2027",
+      "body": "William Blair upgraded AMD to outperform (from market perform) alongside its NVDA downgrade, explicitly citing NVDA uncertainty as a beneficiary rotation catalyst. RBC maintains Sector Perform at $540 (30x CY27 EPS), flagging MI4xx/Helios targeting double-digit q/q growth through 2027, CPU revenue expected to double in 2027, and DCAI demand with visibility into 1H28. RBC on the sidelines awaiting a better entry given premium valuation vs GPU/XPU peers.",
+      "tickers": [
+        "AMD"
+      ],
+      "source_item_ids": [
+        "gmail:1a1cf6b74ffcfb26",
+        "gmail:1a1cfce9974103e2"
+      ]
+    },
+    {
+      "title": "AVGO, MRVL: Named as beneficiaries of NVDA leadership dislocation",
+      "body": "Oppenheimer (downgrading NVDA to perform), JPM, Citi, Klein/Jefferies, and RBC all flag AMD, AVGO, and MRVL as the primary rotation beneficiaries from NVDA governance uncertainty. AVGO and AMD were trading higher premarket. No new price target changes on AVGO or MRVL specifically, but the consensus beneficiary narrative is consistent across six+ sell-side notes.",
+      "tickers": [
+        "AVGO",
+        "MRVL",
+        "AMD"
+      ],
+      "source_item_ids": [
+        "gmail:1a1cfd9937a7453d",
+        "gmail:1a1cfe5a24960f97"
+      ]
+    },
+    {
+      "title": "NBIS: Massive Q3 beat \u2014 revenue $981M vs $907M est., adj. EBITDA $466M vs $352M est., ARR +1,062% YoY",
+      "body": "Nebius Group crushed Q3 across every metric: revenue $980.8M (+8.1% beat), adj. EBITDA $465.8M (+32.4% beat), gross margin 77.6% vs. 71.3% expected, ARR $6.4B vs. $4.7B est. (+1,062% YoY). Capex prepayments now cover >100% of associated capex (ex <1yr deals), up from 50-60% in Q2; prepayments + financing expected to cover 75-85% of $40-45B 2027 capex. 2027 revenue guided $12-13B. Stock was -14.2% premarket (sympathy selling in crypto miners noted separately) \u2014 but results themselves were strong. Options imply ~16.7% move; short interest 21%.",
+      "tickers": [
+        "NBIS"
+      ],
+      "source_item_ids": [
+        "gmail:1a1cfc1a32245feb",
+        "gmail:1a1cfb48e944c0ac"
+      ]
+    },
+    {
+      "title": "CRWV: JPM upgrades to Overweight; contract TCV/CapEx expanding to 2.5-2.75x, Hopper renewals 25-50% above original",
+      "body": "JPM upgrades CoreWeave to Overweight after management call takeaways: contract-level TCV/CapEx expanded to 2.5-2.75x for 5-year contracts (vs. 2.0x end-2025, 1.75x at IPO), with levered IRRs well above 30%. Hopper GPU renewals pricing 25-50% above original contract levels. Microsoft's share of backlog declined to <10% from ~85% at IPO. Company expects to exceed $30B+ 2027 exit ARR target even without additional GPU purchases. CRWV also planning to raise at least $4B in investment-grade debt at 7-7.5% yield. Stock up >24% on earnings.",
+      "tickers": [
+        "CRWV"
+      ],
+      "source_item_ids": [
+        "gmail:1a1cf6d41d52a030",
+        "gmail:1a1cfe096a7d4de4"
+      ]
+    },
+    {
+      "title": "HUBS: CEO Yamini Rangan steps down; co-founder Brian Halligan returns; stock +7.4%",
+      "body": "HubSpot announced Yamini Rangan stepping down as CEO and board member effective Nov 12, with co-founder Brian Halligan immediately taking over. CFO Kate Bueker also retiring Feb 11, 2027, replaced by Karen Burgess from Adobe. Company reaffirmed Q4 and full-year 2026 guidance. Stock up 7.4% premarket on the leadership change.",
+      "tickers": [
+        "HUBS"
+      ],
+      "source_item_ids": [
+        "gmail:1a1cfdb240ecdb12",
+        "gmail:1a1cfe8fc5369f31"
+      ]
+    },
+    {
+      "title": "CSCO: Expected beat-and-raise today; JPM sees FY27 revenue guide raised to +16-17%, AI revenue target ~$8.5B",
+      "body": "Cisco reports today (Thu Nov 12 after close) with consensus at $1.33 EPS and $18.12B revenue. JPM expects a beat-and-raise with FY27 revenue growth guidance raised to +16-17% and AI revenue target bumped to ~$8.5B on hyperscaler ramp. UBS also flagging CSCO in the AI power basket.",
+      "tickers": [
+        "CSCO"
+      ],
+      "source_item_ids": [
+        "gmail:1a1cfad2d39b54e1",
+        "gmail:1a1cfa58a18e1f20"
+      ]
+    },
+    {
+      "title": "SNOW: Mizuho and Klein both bullish ahead of October-quarter print; CoCo adoption broadening",
+      "body": "Mizuho and Klein/Jefferies both flag SNOW as a name to own into earnings. Klein sets PT at $425, citing favorable partner checks, strong data warehousing/modernization demand, and CoCo adoption broadening for a third consecutive quarter. Mizuho similarly favors SNOW and ZS ahead of October prints, noting AI adoption climbing and enterprise NTM EV/Sales valuations 20% below 3-year averages.",
+      "tickers": [
+        "SNOW"
+      ],
+      "source_item_ids": [
+        "gmail:1a1cfe5a24960f97",
+        "gmail:1a1cf361c34ce9f5"
+      ]
+    },
+    {
+      "title": "AFRM: F1Q27 GMV +34% on track for $10 2030 EPS; RLTC margin still needs to prove out",
+      "body": "Mizuho reaffirms AFRM Outperform, $100 PT: GMV grew 34% to $14.4B (31% CAGR toward $150B 2030 target intact), Card GMV +117% YoY, active cardholders 6.0M. The key unresolved question is the RLTC leg \u2014 RLTC at 4.30% of GMV beat management range but needs to reach 5.4% to deliver ~$3 EPS of the $10 2030 target; card spend per cardholder at ~$2.2K annualized vs. $4.95K needed. Klein similarly notes the GMV leg is on track but flags the RLTC proof point as outstanding.",
+      "tickers": [
+        "AFRM"
+      ],
+      "source_item_ids": [
+        "gmail:1a1cefd5a26add76",
+        "gmail:1a1cfe5a24960f97"
+      ]
+    },
+    {
+      "title": "CHTR: Up 12% on $1.5B accretive debt tender; Citi maintains Buy on FCF and equity value capture",
+      "body": "Charter announced a $1.5B cash tender offer to repurchase bonds trading at a substantial discount to $11.6B face value, driving the stock up ~12% over two days. Citi maintains Buy, modeling ~$27/share equity value capture through the debt discount by YE27, with continued FCF improvement from capex reduction.",
+      "tickers": [
+        "CHTR"
+      ],
+      "source_item_ids": [
+        "gmail:1a1cf8a3665309fb",
+        "gmail:1a1cfaef555b25ce"
+      ]
+    },
+    {
+      "title": "GOOGL: EU antitrust risk resurfaces; Hydrogen model internally tested; Isomorphic Labs highlighted",
+      "body": "GOOGL down ~1% after EU court adviser recommended revisiting a lower court annulment of a \u20ac1.5B AdSense fine. Separately, Wolfe Research notes Google is internally testing a 'Hydrogen' AI model optimized for speed/efficiency, seen as a modest positive for lower-cost agentic/high-volume applications. Isomorphic Labs highlighted as a leading AI drug-discovery platform.",
+      "tickers": [
+        "GOOGL"
+      ],
+      "source_item_ids": [
+        "gmail:1a1cf9d6caf73087",
+        "gmail:1a1cfe8fc5369f31"
+      ]
+    },
+    {
+      "title": "BABA: DZ Bank upgrades to Buy, $140 PT; stock -4% on Nvidia chip access concerns",
+      "body": "DZ Bank upgraded BABA to Buy from Hold, raising PT to $140 from $130 (38% upside from $101.52). Despite the upgrade, BABA is trading -4% premarket as US may tighten cloud operators' access to advanced Nvidia chips \u2014 Alibaba is reportedly linked to Megaspeed International, whose founder allegedly had an affair with Jensen Huang and suspected Chinese intelligence ties.",
+      "tickers": [
+        "BABA"
+      ],
+      "source_item_ids": [
+        "gmail:1a1cf7e909f0f4b1",
+        "gmail:1a1cfd0283187a0d"
+      ]
+    },
+    {
+      "title": "TLN: Goldman upgrades, raises PT to $502 on 750MW Guernsey data center contract",
+      "body": "Goldman upgrades Talen Energy to Buy, raising PT to $502 from $501 (49% total return). TLN raised 2028 FCF/share guidance to $48 base/$53 with buybacks; a new 750MW Guernsey contract for 2029/30 is expected to generate ~$100M annually, with contracted gross margins reaching 40% by 2036 supported by AWS and new PJM agreements covering 2+ GW.",
+      "tickers": [
+        "TLN"
+      ],
+      "source_item_ids": [
+        "gmail:1a1cfd61e4a722f6"
+      ]
+    },
+    {
+      "title": "CRWV/NVDA: AI enterprise spending growth collapsed to <2% in October despite rising usage",
+      "body": "Market Voices (Prof G) flags a worrying divergence: AI enterprise spending growth collapsed from double-digit monthly rates to <2% in October, with average token prices falling ~15%. OpenAI and Anthropic growth slowed to 2.1% and 0.5% respectively. The top 1% of businesses drive 80% of AI spending, and weaker VC funding threatens the broader ecosystem. This is a potential headwind for the entire AI infrastructure trade including NVDA, CRWV, and hyperscalers.",
+      "tickers": [
+        "NVDA",
+        "CRWV",
+        "MSFT",
+        "AMZN",
+        "GOOGL",
+        "META"
+      ],
+      "source_item_ids": [
+        "gmail:1a1cfe67ccb2f64f"
+      ]
+    },
+    {
+      "title": "CRM: Klein PT $280 on 11x CY28E EV/FCF; mixed fundamentals but attractive valuation",
+      "body": "Klein/Jefferies sets CRM PT at $280, citing attractive valuation at 11x CY28E EV/FCF despite mixed near-term fundamentals. No rating action specified but included in the software names preview alongside CRWD ($275 PT, up 93% YTD) and ZS ($235 PT).",
+      "tickers": [
+        "CRM"
+      ],
+      "source_item_ids": [
+        "gmail:1a1cfe5a24960f97"
+      ]
+    },
+    {
+      "title": "FWONK: Maffei says F1 goes private within 2 years; B-share buyout reduces controlled-company discount",
+      "body": "JPM reports Greg Maffei expects Liberty Media F1 (FWONK) to go private within 2 years, noting easy growth levers are exhausted and EBITDA is unlikely to 3x again. B-share buyout and governance restructuring are reducing the controlled-company discount, and unsolicited acquisition offers for B-shares confirm outside interest.",
+      "tickers": [
+        "FWONK"
+      ],
+      "source_item_ids": [
+        "gmail:1a1cfe096a7d4de4"
+      ]
+    },
+    {
+      "title": "LYV: UBS bullish on venue pipeline \u2014 38 new venues adds ~$850M AOI by 2031",
+      "body": "UBS highlights Live Nation's venue pipeline adding 38 new venues (~33M fans, ~$850M AOI by 2031) supporting double-digit AOI growth targets. No rating action noted but included in UBS Views as a constructive thesis.",
+      "tickers": [
+        "LYV"
+      ],
+      "source_item_ids": [
+        "gmail:1a1cfb7bc6ea66b5"
+      ]
+    },
+    {
+      "title": "FIG: Mizuho flags 3Q beat on volume, take rate, and EBITDA margins tracking toward 60% target",
+      "body": "Mizuho flags Pagaya/FIG 3Q results as upbeat: volume ~2% above guidance mid-point (ex-Kiavi), take rate stronger than expected at 3.7% ex-Kiavi, EBITDA margin 58% (+300bps Q/Q and Y/Y), on track for 60% medium-term EBITDA margin target.",
+      "tickers": [
+        "FIG"
+      ],
+      "source_item_ids": [
+        "gmail:1a1cfb66bbf6b781"
+      ]
+    }
+  ]
 }
