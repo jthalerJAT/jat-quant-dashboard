@@ -1,223 +1,209 @@
 {
-  "digest_type": "premarket",
-  "digest_dt": "2026-11-13T08:30:00-05:00",
-  "saved_at": "2026-11-13T13:44:30.646267+00:00",
+  "digest_type": "midday",
+  "digest_dt": "2026-11-13T12:00:00-05:00",
+  "saved_at": "2026-11-13T17:14:53.684619+00:00",
   "bullets": [
     {
-      "title": "NVDA CEO Jensen Huang ousted \u2014 leadership vacuum, export scandal, ecosystem funding at risk",
-      "body": "Jensen Huang was pushed out as NVIDIA CEO following reports of illicit chip sales to China via third-country pass-throughs and a personal relationship scandal; Colette Kress named interim CEO. The stock fell 14% intraday before recovering to -4.3%, erasing ~$600B in market cap, with 10% of float trading hands WTD. Core investor concern: Kress is expected to curtail Huang's aggressive ecosystem financing (the $500B August backstop made zero deals), threatening neocloud funding \u2014 NBIS -17%, CRWV -7% on the news. AMD +6%, AVGO +5.5%, ANET +5% traded as beneficiaries on custom-chip share gain expectations.",
+      "title": "Fed hiking cycle re-accelerating: 100bp cumulative by Apr 2027 now base case",
+      "body": "October core CPI printed +0.3% m/m for the third straight month, while PPI came in at 6.5% y/y (cycle high). NY Fed's Williams described inflation as 'far' too high and signaled steady small hikes ahead; Fed Governor Waller said a third straight 0.3% core print puts 50bp December on the table; Dallas Fed's Logan called for at least two more hikes at a faster pace. Markets now price ~85bp of hikes through end-2027 (up 39bp w/w) and a 13% chance of 50bp in December, though softer PPI components pulled core PCE tracking down ~4-6bp to ~0.29% m/m, keeping 50bp a tail risk rather than base case.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a1d596cd053f0af",
+        "gmail:1a1d56f56a6d2b1a"
+      ]
+    },
+    {
+      "title": "10-year yield above 5.15%; 2Y had worst week in 2 years on hawkish repricing",
+      "body": "Front-end yields surged ~30bp w/w \u2014 the 2-year's worst weekly move in two years. The 10-year is now approaching the 5.15\u20135.185% retracement level with longer-term support at 5.25\u20135.35%. JPM's fair-value model shows yields only modestly below fair value (-4bp residual), removing the chronic undervaluation narrative that had supported duration longs.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a1d5209b4d45bc5",
+        "gmail:1a1d546c4d6dbfc2"
+      ]
+    },
+    {
+      "title": "Jensen Huang forced out as NVDA CEO; DOJ probe, China intelligence ties cited",
+      "body": "Jensen Huang resigned as NVIDIA President/CEO effective immediately following reports of an extramarital affair with a suspected Chinese intelligence asset and a DOJ probe; Colette Kress named interim CEO. The departure triggered multiple sell-side downgrades (HSBC to Hold, $170 PT from $365; Bernstein to Market-Perform at $200; GS cut PT to $220 from $300) and $500bn in market cap loss on ~2bn shares traded (~8% of float) this week. Retail aggressively bought the dip \u2014 $111M in first 30 minutes Thursday, a 40x normal volume, 9-standard-deviation move \u2014 with bulls citing ~10x CY27 GAAP EPS as depressed valuation.",
+      "tickers": [
+        "NVDA"
+      ],
+      "source_item_ids": [
+        "gmail:1a1d596cd053f0af",
+        "gmail:1a1d54e4ab006a23"
+      ]
+    },
+    {
+      "title": "NVDA leadership vacuum creates ecosystem financing risk; Kress opposed Huang's $250B backstop",
+      "body": "Incoming interim CEO Colette Kress had resisted Huang's largest AI financing plans, including a $250B OpenAI backstop, and NVDA's $164B total financial commitments are under review. Morgan Stanley notes the leadership change could impair neocloud financing and favor larger hyperscalers; credit markets priced roughly flat (spreads unchanged to slightly tighter), implying expectations for greater balance sheet discipline and less ecosystem backstopping \u2014 which could slow infrastructure investment among speculative issuers.",
+      "tickers": [
+        "NVDA"
+      ],
+      "source_item_ids": [
+        "gmail:1a1d545a3d3c004a",
+        "gmail:1a1d5bb2c46ba22b"
+      ]
+    },
+    {
+      "title": "China AI export controls tightening; Congressional probes to run into next year",
+      "body": "Huang's resignation is accelerating Commerce Department finalization of tighter export restrictions, including offshore compute access across seven additional countries. The Megaspeed chip diversion scandal has pushed FY27 defense authorization into the 120th Congress, with Senate estimates of a $500\u2013700bn gap in Pentagon appropriations. The AI OVERWATCH Act, Remote Access Security Act, and Chip Security Act are advancing; the MATCH Act represents the greatest escalation risk to the US-China tech truce, which the base case assumes survives but under increasing strain.",
+      "tickers": [
+        "NVDA"
+      ],
+      "source_item_ids": [
+        "gmail:1a1d54a3149108b8",
+        "gmail:1a1d52a0b333543b"
+      ]
+    },
+    {
+      "title": "AI supply-chain rotation: AMD/AVGO gain ~$500bn combined as NVDA loses same",
+      "body": "AMD and AVGO are the only two AI supply-chain stocks near 52-week highs; AMD +5.9% and AVGO +5.5% on the week as investors rotated from NVDA. AMAT also screens attractively at 14x CY28 EPS vs a 10-year average 17x, with GS expecting WFE growth to accelerate to ~45% y/y in 2027. Meaningful AI datacenter revenue reductions are already priced into electronics/test stocks (APH, KEYS, TEL, BDC), while VRT, FLEX, JBL face higher estimate-reduction risk given heavier AI infrastructure exposure.",
       "tickers": [
         "NVDA",
-        "NBIS",
-        "CRWV",
-        "AMD",
-        "AVGO"
-      ],
-      "source_item_ids": [
-        "gmail:1a1d4f507b13d04e",
-        "gmail:1a1d4d7e70ceb14d"
-      ]
-    },
-    {
-      "title": "NVDA export control scandal deepens \u2014 MATCH Act acceleration, DOJ antitrust probe, 240K chips diverted to China",
-      "body": "DOJ opened a direct antitrust probe into NVIDIA and separate investigations into SMCI and Megaspeed (linked to Alice Huang), while reports show ~240,000 NVDA AI chips were diverted to China via Singapore-based Aperia Cloud Services and China-controlled SEA neoclouds. The DoC is finalizing rules blocking Chinese firms from remote access to advanced AI chips across seven SEA countries. The MATCH Act, which would harmonize export controls with Japan and the Netherlands, may be accelerated by the Democrat-controlled Congress, and Jensen Huang is expected to testify before the Senate Banking Committee in December.",
-      "tickers": [
-        "NVDA",
-        "SMCI"
-      ],
-      "source_item_ids": [
-        "gmail:1a1d4ce144877e72",
-        "gmail:1a1d4f8af1a59199"
-      ]
-    },
-    {
-      "title": "Fed tightening cycle extending \u2014 BofA adds Jan '27 hike, terminal rate now 4.5-4.75%; Williams hawkish",
-      "body": "BofA added a 25bp hike in January 2027 to its Fed forecast, now expecting hikes at December, January, and March meetings, pushing the terminal rate to 4.5-4.75%. Fed's Williams reiterated inflation remains too high and further tightening is needed. PPI data and Fed speakers (Goolsbee, Collins, Logan, Bowman, Daly, Jefferson) are on the schedule for today.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a1d51664b40854e",
-        "gmail:1a1d4fc3d346869d"
-      ]
-    },
-    {
-      "title": "Rates/yields surging \u2014 10Y at 5.12-5.15%, 30Y mortgage 7.42%; upside inflation risk flagged as 'very real'",
-      "body": "The 10-year Treasury yield rose 14bps to 5.12% Thursday and is up another 3bps to 5.15% in premarket Friday. 22V Research flags upside inflation risk as 'VERY real' over coming months, citing AI-driven demand lifting normally disinflationary electronics prices and CEO cost pass-throughs accelerating. Their short-term call is paradoxically long risk/short VIX, arguing most investors underestimate inflation, while their longer-term pivot back to bullish risk assets requires dovish core PCE (\u226421bps/month).",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a1d517435457613",
-        "gmail:1a1d51930ce4e15d"
-      ]
-    },
-    {
-      "title": "Existing home sales hit 16-year low; mortgage rates at 7.42% \u2014 real estate sector under pressure",
-      "body": "Existing home sales fell to 3.75M SAAR (-5.5% m/m, -8.8% y/y), the lowest since August 2010, as the 30-year mortgage rate reached 7.42% (+12bps). Inventory rose +4.6% y/y to 5.1 months supply. The S&P 500 Real Estate Index fell 0.5% on the day, though Data Center REITs bucked the trend at +0.78% (YTD +31.55%).",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a1d51930ce4e15d"
-      ]
-    },
-    {
-      "title": "CSCO beats big on AI infrastructure \u2014 raises FY27 revenue $2.5B, AI hyperscaler target to $9B (+100% YoY)",
-      "body": "Cisco reported Q1 EPS $1.40 vs $1.33 consensus and revenue $18.52B vs $18.12B, raising FY27 guidance to $74.8-75.8B (from $72.2-73.4B) and EPS to $5.47-5.53 (+8%). AI hyperscaler revenue target raised to $9B in FY27 (12% of total vs 6% in FY26), more than doubling FY26 levels. Stock faded from initial highs as product orders ex-hyperscalers decelerated to 14% and gross margin faces ~200bps headwind from hardware mix; stock -2.8% in premarket.",
-      "tickers": [
-        "CSCO"
-      ],
-      "source_item_ids": [
-        "gmail:1a1d4fe1aa55bdbf",
-        "gmail:1a1d4fc3d346869d"
-      ]
-    },
-    {
-      "title": "AMAT beats and raises \u2014 2027 WFE growth guided >30%, Semi Systems to outperform; stocks see PT cuts on multiple compression",
-      "body": "Applied Materials reported Q4 EPS $4.16 vs $4.06 consensus and revenue $10.41B vs $10.30B, guiding Q1 to $4.35 EPS (vs $4.24 consensus) and $11.1B revenue (vs $10.85B). Management sees 2027 WFE growing >30% with AMAT outperforming the market, driven by advanced chip demand exceeding supply and customers providing 8-quarter demand forecasts. Multiple banks (GS, Citi, RBC) cut PTs on peer multiple compression (Citi to $580, GS to $580, RBC $600) but maintain Buy ratings.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a1d50f25768b3f8",
-        "gmail:1a1d4ce3ba69fedf"
-      ]
-    },
-    {
-      "title": "MSFT global outage \u2014 Outlook, Teams, Copilot disrupted; recovery progressing, no malicious activity found",
-      "body": "Microsoft suffered a widespread outage impacting Outlook, Teams, SharePoint, and Copilot globally, with the cause under investigation (mysterious traffic surge, not a cyberattack). Recovery is progressing in phases across North America, Europe, and Asia Pacific as of Friday 8am ET. MSFT stock is -1.3% in premarket; cybersecurity names (CRWD +2.3%, ZS +2.3%, NET +1.1%) rallied on spillover demand.",
-      "tickers": [
-        "MSFT",
-        "NET"
-      ],
-      "source_item_ids": [
-        "gmail:1a1d51139a92b51a",
-        "gmail:1a1d4fc3d346869d"
-      ]
-    },
-    {
-      "title": "Data center capex boom peaks 2028/2029 \u2014 contributing ~2ppts to GDP now, then cooling sharply",
-      "body": "PSC Macro warns the data center construction cycle tops out in 2028/2029 after a healthy run through 2027, with tech capex currently contributing ~2ppts to GDP. A steep drop in datacenter announcements/plans threatens construction activity and tech equipment demand in 2028/2029, with negative free cash flows for hyperscalers and neoclouds posing headwinds during the Fed tightening cycle. Near-term demand remains robust, with moratoriums (Texas ~25% of planned capacity) more likely to delay than cancel projects.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a1d5183fff7d550",
-        "gmail:1a1d4fc3d346869d"
-      ]
-    },
-    {
-      "title": "SaaS multiples under pressure \u2014 IGV -9.5% YTD vs S&P +10.5%; All-SaaS at 5.4x FY+2 EV/Sales",
-      "body": "The Wolfe All-SaaS index trades at 5.4x FY+2 EV/Sales (All-Security 7.8x, All-Vertical 6.9x), with All-SaaS multiples down 6.24% week-over-week and All-Security down 10.77% week-over-week. IGV has returned -9.5% YTD versus S&P 500 +10.5%. Software Q3 earnings are skewing negative post-results despite several beat-and-raise reports.",
-      "tickers": [
-        "HUBS"
-      ],
-      "source_item_ids": [
-        "gmail:1a1d5153a1222fe7",
-        "gmail:1a1d4e650c7a0aab"
-      ]
-    },
-    {
-      "title": "OpenAI launches cybersecurity products \u2014 direct competitive threat to PANW, CRWD, TENB, QLYS specialists",
-      "body": "OpenAI launched 'Daybreak Red Team' and 'Daybreak Defense Factory' products, entering vulnerability management, patching, and pen-testing markets previously served by specialist vendors. Frontier AI labs are now strategically expanding into cybersecurity with potential moves into the AI SOC market, posing an integration-vs-specialization competitive dynamic for PANW and CRWD.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a1d5184a8838ecc"
-      ]
-    },
-    {
-      "title": "AI inference demand above supply; AVGO flagged as best risk/reward with 37% upside \u2014 NVDA at 10.6x FY2 P/E",
-      "body": "Wolfe Research sees AI inference demand remaining above industry supply and strengthening into year-end. NVDA is trading at 10.6x FY2 P/E (65% discount to 5-year avg), while AVGO and MRVL are at 12% and 14% discounts to their 5-year averages. Wolfe names AVGO as best risk/reward ($500 PT, 37.2% upside) and MRVL with 128% upside to $375 PT; recent selloff attributed to infrastructure/power fears viewed as temporary and over-discounted.",
-      "tickers": [
         "AVGO",
-        "MRVL",
-        "NVDA",
         "AMD"
       ],
       "source_item_ids": [
-        "gmail:1a1d4f2d04297ce2",
-        "gmail:1a1d4fe0070451aa"
+        "gmail:1a1d54cd89bf8e8a",
+        "gmail:1a1d560103e2b3be"
       ]
     },
     {
-      "title": "Anthropic IPO (11/19) seen as near-term AI rally catalyst \u2014 $1.4-1.5T valuation, $10-15B index demand",
-      "body": "The ANT IPO is pricing November 19 at a $1.4-1.5T valuation (down from $1.5-2T earlier), with $10-15B of index tracking demand expected in the first four weeks from Nasdaq/MSCI inclusion. With major negative catalysts (midterms, earnings, rates) largely behind the market, analysts see the IPO as a potential catalyst for an AI sector bounce through mid-December. Risks include 316M shares (38% of float) unlocking day one, potential $20B+ selling pressure if fully exercised.",
-      "tickers": [
-        "NVDA"
-      ],
-      "source_item_ids": [
-        "gmail:1a1d4e1e75a2429c"
-      ]
-    },
-    {
-      "title": "CBRS beats and surges 13% \u2014 raises FY26 guidance, signs MSFT/ORCL cloud deals; PT cuts on valuation",
-      "body": "Cerebras reported a beat across all Sep-Q metrics and raised FY26 core revenue guidance to $940-960M with gross margin improving to 42-44%. December quarter guidance of $310-330M (~40% QoQ growth) includes new Oracle hardware orders and a new MSFT cloud deal. Multiple analysts cut price targets on peer multiple normalization (Citi to $250 from $320, 7x EV/S) while maintaining Buy, citing first-mover advantage in fast-inference compute.",
-      "tickers": [
-        "MSFT",
-        "ORCL"
-      ],
-      "source_item_ids": [
-        "gmail:1a1d4df32851bfa0",
-        "gmail:1a1d4fc3d346869d"
-      ]
-    },
-    {
-      "title": "Hon Hai bullish on AI rack demand \u2014 'high double-digit' shipment growth q/q and for 2027",
-      "body": "Hon Hai (Foxconn) beat Q3 consensus and guided positively for 2027, expecting 'high double-digit growth' in AI rack shipments both quarter-over-quarter and for full year 2027. Cloud & Networking already exceeds 50% of 2026 revenue and is expected to grow beyond 60% over 3-5 years, with no near-term signs of AI demand weakness as orders are already in the pipeline.",
-      "tickers": [
-        "NVDA"
-      ],
-      "source_item_ids": [
-        "gmail:1a1d4f99bda2ab86"
-      ]
-    },
-    {
-      "title": "HUBS co-founder Halligan returns as CEO \u2014 'refounding' seen as sentiment reset for AI monetization",
-      "body": "HubSpot announced Brian Halligan is returning as CEO, replacing Yamini Rangan, in what the company described as a 're-founding' across product, go-to-market, and culture. CTO Duncan Lennox was promoted to President of Product and CFO Kate Bueker will retire February 2027. JPM and Jefferies view the move positively, expecting faster clarity on AI monetization (new seats+credits model) and resolution of expansion rate and net customer add pressures; Q4/FY26 guidance was reaffirmed.",
-      "tickers": [
-        "HUBS"
-      ],
-      "source_item_ids": [
-        "gmail:1a1d4f555757a218",
-        "gmail:1a1d4ed6ab8470c0"
-      ]
-    },
-    {
-      "title": "Premarket snapshot: S&P futures +0.31%, 10Y +3bps to 5.15%; VRT +2.1%, AMD -2.5%, CSCO -2.8%",
-      "body": "S&P 500 futures are up 23.8 points (+0.31%) to 7,639 in premarket Friday. Vertiv (VRT) leads on a 60% dividend increase (+2.1%); NVDA +1.7% recovering from yesterday's selloff. Laggards include CSCO -2.8% on mixed order metrics post-earnings, AMD -2.5% on earnings, and AVGO -2.2% on a Rothschild/Redburn downgrade. FOXA +2.0% after Morgan Stanley resumed at Overweight/Top Pick with a $90 PT.",
-      "tickers": [
-        "VRT",
-        "AMD",
-        "CSCO",
-        "AVGO",
-        "FOXA",
-        "NVDA"
-      ],
-      "source_item_ids": [
-        "gmail:1a1d5113c37a8c59"
-      ]
-    },
-    {
-      "title": "GS cuts NVDA PT to $220, flags EMS/power names (VRT, FLEX, JBL) with 44-63% FY28 EPS downside in AI slowdown scenario",
-      "body": "Goldman Sachs cut NVDA's PT to $220 from $300 citing CEO transition risk, while maintaining ~80% CY27 EPS growth intact. GS flags greater earnings risk for EMS/power names with high AI infrastructure exposure: VRT, FLEX, and JBL see FY28 EPS down 44%, 63%, and 58% respectively in a 45% AI capex downside scenario. AI/datacenter downside is viewed as largely priced into electronics and test stocks (APH, BDC, TEL, KEYS), with APH and KEYS best positioned via diversification.",
-      "tickers": [
-        "NVDA",
-        "VRT"
-      ],
-      "source_item_ids": [
-        "gmail:1a1d4fe0070451aa"
-      ]
-    },
-    {
-      "title": "Trump-Xi summit Nov 18-19 at Shenzhen APEC \u2014 trade truce extension, EV/battery, C919 supply chain as beneficiary screens",
-      "body": "The Trump-Xi summit is scheduled for November 18-19 during APEC in Shenzhen, with the potential to extend the US-China trade truce beyond January 10, 2027. China has already extended a 24% tariff suspension on US imports for two months from November 10. JPMorgan outlines thematic beneficiaries: EV/battery storage if China ODI in US is approved, C919 supply chain on batch engine approvals, and Chinese feed/hog/poultry names if soybeans are added to the tariff cut list.",
+      "title": "Anthropic IPO: ~6x oversubscribed at $1.5T valuation, targeting ~$61B raise on Nov 19",
+      "body": "Anthropic's IPO is priced at $70\u201378/share and reportedly 6x oversubscribed, with valuation bumped to $1.5T minimum; the raise would eclipse all IPOs except SpaceX to rank #2 all-time. Q4 revenue is tracking to a high-$70bn annualized run rate (not the $100bn+ target), and 2027 targets appear aggressive. $10\u201315bn of index-tracking buying is expected in the first four weeks post-listing starting Nov 19.",
       "tickers": [],
       "source_item_ids": [
-        "gmail:1a1d4d80c4c93e90"
+        "gmail:1a1d596c867545e2",
+        "gmail:1a1d54a3149108b8"
       ]
     },
     {
-      "title": "AI-driven fiber demand strongest in 20+ years \u2014 inference workloads shifting from dark to lit services, tier 2/3 markets opening",
-      "body": "JPM's fiber infrastructure panel describes the strongest wave of AI-driven fiber demand in over two decades, with AI labs expanding Zayo's dark fiber customer base from ~4 to ~9 hyperscalers. Power constraints on GPU compute are pushing new data center builds into tier 2/3 markets, boosting rural providers. Inference workloads are accelerating a structural shift from dark fiber toward managed lit/wavelength services, with existing routes offering 18-24 month time-to-market vs 3-5 years for greenfield builds.",
+      "title": "Broad market technicals deteriorating: breadth weak, semis/AI expected lower",
+      "body": "NYSE and NASDAQ are showing new lows and weak breadth; stocks above the 200-day moving average signal the market is not yet oversold. High Beta Momentum is down 45% from June peak and down 7.2% YTD; retail investor baskets are down 30% from May peak. AAII bears are at the 96th percentile; CTAs moved from +150% to -5% global equity exposure. Technical analysis flags AI, memory, and semis as likely to work lower with bond yields moving higher.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a1d5431370a1d12",
+        "gmail:1a1d5d8e2cb30a6f"
+      ]
+    },
+    {
+      "title": "SPX pivot at 7,600 with 7,400 support; negative gamma reduced, put skew compressing",
+      "body": "S&P futures are +0.4% with the index at ~7,531. Options technicals show negative gamma has been reduced and put skews are coming down relative to call skews \u2014 described as an encouraging technical setup. VIX +9.7% to 20.51 on the week with unusual call-skewed options volume across AI, healthcare, and discretionary names.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a1d5466c386e783",
+        "gmail:1a1d5d9ed9aa06a4"
+      ]
+    },
+    {
+      "title": "Housing slump deepening: existing home sales lowest since 2010, mortgage rates near 2000 highs",
+      "body": "Existing home sales fell 5.5% to 3.75M in October, the lowest level since 2010. Mortgage rates are at their highest since 2000 (excluding one month in 2023), and the median home price rose just 0.4% y/y \u2014 the smallest gain since February. Leading indicators for home improvement also weak: declining paint sales and room measurements point to continued softness in remodel demand through FY28.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a1d596cd053f0af",
+        "gmail:1a1d557967747fef"
+      ]
+    },
+    {
+      "title": "Global REITs outperform tech by 14.9ppts during IT drawdowns; self-storage leads",
+      "body": "The S&P 500 IT Index fell -16.5% month-to-date through Nov 5 while the FTSE EPRA Nareit Developed Index returned +6.6%. Historically, global REITs outperform tech by 14.9ppts during IT sector drawdowns >10% since 1990. Self-storage is the top-performing REIT sector; US apartment new lease rent growth accelerated in October with coastal and Sunbelt markets improving.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a1d5c6de4f61125",
+        "gmail:1a1d5c315c7bb5a9"
+      ]
+    },
+    {
+      "title": "Western Europe and UK central banks facing continued hike pressure amid sticky inflation",
+      "body": "JPMorgan raised its UK 4Q GDP forecast to 1.5% annualized and expects the BoE to hike in December, with inflation not expected to drop below 4% until September 2027. Western European central banks broadly face continued pressure to hike as energy prices remain elevated and growth stays resilient. UK October headline CPI is expected to accelerate to 3.8% y/y.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a1d59720c117e17",
+        "gmail:1a1d564d6d751865"
+      ]
+    },
+    {
+      "title": "AI capex cycle: 2027 builds insulated, but 2028 faces >20% datacenter pipeline cuts",
+      "body": "Street consensus is that midterm fallout represents delays/conditions not cancellations, with 2027 builds insulated as already funded or under construction. However, planned data center construction is reportedly down 20% for 2028 as Mag-8 and neoclouds cut capex; only 199GW of 586GW in the pipeline is considered truly credible per Bernstein. Current market pricing is seen as at odds with expected 30\u201340%+ capex growth in 2028, and CoreWeave demand continues running well ahead of supply with pricing on new contracts rising materially.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a1d596c867545e2",
+        "gmail:1a1d54c1b87e96d4"
+      ]
+    },
+    {
+      "title": "Hyperscalers now 40% of new LT debt issuance; crowding out IG/HY Tech spreads",
+      "body": "YTD USD high-grade issuance stands at $232bn for hyperscalers and $42bn for data centers; hyperscalers now represent 40% of new long-term debt issuance versus a historically rounding-error share. Citi flags rising interest expense as an emerging drag on mega-cap tech earnings as companies draw down cash to finance AI capex. 2027 IG TMT issuance is forecast at $675bn, with $450bn AI-related, split evenly between parent-level hyperscaler borrowing and data center/GPU financing.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a1d54e4ab006a23",
+        "gmail:1a1d5bb2c46ba22b"
+      ]
+    },
+    {
+      "title": "Memory prices rising 13-20% on AI demand despite weak consumer; enterprise SSD up 15-20% QoQ",
+      "body": "Memory manufacturers are planning 15\u201320% sequential enterprise SSD price increases in 4Q26, with PC DRAM prices rising 13\u201318% despite weaker consumer demand. AMAT reported Advanced Packaging grew +90% y/y driven by HBM demand in FY26, with Process Control up +50% y/y. AMAT's largest customer is now providing rolling 8-quarter forecasts with no order pushouts.",
       "tickers": [
-        "EQIX",
-        "DLR",
-        "VZ",
-        "T"
+        "MU"
       ],
       "source_item_ids": [
-        "gmail:1a1d4ed388b39095"
+        "gmail:1a1d59c4f33fb1a9",
+        "gmail:1a1d560103e2b3be"
+      ]
+    },
+    {
+      "title": "China domestic AI accelerator TAM to reach $290bn by 2030; local share to hit 83-88%",
+      "body": "UBS initiates coverage of China AI accelerators, projecting a Rmb2.0trn (~$290bn) TAM by 2030 with 10M unit shipments. Chinese vendors' combined market share is forecast to reach 83%/88% in 2027/28E, up 40+ percentage points from 2025 levels, as HBM/component supply constraints ease from 2028 and domestic supply chains mature.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a1d5477376a596a",
+        "gmail:1a1d5478464be27a"
+      ]
+    },
+    {
+      "title": "ChatGPT Ads hit $1bn ARR with 10K advertisers; Pinterest identified as clearest share donor",
+      "body": "OpenAI's ChatGPT Ads reached ~$1bn annualized run rate by August 2026, growing from ~600 to 10,000+ advertisers in seven months. However, only 11% of agencies are buying ChatGPT ads; ROI perception is rated middling (in line with Pinterest/Nextdoor, below Google/Instagram/TikTok). Pinterest is identified as the clearest share donor, with more agencies planning to cut than add spend there in 2026-2027.",
+      "tickers": [
+        "PINS",
+        "GOOGL",
+        "META"
+      ],
+      "source_item_ids": [
+        "gmail:1a1d56ce84d5fc7a"
+      ]
+    },
+    {
+      "title": "MSFT Outlook outage (~16 hrs) was infrastructure overload, not cyberattack; cybersecurity stocks rally",
+      "body": "Microsoft's O365 outage stemmed from a server rollout spiking CPU usage, not a cybersecurity breach. The incident drove cybersecurity stocks higher in pre-market: PANW +3.7% (KeyBanc upgrade), CRWD +3.4%, NET +2.4%. Separately, AI-powered cyberattacks are compressing sophisticated attack timelines from weeks to ~20 minutes, with Wiz noting October saw unprecedented cyber incidents.",
+      "tickers": [
+        "MSFT"
+      ],
+      "source_item_ids": [
+        "gmail:1a1d54e4ab006a23",
+        "gmail:1a1d533fc49ec413"
+      ]
+    },
+    {
+      "title": "Macro regime shift toward Quad 4: Hedgeye shifting positioning from growth to defensive",
+      "body": "Hedgeye flags a positioning shift from Quad 2 to Quad 4 for Q4 2026 and 1H 2027 \u2014 shorting AI/semis (MEME, DRAM, EWY), metals (Silver -18%, Palladium -24%), and flagging high-beta momentum down 45% from June peak. CTAs moved from +150% to -5% global equity exposure. The 10-year UST TRADE signal is at 5.07% with cycle high at 5.31%.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a1d5431370a1d12",
+        "gmail:1a1d546c4d6dbfc2"
+      ]
+    },
+    {
+      "title": "Upcoming catalysts: NVDA earnings Tuesday PM, Anthropic IPO Thursday, busy retail earnings week",
+      "body": "NVDA reports Tuesday post-market with speculation of a possible pre-announcement around the CEO transition. The Anthropic IPO prices Thursday. Major retail earnings include DIS/HD Tuesday, LOW/TGT/TJX Wednesday, BABA/WMT Thursday. MSFT Ignite Conference is Tuesday. The week is expected to be a critical test of whether the AI trade can stabilize around NVDA's fundamentals at ~10x CY27 EPS.",
+      "tickers": [
+        "NVDA",
+        "MSFT",
+        "BABA",
+        "DIS",
+        "INTU"
+      ],
+      "source_item_ids": [
+        "gmail:1a1d5a9191fd8b42",
+        "gmail:1a1d55d6f78b319a"
       ]
     }
   ]
