@@ -1,235 +1,244 @@
 {
-  "digest_type": "premarket",
-  "digest_dt": "2026-11-16T08:30:00-05:00",
-  "saved_at": "2026-11-16T13:45:32.501643+00:00",
+  "digest_type": "midday",
+  "digest_dt": "2026-11-16T12:00:00-05:00",
+  "saved_at": "2026-11-16T17:15:09.544991+00:00",
   "bullets": [
     {
-      "title": "NVDA: CEO crisis dominates \u2014 Jensen ouster, export controls, PT cuts ahead of Tuesday earnings",
-      "body": "Jensen Huang's ousting as NVDA CEO is the week's dominant story: Bessent pushed for an external hire, interim CEO Colette Kress is expected to curb startup/infrastructure financing, and Congress is accelerating chip export restrictions. UBS's Arcuri cut PT to $240 (from $300), trimming FY28 revenue to $885B and EPS to $20.01 on ~10% revenue-at-risk from Singapore/Malaysia restrictions; Evercore models 8x P/E and a $100 target on cycle peak thesis. Despite the noise, NVDA is expected to beat FQ3 by ~$3-4B (~$111-112B) and guide FQ4 to ~$130B \u2014 the question is whether a new CEO will honor existing ecosystem commitments that underpin neoclouds and indie-lab demand.",
-      "tickers": [
-        "NVDA"
-      ],
-      "source_item_ids": [
-        "gmail:1a1e4844f0d1bcd8",
-        "gmail:1a1db794721cfc31"
-      ]
-    },
-    {
-      "title": "NVDA: Pre-market down 3.5-4.4% Monday on leadership/export overhang; semis broadly lower",
-      "body": "NVDA opened Monday premarket -3.5% to -4.4% with semis broadly sold: MU -6.2%, MRVL -6.1%, AMD -5.3%, AVGO -4.1%, COHR -7.0%, LITE -6.9%, CIEN -5.4%. NVDA has the lowest 14-day RSI since 2019 (24) and trades at 11x forward earnings. Retail bought $1.6B NVDA on Thursday (10x the next-most-bought name) but HF net-selling streak in semis is the longest on record (6 consecutive weeks, global L/S ratio collapsed from 4.4x to 2.1x).",
+      "title": "NVDA: Leadership turmoil, export controls, and financing pullback ahead of earnings",
+      "body": "NVDA fell ~13% w/w as CEO Jensen Huang's resignation triggered simultaneous succession, export-policy, and financing shocks. Treasury Secretary Bessent demands an external CEO hire citing 'seemingly illicit' chip sales through SE Asian data centers; prediction markets show Rene Haas (ARM) at 20% vs. Huang return at 17%. Interim CEO Kress reportedly cutting startup/infrastructure financing, and NVDA is stepping back as AI ecosystem's lender of last resort. NVDA reports earnings Tuesday with 8% implied move; key questions are SE Asian neocloud revenue exposure and guidance given new BIS export licensing rules for Indonesia, Malaysia, Singapore, Thailand, and Brazil (exempt: 62% of revenue from US-HQ customers).",
       "tickers": [
         "NVDA",
-        "MU",
-        "MRVL",
-        "AMD",
+        "ARM"
+      ],
+      "source_item_ids": [
+        "gmail:1a1e4d63492626f1",
+        "gmail:1a1e4ade15eb4d60"
+      ]
+    },
+    {
+      "title": "BIS new rule tightens remote access to AI chips; NVDA most exposed, BTDR down 15%",
+      "body": "The Commerce Dept issued an interim final rule requiring export licenses for advanced AI semiconductor sales to Indonesia, Malaysia, Singapore, Thailand, and Brazil, and restricting remote cloud access to US supercomputing for entities linked to restricted countries (D:5/Macau). NVDA's prior Singapore revenue ($10B+ quarterly, mostly US hyperscalers) is largely exempt via US-HQ customer carve-out, but SE Asian neocloud exposure remains at risk. BTDR fell 13-15% on the news given its 153MW Malaysia pipeline tied to Asian tech demand.",
+      "tickers": [
+        "NVDA",
+        "BTDR"
+      ],
+      "source_item_ids": [
+        "gmail:1a1e4e22b05d400b",
+        "gmail:1a1e54c03f0f34ba"
+      ]
+    },
+    {
+      "title": "SemiAnalysis cuts AI accelerator forecasts 28-41%; semis at 11x 2028E vs 16x S&P 500",
+      "body": "SemiAnalysis cut 2028-2030 AI accelerator forecasts by 28-41%, reducing cumulative 2027-2030 spending by ~$1.6T, driven by price deflation and financing constraints rather than demand collapse. AI spending grows 60% in 2027 before slowing to 21% in 2028 and 5% in 2029; accelerator spend cut 40% by 2030 while silicon area falls only 15%. NVDA bears the brunt while Broadcom and Amazon internal ASIC programs remain relatively insulated. Semis now trade at 11x 2028E earnings vs 16x for S&P 500 despite 31% consensus EPS growth; hedge fund net leverage at 5th percentile.",
+      "tickers": [
+        "NVDA",
         "AVGO",
-        "COHR",
-        "LITE",
-        "CIEN"
+        "AMZN"
       ],
       "source_item_ids": [
-        "gmail:1a1e489d3b93074a",
-        "gmail:1a1d73632d086f4c"
+        "gmail:1a1e54cf138529d0",
+        "gmail:1a1e4c843bdd8f9a"
       ]
     },
     {
-      "title": "DELL & HPE: Multiple desks bullish into earnings \u2014 beat-and-raise setups on AI server/storage demand",
-      "body": "Citi, Morgan Stanley, and UBS all lean constructive on DELL and HPE ahead of results. DELL is down 30%+ to COVID-era trough valuations and is expected to beat Q3 on AI server/storage demand with Jan Q guide potentially above consensus; MS PT $403. HPE backed by healthy enterprise infrastructure spending and buyback return in F4Q; MS PT $64, Citi Buy. Key risk: PC demand deteriorated significantly in C3Q on negative IDC data and Intel earnings, and HPE faces an October Q revenue miss and FY27 EPS guide-down risk.",
+      "title": "JPM Asia conference: bearish semi sentiment; ANET constructive, AMD controversial, TSM 'funding long'",
+      "body": "JPM's Asia conference Day 1 showed bearish tone across semis even among longs. NVDA concerns center on leadership transition, insider selling risk, margin pressure from frontier LLMs, and regulatory capture fears; Softbank's $3.73B charge to unwind Ohio turbine orders cited as a major ROI warning signal. ANET viewed constructively as a long; CRDO/CLS sentiment mixed on Colossus customer exit risk; AMD faces controversy on server weakness and enterprise demand persistence; Korea memory seen as very cheap with 1Q HBM price hikes expected; TSM viewed as a 'funding long' by Asia pods.",
       "tickers": [
-        "DELL",
-        "HPE"
-      ],
-      "source_item_ids": [
-        "gmail:1a1e47f4d41aba1b",
-        "gmail:1a1e47f4a0dc0905"
-      ]
-    },
-    {
-      "title": "SMTC: Oppenheimer bullish; DC revenue to 2x, targeting 75% CAGR to $2.1B by CY29; UBS trims PT to $200",
-      "body": "Oppenheimer reiterates SMTC with $225 PT, noting DC sales should more than double this year and next with ACC ramping at a top CSP (believed Google) and 2x ASP premiums on 1.6T/3.2T solutions. SMTC trades at 11x CY28E EPS vs AI peers at 15x. UBS trims PT from $230 to $200 (maintains Buy) modeling Oct Q revenue of $418M/$1.14 EPS, guiding toward $440-445M; DC revenue modeled up 130%/120% Y/Y in FY27/FY28 with gross margin exiting FY27 ~60% inflecting to ~65% in FY28.",
-      "tickers": [
-        "NVDA"
-      ],
-      "source_item_ids": [
-        "gmail:1a1e48a2a914b2f2",
-        "gmail:1a1e48a5996fa5cf"
-      ]
-    },
-    {
-      "title": "AMD & TXN: Relative semi safe havens \u2014 both held 200-day MAs as preferred semi buys",
-      "body": "Oppenheimer and Opco technicals both flag AMD and TXN as the two semiconductors that maintained their 200-day moving averages despite broader sector weakness, designating them as preferred buys. AMD +18.9% and AVGO +18% over 5 days post-NVDA news are seen as beneficiaries of ecosystem rotation. UBS prefers TXN for operating leverage and cycle torque; KeyBanc notes ON and TXN are closing the data-center power management gap but neither is yet qualified at NVDA on Rubin.",
-      "tickers": [
+        "NVDA",
+        "ANET",
+        "CRDO",
+        "CLS",
         "AMD",
-        "TXN",
-        "AVGO"
+        "TSM",
+        "WDC",
+        "STX",
+        "SNDK",
+        "MRVL",
+        "AVGO",
+        "DELL"
       ],
       "source_item_ids": [
-        "gmail:1a1da4c97f2de0bf",
-        "gmail:1a1db611d7fe0fcc"
+        "gmail:1a1e50b5c8069b16"
       ]
     },
     {
-      "title": "RBLX: Piper bullish on AI content tailwind; JPM tracker shows engagement softening W/W, -14% Y/Y",
-      "body": "Piper reiterates bullish view: AI is accelerating game supply (new games with first-time ads up 5x), GTA6 headwind is modest, age-verification risk smaller than feared, and Roblox Everywhere is underappreciated. JPM's weekly tracker shows peak CCUs -2% W/W to 23.1M and -14% Y/Y November-to-date; 4Q bookings guide of -15% to -10% Y/Y already factors in GTA VI console-only release. 80%+ of top-100 creators now use AI tools and asset uploads tripled in October.",
-      "tickers": [
-        "RBLX"
-      ],
-      "source_item_ids": [
-        "gmail:1a1e47ee5b197aa6",
-        "gmail:1a1e485fdce28696"
-      ]
-    },
-    {
-      "title": "HUBS: CEO Halligan buys 23K shares at $217.25 after returning as CEO; guidance reaffirmed",
-      "body": "HUBS co-founder Brian Halligan purchased ~23K shares at $217.25 (Form 4) after being appointed CEO following Yamini Rangan's departure on Nov 12. Halligan now beneficially owns ~436K shares. CFO Kate Bueker retires Feb 2027; Karen Burgess (Adobe) joins as EVP Finance Nov 30. Company reaffirmed Q4 and FY2026 financial guidance. RBC lists HUBS in a 'questions remain' bucket post-Q3 software earnings bifurcation.",
-      "tickers": [
-        "HUBS"
-      ],
-      "source_item_ids": [
-        "gmail:1a1e489831b1f7e9",
-        "gmail:1a1e4796ccd19762"
-      ]
-    },
-    {
-      "title": "DIS: Earnings preview Nov 17 \u2014 bulls cite SVOD margins >10% and ESPN highs; options imply 6.2% move",
-      "body": "DIS Q4 consensus is $25.16B revenue / $1.68 EPS with FY27 guidance for double-digit adjusted EPS growth. Bull case: SVOD margins crossing 10%, record Experiences results, ESPN viewership at 10-year high. Bear case: structural sports-rights cost pressure, secular linear TV decline, soft Asia parks. Jefferies flags DIS at 52-week high with potential breakout targeting $140+ on FY27 cost savings. Options imply ~6.2% post-earnings move.",
-      "tickers": [
-        "DIS"
-      ],
-      "source_item_ids": [
-        "gmail:1a1da586aecdf3ba",
-        "gmail:1a1e48547dcd95a0"
-      ]
-    },
-    {
-      "title": "APP: Jefferies top '27 Internet pick \u2014 'Axon 2.0' e-commerce customer ramp viewed as material Q4 catalyst",
-      "body": "Jefferies positions APP for a breakthrough Q4'26 with new e-commerce customer growth and model rollout described as 'Axon 2.0' material. APP appears in JPM's note as an SMID Internet name abandoned by generalists. Sector sentiment in SMID Internet is worse than software with only specialists remaining.",
+      "title": "APP: US eCommerce store count hits record weekly growth of 4.2% in Week 46",
+      "body": "Citi notes AppLovin's US eCommerce store count reached 7,311, up 4.2% w/w \u2014 the largest US weekly increase to date. US store growth accelerated to a 3.2% weekly average in 4Q26 QTD vs. 1.5% in 3Q26, with global clients at 22,061 (+5.0% w/w). A 4Q26 average weekly store growth rate of 5.8% implies ~23K average store count for the quarter.",
       "tickers": [
         "APP"
       ],
       "source_item_ids": [
-        "gmail:1a1e48547dcd95a0",
-        "gmail:1a1e47b3ce0d64b9"
+        "gmail:1a1e53e713a05ec9"
       ]
     },
     {
-      "title": "GOOGL: TPU shipments 8-9M units in 2027 per Ming-Chi Kuo; gaining AI search share at 25.6% of citations",
-      "body": "JPM estimates GOOGL TPU shipments of 8-9M units in 2027, 14-15M in 2028, 16-18M in 2029 (via Ming-Chi Kuo). Piper notes GOOGL is gaining AI search share notably at 25.6% of citations among the top 1,000 domains. Citi maintains Buy on GOOGL; Google also acquired a pre-developed Wyoming data center site with hybrid power plan.",
+      "title": "AMZN/DLR/EQIX: BXDC acquires $5B AWS data center stake; data center REIT activity elevated",
+      "body": "Blackstone Digital (BXDC) closed its inaugural acquisition: a 75.1% stake in a 647MW, 13-building portfolio from Amazon in a sale-leaseback for ~$3.7B at a 7.0% cap rate (top of 5.75-7.0% target range), WALT 12 years (32 years fully extended), and +2.75% escalators. Pricing at ~$7.7M/MW (~50% below the $15M/MW target) reflects strategic entry. DLR plans $10B deployment in Japan over the next decade and received approval for a 156MW Illinois facility. EQIX is filing for a ~$500M DA13 data center in Dallas.",
       "tickers": [
-        "GOOGL"
+        "AMZN",
+        "DLR",
+        "EQIX"
       ],
       "source_item_ids": [
-        "gmail:1a1e47b3ce0d64b9",
-        "gmail:1a1e47ee5b197aa6"
+        "gmail:1a1e53c6ac50bcc3",
+        "gmail:1a1e4b9efebb0ab8"
       ]
     },
     {
-      "title": "TSLA: JPM flags robotaxi traction building; Cybercab sales begin despite federal safety probe",
-      "body": "JPM published dedicated robotaxi research flagging building traction for TSLA's autonomous vehicle program. Separately, macro headlines confirm Tesla began autonomous Cybercab sales despite an ongoing federal safety probe.",
+      "title": "AMD: Completes $8.2B World Labs acquisition; TensorWave-OpenAI 457MW AMD deal",
+      "body": "AMD completed its $8.2B all-stock acquisition of World Labs (spatial-intelligence AI), with Fei-Fei Li joining as EVP and Chief Scientist reporting to Lisa Su. Separately, TensorWave announced a six-year agreement with OpenAI to provide 457MW of AMD Instinct MI455X GPU capacity, expected online H1 2027 and fully deployed by early 2028 \u2014 a meaningful win for AMD's AI infrastructure positioning.",
       "tickers": [
-        "TSLA"
+        "AMD"
       ],
       "source_item_ids": [
-        "gmail:1a1e47b3ce0d64b9",
-        "gmail:1a1e483de3f33a86"
+        "gmail:1a1e4ae529dae20d",
+        "gmail:1a1e4af8bec79647"
       ]
     },
     {
-      "title": "VKTX: Oppenheimer bullish at $120 PT \u2014 VK2735 shows ~22% weight loss at week 33 with 97% retention",
-      "body": "Oppenheimer reiterates VKTX with $120 PT, highlighting VK2735's retatrutide-like efficacy (~22% weight loss at week 33) with tirzepatide-like tolerability and 97% patient retention on maintenance. Every-other-week and monthly dosing options plus an oral formulation address treatment discontinuation/weight-regain issues that plague the obesity category.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a1e48a5996fa5cf"
-      ]
-    },
-    {
-      "title": "NET: RBC bullish post-earnings; Wolfe Research includes in Agentic Infra basket (SNOW, TWLO, DDOG, NET)",
-      "body": "RBC lists NET in its post-Q3 bullish software bucket alongside MSFT and TEAM. Wolfe Research is 'long and strong' on the Agentic Infra basket (TWLO, DDOG, SNOW, NET) going into week. All-Security SaaS index trades at 8.1x FY+2 EV/Sales with multiples down 3.57% W/W.",
+      "title": "NET: Cybersecurity spending to rise to 2.5% of AI budgets by 2028; agent proliferation a tailwind",
+      "body": "Morgan Stanley sees cybersecurity spending rising from ~1.5% to ~2.5% of enterprise AI budgets by 2028, driving ~23% cyber market CAGR, as AI lowers the expertise barrier for sophisticated attacks. More local agent deployment increases endpoint security importance, and existing Cloudflare and CrowdStrike deployments enable process and credential monitoring \u2014 positioning NET as a beneficiary of the AI security buildout.",
       "tickers": [
-        "NET",
-        "SNOW"
+        "NET"
       ],
       "source_item_ids": [
-        "gmail:1a1d76166455f965",
-        "gmail:1a1e4796ccd19762"
+        "gmail:1a1e526c27b5006d"
       ]
     },
     {
-      "title": "HIMS: JPM digital tracker \u2014 HIMS October DAUs +1% Y/Y (improving from -5% in Sept); GLP-1 search softening",
-      "body": "HIMS October DAUs improved to +1% Y/Y from -5% in September, but HERS DAUs remain deeply negative at -24% Y/Y. Google Search interest in peptides and branded GLP-1 offerings continued to soften into October across all categories, adding to deceleration risk for the GLP-1 compounding business.",
-      "tickers": [
-        "HIMS"
-      ],
-      "source_item_ids": [
-        "gmail:1a1e48022d70931a"
-      ]
-    },
-    {
-      "title": "VZ & T: FCC Upper C-Band auction (Apr 2027) \u2014 JPM forecasts $53B spend; VZ to lead at $15-20B",
-      "body": "FCC released final Upper C-Band auction procedures with bidding starting Apr 27, 2027. JPM maintains ~$53B total spend forecast at $1.00/MHz-pop. Verizon expected to be most aggressive at $15-20B given smallest sub-6 GHz position; T-Mobile $10-15B; AT&T $5-10B (less need post-EchoStar deal). SpaceX (up to $10B) is the largest swing factor. Spending is manageable for incumbent balance sheets but could slow buybacks or deleveraging, particularly at VZ.",
-      "tickers": [
-        "VZ",
-        "T"
-      ],
-      "source_item_ids": [
-        "gmail:1a1e4841087a2198"
-      ]
-    },
-    {
-      "title": "CRWV: Hedge funds added >1 std of shorts; CoreWeave beat with >900MW additional contracted power QoQ",
-      "body": "UBS crowding data shows hedge funds added more than 1 standard deviation of CRWV shorts even as CoreWeave beat revenue/guidance with >900MW additional contracted power QoQ and ~$9B prepayments covering 75% of 2027 capex. CRWV is down 6.8% in Monday premarket alongside broader neo-cloud/AI infrastructure weakness.",
-      "tickers": [
-        "CRWV"
-      ],
-      "source_item_ids": [
-        "gmail:1a1d7d26ad085c38",
-        "gmail:1a1e4844f0d1bcd8"
-      ]
-    },
-    {
-      "title": "MSFT: Global outage Friday; Ignite (Nov 18) expected to feature agentic AI product announcements",
-      "body": "MSFT suffered a global outage Friday but remains recommended by UBS for defense despite crowding. Morgan Stanley is hosting a group breakfast at MSFT Ignite on Nov 18; Wolfe Research expects agentic product announcements and AI messaging. RBC lists MSFT in its post-Q3 bullish software bucket.",
+      "title": "MSFT: Anthropic's new collaboration tools (Whiteboards, Sheets, Meetings) pose competitive threat",
+      "body": "Anthropic launched Claude Whiteboards, Sheets, Dashboards, and Meetings \u2014 directly targeting Microsoft's franchise productivity businesses. Anthropic also released Claude Fable 5.2 and Mythos 5.2 with 30% faster output and 20% price reduction. Morgan Stanley's AlphaWise notes 64% of CIOs prefer to procure AI rather than build, with Microsoft as the leading GenAI beneficiary, though LLM providers are gaining share.",
       "tickers": [
         "MSFT"
       ],
       "source_item_ids": [
-        "gmail:1a1d76166455f965",
-        "gmail:1a1db611d7fe0fcc"
+        "gmail:1a1e4d7db2cc0064",
+        "gmail:1a1e4e9082cc8953"
       ]
     },
     {
-      "title": "FSLR: Removed from OPCO buy list; down 10.6% on the week, -34.4% YTD",
-      "body": "FSLR was removed from Oppenheimer's large-cap 50/50 buy list this week. The stock declined 10.6% for the week ended Nov 13 and is down 34.4% YTD, making it among the worst S&P 500 performers year-to-date.",
+      "title": "DKNG: NFL Week 10 flags possible low hold risk; Indiana GGR data solid",
+      "body": "UBS flags possible low hold week for DKNG after 10/13 favorites won in Week 10 with all 5 biggest spread favorites winning (77% favorite win rate); 5/5 biggest-spread wins implies lower hold, posing risk to guidance. UBS recently downgraded DKNG to Neutral. Indiana October sports betting GGR came in strong at +46% y/y with hold rates expanding; DKNG's Indiana GGR +30% y/y with 10.7% hold rate (+290bps), flat 35% market share.",
       "tickers": [
-        "FSLR"
+        "DKNG"
       ],
       "source_item_ids": [
-        "gmail:1a1db0ef84e6f1c8",
-        "gmail:1a1da4c97f2de0bf"
+        "gmail:1a1e4bbfd78afd2c",
+        "gmail:1a1e4dc48c6d754d"
       ]
     },
     {
-      "title": "SPOT: Jefferies top '27 pick \u2014 20%+ FCF growth via price increases, opex moderation, new monetization",
-      "body": "Jefferies positions SPOT for 20%+ FCF growth through price increases, operating expense moderation, and new product monetization. SPOT was added to Oppenheimer's large-cap buy list this week alongside PLTR, TXN, MSI, and VRSN as part of a shift toward higher-quality businesses.",
+      "title": "TTD/VRT: Buyback and dividend increases signal shareholder return momentum",
+      "body": "Trade Desk approved an additional $731M share repurchase, bringing the total authorization to $1B. Vertiv raised its quarterly dividend 60% to $0.10/share from $0.0625. Both actions reflect balance sheet confidence amid broader market volatility.",
       "tickers": [
-        "SPOT"
+        "TTD",
+        "VRT"
       ],
       "source_item_ids": [
-        "gmail:1a1e48547dcd95a0",
-        "gmail:1a1da4c97f2de0bf"
+        "gmail:1a1e52535ae9b14c"
       ]
     },
     {
-      "title": "AMZN: Lost 40 Leo satellites in ULA Vulcan rocket failure; AI agents disrupting BKNG, EXPE, AMZN, ETSY",
-      "body": "Amazon lost 40 Project Kuiper (Leo) satellites in a Boeing-Lockheed ULA Vulcan rocket failure, a material setback for its satellite broadband ambitions. Separately, JPM flags AI Search/AI Overviews/AI agents as a structural disruptor to AMZN, BKNG, EXPE, and ETSY, with generalist investors having abandoned SMID Internet names in favor of specialists.",
+      "title": "TLN: Oppenheimer initiates at Outperform, $400 PT; 750MW PJM deal drives ~30% FCF/share CAGR",
+      "body": "Oppenheimer initiates Talen Energy at Outperform with a $400 PT. TLN signed a 750MW seven-year PJM capacity agreement generating ~$100M/year, and base adjusted FCF/share guidance of ~$38/$48/$46-50 for 2027/2028/2029 implies ~30% CAGR from 2026-2029E. A $1.5B ASR plus additional $1.5B buyback through 2028 supports shareholder returns; AWS PPA provides contracted growth runway.",
       "tickers": [
-        "AMZN",
-        "BKNG",
-        "EXPE"
+        "TLN"
       ],
       "source_item_ids": [
-        "gmail:1a1e47b3ce0d64b9",
-        "gmail:1a1e483de3f33a86"
+        "gmail:1a1e5421af95354c"
+      ]
+    },
+    {
+      "title": "EXPE/ABNB: Hedgeye flags EXPE losing US share; upgrades ABNB as Best Idea Long",
+      "body": "Hedgeye notes EXPE lost notable ground in US/North American room nights with ABNB more than doubling its growth rates, gaining share through hotel expansion. EXPE faces downside risk in B2C room night growth in its core US market while BKNG pushes across hotel and alternative accommodations. Hedgeye upgraded ABNB to Best Idea Long.",
+      "tickers": [
+        "EXPE",
+        "ABNB"
+      ],
+      "source_item_ids": [
+        "gmail:1a1e4e9082cc8953",
+        "gmail:1a1e4e548a203dd3"
+      ]
+    },
+    {
+      "title": "RBLX: 4Q CCUs tracking slightly below guidance midpoint per Citi",
+      "body": "Citi maintains Buy on Roblox; Week 46 average peak CCUs were 14.7M, down 15% y/y and 3% sequentially. Early 4Q26 data implies ~$1.94B in bookings, slightly below the company guidance midpoint of $1.89B-$2.0B and below Visible Alpha consensus of $1.97B.",
+      "tickers": [
+        "RBLX"
+      ],
+      "source_item_ids": [
+        "gmail:1a1e4af6c21e4b17"
+      ]
+    },
+    {
+      "title": "HOOD: October net deposits $15.1B beat; crypto weakness and Democratic oversight are near-term risks",
+      "body": "Robinhood's October net deposits of $15.1B beat ~$13B expectations, with $6.5B from Trump Accounts implying $8.6B in core deposits. Event contracts averaged +7% ADV vs. 3Q. JPM flags crypto weakness plus incoming Democratic oversight as a risk-appetite test for HOOD and COIN near-term.",
+      "tickers": [
+        "HOOD"
+      ],
+      "source_item_ids": [
+        "gmail:1a1e4d111a181612",
+        "gmail:1a1e4b2e943db73e"
+      ]
+    },
+    {
+      "title": "META: Italy fines $887M; US time spent +10% y/y; Muse #1 iOS app",
+      "body": "Italy's regulator fined Meta $887M for accessing Android users' photos and videos without consent. On the positive side, Citi notes META IG US time spent +10% y/y, and Muse is the #1 iOS app download, reflecting strong engagement momentum into 4Q.",
+      "tickers": [
+        "META"
+      ],
+      "source_item_ids": [
+        "gmail:1a1e50f4fc5cadb9",
+        "gmail:1a1e4b9efebb0ab8"
+      ]
+    },
+    {
+      "title": "INTC: Shareholder lawsuit over concealed PC market slowdown",
+      "body": "Intel was sued by shareholders for allegedly concealing a global PC market slowdown that resulted in a 29% stock plunge on October 30th. No new rating actions or PT changes disclosed in the item.",
+      "tickers": [
+        "INTC"
+      ],
+      "source_item_ids": [
+        "gmail:1a1e50f4fc5cadb9"
+      ]
+    },
+    {
+      "title": "CRWV/CORZ/WULF/HUT/NBIS: Roth survey assessing enterprise AI hosting demand and provider preferences",
+      "body": "Roth QSG is launching a survey of 100-150 US enterprise AI/ML procurement decision-makers to assess which GPU/HPC hosting providers they would actually contract with, including former bitcoin miners (WULF, CORZ, NBIS) vs. newer entrants like CoreWeave. Key selection criteria: price, GPU generation, power, uptime, and provider solvency. BTDR and HUT both down 11-15% today on export control and NVDA financing concerns.",
+      "tickers": [
+        "CRWV",
+        "CORZ",
+        "WULF",
+        "HUT",
+        "NBIS",
+        "BTDR"
+      ],
+      "source_item_ids": [
+        "gmail:1a1e4e064de68376",
+        "gmail:1a1e5053ba999c72"
+      ]
+    },
+    {
+      "title": "BABA/FSLR/IREN/RGTI: Multiple universe names at 52-week lows with steep YTD declines",
+      "body": "BABA is down 42.3% YTD, FSLR down 35.6%, IREN down 66.3%, and RGTI down 63.3% \u2014 all at 52-week lows as of November 16. Electronic Technology and Tech Services sectors are leading the 52-week low count (154 total lows vs. 50 highs).",
+      "tickers": [
+        "BABA",
+        "FSLR",
+        "IREN",
+        "RGTI"
+      ],
+      "source_item_ids": [
+        "gmail:1a1e4e548a203dd3"
+      ]
+    },
+    {
+      "title": "GOOGL: Search share hits 91.0% globally, +110bps w/w; US share +30bps m/m to 85.5%",
+      "body": "Citi data shows Google's global search share rose 110bps w/w to 91.0% and US search share increased 30bps m/m to 85.5%, suggesting continued dominance despite AI search competition heading into year-end.",
+      "tickers": [
+        "GOOGL"
+      ],
+      "source_item_ids": [
+        "gmail:1a1e4b9efebb0ab8"
       ]
     }
   ]
