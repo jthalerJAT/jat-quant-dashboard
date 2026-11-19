@@ -1,230 +1,239 @@
 {
-  "digest_type": "premarket",
-  "digest_dt": "2026-11-19T08:30:00-05:00",
-  "saved_at": "2026-11-19T13:45:20.954193+00:00",
+  "digest_type": "midday",
+  "digest_dt": "2026-11-19T12:00:00-05:00",
+  "saved_at": "2026-11-19T17:14:35.925391+00:00",
   "bullets": [
     {
-      "title": "NVDA: Leadership vacuum, export controls, and financing tightening dominate narrative",
-      "body": "Moody's cut NVDA's credit outlook to stable from positive citing leadership vacuum; board contacted ARM CEO Rene Haas as potential successor to Huang. New BIS export controls require licenses for advanced chips to China, Malaysia, Indonesia, Singapore, Thailand, and Brazil, with TSMC/Samsung halting some shipments. NVDA is tightening vendor financing, reportedly requiring neoclouds to secure customer prepayments for GPU allocations, pressuring CRWV and similar platforms. Jefferies cut PT to $250 on CEO succession concerns; buy-side feedback 'next to zero' with many using NVDA as a short funding vehicle, money rotating into AMD and AVGO.",
+      "title": "JPM AI Supply Forecast: GOOGL downgraded to Neutral; AMZN/ORCL retain Overweight; $595B funding gap through 2028",
+      "body": "JPM downgrades Alphabet to Neutral from Overweight on tighter valuations while retaining Overweight on AMZN and ORCL; maintains Neutral META and Underweight MSFT. Forecasts $450B AI-related supply in 2027 ($225B parent issuance + $225B GPU/DC financing) with aggregate FCF negative through 2028 and a ~$595B funding gap across 2027-28. AWS guided ~40% growth; Meta seen as having clearest AI returns via advertising; ORCL thesis hinges on converting contracted demand to delivered capacity.",
       "tickers": [
-        "NVDA",
-        "AMD",
-        "AVGO"
+        "GOOGL",
+        "AMZN",
+        "ORCL",
+        "META",
+        "MSFT",
+        "NVDA"
       ],
       "source_item_ids": [
-        "gmail:1a1f3cba066fd25a",
-        "gmail:1a1f3e2ab3b07663"
+        "gmail:1a1f4bcff3394795",
+        "gmail:1a1f406954f8d4bb"
       ]
     },
     {
-      "title": "PANW: Largest beat in 5 years; $4.5B Applied Compute acquisition signals AI-security pivot",
-      "body": "F1Q27 revenue $3.44B (+39% YoY) beat Street by ~4%; NGS ARR $9.73B +66% YoY with nnARR +133% YoY. FY27 guidance raised to $14.52-14.57B (+26-27% YoY vs. Street's 23.4%); NGS ARR guidance raised by $400M to $11.475-11.525B. $4.5B all-stock acquisition of Applied Compute targets $1B ARR by FY29 and 100-150MW of compute capacity by FY30, though analysts flag FY28 margin headwinds. Multiple firms raised PTs (Citi to $445 Buy, Piper to $450); stock +10%+ on the day.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a1f391c7dff65cb",
-        "gmail:1a1f333057cfa5df"
-      ]
-    },
-    {
-      "title": "BABA: Q2 EPS miss but cloud acceleration at 53% YoY; capex surge and export controls weigh",
-      "body": "Q2 revenue CNY271.52B beat consensus; adjusted EBITDA CNY46.06B beat, but non-GAAP EPS CNY8.10 missed CNY10.88 estimate. Cloud revenue grew 53% YoY with AI external revenue +67% YoY; T-Head unveiled Zhenwu V900 chip with mass production Q1 2027. Cloud growth guidance cut to 30-45% for FY27 (from 50%+) due to new compute export controls; capex CNY50.48B (+60% YoY), free cash flow negative CNY34.47B. 2030 target of $100B external cloud revenue with 20%+ margin maintained.",
+      "title": "NVDA: Leadership vacuum, China chip halt, record Q4 guide of $130B; stock faded -3% despite pre-market strength",
+      "body": "Nvidia reported 103% annualized revenue growth with Q4 guidance of $130B and long-term growth raised to 75%, but shares faded -3% intraday as the board publicly rejected Jensen Huang's potential return and NVDA halted approved Hopper data-center chip shipments to China under geopolitical pressure. Reports surfaced that NVDA approached ARM's CEO as a replacement candidate. The $500B Wall Street chip financing pledge remains entirely unfunded per SA sector summary.",
       "tickers": [
-        "BABA"
+        "NVDA"
       ],
       "source_item_ids": [
-        "gmail:1a1f3fd085e99295",
-        "gmail:1a1f37e328c4531d"
+        "gmail:1a1f46354831ba71",
+        "gmail:1a1f40a6dba67144"
       ]
     },
     {
-      "title": "WSM: Q3 EPS beats on tariff refund; Pottery Barn drags comps, stock -5.6% pre-mkt",
-      "body": "Q3 EPS $2.38 beat FactSet $2.19; revenue $1.99B slightly missed $2.00B estimate. Comps +5.1% missed by 50bps with Pottery Barn +1.8% the weak link vs. West Elm +7.0%. Q3 benefited from $29.3M tariff refund; FY26 guidance reiterated at 4.7-7.2% revenue growth, 17.8-18.2% operating margin.",
+      "title": "MSFT Ignite bullish; BIS China chip rules widen closed-model gap; BABA may cut 20GW DC target",
+      "body": "New US BIS remote-access rules hinder China's NVDA chip access in Southeast Asia, favoring US closed-source AI models per MS TMT. BABA may cut its 20GW data center target following restrictions; ByteDance paused a $480M chip loan and Moonshot canceled a $150M Indonesia DC deal. MSFT is deliberately preserving AI capacity for first-party apps/enterprise; ByteDance in advanced talks to spend ~$500M on Azure for OpenAI models.",
+      "tickers": [
+        "MSFT",
+        "BABA",
+        "AMZN",
+        "GOOGL"
+      ],
+      "source_item_ids": [
+        "gmail:1a1f41fd2c1ef215",
+        "gmail:1a1f40a6dba67144"
+      ]
+    },
+    {
+      "title": "AMD: Down 3% on Hunterbrook short report alleging China firmware access via IEIT Systems",
+      "body": "Hunterbrook Media published a report alleging AMD has China-related security problems, highlighting Chinese server maker IEIT Systems' apparent access to new AMD firmware. Hunterbrook Capital disclosed it is short AMD and a basket of comparable securities. AMD shares reversed earlier gains to trade -3% on the report.",
+      "tickers": [
+        "AMD"
+      ],
+      "source_item_ids": [
+        "gmail:1a1f47181e27fe0d"
+      ]
+    },
+    {
+      "title": "SNPS/CDNS: OpenAI/AMD GPU design win validates EDA TAM expansion; KeyBanc PT $605 on SNPS",
+      "body": "OpenAI improved AMD's flagship GPU PPA by 14% using GPT-Synopsys paired with Synopsys EDA tools, the first notable reference use case for AI-EDA partnerships. KeyBanc sees SNPS at $605 (31.5x FY27E EPS vs. current 23.5x) and CDNS at $425 (51.5x 2027E FCF vs. 38x current), arguing AI enables faster iteration but cannot replace traditional EDA steps, representing TAM expansion via outcome-based agreements.",
+      "tickers": [
+        "AMD"
+      ],
+      "source_item_ids": [
+        "gmail:1a1f4a5cf8248fee"
+      ]
+    },
+    {
+      "title": "WSM: First comp miss in 2+ years; Pottery Barn deceleration sparks debate; stock -7.6% pre-market",
+      "body": "WSM 3Q comps +5.1% (missed buyside bogey of ~5.5-6.0%), driven by West Elm +7.0% and Williams-Sonoma +6.8% but dragged by Pottery Barn +1.8% (vs. +5.1% in 2Q). Gross margin beat at 46.2% but FY26 guidance reiterated with 4Q implied below Street; notably, management omitted the customary 'mid-to-high teens operating margin' long-term language for the first time. Analyst PTs range $235-275 with KeyBanc OW at $270, UBS Neutral at $265, Citi Neutral at $275.",
       "tickers": [
         "WSM"
       ],
       "source_item_ids": [
-        "gmail:1a1f3ea06385f4e7",
-        "gmail:1a1f3e9754d48c24"
+        "gmail:1a1f41f3b2731bd0",
+        "gmail:1a1f4794c2a0691a"
       ]
     },
     {
-      "title": "GOOGL: +3.9% pre-mkt on Gemini 4 Neon launch; JPM downgrades to Neutral on AI capex concerns",
-      "body": "Google launched Gemini 4 Neon AI coding agent at $3/M input tokens and $15/M output tokens with 1M-token context window, scoring 61 on Artificial Analysis Intelligence Index. JPM downgraded Alphabet to Neutral from Overweight as part of a hyperscaler capex/funding gap analysis projecting ~$595B funding shortfall through 2028. GOOGL is cited alongside AMD and AVGO as a potential beneficiary of NVDA's weakening ecosystem position via TPU alternatives.",
+      "title": "MDB upgraded to Buy at UBS, PT to $450; COHR authorizes $2B buyback; TEAM PT cut to $150",
+      "body": "UBS upgrades MongoDB to Buy from Neutral, raising PT to $450 from $375. Coherent authorized a $2B share repurchase program, sending shares +8.3% pre-market. UBS also assumes Atlassian at Neutral with PT cut to $150 from $160, WDAY Neutral PT cut to $200 from $210.",
       "tickers": [
-        "GOOGL"
+        "MDB",
+        "COHR",
+        "TEAM"
       ],
       "source_item_ids": [
-        "gmail:1a1f3f5829ac2599",
-        "gmail:1a1f3cba066fd25a"
+        "gmail:1a1f42b16931d440",
+        "gmail:1a1f407549387552"
       ]
     },
     {
-      "title": "MDB: UBS upgrades to Buy, $450 PT (47% upside) on durable 20%+ growth",
-      "body": "UBS upgraded MongoDB from Neutral to Buy, raising PT to $450 from $375, implying 47% upside from ~$307. Thesis cites durable 20%+ total revenue growth and 25%+ Atlas growth, with no disruption from recent management turnover. Stock +4.0% pre-market.",
+      "title": "BABA: JPM OW at $200 PT; cloud +67% YoY, AI losses near breakeven, EBITDA +167% YoY",
+      "body": "JPM maintains Overweight on BABA with $200 PT after 2QFY27 results showed cloud external revenue grew 67% YoY (vs. 50% expectations) with EBITA margin expanding to 14.5%. Combined AI Labs losses narrowed to RMB1.7B from RMB8.2B QoQ, with cloud EBITA expected to exceed AI model losses for the first time in the December quarter. Adjusted EBITDA of RMB46B was up 167% YoY and 15% above consensus; non-GAAP EPS missed by 25%.",
       "tickers": [
-        "MDB"
+        "BABA"
       ],
       "source_item_ids": [
-        "gmail:1a1f391eb24ec94c",
-        "gmail:1a1f3e2ab3b07663"
+        "gmail:1a1f44eaa4419096"
       ]
     },
     {
-      "title": "NET: Tier-1 AI beneficiary; RBC/TIMT conf highlights 10M+ developer base, Act 4 upside",
-      "body": "Cloudflare management bullish that Act 4 of its platform could exceed prior acts; Workers developer base crossed 10M. NET added ~5% of total Internet last quarter; GAAP profitability expected in Q4/26. RBC and multiple TIMT conference attendees view NET as a top-tier AI platform play with agentic traffic monetization expanding.",
+      "title": "NFLX, BABA, IREN hit 52-week lows; NFLX -47.8% from high",
+      "body": "StreetAccount flags NFLX down 47.8% from its 52-week high, BABA down 45.5%, and IREN down 68.8%, all reaching new 52-week lows on 11/19.",
       "tickers": [
-        "NET"
+        "NFLX",
+        "BABA",
+        "IREN"
       ],
       "source_item_ids": [
-        "gmail:1a1f3d6a926ebd0f",
-        "gmail:1a1f3bc821ecfe90"
+        "gmail:1a1f492350c5769b"
       ]
     },
     {
-      "title": "BE: +6.8% pre-mkt on BMO upgrade; MS bus tour highlights multi-project demand shift",
-      "body": "Bloom Energy upgraded by BMO Capital driving +6.8% pre-market move. Morgan Stanley SF bus tour found 100+ prospective customers at recent BE customer day, with the company shifting toward multi-project agreements. BE expects Fremont facility possession in 2027 at ~$150M/GW capital cost; identifies CCS and 800V as next growth vectors targeting ~20% service gross margin minimum.",
+      "title": "BE upgraded to Outperform at BMO (PT cut to $230); 370MW Texas project via FERC filing",
+      "body": "Bloom Energy upgraded to Outperform at BMO Capital Markets, shares +6.6% pre-market, though PT was cut to $230 from $260. MS cyclicals note flagged a potential 370MW Bloom deployment in Texas via a FERC filing for the Lone Oak project, with Bloom opening a Houston office and expecting a Fremont facility in 2027.",
       "tickers": [
         "BE"
       ],
       "source_item_ids": [
-        "gmail:1a1f3efcf74a8935",
-        "gmail:1a1f3f9b790affea"
+        "gmail:1a1f40d9e5e19390",
+        "gmail:1a1f42e652c05276"
       ]
     },
     {
-      "title": "COHR: +8.2% pre-mkt on $2B share repurchase authorization",
-      "body": "Coherent announced a $2 billion share repurchase authorization, driving an 8.2% pre-market gain. The optical sector broadly is viewed as poised to rebound with the AI upgrade cycle; MTSI and LITE also among the semi/optical names rallying pre-market (+4.5% and +4.7% respectively).",
+      "title": "MSFT TomorrowX/Ignite: best-positioned on AI cash flows; ORCL via healthcare; agentic CPU demand benefits AMD/INTC",
+      "body": "KeyBanc TomorrowX takeaway: AI demand continues to exceed supply with no end in sight; MSFT especially well-positioned due to large existing cash flows to finance buildout; ORCL well-positioned via Oracle Health. Agentic computing is CPU-heavy, benefiting AMD and broader compute providers. Next two years require $3T-$5T in financing; hyperscalers have 2-3 year financing advantage via IG credit ratings.",
+      "tickers": [
+        "MSFT",
+        "ORCL",
+        "AMD",
+        "INTC",
+        "DELL",
+        "MU"
+      ],
+      "source_item_ids": [
+        "gmail:1a1f406954f8d4bb",
+        "gmail:1a1f41fd2c1ef215"
+      ]
+    },
+    {
+      "title": "COHR: $2B buyback authorization drives +8.3% pre-market surge",
+      "body": "Coherent authorized a $2B share repurchase program, sending shares up 8.3% in pre-market trading per the SA pre-market summary.",
       "tickers": [
         "COHR"
       ],
       "source_item_ids": [
-        "gmail:1a1f3f9b790affea"
+        "gmail:1a1f42b16931d440"
       ]
     },
     {
-      "title": "INTU: Sold off to $313 ahead of tonight's earnings; Mailchimp remains key risk",
-      "body": "Intuit dumped from $345 to $313 heading into Q1 earnings tonight (consensus $2.46 EPS, $4.30B revenue). UBS frames setup as likely +13% revenue YoY and $2.60 EPS, with FY27 guidance for 9-10% revenue growth. Mailchimp is flagged as the biggest risk (flat to -1% revenue forecast); software sector sentiment broadly negative on AI displacement fears.",
+      "title": "DIS: Management upbeat on streaming/parks; 'One Disney' strategy; 13 more cruise ships by 2034",
+      "body": "Citi TMT reports DIS CEO is confident in double-digit adjusted EPS growth; 'One Disney' strategy leveraging all assets with $3B cost savings to reinvest in DIS+ engagement. Management is preparing for cord-cutting moderation and planning 13 more cruise ships by 2034.",
       "tickers": [
-        "INTU"
+        "DIS"
       ],
       "source_item_ids": [
-        "gmail:1a1f3e2ab3b07663",
-        "gmail:1a1f3f9b790affea"
+        "gmail:1a1f428790902b65"
       ]
     },
     {
-      "title": "AAPL: iPhone 18 purchase intent at 5-year high (73%); Duo foldable ranks 3rd in debut",
-      "body": "JPM survey shows iPhone 18 purchase intent rose to 73% (vs. 71% in 2025), driven by upgraders (82% of buyers). iPhone Duo ranks third with 14% of selections in its debut year, particularly strong among Android switchers (17%). AI features rank seventh as a purchase driver (~7%), below replacement/performance/camera. JPM maintains Overweight with $360 PT.",
+      "title": "META: Suspends plans to issue Class C shares per Citi TMT",
+      "body": "Citi TMT notes Meta suspended plans to issue Class C shares; no further financial detail provided in the item.",
       "tickers": [
-        "AAPL"
+        "META"
       ],
       "source_item_ids": [
-        "gmail:1a1f379b4b4c5d5a",
-        "gmail:1a1f37a030fc1088"
+        "gmail:1a1f428790902b65"
       ]
     },
     {
-      "title": "HPE/DELL: JPM favors both into earnings on AI server demand; hardware cohort down -20%",
-      "body": "JPM flags hardware cohort down -20% avg past month vs. -14% coverage universe, primarily on AI infrastructure concerns. For DELL (reporting Nov 24), JPM expects F3-F4Q27 beat driven by ISG strength; stock trading 10-11x NTM EPS vs. 5-yr avg. For HPE (reporting Nov 23), expects F4Q26 beat and FY27 raise on Cloud & AI revenue growth +60-72% YoY; trading 9-10x NTM EPS. AI server market forecast +90%/+55% in 2026/2027.",
+      "title": "DASH: Jefferies bull lunch Dec 2; $250 PT, $5B+ EBITDA target on 4%+ incremental margins",
+      "body": "Jefferies' top-ranked Internet analyst John Colantuoni remains bullish on DASH with a $250 Buy PT, arguing the company can reach $5B+ EBITDA as investment costs normalize, with CART grocery expansion representing additional upside. Key questions: Can GOV growth stay above 20%? Can EBITDA reach $5B+?",
       "tickers": [
-        "HPE",
-        "DELL"
+        "DASH",
+        "CART"
       ],
       "source_item_ids": [
-        "gmail:1a1f3791e8d64b8c"
+        "gmail:1a1f4275d5f462df"
       ]
     },
     {
-      "title": "MSFT: Ignite signals strong Azure/M365 demand; cost-conscious AI token spending noted",
-      "body": "UBS MSFT Ignite and CFO meeting takeaways show strong demand for Azure and M365/Copilot but anecdotal evidence of cost-conscious AI token spending. Anthropic's shift toward applications puts it in direct competition with Microsoft, threatening distribution access per Kedrosky. House China committee separately demanding Microsoft brief on AI cloud deal talks with ByteDance.",
+      "title": "NXPI/AMBA: Deal speculation in 'final stages' per Betaville; AMBA +6-9% pre-market",
+      "body": "Betaville commentary suggests an NXPI deal with AMBA may be in final stages, sending AMBA up 6.3-8.9% in pre-market. Earlier rumors suggested NVDA was involved as a third bidder. AMBA has been exploring a possible sale since at least June 2025.",
       "tickers": [
+        "NVDA"
+      ],
+      "source_item_ids": [
+        "gmail:1a1f4183204404d2",
+        "gmail:1a1f42b16931d440"
+      ]
+    },
+    {
+      "title": "HUT/WULF: Powered shells have upside from contracted asset value as NVDA interim CEO prioritizes land/power/shells",
+      "body": "22V notes powered shells HUT and WULF have upside from contracted asset value and pipeline expansion after NVDA's interim CEO called land, power, and shells the top financing priorities. TCEQ approved SPCX air permit for 35 turbines/750MW in Brownsville TX.",
+      "tickers": [
+        "HUT",
+        "WULF",
+        "NVDA"
+      ],
+      "source_item_ids": [
+        "gmail:1a1f42a424343b70"
+      ]
+    },
+    {
+      "title": "FOXA/ROKU: Newsmax sues Fox to block $22B Roku takeover on competition grounds",
+      "body": "Newsmax filed suit against Fox to block its $22B takeover of Roku, alleging the deal hurts competition in ad-supported television per the ESG/sustainability summary.",
+      "tickers": [
+        "FOXA",
+        "ROKU"
+      ],
+      "source_item_ids": [
+        "gmail:1a1f4810079baac1"
+      ]
+    },
+    {
+      "title": "CCL: MS raises PT to $32.50 as top pick post-Q3 beat; UBS cruise seller call Nov 20",
+      "body": "Morgan Stanley raised CCL's price target to $32.50 following a Q3 beat and positive channel checks, elevating it to top pick despite Q1 weakness raising the 2H27 bar. UBS is hosting a Nov 20 call with a major US cruise seller to discuss booking volumes, pricing, and promotional activity.",
+      "tickers": [
+        "CCL",
+        "RCL"
+      ],
+      "source_item_ids": [
+        "gmail:1a1f43b842188049",
+        "gmail:1a1f41a19b43c993"
+      ]
+    },
+    {
+      "title": "GOOGL: Gemini 4 Neon ranks #3 on Intelligence Index; competes on coding at lower cost than OpenAI",
+      "body": "Google launched Gemini 4 Neon, ranked #3 on the Artificial Analysis Intelligence Index with a score of 61, trailing only OpenAI GPT-6.2 Astra per MS TMT and Citi TMT. Citi notes Gemini 4 Neon rivals peers on coding at lower cost and positions Google as a competitive force in the enterprise AI model race.",
+      "tickers": [
+        "GOOGL",
         "MSFT"
       ],
       "source_item_ids": [
-        "gmail:1a1f3e2ab3b07663",
-        "gmail:1a1f3f8bb20c0a9a"
-      ]
-    },
-    {
-      "title": "AVGO: Positioned to benefit from NVDA weakness via custom silicon; faces land/power headwinds",
-      "body": "JPM and GS both flag Broadcom as a key beneficiary of NVDA's weakening ecosystem position via custom silicon exposure for hyperscalers in 2028+. AVGO is cited alongside AMZN as best positioned to benefit from Anthropic IPO success via equity stake and custom silicon demand. However, GS notes AVGO faces headwinds from land/power/shell constraints into FY28 and emerging hyperscaler funding concerns. S&P revised AVGO outlook to Stable from Positive.",
-      "tickers": [
-        "AVGO"
-      ],
-      "source_item_ids": [
-        "gmail:1a1f3cba066fd25a",
-        "gmail:1a1f3cba066fd25a"
-      ]
-    },
-    {
-      "title": "EQIX: MS bus tour constructive; 48 retail expansion projects across 32 markets",
-      "body": "Morgan Stanley SF bus tour highlights Equinix executing on 48 announced retail expansion projects across 32 markets as of 3Q26, mostly 60MW or less. EQIX is positioning for AI inferencing through dense multi-tenant ecosystems; neoclouds represent less than 2% of monthly recurring revenue. Texas construction remains on schedule; battery supply expected tight in 2027.",
-      "tickers": [
-        "EQIX"
-      ],
-      "source_item_ids": [
-        "gmail:1a1f3efcf74a8935"
-      ]
-    },
-    {
-      "title": "AMZN/GOOGL/META/MSFT hyperscalers: JPM flags $595B funding gap 2027-28; mixed ratings",
-      "body": "JPM projects $450B AI-related supply for 2027 ($225B hyperscaler issuance + $225B GPU/data center financing), with aggregate FCF negative through 2028 and a ~$595B base-case funding gap. JPM downgrades Alphabet to Neutral, retains Overweight on Amazon and Oracle, Neutral on Meta, Underweight on Microsoft. Despite funding concerns, hyperscalers (META +1.6%, AMZN +2.2%, GOOGL +3.9%) acting well pre-market with no evidence of rotation out to Anthropic IPO.",
-      "tickers": [
-        "AMZN",
-        "GOOGL",
-        "META",
-        "MSFT",
-        "ORCL"
-      ],
-      "source_item_ids": [
-        "gmail:1a1f3cba066fd25a",
-        "gmail:1a1f3838ebf941e6"
-      ]
-    },
-    {
-      "title": "ALAB: Content per XPU path to $2000+; optical ramp H2/27-28 and CXL H2/27",
-      "body": "RBC TIMT conference highlights Astera Labs' path to doubling content per XPU to $2,000+, with optical solutions ramping H2/2027-28 and CXL initial ramp in H2/2027. ALAB also +5.0% pre-market in the broader semi/AI infrastructure complex rally.",
-      "tickers": [
-        "ALAB"
-      ],
-      "source_item_ids": [
-        "gmail:1a1f3d6a926ebd0f",
-        "gmail:1a1f3f9b790affea"
-      ]
-    },
-    {
-      "title": "INTC: Secures first external customer for 18A advanced chips, foundry milestone",
-      "body": "Intel secured its first external customer for 18A advanced chips, a key milestone in its foundry turnaround effort. This is cited across multiple sources (GS, UBS, macro headlines) as a significant positive datapoint for Intel's foundry ambitions, though no rating changes were noted.",
-      "tickers": [
-        "INTC"
-      ],
-      "source_item_ids": [
-        "gmail:1a1f3dc866cf3ff2",
-        "gmail:1a1f387a5a03ee7c"
-      ]
-    },
-    {
-      "title": "SMCI/STX/WDC/MU: Storage and memory complex ripping pre-market on AI sentiment bounce",
-      "body": "Storage and memory names surging in pre-market: STX +6.1%, WDC +5.4%, MU +4.6%, SNDK +4.9%. SMCI +3.8%. Sector context: memory GM viewed as near peak with weak confidence in LT supply agreements, but optical and storage poised to rebound with AI upgrade cycle. Nov 18-19 may mark a bottom in AI/semis after a 6-week selloff per sales desk commentary.",
-      "tickers": [
-        "SMCI",
-        "STX",
-        "WDC",
-        "MU"
-      ],
-      "source_item_ids": [
-        "gmail:1a1f3f9b790affea",
-        "gmail:1a1f3f2f6a2644d6"
-      ]
-    },
-    {
-      "title": "TTD: Three senior exec departures amid first revenue decline since 2020",
-      "body": "The Trade Desk lost three senior executives\u2014Waseem Basheer, Whitney Rifkin, and Bryce Poll\u2014concurrent with its first revenue decline since 2020. No rating actions noted but cited as a negative signal for the platform's near-term execution.",
-      "tickers": [
-        "TTD"
-      ],
-      "source_item_ids": [
-        "gmail:1a1f3f5829ac2599"
+        "gmail:1a1f41fd2c1ef215",
+        "gmail:1a1f428790902b65"
       ]
     }
   ]
