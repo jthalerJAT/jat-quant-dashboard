@@ -1,240 +1,245 @@
 {
-  "digest_type": "premarket",
-  "digest_dt": "2026-11-20T08:30:00-05:00",
-  "saved_at": "2026-11-20T13:46:25.771669+00:00",
+  "digest_type": "midday",
+  "digest_dt": "2026-11-20T12:00:00-05:00",
+  "saved_at": "2026-11-20T17:14:55.083946+00:00",
   "bullets": [
     {
-      "title": "NVDA: Broad selloff deepens; Jefferies cuts PT to $250, regulatory/capex concerns dominate",
-      "body": "Jefferies' Blayne Curtis cut NVDA PT to $250 citing hyperscaler capex concerns for 2028, while NVDA extended a 6-day losing streak (-3.3% premarket). Key overhangs: California AG subpoenaing over China chip shipments, Commerce Dept approved ~880k Nvidia/AMD AI chips to some Chinese military-linked entities, and China tech (Tencent) flagging potential 2027 capex peak. JPM MI tactically bullish on AI rebound but notes semis HF net exposure down 67% from YTD peak \u2014 longest 6-week selling streak on record.",
+      "title": "NVDA: Beat/raise but stock uninvestible near-term; trapped in AI doom loop, -25% YTD",
+      "body": "NVDA raised FY28 revenue growth guidance to ~75% from ~70% and beat Q3 expectations, but the stock is down ~4% intraday and -25.1% YTD as AI sentiment deteriorates. Buy-side feedback flags NVDA as near-term uninvestible: export controls (BIS approved only 879K of 3.4M requested AI chips for China), fears of Jensen departure, GM compression concerns, and extraordinary early-day dip-buying (+10z in first 30 min) that failed to hold. Goldman notes the GS AI Semis basket trades at just 11x 2028E earnings with consensus expecting 31% growth, but JPM estimates the market is pricing in negative semis EPS growth post-2027.",
       "tickers": [
         "NVDA"
       ],
       "source_item_ids": [
-        "gmail:1a1f8099c2f86c28",
-        "gmail:1a1f8c46c1b0588fc"
+        "gmail:1a1f9859d6e6c23d",
+        "gmail:1a1f945e6fc83f7b"
       ]
     },
     {
-      "title": "Semis sector rout: AMD -6.5%, MU -5%, MRVL -5.3%, LITE -6.2% on China export curbs + capex fears",
-      "body": "Broad semiconductor selloff accelerates premarket: AMD -6.5% (Hunterbrook short report on China business reliance; Commerce approved 879k chips to Chinese military-linked entities), MU -5.0%, STX -5.2%, MRVL -5.3%, COHR -5.9%, LITE -6.2%, ALAB -4.7%. TSMC/Samsung pausing consumer chip shipments to China at 16nm and below; SOX approaching multi-year valuation lows with TD Combo Buy signals near trigger at 73% of constituents.",
+      "title": "AMD: -8% on Hunterbrook short report reviving China export-control fears",
+      "body": "AMD fell ~8% after Hunterbrook published a short report citing excessive customer commitments relative to cash and China server exposure; AMD disputed the allegations and cited legal compliance. MS notes BIS approved 879K NVDA/AMD AI chips for China Dec 2025\u2013May 2026, far below the 3.4M requested. TSMC and Samsung also halted shipments of advanced chips (16nm and below) to Chinese customers pending Commerce compliance review, widening the export control regime beyond AI accelerators.",
       "tickers": [
-        "AMD",
-        "MU",
-        "MRVL",
-        "LITE",
-        "COHR",
-        "ALAB",
-        "STX"
+        "AMD"
       ],
       "source_item_ids": [
-        "gmail:1a1f923d4453c43b",
-        "gmail:1a1f8f598e82d141"
+        "gmail:1a1f983660daa21b",
+        "gmail:1a1f95f20606fdc8"
       ]
     },
     {
-      "title": "INTU: Cuts FY27 guidance on Credit Karma AI headwinds; sells Mailchimp for $3.68B; PT cuts across Street",
-      "body": "INTU beat F1Q27 (rev $4.35B +1.2% vs consensus; EPS $2.91 +18%) but sharply cut FY27 Credit Karma growth outlook to 3-7% from 11-13%, citing faster-than-expected shift to AI-powered consumer discovery and higher rates. Mailchimp sold for $3.68B (~70% discount to $12B purchase price), proceeds to fund buybacks. KeyBanc cuts PT to $375 from $400 (maintains OW); Piper underweight thesis partially plays out; stock down ~10% premarket.",
+      "title": "AVGO: Google cutting 2027 Broadcom TPU shipments ~20%, shifting to MediaTek",
+      "body": "Ming-Chi Kuo reports Google is cutting 2027 Broadcom-designed TPU 8i series shipments by ~1M units (~20%), mostly the higher-priced 8i Max/Whalefish models, and shifting toward MediaTek-designed TPU 8t series. The cut is driven by frontier model development priorities and tight data center power constraints. Mizuho's Dec 8 expert call will cover the broader ASIC competitive landscape including AVGO's position vs. OAI Jalapeno.",
+      "tickers": [
+        "AVGO",
+        "GOOGL"
+      ],
+      "source_item_ids": [
+        "gmail:1a1f97b42fe57bef",
+        "gmail:1a1f97cc528dcdf8"
+      ]
+    },
+    {
+      "title": "INTU: -10% after FY27 guidance cut and $3.68B Mailchimp sale",
+      "body": "INTU beat Q1 EPS by 18.3% but cut FY27 revenue guidance and guided Q2 ~14% below consensus, as Credit Karma faces faster-than-expected disruption from AI-powered discovery tools. Mailchimp is being sold to Bending Spoons for $3.68B EV (INTU reinvesting $368M in Bending Spoons equity); divestiture broadly viewed as strategically positive. Street cuts PTs: BMO to $375, KeyBanc to $375, RBC to $330, Stifel at $300 (Hold); NTM P/E compressed to 13x vs. 5-year avg 29x.",
       "tickers": [
         "INTU"
       ],
       "source_item_ids": [
-        "gmail:1a1f8d2fa8bf8ef3",
-        "gmail:1a1f8ac92de64416"
+        "gmail:1a1f93626f1dd9d7",
+        "gmail:1a1f9859d6e6c23d"
       ]
     },
     {
-      "title": "GOOGL: JPM reiterates OW/$375 PT; Gemini model cadence accelerates, Tasks agent launched",
-      "body": "JPM reiterates GOOGL Overweight with $375 Dec-27 PT (22x 2028E GAAP EPS of $17). Three new Gemini 4 models released in <1 month; Neon ranks #3 on Artificial Analysis Index at 32% lower cost than Carbon. Gemini Tasks launched as free AI agent to 1B+ users enabling agentic commerce via AP2/Google Pay. Cloud +103% Y/Y in 3Q with $561B backlog; capacity constraints easing in 2027. Key risk: Search deceleration from +12% Y/Y Q3 to potentially single digits Q4 as AI Overviews cannibalize revenue; RDDT down -60% YTD as a casualty.",
+      "title": "DELL: Q3 consensus preview \u2014 $49.3B revenue, $6.62 EPS; AI servers the key driver",
+      "body": "Consensus expects DELL Q3 ISG revenue of ~$35.3B (+150% y/y), AI-optimized server revenue of ~$19.8B (vs. ~$19B guidance), and FY AI server revenue of $74B (3x y/y). FY non-GAAP EPS consensus is $25.50 (+~150% y/y) on ~$192B revenue (+~70% y/y). DELL stock is +31.2% since Sep 1 vs. S&P +6.3%; options imply ~14.6% post-earnings move. Reports Tuesday post-close.",
       "tickers": [
-        "GOOGL"
-      ],
-      "source_item_ids": [
-        "gmail:1a1f83ed6f50f30f",
-        "gmail:1a1f9165b9f3bf18"
-      ]
-    },
-    {
-      "title": "SNOW & MDB: High-bar previews \u2014 SNOW needs 5pt+ beat and GP acceleration; MDB needs 30%+ Atlas growth",
-      "body": "JPM flags binary setups ahead of earnings: SNOW Q3 Product Revenue expected ~+43% Y/Y but needs Gross Profit dollar growth acceleration >+20bps QoQ; Q4 guidance bogey +39-40% vs Street at +36%. MDB Q3 Atlas growth must hit +30% Y/Y to reverse negative sentiment \u2014 a +29% print would signal zero acceleration and risk a third consecutive miss.",
-      "tickers": [
-        "SNOW",
-        "MDB"
-      ],
-      "source_item_ids": [
-        "gmail:1a1f9165b9f3bf18"
-      ]
-    },
-    {
-      "title": "SPOT: CFO signals mid-teens revenue growth through 2030; AI Remix near launch pending artist opt-ins",
-      "body": "Morgan Stanley maintains Overweight on SPOT with $700 PT (~30x FY28e FCF). CFO at Barca TMT targets mid-teens total revenue growth through 2030 from subscriber growth, pricing, and ad acceleration; gross margin target 35-40% by 2030. AI Remix licensing agreements signed with UMG, Believe, Kobalt; Q1 2027 launch possible pending artist consent. LYV 'Reserve by Spotify' partnership facilitating hundreds of thousands of tickets, expanding to Europe/Australia in 2027.",
-      "tickers": [
-        "SPOT",
-        "LYV"
-      ],
-      "source_item_ids": [
-        "gmail:1a1f91770af65fdf",
-        "gmail:1a1f9165b9f3bf18"
-      ]
-    },
-    {
-      "title": "META: Muse Charm AI device priced at $300 with Verizon 5G bundle; stock -3.5% premarket",
-      "body": "META is pricing its compact Muse Charm AI wearable device at $300 bundled with up to 12 months free Verizon 5G. Stock down 3.5% premarket as AI trade broadly reprices on capital and regulatory constraints; Muse shopping use case reaches ~25% of users with $200+ average purchase sizes per JPM e-commerce note.",
-      "tickers": [
-        "META"
-      ],
-      "source_item_ids": [
-        "gmail:1a1f917a53dc6f1e",
-        "gmail:1a1f8333953cb7a8"
-      ]
-    },
-    {
-      "title": "AAPL: Developing autonomous AI agent for device control; potential competitive threat to META/others",
-      "body": "Reports indicate Apple is developing an autonomous AI agent capable of writing code, browsing the web, and controlling apps \u2014 pressuring META and other AI platform stocks. RBC notes AAPL agent report as an incremental AI risk weighing on the broader mega-cap TMT complex.",
-      "tickers": [
-        "AAPL"
-      ],
-      "source_item_ids": [
-        "gmail:1a1f90932798d265",
-        "gmail:1a1f90a6599b0ca3"
-      ]
-    },
-    {
-      "title": "AMZN: PT raised to $310 at Opco on Anthropic stake; JPM top holiday e-commerce pick",
-      "body": "Opco raises AMZN PT to $310 (from $285), attributing ~$97/share to ~3.5B Anthropic shares with 15% holding-company discount. JPM projects AMZN 4Q retail revenue +9.7% FXN Y/Y, maintaining ~48% US e-commerce share; names AMZN alongside SHOP as best holiday ideas with US e-commerce expected +10% Y/Y reaching ~27% of adjusted retail sales.",
-      "tickers": [
-        "AMZN"
-      ],
-      "source_item_ids": [
-        "gmail:1a1f8ebf0ce550e9",
-        "gmail:1a1f8333953cb7a8"
-      ]
-    },
-    {
-      "title": "SHOP: JPM best holiday idea; driving ~50% of US incremental e-commerce gains, agentic traffic +2.6x Y/Y",
-      "body": "JPM projects SHOP 4Q revenue +33% Y/Y FXN and US GMV ex-POS +25% Y/Y, powering ~18% of US e-commerce (+200bps Y/Y). SHOP's agentic AI traffic grew +2.6x Y/Y in 3Q with orders +3.3x and ~64% higher conversion vs organic search. 7th consecutive quarter of 30%+ revenue growth guidance; store count +15% Y/Y 4QTD.",
-      "tickers": [
-        "SHOP"
-      ],
-      "source_item_ids": [
-        "gmail:1a1f8333953cb7a8"
-      ]
-    },
-    {
-      "title": "HPE/DELL: Upcoming earnings; HPE expected to beat Q4 on networking/server pricing",
-      "body": "HPE reports Mon Nov 23 (consensus EPS $1.28, rev $14.47B); DELL reports Tue Nov 24 (consensus EPS $6.59, rev $49.22B). UBS Tech desk expects HPE to beat Q4 driven by networking and server pricing strength, lifting F'27-28 estimates by 3%; guide expected above consensus. Both stocks down sharply premarket (DELL -5.4%, HPE down in sympathy with semis).",
-      "tickers": [
-        "HPE",
         "DELL"
       ],
       "source_item_ids": [
-        "gmail:1a1f8d50357fb3ce",
-        "gmail:1a1f90810759ecd9"
+        "gmail:1a1f981e872b9c7f"
       ]
     },
     {
-      "title": "ARM: $2B AGI CPU sales guidance FY27/28; 4x power efficiency target by 2030 at Barcelona conference",
-      "body": "Morgan Stanley European semi conference: ARM targeting ~$2B in AGI CPU sales across FY27/28 with firm confidence in data center build-out through CY27. v10 architecture launch expected 2027 with AI compute and security focus; 4x power efficiency improvement targeted by 2030. ARM acknowledges risk of delays post-2027.",
+      "title": "Semis sector-wide selloff: SNDK, WDC, MRVL, CRDO, COHR, CLS all -4-8% pre-market",
+      "body": "Broad semi/hardware selloff in pre-market: SNDK -8.2%, ARM -6.4%, MRVL -5.8%, NVDA -3.9%, AMD -7.1%, WDC -4.5%, STX -4.4%, CRDO -4.0%, COHR -5.1%, CLS -4.5%, GLW -4.2%, CRWV -4.3%, NBIS -4.4%, LITE -5.1%. Export control headwinds, ANT IPO collapse sentiment, and AI capex durability concerns driving the unwind. Six-week hedge fund selling streak in semis is the longest on record; retail liquidated Tech ETFs at the largest-ever weekly rate (-2.0z) with SOXX hitting -11.5z Thursday.",
       "tickers": [
-        "ARM"
+        "SNDK",
+        "WDC",
+        "MRVL",
+        "CRDO",
+        "STX",
+        "COHR",
+        "CLS",
+        "CRWV",
+        "NBIS",
+        "LITE",
+        "GLW",
+        "AMD"
       ],
       "source_item_ids": [
-        "gmail:1a1f8e1a705101e9"
+        "gmail:1a1f950a904074a6",
+        "gmail:1a1f9859d6e6c23d"
       ]
     },
     {
-      "title": "BABA: Cloud unit nearing profitability; external revenue +67% Y/Y, margin 14.5% \u2014 JPM expects consensus upgrades",
-      "body": "Alibaba cloud external recurring revenue grew 67% Y/Y (well above ~50% investor expectations); EBITA margin expanded to 14.5% from ~12%, covering 84% of AI Labs losses and narrowing combined loss to RMB1.7B from RMB8.2B. Mizuho raises BABA PT to $205 (OW). Key question is sustainability of 67% growth and capex discipline vs chip supply constraints; Alibaba shifting to domestic AI chips with rebound expected by 2028.",
+      "title": "GS semi analyst Schneider: Buy NVDA, AMD, AVGO, CRDO; Sell TXN, ARM",
+      "body": "Goldman Sachs semiconductor analyst Jim Schneider is marketing in New York Dec 3-4. Ratings: Buy on ACN, AMD, AVGO, CRDO, NVDA, SNDK, STX; Neutral on INTC, MU, WDC; Sell on TXN, ARM, ENTG, MKSI, SWKS. MRVL is not rated.",
       "tickers": [
-        "BABA"
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "CRDO",
+        "SNDK",
+        "STX",
+        "TXN",
+        "INTC",
+        "MU",
+        "WDC",
+        "MRVL"
       ],
       "source_item_ids": [
-        "gmail:1a1f8b1bd2de7d13",
-        "gmail:1a1f8c29f2be7f5f"
+        "gmail:1a1f9c5c03e3beb2"
       ]
     },
     {
-      "title": "CRM: Low guidance bar creates F3Q beat potential; rerating requires acceleration evidence per Opco",
-      "body": "Opco maintains Outperform on CRM: low guidance bar could drive F3Q beat, but F4Q/FY28 organic growth outlook remains cautious and sustained rerating requires acceleration evidence. ServiceNow separately building AI-powered CRM tool targeting Salesforce customers \u2014 adding competitive pressure.",
+      "title": "CRM: Oppenheimer Outperform, $275 PT; expect Q3 beat but organic reaccel unlikely",
+      "body": "Oppenheimer maintains Outperform on CRM (down 30% since September) with a $275 PT into the Dec 2 print. Expects Q3 beat with 100\u2013150bps M&A contribution from Contentful/FIN; F3Q CRPO consensus ~$34.1B (+16% y/y) with 200bps upside. However, Agentforce monetization is more gradual than expected, M&A signals buying growth (viewed negatively), and AI disruption narrative from Anthropic/OpenAI/ServiceNow will persist. Morgan Stanley's headless SaaS framework notes CRM can hold revenue flat with 30% seat loss at 40% price increase.",
       "tickers": [
         "CRM"
       ],
       "source_item_ids": [
-        "gmail:1a1f8ebf0ce550e9"
+        "gmail:1a1f92e137e5ab10",
+        "gmail:1a1f95f20606fdc8"
       ]
     },
     {
-      "title": "MSFT: RBC Outperform/$640 PT; Ignite announcements reinforce full-stack AI thesis",
-      "body": "RBC maintains MSFT Outperform at $640 PT, citing Ignite conference announcements as reinforcing the full-stack AI thesis across cloud, Copilot, and enterprise software. JPM bond desk remains Underweight MSFT credit, noting hyperscalers face aggregate ~$595B FCF funding gap through 2028.",
+      "title": "MSFT, SNOW, PLTR, MDB: Positive readthroughs from Databricks enterprise AI event",
+      "body": "Citi flags MSFT, SNOW, PLTR, and MDB as seeing positive demand readthroughs from the Databricks event, which showed accelerating enterprise data/AI consumption but pervasive cost optimization scrutiny. Partners noted higher opportunity for consumption rationalization on Databricks vs. Snowflake. Morgan Stanley's headless SaaS framework favors NOW and TEAM alongside CRM as gated-access players less exposed to AI substitution.",
       "tickers": [
-        "MSFT"
+        "MSFT",
+        "SNOW",
+        "PLTR",
+        "MDB",
+        "NOW"
       ],
       "source_item_ids": [
-        "gmail:1a1f90a6599b0ca3"
+        "gmail:1a1f9564ceed13a4",
+        "gmail:1a1f95f20606fdc8"
       ]
     },
     {
-      "title": "TSLA: HSBC upgrades to Hold from Reduce; stock +2.5% premarket",
-      "body": "TSLA upgraded by HSBC to Hold from Reduce, triggering a +2.5% premarket move \u2014 the standout positive in an otherwise broadly negative session for tech and growth names.",
+      "title": "NVDA exploring $500M+ acquisition of Inception Labs (Diffusion AI developer)",
+      "body": "NVDA is reportedly in talks to acquire Diffusion AI developer Inception Labs for more than $500M, per pre-market tech sector summary. No further deal terms disclosed.",
       "tickers": [
-        "TSLA"
+        "NVDA"
       ],
       "source_item_ids": [
-        "gmail:1a1f8cddbcaa724d"
+        "gmail:1a1f93127e383fd7"
       ]
     },
     {
-      "title": "HOOD: Wolfe adds to Alpha List at 23x 2028E EPS; down ~36% QTD seen as compelling entry",
-      "body": "Wolfe Research adds HOOD to its Alpha List, citing compelling valuation at 23x 2028E EPS (low end of 20x-60x historical range) after a ~36% QTD decline. Core trading business fundamentals remain strong; pipeline of revenue-enhancing products intact; competitive and regulatory risks viewed as overblown.",
+      "title": "TRI: JPMorgan flags AI-native legal platforms (Legora) as rising competitive threat",
+      "body": "JPMorgan views AI workflow disruption as a more immediate threat to Thomson Reuters than research library displacement. Legora scaled from $1M to $200M ARR in under 24 months across 140,000 lawyers, but JPM notes replicating Westlaw/LexisNexis breadth, trust, and citation infrastructure remains harder than AI workflow competition. Legora does not expect meaningful displacement of Westlaw/LexisNexis in 2027; core competition is other AI-native legal platforms.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a1f9e157d8f142c"
+      ]
+    },
+    {
+      "title": "TLN: OPCO raises PT to $450 from $400 on 6GW hyperscaler contracting opportunity",
+      "body": "Oppenheimer raised its TLN price target to $450 from $400 following management meetings, citing ~6GW of baseload generation available for hyperscaler contracting. Organic opportunities include uprates, batteries, peakers, and powered land; management sees fewer M&A opportunities in PJM. Broader macro context is negative ('quad 4' regime), and OPCO advises selling into any OPEX-driven tactical bounce.",
       "tickers": [
-        "HOOD"
+        "TLN"
       ],
       "source_item_ids": [
-        "gmail:1a1f8834d83c9b26"
+        "gmail:1a1f952445c844aa"
       ]
     },
     {
-      "title": "CRWV/NBIS/HUT/WULF/CORZ: Roth QSG launching survey on miner-to-AI pivot demand",
-      "body": "Roth's Quantitative Survey Group is launching a 100-150 respondent enterprise survey on GPU/HPC hosting demand, specifically targeting vendor preferences between pure-play AI hosters (CRWV) and converted bitcoin miners (WULF, CORZ, NBIS, HUT). Survey assesses selection criteria including price, GPU generation, power, uptime, and provider solvency \u2014 results expected to be a catalyst for relative positioning.",
+      "title": "TSEM: Mizuho Outperform, $235 PT; Dec 3 mgmt call on SiPho constraints and margin expansion",
+      "body": "Mizuho analyst Vijay Rakesh (Outperform, $235 PT, $15B market cap) is hosting a TSEM management call Dec 3 covering SiPho supply constraint duration, competitive dynamics (GFS and STM ramping), NPO ramp timing (2027), CPO outlook (2029/30), Japan capacity expansion, and margin expansion potential as 300mm adoption accelerates.",
       "tickers": [
-        "CRWV",
-        "NBIS",
-        "HUT",
-        "WULF",
-        "CORZ"
+        "TSEM"
       ],
       "source_item_ids": [
-        "gmail:1a1f8a7f6aa3de0d"
+        "gmail:1a1f97d24e22c664"
       ]
     },
     {
-      "title": "WSM: Citi cuts PT to $245 from $275; Pottery Barn slowdown + supply chain headwinds, thesis intact",
-      "body": "Citi cuts WSM PT to $245 (from $275) on first negative EPS revision in multiple quarters \u2014 Pottery Barn comps slowing with unclear acceleration timeline, port congestion extending supply chain headwinds into FY27, and rising fuel/transport costs. Citi models FY27E EPS $10.70 on +4.8% SSS; rating stays Neutral. Opco notes management not providing FY27 guidance and managing Q4 toward midpoint of ranges.",
+      "title": "ORCL: -3.3% intraday, -52.6% YTD; approaching 52-week lows",
+      "body": "ORCL is trading at $106.90, -3.3% intraday and -52.6% YTD, flagged in the 52-week lows screen alongside NVDA (-25.1% YTD), FSLR (-40.9% YTD), IONQ (-53.6% YTD), and BABA (-47.4% YTD). Broad sector weakness concentrated in technology services.",
+      "tickers": [
+        "ORCL",
+        "NVDA",
+        "FSLR",
+        "IONQ"
+      ],
+      "source_item_ids": [
+        "gmail:1a1f98fffcbcb229"
+      ]
+    },
+    {
+      "title": "ANET: New R4 platforms for distributed AI inferencing with up to 60% lower power consumption",
+      "body": "Arista announced new R4 platforms targeting distributed AI inferencing with up to 60% lower power consumption, per the weekly data center communications note. Broader data center supply is tightening: Loudoun County approved a 12-month DC pause, and Texas resumed permits but new governor-elect Hinojosa plans restrictions post-January 19.",
+      "tickers": [
+        "ANET"
+      ],
+      "source_item_ids": [
+        "gmail:1a1f960b96df6606"
+      ]
+    },
+    {
+      "title": "CCL: UBS Buy, $36 PT; new ships add capacity in 2033-35; Celebration Key delayed to 2030",
+      "body": "UBS maintains Buy on CCL with a $36 PT. Carnival brand is ordering two ships (3,690 berths each) delivering in 2033 (+90bps capacity) and 2035 (+90bps capacity). The Celebration Key water park opening slips to 2030 (later than expected), with the 2028 expansion adding ~3,000 guests/day capacity. CCL guided for higher yield growth than RCL this year despite no new ship deliveries; Caribbean industry capacity growth slows to +5% in 2027 vs. +12% this year.",
+      "tickers": [
+        "CCL",
+        "RCL"
+      ],
+      "source_item_ids": [
+        "gmail:1a1f92f8f4c95cb8"
+      ]
+    },
+    {
+      "title": "WSM: -15% post-earnings; Pottery Barn comps missed, wide Q4 guidance, 25x valuation pressured",
+      "body": "WSM beat Q3 EPS by 8.7% but revenue was 0.5% light, with Pottery Barn comps missing by 380bps on reduced promotional activity. Management reiterated FY26 guidance with revenue slightly below consensus; Q4 guidance range is wide. Street cut average PT 4% to $254.10; 44% Buy / 48% Hold / 7% Sell. Elevated fuel/freight costs and ME shipping headwinds flagged for 2027; analysts debate whether Pottery Barn needs reacceleration before shares can rerate.",
       "tickers": [
         "WSM"
       ],
       "source_item_ids": [
-        "gmail:1a1f7fae44ca1db3",
-        "gmail:1a1f8ebf0ce550e9"
+        "gmail:1a1f93fe8d0ca8db"
       ]
     },
     {
-      "title": "GS Mutual Fund Positioning: Funds added AMD, PLTR, SNDK, WDC; 722bp underweight Mag7; AMZN first overweight since 2016",
-      "body": "GS Q3 mutual fund data (453 funds, $3.9T AUM): largest additions to AI infrastructure (AMD, WDC, STX, SNDK) and software (PLTR, SNOW); new overweight basket adds CRM, NET. Funds remain 722bp underweight Mag7 (unchanged in Q3); AMZN is first Mag7 constituent held overweight since 2016. Largest Mag7 reductions in GOOGL and AAPL. Cash at record low 1.1% of assets.",
+      "title": "META: Re-evaluating 2030 net-zero target after 45% GHG surge; halted Class-C offering leaves $60B+ funding gap",
+      "body": "META is re-evaluating its 2030 net-zero commitment following a 45% surge in GHG emissions from rapid AI infrastructure buildout. Separately, Citi notes META's halted Class-C share offering leaves a $60B+ hole in funding plans, with trial potentially not starting until April. META plans a $300 Muse Charm device with VZ 5G subsidy targeting 10M units in 2H26.",
       "tickers": [
-        "AMD",
-        "PLTR",
-        "SNDK",
-        "WDC",
-        "STX",
-        "SNOW",
-        "CRM",
-        "NET",
-        "AMZN",
-        "GOOGL",
-        "AAPL"
+        "META"
       ],
       "source_item_ids": [
-        "gmail:1a1f91fcc532b6a0"
+        "gmail:1a1f98951f3dcb3c",
+        "gmail:1a1f9564ceed13a4"
+      ]
+    },
+    {
+      "title": "GOOGL: AI sidebar pushing ads lower; Canadian bond raise for AI buildout",
+      "body": "MS notes GOOGL is rolling out an AI sidebar on Search that pushes ads lower, with advertisers already cutting spend (one example: a trophy seller cut monthly spend from $2K to $500). GOOGL also raised C$6B in Canadian bonds to support AI buildout. SemiAnalysis apologized to GOOGL for a prior bearish Gemini call after bullish Gemini 4 performance.",
+      "tickers": [
+        "GOOGL"
+      ],
+      "source_item_ids": [
+        "gmail:1a1f95f20606fdc8",
+        "gmail:1a1f9564ceed13a4"
+      ]
+    },
+    {
+      "title": "ADI, DELL, HPE, WDAY, ADSK earnings due next week (holiday-truncated)",
+      "body": "Key earnings in the Nov 23-27 holiday-shortened week: HPE, ZM Monday post-close; ADI Tuesday pre-open (consensus $4.32B revenue, $3.89 EPS, ~8.4% implied move); ADSK, DELL, WDAY Tuesday post-close (DELL options imply ~14.6% move); DE Wednesday pre-open. Core PCE for October prints Wednesday; markets close at 1pm ET Friday.",
+      "tickers": [
+        "DELL",
+        "HPE"
+      ],
+      "source_item_ids": [
+        "gmail:1a1f99489109fae5",
+        "gmail:1a1f95727710a8e2"
       ]
     }
   ]
