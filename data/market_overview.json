@@ -1,209 +1,190 @@
 {
-  "digest_type": "midday",
-  "digest_dt": "2026-11-24T12:00:00-05:00",
-  "saved_at": "2026-11-24T17:15:22.212747+00:00",
+  "digest_type": "eod",
+  "digest_dt": "2026-11-24T18:00:00-05:00",
+  "saved_at": "2026-11-24T23:13:33.029088+00:00",
   "bullets": [
     {
-      "title": "NVDA rally seen as deadcat bounce; AI capex/ROI debates unresolved despite Jensen's return",
-      "body": "Monday's NVDA +31.5% (adding ~$950B market cap) drove SPX +4.7% and SMH +15%, but most surveyed investors view it as a deadcat bounce. Key overhangs persist: AI-lab revenue justification, peak capex timing in 2027, semiconductor oversupply risks from China memory/BIS rules, ongoing DOJ/SEC investigations, and export-control headwinds including the MATCH Act. QQQ 1M realized vol at 1Y highs (49.8), 19.1pts above implied (99th pctile); SMH remains -12% MTD despite Monday's surge.",
+      "title": "Semis crater 8.6% as NVDA faces SEC probe, export control accusations, and congressional scrutiny",
+      "body": "The SOX index fell ~8% (NDX -2%), marking one of its worst single-day underperformances in recent history. NVDA dropped 5.9% after Senate Democratic leader Schumer accused Jensen Huang of shipping advanced chips to China in violation of export controls; DOJ/FBI declined to clarify a reported investigation, and Huang is scheduled to testify before three House committees on December 3. Sources put ~75% probability on chip export control legislation passing by February, with the MATCH Act, AI Overwatch Act, and NDAA as leading vehicles.",
+      "tickers": [
+        "NVDA"
+      ],
+      "source_item_ids": [
+        "gmail:1a20f68331251668",
+        "gmail:1a20f18c9d8292ac"
+      ]
+    },
+    {
+      "title": "AI trade retreats after Monday's 7% Nasdaq surge; real money rotates to REITs, EM, and defensives",
+      "body": "Tuesday saw broad rotation out of Mag-7 (-1.7%) and semis into defensives, healthcare, REITs, and cyclicals. JPM desk noted subdued conviction with investors in wait-and-see mode on unresolved AI supply chain questions (China chip access, ROIs, token trajectory). RTY futures led while NDX lagged; retail flows have weakened to $0.5B/day in November \u2014 the lowest since January 2025.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a20f8aa983e61d7",
+        "gmail:1a20f2639bcd3634"
+      ]
+    },
+    {
+      "title": "ADI -17% on mixed guide despite Q4 beat \u2014 street calls selloff excessive",
+      "body": "Analog Devices fell 17% (worst day since May 1998) despite Q4 revenue +42% y/y and gross margin of 74.5% (+470bps). The selloff was driven by Q1 EPS guidance of $3.82 (below consensus) and a $1.6\u20131.9B FY27 capex guide that reignited peak-AI-spending fears. 94% of sell-side maintains Buy with an average $470 PT; Roth reiterates Buy at $505, noting ADI now trades at 17.7x FY27E EPS vs. 24x at initiation.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a20f6abe8c7de92",
+        "gmail:1a20f26a35cac0e1"
+      ]
+    },
+    {
+      "title": "November Consumer Confidence beats, highest since Jan-25; Fed's Williams expects inflation just above 2%",
+      "body": "US consumer confidence jumped to its highest level since January 2025, beating estimates. Fed's Williams reiterated expectations that inflation will slow to just above 2% next year with expectations well anchored. The data provided a mild positive offset to the tech-driven tape weakness.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a20f64f36c324bc",
+        "gmail:1a20f7371015ea14"
+      ]
+    },
+    {
+      "title": "JPM raises 2027 S&P 500 PT to 8,200; semiconductors ~60% of EPS growth, AI supercycle intact",
+      "body": "JPMorgan sets a 2027 S&P 500 target of 8,200 (+13% upside) on $430 EPS (+17% y/y) at 19x. AI supercycle remains the core thesis: hyperscaler capex projected to grow +97% to ~$900B in 2026, then +87% to $1.7T in 2027. Semis account for ~60% of 2027 S&P EPS growth with NVDA as the largest contributor; key downside risks are hawkish Fed policy error (can absorb 3 hikes), regulatory friction on data centers, and rising financing costs.",
       "tickers": [
         "NVDA",
         "SPY"
       ],
       "source_item_ids": [
-        "gmail:1a20dde6d22781b7",
-        "gmail:1a20dfed8bed7de9"
+        "gmail:1a20ef569b6ee657"
       ]
     },
     {
-      "title": "Semis pre-market reversing: NVDA -4.8%, MU -6.3%, HPE -12.4% \u2014 broad chip sector under pressure",
-      "body": "In pre-market trading Tuesday, NVDA gave back 4.8%, MU fell 6.3% after a BNP Paribas Exane downgrade, AMD -6%, INTC -5.8%, TXN -5.5%, HPE -12.4% on earnings, and DELL -7.5% in sympathy. ALAB, LITE, MTSI, MRVL each down ~5%. The sell-side is cutting WFE forecasts \u2014 Mizuho lowering to $157B (2026)/$213B (2027) \u2014 and AI capex estimates trimmed from $1.5T/$2.0T to $1.4T/$1.8T for 2027/2028 to reflect 5GW AIDC postponements.",
-      "tickers": [
-        "NVDA",
-        "MU",
-        "AMD",
-        "INTC",
-        "HPE",
-        "DELL",
-        "ALAB",
-        "LITE",
-        "MRVL"
-      ],
-      "source_item_ids": [
-        "gmail:1a20deb8256e94fc",
-        "gmail:1a20dd92484d0959"
-      ]
-    },
-    {
-      "title": "RBC downgrades tech to market weight; sets S&P 8,050 PT for 2027, favors Value/Financials/Healthcare",
-      "body": "RBC's Lori Calvasina set a 2027 S&P 500 price target of 8,050, with P/E compression expected to offset upside from solid GDP and earnings. She downgraded Tech from overweight to market weight on Oct 14 and prefers Value over Growth, Financials, Healthcare, and Small Cap over Large Cap. Separately, OPCO strategists also recommend selling rallies at SPX ~7,350 (200-day MA), noting cross-asset confirmation failed \u2014 yields muted, commodities lower, dollar at cycle highs.",
-      "tickers": [
-        "SPY"
-      ],
-      "source_item_ids": [
-        "gmail:1a20e14aebe422b0",
-        "gmail:1a20de56e5e6b0bf"
-      ]
-    },
-    {
-      "title": "Market pricing 3 consecutive Fed hikes; Core CPI ~3% annualized, no Fed put in sight",
-      "body": "JPMorgan notes the market is pricing 3x consecutive 25bp rate hikes Dec 2026\u2013Mar 2027, with core inflation running ~3.0% annualized. The Fed is seen shifting toward actively restraining demand if above-potential growth, elevated inflation, and tight labor markets persist simultaneously. Goldman FCI tightened 46bps last week \u2014 largest weekly tightening since March 2020 \u2014 approaching tariff-war era tightness; Technology is the sector most negatively sensitive to FCI tightening.",
-      "tickers": [
-        "SPY"
-      ],
-      "source_item_ids": [
-        "gmail:1a20de5cc3a505ec",
-        "gmail:1a20ddaadf2ddca4"
-      ]
-    },
-    {
-      "title": "Consumer confidence surges 11.4pts post-election to 103.3; Redbook retail sales +11.3% YoY",
-      "body": "Conference Board consumer confidence jumped 11.4pts to 103.3 in November, the highest since January 2025, led by Democrats and Independents; Present Situation Index rose 13.7pts to 132.8. Separately, Johnson Redbook weekly retail sales rose 11.3% YoY \u2014 the second-highest reading of 2026. Year-ahead inflation expectations edged down to 5.7% for a second consecutive month, while the Richmond Fed ISM-equivalent climbed to 56.0%.",
+      "title": "Tariff risk rising: Trump prepping country-specific tariffs; Section 301 legal challenges pending",
+      "body": "Trump administration is reportedly preparing country-specific tariffs capped at prior trade deal rates, potentially pushing the effective average rate back toward 13.8% (from current 11.2%). Section 301 excess-capacity tariffs face potential legal challenge at USCIT with a ruling possible before year-end. JPM Washington policy note flags US tariff rates heading toward 15\u201320% by year-end via Section 301/232 investigations.",
       "tickers": [],
       "source_item_ids": [
-        "gmail:1a20e509c30a21c1",
-        "gmail:1a20e67203e9fc53"
+        "gmail:1a20f68331251668",
+        "gmail:1a20eb85aad4f717"
       ]
     },
     {
-      "title": "Manufacturing re-accelerating: Richmond Fed ISM-equivalent 52.6; November ISM tracking 54.9",
-      "body": "Richmond Fed manufacturing activity returned to growth in November with demand, production, and employment all strengthening; the ISM-equivalent index rose to 52.6 from 51.1 with four of five components increasing. November ISM Manufacturing is tracking 54.9 vs October's 55.5 \u2014 ahead of consensus expectations for a 0.6pt decline. PSC Macro expects solid ~3% real consumer spending in 2027 and steady ISM from lagged Fed easings and broadening capex.",
+      "title": "JPM policy note flags 'ugly Christmas' risks: Iran escalation, AI financing capacity, gov't shutdown",
+      "body": "JPMorgan's Washington strategy note identifies a cluster of tail risks: Iran military escalation with December 9\u201311 as a favorable window (oil spike then decline to ~$66/bbl), AI financing at capacity ($372B in credit support arrangements, debt markets near $1.4T annual limit), US fiscal deficit without credible reduction path, and underestimated government shutdown risk. Real GDP growth expected to ease from 2.5% (2026) to 1.9% (2027).",
       "tickers": [],
       "source_item_ids": [
-        "gmail:1a20e299d33e1748",
-        "gmail:1a20e509c30a21c1"
+        "gmail:1a20eb85aad4f717"
       ]
     },
     {
-      "title": "GPU spot pricing +64% since June; Blackwell payback under 11 months; 51GW AI shipments forecast for 2027",
-      "body": "Jefferies reports GPU spot pricing across Ampere/Hopper/Blackwell up 64% average since end of June, with B300 +74% to $11.27 and B200 +57% to $9.50. Blackwell all-in cost recovery payback is now under 11 months at current pricing. AI XPU model forecasts 51GW of shipments in 2027, driving installed capacity to 94GW vs 42GW at end of 2026; ASICs expected to reach 39% of installed capacity by 2028E.",
+      "title": "Monday rally was positioning relief, not macro confirmation \u2014 dollar and real yields say macro still tightening",
+      "body": "Goldberg argues Monday's Nasdaq surge was driven by NVDA-specific risk removal and a mechanical squeeze, not improved macro. Dollar strength, elevated nominal Treasury yields (10Y at 4.92\u20134.93%), rising real yields, weak oil, and struggling Bitcoin collectively signal continued global deleveraging. Credit demand weakening in Fed surveys; durable bottom would require dollar rollover and real yield decline.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a20eb8984c97116"
+      ]
+    },
+    {
+      "title": "Morgan Stanley: 10\u201320% equity decline warrants growth downgrades; 20%+ risks recession if AI spending slows",
+      "body": "MS quantifies the equity correction thresholds: a 0\u201310% decline leaves the outlook intact given accumulated wealth; a sustained 10\u201320% decline warrants growth forecast cuts and elevated unemployment risk; a 20%+ decline raises recession probability materially, especially if AI capex slows and layoffs accelerate. Half of historical bear markets coincided with recessions.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a20f30d96f2feaf"
+      ]
+    },
+    {
+      "title": "Rising term premia signal markets now favor orthodox fiscal restraint after years of expansionary support",
+      "body": "Bloomberg/Thaler commentary notes that rising and steepening term premia bias forward rate estimates of fiscal sustainability upward, distorting the picture. Markets now signal that more orthodox fiscal policy is appropriate \u2014 a contrast to the expansionary signals that underpinned both the Obama and first Trump terms. Policy tightening is warranted but need not be dramatic.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a20f2109c711d57"
+      ]
+    },
+    {
+      "title": "ECB hiking to 3% by March 2027; euro area growth resilient at 1.5% but France election risk builds",
+      "body": "JPMorgan forecasts the ECB deposit rate reaching 3.00% by Q1 2027 via two more hikes (December, March), with euro area GDP firming to 1.5% annualized in 2027. Core inflation peaks at 2.8% in Q1 2027 before declining to 2.2% by Q4 2028. France's electoral calendar is a key risk \u2014 Le Pen likely president but radical fiscal shifts face bond market constraints.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a20e948f1c572bc"
+      ]
+    },
+    {
+      "title": "S&P REITs +1.17% outperform; data center REITs lag -1.5% on AI economics concerns",
+      "body": "Real estate outperformed Tuesday with the S&P 500 Real Estate Index +1.17% vs. S&P -0.49%. Residential REITs and towers led (AMT, Crown Castle +~2%). Data center REITs fell 1.5% on concerns about AI profitability durability, with EQIX -1.7%. San Francisco AI boom is driving office leasing to its highest level since early 2019, with META reportedly eyeing majority of SF HQ space.",
+      "tickers": [
+        "EQIX",
+        "META"
+      ],
+      "source_item_ids": [
+        "gmail:1a20f80c2e837e9b"
+      ]
+    },
+    {
+      "title": "Retail earnings broadly strong: ANF +19.8%, DLTR +11.2%, BBY posts best Q3 comps in 5 years",
+      "body": "Consumer retail delivered a broad beat day: ANF comps +6% (240bps ahead), BBY domestic comps +6.2% (350bps ahead, best Q3 in 5 years), DLTR comps +4.6% with traffic +3.8%, DKS and KSS also beat and raised. BURL was the exception \u2014 comps +1% (miss) with FY guidance lowered, attributing ~300bps to warm weather. Staples retail +2.5%, discretionary +0.7%, apparel/footwear +3.7% on the day.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a20f6abe8c7de92",
+        "gmail:1a20f64f36c324bc"
+      ]
+    },
+    {
+      "title": "TSLA/SpaceX merger taking formal steps; announcement possible by early 2027",
+      "body": "RBC reports Tesla and SpaceX have appointed five board members to lead merger negotiations and hired financial advisers. RBC estimates Tesla holders could be receptive at ~$480/share (sum-of-parts intrinsic value + ~15% premium). Key hurdles include the exchange ratio given Musk's asymmetric voting power (~82% at SpaceX, ~20% at TSLA), 50% shareholder vote requirement, and regulatory scrutiny over SpaceX's defense/NASA contracts and Tesla's China assets.",
+      "tickers": [
+        "TSLA"
+      ],
+      "source_item_ids": [
+        "gmail:1a20e9bec922ed05"
+      ]
+    },
+    {
+      "title": "NVDA export control legislation: ~75% probability of passage by February across four legislative vehicles",
+      "body": "The midday macro note assigns ~75% probability that chip export controls pass Congress between now and February. Leading vehicles are the AI Overwatch Act, MATCH Act, Chip Security Act, and the NDAA. Senate Democrats have stated they will investigate Trump, Huang, other NVDA executives, and alleged national security violations. Secretary Lutnick is under separate scrutiny for slow-walking tighter controls.",
       "tickers": [
         "NVDA"
       ],
       "source_item_ids": [
-        "gmail:1a20dea93a30b5f9"
+        "gmail:1a20f18c9d8292ac"
       ]
     },
     {
-      "title": "AI credit financing risk rising: $500B+ issuance, some 5yr bonds yielding 15%; NVDA flagged as counterparty concentration risk",
-      "body": "Barclays notes hyperscaler unsecured issuance exceeds $300B this year with broader AI issuance topping $500B (~13% of USD IG). Some five-year AI debt bonds yield ~15%, raising project economics risks. Rogoff warns investor saturation and rising borrowing costs could constrain AI investment; existing lease/construction commitments limit capex flexibility. NVDA is identified as a key source of counterparty concentration risk. JPMorgan separately forecasts $1.4T AI capex in 2027 requiring ~$450B IG debt and $65B HY/leveraged loans.",
-      "tickers": [
-        "NVDA"
-      ],
-      "source_item_ids": [
-        "gmail:1a20dc61a22b932c",
-        "gmail:1a20dcf58ee23afc"
-      ]
-    },
-    {
-      "title": "Open AI models grew from 30% to 60-70% of token consumption in 6 months; AI model prices fell 21% last month",
-      "body": "Reflection AI CEO notes open models have grown from ~30% to 60-70% of token consumption over six months, with enterprise economics increasingly favoring open models for customization and data sovereignty. AI model prices fell 21% over the last month per 22V Research, and token price volumes are collapsing \u2014 a threat to chip industry pricing power. 22V also notes only 1% of businesses drive 80% of AI lab revenues, with growth in median/top-10% user groups sluggish.",
-      "tickers": [
-        "NVDA"
-      ],
-      "source_item_ids": [
-        "gmail:1a20df4bfb7da0a0",
-        "gmail:1a20ddaadf2ddca4"
-      ]
-    },
-    {
-      "title": "MS: AI trade broadens in 2027 beyond chips to capital equipment; euro area, Japan, China to benefit",
-      "body": "Morgan Stanley's global economics team expects AI-linked goods trade to make new highs in 2027 as the mix shifts from compute/servers/chips toward manufacturing and capital equipment. Non-AI capex in Asia is accelerating, and US non-AI capex is expected to firm over 2027\u20132028. A more balanced global trade expansion is anticipated, benefiting the euro area, Japan, and China, with firmer pricing power for traded goods beyond chips.",
+      "title": "China domestic chip supply constraining AI datacenter utilization through 2028 \u2014 VNET move-ins delayed",
+      "body": "JPMorgan cuts VNET PT to $12.50 from $15.00, trimming 2027/28 EBITDA by 10\u201314%, as domestic chip availability constrains customer move-ins. Wholesale IDC utilization fell to 70.7% in 3Q26 and is expected to decline to ~63% in 2027. Alibaba and Tencent are shifting capex toward domestic AI chips, reducing overseas compute procurement.",
       "tickers": [],
       "source_item_ids": [
-        "gmail:1a20e4bc171faf42"
+        "gmail:1a20eddff47454bc"
       ]
     },
     {
-      "title": "JPMorgan USD bull for 2027: EUR/USD to 1.05 Q4; FX yield exceptionalism widening to 1980s levels",
-      "body": "JPMorgan's FX strategy is bullish USD on intensifying yield exceptionalism, with spreads expected to widen to highest since the 1980s. EUR/USD is forecast at 1.07 Q1 / 1.05 Q4 on Fed hawkishness and yield deficit. JPM is long NOK, GBP, JPY, CHF and short EUR, SEK, CAD. EM FX underweighted broadly on tightening financial conditions.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a20ddbac4c8b896"
-      ]
-    },
-    {
-      "title": "Hedge fund positioning extremely washed out: net leverage 42% (bottom decile), beta-adjusted gross at 3yr low",
-      "body": "MS TMT notes hedge fund net leverage at 42% (bottom decile) with positioning 'extremely washed out.' Zach AM Attack corroborates: beta-adjusted gross leverage fell to a 3-year low of 208.8%, net leverage 54.6%. S&P forward P/E compressed from 23x to 16.5x. After prior 2%+ S&P gap-ups since 2000, the index was higher 1-month later 72% of the time; after extreme VIX collapses (25%+ one-day), SPX was higher 6\u201312 months later in all 6 prior cases with median returns of +13.8%/+20.7%.",
+      "title": "AI cybersecurity demand surge: incident response firms turning away clients, incidents up 50% from prior peak",
+      "body": "The Ezra Klein Show/Silver Buckshot thesis: AI is reducing exploit costs and timelines, with offensive capabilities outpacing defenses. Incident response capacity is overwhelmed \u2014 incidents up 50% from previous monthly peak, with CrowdStrike executives pulled into direct response work. Scale and trust advantages favor established hyperscalers (META, AMZN, GOOGL) over smaller providers; critical infrastructure viewed as highly vulnerable.",
       "tickers": [
-        "SPY"
-      ],
-      "source_item_ids": [
-        "gmail:1a20dde6d22781b7",
-        "gmail:1a20dfed8bed7de9"
-      ]
-    },
-    {
-      "title": "HPE beats and raises big: Q1 EPS guided 26% above consensus; AI backlog $8.8B, Networking orders +56% YoY",
-      "body": "HPE reported Q4 EPS beat of +11.8% and guided Q1 EPS $1.30-1.40 vs consensus $1.07 (+26.2%), with FY27 revenue guidance $59.4-63.1B (27-35% growth) vs Street +11.2% above. AI systems backlog reached $8.8B and Networking orders rose 56% YoY. Key overhang: margin compression expected in FY27 as server ASPs normalize; supply constraints persist through 2H28. Stock down 12.4% pre-market despite the beat.",
-      "tickers": [
-        "HPE"
-      ],
-      "source_item_ids": [
-        "gmail:1a20de9befed3a62"
-      ]
-    },
-    {
-      "title": "Internet stocks down 10% from recent peak; META/GOOGL at 20x/14x '26 EPS, MS maintains Attractive view",
-      "body": "Morgan Stanley notes the North America internet complex fell ~10% (SPX/NDX -9%/-11%), with META -13%, GOOGL -10%, AMZN -7%, PINS -15%, SNAP -13%. Current multiples are down 29-43% vs TTM averages; META/GOOGL/AMZN now trade at 20x/14x/219x '26 EPS (the AMZN figure likely reflects a data anomaly). MS maintains an Attractive industry view on North America internet.",
-      "tickers": [
-        "GOOGL",
-        "META",
         "AMZN",
-        "SNAP",
-        "PINS"
+        "GOOGL",
+        "META"
       ],
       "source_item_ids": [
-        "gmail:1a20e4d951eeb197"
+        "gmail:1a20f242b65ce092"
       ]
     },
     {
-      "title": "ADI guides above-seasonal Q1 at $4.4B; data center to accelerate significantly in FY27",
-      "body": "Analog Devices guided Q1 FY27 revenue at $4.4B \u00b1$150M (above-seasonal) led by communications and industrial, with gross margin ~74% and adjusted EPS $3.82 \u00b1$0.20. Data center revenue is expected to show significant FY27 growth with both power and optical segments accelerating. FY27 CapEx expected $1.6-1.9B with new capacity online in Q1 2028. Supply remains tight with packaging/assembly as main bottleneck.",
+      "title": "EM fixed income: JPM upgrades to OW sovereigns and corporates; 10% and 9% return forecasts for 2027",
+      "body": "JPMorgan upgrades EMBIGD sovereigns and CEMBI corporates from Neutral to Overweight, forecasting ~10% and ~9% full-year returns respectively in 2027. EM GDP growth expected to slow modestly to 3.9% with energy price declines and monetary easing supportive, but hedge fund EM exposure at multi-decade highs creates tail risks from tightening financial conditions. Underweight EM FX; midweight local rates.",
       "tickers": [],
       "source_item_ids": [
-        "gmail:1a20e4e30febea2a"
+        "gmail:1a20e909b04fb923"
       ]
     },
     {
-      "title": "Tokenization moving from pilots to production: DTCC live Oct 28, ICE building 24/7 tokenized trading, $25.5T collateral opportunity",
-      "body": "UBS Digital Asset Strategy highlights tokenized finance entering production phase. DTCC went live Oct 28 covering Russell 1000, ETFs, and Treasuries with Solana extension planned H2 2027. ICE is building a 24/7 tokenized trading system for US stocks/ETFs with fractional shares and instant settlement vs stablecoins on Solana. ~$460B tokenized assets exist but only ~$40B move freely off-platform. AI agents now generate 70%+ of HTML requests on Cloudflare, with stablecoin micropayments (x402) generating 400M+ agent payments worth ~$100M YTD.",
+      "title": "S&P Tech Index -2.8% on the day; unprofitable tech and semis underperform, biotech and homebuilders outperform",
+      "body": "Sector breadth divergence was pronounced: Tech underperformed within SPX, semis -7.9%, unprofitable tech lagging. Healthcare, biotech/pharma, homebuilders, and REITs led. The SPX traded in a 7,160\u20137,224 range heading into the close, ending at approximately -0.5%; NDX -1.48%. SPX must close decisively above 7,350\u20137,400 to repair the broader downtrend per tactical analysis.",
       "tickers": [],
       "source_item_ids": [
-        "gmail:1a20e0028e8be04b"
+        "gmail:1a20f2639bcd3634",
+        "gmail:1a20f742821cb481"
       ]
     },
     {
-      "title": "Consumer retail earnings broadly positive: BBY comps +6.2%, ANF +6%, DLTR +4.6% \u2014 but freight headwinds persist into Q4",
-      "body": "Q3 retail earnings came in strong across the board: BBY domestic comps +6.2% (beat by 350bps) on computing ASP inflation and emerging categories; ANF comps +6% with gross margin 65% and raised FY EPS to $13.70-13.90; DLTR comps +4.6% vs 3.5-4% expected with EPS $1.16 vs $0.90 consensus. Headwind theme: BURL Q4 EPS guided ~$0.20 below consensus on $17M incremental freight/fuel pressure; BBY laps ~$75M tariff refunds in FY28.",
+      "title": "WTI crude +2.5%; 10Y Treasury at 4.92\u20134.93%; dollar softer on the day",
+      "body": "Cross-asset backdrop: WTI crude up 2.5%, 10-year Treasury yield at 4.92\u20134.93% (firmer), 2-year at 4.68%, dollar softer intraday. The combination of rising real yields, dollar strength, and weak Bitcoin is consistent with continued global deleveraging rather than a durable risk-on pivot, per market commentary.",
       "tickers": [],
       "source_item_ids": [
-        "gmail:1a20dc2c96803062",
-        "gmail:1a20e20712feb0fe"
-      ]
-    },
-    {
-      "title": "US home prices flat m/m in September; affordability remains challenged, HPA forecast 1-2.5% through 2028",
-      "body": "Case-Shiller National Index rose 2.1% YoY in September (unchanged from August), and FHFA home prices were flat m/m (+2.5% YoY). Morgan Stanley forecasts home price appreciation remaining range-bound at 1.0-2.5% through end of 2028, providing no affordability relief for first-time buyers while modestly supporting existing homeowner balance sheets.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a20df91e36a3c5f"
-      ]
-    },
-    {
-      "title": "German Ifo beat expectations at 90.6; DAX near record highs but GDP expected to slow to 0.9% in 2027",
-      "body": "German Ifo Business Climate rose 0.5pts to 90.6 in November, beating the 90.5 consensus, with both expectations and current conditions improving. Flash PMIs show manufacturing and services at new cycle highs. However, GDP growth is expected to slow from 1.2% (Q3 2026) to 0.9% (Q3 2027) due to lagged oil price and rate impacts, with chronic underinvestment and energy dependency as secular headwinds. Germany's bund yield remains below nominal GDP growth (supportive vs France's OAT which is restrictive).",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a20e4b2212c4795"
-      ]
-    },
-    {
-      "title": "Data center construction driving US business RevPAR outperformance; CHH/WH most exposed (~50/40bps 2026 benefit)",
-      "body": "Goldman Sachs notes US business RevPAR is outperforming leisure in 2026 driven by record data center construction, with data-center markets seeing ~300bp faster RevPAR growth than the broader US. CHH and WH have the highest exposure (~30% of US rooms within 30 miles of active projects) contributing ~50bps and ~40bps to 2026 global RevPAR respectively; HLT ~30bps, MAR ~20bps, H <10bps. Significant capacity already under construction through 2028 limits near-term downside risk.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a20dfed8bed7de9"
+        "gmail:1a20f66747f57a91",
+        "gmail:1a20eb8984c97116"
       ]
     }
   ]
