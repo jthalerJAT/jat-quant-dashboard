@@ -1,216 +1,194 @@
 {
-  "digest_type": "midday",
-  "digest_dt": "2026-11-25T12:00:00-05:00",
-  "saved_at": "2026-11-25T17:15:12.194800+00:00",
+  "digest_type": "eod",
+  "digest_dt": "2026-11-25T18:00:00-05:00",
+  "saved_at": "2026-11-25T23:11:03.269948+00:00",
   "bullets": [
     {
-      "title": "Broad Market Selloff: S&P -2.7%, VIX +28% to 33.69; Tech/AI Stocks Lead Decline",
-      "body": "The S&P 500 fell 2.7% to 7,005.93 with VIX surging 27.8% to 33.69, reflecting a broad risk-off session. Semis were hit hardest \u2014 SOXX -5.4%, with MU -9%, AMD -7.3%, ARM -7%, NVDA -6.1%, TSM -5.8%. Tech leaders including AVGO, ORCL, GOOGL, and BKNG all hit 52-week lows, with IONQ -56% and CRWV -48% YTD among the worst drawdowns.",
+      "title": "Fed pricing: 25bp hike near-certainty as core PCE holds at 0.3% m/m; GDP revised sharply higher",
+      "body": "October core PCE came in at +0.3% m/m in line with consensus, but annual core accelerated to 3.3%. Q3 GDP was revised to 4.3% SAAR from the 3.4% flash estimate, with consumer spending revised up to 4.2%. Markets are pricing a 25bp Fed hike as near-certainty at 92% per FedWatch, and hawkish Fed/tightening financial conditions are cited as the primary market overhang.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a21490a860be823",
+        "gmail:1a214eea45d6444a"
+      ]
+    },
+    {
+      "title": "Global core inflation stuck at 3.4%; tech CPI flipped positive on AI-related memory price increases",
+      "body": "JPM's global inflation monitor shows core inflation firm at 3.4% (3m saar), with US supercore at 5.5%. Notably, the tech CPI proxy shifted from subtracting 0.1pp to adding 0.3pp to core in October due to AI-related memory and tech price increases. Further Brent declines to $75-80/bbl could lower global inflation from 4.4%ar in 4Q26 to 2-2.5%ar in 1H27, but food inflation is accelerating to 3.4%ar with peak impacts expected 1Q27.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a2141559a23d04f"
+      ]
+    },
+    {
+      "title": "HF deleveraging ~30% complete; semis at +4z short \u2014 setup for reversal if volatility recedes",
+      "body": "JPM positioning data shows HF net exposure declined >30% from 12-month highs, comparable to late 2018 and March 2020. US semis saw 3-sigma net selling over 20 days with shorts at +4z, potentially setting the stage for a reversal. CTAs are broadly neutral US equities at the 20th percentile (not yet at Apr 2025 extreme bearishness), and APAC flows turned +1.6z net buying WoW. SPX historically gains 3.2% avg rest of Q4 from comparable November points (82% hit rate), though 2007 drawdown path is cited as the most similar analog.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a214a0c498ff7e0"
+      ]
+    },
+    {
+      "title": "JPM: AI stock capitulation underway \u2014 Dec/Jan recovery expected as year-end re-entry begins",
+      "body": "JPM flows analysis argues HF and active managers abandoned AI stocks in Oct/Nov for profit-taking rather than valuation concerns, with quant CTAs building their largest short positions in tech indices since Liberation Day. Market depth and breadth collapsed to capitulation-phase levels. Recovery in AI stocks is expected Dec/Jan as year-end traders re-enter. Bitcoin ETF outflows intensified with IBIT outflow pace faster than May-June 2026, and MicroStrategy's premium to NAV collapsed to a record low of 0.88.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a214705759ef8bd"
+      ]
+    },
+    {
+      "title": "Wolfe: All-SaaS index -7.3% WoW; SOX -10% past week despite Jensen commentary",
+      "body": "Wolfe's All-SaaS index is trading at 5.3x FY+2 EV/Sales and fell 7.31% week-over-week. The SOX index dropped 10% over the past week despite positive Jensen Huang commentary. The path of least resistance is described as still lower, with funding/cost-of-capital constraints, peak capex/earnings growth uncertainty, and monetization questions dominating over seasonality as the key bullish argument.",
       "tickers": [
+        "CRM",
+        "SNOW",
+        "MDB",
+        "NVDA"
+      ],
+      "source_item_ids": [
+        "gmail:1a214b6c2c3d7f67",
+        "gmail:1a21490a860be823"
+      ]
+    },
+    {
+      "title": "NVDA CEO Jensen Huang to testify before Senate on AI export controls Dec 1-3",
+      "body": "Jensen Huang is scheduled for a House transcribed interview Dec 1 and Senate Banking Committee testimony Dec 3 (hearing titled 'Protecting America's AI Advantage: Oversight of US Export Controls'). NVDA's General Counsel Tim Teter will appear before House Foreign Affairs, the Select Committee on CCP, and House Intelligence Committee on Dec 2. This is a significant policy catalyst to watch for NVDA and the broader AI/semi complex.",
+      "tickers": [
+        "NVDA"
+      ],
+      "source_item_ids": [
+        "gmail:1a214605ade0d55d"
+      ]
+    },
+    {
+      "title": "US export curbs flood GPU resale market: ByteDance deployed ~36k B200s in Malaysia before restrictions",
+      "body": "Since the Nov 16 BIS interim final rule restricting Chinese remote access to chips in third-party data centers, an unusually high number of advanced NVIDIA GPUs have come to market from resellers. The rule adds license requirements for advanced semis to Indonesia, Malaysia, Singapore, Thailand, and Brazil. ByteDance had reportedly deployed ~$2.5B worth of B200 chips (~36k units) in Malaysia before restrictions took effect.",
+      "tickers": [
+        "NVDA"
+      ],
+      "source_item_ids": [
+        "gmail:1a213d18521b85f9"
+      ]
+    },
+    {
+      "title": "UBS: Semi stocks pricing ~25-30% cuts to 2028 compute capacity on power constraints",
+      "body": "UBS argues the market is discounting nearly all of the 'powered shell gap' in semiconductor valuations, with stocks pricing in roughly 25-30% cuts to 2028 datacenter compute capacity. UBS is cutting its own datacenter capacity estimates across coverage but notes valuations have become attractive as a result. This is a key framing for the semi selloff.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a213fd0e273cdfc"
+      ]
+    },
+    {
+      "title": "JPM Asia 2027 outlook: AI supercycle intact; bearish 'overbuilt capex' narrative called stale",
+      "body": "JPM argues AI stocks represent >50% of the Asia index weight and should drive ~70% of 2027 earnings growth. Datacenter projects are generating ROI well over 30% at current rental rates, and classic cycle-peak signals (inventory builds, lead-time shortening, rapid capacity ramp) are largely absent. The base case MXASJ target is 1200 (bull 1500, bear 900) on $115 EPS, with overweight allocations in Taiwan, Korea, and HK tech.",
+      "tickers": [
+        "TSM",
         "NVDA",
-        "AMD",
-        "MU",
-        "AVGO",
-        "ORCL",
-        "GOOGL",
-        "BKNG",
-        "CLS",
-        "IONQ",
-        "CRWV"
+        "INTC"
       ],
       "source_item_ids": [
-        "gmail:1a213115ead9b76f",
-        "gmail:1a2135303590c7f4"
+        "gmail:1a21426ea078a58a"
       ]
     },
     {
-      "title": "Growth vs. Non-Growth Rotation Accelerating: Down 18% Since Oct 7",
-      "body": "The Growth/Non-Growth ratio fell another 4% today, extending a cumulative 18% decline since October 7. Basic Materials, Energy, Financials, and Industrials are outperforming Tech and Consumer Discretionary as the market rotates away from AI/growth names toward cyclical and value sectors.",
+      "title": "Brent climbed to $94/bbl on Middle East tanker attacks; US vehicle activity -1.8% YoY",
+      "body": "JPM's Energy Shock Monitor shows Brent stabilized around $91/bbl before climbing past $94 on Middle East tanker attack news. US vehicle activity is running 1.8% below 2025 levels while China is down 2.5% YoY. Natural gas markets are diverging \u2014 European TTF rose week-over-week while US Henry Hub fell. Chase Card data shows solid +0.4% m/m nominal control retail sales gain in November.",
       "tickers": [],
       "source_item_ids": [
-        "gmail:1a21382836deb25e"
+        "gmail:1a214b45f1755f92"
       ]
     },
     {
-      "title": "PCE In Line, Q3 GDP Revised to 4.3% \u2014 Economy Too Hot for Fed Comfort",
-      "body": "October core PCE rose 0.29% MoM (3.26% YoY, up from 3.14%), with ~50-52% of PCE categories growing above 3% and the 16% trimmed mean notably hot. Q3 GDP was revised sharply higher to 4.3% from 3.4% (prior flash 3.5%), driven by consumer spending (4.2%) and capex (16.1%); nominal GDP running ~6.3% is inconsistent with returning to 2% inflation. National profit margins hit all-time highs at 17.4% in Q3, up 1.8ppt YoY.",
+      "title": "Sector rotation: RTY outperforms, Mag 7 lags; homebuilders and energy lead, semis/airlines weak",
+      "body": "Into the close, RTY futures led SPX and NDX with Mag 7 underperforming all three indices. Within the SPX, materials and homebuilders outperformed while tech and semis lagged. NDX expected to settle 25,800-26,200 and SPX 7,150-7,230. Discretionary sector was +4.5% for the week vs S&P +3.9%; staples lagged at +2.0%.",
       "tickers": [],
       "source_item_ids": [
-        "gmail:1a21389556fc9790",
-        "gmail:1a2135592d45163c"
+        "gmail:1a2144c98bb000a8",
+        "gmail:1a2148c8b99b9be8"
       ]
     },
     {
-      "title": "Fed Likely Cuts 25bps in December But Signals Hawkish Path; Fed Put Far Out of Money",
-      "body": "The in-line PCE print keeps a December 25bps cut on the table, with the Fed expected to signal continued cuts while maintaining hawkish rhetoric \u2014 which is viewed as easier to reverse than a 50bps move. However, with nominal growth near 6.3% and inflation breadth worsening, the Fed will remain restrictive until convinced disinflation resumes; a significant market decline would be welcomed by the Fed as a cooling mechanism, and the current selloff is not yet severe enough to cancel the December cut.",
+      "title": "Global bond supply-demand improves $0.4tr in 2027; JPM sees ~20bp yield decline ahead",
+      "body": "JPM projects global bond supply to decline ~$0.6tr in 2027 as a larger share of the US deficit is funded via T-bills, improving the demand-supply balance by ~$0.4tr and implying ~20bp decline in Global Agg yields. Retail investors are projected to maintain strong $1.3tr net bond demand (down modestly from $1.5tr in 2026) while G4 central bank demand deteriorates slightly to -$1.0tr.",
       "tickers": [],
       "source_item_ids": [
-        "gmail:1a2139f2df210a6e",
-        "gmail:1a212ec4ea602f9f"
+        "gmail:1a214705759ef8bd"
       ]
     },
     {
-      "title": "AI Capex Cycle at Inflection: $1.4T in 2027 But Growth Decelerates After; Financing Stress Emerging",
-      "body": "JPM forecasts AI capex doubling to $1.4T in 2027 with 23 GW under construction and 97 GW committed, but growth rates decelerate materially in 2028+. Financing stress is real: HSBC sold $300M datacenter loans at 85 cents on the dollar, an ING $500M auction failed, and Anthropic's Nexus Hubbard bond sale was delayed and backstopped by Google. Loan-to-cost ratios are expected to decline from 70-95% to ~60%, requiring $2.9T in cumulative equity over five years.",
-      "tickers": [
-        "NVDA"
-      ],
-      "source_item_ids": [
-        "gmail:1a21328b3482884d",
-        "gmail:1a2132280811292f"
-      ]
-    },
-    {
-      "title": "AI Demand Signal Deteriorating: Token Spend Leveled Off, Pricing Collapsed Despite Massive Buildout",
-      "body": "Token spend has leveled off and token pricing has collapsed even as contracted compute commitments remain enormous \u2014 suggesting Jevons Paradox is not holding for AI inference. GPU pricing on Asia data centers has fallen ~7% with NVDA B300 lead times now at 40 weeks, and SemiAnalysis argues supply (not demand) will drive further GPU price declines, marking the end of surge pricing. Frontier model revenue run-rating near $150B but not translating into faster top-line growth for the ecosystem, creating a mid-cycle perception problem.",
-      "tickers": [
-        "NVDA"
-      ],
-      "source_item_ids": [
-        "gmail:1a21319f5de29fda",
-        "gmail:1a212f7278786a81"
-      ]
-    },
-    {
-      "title": "DELL Blowout Quarter But Stock -7%: $132B AI Backlog, FY28 EPS 27% Above Consensus",
-      "body": "Dell reported F3Q revenue of $54.9B (vs $49.3B est.), EPS $9.45 (vs $6.57 est.), and raised FY27 revenue guidance to $202B with AI server revenue at $78B. The AI server backlog stands at $132B with ~7,500+ customers (up ~15% QoQ). FY28 EPS guided at $39.68, 27% above consensus. Despite the blowout, the stock is -7% premarket as the market debates CY28 DRAM pricing risk and sustainability of AI server demand.",
-      "tickers": [
-        "DELL",
-        "MU"
-      ],
-      "source_item_ids": [
-        "gmail:1a212f7278786a81",
-        "gmail:1a2135c0f13166bd"
-      ]
-    },
-    {
-      "title": "NVDA: Government Equity Stake Speculation, California AG Investigation, CEO Pardon Discussion",
-      "body": "Trump has indicated the US could pursue an equity stake in NVDA and is open to pardoning CEO Jensen Huang if necessary. California's AG is separately investigating NVDA despite Huang's recent reinstatement. Congressional pressure on Nvidia over export curbs and open-weight AI policy debate adds to regulatory overhang.",
-      "tickers": [
-        "NVDA"
-      ],
-      "source_item_ids": [
-        "gmail:1a2135c0f13166bd",
-        "gmail:1a212f9891c6ca99"
-      ]
-    },
-    {
-      "title": "AI Capex Now ~1/3 of Aggregate GDP Growth; Core Demand ex-AI Solid at ~2.9%",
-      "body": "Approximately one-third of Q3 aggregate demand growth is attributable to AI (IP development and data center capex), accounting for just over half of the 20bps upward revision to 4-quarter GDP growth (now 2.3%). Final sales to private domestic purchasers less computers/peripherals growing at a 2.9% four-quarter rate, suggesting core non-AI demand remains stable.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a213603ba53fed5"
-      ]
-    },
-    {
-      "title": "META/AMZN Muse Integration Talks Resume; Google Surpasses OpenAI in Model Spend",
-      "body": "Meta and Amazon are in active discussions to restore Muse to Amazon's platform (blocked two months ago), with launch expected in 2027. Muse has expanded to UK, Japan, Singapore, Canada, Australia, Mexico and is now live on Instagram. Separately, Google models commanded >50% of OpenRouter spend for the first time since June, driven by Gemini 4 Neon and Carbon releases; Google Neon set a Day-1 usage record on paid APIs.",
-      "tickers": [
-        "META",
-        "AMZN",
-        "GOOGL"
-      ],
-      "source_item_ids": [
-        "gmail:1a212e68cfe957a3",
-        "gmail:1a2135c0f13166bd"
-      ]
-    },
-    {
-      "title": "Holiday Spending Tracking +12% YoY; K-Shaped Consumer with AI Shopping Surging",
-      "body": "Citi's holiday survey shows 2026 spending +12% vs 2025, with higher-income households spending more and lower-income households less (K-shape). AI-driven retail traffic generates 83% higher revenue per visit vs non-AI per Adobe data, and 33% of US consumers now use AI for shopping vs 19% one year ago. BFCM 2025 showed 27% GMV growth on Shopify; market expects >30% in 2026 as a key signal.",
-      "tickers": [
-        "SHOP",
-        "AMZN"
-      ],
-      "source_item_ids": [
-        "gmail:1a21316d3abb727e",
-        "gmail:1a2130c34703ff3d"
-      ]
-    },
-    {
-      "title": "US Hotel RevPAR +13.4% YoY; Vegas Strip Surges +36.5% \u2014 Experiences Demand Intact",
-      "body": "US weekly RevPAR rose 13.4% YoY for the week ended 11/21 (vs 12.9% prior week) on 450bps harder comps; two-year stack improved to +13.4% from +8.4%. Vegas Strip RevPAR surged 36.5% YoY with Mon-Wed strength exceeding +100%. Goldman's Consumer Experiences basket is outperforming the S&P 500 and positioning remains light, suggesting room for further upside despite higher 2027 input cost risks.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a213237bb109c54",
-        "gmail:1a2133be123019ab"
-      ]
-    },
-    {
-      "title": "New Home Sales Beat at 701k (+14.2% MoM) But September Revised Down Sharply; Q4 Residential Investment -5.7%",
-      "body": "October new home sales jumped 14.2% MoM to 701k, beating consensus of 650k, with the South driving the entire national gain and prices falling 0.3% MoM to $391k. However, September was revised down sharply from 676k to 614k, leaving YTD sales -3% vs 2025. Q4 real residential investment now tracks -5.7% QoQ SAAR, with Morgan Stanley expecting new home sales down 4% YoY in 2026 before rebounding to +2% in 2027.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a2133130d069288",
-        "gmail:1a2137334c080cca"
-      ]
-    },
-    {
-      "title": "IT Budget Rotation: Security and AI-Native Solutions Win; Incumbent App Software Loses",
-      "body": "CIO surveys show IT budgets are prioritizing hardware, cybersecurity, and AI-native solutions over incumbent application software. This dynamic is weighing on names like CRM (Agentforce adoption improving but ROI/pricing uncertainty limiting broad adoption), WDAY (F4Q subscription guide of +10% vs F3Q +13% signals deceleration, shorter contract commitments), and ADSK (Q4 organic growth slowing). KeyBanc's software preview notes AI free-tier friction slowing customer spending and SEO challenges.",
+      "title": "CRWD acquired ZS in largest-ever security deal; Wolfe sees stronger AI security positioning despite selloff",
+      "body": "CrowdStrike acquired Zscaler in what Wolfe Research calls the largest security deal in history. Despite near-term share price weakness, Wolfe sees the combined entity as better positioned for AI security market share. RBRK checks are strong with positive financial setup, and OKTA is showing cRPO acceleration in F3Q with AI momentum early but progressing.",
       "tickers": [
         "CRM",
         "SNOW"
       ],
       "source_item_ids": [
-        "gmail:1a2138d31518a2d5",
-        "gmail:1a212f7278786a81"
+        "gmail:1a214b6c2c3d7f67"
       ]
     },
     {
-      "title": "WDAY Softer Exit Rate: F4Q Subscription Guide Misses, Shorter Commitments Signal Structural Deceleration",
-      "body": "Workday guided F4Q subscription revenue at $2.600B, missing consensus, with growth decelerating from F3Q's 13% to ~10%. Five-year cohorts are renewing at approximately three years (shorter), and deferred revenue growth slowed to ~10%. AI ARR is $750M+ at 130% YoY but appears to be cannibalizing non-AI spending. FY28 guidance reiterates ~11% growth, though the softer exit rate is a concern; multiple analysts cut PTs to ~$175-200.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a2135c0f13166bd",
-        "gmail:1a212f7278786a81"
-      ]
-    },
-    {
-      "title": "Tariffs Broadening: China, EU Manufactured Goods in Scope; E-Commerce Margins at Risk",
-      "body": "The US is preparing to raise tariffs on China, EU, and other economies with broader scope for Chinese products, pressuring e-commerce sourcing costs and margins. This creates headwinds for AMZN, ETSY, and other marketplace platforms reliant on manufactured goods imports, while also creating near-term risk for apparel retailers heading into 2027 (flagged across ANF, DKS commentary).",
+      "title": "Holiday consumer electronics demand resilient; smartphones and gaming lead at 51% and 44% intent",
+      "body": "Citi's holiday survey shows US consumer electronics spending flat YoY but concentrated: smartphones rank #1 at 51% purchase intent (iPhone and Samsung Galaxy tied at 42% each), gaming peripherals rank #2 at 44% \u2014 surpassing TVs. AR/VR headsets generate ~16% demand supportive for Meta. AI-driven replacement cycle is cited as a tailwind for Apple and Samsung.",
       "tickers": [
-        "AMZN",
-        "ETSY"
+        "AAPL",
+        "META",
+        "GOOGL"
       ],
       "source_item_ids": [
-        "gmail:1a212e68cfe957a3"
+        "gmail:1a214a57c51e2af0",
+        "gmail:1a214a4feed3811c"
       ]
     },
     {
-      "title": "Data Center Sector Faces Multiple Headwinds: Zoning Bans, Export Compliance Reviews, Pricing Pressure",
-      "body": "San Francisco extended a data center zoning moratorium; Prologis' Georgia Project Sail faces a January special election referendum to ban data centers; major banks are reviewing data center clients for US chip export compliance. Asia GPU pricing has fallen ~7% as operators offload excess capacity, CoreWeave bonds hit record lows, and Anthropic's IPO rally is unraveling amid rising infrastructure cost concerns.",
+      "title": "Morgan Stanley bullish on 2027 M&A activity; expects record deal volumes before 2028 regulatory window narrows",
+      "body": "Morgan Stanley expects 2027 M&A to reach record volumes driven by equity market gains and a narrowing regulatory window ahead of 2028. Deutsche Bank separately sees equity tokenization and 24/7 trading as multi-year structural market catalysts.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a214eea45d6444a"
+      ]
+    },
+    {
+      "title": "US hotel RevPAR +13.4% YoY for week ending Nov 21; Las Vegas +34%, all chain scales positive",
+      "body": "Weekly US RevPAR grew +13.4% YoY (ADR +7.3%, occupancy +336bps), consistent with the prior week's +12.9%. The largest 25 markets rose +14.5% YoY led by Las Vegas +34.2% and Chicago +28.9%. Trailing 28-day RevPAR is up +10.0% YoY; 4Q26 YTD tracking at +9.3%. C-Corp (HLT, MAR) and REIT operators (HST, PK) are both outperforming consensus expectations.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a21403d96f513e1",
+        "gmail:1a213f56d5c2ae36"
+      ]
+    },
+    {
+      "title": "November auto SAAR est. 15.6mn; luxury demand improving on incentives, BEV mix ticking higher",
+      "body": "JPM estimates November US light vehicle SAAR at ~15.6mn, a modest sequential improvement from 15.5mn in October, constrained by election uncertainty, capital markets volatility, and holiday calendar. Luxury segment is showing near-term improvement after ~6 months of muted trends on higher OEM incentive spending (~+$300/unit m/m to ~$3,800/unit). BEV penetration is tracking modestly higher sequentially vs. 6.3% in October.",
       "tickers": [
-        "MSFT"
+        "TSLA",
+        "CAR"
       ],
       "source_item_ids": [
-        "gmail:1a213133a204b4ba",
-        "gmail:1a21328b3482884d"
+        "gmail:1a2149c9e17edb87"
       ]
     },
     {
-      "title": "Technical Analyst: Durable Bottom Not Yet in Place; Banks (KBW) Key to Market Direction",
-      "body": "Technical analysis indicates durable bottom set-ups are not quite in place based on current metrics. The KBW bank index is viewed as critical to whether a broader market rally is possible \u2014 the market is unlikely to sustainably rebound if banks continue declining. Multiple indicator readings are not yet at extreme levels despite significant price action declines.",
+      "title": "PANW faces accounting fraud lawsuit from former regional VP alleging revenue misrepresentation",
+      "body": "A former Palo Alto Networks regional VP filed suit alleging the company misrepresented deals as booked revenues to boost earnings. This is a headline risk for PANW as it navigates the broader cyber sector selloff following the CRWD-ZS deal.",
       "tickers": [],
       "source_item_ids": [
-        "gmail:1a212f006fab10b1"
+        "gmail:1a214a03d96ac479"
       ]
     },
     {
-      "title": "Q4 Real PCE Tracking 1.7% Annualized, Down from 2.5% Prior; Real Spending Flat in October",
-      "body": "October real PCE came in marginally negative, missing expectations by 10-20bps, with motor vehicles down 1.48%. Q4 real PCE is now tracking 1.7% annualized (assuming 2% sequential in November/December) versus a prior estimate of just under 2.5%. Real PCE ex-autos remains at 2.5% annualized, suggesting autos drove most of the miss. The saving rate edged up to 4.1% from 3.6%, while personal income beat at +0.73% MoM.",
+      "title": "GLP-1 adoption could reduce restaurant industry sales 0.5-0.7% by 2030; 73% of users cut fast-food visits",
+      "body": "KeyBanc notes 90% of GLP-1 users eat less per sitting and 73% have reduced fast-food visits, with Technomic estimating 0.5-0.7% industry sales headwind by 2030. Circana data shows foodservice spending declines through the first year of GLP-1 use with moderate recovery in year two. This is a secular headwind for the restaurant sector.",
       "tickers": [],
       "source_item_ids": [
-        "gmail:1a2130c68c24f4d6",
-        "gmail:1a2132376fd3227a"
+        "gmail:1a2143311167b069"
       ]
     },
     {
-      "title": "BofA LatAm 2027 Outlook: Brazil Near-Stagnation, Mexico AI Export Growth, Region Broadly Downgraded",
-      "body": "BofA forecasts Brazil GDP slowing to 0.3% in 2027 (from 1.6% in 2026) with Selic remaining at 13.75% through 3Q27 before easing to 13.25% YE. Mexico outperforms at 2.2% GDP growth driven by AI-related exports. Brazil, Peru, and Colombia were downgraded to marketweight from overweight; Mexico was upgraded to marketweight from underweight. Ibovespa target set at 190k and Mexbol at 80k for YE2027.",
+      "title": "Fed Beige Book: 8 of 12 districts saw slight-to-moderate growth; consumer spending flat with price sensitivity rising",
+      "body": "The Fed's Beige Book showed 8 of 12 districts experienced slight-to-moderate growth. Consumer spending was flat with heightened price sensitivity noted across districts. Jobless claims printed at 189K, well below the 200K consensus, adding to the case for continued Fed tightening.",
       "tickers": [],
       "source_item_ids": [
-        "gmail:1a2139da139cedd5"
+        "gmail:1a214eea45d6444a"
       ]
     }
   ]
