@@ -1,214 +1,181 @@
 {
-  "digest_type": "eod",
-  "digest_dt": "2026-11-25T18:00:00-05:00",
-  "saved_at": "2026-11-25T23:11:03.269948+00:00",
+  "digest_type": "premarket",
+  "digest_dt": "2026-11-26T08:30:00-05:00",
+  "saved_at": "2026-11-26T13:41:20.837138+00:00",
   "bullets": [
     {
-      "title": "NVDA: GPU resellers flood market post-BIS China remote-access restrictions; Jensen to testify Dec 1-3",
-      "body": "Since the Nov 16 BIS interim final rule restricting Chinese remote access to advanced chips in third-party data centers, an unusually high number of NVIDIA GPUs have come to market from resellers \u2014 chips originally destined for data centers renting compute to Chinese firms. New license requirements also added for advanced semis to Indonesia, Malaysia, Singapore, Thailand, and Brazil. Separately, Jensen Huang testifies before House committees Dec 1-2 and Senate Banking Dec 3 at a hearing titled 'Protecting America's AI Advantage: Oversight of US Export Controls.'",
+      "title": "NVDA: Export controls freeze SE Asia shipments; governance crisis deepens; GPU prices fall 28%",
+      "body": "BIS interim final rule (effective ~Nov 19) added destination-based licensing for Indonesia, Malaysia, Singapore, Thailand, and Brazil, closing the China remote-access loophole. NVIDIA asked server partners to halt shipments to those countries, stalling billions in data-center deals and causing B300 GPUs to appear on secondary markets; SpaceX cut spot GPU rental rates 28% to $10\u201312/hr from $15\u201315.50. Separately, Pentagon officials discussed invoking the Defense Production Act to force Nvidia to reappoint Jensen Huang as CEO on national security grounds, and S&P placed Nvidia on downgrade watch citing governance concerns.",
       "tickers": [
         "NVDA"
       ],
       "source_item_ids": [
-        "gmail:1a213d18521b85f9",
-        "gmail:1a214605ade0d55d"
+        "gmail:1a2170015d7b2d25",
+        "gmail:1a2156ea2833cf2d"
       ]
     },
     {
-      "title": "DELL: Q3 blowout on AI server demand; management says demand still strengthening, not peaking",
-      "body": "Dell's Q3 results beat on both AI and traditional server demand, with management commentary emphasizing demand is still strengthening rather than peaking \u2014 a bullish read-through for the AI compute capex theme broadly.",
+      "title": "NVDA/SMCI/DELL: SE Asia server shipment halt disrupts ODM supply chains",
+      "body": "Dell and Supermicro confirmed to buyers in affected SE Asia countries that NVIDIA will not allow pending server orders to ship during compliance review; cloud providers have 90 days to prove end clients are not restricted entities. Taiwanese/US server ODMs (Quanta, Compal, SMCI) flagged as first to see moderation in order expectations as chip resellers seek alternative buyers for B300 GPUs.",
       "tickers": [
+        "NVDA",
+        "SMCI",
         "DELL"
       ],
       "source_item_ids": [
-        "gmail:1a21490a860be823"
+        "gmail:1a2166ff8a27d314",
+        "gmail:1a21721d34211298"
       ]
     },
     {
-      "title": "CRM: Wolfe cuts PT to $250 from $360 on softer field checks",
-      "body": "Wolfe Research reduced its Salesforce price target to $250 from $360 after softer channel checks, noting organic revenue numbers 'feel too high.' The Wolfe All-SaaS index fell 7.31% week-over-week; SOX down ~10% over the past week despite Jensen Huang commentary.",
+      "title": "Semis cycle: Jefferies sees 2027 EPS cuts driving trough H1-28, recovery from H2-27",
+      "body": "Semiconductor cycle peaked June 2026 at 94\u2013135% YoY growth (highest on record), driven by memory pricing; valuations peaked 5 months before the underlying cycle. Jefferies argues earlier/sharper 2027 EPS cuts vs. dragging into 2028 would shorten the downcycle, with earliest trough H1-28 and a re-rating rally from H2-27. Aggregate short exposure in AI stocks is at multi-year highs as a % of total global gross exposure; US Semis saw ~3-sigma net selling over 20 days.",
       "tickers": [
-        "CRM"
+        "NVDA",
+        "MU"
       ],
       "source_item_ids": [
-        "gmail:1a214b6c2c3d7f67"
+        "gmail:1a21721d34211298",
+        "gmail:1a2170015d7b2d25"
       ]
     },
     {
-      "title": "PANW: Former regional VP files accounting fraud lawsuit alleging revenue misrepresentation",
-      "body": "A former Palo Alto Networks regional VP filed a lawsuit accusing the company of accounting fraud, specifically alleging efforts to misrepresent deals as booked revenues to boost earnings. No company response cited.",
+      "title": "MU: DRAM outlook softens for 2027; 2028 broad downturn risk flagged; HBM +80% YoY",
+      "body": "Morgan Stanley/TrendForce cut 1Q27 DRAM price forecast to +3\u20138% QoQ (from +5\u201310%); 2Q27 and 2H27 expected at +0\u20135% and flat respectively, with LPDDR4X/consumer DRAM falling 5\u201310% in 4Q27. Bear case envisions DRAM declines exceeding 15% QoQ from 1Q28; bit supply expected to grow 25% in 2027 and 25\u201330% in 2028. HBM bit demand remains a bright spot at projected 80% YoY growth in 2027, with Samsung targeting 60\u201370% of 2027\u201329 capacity under multi-year contracts with price floors.",
       "tickers": [
-        "PANW"
+        "MU"
       ],
       "source_item_ids": [
-        "gmail:1a214a03d96ac479"
+        "gmail:1a2176a4c8105c7f",
+        "gmail:1a215284bb23d609"
       ]
     },
     {
-      "title": "ADSK: Q3 beat + FY27 guidance raise; KeyBanc reiterates OW at $341 PT on 12% organic growth + MaintainX upside",
-      "body": "Autodesk beat Q3 EPS by 4.2% and raised FY27 billings guidance to ~11% y/y growth; MaintainX contributed $33M in F3Q vs. ~$28M expected. KeyBanc reiterates Overweight with $341 PT (23x FY28 EV/FCF), noting ADSK trades at 18x FY28 EV/FCF vs. industrial software peers at 23.5x. 85% of sell-side rated Buy; FY28 visibility clouded by FX and sales reorg lapping effects.",
+      "title": "NVDA B300 lead times stretch to 40 weeks; DRAM to remain undersupplied in 2027",
+      "body": "Citi reports NVDA B300 GPU lead times have stretched to 26\u201340 weeks vs. 14\u201326 weeks for GB300, with new orders not fulfilling until 2Q27\u20133Q27. NVDA is scaling back GeForce RTX 50 shipments to prioritize AI products. Global DRAM market projected undersupplied in 2027, with DRAM revenue forecast at $1.15 trillion (+69% YoY); NAND oversupplied as Chinese CSPs cut enterprise SSD purchases.",
       "tickers": [
-        "ADSK"
+        "NVDA",
+        "MU"
       ],
       "source_item_ids": [
-        "gmail:1a213ccbfa0a0bfa",
-        "gmail:1a21403d96f513e1"
+        "gmail:1a215284bb23d609"
       ]
     },
     {
-      "title": "MDB: Narrative dominated by leadership transition and M&A speculation",
-      "body": "Wolfe flagged that MongoDB's stock story is currently dominated by the CEO transition and M&A questions rather than fundamentals, with no specific guidance change noted.",
+      "title": "GEV: JPM raises AI datacenter power forecast to 303GW by 2028; GEV supply tightness supports margins",
+      "body": "JPMorgan's updated datacenter power model now forecasts 303GW installed base by 2028 (+4% vs. prior 290GW), driven by incremental CoWoS allocations and higher GPU/ASIC shipments. GEV supply tightness should support margin expansion in the power segment. Server PSU market expected to grow ~83% over 2025\u201328 to $53bn; liquid cooling component TAM revised up with ~128% CAGR 2025\u201328 driven by all-major-ASIC adoption of double-sided cold plate design.",
       "tickers": [
-        "MDB"
+        "GEV"
       ],
       "source_item_ids": [
-        "gmail:1a214b6c2c3d7f67"
+        "gmail:1a21726e471cd515"
       ]
     },
     {
-      "title": "SNOW: Checks solid; long-tilted view but risk-off market limits upside near-term",
-      "body": "Wolfe's channel checks on Snowflake came in solid with a long-tilted view, but cautions that a risk-off market environment could cap near-term upside.",
+      "title": "DIS: Wins TRO halting FCC early review of ABC broadcast licenses",
+      "body": "Disney secured a temporary restraining order stopping the FCC from continuing its early review of ABC's broadcast-station licenses. ABC had filed a First Amendment lawsuit in August 2026 claiming the FCC investigations were part of a retaliatory campaign; FCC probes had been planned since July 2026. The TRO removes near-term regulatory uncertainty for the ABC license portfolio.",
       "tickers": [
-        "SNOW"
+        "DIS"
       ],
       "source_item_ids": [
-        "gmail:1a214b6c2c3d7f67"
+        "gmail:1a215567d563c7e4"
       ]
     },
     {
-      "title": "META: +3.4% on Muse AI-Walmart integration; AR/VR demand at ~16% holiday intent",
-      "body": "Meta's Muse AI agent was integrated with Walmart's retail platform for Black Friday deal discovery, driving a 3.4% gain. Separately, Citi's holiday electronics survey shows ~16% of consumers intend to purchase AR/VR headsets/smart glasses, a positive read-through for Meta's wearables/Reality Labs business.",
+      "title": "CRM, MDB, MRVL: Upcoming earnings catalysts in early December",
+      "body": "Earnings calendar shows MDB, MRVL, CRM, and RH are among the key tech/retail reporters in early December. No specific estimates or preview commentary were provided beyond the calendar notice.",
       "tickers": [
-        "META"
+        "CRM",
+        "MDB",
+        "MRVL"
       ],
       "source_item_ids": [
-        "gmail:1a21490a860be823",
-        "gmail:1a214a57c51e2af0"
+        "gmail:1a217bb2f3ea8903"
       ]
     },
     {
-      "title": "AAPL: iPhone captures 42% of holiday smartphone purchase intent; AI replacement cycle supportive",
-      "body": "Citi's US holiday electronics survey ranks smartphones #1 at 51% purchase intent, with iPhone and Samsung Galaxy each at 42% share. MacBook Air/Pro tied with Windows desktops at ~24% for PC purchases. Results support AI-driven replacement activity thesis.",
+      "title": "VEEV: Needs R&D growth beat and Falcon pipeline-to-paid evidence at upcoming print",
+      "body": "Truist notes VEEV needs better-than-expected R&D growth and billings upside at its upcoming earnings, with greater evidence of Falcon progressing from pipeline to paid deployments required to support the stock following an underwhelming Investor Day.",
       "tickers": [
-        "AAPL"
+        "VEEV"
       ],
       "source_item_ids": [
-        "gmail:1a214a57c51e2af0"
+        "gmail:1a2152086bb9e091"
       ]
     },
     {
-      "title": "NFLX: Acquires Radford Studio Center for $380M; bidding for FIFA World Cup rights",
-      "body": "Netflix purchased the 1.14M sq ft Radford Studio Center in LA for $380M \u2014 its first owned LA studio lot \u2014 and is reportedly bidding for FIFA World Cup broadcast rights. Stock gained ~0.9% on the news.",
+      "title": "AMZN/META: Black Friday eComm uncertainty flagged; META Muse AI agent integrates with Walmart",
+      "body": "Goldman sales desk flagged possible eCommerce concerns for AMZN into Black Friday amid wealth effect questions. META Muse AI shopping agent was integrated with Walmart for Black Friday deals, with META up 3.4% on the session. Negative checks on GOOGL ad spending (Search + YouTube) also noted by SemiAnalysis.",
       "tickers": [
-        "NFLX"
+        "AMZN",
+        "META",
+        "GOOGL"
       ],
       "source_item_ids": [
-        "gmail:1a21490a860be823",
-        "gmail:1a2149342d668733"
+        "gmail:1a2170015d7b2d25"
       ]
     },
     {
-      "title": "AFRM: +3.2% in fintech outperformance week; cards/payments group +4.0%",
-      "body": "Affirm gained 3.2% as the cards/payments group outperformed the broader banking sector by ~6 points (group +4.0% vs. Investment Banks/Brokers -1.9%). PYPL +6.8% and FOUR +11.4% led the fintech cohort.",
+      "title": "BABA: Flagged as preferred China AI exposure; US chip curbs stall data-center lending tied to Alibaba",
+      "body": "JPM webinar flagged BABA and Tencent as preferred exposures for China AI value chain expansion. However, US chip curbs are disrupting billions in loans tied to ByteDance, Alibaba, and Tencent data centers; lenders including Citigroup and Standard Chartered are conducting sweeping reviews of data-center clients, and some deals near completion are now in doubt.",
       "tickers": [
-        "AFRM"
+        "BABA"
       ],
       "source_item_ids": [
-        "gmail:1a214eea45d6444a"
+        "gmail:1a21510a81b91eff",
+        "gmail:1a215117886f1820"
       ]
     },
     {
-      "title": "HOOD: -5.0% on the week; Wedbush initiates Outperform; stock gaining in sympathy with Bitcoin ~$60.1K",
-      "body": "Robinhood fell 5% as Investment Banks/Brokers underperformed, but Wedbush initiated coverage with an Outperform rating and the stock is seeing sympathy moves with Bitcoin near $60,100.",
+      "title": "INTC: Trump administration reportedly made demands to chips CEO per Wired report",
+      "body": "A Wired article titled 'Inside Team Trump's Takeover of a Chips Giant' describes Trump administration demands to the chips CEO, with INTC specifically mentioned. No further details on the nature of demands were disclosed in the digest summary. Separately, Citi notes Intel's 18A process yield reached 70% and 14A process adoption is advancing.",
       "tickers": [
-        "HOOD"
+        "INTC"
       ],
       "source_item_ids": [
-        "gmail:1a214eea45d6444a"
+        "gmail:1a21800945b72036",
+        "gmail:1a215284bb23d609"
       ]
     },
     {
-      "title": "UBER/TSLA: UBS forecasts $90bn US robotaxi market by 2040; both primary coverage names",
-      "body": "UBS published a detailed Q-Series on the US robotaxi market sizing it at ~$90bn annual gross bookings by 2040 on ~600k robotaxis, with Tesla and Uber as the primary company focus areas; base, bull, and bear scenarios modeled.",
+      "title": "JPM tactically constructive on semis rebound; positioning reset may be advanced",
+      "body": "JPM International Market Intelligence notes US Semis saw ~3-sigma net selling over 20 days with shorts around +4-sigma, potentially setting the stage for a reversal if prices establish a positive trend. Hedge fund net exposure has fallen >30% from 12-month highs, comparable to late 2018 and March 2020. JPM flags that reduction in vol, rebound in Beta/Cyclical-Defensive, continued regrossing, and improved flows to Semis would increase confidence in a rebound.",
       "tickers": [
-        "UBER",
-        "TSLA"
+        "NVDA",
+        "MU"
       ],
       "source_item_ids": [
-        "gmail:1a213af74e6d7a61"
+        "gmail:1a216c2d612f0559"
       ]
     },
     {
-      "title": "TSLA: EV mix tracking modestly higher sequentially; RIVN R2 cited as credible competitive threat",
-      "body": "JPM's November auto review notes BEV penetration tracking modestly above October's 6.3% mix. The Rivian R2 is flagged as an emerging credible competitive threat to Tesla in the mid-size SUV segment.",
+      "title": "GOOGL: Negative ad spending checks flagged by SemiAnalysis (Search + YouTube)",
+      "body": "Goldman TMT sales desk cited negative checks from SemiAnalysis on GOOGL advertising spending across both Search and YouTube. No magnitude or specific period was disclosed, but it was flagged as an incremental negative alongside broader AI monetization concerns.",
       "tickers": [
-        "TSLA"
+        "GOOGL"
       ],
       "source_item_ids": [
-        "gmail:1a2149c9e17edb87"
+        "gmail:1a2170015d7b2d25"
       ]
     },
     {
-      "title": "Semi positioning: 3z net selling over 20 days; UBS sees valuations pricing ~25-30% compute capacity cuts",
-      "body": "JPM positioning data shows US Semis saw 3z net selling over 20 days with shorting at +4z level \u2014 a potential setup for a reversal if volatility recedes. UBS independently notes semis are now pricing in ~25-30% cuts to 2028 compute capacity, calling valuations 'attractive.' JPM sees AI stocks poised for Dec/Jan recovery post Oct/Nov capitulation.",
+      "title": "ACN: Cybersecurity unit (~15% of revenue) flagged as underappreciated by UBS",
+      "body": "UBS notes ACN's cybersecurity business, representing approximately 15% of revenue, is underappreciated by the market; CrowdStrike acquiring Zscaler at a 37% premium was cited as a valuation reference point. The note was embedded in a business services software weekly alongside INTA and FICO commentary.",
+      "tickers": [
+        "ACN"
+      ],
+      "source_item_ids": [
+        "gmail:1a21509d4532be61"
+      ]
+    },
+    {
+      "title": "JPM APAC Tech: AI infra sentiment could bottom Q1 2027; token consumption up 25x YTD",
+      "body": "JPM's APAC Tech conference takeaways note YTD token consumption increased 25x, signaling robust underlying AI demand despite bearish investor sentiment; only 2% of investors believe AI hardware stocks are oversold. Supply chains are gearing up at full capacity for a 2\u20133 year AI compute ramp. Three catalysts needed for recovery: successful US AI IPOs, clear AI data-center policy, and AI server supply chain revenue reassessment; sentiment could bottom Q1 2027.",
       "tickers": [
         "NVDA"
       ],
       "source_item_ids": [
-        "gmail:1a21403d96f513e1",
-        "gmail:1a214705759ef8bd"
-      ]
-    },
-    {
-      "title": "WDAY: Q3 beat with AI ARR +130% y/y; raised FY27 guidance but FQ4 sub revenue/cRPO disappointed",
-      "body": "Workday beat Q3 with AI ARR up 130% y/y and raised full-year guidance, but FQ4 subscription revenue and cRPO outlooks disappointed. The stock traded higher but Wolfe notes 11% next-year sub revenue growth target remains questionable.",
-      "tickers": [
-        "WDAY"
-      ],
-      "source_item_ids": [
-        "gmail:1a21490a860be823",
-        "gmail:1a214b6c2c3d7f67"
-      ]
-    },
-    {
-      "title": "OKTA: Positive checks with cRPO acceleration in F3Q and F4Q guide; AI momentum building",
-      "body": "Wolfe's channel checks on Okta came in positive, showing cRPO acceleration in both F3Q actuals and F4Q guidance. AI momentum described as early but progressing.",
-      "tickers": [
-        "OKTA"
-      ],
-      "source_item_ids": [
-        "gmail:1a214b6c2c3d7f67"
-      ]
-    },
-    {
-      "title": "CRWD/ZS: CRWD acquired ZS in largest-ever security deal; combined entity better positioned for AI security despite selloff",
-      "body": "CrowdStrike acquired Zscaler in what Wolfe describes as the largest security deal in history. Despite a share price selloff post-announcement, Wolfe views the combined company as better positioned to gain AI security market share. CRWD reported impressive F3Q results alongside the deal.",
-      "tickers": [
-        "CRWD",
-        "ZS"
-      ],
-      "source_item_ids": [
-        "gmail:1a214b6c2c3d7f67"
-      ]
-    },
-    {
-      "title": "TSM: JPM Asia OW; AI supercycle seen continuing with semis/hardware net income set to exceed $1tn by 2028",
-      "body": "JPM's Asia 2027 outlook is bullish on the AI supercycle, with AI stocks comprising >50% of Asia index weight and expected to drive ~70% of earnings growth in 2027. TSMC is among the top 15 preferred stocks; JPM calls current bearish AI overbuilt-capex narrative 'stale.' Datacenter ROI >30% at current rental rates cited as evidence cycle is not peaking.",
-      "tickers": [
-        "TSM"
-      ],
-      "source_item_ids": [
-        "gmail:1a21426ea078a58a"
-      ]
-    },
-    {
-      "title": "GLW: Lower TV spending modestly mixed; gaming/smartphone spend shift limits TV category growth",
-      "body": "Citi's holiday survey shows TVs ranked below gaming peripherals (44% intent) and smartphones (51%) in purchase priority, creating a modest headwind for Corning's display glass business despite longer-term large-screen TV trends.",
-      "tickers": [
-        "GLW"
-      ],
-      "source_item_ids": [
-        "gmail:1a214a57c51e2af0"
+        "gmail:1a217b1ff4b41426"
       ]
     }
   ]
