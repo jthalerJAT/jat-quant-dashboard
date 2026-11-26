@@ -1,181 +1,37 @@
 {
-  "digest_type": "premarket",
-  "digest_dt": "2026-11-26T08:30:00-05:00",
-  "saved_at": "2026-11-26T13:41:20.837138+00:00",
+  "digest_type": "midday",
+  "digest_dt": "2026-11-26T12:00:00-05:00",
+  "saved_at": "2026-11-26T17:04:11.104633+00:00",
   "bullets": [
     {
-      "title": "NVDA: Export controls freeze SE Asia shipments; governance crisis deepens; GPU prices fall 28%",
-      "body": "BIS interim final rule (effective ~Nov 19) added destination-based licensing for Indonesia, Malaysia, Singapore, Thailand, and Brazil, closing the China remote-access loophole. NVIDIA asked server partners to halt shipments to those countries, stalling billions in data-center deals and causing B300 GPUs to appear on secondary markets; SpaceX cut spot GPU rental rates 28% to $10\u201312/hr from $15\u201315.50. Separately, Pentagon officials discussed invoking the Defense Production Act to force Nvidia to reappoint Jensen Huang as CEO on national security grounds, and S&P placed Nvidia on downgrade watch citing governance concerns.",
+      "title": "PANW: Lawsuit alleging accounting fraud filed by former executive",
+      "body": "A former Palo Alto Networks executive has filed a lawsuit alleging accounting fraud at the company. No further financial details or magnitudes were provided in the source, but the allegation is a potential headline risk for the stock.",
       "tickers": [
+        "PANW"
+      ],
+      "source_item_ids": [
+        "gmail:1a21886f97567cc3"
+      ]
+    },
+    {
+      "title": "META: Dutch court halts smart glasses sales in Netherlands on privacy grounds",
+      "body": "A Dutch consumer rights group obtained a court order halting Meta smart glasses sales in the Netherlands due to privacy concerns. This is a regulatory/legal overhang for Meta's hardware segment in the EU, though the Netherlands market is small relative to global scale.",
+      "tickers": [
+        "META"
+      ],
+      "source_item_ids": [
+        "gmail:1a21886f97567cc3"
+      ]
+    },
+    {
+      "title": "ARM: Morgan Stanley flags growing conviction in AI ramp at European TMT Conference",
+      "body": "Morgan Stanley's European TMT Conference highlighted ARM Holdings as a name with growing conviction around AI ramp, with semiconductors and data center demand cited as among the biggest stock debates. The note flagged a disconnect between constructive corporate commentary and cautious investor positioning.",
+      "tickers": [
+        "ARM",
         "NVDA"
       ],
       "source_item_ids": [
-        "gmail:1a2170015d7b2d25",
-        "gmail:1a2156ea2833cf2d"
-      ]
-    },
-    {
-      "title": "NVDA/SMCI/DELL: SE Asia server shipment halt disrupts ODM supply chains",
-      "body": "Dell and Supermicro confirmed to buyers in affected SE Asia countries that NVIDIA will not allow pending server orders to ship during compliance review; cloud providers have 90 days to prove end clients are not restricted entities. Taiwanese/US server ODMs (Quanta, Compal, SMCI) flagged as first to see moderation in order expectations as chip resellers seek alternative buyers for B300 GPUs.",
-      "tickers": [
-        "NVDA",
-        "SMCI",
-        "DELL"
-      ],
-      "source_item_ids": [
-        "gmail:1a2166ff8a27d314",
-        "gmail:1a21721d34211298"
-      ]
-    },
-    {
-      "title": "Semis cycle: Jefferies sees 2027 EPS cuts driving trough H1-28, recovery from H2-27",
-      "body": "Semiconductor cycle peaked June 2026 at 94\u2013135% YoY growth (highest on record), driven by memory pricing; valuations peaked 5 months before the underlying cycle. Jefferies argues earlier/sharper 2027 EPS cuts vs. dragging into 2028 would shorten the downcycle, with earliest trough H1-28 and a re-rating rally from H2-27. Aggregate short exposure in AI stocks is at multi-year highs as a % of total global gross exposure; US Semis saw ~3-sigma net selling over 20 days.",
-      "tickers": [
-        "NVDA",
-        "MU"
-      ],
-      "source_item_ids": [
-        "gmail:1a21721d34211298",
-        "gmail:1a2170015d7b2d25"
-      ]
-    },
-    {
-      "title": "MU: DRAM outlook softens for 2027; 2028 broad downturn risk flagged; HBM +80% YoY",
-      "body": "Morgan Stanley/TrendForce cut 1Q27 DRAM price forecast to +3\u20138% QoQ (from +5\u201310%); 2Q27 and 2H27 expected at +0\u20135% and flat respectively, with LPDDR4X/consumer DRAM falling 5\u201310% in 4Q27. Bear case envisions DRAM declines exceeding 15% QoQ from 1Q28; bit supply expected to grow 25% in 2027 and 25\u201330% in 2028. HBM bit demand remains a bright spot at projected 80% YoY growth in 2027, with Samsung targeting 60\u201370% of 2027\u201329 capacity under multi-year contracts with price floors.",
-      "tickers": [
-        "MU"
-      ],
-      "source_item_ids": [
-        "gmail:1a2176a4c8105c7f",
-        "gmail:1a215284bb23d609"
-      ]
-    },
-    {
-      "title": "NVDA B300 lead times stretch to 40 weeks; DRAM to remain undersupplied in 2027",
-      "body": "Citi reports NVDA B300 GPU lead times have stretched to 26\u201340 weeks vs. 14\u201326 weeks for GB300, with new orders not fulfilling until 2Q27\u20133Q27. NVDA is scaling back GeForce RTX 50 shipments to prioritize AI products. Global DRAM market projected undersupplied in 2027, with DRAM revenue forecast at $1.15 trillion (+69% YoY); NAND oversupplied as Chinese CSPs cut enterprise SSD purchases.",
-      "tickers": [
-        "NVDA",
-        "MU"
-      ],
-      "source_item_ids": [
-        "gmail:1a215284bb23d609"
-      ]
-    },
-    {
-      "title": "GEV: JPM raises AI datacenter power forecast to 303GW by 2028; GEV supply tightness supports margins",
-      "body": "JPMorgan's updated datacenter power model now forecasts 303GW installed base by 2028 (+4% vs. prior 290GW), driven by incremental CoWoS allocations and higher GPU/ASIC shipments. GEV supply tightness should support margin expansion in the power segment. Server PSU market expected to grow ~83% over 2025\u201328 to $53bn; liquid cooling component TAM revised up with ~128% CAGR 2025\u201328 driven by all-major-ASIC adoption of double-sided cold plate design.",
-      "tickers": [
-        "GEV"
-      ],
-      "source_item_ids": [
-        "gmail:1a21726e471cd515"
-      ]
-    },
-    {
-      "title": "DIS: Wins TRO halting FCC early review of ABC broadcast licenses",
-      "body": "Disney secured a temporary restraining order stopping the FCC from continuing its early review of ABC's broadcast-station licenses. ABC had filed a First Amendment lawsuit in August 2026 claiming the FCC investigations were part of a retaliatory campaign; FCC probes had been planned since July 2026. The TRO removes near-term regulatory uncertainty for the ABC license portfolio.",
-      "tickers": [
-        "DIS"
-      ],
-      "source_item_ids": [
-        "gmail:1a215567d563c7e4"
-      ]
-    },
-    {
-      "title": "CRM, MDB, MRVL: Upcoming earnings catalysts in early December",
-      "body": "Earnings calendar shows MDB, MRVL, CRM, and RH are among the key tech/retail reporters in early December. No specific estimates or preview commentary were provided beyond the calendar notice.",
-      "tickers": [
-        "CRM",
-        "MDB",
-        "MRVL"
-      ],
-      "source_item_ids": [
-        "gmail:1a217bb2f3ea8903"
-      ]
-    },
-    {
-      "title": "VEEV: Needs R&D growth beat and Falcon pipeline-to-paid evidence at upcoming print",
-      "body": "Truist notes VEEV needs better-than-expected R&D growth and billings upside at its upcoming earnings, with greater evidence of Falcon progressing from pipeline to paid deployments required to support the stock following an underwhelming Investor Day.",
-      "tickers": [
-        "VEEV"
-      ],
-      "source_item_ids": [
-        "gmail:1a2152086bb9e091"
-      ]
-    },
-    {
-      "title": "AMZN/META: Black Friday eComm uncertainty flagged; META Muse AI agent integrates with Walmart",
-      "body": "Goldman sales desk flagged possible eCommerce concerns for AMZN into Black Friday amid wealth effect questions. META Muse AI shopping agent was integrated with Walmart for Black Friday deals, with META up 3.4% on the session. Negative checks on GOOGL ad spending (Search + YouTube) also noted by SemiAnalysis.",
-      "tickers": [
-        "AMZN",
-        "META",
-        "GOOGL"
-      ],
-      "source_item_ids": [
-        "gmail:1a2170015d7b2d25"
-      ]
-    },
-    {
-      "title": "BABA: Flagged as preferred China AI exposure; US chip curbs stall data-center lending tied to Alibaba",
-      "body": "JPM webinar flagged BABA and Tencent as preferred exposures for China AI value chain expansion. However, US chip curbs are disrupting billions in loans tied to ByteDance, Alibaba, and Tencent data centers; lenders including Citigroup and Standard Chartered are conducting sweeping reviews of data-center clients, and some deals near completion are now in doubt.",
-      "tickers": [
-        "BABA"
-      ],
-      "source_item_ids": [
-        "gmail:1a21510a81b91eff",
-        "gmail:1a215117886f1820"
-      ]
-    },
-    {
-      "title": "INTC: Trump administration reportedly made demands to chips CEO per Wired report",
-      "body": "A Wired article titled 'Inside Team Trump's Takeover of a Chips Giant' describes Trump administration demands to the chips CEO, with INTC specifically mentioned. No further details on the nature of demands were disclosed in the digest summary. Separately, Citi notes Intel's 18A process yield reached 70% and 14A process adoption is advancing.",
-      "tickers": [
-        "INTC"
-      ],
-      "source_item_ids": [
-        "gmail:1a21800945b72036",
-        "gmail:1a215284bb23d609"
-      ]
-    },
-    {
-      "title": "JPM tactically constructive on semis rebound; positioning reset may be advanced",
-      "body": "JPM International Market Intelligence notes US Semis saw ~3-sigma net selling over 20 days with shorts around +4-sigma, potentially setting the stage for a reversal if prices establish a positive trend. Hedge fund net exposure has fallen >30% from 12-month highs, comparable to late 2018 and March 2020. JPM flags that reduction in vol, rebound in Beta/Cyclical-Defensive, continued regrossing, and improved flows to Semis would increase confidence in a rebound.",
-      "tickers": [
-        "NVDA",
-        "MU"
-      ],
-      "source_item_ids": [
-        "gmail:1a216c2d612f0559"
-      ]
-    },
-    {
-      "title": "GOOGL: Negative ad spending checks flagged by SemiAnalysis (Search + YouTube)",
-      "body": "Goldman TMT sales desk cited negative checks from SemiAnalysis on GOOGL advertising spending across both Search and YouTube. No magnitude or specific period was disclosed, but it was flagged as an incremental negative alongside broader AI monetization concerns.",
-      "tickers": [
-        "GOOGL"
-      ],
-      "source_item_ids": [
-        "gmail:1a2170015d7b2d25"
-      ]
-    },
-    {
-      "title": "ACN: Cybersecurity unit (~15% of revenue) flagged as underappreciated by UBS",
-      "body": "UBS notes ACN's cybersecurity business, representing approximately 15% of revenue, is underappreciated by the market; CrowdStrike acquiring Zscaler at a 37% premium was cited as a valuation reference point. The note was embedded in a business services software weekly alongside INTA and FICO commentary.",
-      "tickers": [
-        "ACN"
-      ],
-      "source_item_ids": [
-        "gmail:1a21509d4532be61"
-      ]
-    },
-    {
-      "title": "JPM APAC Tech: AI infra sentiment could bottom Q1 2027; token consumption up 25x YTD",
-      "body": "JPM's APAC Tech conference takeaways note YTD token consumption increased 25x, signaling robust underlying AI demand despite bearish investor sentiment; only 2% of investors believe AI hardware stocks are oversold. Supply chains are gearing up at full capacity for a 2\u20133 year AI compute ramp. Three catalysts needed for recovery: successful US AI IPOs, clear AI data-center policy, and AI server supply chain revenue reassessment; sentiment could bottom Q1 2027.",
-      "tickers": [
-        "NVDA"
-      ],
-      "source_item_ids": [
-        "gmail:1a217b1ff4b41426"
+        "gmail:1a218786eda8d11e"
       ]
     }
   ]
