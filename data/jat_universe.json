@@ -1,170 +1,226 @@
 {
-  "digest_type": "premarket",
-  "digest_dt": "2026-11-27T08:30:00-05:00",
-  "saved_at": "2026-11-27T13:43:19.095645+00:00",
+  "digest_type": "midday",
+  "digest_dt": "2026-11-27T12:00:00-05:00",
+  "saved_at": "2026-11-27T17:09:46.129656+00:00",
   "bullets": [
     {
-      "title": "NVDA: Premarket rally as market bets administration backs Jensen; ASEAN shipment halt is key risk",
-      "body": "NVDA stabilized in premarket (SMH +4.45%, NVDA/ANT +3%) as markets anticipate Jensen Huang's upcoming Congressional testimony will be supportive. However, NVDA has quietly terminated server shipments to Malaysia, Singapore, Thailand, and Indonesia following BIS export controls \u2014 Malaysia alone had a >10GW data center plan with >50% serving Chinese hyperscalers, creating a material 2H27 upstream supply risk. Chinese firms also reportedly used NVDA Blackwell hardware (GB300/GB200) as collateral for ~190M yuan in Shanghai loans, briefly softening E-Mini futures at 6:44am.",
+      "title": "Semis/AI broad rally: sector up 4%+ on oversold reversal, echoes Dec 2018 bottom",
+      "body": "SOXX ETF +4.04% premarket with 40+ semiconductor names gaining 3-10%; LITE +7.8%, COHR +7.5%, ANET +4.3%, SHOP +4.3%, DELL +4.3%. Analyst notes Wednesday's 8% intraday reversal from lows resembles the Dec 2018 inflection \u2014 but memory stocks (MU, SNDK) lagging badly, with MU down 15% and SNDK down 24% over 5 days despite premarket bounces, signaling zero real buyer conviction in that sub-segment.",
+      "tickers": [
+        "LITE",
+        "COHR",
+        "ANET",
+        "SHOP",
+        "DELL",
+        "MU",
+        "SNDK",
+        "AMD",
+        "AVGO",
+        "MRVL",
+        "CRDO",
+        "ARM",
+        "STX",
+        "TSEM",
+        "INTC"
+      ],
+      "source_item_ids": [
+        "gmail:1a21d7603303b04d",
+        "gmail:1a21d5c17c7cdb6c"
+      ]
+    },
+    {
+      "title": "NVDA: bullish admin support narrative vs. China Blackwell smuggling risk ahead of Jensen testimony",
+      "body": "Roth Capital frames Jensen Huang's upcoming Congressional testimony as a net positive, calling this a 'Jensen 2.0' era with admin support; Trump positioned as NVDA-friendly. However, reports of Blackwell chips found in a Shanghai data center triggered softness in S&P futures at 6:44am ET, and a GPU investigation into SE Asia/Megaspeed distribution is expected to surface surprises. ASML also cited at risk if Dutch government resists U.S. Match Act export controls (China is 23% of ASML systems revenue).",
       "tickers": [
         "NVDA"
       ],
       "source_item_ids": [
-        "gmail:1a21d088ca758015",
-        "gmail:1a21c5bd3ced96e5"
+        "gmail:1a21d34a2c5386d5",
+        "gmail:1a21d7603303b04d"
       ]
     },
     {
-      "title": "NVDA/TSM/MU: US export controls tighten \u2014 TSMC/Samsung halt <16nm Chinese shipments; DRAM & NAND forecasts cut",
-      "body": "TSMC and Samsung halted shipments of <16nm products designed by Chinese firms under new US restrictions. TrendForce revised 2027 NAND revenue to $419.3B (29% YoY) and DRAM revenue to $1.15T (69% YoY), with 2027 supply/demand tight (DRAM -3.8%, NAND -3.3%) but contract price gains narrowing in 2H27. NAND ASPs expected to decline 20-25% YoY in 4Q27; conventional DRAM prices forecast to fall broadly from 1Q28, with bear case >15% QoQ declines.",
+      "title": "OKTA Q3 preview: consensus $816M rev/$0.93 EPS; 20-for-20 beat rate, options imply ~16% move",
+      "body": "OKTA Q3 consensus sits at $816M revenue vs. guidance midpoint $815M and EPS $0.93 vs. guidance $0.92-$0.94; stock is +50% since late August. OKTA has beaten both revenue and EPS consensus in all 20 of the last 20 quarters. Near-term options imply a ~16.2% post-earnings move.",
       "tickers": [
-        "NVDA",
-        "TSM",
-        "MU"
+        "OKTA"
       ],
       "source_item_ids": [
-        "gmail:1a21a5577bd2e463",
-        "gmail:1a21cb96e849a5cc"
+        "gmail:1a21d3f832fd7628"
       ]
     },
     {
-      "title": "AMD, CRM: Erste Group downgrades both to Hold from Buy; SPOT upgraded to Buy",
-      "body": "Erste Group analyst Hans Engel cut AMD and CRM to Hold from Buy, and upgraded SPOT to Buy from Hold. No price targets disclosed. This is a tier-2 house but directionally confirms recent underperformance concerns for AMD and CRM amid slower AI monetization.",
+      "title": "NTSK: KeyBanc raises PT to $30 on strong VAR checks; S flagged as flat demand despite cheap valuation",
+      "body": "KeyBanc VAR channel checks for NTSK were uniformly positive \u2014 four U.S. VARs cited F100 wins and improved GTM execution; expect F3Q ARR beat of ~$7M at ~$954M (27% y/y) with NNARR accelerating to 18% y/y. NTSK trades at 11.3x CY27 revenue vs. security sector avg 9.8x. SentinelOne (S) checks were below plan with no demand inflection; large F4Q deal shows customer consolidating onto CrowdStrike; S trades at just 5.9x revenue but fundamentals not yet inflecting.",
       "tickers": [
-        "AMD",
-        "CRM",
-        "SPOT"
+        "NTSK",
+        "S"
       ],
       "source_item_ids": [
-        "gmail:1a21cba6bfc90dcd",
-        "gmail:1a21d25ef3993d31"
+        "gmail:1a21d89dca452d61"
       ]
     },
     {
-      "title": "CRM: JPM reiterates OW ahead of F3Q27; F4Q cRPO guide of 12%+ key to re-rating thesis",
-      "body": "JPM expects F3Q organic cRPO growth ~11% (vs ~10% guide) and a F4Q guide of at least 12% CC, implying ~10%+ organic growth and 2H re-acceleration. Agentforce ARR at $1.5B; premium mix grew to 5% of base from 1% in F1Q25 (each 1% migration = ~$100M revenue). Shares at 10x EV/uFCF on FY27, with re-rating potential on acceleration.",
+      "title": "WDAY: Hedgeye flags decelerating growth \u2014 RPO missed by $1.1B, subscription margins at multi-year low",
+      "body": "WDAY subscription revenue growth slowed to ~11.5% in H2 vs. 14.1% H1, with Q4 guided at +10%. Total RPO grew just +6.1% to $27.5B, $1.1B below Street estimates, marking 13 consecutive quarters of RPO growth deceleration. AI ARR exceeded $750M (>130% YoY) but is substituting for core HR/finance spend rather than adding incremental growth; subscription gross margin hit its lowest level since Q4 FY23.",
       "tickers": [
-        "CRM"
+        "WDAY"
       ],
       "source_item_ids": [
-        "gmail:1a21cac275f2713e"
+        "gmail:1a21d4bf1afbbe40"
       ]
     },
     {
-      "title": "MRVL, MDB, CRM: Upcoming earnings catalysts in first week of December",
-      "body": "MongoDB (Tue Dec 1 AMC, consensus EPS $1.61, rev $762.5M), Marvell Technology (Tue Dec 1 16:30 ET, EPS $1.10, rev $3.15B), and Salesforce (Wed Dec 2 AMC, EPS $3.45, rev $11.46B) all report next week. RH reports Thu Dec 3 (EPS $0.69, rev $932.5M unconfirmed).",
+      "title": "PLTR: $300M Poland defense AI deal signed",
+      "body": "Palantir signed a $300M defense AI contract with Poland, cited as a catalyst driving the stock +3% in premarket trading Friday.",
+      "tickers": [
+        "PLTR"
+      ],
+      "source_item_ids": [
+        "gmail:1a21d64f3b29b5f1"
+      ]
+    },
+    {
+      "title": "MRVL, CRM, SNOW: earnings next week \u2014 key upcoming catalysts",
+      "body": "MRVL reports after close Tuesday, with CRM and SNOW both reporting after close Wednesday. These are flagged as key positioning events into next week alongside the AMZN re:Invent keynote Tuesday.",
       "tickers": [
         "MRVL",
-        "MDB",
         "CRM",
-        "RH"
+        "SNOW",
+        "AMZN"
       ],
       "source_item_ids": [
-        "gmail:1a21ce2a83f329b8"
+        "gmail:1a21d64f3b29b5f1"
       ]
     },
     {
-      "title": "HUBS: Argus Research downgrades to Hold from Buy on valuation",
-      "body": "Argus analyst Joseph Bonner cut HubSpot to Hold from Buy at current price of $210.21, citing valuation concerns. No revised price target disclosed.",
+      "title": "TSEM: Mizuho hosts mgmt call Dec 3; Outperform/$235 PT on SiPho ramp and 300mm adoption",
+      "body": "Mizuho analyst Vijay Rakesh maintains Outperform on TSEM with $235 PT. Dec 3 group call will cover SiPho supply constraints, GFS/STM competitive dynamics, NPO ramps in 2027, and CPO contemplated for 2029/30. Japan capacity expansion and margin progression as 300mm scales are also on the agenda.",
       "tickers": [
-        "HUBS"
+        "TSEM"
       ],
       "source_item_ids": [
-        "gmail:1a21d245487b7efc"
+        "gmail:1a21db6c6c165c1f"
       ]
     },
     {
-      "title": "COHR, LITE: Optical/transceiver names surge 8%+ premarket on AI infrastructure momentum",
-      "body": "Coherent (COHR) +8.1% and Lumentum (LITE) +7.9% in premarket, leading semis-adjacent infrastructure plays alongside broader SMH +4.45% move. No specific catalysts beyond AI infrastructure sentiment and relief rally.",
+      "title": "SHOP: +4.3-4.5% in premarket on broad risk-on; no stock-specific catalyst",
+      "body": "Shopify is up 4.3-4.5% across both U.S. and Canadian listings in premarket/morning trading, moving with the broad tech/AI risk-on rally rather than any company-specific news.",
       "tickers": [
-        "COHR",
-        "LITE"
+        "SHOP"
       ],
       "source_item_ids": [
-        "gmail:1a21d30bc355aad1"
+        "gmail:1a21d5c17c7cdb6c",
+        "gmail:1a21da85cd77259d"
       ]
     },
     {
-      "title": "DIS: Secures TRO pausing FCC review of ABC broadcast licenses",
-      "body": "Disney obtained a temporary restraining order halting the FCC's early review of ABC broadcast-station licenses, buying time in the regulatory process. No financial impact quantified.",
+      "title": "PINS: Unusual options activity \u2014 237% above 30-day avg, bullish P/C ratio of 2.15",
+      "body": "Pinterest saw 45,222 option contracts vs. a 30-day average of 19,076, a 237% spike, with a put/call ratio of 2.15 indicating bullish positioning. No specific catalyst identified beyond broad market momentum.",
       "tickers": [
-        "DIS"
+        "PINS"
       ],
       "source_item_ids": [
-        "gmail:1a21d2fb6681d24a"
+        "gmail:1a21df1fdf58a4e8"
       ]
     },
     {
-      "title": "META: Refused to share 'Muse' product for UK Financial Watchdog testing",
-      "body": "META declined to provide its Muse product for testing by the UK financial regulator, adding to European regulatory friction. No further financial details disclosed.",
-      "tickers": [
-        "META"
-      ],
-      "source_item_ids": [
-        "gmail:1a21d21d0c20deac"
-      ]
-    },
-    {
-      "title": "AAPL: Holiday smartphone demand solid; iPhone and Samsung tied at 42% share in Citi survey",
-      "body": "Citi's US holiday electronics survey shows spending flat YoY but resilient, with iPhones and Samsung Galaxy tied at 42% each for purchase intent. Gaming hardware/peripherals ranked #2 at 44% interest (above TVs), driven by GTA VI anticipation. Foldable interest at 22% with 44% considering future adoption.",
+      "title": "AAPL: iPhone Duo softening in China \u2014 21% resale price decline, $225 discounts",
+      "body": "iPhone Duo is selling at $225 discounts in China with a ~21% resale price decline, signaling meaningful demand softening in that market. No rating change or PT update provided.",
       "tickers": [
         "AAPL"
       ],
       "source_item_ids": [
-        "gmail:1a21d213cf499154"
+        "gmail:1a21dd66f7eb1e3b"
       ]
     },
     {
-      "title": "TSLA: Optimus China supply-chain index down 5% WoW despite TSLA +10%; FSD V15 launched",
-      "body": "Tesla's Optimus China Value Chain Index fell 5% WoW even as TSLA shares gained 10% WoW and the Global Robotics Index rose 4%. Tesla launched FSD V15 with claimed 25x improvement in critical intervention rate. Near-term catalysts: Humanoids Summit Dec 1-2, TSLA Annual Shareholder Meeting Dec 3. Goldman identifies TSLA as 'most balanced robotics platform' but rates it Neutral, preferring XPeng and Toyota.",
+      "title": "CSCO: OpenAI 'Shirudo' open-source security partnership launched",
+      "body": "Cisco and OpenAI jointly launched Shirudo, an open-source project designed to protect infrastructure against AI-driven cyberattacks. No financial guidance was updated in connection with the announcement.",
       "tickers": [
-        "TSLA"
+        "CSCO"
       ],
       "source_item_ids": [
-        "gmail:1a21b6c7295830cb",
-        "gmail:1a21c1f47fdf3ef8"
+        "gmail:1a21dd66f7eb1e3b"
       ]
     },
     {
-      "title": "VRT: Citi maintains Buy/$585 PT despite FDA delay pushing povetacicept approval to Feb 2027",
-      "body": "FDA requested additional information late in PDUFA review, delaying Vertex's povetacicept IgAN approval from Nov 30 to Feb 28, 2027. Citi views delay as not thesis-changing but expects near-term stock pressure. Buy rating maintained with $585 PT vs $564.12 current (~3.7% upside). Drug's dual BAFF/APRIL mechanism seen as differentiated.",
+      "title": "SPOT: Roth Capital quantifies pricing power and churn risk vs. AMZN/AAPL",
+      "body": "Roth Capital published a subscriber survey examining whether Spotify can sustain price increases without accelerating churn, measuring price tolerance and payment behavior across SPOT, AMZN Music, and AAPL Music. Specific findings not yet disclosed but framed as a key positioning study for the streaming space.",
       "tickers": [
-        "VRT"
+        "SPOT",
+        "AAPL",
+        "AMZN"
       ],
       "source_item_ids": [
-        "gmail:1a21cb12773182f6"
+        "gmail:1a21d85ee0896b66"
       ]
     },
     {
-      "title": "Piper Sandler: Stay patient on semis; SPX 7,350-7,400 is key confirmation level",
-      "body": "Piper Sandler notes major averages remain below 50- and 200-day MAs with intermediate-term breadth on sell signals. Semiconductors flagged as 'remain patient on.' A decisive close above 7,350-7,400 SPX would confirm durable low targeting 7,507; break below 7,002 reopens 6,882. Favor Healthcare/Financials on pullbacks.",
+      "title": "DIS, OMC hit 52-week highs \u2014 DIS +22.9% YTD, OMC +25.6% YTD",
+      "body": "DIS reached $127.00 (+1.1% on the day, +22.9% 52-week) and OMC hit $91.50 (+0.9%, +25.6% 52-week) on the morning scan of new 52-week highs across 77 names.",
       "tickers": [
-        "NVDA"
+        "DIS",
+        "OMC"
       ],
       "source_item_ids": [
-        "gmail:1a21d2cdc0a9d366"
+        "gmail:1a21dd066f7eb1e3b",
+        "gmail:1a21dd067b205e14"
       ]
     },
     {
-      "title": "Macro bear flag: McCullough warns semis/QQQ bounce is exit liquidity; VXN at 36",
-      "body": "Keith McCullough (Hedgeye) warns the China National Team-driven bounce in semis and QQQ is an 'exit liquidity trap,' noting US stocks down 9 of last 10 trading days. VXN at 36 with vol-of-vol risk range 30-46; describes regime as 'chasers get crushed.' SP500 risk range 6,907-7,352. Turning bullish long-term Treasuries into Q4 2026/H1 2027.",
+      "title": "HUT, WULF, IREN, BTDR: Crypto miners up 3-6%+ on broad risk-on rally",
+      "body": "Bitcoin miner names HUT (+3.6% on TSX), WULF, IREN, and BTDR are all trading higher in premarket as part of the broad AI/risk-on tape. No stock-specific catalysts cited.",
       "tickers": [
-        "SPY"
+        "HUT",
+        "WULF",
+        "IREN",
+        "BTDR"
       ],
       "source_item_ids": [
-        "gmail:1a21cfd141c9fd50"
+        "gmail:1a21d5c17c7cdb6c",
+        "gmail:1a21da85cd77259d"
       ]
     },
     {
-      "title": "NVDA/AI chips: Congress export-control push stalls; Kioxia/NVDA testing SSD as HBM alternative",
-      "body": "Congressional efforts to tighten AI chip export controls are facing roadblocks from slow legislative pace and turf battles. Meanwhile, NVDA and Kioxia are testing SSD-based AI server memory as an alternative to South Korean HBM chips, with Kioxia's GP2 SSD targeting 18M+ IOPS (2x prior gen) and 28GB/s sequential reads; evaluation samples to limited customers by end of 2027.",
+      "title": "SMR, OKLO: Nuclear names +6% on data center power demand narrative",
+      "body": "SMR is up ~6% in premarket trading on continued nuclear reactor demand from data center power requirements; OKLO also cited as moving higher with the broader nuclear/data center theme.",
       "tickers": [
-        "NVDA",
-        "MU"
+        "SMR",
+        "OKLO"
       ],
       "source_item_ids": [
-        "gmail:1a21cb165ce5e902",
-        "gmail:1a21d213cf499154"
+        "gmail:1a21d64f3b29b5f1",
+        "gmail:1a21d5c17c7cdb6c"
+      ]
+    },
+    {
+      "title": "AAOI, NBIS: Optical/AI infra names lead premarket \u2014 AAOI +9.5-10%, NBIS +6%",
+      "body": "AAOI surged 9.5-10% and NBIS gained 6% in premarket trading, among the strongest movers in the AI infrastructure/optical interconnect space on the broad risk-on reversal.",
+      "tickers": [
+        "AAOI",
+        "NBIS"
+      ],
+      "source_item_ids": [
+        "gmail:1a21d64f3b29b5f1",
+        "gmail:1a21d5c17c7cdb6c"
+      ]
+    },
+    {
+      "title": "Quant: Semi/hardware momentum baskets collapsed -35%/-14% MTD; EPS-Mo/short-Price-Mo swap up 20% YTD",
+      "body": "22V quant notes Tech Hardware and Semis price-momentum baskets fell -35.1% and -14.4% MTD respectively, accounting for -4.7pp of the S&P 1500's -5.3% November decline. Short-term volatility in Price Momentum hit 93rd percentile. Recommended long-EPS Momentum / short-Price Momentum swap is up 20.2% since late-June launch; they recommend blending Value and Momentum factors going forward.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a21d5583b4633fc"
+      ]
+    },
+    {
+      "title": "Macro: S&P bounce expected but limited \u2014 PCE at 3.8%, Fed stays hawkish, range cap ~7600",
+      "body": "22V sees Q3 GDP revised to 4.3% and strong October retail sales supporting EPS, but October PCE at 3.8% YoY and nominal GDP at 6.3% keep the Fed firmly hawkish. A rally above ~7,600 on the S&P would tighten financial conditions via higher UST yields, limiting upside. Core PCE needs to fall 21bp/month to hit the Fed's 2027 target \u2014 an unlikely near-term path.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a21d4395263eaef",
+        "gmail:1a21d57b6b4ec9e0"
       ]
     }
   ]
