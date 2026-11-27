@@ -1,35 +1,170 @@
 {
-  "digest_type": "eod",
-  "digest_dt": "2026-11-26T18:00:00-05:00",
-  "saved_at": "2026-11-26T23:04:19.304820+00:00",
+  "digest_type": "premarket",
+  "digest_dt": "2026-11-27T08:30:00-05:00",
+  "saved_at": "2026-11-27T13:43:19.095645+00:00",
   "bullets": [
     {
-      "title": "ZS: Double downgrade \u2014 Macquarie cuts to Neutral, PT $225 from $250",
-      "body": "Zscaler received two downgrades on the day: Macquarie moved to Neutral from Outperform and cut its price target to $225 from $250, while Daiwa also downgraded to Neutral from Buy. Consensus is turning more cautious on the name.",
+      "title": "NVDA: Premarket rally as market bets administration backs Jensen; ASEAN shipment halt is key risk",
+      "body": "NVDA stabilized in premarket (SMH +4.45%, NVDA/ANT +3%) as markets anticipate Jensen Huang's upcoming Congressional testimony will be supportive. However, NVDA has quietly terminated server shipments to Malaysia, Singapore, Thailand, and Indonesia following BIS export controls \u2014 Malaysia alone had a >10GW data center plan with >50% serving Chinese hyperscalers, creating a material 2H27 upstream supply risk. Chinese firms also reportedly used NVDA Blackwell hardware (GB300/GB200) as collateral for ~190M yuan in Shanghai loans, briefly softening E-Mini futures at 6:44am.",
       "tickers": [
-        "ZS"
+        "NVDA"
       ],
       "source_item_ids": [
-        "gmail:1a21a00e6a0dab70",
-        "gmail:1a219ff8fe59cff6"
+        "gmail:1a21d088ca758015",
+        "gmail:1a21c5bd3ced96e5"
       ]
     },
     {
-      "title": "AMZN: TEPCO to invest $64B in AI power infrastructure targeting AWS as hyperscaler anchor",
-      "body": "TEPCO plans to invest JPY10.2T (~$64B) in power grids and nuclear capacity through FY2030, with the goal of attracting US hyperscaler data centers \u2014 Amazon Web Services is cited as a prospective customer. TEPCO targets an 8x increase in data center power supply by FY2027 and 16x by FY2040, with EBITDA (post-decommissioning) nearly doubling to JPY1.4T by FY2035.",
+      "title": "NVDA/TSM/MU: US export controls tighten \u2014 TSMC/Samsung halt <16nm Chinese shipments; DRAM & NAND forecasts cut",
+      "body": "TSMC and Samsung halted shipments of <16nm products designed by Chinese firms under new US restrictions. TrendForce revised 2027 NAND revenue to $419.3B (29% YoY) and DRAM revenue to $1.15T (69% YoY), with 2027 supply/demand tight (DRAM -3.8%, NAND -3.3%) but contract price gains narrowing in 2H27. NAND ASPs expected to decline 20-25% YoY in 4Q27; conventional DRAM prices forecast to fall broadly from 1Q28, with bear case >15% QoQ declines.",
       "tickers": [
-        "AMZN"
+        "NVDA",
+        "TSM",
+        "MU"
       ],
       "source_item_ids": [
-        "gmail:1a21a0e20a877ecc"
+        "gmail:1a21a5577bd2e463",
+        "gmail:1a21cb96e849a5cc"
       ]
     },
     {
-      "title": "Macro: UBS flags AI capex slowdown priced in despite accelerating demand; Fed hiking cycle near end",
-      "body": "UBS notes a risk-off episode began Nov 5 following a Blue Sweep, with core PCE at 3.26% and expected to tick up to 3.34% before declining \u2014 two more Fed hikes anticipated. AI capex slowdown has been priced by markets even as AI demand accelerates, with UBS flagging policy constraints as a potential supply limiter; global AI and defense spend expected to stay elevated in 2027.",
-      "tickers": [],
+      "title": "AMD, CRM: Erste Group downgrades both to Hold from Buy; SPOT upgraded to Buy",
+      "body": "Erste Group analyst Hans Engel cut AMD and CRM to Hold from Buy, and upgraded SPOT to Buy from Hold. No price targets disclosed. This is a tier-2 house but directionally confirms recent underperformance concerns for AMD and CRM amid slower AI monetization.",
+      "tickers": [
+        "AMD",
+        "CRM",
+        "SPOT"
+      ],
       "source_item_ids": [
-        "gmail:1a2190689d93a0f1"
+        "gmail:1a21cba6bfc90dcd",
+        "gmail:1a21d25ef3993d31"
+      ]
+    },
+    {
+      "title": "CRM: JPM reiterates OW ahead of F3Q27; F4Q cRPO guide of 12%+ key to re-rating thesis",
+      "body": "JPM expects F3Q organic cRPO growth ~11% (vs ~10% guide) and a F4Q guide of at least 12% CC, implying ~10%+ organic growth and 2H re-acceleration. Agentforce ARR at $1.5B; premium mix grew to 5% of base from 1% in F1Q25 (each 1% migration = ~$100M revenue). Shares at 10x EV/uFCF on FY27, with re-rating potential on acceleration.",
+      "tickers": [
+        "CRM"
+      ],
+      "source_item_ids": [
+        "gmail:1a21cac275f2713e"
+      ]
+    },
+    {
+      "title": "MRVL, MDB, CRM: Upcoming earnings catalysts in first week of December",
+      "body": "MongoDB (Tue Dec 1 AMC, consensus EPS $1.61, rev $762.5M), Marvell Technology (Tue Dec 1 16:30 ET, EPS $1.10, rev $3.15B), and Salesforce (Wed Dec 2 AMC, EPS $3.45, rev $11.46B) all report next week. RH reports Thu Dec 3 (EPS $0.69, rev $932.5M unconfirmed).",
+      "tickers": [
+        "MRVL",
+        "MDB",
+        "CRM",
+        "RH"
+      ],
+      "source_item_ids": [
+        "gmail:1a21ce2a83f329b8"
+      ]
+    },
+    {
+      "title": "HUBS: Argus Research downgrades to Hold from Buy on valuation",
+      "body": "Argus analyst Joseph Bonner cut HubSpot to Hold from Buy at current price of $210.21, citing valuation concerns. No revised price target disclosed.",
+      "tickers": [
+        "HUBS"
+      ],
+      "source_item_ids": [
+        "gmail:1a21d245487b7efc"
+      ]
+    },
+    {
+      "title": "COHR, LITE: Optical/transceiver names surge 8%+ premarket on AI infrastructure momentum",
+      "body": "Coherent (COHR) +8.1% and Lumentum (LITE) +7.9% in premarket, leading semis-adjacent infrastructure plays alongside broader SMH +4.45% move. No specific catalysts beyond AI infrastructure sentiment and relief rally.",
+      "tickers": [
+        "COHR",
+        "LITE"
+      ],
+      "source_item_ids": [
+        "gmail:1a21d30bc355aad1"
+      ]
+    },
+    {
+      "title": "DIS: Secures TRO pausing FCC review of ABC broadcast licenses",
+      "body": "Disney obtained a temporary restraining order halting the FCC's early review of ABC broadcast-station licenses, buying time in the regulatory process. No financial impact quantified.",
+      "tickers": [
+        "DIS"
+      ],
+      "source_item_ids": [
+        "gmail:1a21d2fb6681d24a"
+      ]
+    },
+    {
+      "title": "META: Refused to share 'Muse' product for UK Financial Watchdog testing",
+      "body": "META declined to provide its Muse product for testing by the UK financial regulator, adding to European regulatory friction. No further financial details disclosed.",
+      "tickers": [
+        "META"
+      ],
+      "source_item_ids": [
+        "gmail:1a21d21d0c20deac"
+      ]
+    },
+    {
+      "title": "AAPL: Holiday smartphone demand solid; iPhone and Samsung tied at 42% share in Citi survey",
+      "body": "Citi's US holiday electronics survey shows spending flat YoY but resilient, with iPhones and Samsung Galaxy tied at 42% each for purchase intent. Gaming hardware/peripherals ranked #2 at 44% interest (above TVs), driven by GTA VI anticipation. Foldable interest at 22% with 44% considering future adoption.",
+      "tickers": [
+        "AAPL"
+      ],
+      "source_item_ids": [
+        "gmail:1a21d213cf499154"
+      ]
+    },
+    {
+      "title": "TSLA: Optimus China supply-chain index down 5% WoW despite TSLA +10%; FSD V15 launched",
+      "body": "Tesla's Optimus China Value Chain Index fell 5% WoW even as TSLA shares gained 10% WoW and the Global Robotics Index rose 4%. Tesla launched FSD V15 with claimed 25x improvement in critical intervention rate. Near-term catalysts: Humanoids Summit Dec 1-2, TSLA Annual Shareholder Meeting Dec 3. Goldman identifies TSLA as 'most balanced robotics platform' but rates it Neutral, preferring XPeng and Toyota.",
+      "tickers": [
+        "TSLA"
+      ],
+      "source_item_ids": [
+        "gmail:1a21b6c7295830cb",
+        "gmail:1a21c1f47fdf3ef8"
+      ]
+    },
+    {
+      "title": "VRT: Citi maintains Buy/$585 PT despite FDA delay pushing povetacicept approval to Feb 2027",
+      "body": "FDA requested additional information late in PDUFA review, delaying Vertex's povetacicept IgAN approval from Nov 30 to Feb 28, 2027. Citi views delay as not thesis-changing but expects near-term stock pressure. Buy rating maintained with $585 PT vs $564.12 current (~3.7% upside). Drug's dual BAFF/APRIL mechanism seen as differentiated.",
+      "tickers": [
+        "VRT"
+      ],
+      "source_item_ids": [
+        "gmail:1a21cb12773182f6"
+      ]
+    },
+    {
+      "title": "Piper Sandler: Stay patient on semis; SPX 7,350-7,400 is key confirmation level",
+      "body": "Piper Sandler notes major averages remain below 50- and 200-day MAs with intermediate-term breadth on sell signals. Semiconductors flagged as 'remain patient on.' A decisive close above 7,350-7,400 SPX would confirm durable low targeting 7,507; break below 7,002 reopens 6,882. Favor Healthcare/Financials on pullbacks.",
+      "tickers": [
+        "NVDA"
+      ],
+      "source_item_ids": [
+        "gmail:1a21d2cdc0a9d366"
+      ]
+    },
+    {
+      "title": "Macro bear flag: McCullough warns semis/QQQ bounce is exit liquidity; VXN at 36",
+      "body": "Keith McCullough (Hedgeye) warns the China National Team-driven bounce in semis and QQQ is an 'exit liquidity trap,' noting US stocks down 9 of last 10 trading days. VXN at 36 with vol-of-vol risk range 30-46; describes regime as 'chasers get crushed.' SP500 risk range 6,907-7,352. Turning bullish long-term Treasuries into Q4 2026/H1 2027.",
+      "tickers": [
+        "SPY"
+      ],
+      "source_item_ids": [
+        "gmail:1a21cfd141c9fd50"
+      ]
+    },
+    {
+      "title": "NVDA/AI chips: Congress export-control push stalls; Kioxia/NVDA testing SSD as HBM alternative",
+      "body": "Congressional efforts to tighten AI chip export controls are facing roadblocks from slow legislative pace and turf battles. Meanwhile, NVDA and Kioxia are testing SSD-based AI server memory as an alternative to South Korean HBM chips, with Kioxia's GP2 SSD targeting 18M+ IOPS (2x prior gen) and 28GB/s sequential reads; evaluation samples to limited customers by end of 2027.",
+      "tickers": [
+        "NVDA",
+        "MU"
+      ],
+      "source_item_ids": [
+        "gmail:1a21cb165ce5e902",
+        "gmail:1a21d213cf499154"
       ]
     }
   ]

@@ -1,57 +1,191 @@
 {
-  "digest_type": "eod",
-  "digest_dt": "2026-11-26T18:00:00-05:00",
-  "saved_at": "2026-11-26T23:04:19.304820+00:00",
+  "digest_type": "premarket",
+  "digest_dt": "2026-11-27T08:30:00-05:00",
+  "saved_at": "2026-11-27T13:43:19.079599+00:00",
   "bullets": [
     {
-      "title": "Risk-off since Nov 5 Blue Sweep; Fed still hiking with core PCE at 3.26%",
-      "body": "UBS flags a risk-off episode that began Nov 5, 2026 following the Blue Sweep announcement and an escalating US-Iran conflict. Core PCE sits at 3.26% YoY and is expected to tick up to 3.34% in November before gradually declining; UBS expects the Fed to deliver two more hikes, with US yields likely range-bound. Despite a -4 z-score daily equity return drop, investors remain reluctant to price systemic instability.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a2190689d93a0f1"
-      ]
-    },
-    {
-      "title": "AI capex slowdown priced even as demand accelerates; policy constraints may cap supply",
-      "body": "UBS notes that markets have already priced an AI capex slowdown despite underlying AI demand continuing to accelerate. Policy constraints are seen as a potential limiter on new supply additions, keeping the demand/supply imbalance in place. Global defense and AI-related spending expected to remain elevated into 2027.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a2190689d93a0f1"
-      ]
-    },
-    {
-      "title": "TEPCO to invest $64B in AI power infrastructure through 2030, targeting AWS and hyperscalers",
-      "body": "TEPCO plans to invest JPY10.2T (~$64B) in power grids and nuclear plants through FY30 to serve US hyperscaler data centers, with Amazon Web Services cited as a prospective customer. The utility plans to ramp data center power supply 8x by FY25 and 16x by FY40, targeting EBITDA (after decommissioning costs) of JPY1.4T in FY35 vs. JPY722.3B projected for FY27. TEPCO is in capital alliance talks with SoftBank, KKR, Blackstone, and Global Infrastructure Partners.",
+      "title": "S&P futures surge 1.7%; semis lead with SOXX +4.5% as AI trade rebounds",
+      "body": "S&P 500 E-Mini futures up ~1.7% to 7,318 heading into Friday's shortened session, with the semiconductor ETF (SOXX) up 4.45%. Optical/datacom names led (COHR +8.1%, LITE +7.9%) alongside broader infrastructure plays. 10-year yield ticked up 4bps to 4.90% and WTI crude rose 1.66% to $85.07.",
       "tickers": [
-        "AMZN"
+        "COHR",
+        "LITE",
+        "NVDA"
       ],
       "source_item_ids": [
-        "gmail:1a21a0e20a877ecc"
+        "gmail:1a21d30bc355aad1",
+        "gmail:1a21ce2fbe901382"
       ]
     },
     {
-      "title": "Brazil macro deteriorating: 0.6% growth in 2027, Selic at 13.75%, debt rising to 88% GDP",
-      "body": "JPMorgan sees Brazil slowing sharply to 0.6% GDP growth in 2027 with recession a real risk, as heavy debt-service burdens and tight credit conditions weigh on activity. Inflation is projected to rise to ~6% in early 2027 before easing to 5.5% year-end, still well above the 3% target, keeping the Selic at 13.75%. Public debt is forecast to climb from 84% of GDP in 2026 to 92% by 2028, with a loss of confidence the key tail risk.",
-      "tickers": [],
+      "title": "NVDA rally driven by Jensen Congressional testimony expectations; Blackwell China installs briefly weigh",
+      "body": "Markets are pricing an administration-friendly reception for Jensen Huang's upcoming Congressional appearance, driving a risk-on AI recovery. A mid-morning headwind emerged when reports surfaced that Chinese firms used NVDA Blackwell GB300/GB200 hardware as loan collateral in Shanghai, briefly softening E-Mini futures at 6:44am ET before stabilizing.",
+      "tickers": [
+        "NVDA"
+      ],
       "source_item_ids": [
-        "gmail:1a219175c6beed29",
-        "gmail:1a219279e6014249"
+        "gmail:1a21d088ca758015",
+        "gmail:1a21be80c697f236"
       ]
     },
     {
-      "title": "Mexico BoP: Record tech exports drive CA surplus, but IG downgrade risk and portfolio outflows loom",
-      "body": "Mexico posted a 0.21% of GDP current account surplus in 3Q26\u2014its second-highest for any third quarter\u2014on record goods exports of $237.5bn (up 40.6% YoY), driven by the tech boom. However, portfolio investment outflows totaled $5.8bn as foreign investors reduced exposure, the peso has weakened more than 8% since end-3Q26, and S&P is expected to downgrade Mexico to one notch above high-yield within 12 months (Fitch and Moody's already there).",
-      "tickers": [],
+      "title": "NVIDIA halting shipments to SE Asia; TSMC/Samsung pause <16nm China orders on new US export controls",
+      "body": "NVIDIA has instructed brand partners to stop shipping servers to Malaysia, Singapore, Thailand, and Indonesia \u2014 a region hosting >50% Chinese hyperscaler demand within Malaysia's 10GW data center plan alone. Separately, TSMC and Samsung halted shipments of sub-16nm products designed by Chinese firms under new BIS restrictions, closing a loophole through which Chinese CSPs accessed ~24% of AI compute via regional data centers.",
+      "tickers": [
+        "NVDA",
+        "TSM"
+      ],
       "source_item_ids": [
-        "gmail:1a219a44cbe3e7be"
+        "gmail:1a21c5bd3ced96e5",
+        "gmail:1a21a5577bd2e463"
       ]
     },
     {
-      "title": "Argentina: JPM OW but election risk dominates; sovereign spread above 1,100bp",
-      "body": "JPMorgan maintains an Overweight on Argentina but flags the October 2027 presidential election as the critical test for fiscal and pro-investment policy continuity. Markets are pricing roughly 50% probability of a regime change, with sovereign spreads widening above 1,100bp. Under the base case, GDP grows 0.8% in 2026 and 1.8% in 2027, with exports rising to $100.8bn in 2026 and 21.6% growth in 2027 as Vaca Muerta energy and mining projects ramp.",
+      "title": "Piper: SPX still below key MAs; 7,350\u20137,400 must hold as confirmation; 5.25% yield the bear case trigger",
+      "body": "Piper Sandler notes major averages remain under 50- and 200-day moving averages with intermediate breadth on sell signals. A decisive close above 7,350\u20137,400 would confirm a durable low targeting 7,507; a break below 7,002 reopens 6,970 and 6,882. Rising yields toward 5.25% are flagged as the key downside risk.",
       "tickers": [],
       "source_item_ids": [
-        "gmail:1a219e144dc0cc77"
+        "gmail:1a21d2cdc0a9d366"
+      ]
+    },
+    {
+      "title": "Bearish macro view: US stocks down 9 of last 10 days; VXN 36; this bounce is 'exit liquidity'",
+      "body": "Keith McCullough frames the current rally as a bear market bounce (the fifth in KOSPI since October) driven by China's National Team buying. NASDAQ Vol (VXN) sits at 36 with a risk range of 30\u201346, and his 10yr UST range is 4.80\u20135.01%. He is positioning long bonds into Q4 2026/H1 2027 and warns chasers get crushed.",
+      "tickers": [
+        "SPY"
+      ],
+      "source_item_ids": [
+        "gmail:1a21cfd141c9fd50"
+      ]
+    },
+    {
+      "title": "ECB set for two more hikes; IG Metall deal locks in benign 2028 wage path",
+      "body": "JPMorgan expects two further ECB rate hikes near-term after October minutes showed a 'large number' of GC members were prepared to hike. The IG Metall 25-month deal locks in 2.0\u20132.3% annual wage growth, reinforcing a weak 2028 wage trajectory and supporting eventual policy reversal. Eurozone consumers lifted 1yr inflation expectations to 3.5% from 3.1%.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a21d13b6220448c",
+        "gmail:1a21cb2d335b70e3"
+      ]
+    },
+    {
+      "title": "Euro area confidence softening; France and Spain November flash CPI drop partly seasonal",
+      "body": "The European Commission ESI fell 0.7pt to 95.8 in November (consensus 97.2), dragged by Italy (-3.1pt) and France (-2.3pt). French and Spanish HICP flash prints fell 0.5\u20130.8pt respectively, but JPMorgan attributes much of the core decline to Black Friday discounting rather than structural disinflation, forecasting Eurozone core at 2.5% vs 2.6% prior.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a21cf83be535ef8",
+        "gmail:1a21cb2d335b70e3"
+      ]
+    },
+    {
+      "title": "Tokyo core CPI hits 16-month high; BOJ December hike expectations firming",
+      "body": "Tokyo core CPI rose to its highest level in 16 months, bolstering the case for a BOJ rate hike at the December meeting. Asian markets rallied sharply in sympathy with global risk-on: Nikkei +2.11%, Hang Seng +2.11%, Shanghai +3.73%, the latter driven by China industrial profits jumping 20.1% y/y in October \u2014 the fastest since May.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a21cb165ce5e902",
+        "gmail:1a21ce2fbe901382"
+      ]
+    },
+    {
+      "title": "China 2027 outlook: 4.5% GDP growth, K-shaped recovery; housing enters year 6 of downturn",
+      "body": "JPMorgan forecasts China GDP at 4.5% in 2027 (from 4.6% in 2026), with AI/exports resilient but housing facing 20\u201330% further activity declines and PPI returning to deflation mid-2027. Trade surplus widens to ~$1.4tn; Section 301/232 tariffs of up to 20% possible before G20. Consumer recovery remains constrained by weak household balance sheets and elevated youth unemployment.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a21c72f81cf655e"
+      ]
+    },
+    {
+      "title": "DRAM supply/demand tightens in 2027 then loosens in 2028; NAND facing 20\u201325% ASP declines in 4Q27",
+      "body": "TrendForce revised 1Q27 conventional DRAM contract price gains down to +3\u20138% QoQ from +5\u201310%, with prices mostly flat in 2H27 and broad-based declines beginning 1Q28 (bear case: >15% QoQ). 2027 NAND bit supply growth of 29% far exceeds demand growth of 19%, with 4Q27 ASPs seen -20\u201325% YoY. HBM bit demand still grows ~80% YoY in 2027 with procurement largely locked in.",
+      "tickers": [
+        "MU"
+      ],
+      "source_item_ids": [
+        "gmail:1a21cb96e849a5cc",
+        "gmail:1a21c5bd3ced96e5"
+      ]
+    },
+    {
+      "title": "Agentic AI workloads surged from <10% to ~80% of token consumption since February; compute demand 5x supply",
+      "body": "Goldman/Citi note agentic AI workload share of token consumption jumped from under 10% in February to roughly 80% in October, driving infrastructure bottlenecks where compute demand is estimated at 5x available supply. Texas TCEQ resumed data center permitting after a directive from outgoing Governor Abbott's office.",
+      "tickers": [
+        "NVDA"
+      ],
+      "source_item_ids": [
+        "gmail:1a21d25ef3993d31"
+      ]
+    },
+    {
+      "title": "ASML faces geopolitical pressure as Netherlands resists US MATCH Act DUV restrictions",
+      "body": "The Dutch Trade Minister is openly opposing US efforts to extend MATCH Act restrictions to DUV immersion machines, calling such measures a threat to Europe's most valuable company. ASML derives ~20% of revenues from China, and enforcement of the US Foreign Direct Product Rule remains a live risk if the Netherlands does not comply voluntarily.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a21c5bd3ced96e5",
+        "gmail:1a21c1f47fdf3ef8"
+      ]
+    },
+    {
+      "title": "US holiday electronics demand resilient; smartphones split 42/42 Apple/Samsung; gaming hardware #2 at 44%",
+      "body": "Citi's holiday survey shows US electronics spending flat YoY but concentrated in smartphones (Apple iPhone and Samsung Galaxy tied at 42% each), gaming hardware/peripherals (44% interest, outranking TVs), and tablets/PCs. Foldable device intent reached 22%, with Samsung dominating that segment.",
+      "tickers": [
+        "AAPL",
+        "MU"
+      ],
+      "source_item_ids": [
+        "gmail:1a21d213cf499154"
+      ]
+    },
+    {
+      "title": "SAP cutting ~10% of workforce (10,000 roles) in AI restructuring; \u20ac3bn savings, FCF headwind",
+      "body": "Unconfirmed reports indicate SAP is planning at least 10,000 role cuts representing ~9% of its workforce, with \u20ac3bn in potential savings. However, severance costs could hit 2026 FCF by ~\u20ac3bn against a \u20ac10bn consensus. SAP is also dealing with an active IT security incident in which attackers used agentic AI to steal employee GitHub authentication tokens.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a21c1f47fdf3ef8",
+        "gmail:1a21d25ef3993d31"
+      ]
+    },
+    {
+      "title": "EM equity flows: passive inflows persist despite MSCI EM -16.5%; Taiwan bleeds $65bn in 7 weeks",
+      "body": "EM equity inflows slowed to $767mn in the latest week (from $2.4bn prior), marking eight consecutive weeks of positive flows during the worst drawdown over any inflows streak in MSCI EM history. Taiwan saw $6.8bn in outflows (seventh straight week, $65bn+ net redemptions total) while India accelerated to +$3.3bn.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a21b93aa4d37c56"
+      ]
+    },
+    {
+      "title": "JPM European quant: crash phase likely over; near-term rebound expected but 2027 drift risk remains",
+      "body": "JPMorgan's European quant strategy identifies three phases \u2014 Crash (complete), Rebound (imminent), Drift lower (2027 risk). Long-short Momentum is down 17.2% since April 10, Global Equity Sentiment Indicator is at recessionary lows, and EPS revisions have peaked. Post-Thanksgiving-to-year-end seasonality supports the near-term bounce, but the team stays pro-risk Value/Small Cap only tactically.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a21b7d3c85ad896"
+      ]
+    },
+    {
+      "title": "Fed blackout begins ahead of Dec 18 FOMC; S&P tracking for third straight monthly decline",
+      "body": "The Federal Reserve enters its pre-meeting blackout period with the December 18 FOMC as the next key catalyst. Despite Friday's risk-on mood, the S&P 500 is on track for its third consecutive monthly decline. The market closes at 1pm ET and bond markets at 2pm ET for the Thanksgiving-shortened session.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a21ce2fbe901382"
+      ]
+    },
+    {
+      "title": "CrowdStrike acquires Zscaler in $44B deal; cybersecurity consolidation accelerates",
+      "body": "CrowdStrike announced a $44 billion acquisition of Zscaler (Nov 23), a major consolidation move in enterprise cybersecurity. Separately, Zscaler was downgraded to Neutral from Outperform at Macquarie. Tech outages and cybersecurity incidents are broadly driving increased opex/capex budgets in enterprise IT.",
+      "tickers": [],
+      "source_item_ids": [
+        "gmail:1a21ad12704e4135",
+        "gmail:1a21acbbc8eee5e3"
+      ]
+    },
+    {
+      "title": "Key upcoming earnings: MDB, MRVL, CRM reporting Dec 1\u20132; consensus sets the bar",
+      "body": "Marvell (Dec 1, consensus EPS $1.10, revenue $3.15B), MongoDB (Dec 1, EPS $1.61, revenue $762.5M), and Salesforce (Dec 2, EPS $3.45, revenue $11.46B) are the key tech names reporting next week. JPMorgan previews CRM expecting ~11% organic cRPO growth and a F4Q guide of 12%+ as the signal for 2H re-acceleration; Agentforce ARR at $1.5B.",
+      "tickers": [
+        "MRVL",
+        "MDB",
+        "CRM"
+      ],
+      "source_item_ids": [
+        "gmail:1a21ce2a83f329b8",
+        "gmail:1a21cac275f2713e"
       ]
     }
   ]
