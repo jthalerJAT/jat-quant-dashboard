@@ -1,78 +1,147 @@
 {
-  "digest_type": "midday",
-  "digest_dt": "2026-11-27T12:00:00-05:00",
-  "saved_at": "2026-11-27T17:09:46.129656+00:00",
+  "digest_type": "weekend",
+  "digest_dt": "2026-11-27T18:00:00-05:00",
+  "saved_at": "2026-11-27T23:09:07.865624+00:00",
   "bullets": [
     {
-      "title": "Semis/AI broad rally: sector up 4%+ on oversold reversal, echoes Dec 2018 bottom",
-      "body": "SOXX ETF +4.04% premarket with 40+ semiconductor names gaining 3-10%; LITE +7.8%, COHR +7.5%, ANET +4.3%, SHOP +4.3%, DELL +4.3%. Analyst notes Wednesday's 8% intraday reversal from lows resembles the Dec 2018 inflection \u2014 but memory stocks (MU, SNDK) lagging badly, with MU down 15% and SNDK down 24% over 5 days despite premarket bounces, signaling zero real buyer conviction in that sub-segment.",
-      "tickers": [
-        "LITE",
-        "COHR",
-        "ANET",
-        "SHOP",
-        "DELL",
-        "MU",
-        "SNDK",
-        "AMD",
-        "AVGO",
-        "MRVL",
-        "CRDO",
-        "ARM",
-        "STX",
-        "TSEM",
-        "INTC"
-      ],
-      "source_item_ids": [
-        "gmail:1a21d7603303b04d",
-        "gmail:1a21d5c17c7cdb6c"
-      ]
-    },
-    {
-      "title": "NVDA: bullish admin support narrative vs. China Blackwell smuggling risk ahead of Jensen testimony",
-      "body": "Roth Capital frames Jensen Huang's upcoming Congressional testimony as a net positive, calling this a 'Jensen 2.0' era with admin support; Trump positioned as NVDA-friendly. However, reports of Blackwell chips found in a Shanghai data center triggered softness in S&P futures at 6:44am ET, and a GPU investigation into SE Asia/Megaspeed distribution is expected to surface surprises. ASML also cited at risk if Dutch government resists U.S. Match Act export controls (China is 23% of ASML systems revenue).",
+      "title": "NVDA: Jensen Huang reinstated as CEO\u2014Citi raises PT to $240, Bernstein upgrades to Outperform",
+      "body": "NVIDIA's board unanimously reinstated Jensen Huang as President, CEO and board director after receiving input from senior U.S. government officials confirming no national security risk; Trump publicly backed the decision. Citi raised PT to $240 from $225 (15x FY28E EPS, reduced CEO-transition risk discount) and Bernstein upgraded from Market Perform to Outperform with $200 PT; Wolfe maintains Outperform at $200. Key overhangs remain: ongoing board/SEC accounting investigations, Megaspeed entity-list blacklisting, congressional hearings (Jensen scheduled before Senate Banking Dec 3 and three House committees Dec 1-2), and BIS chip-export controls halting server shipments to Malaysia, Singapore, Thailand, and Indonesia. NVDA surged 31.5% on the week but pared gains mid-week.",
       "tickers": [
         "NVDA"
       ],
       "source_item_ids": [
-        "gmail:1a21d34a2c5386d5",
-        "gmail:1a21d7603303b04d"
+        "gmail:1a208b266587f6b8",
+        "gmail:1a20916adbf53727"
       ]
     },
     {
-      "title": "OKTA Q3 preview: consensus $816M rev/$0.93 EPS; 20-for-20 beat rate, options imply ~16% move",
-      "body": "OKTA Q3 consensus sits at $816M revenue vs. guidance midpoint $815M and EPS $0.93 vs. guidance $0.92-$0.94; stock is +50% since late August. OKTA has beaten both revenue and EPS consensus in all 20 of the last 20 quarters. Near-term options imply a ~16.2% post-earnings move.",
+      "title": "NVDA export-control tightening: SE Asia shipments halted; GPU resellers flood market; CoreWeave bonds at record lows",
+      "body": "BIS interim final rule (effective ~Nov 19) closed the Chinese remote-access loophole for advanced Nvidia chips in third-party countries and added destination-based licensing for Indonesia, Malaysia, Singapore, Thailand, and Brazil; Nvidia asked server partners (including Dell and Supermicro) to stop shipments to customers in those markets. ByteDance had deployed ~36k B200 chips in Malaysia (~$2.5B hardware cost) before the crackdown. GPU resellers flooded secondary markets with B300 chips; SpaceX cut Blackwell GPU spot rental rates 20-35% to $10-12/GPU-hour. Goldman estimated $705B AI debt YTD with CoreWeave bonds hitting record lows amid doubts over AI trade durability. Congressional backlash vowed aggressive NVDA oversight and tighter controls ahead of Jensen's Dec 3 Senate testimony.",
       "tickers": [
-        "OKTA"
+        "NVDA",
+        "SMCI",
+        "DELL"
       ],
       "source_item_ids": [
-        "gmail:1a21d3f832fd7628"
+        "gmail:1a21e1304611a7b9",
+        "gmail:1a2170015d7b2d25"
       ]
     },
     {
-      "title": "NTSK: KeyBanc raises PT to $30 on strong VAR checks; S flagged as flat demand despite cheap valuation",
-      "body": "KeyBanc VAR channel checks for NTSK were uniformly positive \u2014 four U.S. VARs cited F100 wins and improved GTM execution; expect F3Q ARR beat of ~$7M at ~$954M (27% y/y) with NNARR accelerating to 18% y/y. NTSK trades at 11.3x CY27 revenue vs. security sector avg 9.8x. SentinelOne (S) checks were below plan with no demand inflection; large F4Q deal shows customer consolidating onto CrowdStrike; S trades at just 5.9x revenue but fundamentals not yet inflecting.",
+      "title": "DELL: Blowout Q3\u2014$132B AI backlog, FY27 revenue guidance raised to $202B, $29.68 EPS; $25B buyback",
+      "body": "Dell F3Q27 revenue $54.94B (+103% YoY) smashed consensus $49.32B; EPS $9.45 vs $6.60 consensus. AI-optimized server revenue hit $22B with $60.2B orders booked; backlog expanded to record $132.3B (+40% QoQ). FY27 guidance raised to $202B revenue (+78% YoY) and $29.68 EPS (+188% YoY); AI server revenue guidance raised to $78B (+3x). ISG operating margin 14.2% (+490bps YoY); opex fell to 7% of revenue, company record. Board approved $25B additional share repurchase. Pipeline is 'multiples of backlog.' Customer base grew ~15% QoQ to 7,500+. Despite the beat, stock initially fell ~7% as investors debated margin sustainability and CY28 DRAM pricing risk.",
       "tickers": [
-        "NTSK",
-        "S"
+        "DELL",
+        "HPE"
       ],
       "source_item_ids": [
-        "gmail:1a21d89dca452d61"
+        "gmail:1a212db0c217bab8",
+        "gmail:1a20f68331251668"
       ]
     },
     {
-      "title": "WDAY: Hedgeye flags decelerating growth \u2014 RPO missed by $1.1B, subscription margins at multi-year low",
-      "body": "WDAY subscription revenue growth slowed to ~11.5% in H2 vs. 14.1% H1, with Q4 guided at +10%. Total RPO grew just +6.1% to $27.5B, $1.1B below Street estimates, marking 13 consecutive quarters of RPO growth deceleration. AI ARR exceeded $750M (>130% YoY) but is substituting for core HR/finance spend rather than adding incremental growth; subscription gross margin hit its lowest level since Q4 FY23.",
+      "title": "HPE: F4Q beat and raise on AI networking; FY27 guide +27-35% revenue, but Cloud/AI margins compress to ~14%",
+      "body": "HPE F4Q EPS $1.43 vs $1.28 consensus; Cloud & AI revenue $11.26B (+3.6% above consensus); AI systems backlog $8.8B with networking orders +56% YoY. FY27 guidance: revenue 27-35% growth ($59.4-63.1B), EPS $5.05-5.35, FCF $5.5B+. However, Cloud & AI operating margin guided to ~16-17% in Q1 and ~14% for FY27 vs 18.4% in F4Q, sending shares down ~10-16% post-announcement. Supply constraints through H2 2028 (memory, NAND, networking components) cited. $5B added to buyback authorization (total ~$7.3B).",
       "tickers": [
-        "WDAY"
+        "HPE"
       ],
       "source_item_ids": [
-        "gmail:1a21d4bf1afbbe40"
+        "gmail:1a20d38195706b32",
+        "gmail:1a208c7580c09d55"
       ]
     },
     {
-      "title": "PLTR: $300M Poland defense AI deal signed",
-      "body": "Palantir signed a $300M defense AI contract with Poland, cited as a catalyst driving the stock +3% in premarket trading Friday.",
+      "title": "MRVL: Q3 earnings preview Dec 1\u2014consensus $3.15B revenue, $1.10 EPS; AI connectivity upside key catalyst",
+      "body": "Marvell reports Dec 1; consensus revenue $3.15B (Q4 consensus $3.74B, FY27 $12B). Bulls cite accelerating AI connectivity, custom ASIC ramp with hyperscalers (Trainium contributing now, Maia ramping), and networking >70% growth; long-term CY30 target 10x CY25 to $80B/$30 EPS. Bears flag LITE deal dilution, ambitious execution, near-term margin pressure, and NVIDIA exposure. Options imply ~15.8% move. Multiple analysts cut PTs (JPM $515\u2192down; Opco $425\u2192$325; RBC $250 OW) purely on group multiple compression, not thesis change. Near-term positive check: AI networking tracking above 70% growth this year.",
+      "tickers": [
+        "MRVL"
+      ],
+      "source_item_ids": [
+        "gmail:1a21dfb3e09970bd",
+        "gmail:1a208da4a8846a55"
+      ]
+    },
+    {
+      "title": "SNOW: Partner checks bullish ahead of Q3 earnings Dec 1\u201440%+ product revenue growth expected, Cortex/CoCo driving incremental consumption",
+      "body": "JPM and RBC channel work with Elite-Tier Snowflake partners shows ~20% practice growth sustained, Cortex/CoCo catching Databricks, 80-85% of pipeline tied to installed base renewals, and AI workloads now 40-45% of practice. Early CoCo adopters show ~11% incremental consumption increase. Citi cut PT to $470 from $490 (multiple compression) but reiterates Buy; expects F3Q product revenue 40%+ growth, beat vs $1.591B guidance, and FY28 guidance to frame positively vs Street's 30% consensus. Options imply ~15.8% move. Downside risk: Databricks competitive pressure and cost guardrail adoption by customers.",
+      "tickers": [
+        "SNOW"
+      ],
+      "source_item_ids": [
+        "gmail:1a21260c9cf6a7fc",
+        "gmail:1a21260791d04207"
+      ]
+    },
+    {
+      "title": "CRM: JPM reiterates OW ahead of F3Q\u2014expects 11% organic cRPO growth, Agentforce ARR at $1.5B; PT $515",
+      "body": "JPM expects F3Q organic cRPO growth ~11% (modest upside vs ~10% guide) and F4Q guide of 12%+ in CC signaling 2H re-acceleration. Agentforce ARR at $1.5B; premium mix grew to 5% of base in F2Q from 1% in F1Q25 (each 1% migration ~$100M revenue). Shares trading at 10x EV/uFCF on FY27 estimates. Wolfe cut PT to $250 from $360 on softer checks; Erste Group downgraded to Hold. Peer application software struggling with AI monetization, so CRM set up favorably on moderating expectations. Early commentary on Copilotforce (MSFT) and Claude integration monetization expected on call.",
+      "tickers": [
+        "CRM"
+      ],
+      "source_item_ids": [
+        "gmail:1a21cac275f2713e",
+        "gmail:1a208ad0a3f9f1d2"
+      ]
+    },
+    {
+      "title": "MDB: MongoDB earnings Dec 1\u2014consensus $762M revenue, $1.61 EPS; Atlas growth accelerating to ~28-29% vs 26% guide",
+      "body": "MongoDB reports Dec 1 at 17:00 ET. DADCO expects Atlas growth ~28-29% YoY vs 26% guidance, with EA & Other ARR showing acceleration; RBC maintains Outperform at $465 PT heading into print. Wolfe notes narrative dominated by leadership transition and M&A questions but checks turning positive with cRPO acceleration in F3Q and F4Q guide. KeyBanc previews F3Q beat potential on Atlas momentum. Options imply approximately mid-teens% move.",
+      "tickers": [
+        "MDB"
+      ],
+      "source_item_ids": [
+        "gmail:1a21295098416d5d",
+        "gmail:1a212d308a2315dc"
+      ]
+    },
+    {
+      "title": "CRWD: Record Q3\u201427% ARR growth, 58% NNARR; acquires ZS for $43.9B all-stock (1.135x); Guggenheim upgrades to Buy",
+      "body": "CrowdStrike F3Q27: revenue $1.583B (+28% YoY, beat $1.53B); NNARR $419M (+58% YoY, fifth consecutive quarter of acceleration); Falcon Guardian AI security >$100M ARR in <1 year. CRWD raised FY27 net new ARR guidance to $1.459-1.463B (+44-45% YoY). Simultaneously announced $43.9B all-stock acquisition of Zscaler (1.135 CRWD shares/ZS share = $260.41/share); targeting $1B annualized revenue synergies by 30 months post-close, $500M cost synergies in 18-24 months; deal expected to close H2 FY2028. Guggenheim upgraded CRWD to Buy at $280; multiple ZS downgrades across the Street (Jefferies, Bernstein, Macquarie, Rosenblatt all cut to Hold/Neutral). ACN cybersecurity business viewed as beneficiary of consolidation wave.",
+      "tickers": [
+        "CRWD",
+        "ACN"
+      ],
+      "source_item_ids": [
+        "gmail:1a20935546ef2046",
+        "gmail:1a208d50c9e786d02"
+      ]
+    },
+    {
+      "title": "SHOP: JPM reiterates OW at $200 PT; enterprise tracker shows acceleration with BFCM >30% GMV growth as key test",
+      "body": "SHOP enterprise activity logged ~14 announcements in 3Q26 vs 10 in 2Q (36% new clients, 36% launches, 29% expansions), including luxury brands (Givenchy, Chaumet). Enterprise estimated at ~5% of 2026E revenue rising to ~7% in 2027E. BFCM 2025 showed 27% YoY GMV growth (24% ex-FX); investors expect >30% in 2026 as a 'high bar.' UCP adoption at 15.1% of Top 2,500 e-commerce sites per Piper. SHOP.CN rallied +9.6% on the AI rally week.",
+      "tickers": [
+        "SHOP"
+      ],
+      "source_item_ids": [
+        "gmail:1a2130c68c24f4d6",
+        "gmail:1a211f1217fa730f"
+      ]
+    },
+    {
+      "title": "DKNG: NY OSB GGR +10% YoY week ending 11/22; DKNG weekly share +23% but 4QTD -7%; NFL holds pressuring Q4",
+      "body": "NY OSB GGR +10% YoY and handle +11% YoY for week ending 11/22/26; 4QTD GGR tracking -9% YoY. DraftKings weekly GGR +23% YoY maintaining 32% market share, though 4QTD -7%. NFL Week 11 saw 9/12 favorites win (5/5 biggest favorites), consistent with a possible low-hold week for sportsbooks\u2014UBS flags risk to DKNG Q4 guidance. Morgan Stanley downgraded DKNG to Equal-Weight on higher PM spend ramp and visibility erosion. Citi crowding data shows DKNG short interest tripled vs 3 weeks ago.",
+      "tickers": [
+        "DKNG"
+      ],
+      "source_item_ids": [
+        "gmail:1a21e5368e8ff48f",
+        "gmail:1a208c655280f934"
+      ]
+    },
+    {
+      "title": "PINS: +12% on executive comp severance amendment\u2014M&A signal; Microsoft advertising integration adds upside",
+      "body": "Pinterest disclosed amendments to executive change-of-control severance provisions for CEO and CLO, triggering a ~12% move. RBC views amended comp protections as raising sale odds, with potential acquirers including SHOP, AMZN, MSFT, ETSY, or PE. Separately, PINS announced a Microsoft Advertising integration giving access to search budgets. RBC sees capped UCAN MAU growth and volatile customer mix as limitations, noting upside only if compute efficiency gains show up in self-serve business or structural ad performance improvement materializes.",
+      "tickers": [
+        "PINS"
+      ],
+      "source_item_ids": [
+        "gmail:1a20e0a6026e90b5",
+        "gmail:1a20eb4c3f541aee"
+      ]
+    },
+    {
+      "title": "PLTR: $300M Poland defense AI deal signed; stock +3% on Friday premarket",
+      "body": "Palantir signed a $300M defense AI deal with Poland, confirmed in premarket trading Friday Nov 27. PLTR had been down significantly prior to the AI rally week; the deal reinforces the government/defense AI monetization narrative that underpins the bull thesis.",
       "tickers": [
         "PLTR"
       ],
@@ -81,146 +150,83 @@
       ]
     },
     {
-      "title": "MRVL, CRM, SNOW: earnings next week \u2014 key upcoming catalysts",
-      "body": "MRVL reports after close Tuesday, with CRM and SNOW both reporting after close Wednesday. These are flagged as key positioning events into next week alongside the AMZN re:Invent keynote Tuesday.",
+      "title": "HUBS: Argus downgrades to Hold on valuation; JPM Neutral on 'refounding' headless strategy sacrificing near-term monetization",
+      "body": "Argus Research downgraded HubSpot to Hold from Buy at $210.21, citing valuation concerns. JPM maintains Neutral, noting co-founder Halligan returned as CEO on 11/12 pursuing a 'refounding' via headless pricing (MCP included at all seat levels) that prioritizes share gain over near-term monetization and investor visibility. Key stabilization signal would be net-new customer adds returning above 5K (vs F4Q guidance of sub-5K). CRSD pricing pilot has no firm timeline for scaled expansion.",
       "tickers": [
-        "MRVL",
-        "CRM",
-        "SNOW",
-        "AMZN"
+        "HUBS"
       ],
       "source_item_ids": [
-        "gmail:1a21d64f3b29b5f1"
+        "gmail:1a21d245487b7efc",
+        "gmail:1a20d3a1b5df7db2"
       ]
     },
     {
-      "title": "TSEM: Mizuho hosts mgmt call Dec 3; Outperform/$235 PT on SiPho ramp and 300mm adoption",
-      "body": "Mizuho analyst Vijay Rakesh maintains Outperform on TSEM with $235 PT. Dec 3 group call will cover SiPho supply constraints, GFS/STM competitive dynamics, NPO ramps in 2027, and CPO contemplated for 2029/30. Japan capacity expansion and margin progression as 300mm scales are also on the agenda.",
+      "title": "WDAY: F3Q beat but F4Q subscription revenue guide misses; FY28 11% growth target questioned",
+      "body": "Workday F3Q subscription revenue $2.53B (+12.8% YoY, slight beat); EPS $2.82 vs $2.74 consensus. AI ARR reached $750M+ (+130% YoY) with $150M new ACV. However, F4Q subscription guide of $2.600B (+10.2% YoY) missed consensus by ~$8M, and cRPO guided 10-11% (below prior 11-12% trajectory). FY28 target of ~11% subscription growth reiterated but sub-backlog growth slowed to 6.1%. UBS maintains Neutral at $200 (10x CY28E EV/FCF); Citi cut PT to $188; JPM cut PT to $215; Wolfe cut PT to $175; multiple bear theses cite subscription deceleration for 13 straight quarters. WDAY total RPO grew just 6.1% to $27.5B, $1.1B below Street.",
       "tickers": [
-        "TSEM"
+        "CRWD"
       ],
       "source_item_ids": [
-        "gmail:1a21db6c6c165c1f"
+        "gmail:1a21494821b55aa7",
+        "gmail:1a2114ac1e09c30d"
       ]
     },
     {
-      "title": "SHOP: +4.3-4.5% in premarket on broad risk-on; no stock-specific catalyst",
-      "body": "Shopify is up 4.3-4.5% across both U.S. and Canadian listings in premarket/morning trading, moving with the broad tech/AI risk-on rally rather than any company-specific news.",
+      "title": "MU: BNP Paribas Exane downgrades to Neutral ($775 PT) amid DRAM/NAND pricing concerns; 2027 oversupply risk rising",
+      "body": "BNP Paribas Exane cut MU to Neutral from Outperform with a $775 PT (10% upside from ~$708). MS DRAM outlook: TrendForce cut 1Q27 DRAM price forecast to +3-8% QoQ from prior +5-10%; 2027 NAND bit supply growth 29% vs 19% demand growth, implying surplus and 20-25% ASP declines in 4Q27. HBM demand still strong at 80% YoY bit growth in 2027. Chinese CSPs cutting 2027 server DRAM bit demand outside LTAs in 4Q26; North American CSPs absorbing supply. 2028 broad conventional DRAM price decline risk.",
       "tickers": [
-        "SHOP"
+        "MU",
+        "SNDK"
       ],
       "source_item_ids": [
-        "gmail:1a21d5c17c7cdb6c",
-        "gmail:1a21da85cd77259d"
+        "gmail:1a20d51c70c39e3d",
+        "gmail:1a21cb8d3101a356"
       ]
     },
     {
-      "title": "PINS: Unusual options activity \u2014 237% above 30-day avg, bullish P/C ratio of 2.15",
-      "body": "Pinterest saw 45,222 option contracts vs. a 30-day average of 19,076, a 237% spike, with a put/call ratio of 2.15 indicating bullish positioning. No specific catalyst identified beyond broad market momentum.",
-      "tickers": [
-        "PINS"
-      ],
-      "source_item_ids": [
-        "gmail:1a21df1fdf58a4e8"
-      ]
-    },
-    {
-      "title": "AAPL: iPhone Duo softening in China \u2014 21% resale price decline, $225 discounts",
-      "body": "iPhone Duo is selling at $225 discounts in China with a ~21% resale price decline, signaling meaningful demand softening in that market. No rating change or PT update provided.",
-      "tickers": [
-        "AAPL"
-      ],
-      "source_item_ids": [
-        "gmail:1a21dd66f7eb1e3b"
-      ]
-    },
-    {
-      "title": "CSCO: OpenAI 'Shirudo' open-source security partnership launched",
-      "body": "Cisco and OpenAI jointly launched Shirudo, an open-source project designed to protect infrastructure against AI-driven cyberattacks. No financial guidance was updated in connection with the announcement.",
-      "tickers": [
-        "CSCO"
-      ],
-      "source_item_ids": [
-        "gmail:1a21dd66f7eb1e3b"
-      ]
-    },
-    {
-      "title": "SPOT: Roth Capital quantifies pricing power and churn risk vs. AMZN/AAPL",
-      "body": "Roth Capital published a subscriber survey examining whether Spotify can sustain price increases without accelerating churn, measuring price tolerance and payment behavior across SPOT, AMZN Music, and AAPL Music. Specific findings not yet disclosed but framed as a key positioning study for the streaming space.",
-      "tickers": [
-        "SPOT",
-        "AAPL",
-        "AMZN"
-      ],
-      "source_item_ids": [
-        "gmail:1a21d85ee0896b66"
-      ]
-    },
-    {
-      "title": "DIS, OMC hit 52-week highs \u2014 DIS +22.9% YTD, OMC +25.6% YTD",
-      "body": "DIS reached $127.00 (+1.1% on the day, +22.9% 52-week) and OMC hit $91.50 (+0.9%, +25.6% 52-week) on the morning scan of new 52-week highs across 77 names.",
+      "title": "DIS: Wins TRO halting FCC ABC license review; 52-week high; stock +22.9% YTD",
+      "body": "Disney secured a temporary restraining order stopping the FCC from continuing its early review of ABC broadcast-station licenses, following an August First Amendment lawsuit claiming retaliatory FCC investigation. DIS also raised its cash dividend by 33% to $2.00/share during the week. DIS hit a 52-week high at $127.00, +22.9% YTD. Coherent authorized a $2B buyback during the same week (DIS and OMC were among the tracked 52-week highs).",
       "tickers": [
         "DIS",
-        "OMC"
+        "COHR"
       ],
       "source_item_ids": [
-        "gmail:1a21dd066f7eb1e3b",
-        "gmail:1a21dd067b205e14"
+        "gmail:1a215567d563c7e4",
+        "gmail:1a20952bd3d87838"
       ]
     },
     {
-      "title": "HUT, WULF, IREN, BTDR: Crypto miners up 3-6%+ on broad risk-on rally",
-      "body": "Bitcoin miner names HUT (+3.6% on TSX), WULF, IREN, and BTDR are all trading higher in premarket as part of the broad AI/risk-on tape. No stock-specific catalysts cited.",
+      "title": "AMZN: Acquires Decart for ~$7.5B to boost AWS AI model optimization; BFCM ~52% online share; Muse deal discussions ongoing",
+      "body": "Amazon confirmed agreement to acquire AI startup Decart's optimization technology stack (DOS), which achieves 80%+ Model FLOPS Utilization on Trainium3 vs. 40-50% industry average; Decart team joining Amazon. Citi reiterates Buy at $350. Separately, META and AMZN are in advanced discussions to reconnect Muse to Amazon's platform after a September blockade, with talks focusing on search results and advertising revenue split. Holiday consumer survey (Citi) shows Amazon as #1 or #2 retailer for holiday spending with 52% of holiday spend expected online.",
       "tickers": [
-        "HUT",
-        "WULF",
-        "IREN",
-        "BTDR"
+        "AMZN"
       ],
       "source_item_ids": [
-        "gmail:1a21d5c17c7cdb6c",
-        "gmail:1a21da85cd77259d"
+        "gmail:1a208c760af25686",
+        "gmail:1a20d82eaba5d06e"
       ]
     },
     {
-      "title": "SMR, OKLO: Nuclear names +6% on data center power demand narrative",
-      "body": "SMR is up ~6% in premarket trading on continued nuclear reactor demand from data center power requirements; OKLO also cited as moving higher with the broader nuclear/data center theme.",
+      "title": "TSLA/SPCX: Merger negotiations formalized; RBC estimates TSLA holders receptive at ~$480/share; Optimus supply chain index -5% WoW",
+      "body": "TSLA and SpaceX appointed five board members to lead merger negotiations and hired financial advisers; potential announcement could come by early 2027 per RBC. RBC estimates Tesla holders could accept ~$480/share (sum-of-parts intrinsic value + ~15% premium); Musk controls ~82% voting power at SpaceX vs ~20% at Tesla, requiring a deal premium. Strategic synergies cited: superintelligence, chip design, Terafab, robotics, and autonomous mobility. Regulatory hurdles include 50%+ shareholder votes and scrutiny over SpaceX's US defense contracts and Tesla's China assets. Separately, Optimus China Value Chain Index fell 5% WoW contrasting with Tesla stock +10% WoW.",
       "tickers": [
-        "SMR",
-        "OKLO"
+        "TSLA"
       ],
       "source_item_ids": [
-        "gmail:1a21d64f3b29b5f1",
-        "gmail:1a21d5c17c7cdb6c"
+        "gmail:1a20e9bec922ed05",
+        "gmail:1a21b6c7295830cb"
       ]
     },
     {
-      "title": "AAOI, NBIS: Optical/AI infra names lead premarket \u2014 AAOI +9.5-10%, NBIS +6%",
-      "body": "AAOI surged 9.5-10% and NBIS gained 6% in premarket trading, among the strongest movers in the AI infrastructure/optical interconnect space on the broad risk-on reversal.",
+      "title": "NFLX: Wins World Cup bidding war; purchases $380M LA studio; Muse partnership with BBC",
+      "body": "Netflix submitted the highest bid for 2030 World Cup US TV rights, ahead of AMZN and Fox/Univision. NFLX also purchased the Radford Studio Center (1.14M sq ft) in LA for $380M\u2014its first owned LA studio lot. The BBC preschool content partnership and NFL Thanksgiving Eve broadcast with U2 halftime show drove NFLX +1.3% on the week despite the broader AI selloff. NFLX also bidding for FIFA World Cup rights more broadly.",
       "tickers": [
-        "AAOI",
-        "NBIS"
+        "NFLX",
+        "FOXA"
       ],
       "source_item_ids": [
-        "gmail:1a21d64f3b29b5f1",
-        "gmail:1a21d5c17c7cdb6c"
-      ]
-    },
-    {
-      "title": "Quant: Semi/hardware momentum baskets collapsed -35%/-14% MTD; EPS-Mo/short-Price-Mo swap up 20% YTD",
-      "body": "22V quant notes Tech Hardware and Semis price-momentum baskets fell -35.1% and -14.4% MTD respectively, accounting for -4.7pp of the S&P 1500's -5.3% November decline. Short-term volatility in Price Momentum hit 93rd percentile. Recommended long-EPS Momentum / short-Price Momentum swap is up 20.2% since late-June launch; they recommend blending Value and Momentum factors going forward.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a21d5583b4633fc"
-      ]
-    },
-    {
-      "title": "Macro: S&P bounce expected but limited \u2014 PCE at 3.8%, Fed stays hawkish, range cap ~7600",
-      "body": "22V sees Q3 GDP revised to 4.3% and strong October retail sales supporting EPS, but October PCE at 3.8% YoY and nominal GDP at 6.3% keep the Fed firmly hawkish. A rally above ~7,600 on the S&P would tighten financial conditions via higher UST yields, limiting upside. Core PCE needs to fall 21bp/month to hit the Fed's 2027 target \u2014 an unlikely near-term path.",
-      "tickers": [],
-      "source_item_ids": [
-        "gmail:1a21d4395263eaef",
-        "gmail:1a21d57b6b4ec9e0"
+        "gmail:1a20f6be1adf4c46",
+        "gmail:1a208dadc1ccf617d"
       ]
     }
   ]
